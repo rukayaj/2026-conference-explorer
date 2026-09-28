@@ -42,7 +42,7 @@
         }
       ],
       "identification_confidence": "high",
-      "identification_notes": "Speaker introduces himself as 'Dave Bloom ... the chair of TADWIG' (ASR renders TDWG as 'TADWIG'/'TIDWEG'). Preceded by a short announcement about game night and thanking volunteer 'Stan' (placed in unassigned). Talk ended at roughly 10:13 local time against a 9:45 scheduled end because the welcome and housekeeping ran first.",
+      "identification_notes": "Speaker introduces himself as 'Dave Bloom ... the chair of TADWIG' (ASR renders TDWG as 'TADWIG'/'TIDWEG'). Preceded by a short announcement about game night and thanking volunteer 'Stan' (placed in unassigned). Talk ended at roughly 10:13 local time against a 9:45 scheduled end because the welcome and housekeeping ran first. The grant name in the transcript sounds like 'Bicycle AI' in ASR and remains unresolved.",
       "transcript_quality": "high"
     },
     "summary": "TDWG chair David Bloom reviewed the past year's highlights: ratification of the Darwin Core Data Package, progress of the Biodiversity Data Quality and MIDS standards toward public review, a completed Darwin Core public review affecting the Humboldt and new mineralogy extensions, a new Image Quality and AI Readiness task group, Community Support Fund awards, Living Data 2025 in Bogotá, and a new editor-in-chief for the BISS journal. He then traced TDWG's history from a taxonomy-focused group in the 1980s, through the occurrence-data and portal era, to a new focus on linked open data. He set out current challenges (documentation and archives, participation, volunteer succession, sustainable standards maintenance, finances, and AI) and appealed to attendees to get involved.",
@@ -203,7 +203,7 @@
     "future_work": [
       "A new task group will soon launch to review TDWG's documentation tools and processes.",
       "MIDS and the Biodiversity Data Quality standard are to enter public review.",
-      "DiSSCo has a GBIF capacity enhancement grant to plan mapping its data to DwC-DP. TDWG awaits an EU decision on a recent grant submission (ASR: 'Bicycle AI').",
+      "DiSSCo has a GBIF capacity enhancement grant to plan mapping its data to DwC-DP. TDWG awaits an EU decision on a recent grant submission.",
       "More news on the Living Data series is expected later in the week.",
       "TDWG will explore broader financial support through partnerships and giving."
     ],
@@ -246,7 +246,14 @@
       "notes": "Scheduled 9:30-9:45 AM. In practice it followed a welcome from Hugo de Boer and housekeeping from the deputy chair, so it started about 25 minutes into the recording."
     },
     "source_file": "output/Aula_Plenary_1.json",
-    "corrections": []
+    "corrections": [
+      {
+        "field": "future_work",
+        "original": "DiSSCo has a GBIF capacity enhancement grant to plan mapping its data to DwC-DP. TDWG awaits an EU decision on a recent grant submission (ASR: 'Bicycle AI').",
+        "corrected": "DiSSCo has a GBIF capacity enhancement grant to plan mapping its data to DwC-DP. TDWG awaits an EU decision on a recent grant submission.",
+        "reason": "Moved unresolved ASR rendering out of the factual future-work field."
+      }
+    ]
   },
   {
     "id": "aula-plenary-1-02-berger-wolf-keynote",
@@ -1876,12 +1883,12 @@
           "affiliation": "GBIF Secretariat"
         },
         {
-          "name": "Nikolaj (surname unclear; ASR 'Raibek')",
+          "name": "Nikolaj",
           "affiliation": "GBIF Secretariat"
         }
       ],
       "identification_confidence": "high",
-      "identification_notes": "Talk content matches event-013. Federico Mendez ('Fede', 'Freddy') presented the first and last parts. The second presenter was introduced as 'Nicola'/'Nicola Raibek' and called 'Nikolaj', not Mikhail Podolskiy as listed in the programme. This may be a replacement co-presenter or a severe ASR error; the name is uncertain.",
+      "identification_notes": "Talk content matches event-013. Federico Mendez ('Fede', 'Freddy') presented the first and last parts. The second presenter was introduced as 'Nicola'/'Nicola Raibek' and called 'Nikolaj', not Mikhail Podolskiy as listed in the programme. This may be a replacement co-presenter or a severe ASR error; the name is uncertain. Speaker label “Nikolaj (surname unclear; ASR 'Raibek')” is indexed as “Nikolaj”; see the correction record for the reason.",
       "transcript_quality": "medium",
       "duration_seconds": 952
     },
@@ -2064,6 +2071,12 @@
         "original": "2026-09-21 3:00 PM",
         "corrected": "3:00 PM",
         "reason": "Removed date prefix for consistency with other recordings (date is in conference_date)."
+      },
+      {
+        "field": "actual.speakers[1].name",
+        "original": "Nikolaj (surname unclear; ASR 'Raibek')",
+        "corrected": "Nikolaj",
+        "reason": "Removed an ASR uncertainty note from the name; surname remains unknown."
       }
     ]
   },
@@ -3224,7 +3237,7 @@
       "duration_seconds": 718,
       "speakers": [
         {
-          "name": "Jose (surname not stated)",
+          "name": "Jose",
           "affiliation": ""
         },
         {
@@ -3233,7 +3246,7 @@
         }
       ],
       "identification_confidence": "high",
-      "identification_notes": "Co-presented: a communications officer addressed as \"Jose\" (surname not given in the recording) covered communication and engagement, then Mareike Petersen (programme speaker) covered training and knowledge. Mareike says she led an outreach and communication subcommittee in \"TEDRIC\" (ASR; probably the TETTRIs project, also rendered \"Tetrik\"); a colleague \"Deb\" is mentioned as co-author.",
+      "identification_notes": "Co-presented: a communications officer addressed as \"Jose\" (surname not given in the recording) covered communication and engagement, then Mareike Petersen (programme speaker) covered training and knowledge. Mareike says she led an outreach and communication subcommittee in \"TEDRIC\" (ASR; probably the TETTRIs project, also rendered \"Tetrik\"); a colleague \"Deb\" is mentioned as co-author. Speaker label “Jose (surname not stated)” is indexed as “Jose”; see the correction record for the reason.",
       "transcript_quality": "high"
     },
     "summary": "The talk argues that resilience is not only a technical reaction to disruption but a pre-emptive strength that comes from being used, valued, understood, connected and relevant to a broad community. Jose describes a communication loop (visibility turned into understanding, use and reported impact, which builds community support) and an engagement loop (dialogue with other initiatives leading to alignment and expanded relevance). Mareike Petersen adds that infrastructures need sustained, user-centred training adapted to how users want to learn, and should treat training of end users as reinvestment in the infrastructure.",
@@ -3363,7 +3376,14 @@
       "notes": "Programme lists Mareike Petersen only; presented jointly with a communications colleague named Jose."
     },
     "source_file": "output/TDWG 2026-09-22 ODIN.json",
-    "corrections": []
+    "corrections": [
+      {
+        "field": "actual.speakers[0].name",
+        "original": "Jose (surname not stated)",
+        "corrected": "Jose",
+        "reason": "Removed the missing-surname annotation; the surname remains unknown."
+      }
+    ]
   },
   {
     "id": "odin-2026-09-22-03",
@@ -4463,7 +4483,7 @@
           "affiliation": ""
         },
         {
-          "name": "Sharon (Field Museum)",
+          "name": "Sharon",
           "affiliation": "Field Museum"
         },
         {
@@ -4484,7 +4504,7 @@
         }
       ],
       "identification_confidence": "high",
-      "identification_notes": "Chair-led discussion with speakers and audience. Several participants are identified only by first name (Deborah, Nicky, Vince, Wouter, Sharon from the Field Museum); others were unnamed. Announcements about the twin afternoon session (SYM19) and a call for extended abstracts (01:30:28-01:31:05) are excluded as unassigned.",
+      "identification_notes": "Chair-led discussion with speakers and audience. Several participants are identified only by first name (Deborah, Nicky, Vince, Wouter, Sharon from the Field Museum); others were unnamed. Announcements about the twin afternoon session (SYM19) and a call for extended abstracts (01:30:28-01:31:05) are excluded as unassigned. Speaker label “Sharon (Field Museum)” is indexed as “Sharon”; see the correction record for the reason.",
       "transcript_quality": "medium"
     },
     "summary": "The discussion moved from where project materials should live after projects end to how to break down the divide between infrastructure providers and users. Speakers stressed that bottom-up volunteer effort cannot replace hardware, system ownership and stable funding; David Shorthouse urged every project to decide what is 'fail-safe' and what is 'safe to fail'. Audience members (Siobhan Leachman, Sharon from the Field Museum) lamented that Bionomia depends on one self-funded person and argued that data infrastructure needs its own governance and support distinct from transient research projects; others raised accreditation as a sustainability route, an impending 'tidal wave' of LLM-built fragile apps, the vulnerability of small data providers to crawlers, and whether infrastructures could recoup crawler costs.",
@@ -4643,7 +4663,14 @@
       "notes": "Scheduled SYM18 discussion held as planned, co-moderated by Eva Alonso and Giuditta Parolini."
     },
     "source_file": "output/TDWG 2026-09-22 ODIN.json",
-    "corrections": []
+    "corrections": [
+      {
+        "field": "actual.speakers[7].name",
+        "original": "Sharon (Field Museum)",
+        "corrected": "Sharon",
+        "reason": "Moved institutional context to the existing affiliation and identification notes."
+      }
+    ]
   },
   {
     "id": "odin-2026-09-22-09",
@@ -4803,8 +4830,8 @@
       }
     ],
     "representative_excerpt": {
-      "timestamp": "02:39:21",
-      "text": "and I think one of the key take home messages is you cannot define data quality without a use case."
+      "timestamp": "02:39:25",
+      "text": "You cannot define data quality without a use case. So everything in relation to the BDQ standard relates back to use cases."
     },
     "notable_moments": [
       {
@@ -4839,7 +4866,20 @@
       "notes": ""
     },
     "source_file": "output/TDWG 2026-09-22 ODIN.json",
-    "corrections": []
+    "corrections": [
+      {
+        "field": "representative_excerpt",
+        "original": {
+          "timestamp": "02:39:21",
+          "text": "and I think one of the key take home messages is you cannot define data quality without a use case."
+        },
+        "corrected": {
+          "timestamp": "02:39:25",
+          "text": "You cannot define data quality without a use case. So everything in relation to the BDQ standard relates back to use cases."
+        },
+        "reason": "Replaced a fragment with a self-contained transcript passage, or omitted it when a clean passage was unavailable."
+      }
+    ]
   },
   {
     "id": "odin-2026-09-22-10",
@@ -4981,10 +5021,7 @@
         "timestamp": "03:01:09"
       }
     ],
-    "representative_excerpt": {
-      "timestamp": "02:55:01",
-      "text": "one thing to note here is this is not a native species range. I think this is a sort of powerful idea that surprised me that it hasn't really been done before."
-    },
+    "representative_excerpt": null,
     "notable_moments": [
       {
         "timestamp": "02:52:35",
@@ -5022,7 +5059,17 @@
       "notes": ""
     },
     "source_file": "output/TDWG 2026-09-22 ODIN.json",
-    "corrections": []
+    "corrections": [
+      {
+        "field": "representative_excerpt",
+        "original": {
+          "timestamp": "02:55:01",
+          "text": "one thing to note here is this is not a native species range. I think this is a sort of powerful idea that surprised me that it hasn't really been done before."
+        },
+        "corrected": null,
+        "reason": "Replaced a fragment with a self-contained transcript passage, or omitted it when a clean passage was unavailable."
+      }
+    ]
   },
   {
     "id": "odin-2026-09-22-11",
@@ -7616,7 +7663,7 @@
     "q_and_a": [],
     "representative_excerpt": {
       "timestamp": "08:02:17",
-      "text": "having observation surplus doesn't mean that it's research-ready. Hence, there is a huge identification deficit over there."
+      "text": "Having observation surplus doesn't mean that it's research-ready. Hence, there is a huge identification deficit over there."
     },
     "notable_moments": [
       {
@@ -7646,7 +7693,20 @@
       "notes": "Virtual, pre-recorded as in programme."
     },
     "source_file": "output/TDWG 2026-09-22 ODIN.json",
-    "corrections": []
+    "corrections": [
+      {
+        "field": "representative_excerpt",
+        "original": {
+          "timestamp": "08:02:17",
+          "text": "having observation surplus doesn't mean that it's research-ready. Hence, there is a huge identification deficit over there."
+        },
+        "corrected": {
+          "timestamp": "08:02:17",
+          "text": "Having observation surplus doesn't mean that it's research-ready. Hence, there is a huge identification deficit over there."
+        },
+        "reason": "Replaced a fragment with a self-contained transcript passage, or omitted it when a clean passage was unavailable."
+      }
+    ]
   },
   {
     "id": "odin-2026-09-22-26",
@@ -10518,7 +10578,7 @@
     ],
     "representative_excerpt": {
       "timestamp": "05:52:00",
-      "text": "the vision was that GBIF would enable synergisms across this landscape and investments that were not possible at present in 1999. But as the great sage asks, \"Is that enough?\""
+      "text": "The vision was that GBIF would enable synergisms across this landscape and investments that were not possible at present in 1999. But as the great sage asks, \"Is that enough?\""
     },
     "notable_moments": [
       {
@@ -10553,7 +10613,20 @@
       "notes": ""
     },
     "source_file": "output/TDWG 2026-09-22 SAL A.json",
-    "corrections": []
+    "corrections": [
+      {
+        "field": "representative_excerpt",
+        "original": {
+          "timestamp": "05:52:00",
+          "text": "the vision was that GBIF would enable synergisms across this landscape and investments that were not possible at present in 1999. But as the great sage asks, \"Is that enough?\""
+        },
+        "corrected": {
+          "timestamp": "05:52:00",
+          "text": "The vision was that GBIF would enable synergisms across this landscape and investments that were not possible at present in 1999. But as the great sage asks, \"Is that enough?\""
+        },
+        "reason": "Replaced a fragment with a self-contained transcript passage, or omitted it when a clean passage was unavailable."
+      }
+    ]
   },
   {
     "id": "sala-2026-09-22-16",
@@ -11128,8 +11201,8 @@
       }
     ],
     "representative_excerpt": {
-      "timestamp": "06:53:11",
-      "text": "if we let user communities define the things they're interested in and carve up subsets of such a large corpus as BHL has mobilized, then we can serve a more diverse range of needs."
+      "timestamp": "06:53:15",
+      "text": "If we let user communities define the things they're interested in and carve up subsets of such a large corpus as BHL has mobilized, then we can serve a more diverse range of needs."
     },
     "notable_moments": [
       {
@@ -11159,7 +11232,20 @@
       "notes": ""
     },
     "source_file": "output/TDWG 2026-09-22 SAL A.json",
-    "corrections": []
+    "corrections": [
+      {
+        "field": "representative_excerpt",
+        "original": {
+          "timestamp": "06:53:11",
+          "text": "if we let user communities define the things they're interested in and carve up subsets of such a large corpus as BHL has mobilized, then we can serve a more diverse range of needs."
+        },
+        "corrected": {
+          "timestamp": "06:53:15",
+          "text": "If we let user communities define the things they're interested in and carve up subsets of such a large corpus as BHL has mobilized, then we can serve a more diverse range of needs."
+        },
+        "reason": "Replaced a fragment with a self-contained transcript passage, or omitted it when a clean passage was unavailable."
+      }
+    ]
   },
   {
     "id": "sala-2026-09-22-19",
@@ -13468,7 +13554,7 @@
           "affiliation": ""
         },
         {
-          "name": "Ruben Pérez (GBIF Spain; ASR 'Ruben Pera')",
+          "name": "Ruben Pérez",
           "affiliation": ""
         },
         {
@@ -13476,7 +13562,7 @@
           "affiliation": ""
         },
         {
-          "name": "Niels Graas",
+          "name": "Niels Raes",
           "affiliation": ""
         },
         {
@@ -13492,16 +13578,16 @@
           "affiliation": ""
         },
         {
-          "name": "Shelley (collections, Australia)",
+          "name": "Shelley",
           "affiliation": ""
         },
         {
-          "name": "Morten Aronson",
+          "name": "Mora Aronsson",
           "affiliation": ""
         }
       ],
       "identification_confidence": "high",
-      "identification_notes": "Two discussion segments: an impromptu Q&A on the first four talks (00:41:04-00:53:51) and the scheduled discussion after Tania Laity's talk (01:35:12-02:10:38). Several questioners' names are ASR-garbled or not given; the first questioner's identity is not stated in the transcript and should be treated as unknown.",
+      "identification_notes": "Two discussion segments: an impromptu Q&A on the first four talks (00:41:04-00:53:51) and the scheduled discussion after Tania Laity's talk (01:35:12-02:10:38). Several questioners' names are ASR-garbled or not given; the first questioner's identity is not stated in the transcript and should be treated as unknown. Speaker label “Ruben Pérez (GBIF Spain; ASR 'Ruben Pera')” is indexed as “Ruben Pérez”; see the correction record for the reason. Speaker label “Shelley (collections, Australia)” is indexed as “Shelley”; see the correction record for the reason. Speaker label “Morten Aronson” is indexed as “Mora Aronsson”; see the correction record for the reason. Speaker label “Niels Graas” is indexed as “Niels Raes”; see the correction record for the reason. Mora Aronsson and Niels Raes are probable cross-programme identifications; audio alone does not establish either spelling.",
       "transcript_quality": "medium"
     },
     "summary": "Two panel Q&A sessions chaired by Cameron Slatyer: an impromptu one on the first four talks when the session ran ahead of schedule, and a longer one with all speakers after the final talk. Topics included the real cost of managing sensitivities (several FTE in Sweden, monthly list updates at the ALA, opportunity cost), breaches (none known), personal privacy of collectors, whether generative AI already exposes locations, obfuscation on request of data collectors (e.g. pest hunting and Indigenous datasets), taxonomic upscaling, names that reveal localities, correlated fields such as collector and date, historical data, informationWithheld usage, and the feasibility for global collections like the Smithsonian. It closed with the argument that much RASD reflects expert preciousness rather than real threat and that restriction should be justified formally.",
@@ -13739,7 +13825,32 @@
       "notes": "Linked to the scheduled SYM23 discussion slot; part of the discussion occurred earlier as an impromptu Q&A."
     },
     "source_file": "output/TDWG 2026-09-22 SAL B.json",
-    "corrections": []
+    "corrections": [
+      {
+        "field": "actual.speakers[9].name",
+        "original": "Ruben Pérez (GBIF Spain; ASR 'Ruben Pera')",
+        "corrected": "Ruben Pérez",
+        "reason": "Removed affiliation and ASR notes from the name."
+      },
+      {
+        "field": "actual.speakers[15].name",
+        "original": "Shelley (collections, Australia)",
+        "corrected": "Shelley",
+        "reason": "Removed role and location notes from the name; identity remains incomplete."
+      },
+      {
+        "field": "actual.speakers[16].name",
+        "original": "Morten Aronson",
+        "corrected": "Mora Aronsson",
+        "reason": "Probable ASR error: the programme lists Swedish speaker Mora Aronsson, described as Johan’s colleague in this discussion."
+      },
+      {
+        "field": "actual.speakers[11].name",
+        "original": "Niels Graas",
+        "corrected": "Niels Raes",
+        "reason": "Probable ASR error: the speaker is from Naturalis, matching programme speaker Niels Raes."
+      }
+    ]
   },
   {
     "id": "salb-2026-09-22-09",
@@ -15738,10 +15849,7 @@
     ],
     "examples_case_studies": [],
     "q_and_a": [],
-    "representative_excerpt": {
-      "timestamp": "06:43:57",
-      "text": "want to say that an untranscribed image is not a failure, it's an invitation."
-    },
+    "representative_excerpt": null,
     "notable_moments": [
       {
         "timestamp": "06:32:13",
@@ -15770,7 +15878,17 @@
       "notes": "Matched as scheduled."
     },
     "source_file": "output/TDWG 2026-09-22 SAL B.json",
-    "corrections": []
+    "corrections": [
+      {
+        "field": "representative_excerpt",
+        "original": {
+          "timestamp": "06:43:57",
+          "text": "want to say that an untranscribed image is not a failure, it's an invitation."
+        },
+        "corrected": null,
+        "reason": "Replaced a fragment with a self-contained transcript passage, or omitted it when a clean passage was unavailable."
+      }
+    ]
   },
   {
     "id": "salb-2026-09-22-20",
@@ -17246,16 +17364,16 @@
           "affiliation": ""
         },
         {
-          "name": "Haris (co-moderator)",
+          "name": "Haris",
           "affiliation": ""
         },
         {
-          "name": "Tanya Berger-Wolf (inferred; answering for Jenna Kline)",
+          "name": "Tanya Berger-Wolf",
           "affiliation": ""
         }
       ],
       "identification_confidence": "medium",
-      "identification_notes": "The respondent on hallucinations is referred to as 'Tanya' by the moderator; likely Tanya Berger-Wolf (co-author of kabr-tools), but this is inferred. Speaker-specific Q&A for Arianna Salili-James and Soulaine Theocharides is attached to their talks.",
+      "identification_notes": "The respondent on hallucinations is referred to as 'Tanya' by the moderator; likely Tanya Berger-Wolf (co-author of kabr-tools), but this is inferred. Speaker-specific Q&A for Arianna Salili-James and Soulaine Theocharides is attached to their talks. Speaker label “Haris (co-moderator)” is indexed as “Haris”; see the correction record for the reason. Speaker label “Tanya Berger-Wolf (inferred; answering for Jenna Kline)” is indexed as “Tanya Berger-Wolf”; see the correction record for the reason.",
       "transcript_quality": "medium"
     },
     "summary": "After the lightning talks the moderators opened questions. Besides questions to individual speakers (captured with those talks), an audience member asked whether speakers found hallucinations when reviewing AI outputs. The answer (apparently from a collaborator of Jenna Kline) was that non-generative ML tools don't hallucinate but misclassify, and accuracy should be evaluated at the ecological task level because of distribution shift; Jack Hollister acknowledged validating vast LLM outputs is an unsolved problem; a relayed comment argued ML behaviour annotation beats humans. The session closed with feedback that Q&A in lightning sessions needs better support.",
@@ -17354,7 +17472,20 @@
       "notes": "Linked to the scheduled LT17 discussion slot."
     },
     "source_file": "output/TDWG 2026-09-22 SAL B.json",
-    "corrections": []
+    "corrections": [
+      {
+        "field": "actual.speakers[1].name",
+        "original": "Haris (co-moderator)",
+        "corrected": "Haris",
+        "reason": "Moved moderator role out of the name."
+      },
+      {
+        "field": "actual.speakers[2].name",
+        "original": "Tanya Berger-Wolf (inferred; answering for Jenna Kline)",
+        "corrected": "Tanya Berger-Wolf",
+        "reason": "Removed inference annotation from the name; identification remains inferred."
+      }
+    ]
   },
   {
     "id": "salc-2026-09-22-01",
@@ -22858,12 +22989,12 @@
       "duration_seconds": 537,
       "speakers": [
         {
-          "name": "Fathani Ramwaja (name as transcribed; SANBI co-author)",
+          "name": "Fhatani Ranwashe",
           "affiliation": "South African National Biodiversity Institute (SANBI)"
         }
       ],
       "identification_confidence": "medium",
-      "identification_notes": "Pre-recorded video presented not by the programmed speaker Brenda Daly but by a SANBI colleague whose name is transcribed as 'Fathani Ramwaja/Ramage' (exact spelling uncertain). Brenda Daly was online and is named as a contact. Content matches the abstract.",
+      "identification_notes": "Pre-recorded video presented not by the programmed speaker Brenda Daly but by a SANBI colleague whose name is transcribed as 'Fhatani Ranwashe' (SANBI spelling; identification inferred from institution and earlier coauthorship with Brenda Daly). Brenda Daly was online and is named as a contact. Content matches the abstract. Speaker label “Fathani Ramwaja (name as transcribed; SANBI co-author)” is indexed as “Fhatani Ranwashe”; see the correction record for the reason.",
       "transcript_quality": "high"
     },
     "summary": "A SANBI presenter described the National Biodiversity Information System (NBIS), which integrates botanical data managed in BRAHMS and zoological data in Specify, uses TaxaMatch fuzzy matching against an authoritative backbone, and applies staging instances with automated quality checks and ETL synchronisation. NBIS implements the Digital Extended Specimen through persistent identifiers linking specimens to descriptions, literature, names, uses and media. Most of the talk set out a diversified sustainability model: a legislative mandate under NEMBA securing baseline funding, project grants, a proposed biodiversity information fund, alignment with national priorities, a co-investment consortium, a multisectoral steering committee, paid value-added services with open core data, and monitoring to demonstrate return on investment.",
@@ -22977,7 +23108,15 @@
       "notes": "Programmed speaker Brenda Daly did not present; a SANBI co-author presented the talk by video. Title and content match the programme."
     },
     "source_file": "output/TDWG 2026-09-24 Forum.json",
-    "corrections": []
+    "corrections": [
+      {
+        "field": "actual.speakers[0].name",
+        "original": "Fathani Ramwaja (name as transcribed; SANBI co-author)",
+        "corrected": "Fhatani Ranwashe",
+        "reason": "Corrected the ASR rendering using SANBI metadata and an earlier publication coauthored with Brenda Daly.",
+        "evidence_url": "https://ipt.sanbi.org.za/resource?r=brahms_online"
+      }
+    ]
   },
   {
     "id": "forum-2026-09-24-09",
@@ -23020,7 +23159,7 @@
           "affiliation": "moderator"
         },
         {
-          "name": "Andre Zerger",
+          "name": "André Zerger",
           "affiliation": "Atlas of Living Australia"
         },
         {
@@ -23045,7 +23184,7 @@
         }
       ],
       "identification_confidence": "high",
-      "identification_notes": "Scheduled 10:00-10:30 discussion, moderated by the chair and James Macklin; several audience speakers are unnamed or first-name only. Questions to specific speakers are also recorded under the relevant talks.",
+      "identification_notes": "Scheduled 10:00-10:30 discussion, moderated by the chair and James Macklin; several audience speakers are unnamed or first-name only. Questions to specific speakers are also recorded under the relevant talks. Speaker label “Andre Zerger” is indexed as “André Zerger”; see the correction record for the reason.",
       "transcript_quality": "high"
     },
     "summary": "The discussion centred on José Fortes's proposal for economically aware infrastructure. Andre Zerger (ALA) described shared-cost models in research infrastructure and asked for exemplars; Joe Miller warned that institutions charging for data could collapse global aggregation and pointed instead to biodiversity credits and a New Zealand pilot; Chandra Earl suggested banking and medical informatics as governed parallels. Further threads covered a Spotify-style payout model to incentivise publishing, large-scale storage (look to astronomers), whether science infrastructure should be publicly funded like roads and water, regulation requiring private sector data sharing (Colombia, France), outsourcing IT to the cloud, and inviting economists and social scientists into these conversations.",
@@ -23216,7 +23355,14 @@
       "notes": ""
     },
     "source_file": "output/TDWG 2026-09-24 Forum.json",
-    "corrections": []
+    "corrections": [
+      {
+        "field": "actual.speakers[2].name",
+        "original": "Andre Zerger",
+        "corrected": "André Zerger",
+        "reason": "Matched spelling used for the same programme speaker in another conference item."
+      }
+    ]
   },
   {
     "id": "forum-2026-09-24-10",
@@ -24733,12 +24879,12 @@
       "duration_seconds": 685,
       "speakers": [
         {
-          "name": "Laurence (surname not given in recording)",
+          "name": "Laurence",
           "affiliation": ""
         }
       ],
       "identification_confidence": "medium",
-      "identification_notes": "Donat Agosti announced that this talk, programmed under his name, was an error in the programme and would be given by Laurence; surname not stated. Content matches the programmed abstract.",
+      "identification_notes": "Donat Agosti announced that this talk, programmed under his name, was an error in the programme and would be given by Laurence; surname not stated. Content matches the programmed abstract. Speaker label “Laurence (surname not given in recording)” is indexed as “Laurence”; see the correction record for the reason.",
       "transcript_quality": "high"
     },
     "summary": "Laurence presented the 'digital-native species' workflow, noting that it takes on average 21 years from specimen collection to publication and that current practice erases structured data into PDFs only to re-extract it later. In the new model, bulk samples become a biodiversity knowledge graph linking specimens with barcodes, images and genomic data, exported as JSON to Zenodo and carried through an XML-based, semantically enhanced manuscript and peer review to multi-format publication with bidirectional links. She also showed dashboards monitoring institutions and journals, arguing that measuring a journal's FAIRness matters more than impact factor, given that taxonomic references average around 50 years old.",
@@ -24854,7 +25000,14 @@
       "notes": "Programmed under Donat Agosti; announced as a programme error and presented by Laurence."
     },
     "source_file": "output/TDWG 2026-09-24 Forum.json",
-    "corrections": []
+    "corrections": [
+      {
+        "field": "actual.speakers[0].name",
+        "original": "Laurence (surname not given in recording)",
+        "corrected": "Laurence",
+        "reason": "Removed the missing-surname annotation; the full identity remains unconfirmed."
+      }
+    ]
   },
   {
     "id": "forum-2026-09-24-19",
@@ -25801,12 +25954,12 @@
       "duration_seconds": 803,
       "speakers": [
         {
-          "name": "Francisco (Paco) Pando",
+          "name": "Francisco Pando",
           "affiliation": "Real Jardín Botánico, Madrid"
         }
       ],
       "identification_confidence": "high",
-      "identification_notes": "Speaker self-identifies as Paco Pando, convener of the terrestrial task group.",
+      "identification_notes": "Speaker self-identifies as Paco Pando, convener of the terrestrial task group. Speaker label “Francisco (Paco) Pando” is indexed as “Francisco Pando”; see the correction record for the reason.",
       "transcript_quality": "high"
     },
     "summary": "Paco Pando described updating the WGSRPD, conceived by Dick Brummitt as a politically neutral, four-level scheme following political borders with phytogeographic sense. The terrestrial task group reviewed changes since 2001, now referencing UN naming conventions and precise polygons (prepared by the Pl@ntNet team from OpenStreetMap coastlines) rather than the Times Atlas; about 50 changes were needed and 34 issues resolved, yielding 9, 52, 369 and 617 units at levels one to four. Remaining meta-issues include one or two standards, where polygons live (Marine Regions, Zenodo), the name (GeoSchemes?) and open polygon formats (GeoJSON, FlatGeobuf).",
@@ -25963,7 +26116,14 @@
       "notes": ""
     },
     "source_file": "output/TDWG 2026-09-24 Forum.json",
-    "corrections": []
+    "corrections": [
+      {
+        "field": "actual.speakers[0].name",
+        "original": "Francisco (Paco) Pando",
+        "corrected": "Francisco Pando",
+        "reason": "Used the programme name; Paco is the speaker’s stated nickname."
+      }
+    ]
   },
   {
     "id": "forum-2026-09-24-25",
@@ -26789,12 +26949,12 @@
       "duration_seconds": 875,
       "speakers": [
         {
-          "name": "Cailin Meyer (name as transcribed; spelling uncertain)",
+          "name": "Cailin Meyer",
           "affiliation": "Smithsonian National Museum of Natural History, Department of Entomology"
         }
       ],
       "identification_confidence": "high",
-      "identification_notes": "Presented by a colleague of the programmed speaker Jessica Bird, who could not attend at the last minute. The presenter handles transactions and acquisitions; the chair introduced her as 'Cailin Meyer from the Smithsonian' (later 'Kaelin'/'Kaelyn' in ASR), and before the session she said she was presenting for 'Jessica Horn' (ASR for Jessica Bird). Content matches the abstract.",
+      "identification_notes": "Presented by a colleague of the programmed speaker Jessica Bird, who could not attend at the last minute. The presenter handles transactions and acquisitions; the chair introduced her as 'Cailin Meyer from the Smithsonian' (later 'Kaelin'/'Kaelyn' in ASR), and before the session she said she was presenting for 'Jessica Horn' (ASR for Jessica Bird). Content matches the abstract. Speaker label “Cailin Meyer (name as transcribed; spelling uncertain)” is indexed as “Cailin Meyer”; see the correction record for the reason. Cailin Meyer is independently documented as a Smithsonian Entomology registrar.",
       "transcript_quality": "high"
     },
     "summary": "The presenter traced the USNM Entomology primary type catalogue through handwritten ledgers (since 1896), the in-house INQUIRE type database (1980s), CRIS (mid-1990s) and EMu (migration 2007, full use by 2011). Poor field mapping from INQUIRE meant every migrated type record carried a public disclaimer as an 'INQUIRE type'. Migrated CRIS transaction records lacked objects and had odd dates. Barcodes were duplicated, and some types were never catalogued or linked to acquisitions. The department launched a multi-year, 100% specimen-level type inventory: curators compare EMu spreadsheets with specimens, and transaction discrepancies are resolved against paper records.",
@@ -26941,7 +27101,15 @@
       "notes": "Programmed speaker Jessica Bird absent; presented by a Smithsonian entomology colleague."
     },
     "source_file": "output/TDWG 2026-09-24 SAL A.json",
-    "corrections": []
+    "corrections": [
+      {
+        "field": "actual.speakers[0].name",
+        "original": "Cailin Meyer (name as transcribed; spelling uncertain)",
+        "corrected": "Cailin Meyer",
+        "reason": "The spelling and Smithsonian Entomology role agree with Smithsonian and museum-sector sources.",
+        "evidence_url": "https://naturalhistory.si.edu/sites/default/files/media/file/2022nhredubus-meliah.pdf"
+      }
+    ]
   },
   {
     "id": "sala-2026-09-24-05",
@@ -27412,7 +27580,7 @@
           "affiliation": "NSCF South Africa"
         },
         {
-          "name": "Cailin Meyer (name as transcribed)",
+          "name": "Cailin Meyer",
           "affiliation": "Smithsonian NMNH Entomology"
         },
         {
@@ -27429,7 +27597,7 @@
         }
       ],
       "identification_confidence": "high",
-      "identification_notes": "The chair called all speakers to the podium for the scheduled discussion; Frederik Berger joined online. Audience contributors are mostly unnamed.",
+      "identification_notes": "The chair called all speakers to the podium for the scheduled discussion; Frederik Berger joined online. Audience contributors are mostly unnamed. Speaker label “Cailin Meyer (name as transcribed)” is indexed as “Cailin Meyer”; see the correction record for the reason. Cailin Meyer is independently documented as a Smithsonian Entomology registrar.",
       "transcript_quality": "medium"
     },
     "summary": "The panel first discussed how to document regions of interest on fossil slabs and pollen slides, then whether collection managers resist new data approaches. Answers ranged from supportive departments to staff who see data work as a burden, and stressed involving managers, continuous support and written procedures. Audience members urged making data management work visible (ticketing boards, published progress and documentation). They proposed a data managers' support group, noted the joint TDWG–SPNHC conference next June, and argued that institutional strategy, not just bottom-up empathy, is needed. The final topic was who maintains CMS documentation, including version control, storing manuals safely, and AI-assisted documentation pipelines.",
@@ -27579,7 +27747,15 @@
       "notes": ""
     },
     "source_file": "output/TDWG 2026-09-24 SAL A.json",
-    "corrections": []
+    "corrections": [
+      {
+        "field": "actual.speakers[2].name",
+        "original": "Cailin Meyer (name as transcribed)",
+        "corrected": "Cailin Meyer",
+        "reason": "The spelling and Smithsonian Entomology role agree with Smithsonian and museum-sector sources.",
+        "evidence_url": "https://naturalhistory.si.edu/sites/default/files/media/file/2022nhredubus-meliah.pdf"
+      }
+    ]
   },
   {
     "id": "sala-2026-09-24-08",
@@ -28200,12 +28376,12 @@
           "affiliation": "Museum für Naturkunde Berlin"
         },
         {
-          "name": "Jasper (surname unclear in ASR)",
+          "name": "Jasper",
           "affiliation": "Museum für Naturkunde Berlin"
         }
       ],
       "identification_confidence": "high",
-      "identification_notes": "Programmed speaker Franziska Schuster co-presented with developer Jasper (introduced as 'Jasper Funk Smid'), who is not listed in the programme. The chair said 'Present' for 'Prevent' in the title. Includes Q&A.",
+      "identification_notes": "Programmed speaker Franziska Schuster co-presented with developer Jasper (introduced as 'Jasper Funk Smid'), who is not listed in the programme. The chair said 'Present' for 'Prevent' in the title. Includes Q&A. Speaker label “Jasper (surname unclear in ASR)” is indexed as “Jasper”; see the correction record for the reason.",
       "transcript_quality": "high"
     },
     "summary": "Franziska Schuster framed MfN's digital catalogue infrastructure work through the 'game of telephone': standard formats like Darwin Core alone don't keep data meaning intact across professional hand-offs. Developer Jasper then described migrating about 600,000 insect specimen records with 2.5 million images, digitised by a Picturae conveyor pipeline, into Specify after the cyber attack fragmented the data. Requirements unclear from the start made his mapping code slow and hard to verify. Taxon 'NURIs' (internal identifiers) turned out to be non-unique, with up to 2,000 IDs for one taxon, test entries and drawer IDs reused as taxon IDs. Schuster closed with Scrum as a 'don't panic' strategy with three-week sprints and stakeholder feedback.",
@@ -28365,7 +28541,14 @@
       "notes": "Programmed speaker presented with an additional co-presenter (Jasper, MfN developer) not listed in the programme."
     },
     "source_file": "output/TDWG 2026-09-24 SAL A.json",
-    "corrections": []
+    "corrections": [
+      {
+        "field": "actual.speakers[1].name",
+        "original": "Jasper (surname unclear in ASR)",
+        "corrected": "Jasper",
+        "reason": "Removed uncertain surname annotation; no surname is assigned."
+      }
+    ]
   },
   {
     "id": "sala-2026-09-24-12",
@@ -29771,7 +29954,7 @@
         }
       ],
       "identification_confidence": "high",
-      "identification_notes": "Pre-recorded video; the speaker's name was rendered 'Ye Li' / 'Ye Lee' in ASR. Content matches the abstract. ASR of the recording is somewhat garbled in places.",
+      "identification_notes": "Pre-recorded video; the speaker's name was rendered 'Ye Li' / 'Ye Lee' in ASR. Content matches the abstract. ASR of the recording is somewhat garbled in places. Specimen counts in the recording are unclear (figures such as 800, 1,640 and 840 are mentioned) due to audio/ASR quality.",
       "transcript_quality": "medium"
     },
     "summary": "Yeeun Lee argued that specimens bridge natural history and heritage, because they record biological evidence along with histories of collection, curation, research and exhibition. Existing services (GBIF, BHL, Smithsonian 3D, DiSSCo) cover parts of the task in separate systems, and 3D data are often low quality. The project combines AI-assisted photogrammetric 3D capture of specimens from seven institutions, sized from insects to large mammals, with a semantic model of data, metadata and paradata layers. The model is aligned with openDS, Dublin Core, Europeana and CIDOC CRM, and visualised in Neo4j as a knowledge graph of about 2,400 nodes and 3,600 relations. Example applications are CMS integration, recommendations and map-based views.",
@@ -29868,9 +30051,7 @@
     ],
     "recommendations": [],
     "results_findings": [],
-    "limitations": [
-      "Specimen counts in the recording are unclear (figures such as 800, 1,640 and 840 are mentioned) due to audio/ASR quality."
-    ],
+    "limitations": [],
     "future_work": [
       "Validate the model; AI-based metadata enrichment and quality assessment; institutional pilot programmes; international extension."
     ],
@@ -29900,7 +30081,14 @@
       "notes": ""
     },
     "source_file": "output/TDWG 2026-09-24 SAL A.json",
-    "corrections": []
+    "corrections": [
+      {
+        "field": "limitations",
+        "original": "Specimen counts in the recording are unclear (figures such as 800, 1,640 and 840 are mentioned) due to audio/ASR quality.",
+        "corrected": null,
+        "reason": "Describes recording or presentation circumstances, not a limitation of the work; preserved in identification_notes."
+      }
+    ]
   },
   {
     "id": "sala-2026-09-24-21",
@@ -32133,7 +32321,7 @@
           "affiliation": "Senckenberg"
         },
         {
-          "name": "Dimitri (probably Dmitry Schigel)",
+          "name": "Dimitri",
           "affiliation": ""
         },
         {
@@ -32145,12 +32333,12 @@
           "affiliation": "Ohio State University"
         },
         {
-          "name": "Ana (Finnish participant)",
+          "name": "Ana",
           "affiliation": ""
         }
       ],
       "identification_confidence": "high",
-      "identification_notes": "Moderated by a convener who frames 'post-BioDT lessons' and closes by thanking the organisers (Hannah, Dag, Gabi, Sharif, Niels), so almost certainly Claus Weiland; affiliation Senckenberg per the Lena Perzlmaier talk's reference to 'Klaus' team'. The main discussant, called 'Dimitri', says he ran a BioDT work package (probably Dmitry Schigel, GBIF; not confirmed in the recording). Several contributors are unnamed. The transition started during the Q&A of the preceding talk (02:08:17).",
+      "identification_notes": "Moderated by a convener who frames 'post-BioDT lessons' and closes by thanking the organisers (Hannah, Dag, Gabi, Sharif, Niels), so almost certainly Claus Weiland; affiliation Senckenberg per the Lena Perzlmaier talk's reference to 'Klaus' team'. The main discussant, called 'Dimitri', says he ran a BioDT work package (probably Dmitry Schigel, GBIF; not confirmed in the recording). Several contributors are unnamed. The transition started during the Q&A of the preceding talk (02:08:17). Speaker label “Dimitri (probably Dmitry Schigel)” is indexed as “Dimitri”; see the correction record for the reason. Speaker label “Ana (Finnish participant)” is indexed as “Ana”; see the correction record for the reason.",
       "transcript_quality": "high"
     },
     "summary": "The convener framed the discussion around the lesson from BioDT that biological and ecological complexity could not be captured by large monolithic twins like Destination Earth's climate twins, leaving many specialised prototypes reliant on GBIF, LifeWatch and DiSSCo, and asked what a next-generation biodiversity digital twin should look like. A BioDT work package lead said twinning nature is naive and the project's lasting outcome was educational: modellers and data communities came to understand each other. Others stressed that users never asked for digital twins and simpler tools may solve problems, that outside Europe work must be decentralised (NEON, LTER, GBIF, iNaturalist, Amazon.ia), that twins risk being 'theatre' offering an illusion of control while habitat is destroyed, and that rapid-response twins for emerging threats could be valuable. It closed with a call to continue at an RDA digital twins session in London.",
@@ -32347,6 +32535,18 @@
         "original": "02:24:20",
         "corrected": "02:23:42",
         "reason": "Timestamp re-aligned to where the quoted text starts in the transcript."
+      },
+      {
+        "field": "actual.speakers[1].name",
+        "original": "Dimitri (probably Dmitry Schigel)",
+        "corrected": "Dimitri",
+        "reason": "Avoided presenting an unconfirmed full identity as the speaker name."
+      },
+      {
+        "field": "actual.speakers[4].name",
+        "original": "Ana (Finnish participant)",
+        "corrected": "Ana",
+        "reason": "Moved the participant descriptor out of the name."
       }
     ]
   },
@@ -34779,7 +34979,7 @@
           "affiliation": "IGB"
         },
         {
-          "name": "Yuri Roskov",
+          "name": "Yury Roskov",
           "affiliation": "Catalogue of Life"
         },
         {
@@ -34792,7 +34992,7 @@
         }
       ],
       "identification_confidence": "high",
-      "identification_notes": "Moderated by Koen Martens (introduced as session moderator at the start; programme lists Astrid Schmidt-Kloiber as discussion lead). Participants are identified from self-introductions and the moderator's calls ('Lykke', 'Yuri', 'Bernard'); some responders (e.g. at 07:24:45 and 07:26:44) are not named and are inferred from context.",
+      "identification_notes": "Moderated by Koen Martens (introduced as session moderator at the start; programme lists Astrid Schmidt-Kloiber as discussion lead). Participants are identified from self-introductions and the moderator's calls ('Lykke', 'Yuri', 'Bernard'); some responders (e.g. at 07:24:45 and 07:26:44) are not named and are inferred from context. Speaker label “Yuri Roskov” is indexed as “Yury Roskov”; see the correction record for the reason.",
       "transcript_quality": "high"
     },
     "summary": "After announcements, Anne Lyche Solheim asked how the many freshwater platforms and acronyms could be integrated and noted that most seem to handle presence/absence rather than abundance. Olaf Banki acknowledged the community's 'acronym soup' and argued for distinct niches connected machine-to-machine, noting sample-based abundance data exist in GBIF; Vanessa Bremerich positioned GBIF as the unifier fed by high-quality published data and mentioned a possible GBIF-hosted freshwater portal. Yuri Roskov suggested using AI search with credible sources to navigate resources and urged freshwater checklists to adopt WoRMS and other aggregators' classifications; the moderator noted WoRMS preserved FADA lists but does not want insect data. Bernhard Askedalen raised the quality of consultancy survey data, prompting ideas of quality control, community flagging and a traffic-light tag for how reliably a species can be identified.",
@@ -34935,7 +35135,14 @@
       "notes": "Scheduled discussion held after the last talk, moderated by Koen Martens rather than Astrid Schmidt-Kloiber, who took part."
     },
     "source_file": "output/TDWG 2026-09-24 SAL B.json",
-    "corrections": []
+    "corrections": [
+      {
+        "field": "actual.speakers[4].name",
+        "original": "Yuri Roskov",
+        "corrected": "Yury Roskov",
+        "reason": "Matched the programme spelling and another conference item."
+      }
+    ]
   },
   {
     "id": "salb-2026-09-24-22",
@@ -35182,12 +35389,12 @@
           "affiliation": "Norwegian Institute for Water Research (NIVA)"
         },
         {
-          "name": "Natalie (surname not given)",
+          "name": "Natalie",
           "affiliation": "Norwegian Institute for Water Research (NIVA)"
         }
       ],
       "identification_confidence": "high",
-      "identification_notes": "Introduced as 'Bernard Glauskedalen' (ASR). Co-presented with NIVA database colleague Natalie (surname not given), who the moderator noted was missing from the original slide. The title was announced as changed ('...Need Grouping and Uncertainties'). An extended audience discussion of the posed question is included.",
+      "identification_notes": "Introduced as 'Bernard Glauskedalen' (ASR). Co-presented with NIVA database colleague Natalie (surname not given), who the moderator noted was missing from the original slide. The title was announced as changed ('...Need Grouping and Uncertainties'). An extended audience discussion of the posed question is included. Speaker label “Natalie (surname not given)” is indexed as “Natalie”; see the correction record for the reason.",
       "transcript_quality": "high"
     },
     "summary": "Bernhard Askedalen and colleague Natalie performed a sketch in which a botanist tries to record uncertain water plant identifications (cf., agg., col., sensu lato) and a database cannot store them, so records are either overstated or bumped to genus, losing ecological information. They showed herbarium sheets with multiple conflicting determinations and noted that for some groups initial names can be as low as 6% correct on expert revision. Natalie found cf. in only 0.1% of water plant and 1.1% of benthic algae observations in NIVA datasets, because reporting pipelines drop uncertainty. They asked how systems should represent uncertainty and taxonomic groupings consistently; the audience suggested keeping these qualifiers with the data, flexibility across organism groups, an identification-uncertainty term, and a BIMS-style identification certainty column with include/exclude decisions.",
@@ -35342,7 +35549,14 @@
       "notes": "Matched; title announced as slightly changed ('...Grouping and Uncertainties' instead of '...groupings and cF'), and co-presented by colleague Natalie."
     },
     "source_file": "output/TDWG 2026-09-24 SAL B.json",
-    "corrections": []
+    "corrections": [
+      {
+        "field": "actual.speakers[1].name",
+        "original": "Natalie (surname not given)",
+        "corrected": "Natalie",
+        "reason": "Removed missing-surname annotation; surname remains unknown."
+      }
+    ]
   },
   {
     "id": "salb-2026-09-24-24",
@@ -38294,12 +38508,12 @@
           "affiliation": "Natural History Museum (London); DiSSCo UK"
         },
         {
-          "name": "Unnamed co-presenter (IT project manager building the NHM collections management system)",
+          "name": "Unidentified co-presenter",
           "affiliation": "Natural History Museum (London)"
         }
       ],
       "identification_confidence": "high",
-      "identification_notes": "Programme lists only Jack Hollister; the talk was a 'double act' with an unnamed IT project manager who is building NHM's new CMS and gave the introduction and conclusions. ASR renders GB10 as 'GP10', Nemotron as 'Nematron', DiSSCo as 'DISCO' and 'verbatim string' as 'vibitamin string'; 'medium accuracy' means median error. The main commenter works at the Florida Museum.",
+      "identification_notes": "Programme lists only Jack Hollister; the talk was a 'double act' with an unnamed IT project manager who is building NHM's new CMS and gave the introduction and conclusions. ASR renders GB10 as 'GP10', Nemotron as 'Nematron', DiSSCo as 'DISCO' and 'verbatim string' as 'vibitamin string'; 'medium accuracy' means median error. The main commenter works at the Florida Museum. Speaker label “Unnamed co-presenter (IT project manager building the NHM collections management system)” is indexed as “Unidentified co-presenter”; see the correction record for the reason.",
       "transcript_quality": "medium"
     },
     "summary": "Jack Hollister and an NHM colleague tested whether local LLMs on borrowed Dell GB10 hardware (two clustered units, models up to ~400B parameters) could clean legacy collections data. They held out about 10% of records as test data. Using NVIDIA Nemotron Super with a custom prompt and harness, 24-hour runs recovered missing countries for over 4,000 site records (about 80% correct). Title recovery for bibliography records was hampered by websites blocking LLM scraping. Georeferencing about 6,500 localities gave a median error of about 5.3 km. Scaling to the 6.4 million DiSSCo UK records lacking coordinates would take over 1,000 days on GB10s. A GB300 workstation (~£100,000) ran 100 concurrent models to process a deduplicated 4.2 million records in 9.1 days (median ~12 km). They stressed that validation, side-by-side storage of enrichments and local 'token economics' are the key open issues.",
@@ -38479,7 +38693,14 @@
       "notes": "Presented in scheduled order by Hollister and a colleague."
     },
     "source_file": "output/TDWG 2026-09-24 SAL C.json",
-    "corrections": []
+    "corrections": [
+      {
+        "field": "actual.speakers[1].name",
+        "original": "Unnamed co-presenter (IT project manager building the NHM collections management system)",
+        "corrected": "Unidentified co-presenter",
+        "reason": "Moved job description out of the name; identity remains unknown."
+      }
+    ]
   },
   {
     "id": "salc-2026-09-24-15",
@@ -39776,12 +39997,12 @@
           "affiliation": "Carleton University"
         },
         {
-          "name": "GBIF Secretariat representative (addressed as 'Joe')",
+          "name": "Joe",
           "affiliation": "GBIF"
         }
       ],
       "identification_confidence": "high",
-      "identification_notes": "Scheduled 15-minute discussion (event-266), held as a standing panel of both sessions' speakers after the last talk. A short warm-up discussion led by an organizer addressed as 'Dave' took place at 06:55:39-06:59:50 while waiting for the next speaker, and is included as a second source segment. Several panellists are unnamed in the transcript; attributions are inferred from content and are marked as such. The GBIF speaker is addressed as 'Joe' (ASR, uncertain). Duration is the sum of both segments.",
+      "identification_notes": "Scheduled 15-minute discussion (event-266), held as a standing panel of both sessions' speakers after the last talk. A short warm-up discussion led by an organizer addressed as 'Dave' took place at 06:55:39-06:59:50 while waiting for the next speaker, and is included as a second source segment. Several panellists are unnamed in the transcript; attributions are inferred from content and are marked as such. The GBIF speaker is addressed as 'Joe' (ASR, uncertain). Duration is the sum of both segments. Speaker label “GBIF Secretariat representative (addressed as 'Joe')” is indexed as “Joe”; see the correction record for the reason.",
       "transcript_quality": "medium"
     },
     "summary": "The SYM25 speakers took questions on AI-ready biodiversity data, moderated by Hilmar Lapp. Panellists agreed that AI-readiness depends on purpose, like fitness for use. That is why FAIR4AI is distinguished from task-specific AI-readiness, though aggregation mixes purposes and shared benchmark snapshots remain valuable. On benefits to data providers, Tanya Berger-Wolf described dataset-side 'recipes' for agents, identifiers propagating from the smallest data unit through aggregations, and a CyVerse/NEON pilot where models register their use against operationalised permissions. Asked what is hardest now, panellists named reluctance to open data to tech-giant harvesting, pushback in Latin America and Africa over data sovereignty and digital sequence information, and data heterogeneity as the root of AI bias. A GBIF voice countered with strong demand for open data in the BID programme and Indigenous data work. A final question on ontologies drew views on ontology governance, explainability and knowledge graphs as the part of LLM systems that users can control.",
@@ -39967,7 +40188,14 @@
       "notes": "Scheduled discussion held as a panel; includes an earlier short warm-up discussion."
     },
     "source_file": "output/TDWG 2026-09-24 SAL C.json",
-    "corrections": []
+    "corrections": [
+      {
+        "field": "actual.speakers[6].name",
+        "original": "GBIF Secretariat representative (addressed as 'Joe')",
+        "corrected": "Joe",
+        "reason": "The panel addresses this participant as Joe; full identity remains unknown."
+      }
+    ]
   },
   {
     "id": "salc-2026-09-24-22",
@@ -42176,7 +42404,7 @@
         }
       ],
       "identification_confidence": "high",
-      "identification_notes": "Introduced as 'Yann Ondoh' and thanked as 'Ian'; he gives his affiliation as UNEP-WCMC. Content matches the abstract.",
+      "identification_notes": "Introduced as 'Yann Ondoh' and thanked as 'Ian'; he gives his affiliation as UNEP-WCMC. Content matches the abstract. Talk was compressed and later slides skipped.",
       "transcript_quality": "medium"
     },
     "summary": "Ian Ondo presented a framework that turns habitat information in taxonomic treatments into a structured, evidence-traceable knowledge base. Plazi TreatmentBank RDF becomes a source graph; an instruction-tuned LLM (Qwen 2.5) extracts explicit habitat statements into an evidence graph; the evidence is linked to environmental ontologies, WWF/One Earth terrestrial ecoregions and IUCN habitat classes. A trained habitat-environment compatibility model (HECC) put the correct ecoregion in its top three 75% of the time (top five 87%), and 65% zero-shot. A data-deficient Dalbergia species showed that the model's most compatible ecoregions matched its few known GBIF occurrences.",
@@ -42294,8 +42522,7 @@
       "For a data-deficient Dalbergia with four GBIF records, the most compatible ecoregions matched observed occurrences."
     ],
     "limitations": [
-      "Performance drops for ecoregions not seen in training.",
-      "Talk was compressed and later slides skipped."
+      "Performance drops for ecoregions not seen in training."
     ],
     "future_work": [],
     "examples_case_studies": [
@@ -42342,7 +42569,14 @@
       "notes": ""
     },
     "source_file": "output/TDWG 2026-09-25 SAL A.json",
-    "corrections": []
+    "corrections": [
+      {
+        "field": "limitations",
+        "original": "Talk was compressed and later slides skipped.",
+        "corrected": null,
+        "reason": "Describes recording or presentation circumstances, not a limitation of the work; preserved in identification_notes."
+      }
+    ]
   },
   {
     "id": "sala-2026-09-25-05",
@@ -43163,7 +43397,7 @@
         }
       ],
       "identification_confidence": "high",
-      "identification_notes": "Speaker names himself; the chair thanks 'Steve'. The project is with Jack Hollister of the NHM. The live demo had screen-sharing problems. Content is narrower than the abstract: a literature-exploration RAG prototype rather than a demonstration of structured data extraction.",
+      "identification_notes": "Speaker names himself; the chair thanks 'Steve'. The project is with Jack Hollister of the NHM. The live demo had screen-sharing problems. Content is narrower than the abstract: a literature-exploration RAG prototype rather than a demonstration of structured data extraction. Demo hampered by screen-sharing issues.",
       "transcript_quality": "medium"
     },
     "summary": "Steen Dupont demonstrated Kvasir, a prototype built mostly by coding agents (Codex) that runs fully on local hardware. It ingests a personal literature corpus with Docling, stores it in Neo4j and Qdrant, and lets an OpenClaw agent with a local Qwen model answer questions and explore papers. The demo ingested papers into 696 chunks and showed papers broken into sections with their references plotted over time, to characterise papers and trace evidence across the corpus. He argued for local AI for security, noted that optimised local models are improving, and suggested shared edge machines (e.g. a Dell GB10 serving 10-20 users) as institutional infrastructure, with the agent as a pluggable orchestration layer.",
@@ -43280,8 +43514,7 @@
     "recommendations": [],
     "results_findings": [],
     "limitations": [
-      "Prototype only; extracted data still needs extensive validation.",
-      "Demo hampered by screen-sharing issues."
+      "Prototype only; extracted data still needs extensive validation."
     ],
     "future_work": [
       "Add extraction of tables and data into databases",
@@ -43326,7 +43559,14 @@
       "notes": "Demonstration focused on literature exploration rather than structured extraction into collections records."
     },
     "source_file": "output/TDWG 2026-09-25 SAL A.json",
-    "corrections": []
+    "corrections": [
+      {
+        "field": "limitations",
+        "original": "Demo hampered by screen-sharing issues.",
+        "corrected": null,
+        "reason": "Describes recording or presentation circumstances, not a limitation of the work; preserved in identification_notes."
+      }
+    ]
   },
   {
     "id": "sala-2026-09-25-10",
@@ -43371,7 +43611,7 @@
         }
       ],
       "identification_confidence": "high",
-      "identification_notes": "Chair names 'Roderic Page' and later thanks 'Rhodri'/'Frederick' (ASR). The speaker says the talk is largely a rehash because the new work was not ready.",
+      "identification_notes": "Chair names 'Roderic Page' and later thanks 'Rhodri'/'Frederick' (ASR). The speaker says the talk is largely a rehash because the new work was not ready. New work not ready; talk rehashes earlier material.",
       "transcript_quality": "high"
     },
     "summary": "Roderic Page asked what concrete value knowledge graphs deliver, and proposed curation of DNA barcode data as an answer. Using his BOLD View site, he showed BOLD records with bad or missing coordinates, vague or informal names, and names hidden behind GenBank links. Some can be fixed by following links from the barcode to GenBank, the publishing paper's DOI and a holotype, which is more than internal-consistency data cleaning. The barriers are extracting specimen and sequence codes from literature (which Plazi does not do well) and linking barcodes to papers. He pointed to emerging large triple stores (Wikidata, OpenStreetMap, GBIF, BHL, Bionomia; 86 billion triples) as signs that such a graph is becoming real.",
@@ -43501,7 +43741,6 @@
     "recommendations": [],
     "results_findings": [],
     "limitations": [
-      "New work not ready; talk rehashes earlier material.",
       "Downloading GenBank records one at a time is slow and tedious."
     ],
     "future_work": [
@@ -43558,7 +43797,14 @@
       "notes": ""
     },
     "source_file": "output/TDWG 2026-09-25 SAL A.json",
-    "corrections": []
+    "corrections": [
+      {
+        "field": "limitations",
+        "original": "New work not ready; talk rehashes earlier material.",
+        "corrected": null,
+        "reason": "Describes recording or presentation circumstances, not a limitation of the work; preserved in identification_notes."
+      }
+    ]
   },
   {
     "id": "sala-2026-09-25-11",
@@ -44822,7 +45068,7 @@
       "duration_seconds": 3474,
       "speakers": [
         {
-          "name": "Dave (TDWG Chair)",
+          "name": "David Bloom",
           "affiliation": "TDWG"
         },
         {
@@ -44843,7 +45089,7 @@
         }
       ],
       "identification_confidence": "medium",
-      "identification_notes": "Unprogrammed business meeting in SAL A after the Unconference. The chair calls himself chair (colleagues call him 'Dave'; surname not said). Patricia's surname and some working-group speakers are not named in the transcript; 'Patricia Mergen' is inferred from her role and is less certain. The Henry Engledow remembrance, the student awards and the BioBlitz update in between are recorded as unassigned announcements.",
+      "identification_notes": "Unprogrammed business meeting in SAL A after the Unconference. The chair calls himself chair (colleagues call him 'Dave'; surname not said). Patricia's surname and some working-group speakers are not named in the transcript; 'Patricia Mergen' is inferred from her role and is less certain. The Henry Engledow remembrance, the student awards and the BioBlitz update in between are recorded as unassigned announcements. Speaker label “Dave (TDWG Chair)” is indexed as “David Bloom”; see the correction record for the reason. The chair’s full name is matched to the Monday opening address; Patricia Mergen’s participation remains inferred.",
       "transcript_quality": "medium"
     },
     "summary": "The TDWG chair opened elections for secretary, treasurer, the TAG chair (Ben Norton is stepping down), outreach and communications, and several regional representatives, with nominations closing around the end of October. Subcommittee chairs reported: the TAG on Darwin Core Data Package ratification, Latimer Core and MIDS; Time and Place on Montreal 2027 and the search for 2028 hosts; Fundraising and Partnerships on closing TDWG's European branch in favour of an associated-partner model; and Outreach on a rebuilt social media presence. Many of the 19 working groups gave one-line updates, including MIDS public review from 28 September, TCS2 ratification, the completed Mineralogy extension and a recommendation of SSSOM for standards mapping. The meeting ended by announcing TDWG 2027 in Montreal in June (Wednesday-Saturday) with GBIF, OBIS and Canadensys.",
@@ -45018,7 +45264,14 @@
       "notes": "Business meeting and closing session not listed in the SAL A programme data."
     },
     "source_file": "output/TDWG 2026-09-25 SAL A.json",
-    "corrections": []
+    "corrections": [
+      {
+        "field": "actual.speakers[0].name",
+        "original": "Dave (TDWG Chair)",
+        "corrected": "David Bloom",
+        "reason": "Monday opening address identifies David Bloom as TDWG chair; the business meeting refers to the chair as Dave."
+      }
+    ]
   },
   {
     "id": "salb-2026-09-25-01",
@@ -47132,7 +47385,7 @@
       "duration_seconds": 1217,
       "speakers": [
         {
-          "name": "Session chair (not named in transcript; programme lists Peter Grobe for the discussion)",
+          "name": "Unidentified session chair",
           "affiliation": ""
         },
         {
@@ -47156,24 +47409,24 @@
           "affiliation": ""
         },
         {
-          "name": "Tim (audience member, from Canada)",
+          "name": "Tim",
           "affiliation": ""
         },
         {
-          "name": "Nikki (audience member)",
+          "name": "Nikki",
           "affiliation": ""
         },
         {
-          "name": "Sharon (audience member)",
+          "name": "Sharon",
           "affiliation": "Field Museum"
         },
         {
-          "name": "Noah (audience member)",
+          "name": "Noah",
           "affiliation": ""
         }
       ],
       "identification_confidence": "medium",
-      "identification_notes": "Structured discussion led by the chair with four prepared questions. Participants are identified only by first names used by the chair or by themselves, so full identities of audience members (e.g., 'Nikki', 'Tim', 'Sharon', 'Noah') are uncertain. The Canadian participant is taken to be Tim because he later says 'I won't go on another anarchist rant'.",
+      "identification_notes": "Structured discussion led by the chair with four prepared questions. Participants are identified only by first names used by the chair or by themselves, so full identities of audience members (e.g., 'Nikki', 'Tim', 'Sharon', 'Noah') are uncertain. The Canadian participant is taken to be Tim because he later says 'I won't go on another anarchist rant'. Speaker label “Session chair (not named in transcript; programme lists Peter Grobe for the discussion)” is indexed as “Unidentified session chair”; see the correction record for the reason. Speaker label “Tim (audience member, from Canada)” is indexed as “Tim”; see the correction record for the reason. Speaker label “Nikki (audience member)” is indexed as “Nikki”; see the correction record for the reason. Speaker label “Sharon (audience member)” is indexed as “Sharon”; see the correction record for the reason. Speaker label “Noah (audience member)” is indexed as “Noah”; see the correction record for the reason.",
       "transcript_quality": "medium"
     },
     "summary": "After summarising the session's talks, the chair asked four questions. What belongs in an institutional centre and what in shared federated infrastructure? What is the biggest obstacle? What should change because of AI? What must institutions agree on to interoperate in 5-7 years? Answers ranged from data-owner-controlled federation, with institutions stewarding shared semantic artefacts, to calls for radical sharing of compute, tools and data against corporate interests. Others raised access inequalities, Indigenous data governance, researcher incentives and journal enforcement, tools that hide semantics, scouting community innovation, embracing messiness, US-Europe differences in AI policy, investing in people, and archival format portability.",
@@ -47334,7 +47587,38 @@
       "notes": "Matched to the scheduled Discussion (event-351). The talks finished early, leaving extended discussion time."
     },
     "source_file": "output/TDWG 2026-09-25 SAL B.json",
-    "corrections": []
+    "corrections": [
+      {
+        "field": "actual.speakers[0].name",
+        "original": "Session chair (not named in transcript; programme lists Peter Grobe for the discussion)",
+        "corrected": "Unidentified session chair",
+        "reason": "Did not equate the unnamed chair with the programme speaker without confirmation."
+      },
+      {
+        "field": "actual.speakers[6].name",
+        "original": "Tim (audience member, from Canada)",
+        "corrected": "Tim",
+        "reason": "Moved audience context out of the name."
+      },
+      {
+        "field": "actual.speakers[7].name",
+        "original": "Nikki (audience member)",
+        "corrected": "Nikki",
+        "reason": "Moved audience context out of the name."
+      },
+      {
+        "field": "actual.speakers[8].name",
+        "original": "Sharon (audience member)",
+        "corrected": "Sharon",
+        "reason": "Moved audience context out of the name."
+      },
+      {
+        "field": "actual.speakers[9].name",
+        "original": "Noah (audience member)",
+        "corrected": "Noah",
+        "reason": "Moved audience context out of the name."
+      }
+    ]
   },
   {
     "id": "salc-2026-09-25-01",
@@ -49493,8 +49777,8 @@
       }
     ],
     "representative_excerpt": {
-      "timestamp": "03:47:38",
-      "text": "hard disks are exploding. So we think it's something important to give them more motivations to really put their efforts into data mobilization."
+      "timestamp": "03:47:23",
+      "text": "To put it straight, not a lot of data are already in databases. A lot of them are in personal Excels and people are getting old, hard disks are exploding."
     },
     "notable_moments": [
       {
@@ -49534,7 +49818,20 @@
       "notes": "Title and content match; programme lists the talk as virtual but it appears to have been given in person."
     },
     "source_file": "output/TDWG 2026-09-25 SAL C.json",
-    "corrections": []
+    "corrections": [
+      {
+        "field": "representative_excerpt",
+        "original": {
+          "timestamp": "03:47:38",
+          "text": "hard disks are exploding. So we think it's something important to give them more motivations to really put their efforts into data mobilization."
+        },
+        "corrected": {
+          "timestamp": "03:47:23",
+          "text": "To put it straight, not a lot of data are already in databases. A lot of them are in personal Excels and people are getting old, hard disks are exploding."
+        },
+        "reason": "Replaced a fragment with a self-contained transcript passage, or omitted it when a clean passage was unavailable."
+      }
+    ]
   },
   {
     "id": "salc-2026-09-25-11",

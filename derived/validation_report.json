@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-28",
-  "scope": "Conference-wide validation of output/*.json (15 room/day recordings) and of the derived files in derived/. Source files were not modified; corrections marked correction_applied=true were made only in derived/content_items.json and are also listed in each item's corrections array.",
+  "scope": "Conference-wide validation of output/*.json (15 room/day recordings) and of the derived files in derived/. Source files were not modified; corrections marked correction_applied=true were made only in derived/content_items.json and are also listed in each item's corrections array. A second review cleaned speaker labels, corrected evidence-supported spellings, moved recording notes out of analytical fields, and improved optional excerpts. Uncertain identities remain flagged.",
   "summary": {
     "recordings": 15,
     "content_items": 255,
@@ -34,7 +34,16 @@
       "replacement_speaker": 1,
       "unprogrammed_content": 1
     },
-    "corrections_applied_in_derived": 24
+    "corrections_applied_in_derived": 24,
+    "review_status_counts": {
+      "needs_review": 18,
+      "resolved": 36,
+      "informational": 4
+    },
+    "open_issues_by_severity": {
+      "medium": 8,
+      "low": 10
+    }
   },
   "severity_scale": {
     "high": "Structural error that breaks references or integrity",
@@ -137,7 +146,8 @@
       "description": "None of the 15 recordings has a video_url (empty in every source recording object; program-data.js has no video links). video_url is null throughout the derived files.",
       "suggested_correction": "Add published video URLs to derived/recordings.json and content_items.json once available.",
       "correction_applied": false,
-      "source_files": []
+      "source_files": [],
+      "review_status": "needs_review"
     },
     {
       "issue_id": "VR-002",
@@ -150,7 +160,8 @@
       "description": "FORUM 25 Sep: Pranav Jha's talk is marked not_presented because the chair said an unnamed speaker was sick and the talk does not appear in the recording. The identity of the absent speaker is inferred.",
       "suggested_correction": null,
       "correction_applied": false,
-      "source_files": []
+      "source_files": [],
+      "review_status": "needs_review"
     },
     {
       "issue_id": "VR-003",
@@ -165,7 +176,8 @@
       "correction_applied": false,
       "source_files": [
         "output/Aula_taster_talks.json"
-      ]
+      ],
+      "review_status": "needs_review"
     },
     {
       "issue_id": "VR-004",
@@ -177,9 +189,15 @@
       "field": "actual.speakers",
       "description": "Replacement presenter recorded as 'Fathani Ramwaja (name as transcribed; SANBI co-author)'; spelling is from ASR and uncertain.",
       "suggested_correction": "Check the SANBI co-author list for the correct name.",
-      "correction_applied": false,
+      "correction_applied": true,
       "source_files": [
         "output/TDWG 2026-09-24 Forum.json"
+      ],
+      "review_status": "resolved",
+      "resolution": "Name corrected to Fhatani Ranwashe. SANBI records identify that staff member, and an earlier publication lists Fhatani Ranwashe with Brenda Daly. The conference video itself has not independently confirmed the spelling.",
+      "evidence_urls": [
+        "https://ipt.sanbi.org.za/resource?r=brahms_online",
+        "https://www.frontiersin.org/journals/ecology-and-evolution/articles/10.3389/fevo.2023.1124928/pdf"
       ]
     },
     {
@@ -195,7 +213,8 @@
       "correction_applied": false,
       "source_files": [
         "output/TDWG 2026-09-24 Forum.json"
-      ]
+      ],
+      "review_status": "needs_review"
     },
     {
       "issue_id": "VR-006",
@@ -208,9 +227,15 @@
       "field": "actual.speakers",
       "description": "Replacement presenter for Jessica Bird recorded as 'Cailin Meyer (name as transcribed...)'; the ASR also gives 'Kaelin'/'Kaelyn'.",
       "suggested_correction": "Confirm the Smithsonian colleague's name.",
-      "correction_applied": false,
+      "correction_applied": true,
       "source_files": [
         "output/TDWG 2026-09-24 SAL A.json"
+      ],
+      "review_status": "resolved",
+      "resolution": "Cailin Meyer is the documented name and Smithsonian Entomology role; both affected items now use the clean name.",
+      "evidence_urls": [
+        "https://naturalhistory.si.edu/sites/default/files/media/file/2022nhredubus-meliah.pdf",
+        "https://learning.culturalheritage.org/products/broadening-accessibility-to-science-by-increasing-accessibility-through-natural-history-image-descriptions-and-alt-text"
       ]
     },
     {
@@ -223,10 +248,12 @@
       "field": "actual.speakers",
       "description": "Business-meeting speakers are partly inferred: the chair is only 'Dave' and 'Patricia Mergen' is inferred from her role.",
       "suggested_correction": "Confirm speakers from the TDWG business meeting minutes.",
-      "correction_applied": false,
+      "correction_applied": true,
       "source_files": [
         "output/TDWG 2026-09-25 SAL A.json"
-      ]
+      ],
+      "review_status": "needs_review",
+      "resolution": "Identified the chair as David Bloom from the Monday opening address. Patricia Mergen remains inferred, so the item still merits review."
     },
     {
       "issue_id": "VR-008",
@@ -238,10 +265,12 @@
       "field": "actual.speakers",
       "description": "Panel speaker 'Morten Aronson' ('also Sweden, a colleague of Johan') is probably an ASR rendering of Mora Aronsson (the programme speaker for odin-2026-09-22-12).",
       "suggested_correction": "Probably Mora Aronsson; confirm before changing.",
-      "correction_applied": false,
+      "correction_applied": true,
       "source_files": [
         "output/TDWG 2026-09-22 SAL B.json"
-      ]
+      ],
+      "review_status": "needs_review",
+      "resolution": "Corrected the probable ASR rendering to Mora Aronsson using the programme and cross-session context; audio identification remains uncertain."
     },
     {
       "issue_id": "VR-009",
@@ -253,10 +282,12 @@
       "field": "actual.speakers",
       "description": "Panel speaker 'Niels Graas' from Naturalis is probably an ASR rendering of Niels Raes (Naturalis; presenter of aula-taster-08-raes-bmd-ai-monitoring).",
       "suggested_correction": "Probably Niels Raes; confirm before changing.",
-      "correction_applied": false,
+      "correction_applied": true,
       "source_files": [
         "output/TDWG 2026-09-22 SAL B.json"
-      ]
+      ],
+      "review_status": "needs_review",
+      "resolution": "Corrected the probable ASR rendering to Niels Raes using the programme and Naturalis affiliation; audio identification remains uncertain."
     },
     {
       "issue_id": "VR-010",
@@ -271,7 +302,8 @@
       "correction_applied": false,
       "source_files": [
         "output/TDWG 2026-09-22 SAL B.json"
-      ]
+      ],
+      "review_status": "needs_review"
     },
     {
       "issue_id": "VR-011",
@@ -299,7 +331,7 @@
       "field": "actual.speakers.name",
       "description": "Some actual.speakers[].name values contain notes, e.g. '(surname not given)', '(audience member)' or ASR remarks. This works for display but makes names harder to match or deduplicate.",
       "suggested_correction": "Move the notes into identification_notes, or add a separate note field, and keep only the name in name.",
-      "correction_applied": false,
+      "correction_applied": true,
       "source_files": [
         "output/Aula_taster_talks.json",
         "output/TDWG 2026-09-22 ODIN.json",
@@ -310,7 +342,9 @@
         "output/TDWG 2026-09-24 SAL C.json",
         "output/TDWG 2026-09-25 SAL A.json",
         "output/TDWG 2026-09-25 SAL B.json"
-      ]
+      ],
+      "review_status": "resolved",
+      "resolution": "Removed parenthetical annotations from actual.speakers[].name; retained uncertainty and role context in identification_notes and correction records."
     },
     {
       "issue_id": "VR-012",
@@ -325,7 +359,8 @@
       "correction_applied": true,
       "source_files": [
         "output/Aula_taster_talks.json"
-      ]
+      ],
+      "review_status": "resolved"
     },
     {
       "issue_id": "VR-013",
@@ -340,7 +375,8 @@
       "correction_applied": true,
       "source_files": [
         "output/TDWG 2026-09-24 SAL B.json"
-      ]
+      ],
+      "review_status": "resolved"
     },
     {
       "issue_id": "VR-014",
@@ -355,7 +391,8 @@
       "correction_applied": true,
       "source_files": [
         "output/TDWG 2026-09-24 SAL B.json"
-      ]
+      ],
+      "review_status": "resolved"
     },
     {
       "issue_id": "VR-015",
@@ -370,7 +407,8 @@
       "correction_applied": true,
       "source_files": [
         "output/TDWG 2026-09-25 SAL B.json"
-      ]
+      ],
+      "review_status": "resolved"
     },
     {
       "issue_id": "VR-016",
@@ -385,7 +423,8 @@
       "correction_applied": true,
       "source_files": [
         "output/TDWG 2026-09-25 SAL B.json"
-      ]
+      ],
+      "review_status": "resolved"
     },
     {
       "issue_id": "VR-017",
@@ -400,7 +439,8 @@
       "correction_applied": true,
       "source_files": [
         "output/TDWG 2026-09-25 SAL C.json"
-      ]
+      ],
+      "review_status": "resolved"
     },
     {
       "issue_id": "VR-018",
@@ -412,10 +452,12 @@
       "field": "future_work",
       "description": "future_work entry carries an ASR note inline: \"...TDWG awaits an EU decision on a recent grant submission (ASR: 'Bicycle AI').\" The grant name is unresolved.",
       "suggested_correction": "Resolve the grant/project name, or move the ASR note to identification_notes.",
-      "correction_applied": false,
+      "correction_applied": true,
       "source_files": [
         "output/Aula_Plenary_1.json"
-      ]
+      ],
+      "review_status": "resolved",
+      "resolution": "Removed the unresolved ASR grant name from future_work and kept the uncertainty in identification_notes."
     },
     {
       "issue_id": "VR-019",
@@ -430,7 +472,8 @@
       "correction_applied": false,
       "source_files": [
         "output/TDWG 2026-09-22 SAL B.json"
-      ]
+      ],
+      "review_status": "needs_review"
     },
     {
       "issue_id": "VR-020",
@@ -442,10 +485,12 @@
       "field": "limitations",
       "description": "limitations entry describes the presentation or recording rather than a limitation of the work: \"Specimen counts in the recording are unclear (figures such as 800, 1,640 and 840 are mentioned) due to audio/ASR quality.\"",
       "suggested_correction": "Move it to actual.identification_notes (or drop it from limitations).",
-      "correction_applied": false,
+      "correction_applied": true,
       "source_files": [
         "output/TDWG 2026-09-24 SAL A.json"
-      ]
+      ],
+      "review_status": "resolved",
+      "resolution": "Moved the presentation/recording note out of limitations into actual.identification_notes."
     },
     {
       "issue_id": "VR-021",
@@ -457,10 +502,12 @@
       "field": "limitations",
       "description": "limitations entry describes the presentation or recording rather than a limitation of the work: \"Talk was compressed and later slides skipped.\"",
       "suggested_correction": "Move it to actual.identification_notes (or drop it from limitations).",
-      "correction_applied": false,
+      "correction_applied": true,
       "source_files": [
         "output/TDWG 2026-09-25 SAL A.json"
-      ]
+      ],
+      "review_status": "resolved",
+      "resolution": "Moved the presentation/recording note out of limitations into actual.identification_notes."
     },
     {
       "issue_id": "VR-022",
@@ -472,10 +519,12 @@
       "field": "limitations",
       "description": "limitations entry describes the presentation or recording rather than a limitation of the work: \"Demo hampered by screen-sharing issues.\"",
       "suggested_correction": "Move it to actual.identification_notes (or drop it from limitations).",
-      "correction_applied": false,
+      "correction_applied": true,
       "source_files": [
         "output/TDWG 2026-09-25 SAL A.json"
-      ]
+      ],
+      "review_status": "resolved",
+      "resolution": "Moved the presentation/recording note out of limitations into actual.identification_notes."
     },
     {
       "issue_id": "VR-023",
@@ -487,10 +536,12 @@
       "field": "limitations",
       "description": "limitations entry describes the presentation or recording rather than a limitation of the work: \"New work not ready; talk rehashes earlier material.\"",
       "suggested_correction": "Move it to actual.identification_notes (or drop it from limitations).",
-      "correction_applied": false,
+      "correction_applied": true,
       "source_files": [
         "output/TDWG 2026-09-25 SAL A.json"
-      ]
+      ],
+      "review_status": "resolved",
+      "resolution": "Moved the presentation/recording note out of limitations into actual.identification_notes."
     },
     {
       "issue_id": "VR-024",
@@ -503,7 +554,8 @@
       "description": "Unassigned 00:00:18-00:07:59 (SYM18 opening) contains substantive framing of resilience threats (funding cuts, AI crawlers, political decommissioning of datasets) as well as logistics.",
       "suggested_correction": "Consider a short content item for the session framing.",
       "correction_applied": false,
-      "source_files": []
+      "source_files": [],
+      "review_status": "needs_review"
     },
     {
       "issue_id": "VR-025",
@@ -516,7 +568,8 @@
       "description": "Unassigned 03:20:07-03:24:02 (Hilmar Lapp's SYM25A introduction) sets out why biodiversity data are often not AI-ready. It is short but substantive.",
       "suggested_correction": null,
       "correction_applied": false,
-      "source_files": []
+      "source_files": [],
+      "review_status": "needs_review"
     },
     {
       "issue_id": "VR-026",
@@ -529,7 +582,9 @@
       "description": "SAL C 22 Sep: Ben Norton's programmed talk on geologic units is marked not_presented. He arrived late and spoke only in the discussion slot (salc-2026-09-22-08), where the host said his talk was not actually part of the session.",
       "suggested_correction": null,
       "correction_applied": false,
-      "source_files": []
+      "source_files": [],
+      "review_status": "resolved",
+      "resolution": "Confirmed from the room/day programme_status and closing-slot summary: Ben Norton gave no standalone scheduled talk. Keep event-049 as not_presented; his later contribution remains in the discussion."
     },
     {
       "issue_id": "VR-027",
@@ -544,7 +599,9 @@
       "correction_applied": false,
       "source_files": [
         "output/TDWG 2026-09-22 SAL A.json"
-      ]
+      ],
+      "review_status": "resolved",
+      "resolution": "Reviewed the 2:50 scheduled closing segment. The extended audience comment links several talks and raises specific infrastructure sustainability ideas, so retaining a short discussion item is justified."
     },
     {
       "issue_id": "VR-028",
@@ -559,7 +616,9 @@
       "correction_applied": false,
       "source_files": [
         "output/TDWG 2026-09-22 SAL C.json"
-      ]
+      ],
+      "review_status": "resolved",
+      "resolution": "Reviewed the 4:13 closing segment. It contains substantive updates on the mineralogy extension and MIDS review from Ben Norton and Adam Mansur, so retaining the scheduled discussion item is justified."
     },
     {
       "issue_id": "VR-029",
@@ -574,7 +633,8 @@
       "correction_applied": true,
       "source_files": [
         "output/TDWG 2026-09-24 SAL A.json"
-      ]
+      ],
+      "review_status": "resolved"
     },
     {
       "issue_id": "VR-030",
@@ -589,7 +649,8 @@
       "correction_applied": true,
       "source_files": [
         "output/TDWG 2026-09-24 SAL A.json"
-      ]
+      ],
+      "review_status": "resolved"
     },
     {
       "issue_id": "VR-031",
@@ -601,10 +662,12 @@
       "field": "actual.speakers",
       "description": "Speaker 'Andre Zerger' is spelled 'André Zerger' in salb-2026-09-22-08.",
       "suggested_correction": "Use one spelling (André Zerger) across items.",
-      "correction_applied": false,
+      "correction_applied": true,
       "source_files": [
         "output/TDWG 2026-09-24 Forum.json"
-      ]
+      ],
+      "review_status": "resolved",
+      "resolution": "Standardized the name to André Zerger across conference items."
     },
     {
       "issue_id": "VR-032",
@@ -619,7 +682,8 @@
       "correction_applied": false,
       "source_files": [
         "output/TDWG 2026-09-24 Forum.json"
-      ]
+      ],
+      "review_status": "needs_review"
     },
     {
       "issue_id": "VR-033",
@@ -634,7 +698,8 @@
       "correction_applied": false,
       "source_files": [
         "output/TDWG 2026-09-22 ODIN.json"
-      ]
+      ],
+      "review_status": "needs_review"
     },
     {
       "issue_id": "VR-034",
@@ -649,7 +714,8 @@
       "correction_applied": false,
       "source_files": [
         "output/TDWG 2026-09-24 SAL A.json"
-      ]
+      ],
+      "review_status": "needs_review"
     },
     {
       "issue_id": "VR-035",
@@ -664,7 +730,8 @@
       "correction_applied": false,
       "source_files": [
         "output/TDWG 2026-09-22 SAL B.json"
-      ]
+      ],
+      "review_status": "needs_review"
     },
     {
       "issue_id": "VR-036",
@@ -679,7 +746,8 @@
       "correction_applied": false,
       "source_files": [
         "output/TDWG 2026-09-24 SAL B.json"
-      ]
+      ],
+      "review_status": "needs_review"
     },
     {
       "issue_id": "VR-037",
@@ -691,10 +759,12 @@
       "field": "actual.speakers",
       "description": "Speaker 'Yuri Roskov' is spelled 'Yury Roskov' in the programme and in salc-2026-09-22-09.",
       "suggested_correction": "Yury Roskov",
-      "correction_applied": false,
+      "correction_applied": true,
       "source_files": [
         "output/TDWG 2026-09-24 SAL B.json"
-      ]
+      ],
+      "review_status": "resolved",
+      "resolution": "Standardized the name to Yury Roskov, matching the programme and another conference item."
     },
     {
       "issue_id": "VR-038",
@@ -709,7 +779,8 @@
       "correction_applied": false,
       "source_files": [
         "output/TDWG 2026-09-24 SAL B.json"
-      ]
+      ],
+      "review_status": "needs_review"
     },
     {
       "issue_id": "VR-039",
@@ -724,7 +795,8 @@
       "correction_applied": false,
       "source_files": [
         "output/TDWG 2026-09-24 SAL C.json"
-      ]
+      ],
+      "review_status": "needs_review"
     },
     {
       "issue_id": "VR-040",
@@ -736,10 +808,12 @@
       "field": "representative_excerpt",
       "description": "representative_excerpt starts mid-sentence (\"and I think one of the key take home messages...\").",
       "suggested_correction": "Start the excerpt at a sentence boundary in the transcript, or set it to null if no self-contained passage exists.",
-      "correction_applied": false,
+      "correction_applied": true,
       "source_files": [
         "output/TDWG 2026-09-22 ODIN.json"
-      ]
+      ],
+      "review_status": "resolved",
+      "resolution": "Improved the passage and timestamp using the SRT, or set the optional excerpt to null when the quote depended on missing context."
     },
     {
       "issue_id": "VR-041",
@@ -751,10 +825,12 @@
       "field": "representative_excerpt",
       "description": "representative_excerpt starts mid-sentence and relies on the preceding slide (\"this is not a native species range\").",
       "suggested_correction": "Start the excerpt at a sentence boundary in the transcript, or set it to null if no self-contained passage exists.",
-      "correction_applied": false,
+      "correction_applied": true,
       "source_files": [
         "output/TDWG 2026-09-22 ODIN.json"
-      ]
+      ],
+      "review_status": "resolved",
+      "resolution": "Improved the passage and timestamp using the SRT, or set the optional excerpt to null when the quote depended on missing context."
     },
     {
       "issue_id": "VR-042",
@@ -766,10 +842,12 @@
       "field": "representative_excerpt",
       "description": "representative_excerpt starts mid-sentence (\"having observation surplus...\").",
       "suggested_correction": "Start the excerpt at a sentence boundary in the transcript, or set it to null if no self-contained passage exists.",
-      "correction_applied": false,
+      "correction_applied": true,
       "source_files": [
         "output/TDWG 2026-09-22 ODIN.json"
-      ]
+      ],
+      "review_status": "resolved",
+      "resolution": "Improved the passage and timestamp using the SRT, or set the optional excerpt to null when the quote depended on missing context."
     },
     {
       "issue_id": "VR-043",
@@ -781,10 +859,12 @@
       "field": "representative_excerpt",
       "description": "representative_excerpt starts mid-sentence (\"the vision was that GBIF...\").",
       "suggested_correction": "Start the excerpt at a sentence boundary in the transcript, or set it to null if no self-contained passage exists.",
-      "correction_applied": false,
+      "correction_applied": true,
       "source_files": [
         "output/TDWG 2026-09-22 SAL A.json"
-      ]
+      ],
+      "review_status": "resolved",
+      "resolution": "Improved the passage and timestamp using the SRT, or set the optional excerpt to null when the quote depended on missing context."
     },
     {
       "issue_id": "VR-044",
@@ -796,10 +876,12 @@
       "field": "representative_excerpt",
       "description": "representative_excerpt starts mid-sentence (\"if we let user communities...\").",
       "suggested_correction": "Start the excerpt at a sentence boundary in the transcript, or set it to null if no self-contained passage exists.",
-      "correction_applied": false,
+      "correction_applied": true,
       "source_files": [
         "output/TDWG 2026-09-22 SAL A.json"
-      ]
+      ],
+      "review_status": "resolved",
+      "resolution": "Improved the passage and timestamp using the SRT, or set the optional excerpt to null when the quote depended on missing context."
     },
     {
       "issue_id": "VR-045",
@@ -811,10 +893,12 @@
       "field": "representative_excerpt",
       "description": "representative_excerpt starts mid-sentence (\"want to say that an untranscribed image...\").",
       "suggested_correction": "Start the excerpt at a sentence boundary in the transcript, or set it to null if no self-contained passage exists.",
-      "correction_applied": false,
+      "correction_applied": true,
       "source_files": [
         "output/TDWG 2026-09-22 SAL B.json"
-      ]
+      ],
+      "review_status": "resolved",
+      "resolution": "Improved the passage and timestamp using the SRT, or set the optional excerpt to null when the quote depended on missing context."
     },
     {
       "issue_id": "VR-046",
@@ -826,10 +910,12 @@
       "field": "representative_excerpt",
       "description": "representative_excerpt fragmentary and context-dependent (\"hard disks are exploding. So we think...\").",
       "suggested_correction": "Start the excerpt at a sentence boundary in the transcript, or set it to null if no self-contained passage exists.",
-      "correction_applied": false,
+      "correction_applied": true,
       "source_files": [
         "output/TDWG 2026-09-25 SAL C.json"
-      ]
+      ],
+      "review_status": "resolved",
+      "resolution": "Improved the passage and timestamp using the SRT, or set the optional excerpt to null when the quote depended on missing context."
     },
     {
       "issue_id": "VR-047",
@@ -844,7 +930,8 @@
       "correction_applied": true,
       "source_files": [
         "output/Aula_taster_talks.json"
-      ]
+      ],
+      "review_status": "resolved"
     },
     {
       "issue_id": "VR-048",
@@ -859,7 +946,8 @@
       "correction_applied": true,
       "source_files": [
         "output/Aula_taster_talks.json"
-      ]
+      ],
+      "review_status": "resolved"
     },
     {
       "issue_id": "VR-049",
@@ -874,7 +962,8 @@
       "correction_applied": true,
       "source_files": [
         "output/Aula_taster_talks.json"
-      ]
+      ],
+      "review_status": "resolved"
     },
     {
       "issue_id": "VR-050",
@@ -889,7 +978,8 @@
       "correction_applied": true,
       "source_files": [
         "output/Aula_taster_talks.json"
-      ]
+      ],
+      "review_status": "resolved"
     },
     {
       "issue_id": "VR-051",
@@ -904,7 +994,8 @@
       "correction_applied": true,
       "source_files": [
         "output/Aula_taster_talks.json"
-      ]
+      ],
+      "review_status": "resolved"
     },
     {
       "issue_id": "VR-052",
@@ -919,7 +1010,8 @@
       "correction_applied": true,
       "source_files": [
         "output/Aula_taster_talks.json"
-      ]
+      ],
+      "review_status": "resolved"
     },
     {
       "issue_id": "VR-053",
@@ -934,7 +1026,8 @@
       "correction_applied": true,
       "source_files": [
         "output/Aula_taster_talks.json"
-      ]
+      ],
+      "review_status": "resolved"
     },
     {
       "issue_id": "VR-054",
@@ -949,7 +1042,8 @@
       "correction_applied": true,
       "source_files": [
         "output/Aula_taster_talks.json"
-      ]
+      ],
+      "review_status": "resolved"
     },
     {
       "issue_id": "VR-055",
@@ -973,7 +1067,8 @@
       "description": "These Monday plenary items are marked \"uncertain\" in the Aula recordings that do not contain them, and \"presented\" in the Aula recording that does. Conference-wide, all are presented; the per-recording \"uncertain\" entries only mean \"not in this recording\".",
       "suggested_correction": "When building a conference-wide programme status, treat these as presented and link the content item from the recording that contains them.",
       "correction_applied": false,
-      "source_files": []
+      "source_files": [],
+      "review_status": "informational"
     },
     {
       "issue_id": "VR-056",
@@ -987,7 +1082,8 @@
       "description": "The Friday afternoon Unconference breakouts in SAL B and SAL C fall after those recordings end, so whether they took place cannot be determined from the recordings.",
       "suggested_correction": null,
       "correction_applied": false,
-      "source_files": []
+      "source_files": [],
+      "review_status": "informational"
     },
     {
       "issue_id": "VR-057",
@@ -1003,7 +1099,8 @@
       "correction_applied": false,
       "source_files": [
         "output/TDWG 2026-09-24 Forum.json"
-      ]
+      ],
+      "review_status": "informational"
     },
     {
       "issue_id": "VR-058",
@@ -1019,7 +1116,8 @@
       "correction_applied": false,
       "source_files": [
         "output/TDWG 2026-09-25 SAL A.json"
-      ]
+      ],
+      "review_status": "informational"
     }
   ]
 }
