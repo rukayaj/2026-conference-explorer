@@ -1,0 +1,3466 @@
+{
+  "recording": {
+    "conference": "TDWG 2026",
+    "date": "2026-09-25",
+    "room": "SAL A",
+    "video_url": "",
+    "transcript_source": "TDWG 2026-09-25 SAL A.srt",
+    "language": "en",
+    "notes": "Continuous all-day recording from SAL A on Friday 25 September. It covers SYM47A 'Large Language Models for Biodiversity Data Discovery, Integration, and Curation. Part A' (chair Yasin Bakış opens at 00:55:29; the session closes at 02:27:14), a coffee break with room chatter, SYM47B 'AI applications, integration, and validation' (opens at 03:00:27; closes at 04:28:40), the TDWG 2026 Unconference plenary (opens at 05:26:08; breakout groups met off-recording between about 05:58 and 06:35; report-backs until about 07:00), and an unprogrammed joint TDWG business meeting and closing session (07:55:31-09:15:31). All 14 programmed talks were given, in the programmed order. The virtual talks by Torsten Dikow, Ishaipiriyan Karunakularatnam, Yağmur Güleç, Andrew Tokmakoff, Roselyn Gabud and Brooke Long-Fox were played as recordings; Tokmakoff then answered one question live. The first ~3 minutes of audio (00:32:11-00:34:57) are test playback of two of these recordings. ASR errors include 'TADWIG/Tadhg/TADWIC/Tetrick/TWIG' for TDWG, 'Purian/Pyrian/Pirian' for Ishaipiriyan Karunakularatnam, 'Q' for Kew, 'APNIC/APNI' for IPNI, 'Ariana Saleily-James' for Arianna Salili-James, 'Greta Pasch' for Grete Pasch, 'Yann Ondoh/Ian' for Ian Ondo, 'Thorsten Dieckoh' for Torsten Dikow, 'Pictory' for Picturae, 'Spinach/Spanish meeting' for SPNHC, 'Whova/Huwa/WHOA' for the Whova app, 'Bahadır Altuntas' for Bahadir Altintas, 'Steve' for Steen Dupont, 'Qwaser' for Kvasir, 'Quadrant' for Qdrant, 'Dockling' for Docling, 'Rhodri/Frederick' for Roderic Page, 'Qurate GPT' for CurateGPT, 'iChat Bio/iTrip Bio' for iChatBio, 'GloBE' for GloBI, 'Synclus synclus' for Cinclus cinclus, 'AusScribe' for the earlier TERN field app, 'Roseline Gabut/Rosalind' for Roselyn Gabud, 'Guru' for Brooke, 'Ruqayyah/Rukaya/Sarah Kaye' for Rukaya (an Unconference proposer and reporter), 'Jason Bakirci' for Yasin Bakış, and 'Dan Bloom/Stan Bloom' for Stan Blum."
+  },
+  "content_items": [
+    {
+      "id": "sala-2026-09-25-01",
+      "type": "talk",
+      "programme_id": "event-306",
+      "title": "The Planetary Knowledge Base: an infinite solutions engine converting data into action for nature",
+      "programme": {
+        "title": "The Planetary Knowledge Base: an infinite solutions engine converting data into action for nature",
+        "speakers": [
+          {
+            "name": "Vincent Smith",
+            "affiliation": ""
+          }
+        ],
+        "session": "SYM47A Large Language Models for Biodiversity Data Discovery, Integration, and Curation. Part A: AI- enabled knowledge creation and extraction",
+        "scheduled_start": "8:36 AM",
+        "scheduled_end": "8:48 AM",
+        "abstract": "The accelerating nature crisis demands more than fragmented evidence and retrospective reporting. It requires trusted systems that can turn biodiversity knowledge into action. The Planetary Knowledge Base (PKB), led by the Natural History Museum, is being developed as an AI-enabled global infrastructure to meet that need. Its success will depend on wider community participation, bringing together collections institutions, researchers, source communities, data infrastructures and users to ensure biodiversity evidence is connected, governed and applied in reciprocal ways. The PKB combines a biodiversity foundation model, trained across literature, specimen records, observations, images and genetic and environmental data, with a provenance-aware knowledge graph linking species, specimens, traits, interactions and change.\n\nThis emerging neuro-symbolic architecture is designed to extract information at planetary scale while grounding every inference in traceable evidence. Through retrieval-augmented generation, APIs and natural-language interfaces, the PKB aims to make biodiversity knowledge accessible to researchers, policymakers, communities and businesses, while reducing hallucination and opaque AI decision-making.\n\nThe PKB is conceived as an infinite solutions engine. This living infrastructure that can absorb data, test hypotheses, identify relationships and support scenario exploration for nature-positive decisions. Coupled with ecological modelling, it is intended to move from evidence synthesis to intervention design, evaluating restoration, migration and resilience planning. By linking centuries of natural history evidence with AI, digitisation and global data networks, the PKB seeks to transform collections into actionable intelligence for planetary stewardship."
+      },
+      "actual": {
+        "start_timestamp": "00:58:40",
+        "end_timestamp": "01:12:01",
+        "duration_seconds": 801,
+        "speakers": [
+          {
+            "name": "Vincent Smith",
+            "affiliation": "Natural History Museum, London"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Introduced by the chair as 'Vince Smith'. Content matches the programmed talk, though it covers the PKB's component projects and design principles rather than the foundation-model and neuro-symbolic details in the abstract.",
+        "transcript_quality": "high"
+      },
+      "summary": "Vince Smith set out the Natural History Museum's vision of a Planetary Knowledge Base (PKB): infrastructure that combines knowledge graphs, foundation models and LLMs to connect fragmented biodiversity data at scale. He described phase-one projects: a new BHL discovery layer built on re-OCRed literature with Mistral, SCRIBE for label and card transcription, and an internal 'Museum Digital Backbone' built on Amazon Quick. He also described design principles that track provenance, attribution and benefit through the value chain, including remuneration models. Questions covered alignment with the CARE principles and dependence on AWS.",
+      "one_line_takeaway": "The NHM is building the Planetary Knowledge Base in phases, with provenance, attribution and benefit-sharing designed in, to move biodiversity data to evidence to action at scale.",
+      "why_it_matters": "It is an ambitious attempt to build community-scale AI infrastructure for biodiversity. It says openly that big tech partners and commercial revenue will be needed, and that fair returns to data contributors are an open research problem.",
+      "key_points": [
+        "The big questions: moving data to evidence to action at scale, with continually growing data (10,000-20,000 records a day), unpredictable and urgent questions, provenance, and financial as well as ethical sustainability.",
+        "The PKB aligns big data infrastructures (people, observations, collections, institutions, genetics, literature) using knowledge graphs plus foundation models and LLMs, and builds services on top.",
+        "Because of the scale, the work is split into phased projects; the PKB is still in phase one.",
+        "Literature layer: BHL has been almost entirely re-OCRed with Mistral, and institutions, taxa, specimens and articles are extracted into a new discovery layer.",
+        "SCRIBE is the solution for transcribing card indexes, labels and herbarium sheets.",
+        "Museum Digital Backbone: a miniature knowledge graph plus LLM over internal, non-shareable data (grant proposals, publications), built quickly with Amazon Quick.",
+        "Design principles: preserve identifiers, provenance and licences at every step; make contributions visible through attribution; share benefits, possibly through remuneration models.",
+        "Use cases include biodiversity-change metrics sold commercially (e.g. the Biodiversity Intactness Index with Bloomberg) and work with pharma."
+      ],
+      "content_type": [
+        "infrastructure",
+        "conceptual",
+        "policy/governance"
+      ],
+      "audience_level": "general",
+      "themes_raw": [
+        "planetary knowledge base",
+        "knowledge graphs and foundation models",
+        "provenance and attribution",
+        "benefit sharing and remuneration",
+        "financial sustainability of infrastructure",
+        "big tech partnerships",
+        "literature data extraction"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "Natural History Museum, London",
+          "type": "organisation"
+        },
+        {
+          "name": "Planetary Knowledge Base",
+          "type": "project"
+        },
+        {
+          "name": "Biodiversity Heritage Library",
+          "type": "infrastructure"
+        },
+        {
+          "name": "Mistral",
+          "type": "organisation"
+        },
+        {
+          "name": "SCRIBE",
+          "type": "software"
+        },
+        {
+          "name": "Museum Digital Backbone",
+          "type": "project"
+        },
+        {
+          "name": "Amazon Web Services",
+          "type": "organisation"
+        },
+        {
+          "name": "Amazon Quick",
+          "type": "software"
+        },
+        {
+          "name": "Biodiversity Intactness Index",
+          "type": "dataset"
+        },
+        {
+          "name": "Bloomberg",
+          "type": "organisation"
+        },
+        {
+          "name": "CARE principles",
+          "type": "standard"
+        }
+      ],
+      "standards": [
+        "CARE principles"
+      ],
+      "software_tools": [
+        "Amazon Quick",
+        "SCRIBE"
+      ],
+      "datasets": [
+        "Biodiversity Heritage Library corpus",
+        "Biodiversity Intactness Index"
+      ],
+      "methods": [
+        "knowledge graphs",
+        "foundation models",
+        "large language models",
+        "OCR"
+      ],
+      "questions": [
+        "Can large-scale data mobilisation be reconciled with the CARE principles, especially authority to control?",
+        "Is dependence on a proprietary cloud provider a risk for community infrastructure?"
+      ],
+      "notable_claims": [
+        {
+          "claim": "The last three years have seen more innovation in this space than perhaps the previous ten, because AI is transforming the landscape.",
+          "timestamp": "01:01:18",
+          "confidence": "high"
+        },
+        {
+          "claim": "Almost the entirety of BHL has been re-OCRed with Mistral, and entities are being extracted to form the PKB's literature layer.",
+          "timestamp": "01:04:41",
+          "confidence": "high"
+        },
+        {
+          "claim": "The NHM sells Biodiversity Intactness Index data through Bloomberg and wants the PKB to speed up production of such metrics.",
+          "timestamp": "01:08:42",
+          "confidence": "high"
+        },
+        {
+          "claim": "The community has to work with big tech to handle the scale, but ethically and 'eyes wide open'.",
+          "timestamp": "01:11:23",
+          "confidence": "high"
+        }
+      ],
+      "recommendations": [
+        "Work with big tech partners, approaching them ethically and carefully."
+      ],
+      "results_findings": [],
+      "limitations": [],
+      "future_work": [
+        "Future phases of the PKB beyond phase one",
+        "Remuneration and benefit-return models for contributing communities"
+      ],
+      "examples_case_studies": [
+        "BHL discovery layer",
+        "SCRIBE label transcription",
+        "Museum Digital Backbone",
+        "Biodiversity Intactness Index with Bloomberg"
+      ],
+      "q_and_a": [
+        {
+          "question": "Can this kind of massive data mobilisation be reconciled with the CARE principles?",
+          "answer_summary": "A cautious yes. Authority to control is the hardest part. Proportional attribution could return tangible benefit to Indigenous communities, but whether it can be done is an open research question about fair AI.",
+          "timestamp": "01:09:46"
+        },
+        {
+          "question": "There is a big AWS-shaped box in the architecture. Is the fear of proprietary enclosure warranted?",
+          "answer_summary": "No. The community must work with some big-tech provider at this scale; AWS has given financial and technical support, and the relationship must be approached ethically, eyes wide open.",
+          "timestamp": "01:11:08"
+        }
+      ],
+      "representative_excerpt": {
+        "timestamp": "01:07:03",
+        "text": "And one that's been absolutely central to this vision is how we track attribution and benefits through that value chain from source evidence right the way through to the services that we build. And then how do we return that value to the communities that have actually proportionately contributed to it?"
+      },
+      "notable_moments": [
+        {
+          "timestamp": "01:02:04",
+          "type": "key_point",
+          "description": "Introduces the 'insanely ambitious' Planetary Knowledge Base vision."
+        },
+        {
+          "timestamp": "01:07:03",
+          "type": "key_point",
+          "description": "Design principles: attribution, provenance and benefit-sharing through the value chain."
+        },
+        {
+          "timestamp": "01:09:46",
+          "type": "question",
+          "description": "Question on reconciling the PKB with the CARE principles."
+        },
+        {
+          "timestamp": "01:11:08",
+          "type": "question",
+          "description": "Question on reliance on AWS."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "00:58:40",
+          "end_timestamp": "01:12:01"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": ""
+      }
+    },
+    {
+      "id": "sala-2026-09-25-02",
+      "type": "talk",
+      "programme_id": "event-307",
+      "title": "SCRIBE: Structured Collection Record Interpretation and Bio-entity Extraction",
+      "programme": {
+        "title": "SCRIBE: Structured Collection Record Interpretation and Bio-entity Extraction",
+        "speakers": [
+          {
+            "name": "Arianna Salili-James",
+            "affiliation": ""
+          }
+        ],
+        "session": "SYM47A Large Language Models for Biodiversity Data Discovery, Integration, and Curation. Part A: AI- enabled knowledge creation and extraction",
+        "scheduled_start": "8:48 AM",
+        "scheduled_end": "9:00 AM",
+        "abstract": "There are over 120 million objects housed in natural history collections in the UK. With DiSSCo UK, 90+ institutions will be coming together, in order to make over 50% of UK natural history collections digitally available and accessible. As well as specimen imaging, a crucial goal is the building of datasets extracted from the millions of textual records. These records can include labels and index cards associated with specimens, collection registers and more. Our aim is to provide a service to aid the automatic extraction of structured data from collection records. SCRIBE (Structured Collection Record Interpretation and Bio-entity Extraction) is a new platform, being developed by a team at the NHM UK for automatic data extraction. The proposed software has the potential to revolutionise data extraction, for curation, as well as ecological analysis, by utilising Artificial Intelligence (AI), and providing an easy-to-use interface, to help unlock a plethora of data. While traditionally this task would involve manual transcription, or traditional OCR methods, taking up days and weeks, the proposed tool will for some collections, reduce this to minutes. The tool follows a computer vision and LLM based workflow that utilises customised prompts depending on visual differences within images uploaded by users, enabling users to upload datasets from varied collections concurrently. SCRIBE is a DCMS (UK Department for Culture, Media, Sport) funded and externally-funded program that will sit within the DiSSCo UK workflows. The software will be shared with institutions and evaluations will be jointly collected to further improve the online tool. Finally, the SCRIBE online tool will be supported in-house, helping to scale AI-assisted digitisation across museum and heritage sectors."
+      },
+      "actual": {
+        "start_timestamp": "01:12:21",
+        "end_timestamp": "01:24:29",
+        "duration_seconds": 728,
+        "speakers": [
+          {
+            "name": "Arianna Salili-James",
+            "affiliation": "Natural History Museum, London"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Chair's name is ASR 'Ariana Saleily-James'. Content matches the abstract. No questions were taken because the speaker had to leave; questions were redirected to the Whova app.",
+        "transcript_quality": "high"
+      },
+      "summary": "Arianna Salili-James reviewed the NHM's earlier data-extraction projects: ALICE label imaging, video label tracking, egg-card structuring with Google Vision (over 90% accuracy), and LLM extraction from registers, bird-skin labels, herbarium sheets and double-sided cards. Each needed its own workflow and prompts. SCRIBE, funded by DCMS and a private donor, is meant to replace these with one platform where users upload images and get structured output. It clusters mixed datasets, samples each cluster to build customised prompts, runs LLM extraction and cleans the output towards Darwin Core. The project started recently (data scientist hired in August) and runs to March 2028.",
+      "one_line_takeaway": "SCRIBE aims to replace many collection-specific extraction workflows with one LLM and computer-vision platform that turns any uploaded record images into structured data.",
+      "why_it_matters": "A generic, hosted extraction service could let DiSSCo UK institutions without in-house AI capacity turn labels, cards and registers into structured data, and the output would feed the Planetary Knowledge Base.",
+      "key_points": [
+        "Previous NHM extraction projects each had separate workflows, training and prompts, which was inefficient.",
+        "SCRIBE targets information that can be output in a structured form (e.g. locality, habitat), not free-text transcription of books.",
+        "Users say whether an upload is homogeneous or mixed. Mixed datasets are clustered (tests with DBSCAN and PCA) before prompts are built.",
+        "Samples from each cluster go through a quick LLM entity check to customise a base prompt, then extraction runs on the full dataset, followed by cleaning and Darwin Core formatting.",
+        "Pre-processing includes auto-rotation and auto-cropping.",
+        "DiSSCo UK partners will get free token allowances; others can add their own API key. Shared outputs may feed the PKB.",
+        "Tests found handwritten and printed/typed text did equally well with LLM extraction.",
+        "Training data span vertebrates, invertebrates and botany from NHM and other UK institutions. Fungi are missing; English first, then Welsh."
+      ],
+      "content_type": [
+        "software/tool",
+        "workflow/method",
+        "infrastructure"
+      ],
+      "audience_level": "intermediate",
+      "themes_raw": [
+        "label transcription",
+        "structured data extraction from collection records",
+        "LLM prompt customisation",
+        "image clustering",
+        "digitisation at scale",
+        "DiSSCo UK"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "SCRIBE",
+          "type": "software"
+        },
+        {
+          "name": "Natural History Museum, London",
+          "type": "organisation"
+        },
+        {
+          "name": "DCMS (UK Department for Culture, Media and Sport)",
+          "type": "organisation"
+        },
+        {
+          "name": "DiSSCo UK",
+          "type": "infrastructure"
+        },
+        {
+          "name": "ALICE",
+          "type": "project"
+        },
+        {
+          "name": "Planetary Knowledge Base",
+          "type": "project"
+        },
+        {
+          "name": "Google Vision",
+          "type": "software"
+        },
+        {
+          "name": "Tesseract",
+          "type": "software"
+        }
+      ],
+      "standards": [
+        "Darwin Core"
+      ],
+      "software_tools": [
+        "SCRIBE",
+        "Google Vision",
+        "Tesseract",
+        "DBSCAN"
+      ],
+      "datasets": [],
+      "methods": [
+        "LLM-based extraction",
+        "computer vision",
+        "image clustering (DBSCAN, PCA)",
+        "prompt customisation",
+        "OCR"
+      ],
+      "questions": [],
+      "notable_claims": [
+        {
+          "claim": "Earlier egg-card extraction with Google Vision and other OCR tools reached over 90% accuracy for all extracted categories.",
+          "timestamp": "01:15:01",
+          "confidence": "high"
+        },
+        {
+          "claim": "Separate workflows, training and prompts per collection type were not the most efficient approach, which motivated SCRIBE.",
+          "timestamp": "01:16:00",
+          "confidence": "high"
+        },
+        {
+          "claim": "In their tests, LLM extraction did equally well on handwritten and printed/typed text.",
+          "timestamp": "01:23:21",
+          "confidence": "medium"
+        }
+      ],
+      "recommendations": [],
+      "results_findings": [
+        "Handwritten and printed labels performed equally well in LLM extraction tests.",
+        "Egg-card structuring previously achieved >90% accuracy per category."
+      ],
+      "limitations": [
+        "Very early stage; data scientist only joined in August.",
+        "No fungi in the training data yet.",
+        "English-only extraction at first."
+      ],
+      "future_work": [
+        "Finalise data collection",
+        "User interviews to design the interface and choose entities",
+        "Hire a software engineer",
+        "Workflow and platform development, user testing",
+        "Welsh-language extraction",
+        "Project completion targeted for March 2028"
+      ],
+      "examples_case_studies": [
+        "NHM egg cards",
+        "bird-skin labels",
+        "herbarium sheets",
+        "collection registers",
+        "double-sided paleontology cards"
+      ],
+      "q_and_a": [],
+      "representative_excerpt": {
+        "timestamp": "01:17:01",
+        "text": "So the idea with SCRIBE is to just have one platform, so one global platform where users can upload their images of their datasets and get a structured output out of it."
+      },
+      "notable_moments": [
+        {
+          "timestamp": "01:16:00",
+          "type": "key_point",
+          "description": "Why separate per-collection workflows motivated a single platform."
+        },
+        {
+          "timestamp": "01:19:48",
+          "type": "demonstration",
+          "description": "Walk-through of the planned upload and extraction workflow."
+        },
+        {
+          "timestamp": "01:23:21",
+          "type": "key_point",
+          "description": "Handwritten vs printed text results."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "01:12:21",
+          "end_timestamp": "01:24:29"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": ""
+      }
+    },
+    {
+      "id": "sala-2026-09-25-03",
+      "type": "talk",
+      "programme_id": "event-308",
+      "title": "From Historical Oology Cards to Structured Biodiversity Data: Multimodal LLM Transcription, Uncertainty Metrics, and Human Review",
+      "programme": {
+        "title": "From Historical Oology Cards to Structured Biodiversity Data: Multimodal LLM Transcription, Uncertainty Metrics, and Human Review",
+        "speakers": [
+          {
+            "name": "Grete Pasch",
+            "affiliation": ""
+          }
+        ],
+        "session": "SYM47A Large Language Models for Biodiversity Data Discovery, Integration, and Curation. Part A: AI- enabled knowledge creation and extraction",
+        "scheduled_start": "9:00 AM",
+        "scheduled_end": "9:12 AM",
+        "abstract": "Historical biodiversity collections contain vast quantities of ecological information embedded in handwritten and typed archival records that remain difficult to access at scale. This project explored the use of multimodal large language models (LLMs) to transcribe and structure oological information found in historical specimen cards from the Cornell University Museum of Vertebrates. These cards record collectors' data associated with bird egg sets, breeding phenology, nest materials, and habitat descriptions collected between the late 19th and mid-20th centuries.\n\nUsing GPT-4o and Clause Sonnet 4.6-based workflows, I evaluated methods for extracting both literal transcriptions and semantically structured biodiversity data from heterogeneous card layouts containing handwriting, typewriting, annotations, and mixed narrative content. Beyond transcription accuracy, my project investigates methods for estimating review effort and transcription reliability using token-level uncertainty signals and a human-in-the-loop validation workflow. I developed a \"hesitation\" score based on token-level probabilities and found that this score correlates with human correction effort and may support scalable triage of records requiring expert review.\n\nThis project demonstrates how historical narrative records can become machine-actionable biodiversity data while preserving provenance, interpretability, and curatorial oversight. I discuss implications for biodiversity data mobilization and the integration of semantically enriched collection records into standards-based biodiversity infrastructures."
+      },
+      "actual": {
+        "start_timestamp": "01:25:09",
+        "end_timestamp": "01:36:51",
+        "duration_seconds": 702,
+        "speakers": [
+          {
+            "name": "Grete Pasch",
+            "affiliation": "Cornell University"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Speaker's name is ASR 'Greta Pasch'. Content matches the abstract.",
+        "transcript_quality": "high"
+      },
+      "summary": "Grete Pasch transcribed historical oology (egg-set) cards with GPT-4o and used token log-probabilities to build a 'hesitation' score. The score does not flag every error, but it predicts how much human review a card needs. Cards were sorted into light, standard and expert review lanes; the expert lane held about a fifth of the cards but took half to two-thirds of the correction time, on both the Cornell set and 2,303 Western Foundation cards. Newer models (Gemini 3.1 Pro, Opus 5) are more accurate but do not expose log-probs; where two of them agree they are right about 997 times in 1,000, but that still does not certify a transcription.",
+      "one_line_takeaway": "Token-level hesitation from log-probabilities does not tell you which transcriptions are wrong, but it reliably predicts where human review effort will go.",
+      "why_it_matters": "Most LLM transcription work stops at accuracy. This talk offers a practical way to triage expert review and estimate curation effort for millions of archival cards, and warns that the best models no longer expose the signals needed for it.",
+      "key_points": [
+        "Nest descriptions on historical egg cards record changes in nest materials (e.g. plastic in modern Baltimore oriole nests), but they are rarely transcribed.",
+        "GPT-4o transcribed 193 of 262 cards exactly (about three in four). Typed cards were nearly perfect; handwritten cards were about two in three exact.",
+        "With logprobs enabled, the model reports its confidence in each token and its top alternatives. On a gull card it wrote '7,000' at 58% where the correct '2,000' was the runner-up at 27%.",
+        "A token counts as 'hesitant' when the top choice is less than 2.7 times as likely as the runner-up; the card hesitation score is the number of hesitant tokens.",
+        "Some cards with no hesitation still had errors (confident errors), so hesitation marks uncertainty, not correctness.",
+        "Three lanes (0-1, 2-4, 5+ hesitant tokens): median correction time was under a second in the light and standard lanes and 11 seconds in the expert lane.",
+        "The pattern held on 2,303 harder handwritten cards from the Western Foundation of Vertebrate Zoology.",
+        "Gemini 3.1 Pro and Opus 5 read about nine in ten cards correctly and agree on 98.5% of words, but even agreement is not proof."
+      ],
+      "content_type": [
+        "research",
+        "workflow/method"
+      ],
+      "audience_level": "intermediate",
+      "themes_raw": [
+        "historical archive transcription",
+        "LLM uncertainty estimation",
+        "log probabilities",
+        "human-in-the-loop review",
+        "review effort triage",
+        "oology collections",
+        "nest materials change"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "Cornell University Museum of Vertebrates",
+          "type": "organisation"
+        },
+        {
+          "name": "Western Foundation of Vertebrate Zoology",
+          "type": "organisation"
+        },
+        {
+          "name": "Cornell Lab of Ornithology",
+          "type": "organisation"
+        },
+        {
+          "name": "GPT-4o",
+          "type": "software"
+        },
+        {
+          "name": "Gemini 3.1 Pro",
+          "type": "software"
+        },
+        {
+          "name": "Claude Opus 5",
+          "type": "software"
+        }
+      ],
+      "standards": [],
+      "software_tools": [
+        "GPT-4o",
+        "Gemini 3.1 Pro",
+        "Claude Opus 5",
+        "Gemini 2.x Flash"
+      ],
+      "datasets": [
+        "Robert Lyle oology cards (262)",
+        "Western Foundation of Vertebrate Zoology handwritten cards (2,303)"
+      ],
+      "methods": [
+        "multimodal LLM transcription",
+        "token log-probability analysis",
+        "hesitation score",
+        "timed human review",
+        "model-agreement checking"
+      ],
+      "questions": [
+        "If frontier models no longer expose log-probs, what uncertainty signal can guide review?"
+      ],
+      "notable_claims": [
+        {
+          "claim": "GPT-4o transcribed 193 of 262 cards exactly; about two in three handwritten cards were exact.",
+          "timestamp": "01:27:51",
+          "confidence": "high"
+        },
+        {
+          "claim": "The model hesitated exactly where it went wrong on the gull card (7,000 at 58% vs 2,000 at 27%).",
+          "timestamp": "01:29:53",
+          "confidence": "high"
+        },
+        {
+          "claim": "Median correction time was under a second in the light and standard lanes versus 11 seconds in the expert lane.",
+          "timestamp": "01:32:00",
+          "confidence": "high"
+        },
+        {
+          "claim": "For both collections the expert lane held about a fifth of the cards but took half to two-thirds of the correction time.",
+          "timestamp": "01:32:42",
+          "confidence": "high"
+        },
+        {
+          "claim": "When Gemini 3.1 Pro and Opus 5 agree, they are right about 997 times out of 1,000.",
+          "timestamp": "01:33:39",
+          "confidence": "high"
+        }
+      ],
+      "recommendations": [
+        "Time a sample of cards to estimate total review effort and route the hardest cards to the most experienced readers.",
+        "Use GPT-4o or open-weight models run locally if log-probability signals are needed."
+      ],
+      "results_findings": [
+        "Hesitation score predicts review effort even though it does not catch every error.",
+        "Expert lane: ~20% of cards, 50-67% of correction time, replicated on a second collection.",
+        "Newer models are about 90% exact on handwritten cards but do not expose log-probs.",
+        "Model agreement is ~99.7% correct, not 100%; both models modernised 'bulrushes' spelling."
+      ],
+      "limitations": [
+        "Hesitation does not catch confident errors.",
+        "The best current models do not expose log-probabilities.",
+        "Asking a model to rate its own confidence was not consistent."
+      ],
+      "future_work": [
+        "Continue the work, including testing open-weight models for log-prob signals."
+      ],
+      "examples_case_studies": [
+        "Baltimore oriole nest card, Ontario 1937",
+        "Ring-billed gull colony card, Oregon 1939",
+        "Great-tailed grackle card, Texas 1938 ('14 feet' read as '4 feet')"
+      ],
+      "q_and_a": [
+        {
+          "question": "Have you tried asking the model to rate its own confidence?",
+          "answer_summary": "Tried at the start; the model cannot do it consistently.",
+          "timestamp": "01:35:37"
+        },
+        {
+          "question": "Are there alternatives, and do smaller models still report probabilities?",
+          "answer_summary": "Gemini 2.x Flash still does, though it will be deprecated, and its hesitation scores match GPT-4o's. She plans to look at open-weight models.",
+          "timestamp": "01:36:01"
+        }
+      ],
+      "representative_excerpt": {
+        "timestamp": "01:34:59",
+        "text": "The question is not, can I trust the transcript? It's where should the human effort go?"
+      },
+      "notable_moments": [
+        {
+          "timestamp": "01:28:31",
+          "type": "key_point",
+          "description": "Discovery of the logprobs setting as a confidence signal."
+        },
+        {
+          "timestamp": "01:29:26",
+          "type": "demonstration",
+          "description": "Gull card example: the model hesitated exactly where it erred."
+        },
+        {
+          "timestamp": "01:32:42",
+          "type": "key_point",
+          "description": "Expert lane: a fifth of cards, half to two-thirds of the effort."
+        },
+        {
+          "timestamp": "01:34:17",
+          "type": "conclusion",
+          "description": "Three lessons learned."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "01:25:09",
+          "end_timestamp": "01:36:51"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": ""
+      }
+    },
+    {
+      "id": "sala-2026-09-25-04",
+      "type": "talk",
+      "programme_id": "event-309",
+      "title": "Using Large Language Models to enhance biodiversity knowledge extraction: From taxonomic treatments to graph-based knowledge systems",
+      "programme": {
+        "title": "Using Large Language Models to enhance biodiversity knowledge extraction: From taxonomic treatments to graph-based knowledge systems",
+        "speakers": [
+          {
+            "name": "Ian Ondo",
+            "affiliation": ""
+          }
+        ],
+        "session": "SYM47A Large Language Models for Biodiversity Data Discovery, Integration, and Curation. Part A: AI- enabled knowledge creation and extraction",
+        "scheduled_start": "9:12 AM",
+        "scheduled_end": "9:24 AM",
+        "abstract": "Taxonomic treatments contained in checklists, floras, monographs and ecological literature compile centuries of detailed documentation on the world’s biodiversity. They typically appear as structured, peer-reviewed sections within scientific publications describing the taxonomy, morphology, distribution and ecology of a taxon, representing valuable and authoritative resources on past and present biodiversity.\n\nAlthough a large collection of treatments is now freely available as Findable, Accessible, Interoperable and Reusable (FAIR) digital objects, ecological information contained within these data, such as habitat notes, remains largely underutilised, leaving untapped a vital source of knowledge for ecological modelling and conservation assessment.\n\nHere, we present a practical framework for structuring, extracting and mapping habitat information stored in taxonomic treatments using an Artificial Intelligence (AI)-assisted, ontology-aware knowledge graph system (a formal, machine-readable representation of domain entities and their relationships). This work forms part of a broader initiative aimed at improving the mapping of data-poor species, with a focus on vascular plants.\n\nWe propose to (a) create a knowledge graph to store evidence related to plant species habitats, (b) link this graph with semantic environmental and geospatial layers, and (c) connect this system to a large language model (LLM) to automate, query and reason over this complex knowledge base.\n\nBy reducing hallucinations and linking extracted habitat information to spatial layers, we demonstrate a viable pathway towards more reliable and transparent geospatial AI applications, supporting a more responsible use of generative AI for species distribution and habitat mapping."
+      },
+      "actual": {
+        "start_timestamp": "01:37:16",
+        "end_timestamp": "01:50:58",
+        "duration_seconds": 822,
+        "speakers": [
+          {
+            "name": "Ian Ondo",
+            "affiliation": "UNEP-WCMC"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Introduced as 'Yann Ondoh' and thanked as 'Ian'; he gives his affiliation as UNEP-WCMC. Content matches the abstract.",
+        "transcript_quality": "medium"
+      },
+      "summary": "Ian Ondo presented a framework that turns habitat information in taxonomic treatments into a structured, evidence-traceable knowledge base. Plazi TreatmentBank RDF becomes a source graph; an instruction-tuned LLM (Qwen 2.5) extracts explicit habitat statements into an evidence graph; the evidence is linked to environmental ontologies, WWF/One Earth terrestrial ecoregions and IUCN habitat classes. A trained habitat-environment compatibility model (HECC) put the correct ecoregion in its top three 75% of the time (top five 87%), and 65% zero-shot. A data-deficient Dalbergia species showed that the model's most compatible ecoregions matched its few known GBIF occurrences.",
+      "one_line_takeaway": "Taxonomic treatments hold underused habitat knowledge that LLMs and a provenance-preserving knowledge graph can structure and link to ecoregions, helping map data-poor species.",
+      "why_it_matters": "There is no comprehensive resource for species habitat preferences. Mining treatments with traceable evidence could support conservation assessments of data-deficient species.",
+      "key_points": [
+        "Plazi's TreatmentBank has made over 1.2 million treatments from about 94,000 articles machine accessible, but their ecological content is not immediately reusable.",
+        "There are structured resources for taxonomy and occurrences, but nowhere comprehensive to ask what habitat a species prefers.",
+        "Framework: TreatmentBank RDF -> source graph (publication and treatment structure) -> AI habitat extraction -> evidence graph -> integration with environmental and spatial knowledge.",
+        "Existing standards and ontologies are reused wherever possible rather than new vocabularies.",
+        "Qwen 2.5 is prompted to extract only explicit habitat statements, not to infer from altitude, place names or coordinates, and to return nothing when there is none.",
+        "Around 40,000 treatment sections were processed. HECC, an embedding model, learns semantic compatibility between habitat text and ecoregion descriptions.",
+        "Ecoregion retrieval: correct in top 3 75%, top 5 87%; zero-shot ecoregions 65%."
+      ],
+      "content_type": [
+        "research",
+        "workflow/method"
+      ],
+      "audience_level": "specialist",
+      "themes_raw": [
+        "taxonomic treatments",
+        "habitat extraction",
+        "knowledge graphs",
+        "evidence provenance",
+        "ecoregion mapping",
+        "data-deficient species",
+        "species distribution for conservation"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "UNEP-WCMC",
+          "type": "organisation"
+        },
+        {
+          "name": "Plazi",
+          "type": "organisation"
+        },
+        {
+          "name": "TreatmentBank",
+          "type": "infrastructure"
+        },
+        {
+          "name": "GBIF",
+          "type": "infrastructure"
+        },
+        {
+          "name": "IUCN",
+          "type": "organisation"
+        },
+        {
+          "name": "One Earth",
+          "type": "organisation"
+        },
+        {
+          "name": "Qwen 2.5",
+          "type": "software"
+        },
+        {
+          "name": "HECC (habitat environmental compatibility model)",
+          "type": "method"
+        }
+      ],
+      "standards": [
+        "RDF",
+        "ENVO",
+        "IUCN Habitats Classification Scheme"
+      ],
+      "software_tools": [
+        "Qwen 2.5"
+      ],
+      "datasets": [
+        "Plazi TreatmentBank",
+        "Terrestrial Ecoregions of the World",
+        "One Earth ecoregion descriptions",
+        "GBIF occurrences"
+      ],
+      "methods": [
+        "LLM information extraction",
+        "knowledge graph construction",
+        "embedding-based compatibility model",
+        "ontology alignment"
+      ],
+      "questions": [
+        "How should free-text habitat descriptions be normalised against ontologies such as ENVO?"
+      ],
+      "notable_claims": [
+        {
+          "claim": "Over 1.2 million taxonomic treatments from about 94,000 articles are now machine accessible through TreatmentBank.",
+          "timestamp": "01:39:55",
+          "confidence": "high"
+        },
+        {
+          "claim": "There is no comprehensive resource to answer what habitats species prefer.",
+          "timestamp": "01:40:38",
+          "confidence": "high"
+        },
+        {
+          "claim": "The compatibility model placed the correct ecoregion in the top three 75% of the time and top five 87%, dropping to 65% for unseen ecoregions.",
+          "timestamp": "01:46:04",
+          "confidence": "medium"
+        }
+      ],
+      "recommendations": [],
+      "results_findings": [
+        "Top-3 ecoregion retrieval 75%, top-5 87%, zero-shot 65%.",
+        "For a data-deficient Dalbergia with four GBIF records, the most compatible ecoregions matched observed occurrences."
+      ],
+      "limitations": [
+        "Performance drops for ecoregions not seen in training.",
+        "Talk was compressed and later slides skipped."
+      ],
+      "future_work": [],
+      "examples_case_studies": [
+        "Data-deficient Dalbergia species (ASR 'Dalbergia menoides') from Thailand and the Malay Peninsula, habitat mangrove swamps along rivers"
+      ],
+      "q_and_a": [
+        {
+          "question": "How is natural-language habitat text mapped to ecoregion categories? Is it normalised to ENVO first?",
+          "answer_summary": "No intermediate normalisation. He trained an embedding model on ecoregion descriptions (from One Earth) and habitat text from treatments with known ecoregions, so it learns the semantics of how each ecoregion is described rather than name matching.",
+          "timestamp": "01:48:32"
+        }
+      ],
+      "representative_excerpt": null,
+      "notable_moments": [
+        {
+          "timestamp": "01:41:11",
+          "type": "key_point",
+          "description": "The four-component framework from treatments to an evidence knowledge base."
+        },
+        {
+          "timestamp": "01:44:13",
+          "type": "demonstration",
+          "description": "Examples of habitat extraction and correct null extraction."
+        },
+        {
+          "timestamp": "01:46:31",
+          "type": "demonstration",
+          "description": "Case study of a data-deficient Dalbergia species."
+        },
+        {
+          "timestamp": "01:48:32",
+          "type": "question",
+          "description": "Question on mapping natural-language habitat to ecoregions."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "01:37:16",
+          "end_timestamp": "01:50:58"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": ""
+      }
+    },
+    {
+      "id": "sala-2026-09-25-05",
+      "type": "talk",
+      "programme_id": "event-310",
+      "title": "Automated data transcription and Darwin Core field itemization from insect specimen labels using machine learning",
+      "programme": {
+        "title": "Automated data transcription and Darwin Core field itemization from insect specimen labels using machine learning",
+        "speakers": [
+          {
+            "name": "Torsten Dikow",
+            "affiliation": ""
+          }
+        ],
+        "session": "SYM47A Large Language Models for Biodiversity Data Discovery, Integration, and Curation. Part A: AI- enabled knowledge creation and extraction",
+        "scheduled_start": "9:24 AM",
+        "scheduled_end": "9:36 AM",
+        "abstract": "A mass digitization project of pinned insects is currently undertaken at the Smithsonian National Museum of Natural History (NMNH). With a conveyor system, up to 1,500 specimens and all associated data labels (two to several) are digitized each day. To mobilize the primary biodiversity data from these specimens/labels, adding them to the institutional database, and sharing them through GBIF, the label data need to be transcribed and itemized into Darwin Core fields. The two currently available options are (1) manual transcription and itemization by a human or (2) automated transcription by a tool and manual data itemization by a human. Here, we present a tool, Labellum, that goes further and is developed to transcribe all written information found on labels (whether handwritten or printed) from a specimen and automatically itemize all data into Darwin Core fields. The tool has been developed and trained on a data-set of labels from prior digitization projects at the NMNH. It uses Yolo (You Only Look Once) (v8.3.222) and Llama (v4) libraries and the Gemma 3 (12B) model for transcription and itemization. Initial, promising results using these libraries were obtained in the fall of 2025, and with further improvements, especially training on Darwin Core fields and institution-specific label data, Labellum has an accuracy of >97% transcription efficacy and a similar accuracy on Darwin Core field assignment. Labellum will be made available for use on a local machine in a self-contained environment without the need for installation of specific software. The tool has been trained on insect labels, but can be utilized on labels of other organism groups. This will allow other natural history collections to utilize Labellum in transcribing and itemizing digitized labels."
+      },
+      "actual": {
+        "start_timestamp": "01:51:27",
+        "end_timestamp": "02:02:37",
+        "duration_seconds": 670,
+        "speakers": [
+          {
+            "name": "Torsten Dikow",
+            "affiliation": "Smithsonian National Museum of Natural History"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Virtual talk played as a recording (ASR 'Thorsten Dieckoh'). The chair asked for him to be unmuted for questions, but no live Q&A happened.",
+        "transcript_quality": "high"
+      },
+      "summary": "Torsten Dikow described Labellum, built with University of Maryland students, which transcribes pinned-insect labels from the NMNH conveyor digitisation project and itemises the text into Darwin Core fields. The three-step pipeline uses YOLO to extract labels (about 95%), a Gemini/Gemma 3 12B model to transcribe (about 82%), and Gemini to sort text into Darwin Core 'buckets' using prompts with controlled vocabularies and field definitions. On 100 labels generated from his research database, country and verbatim date were 98-99% correct and genus/epithet errors were 7-10%, but catalogue numbers (USNMENT) were often missed or misread.",
+      "one_line_takeaway": "Labellum goes beyond label OCR to itemise insect-label text into Darwin Core fields, with high accuracy for most fields but problems with catalogue numbers.",
+      "why_it_matters": "At up to 1,500 specimens a day from a conveyor, human transcription is a bottleneck; automated Darwin Core itemisation could speed up data mobilisation to GBIF for many collections.",
+      "key_points": [
+        "NMNH is digitising about 360,000 of its 2.4 million pinned pollinators (bees, beetles, butterflies, flies) since June 2025, using a Picturae conveyor at up to 1,500 specimens per day.",
+        "Current transcription is by an external vendor (Alembo) with no interpretation (e.g. 'CA' is not expanded to California).",
+        "Published tools extract label text as a long string; Labellum's goal is Darwin Core itemisation.",
+        "Step 1: YOLO extracts individual labels (initial ~95% accuracy). Step 2: text transcription per label with a lightweight Gemini / Gemma 3 12B (~82%). Step 3: 'bucket extraction' into Darwin Core fields with Gemini.",
+        "Prompts give project context, controlled vocabularies for countries, Darwin Core field definitions and an output format.",
+        "Evaluation on 100 labels with known database records: country 99%, verbatim date 98%, genus/epithet error rates 7% and 10% (after accounting for labels with no name).",
+        "USNMENT catalogue numbers were missed in 35% of cases and a poorly printed '7' was read as '/' in 6%."
+      ],
+      "content_type": [
+        "software/tool",
+        "workflow/method"
+      ],
+      "audience_level": "intermediate",
+      "themes_raw": [
+        "insect label transcription",
+        "Darwin Core itemisation",
+        "mass digitisation conveyor",
+        "machine learning OCR",
+        "catalogue number recognition"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "Smithsonian National Museum of Natural History",
+          "type": "organisation"
+        },
+        {
+          "name": "University of Maryland",
+          "type": "organisation"
+        },
+        {
+          "name": "Picturae",
+          "type": "organisation"
+        },
+        {
+          "name": "Alembo",
+          "type": "organisation"
+        },
+        {
+          "name": "Labellum",
+          "type": "software"
+        },
+        {
+          "name": "Osprey",
+          "type": "software"
+        },
+        {
+          "name": "GBIF",
+          "type": "infrastructure"
+        },
+        {
+          "name": "YOLO",
+          "type": "software"
+        },
+        {
+          "name": "Gemma 3",
+          "type": "software"
+        },
+        {
+          "name": "Gemini",
+          "type": "software"
+        }
+      ],
+      "standards": [
+        "Darwin Core"
+      ],
+      "software_tools": [
+        "Labellum",
+        "YOLO",
+        "Gemini",
+        "Gemma 3 12B",
+        "Osprey (transcription QC tool)"
+      ],
+      "datasets": [
+        "NMNH pinned pollinator images",
+        "100 label images with matching research-database records"
+      ],
+      "methods": [
+        "object detection",
+        "LLM transcription",
+        "LLM field itemisation",
+        "controlled vocabularies in prompts"
+      ],
+      "questions": [],
+      "notable_claims": [
+        {
+          "claim": "The conveyor set-up can digitise up to 1,500 specimens per day.",
+          "timestamp": "01:52:23",
+          "confidence": "high"
+        },
+        {
+          "claim": "Country and verbatim collection date extraction reached 99% and 98% accuracy.",
+          "timestamp": "01:59:21",
+          "confidence": "high"
+        },
+        {
+          "claim": "The USNMENT catalogue number was not extracted in 35% of test labels.",
+          "timestamp": "02:00:47",
+          "confidence": "high"
+        }
+      ],
+      "recommendations": [],
+      "results_findings": [
+        "Label extraction ~95%; transcription ~82%.",
+        "Country 99%, date 98%; genus 7% and epithet 10% error.",
+        "Catalogue number: 35% missing, 6% misread."
+      ],
+      "limitations": [
+        "Transcription accuracy (~82%) needs improvement.",
+        "Identifier (identifiedBy) not recognised on a holotype label.",
+        "Catalogue number recognition is poor."
+      ],
+      "future_work": [
+        "Improve Darwin Core prompting",
+        "Package Labellum as a self-contained tool for laptops and desktops",
+        "Publish results and share with the natural history collections community"
+      ],
+      "examples_case_studies": [
+        "NMNH pollinator conveyor digitisation",
+        "Speaker's own research specimens as ground truth"
+      ],
+      "q_and_a": [],
+      "representative_excerpt": null,
+      "notable_moments": [
+        {
+          "timestamp": "01:55:55",
+          "type": "key_point",
+          "description": "Overview of Labellum's three steps."
+        },
+        {
+          "timestamp": "01:58:42",
+          "type": "key_point",
+          "description": "Accuracy test against 100 known records."
+        },
+        {
+          "timestamp": "02:00:34",
+          "type": "key_point",
+          "description": "Catalogue numbers are the main failure mode."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "01:51:27",
+          "end_timestamp": "02:02:37"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Virtual (pre-recorded) presentation as programmed."
+      }
+    },
+    {
+      "id": "sala-2026-09-25-06",
+      "type": "talk",
+      "programme_id": "event-311",
+      "title": "LLM-Based Pipeline for Extracting Nomenclatural Acts from Taxonomic Literature",
+      "programme": {
+        "title": "LLM-Based Pipeline for Extracting Nomenclatural Acts from Taxonomic Literature",
+        "speakers": [
+          {
+            "name": "Ishaipiriyan Karunakularatnam",
+            "affiliation": ""
+          }
+        ],
+        "session": "SYM47A Large Language Models for Biodiversity Data Discovery, Integration, and Curation. Part A: AI- enabled knowledge creation and extraction",
+        "scheduled_start": "9:36 AM",
+        "scheduled_end": "9:48 AM",
+        "abstract": "The International Plant Names Index (IPNI) is a critical global resource for plant nomenclature, supporting biodiversity research, conservation and taxonomic data [IPNI]. However, nomenclatural acts published in taxonomic journals are still largely dependent on manual extraction to populate the resource. This is a labour-intensive process requiring IPNI staff to screen publications and manually transcribe nomenclatural details into the database, creating bottlenecks that reduce the pace of biodiversity data collection. We developed an automated extraction pipeline that processes taxonomic PDFs and outputs structured nomenclatural data using Large Language Models (LLMs). The pipeline combines PDF-to-markdown conversion, section filtering and a two-pass extraction architecture. The first pass identifies relevant taxonomic treatments and nomenclatural acts. The second pass extracts comprehensive nomenclature information from each treatment using schemas. These schemas are designed to capture various key features including name components, authorship, publication details, type specimen information, geographic details, basionyms and other metadata such as distribution. The pipeline supports configurable schemas, LLMs, and extraction targets. This enables adaptation to different biodiversity informatics workflows and document types. By transforming unstructured literature data into structured database-ready formats, this project demonstrates how LLM based processes can reduce manual extraction effort and accelerate taxonomic data mobilisation. IPNI (2026). International Plant Names Index. Published on the Internet http://www.ipni.org, The Royal Botanic Gardens, Kew, Harvard University Herbaria & Libraries and Australian National Herbarium. [Retrieved 21 May 2026]."
+      },
+      "actual": {
+        "start_timestamp": "02:03:07",
+        "end_timestamp": "02:14:20",
+        "duration_seconds": 673,
+        "speakers": [
+          {
+            "name": "Ishaipiriyan Karunakularatnam",
+            "affiliation": "Royal Botanic Gardens, Kew"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Virtual talk played as a recording. Speaker introduces himself as 'Pyrian' (ASR also 'Purian', 'Pirian'), research associate at 'Q' (Kew), working with Nicky Nicolson and the IPNI ('APNI') team. One in-room question was asked and answered, apparently live.",
+        "transcript_quality": "medium"
+      },
+      "summary": "Ishaipiriyan Karunakularatnam presented a two-stage LLM pipeline to help IPNI curators extract nomenclatural acts from taxonomic PDFs. PDFs are converted to Markdown (PyMuPDF), cleaned of tables and images, and enriched with Crossref metadata. An LLM proposes treatment anchors, which are kept only if they match real document text (exact or ≥90% fuzzy match), and each treatment is then extracted separately against a 30+ field schema. On 50 treatments, anchor detection (F1 0.79) was the weakest link, while name fields were near the ceiling. The model-agnostic LangChain pipeline (tested with a Qwen 27B model via vLLM on an HPC) sits behind a Gradio interface for curator review.",
+      "one_line_takeaway": "A grounded, schema-constrained two-pass LLM pipeline extracts IPNI-ready nomenclatural data well once treatments are found; finding treatment boundaries is the bottleneck.",
+      "why_it_matters": "IPNI feeds global backbones like GBIF, so errors propagate downstream. The pipeline shows how to add LLM extraction to high-accuracy curation while keeping curators in control.",
+      "key_points": [
+        "IPNI holds over 1.4 million plant names from 18,500 publications by 55,000+ authors, curated by Kew's Plant and Fungal Names team.",
+        "Treatment text is abbreviation-heavy, partly Latin and inconsistently formatted, so rule-based parsing does not generalise; curation is manual and slow.",
+        "Pre-processing: PyMuPDF PDF-to-Markdown, removal of images, captions and tables, Crossref metadata with fallback defaults.",
+        "Anchor detection: the LLM proposes treatment starts, which are grounded against document lines by exact then fuzzy matching (90% similarity threshold) to prevent hallucinated anchors.",
+        "Each treatment is extracted separately to keep context small, against a finite schema of 30+ fields (taxonomy, basionym, types, collection, geography, optional descriptions). Failed validations are logged without stopping the paper.",
+        "Model-agnostic through LangChain (Hugging Face transformers locally or vLLM on HPC). Small 7B models hallucinated more and were unreliable on long treatments.",
+        "Preliminary evaluation on 50 treatments: anchor detection F1 0.79; name fields near the ceiling conditional on detection.",
+        "Output is not for direct ingestion; curator review is required. A Gradio UI lets curators drop PDFs and download CSV/JSON."
+      ],
+      "content_type": [
+        "software/tool",
+        "workflow/method"
+      ],
+      "audience_level": "specialist",
+      "themes_raw": [
+        "nomenclatural acts extraction",
+        "taxonomic literature mining",
+        "LLM grounding and hallucination control",
+        "schema-constrained extraction",
+        "curator-in-the-loop"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "International Plant Names Index (IPNI)",
+          "type": "infrastructure"
+        },
+        {
+          "name": "Royal Botanic Gardens, Kew",
+          "type": "organisation"
+        },
+        {
+          "name": "GBIF",
+          "type": "infrastructure"
+        },
+        {
+          "name": "Plants of the World Online",
+          "type": "infrastructure"
+        },
+        {
+          "name": "Crossref",
+          "type": "infrastructure"
+        },
+        {
+          "name": "PyMuPDF",
+          "type": "software"
+        },
+        {
+          "name": "LangChain",
+          "type": "software"
+        },
+        {
+          "name": "vLLM",
+          "type": "software"
+        },
+        {
+          "name": "Hugging Face transformers",
+          "type": "software"
+        },
+        {
+          "name": "Qwen",
+          "type": "software"
+        },
+        {
+          "name": "Gradio",
+          "type": "software"
+        }
+      ],
+      "standards": [
+        "International Code of Nomenclature for algae, fungi, and plants"
+      ],
+      "software_tools": [
+        "PyMuPDF",
+        "LangChain",
+        "vLLM",
+        "Hugging Face transformers",
+        "Qwen (27B)",
+        "Gradio"
+      ],
+      "datasets": [
+        "IPNI records as ground truth (50 treatments)"
+      ],
+      "methods": [
+        "two-pass LLM extraction",
+        "fuzzy-match grounding",
+        "schema validation",
+        "PDF-to-Markdown conversion"
+      ],
+      "questions": [],
+      "notable_claims": [
+        {
+          "claim": "Because IPNI feeds global taxonomic backbones such as GBIF, errors propagate downstream, so the bar for accuracy is very high.",
+          "timestamp": "02:04:02",
+          "confidence": "high"
+        },
+        {
+          "claim": "An anchor only survives if it corresponds to a real span of text in the document rather than something the model has reconstructed.",
+          "timestamp": "02:06:51",
+          "confidence": "high"
+        },
+        {
+          "claim": "Anchor detection, at an F1 score of 0.79, is the weakest link since everything downstream is conditioned on it.",
+          "timestamp": "02:11:06",
+          "confidence": "high"
+        }
+      ],
+      "recommendations": [],
+      "results_findings": [
+        "Anchor detection F1 0.79 on 50 treatments.",
+        "Name fields near the ceiling; high precision and recall for genus and epithet conditional on detection.",
+        "Extra fields not in IPNI (e.g. etymology, regions) were also captured."
+      ],
+      "limitations": [
+        "Formatting varies across journals, which mainly hurts anchor detection (treatments cited in text, notes or tables of contents).",
+        "Publication metadata skipped when not in Crossref.",
+        "Occasional hallucination in dense treatments, e.g. multi-author collector names truncated.",
+        "Requires curator validation; not for direct ingestion."
+      ],
+      "future_work": [
+        "Improve anchor detection"
+      ],
+      "examples_case_studies": [
+        "Paper with five new noteworthy species extracted into a table",
+        "Treatment compared with the live IPNI record"
+      ],
+      "q_and_a": [
+        {
+          "question": "Do you skip the descriptions or extract them?",
+          "answer_summary": "Descriptions are optional for IPNI, so they were not used in tests so far, but the model can extract them at scale.",
+          "timestamp": "02:13:36"
+        }
+      ],
+      "representative_excerpt": null,
+      "notable_moments": [
+        {
+          "timestamp": "02:05:11",
+          "type": "key_point",
+          "description": "Overview of the two-stage pipeline."
+        },
+        {
+          "timestamp": "02:06:27",
+          "type": "key_point",
+          "description": "Grounding anchors against the source text to prevent hallucination."
+        },
+        {
+          "timestamp": "02:10:50",
+          "type": "key_point",
+          "description": "Preliminary evaluation metrics."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "02:03:07",
+          "end_timestamp": "02:14:20"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Virtual presentation as programmed."
+      }
+    },
+    {
+      "id": "sala-2026-09-25-07",
+      "type": "talk",
+      "programme_id": "event-312",
+      "title": "Extracting Structured Biodiversity Knowledge from Literature with AI-Assisted Workflows",
+      "programme": {
+        "title": "Extracting Structured Biodiversity Knowledge from Literature with AI-Assisted Workflows",
+        "speakers": [
+          {
+            "name": "Yagmur GULEC",
+            "affiliation": ""
+          }
+        ],
+        "session": "SYM47A Large Language Models for Biodiversity Data Discovery, Integration, and Curation. Part A: AI- enabled knowledge creation and extraction",
+        "scheduled_start": "9:48 AM",
+        "scheduled_end": "10:00 AM",
+        "abstract": "While AI and large language models (LLMs) are increasingly used to accelerate scientific discovery and support knowledge generation, their effectiveness strongly depends on the availability of structured, interoperable, and machine-readable data. In biodiversity and ocean sciences, however, a significant portion of valuable information remains embedded in scientific articles, reports, and grey literature, making it difficult to access, reuse, and integrate into digital infrastructures.\n\nTo address this challenge, the St Lawrence Global Observatory (SLGO) developed an AI-assisted workflow capable of extracting not only structured metadata, but also tabular datasets and sensitive information from unstructured scientific documents. OCR-based table extraction automates the conversion of tabular information embedded in scientific PDFs into structured, machine-readable datasets, including the reconstruction of fragmented multi-page tables into unified data structures. Unlike narrative text, extracted tables can be readily integrated into ETL pipelines and downstream analytical workflows, reducing manual preprocessing while improving interoperability and reuse within biodiversity and ocean data systems, such as the Ocean Biodiversity Information System (OBIS) and Global Biodiversity Information Facility (GBIF).\n\nIn this session, we will present the extraction pipeline, from document ingestion and preprocessing to metadata generation, table extraction, validation, and packaging. We will also discuss current challenges and opportunities related to AI-assisted data extraction, including reproducibility, provenance and model bias. This work highlights AI’s potential to support FAIR principles while ensuring transparency and quality control."
+      },
+      "actual": {
+        "start_timestamp": "02:14:41",
+        "end_timestamp": "02:25:28",
+        "duration_seconds": 647,
+        "speakers": [
+          {
+            "name": "Yağmur Güleç",
+            "affiliation": "St. Lawrence Global Observatory (SLGO/OGSL)"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Virtual talk played as a recording. Speaker introduced as 'Yağmur Güleç', a programmer analyst at OGSL (the French acronym for SLGO). The talk covers only the table-extraction part of the abstract; metadata and sensitive-information extraction were not presented.",
+        "transcript_quality": "medium"
+      },
+      "summary": "Yağmur Güleç presented SLGO's in-house tool for extracting tables from PDFs in grey literature. It uses the text layer for born-digital pages and falls back to Tesseract OCR only for scanned pages. A demo showed PDF upload, table detection with bounding boxes, previews and export of each table to CSV, with merged cells represented as empty cells. On 19 born-digital documents, human validation gave 83% precision and 67% recall. False positives were mostly lists of tables and tables of contents; missed tables were mostly one- or two-column tables.",
+      "one_line_takeaway": "A hybrid text-layer/OCR tool can free tables from grey-literature PDFs into CSV with about 83% precision, but it misses a third of tables, especially narrow ones.",
+      "why_it_matters": "Much St. Lawrence biodiversity data is trapped in report tables. Automating their extraction could feed ETL pipelines toward standardised datasets for OBIS and GBIF.",
+      "key_points": [
+        "SLGO, founded in 2005 with 60+ partners, provides open data on the St. Lawrence ecosystem and is one of three CIOOS regional associations.",
+        "A large share of biodiversity information sits in grey literature (reports, theses, field notes) and its tables fail the FAIR principles.",
+        "The tool uses the PDF text layer for born-digital pages and Tesseract OCR only when needed, avoiding costly OCR.",
+        "Interface: upload a PDF, browse pages, list detected tables with bounding boxes, preview and export each table as CSV.",
+        "Merged cells are represented as empty cells in the reconstructed CSV.",
+        "Evaluation on 19 born-digital documents: precision 83%, recall 67% (roughly 75% overall).",
+        "False positives: lists of tables and tables of contents; misses: mainly one- and two-column tables."
+      ],
+      "content_type": [
+        "software/tool",
+        "workflow/method"
+      ],
+      "audience_level": "intermediate",
+      "themes_raw": [
+        "grey literature data rescue",
+        "PDF table extraction",
+        "OCR",
+        "FAIR data",
+        "marine biodiversity data"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "St. Lawrence Global Observatory (SLGO)",
+          "type": "organisation"
+        },
+        {
+          "name": "CIOOS",
+          "type": "infrastructure"
+        },
+        {
+          "name": "Tesseract",
+          "type": "software"
+        },
+        {
+          "name": "PaddleOCR",
+          "type": "software"
+        },
+        {
+          "name": "OBIS",
+          "type": "infrastructure"
+        },
+        {
+          "name": "GBIF",
+          "type": "infrastructure"
+        }
+      ],
+      "standards": [
+        "FAIR principles",
+        "CSV"
+      ],
+      "software_tools": [
+        "Tesseract",
+        "PaddleOCR (planned)"
+      ],
+      "datasets": [
+        "SLGO data catalogue PDFs",
+        "19 born-digital test documents"
+      ],
+      "methods": [
+        "PDF text-layer parsing",
+        "OCR fallback",
+        "table detection",
+        "human validation"
+      ],
+      "questions": [],
+      "notable_claims": [
+        {
+          "claim": "Many PDFs in SLGO's catalogue contain tabular data that is out of reach for analysis and reuse.",
+          "timestamp": "02:16:25",
+          "confidence": "high"
+        },
+        {
+          "claim": "On 19 born-digital documents the tool achieved 83% precision and 67% recall.",
+          "timestamp": "02:21:39",
+          "confidence": "high"
+        },
+        {
+          "claim": "The tables most often missed were one- and two-column tables.",
+          "timestamp": "02:23:14",
+          "confidence": "high"
+        }
+      ],
+      "recommendations": [],
+      "results_findings": [
+        "Precision 83%, recall 67% on born-digital tables.",
+        "False positives are mostly tables of contents and lists of tables."
+      ],
+      "limitations": [
+        "No scanned-table test set yet.",
+        "One-third of tables missed."
+      ],
+      "future_work": [
+        "Extend testing to scanned tables",
+        "Hybridise Tesseract with PaddleOCR",
+        "Explore vision-language models as a fallback",
+        "Feed extracted tables into the existing standardisation pipeline"
+      ],
+      "examples_case_studies": [],
+      "q_and_a": [],
+      "representative_excerpt": null,
+      "notable_moments": [
+        {
+          "timestamp": "02:18:57",
+          "type": "demonstration",
+          "description": "Demo of the in-house table extraction interface."
+        },
+        {
+          "timestamp": "02:21:10",
+          "type": "key_point",
+          "description": "Evaluation results and error analysis."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "02:14:41",
+          "end_timestamp": "02:25:28"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Virtual presentation as programmed; scope narrower than abstract."
+      }
+    },
+    {
+      "id": "sala-2026-09-25-08",
+      "type": "talk",
+      "programme_id": "event-337",
+      "title": "Automated Landmark Detection for Scalable Morphometric Data Extraction from Digitized Fish Collections",
+      "programme": {
+        "title": "Automated Landmark Detection for Scalable Morphometric Data Extraction from Digitized Fish Collections",
+        "speakers": [
+          {
+            "name": "Bahadir Altintas",
+            "affiliation": ""
+          }
+        ],
+        "session": "SYM47B Large Language Models for Biodiversity Data Discovery, Integration, and Curation. AI applications, integration, and validation",
+        "scheduled_start": "10:30 AM",
+        "scheduled_end": "10:42 AM",
+        "abstract": "Morphometric analysis is fundamental to studying biological shape variation, taxonomy, and biodiversity patterns, yet large-scale research remains constrained by the time and labor required for manual landmark annotation. As natural history collections increasingly digitize specimen images, the need for scalable and AI-ready approaches to morphological data extraction is rapidly increasing.\n\nHere, we present a machine learning workflow for automated landmark detection in two-dimensional fish specimen images, built on a standardized anatomical annotation framework derived from established morphometric research. The model was trained and evaluated on manually annotated collection images to assess landmark detection accuracy across a diverse range of specimens.\n\nPerformance was evaluated using Euclidean distances between reference and predicted landmarks. Accuracy varied across anatomical regions, with external body outline landmarks achieving the highest precision. Species-level variation in performance was also observed, suggesting that morphology and imaging conditions both influence detection accuracy. Together, these results demonstrate that machine learning can reliably automate landmark detection in digitized collection images offering a scalable pathway toward AI-ready morphometric datasets for biodiversity research and natural history collections."
+      },
+      "actual": {
+        "start_timestamp": "03:00:47",
+        "end_timestamp": "03:13:07",
+        "duration_seconds": 740,
+        "speakers": [
+          {
+            "name": "Bahadir Altintas",
+            "affiliation": ""
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "First talk of SYM47B; speaker introduced as 'Bahadır Altuntas'. He acknowledges NSF and the Imageomics project (the university name in the acknowledgements is garbled). No questions were taken because the talk ran over time.",
+        "transcript_quality": "medium"
+      },
+      "summary": "Bahadir Altintas presented a dlib-based machine-learning workflow for automatically placing 28 anatomical landmarks on images of Notropis minnows from museum collections. Fish are detected and cropped, landmarks are predicted, and predictions are compared with manual StereoMorph annotations. On 250 test images accuracy was 95% at a 0.02 error threshold and 85.3% at 0.01. Outline landmarks and the eye were most accurate; inner landmarks and curved, folded or dorsal-view specimens were hardest. Accuracy varied by species from about 66% to near 100%.",
+      "one_line_takeaway": "A lightweight dlib shape-regression model can automate most fish landmarking from museum images, but inner landmarks and variable specimen poses remain hard.",
+      "why_it_matters": "Manual landmarking limits morphometric studies. Automated landmarks could make digitised collection images an AI-ready source for large-scale shape analyses.",
+      "key_points": [
+        "Dataset: 48 Notropis species, 28 landmarks from the literature, 217 training and 250 test images.",
+        "Manual annotation with the StereoMorph R package produced coordinates for training.",
+        "dlib was chosen for being fast, lightweight, CPU-efficient and extendable from face-landmark models; it uses regression to predict landmark positions.",
+        "Pipeline: detect the fish in the museum image, crop, predict landmarks.",
+        "Accuracy by Euclidean distance: 95% at 0.02 threshold, 85.3% at 0.01.",
+        "Outline landmarks were more accurate than inner-body ones; the eye was very accurate, perhaps because of its distinctive shape.",
+        "Per-species accuracy ranged from ~100% (N. chalybaeus) to 65.97% (N. buchanani), about 34% variation.",
+        "Low-accuracy cases were curved, folded, dorsal-view or differently photographed specimens."
+      ],
+      "content_type": [
+        "research",
+        "workflow/method"
+      ],
+      "audience_level": "specialist",
+      "themes_raw": [
+        "automated landmarking",
+        "geometric morphometrics",
+        "fish collections",
+        "computer vision on specimen images",
+        "AI-ready trait data"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "dlib",
+          "type": "software"
+        },
+        {
+          "name": "StereoMorph",
+          "type": "software"
+        },
+        {
+          "name": "National Science Foundation",
+          "type": "organisation"
+        },
+        {
+          "name": "Imageomics",
+          "type": "project"
+        }
+      ],
+      "standards": [],
+      "software_tools": [
+        "dlib",
+        "StereoMorph (R)"
+      ],
+      "datasets": [
+        "Notropis specimen images (217 training, 250 test)"
+      ],
+      "methods": [
+        "shape regression landmark prediction",
+        "object detection and cropping",
+        "Euclidean distance evaluation"
+      ],
+      "questions": [],
+      "notable_claims": [
+        {
+          "claim": "Automated landmarking reached 95% accuracy at a 0.02 error threshold and 85.3% at 0.01.",
+          "timestamp": "03:06:15",
+          "confidence": "high"
+        },
+        {
+          "claim": "Outline landmarks were more accurate than inner body landmarks.",
+          "timestamp": "03:06:58",
+          "confidence": "high"
+        },
+        {
+          "claim": "Accuracy varied by about 34% across species.",
+          "timestamp": "03:07:56",
+          "confidence": "high"
+        }
+      ],
+      "recommendations": [],
+      "results_findings": [
+        "95% / 85.3% accuracy at the two thresholds.",
+        "Eye landmarks most accurate; inner landmarks least."
+      ],
+      "limitations": [
+        "Small training dataset; manual annotation of 28 landmarks is time-consuming.",
+        "Inner landmarks hard to predict.",
+        "Museum images vary widely in pose and quality."
+      ],
+      "future_work": [
+        "Enlarge training set and species coverage",
+        "Adapt pose-estimation deep learning models for landmarking",
+        "Include more varied image types"
+      ],
+      "examples_case_studies": [],
+      "q_and_a": [],
+      "representative_excerpt": null,
+      "notable_moments": [
+        {
+          "timestamp": "03:06:15",
+          "type": "key_point",
+          "description": "Headline accuracy results."
+        },
+        {
+          "timestamp": "03:08:47",
+          "type": "key_point",
+          "description": "Examples of high- and low-accuracy landmarking."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "03:00:47",
+          "end_timestamp": "03:13:07"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": ""
+      }
+    },
+    {
+      "id": "sala-2026-09-25-09",
+      "type": "talk",
+      "programme_id": "event-338",
+      "title": "Contained Agentic Workflow for Literature Analysis and Data Extraction in Museum Collections",
+      "programme": {
+        "title": "Contained Agentic Workflow for Literature Analysis and Data Extraction in Museum Collections",
+        "speakers": [
+          {
+            "name": "Steen Dupont",
+            "affiliation": ""
+          }
+        ],
+        "session": "SYM47B Large Language Models for Biodiversity Data Discovery, Integration, and Curation. AI applications, integration, and validation",
+        "scheduled_start": "10:42 AM",
+        "scheduled_end": "10:54 AM",
+        "abstract": "As agentic AI systems become more capable, they offer new opportunities for interacting with complex digital infrastructures, specialist literature and collections data. These systems can move beyond single-purpose language models or fixed Retrieval-Augmented Generation workflows by supporting more flexible, context-aware interactions with knowledge. However, highly versatile agentic systems also raise important concerns around cyber security, governance, compute requirements and token costs, particularly when deployed at institutional scale.\n\nThis presentation explores the use of local LLMs and agentic workflows for the analysis of scientific literature and the extraction of structured data relevant to research and museum collections. Operating on local hardware, the system is designed to ingest, interpret and curate knowledge from research papers, reports and archival documents, linking extracted information to existing collections records and domain knowledge.\n\nUsing Dell GB10 systems and high-performance devices, we demonstrate how contained LLM workflows can identify taxonomic, morphological, geographic and ecological information within text, converting narrative scientific knowledge into structured, machine-readable data. This enables the enrichment of collections databases and supports the integration of external knowledge sources into digitisation workflows.\n\nBy operating within a local/on-device environment, the approach maintains control over data processing. Live demonstrations will show how local LLMs and agentic systems can augment research and curation workflows by helping researchers and curators unlock information contained within scientific literature and integrate it directly into research and collections-based work."
+      },
+      "actual": {
+        "start_timestamp": "03:13:32",
+        "end_timestamp": "03:24:40",
+        "duration_seconds": 668,
+        "speakers": [
+          {
+            "name": "Steen Dupont",
+            "affiliation": "Natural History Museum, London"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Speaker names himself; the chair thanks 'Steve'. The project is with Jack Hollister of the NHM. The live demo had screen-sharing problems. Content is narrower than the abstract: a literature-exploration RAG prototype rather than a demonstration of structured data extraction.",
+        "transcript_quality": "medium"
+      },
+      "summary": "Steen Dupont demonstrated Kvasir, a prototype built mostly by coding agents (Codex) that runs fully on local hardware. It ingests a personal literature corpus with Docling, stores it in Neo4j and Qdrant, and lets an OpenClaw agent with a local Qwen model answer questions and explore papers. The demo ingested papers into 696 chunks and showed papers broken into sections with their references plotted over time, to characterise papers and trace evidence across the corpus. He argued for local AI for security, noted that optimised local models are improving, and suggested shared edge machines (e.g. a Dell GB10 serving 10-20 users) as institutional infrastructure, with the agent as a pluggable orchestration layer.",
+      "one_line_takeaway": "Contained, local agentic RAG over a literature corpus is feasible on a laptop or shared edge machine, avoiding the security worries of cloud agents in museums.",
+      "why_it_matters": "Museums worry about releasing agents on institutional data. This prototype shows a low-cost, offline route to experimenting with LLM literature analysis.",
+      "key_points": [
+        "The project explores AI on local hardware rather than cloud LLMs; museum IT set up a closed network, but the demo runs offline on a laptop.",
+        "Motivation: better visibility of a PhD literature corpus: most-cited works, citation timing, references per section, without reading every paper.",
+        "Architecture: OpenClaw agent orchestrator, Qwen 3.6 main model, Docling parsing, Codex-written Python scripts, Neo4j graph and Qdrant vector store, Kokoro for audio.",
+        "Demo: two papers ingested, 696 chunks created, a paper view with sections, references per section and their publication years.",
+        "Idea: the distribution of references (introduction-heavy vs conclusion-heavy) characterises paper type.",
+        "Why local AI: security, improving local models, and pre-processing so the LLM only does the important step.",
+        "A GB10-class edge machine could serve 10-20 users on ordinary laptops instead of expensive individual machines.",
+        "The agent acts as an orchestration layer, so new Docker-hosted models (e.g. vision) can be plugged in without rebuilding."
+      ],
+      "content_type": [
+        "software/tool",
+        "infrastructure"
+      ],
+      "audience_level": "intermediate",
+      "themes_raw": [
+        "local LLMs",
+        "agentic workflows",
+        "retrieval-augmented generation",
+        "literature exploration",
+        "AI security and governance",
+        "edge computing in museums"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "Natural History Museum, London",
+          "type": "organisation"
+        },
+        {
+          "name": "Kvasir",
+          "type": "software"
+        },
+        {
+          "name": "OpenClaw",
+          "type": "software"
+        },
+        {
+          "name": "Codex",
+          "type": "software"
+        },
+        {
+          "name": "Qwen",
+          "type": "software"
+        },
+        {
+          "name": "Docling",
+          "type": "software"
+        },
+        {
+          "name": "Neo4j",
+          "type": "software"
+        },
+        {
+          "name": "Qdrant",
+          "type": "software"
+        },
+        {
+          "name": "Kokoro",
+          "type": "software"
+        },
+        {
+          "name": "Dell GB10",
+          "type": "software"
+        }
+      ],
+      "standards": [],
+      "software_tools": [
+        "Kvasir",
+        "OpenClaw",
+        "Codex",
+        "Qwen 3.6",
+        "Docling",
+        "Neo4j",
+        "Qdrant",
+        "Kokoro",
+        "Docker"
+      ],
+      "datasets": [
+        "personal literature corpus (PDFs)"
+      ],
+      "methods": [
+        "retrieval-augmented generation",
+        "graph database",
+        "vector search",
+        "agent orchestration"
+      ],
+      "questions": [
+        "What would the user interface look like for pulling extracted data into a collections database?"
+      ],
+      "notable_claims": [
+        {
+          "claim": "You can use it at work with your own data without it going anywhere, using local models.",
+          "timestamp": "03:15:50",
+          "confidence": "high"
+        },
+        {
+          "claim": "A shared edge machine could let 10 or 20 users run such workflows from normal institutional laptops.",
+          "timestamp": "03:22:07",
+          "confidence": "medium"
+        }
+      ],
+      "recommendations": [],
+      "results_findings": [],
+      "limitations": [
+        "Prototype only; extracted data still needs extensive validation.",
+        "Demo hampered by screen-sharing issues."
+      ],
+      "future_work": [
+        "Add extraction of tables and data into databases",
+        "Plug further local models (e.g. vision) into the agent layer"
+      ],
+      "examples_case_studies": [
+        "Kvasir analysis of a taxonomic paper and its reference timeline"
+      ],
+      "q_and_a": [
+        {
+          "question": "Do you envision pulling information from publications into the database, and what would the UI look like?",
+          "answer_summary": "Yes, the agent could do it and the LLM can already output tables, but much validation is needed; the UI 'has to be one button, because if not, it doesn't work'.",
+          "timestamp": "03:23:56"
+        }
+      ],
+      "representative_excerpt": null,
+      "notable_moments": [
+        {
+          "timestamp": "03:16:31",
+          "type": "key_point",
+          "description": "Architecture of the local agentic stack."
+        },
+        {
+          "timestamp": "03:18:37",
+          "type": "demonstration",
+          "description": "Live demo of Kvasir's paper and reference exploration."
+        },
+        {
+          "timestamp": "03:21:39",
+          "type": "key_point",
+          "description": "Arguments for local AI and edge infrastructure."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "03:13:32",
+          "end_timestamp": "03:24:40"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Demonstration focused on literature exploration rather than structured extraction into collections records."
+      }
+    },
+    {
+      "id": "sala-2026-09-25-10",
+      "type": "talk",
+      "programme_id": "event-339",
+      "title": "Curation through citation: using AI and a knowledge graph to curate DNA barcodes",
+      "programme": {
+        "title": "Curation through citation: using AI and a knowledge graph to curate DNA barcodes",
+        "speakers": [
+          {
+            "name": "Roderic Page",
+            "affiliation": ""
+          }
+        ],
+        "session": "SYM47B Large Language Models for Biodiversity Data Discovery, Integration, and Curation. AI applications, integration, and validation",
+        "scheduled_start": "10:54 AM",
+        "scheduled_end": "11:06 AM",
+        "abstract": "Recent work on visualising DNA barcode data in the BOLD database withBOLD View has revealed numerous records that are problematic or incomplete. Common problems are a lack of formal identification (\"dark taxa\" in the original sense), a lack of geographic coordinates, and missing information on type status.\n\nOften the quality of a barcode record can be improved by consulting the paper that published the DNA barcode sequence. Papers frequently contain details on sampling localities, and an informally named taxon may subsequently have been described. For example, the barcode LEASZ362-22, published in the dataset \"Lepidoptera of Cottian Alps\" https://doi.org/10.5883/DS-LEPICOTT, is identified only to genus level as \"Denisia\". The DS-LEPICOTT dataset is cited by Huemer et al. (2023) https://doi.org/10.3390/d15020214, which in turn is cited by Huemer (2024) https://doi.org/10.3897/alpento.8.127794, which describes the new species, Denisia cryptica, for which the barcode LEASZ362-22 is from the holotype. Following this chain of connections resolves the identity of a dark taxon.\n\nFor this kind of curation to be feasible at scale we need to be able to discover these connections automatically. One way to do this is to create databases of the intermediate connections, especially citations between papers, and citations of data. Some of these links (such as papers citing papers) are available in existing databases, others have to be assembled by text mining or record matching.\n\nThis talk describes constructing this knowledge graph, and the role of AI tools both in constructing the graph and in enabling users to query the graph using natural language. Then talk will argue that a richly connected knowledge graph has the potential to improve the quality of biodiversity databases."
+      },
+      "actual": {
+        "start_timestamp": "03:24:59",
+        "end_timestamp": "03:35:04",
+        "duration_seconds": 605,
+        "speakers": [
+          {
+            "name": "Roderic Page",
+            "affiliation": ""
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Chair names 'Roderic Page' and later thanks 'Rhodri'/'Frederick' (ASR). The speaker says the talk is largely a rehash because the new work was not ready.",
+        "transcript_quality": "high"
+      },
+      "summary": "Roderic Page asked what concrete value knowledge graphs deliver, and proposed curation of DNA barcode data as an answer. Using his BOLD View site, he showed BOLD records with bad or missing coordinates, vague or informal names, and names hidden behind GenBank links. Some can be fixed by following links from the barcode to GenBank, the publishing paper's DOI and a holotype, which is more than internal-consistency data cleaning. The barriers are extracting specimen and sequence codes from literature (which Plazi does not do well) and linking barcodes to papers. He pointed to emerging large triple stores (Wikidata, OpenStreetMap, GBIF, BHL, Bionomia; 86 billion triples) as signs that such a graph is becoming real.",
+      "one_line_takeaway": "Linking barcodes, specimens and literature in a knowledge graph could fix many BOLD records, if we can reliably extract the connecting codes from papers.",
+      "why_it_matters": "Barcode data train widely used identification models while many records lack species names or correct coordinates. Citation-based curation would improve data that downstream AI relies on.",
+      "key_points": [
+        "Knowledge graphs need to show 'concrete information you do not already possess' (the Silicon Valley quote).",
+        "CurateGPT suggested combining knowledge graphs and chatbots for curation.",
+        "BOLD holds ~25 million barcodes; a well-known 5-million-barcode training set is mostly identified only to order or family.",
+        "BOLD View is his site for exploring barcode data and noting odd records.",
+        "Examples: a Tasmanian-endemic crustacean plotted at Australia's centroid; a record labelled only 'Caudata' that GenBank calls a snake from China; an informal name resolved via GenBank -> DOI -> paper -> holotype.",
+        "Data cleaning flags inconsistencies; fixing needs external evidence such as the literature.",
+        "Plazi extracts coordinates well but not specimen and sequence codes; a simple ChatGPT prompt gets most of them.",
+        "He published a dataset linking ~1,500 barcode datasets to literature; GenBank links to papers are often missing."
+      ],
+      "content_type": [
+        "research",
+        "conceptual",
+        "workflow/method"
+      ],
+      "audience_level": "intermediate",
+      "themes_raw": [
+        "DNA barcode curation",
+        "knowledge graphs",
+        "dark taxa",
+        "citation linking",
+        "literature mining",
+        "annotation of third-party data"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "BOLD",
+          "type": "infrastructure"
+        },
+        {
+          "name": "BOLD View",
+          "type": "software"
+        },
+        {
+          "name": "GenBank",
+          "type": "infrastructure"
+        },
+        {
+          "name": "NCBI",
+          "type": "organisation"
+        },
+        {
+          "name": "Plazi",
+          "type": "organisation"
+        },
+        {
+          "name": "CurateGPT",
+          "type": "software"
+        },
+        {
+          "name": "ChatGPT",
+          "type": "software"
+        },
+        {
+          "name": "Wikidata",
+          "type": "infrastructure"
+        },
+        {
+          "name": "OpenStreetMap",
+          "type": "infrastructure"
+        },
+        {
+          "name": "GBIF",
+          "type": "infrastructure"
+        },
+        {
+          "name": "Biodiversity Heritage Library",
+          "type": "infrastructure"
+        },
+        {
+          "name": "Bionomia",
+          "type": "infrastructure"
+        }
+      ],
+      "standards": [
+        "DOI"
+      ],
+      "software_tools": [
+        "BOLD View",
+        "ChatGPT",
+        "SPARQL triple store"
+      ],
+      "datasets": [
+        "BOLD barcode records",
+        "barcode dataset-to-literature citation dataset (~1,500 citations)",
+        "BIOSCAN-5M style training set"
+      ],
+      "methods": [
+        "knowledge graph linking",
+        "LLM extraction of specimen codes",
+        "citation chasing"
+      ],
+      "questions": [
+        "How can corrections made outside an infrastructure reach users of BOLD or GBIF?",
+        "Is GenBank AI-ready?"
+      ],
+      "notable_claims": [
+        {
+          "claim": "A widely used set of five million barcodes is mostly identified only to order or family, so models are trained on 'our ignorance'.",
+          "timestamp": "03:27:00",
+          "confidence": "high"
+        },
+        {
+          "claim": "Plazi is great for coordinates but does not extract the specimen and sequence codes needed to link barcodes to literature.",
+          "timestamp": "03:30:27",
+          "confidence": "high"
+        },
+        {
+          "claim": "About 86 billion triples, including Wikidata, OpenStreetMap and GBIF, are now available in one triple store project.",
+          "timestamp": "03:32:13",
+          "confidence": "medium"
+        }
+      ],
+      "recommendations": [],
+      "results_findings": [],
+      "limitations": [
+        "New work not ready; talk rehashes earlier material.",
+        "Downloading GenBank records one at a time is slow and tedious."
+      ],
+      "future_work": [
+        "Show results at the November DNA barcoding meeting in Bangkok",
+        "Automate extraction of specimen/sequence codes from literature",
+        "Link GenBank records to papers and filter taxonomic descriptions"
+      ],
+      "examples_case_studies": [
+        "Tasmanian crustacean misplaced in central Australia",
+        "Caudata record that is a Chinese snake in GenBank",
+        "Informal BOLD name resolved to a described species via holotype"
+      ],
+      "q_and_a": [
+        {
+          "question": "Is NCBI/GenBank easy to download from and AI-ready?",
+          "answer_summary": "No; fetching individual records is slow and tedious, then needs cleaning and post-processing.",
+          "timestamp": "03:32:43"
+        },
+        {
+          "question": "Annotations and corrections live outside infrastructures, so BOLD users won't see them. How do you see this?",
+          "answer_summary": "A big challenge; Bionomia's annotation model is a role model, and a knowledge graph might let annotations be seen directly, but where that work goes is the big question.",
+          "timestamp": "03:33:40"
+        }
+      ],
+      "representative_excerpt": {
+        "timestamp": "03:26:09",
+        "text": "And this is the question I keep asking about knowledge graphs. They're way cool, but what do they actually give us?"
+      },
+      "notable_moments": [
+        {
+          "timestamp": "03:25:47",
+          "type": "key_point",
+          "description": "Framing: what concrete value do knowledge graphs give?"
+        },
+        {
+          "timestamp": "03:28:35",
+          "type": "demonstration",
+          "description": "Resolving an informal barcode name via GenBank, DOI and holotype."
+        },
+        {
+          "timestamp": "03:33:40",
+          "type": "question",
+          "description": "Question on getting external corrections back into infrastructures."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "03:24:59",
+          "end_timestamp": "03:35:04"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": ""
+      }
+    },
+    {
+      "id": "sala-2026-09-25-11",
+      "type": "talk",
+      "programme_id": "event-340",
+      "title": "Integrating Many Data Sources in iChatBio Enables Emergent Scientific Use Cases",
+      "programme": {
+        "title": "Integrating Many Data Sources in iChatBio Enables Emergent Scientific Use Cases",
+        "speakers": [
+          {
+            "name": "Michael Elliott",
+            "affiliation": ""
+          }
+        ],
+        "session": "SYM47B Large Language Models for Biodiversity Data Discovery, Integration, and Curation. AI applications, integration, and validation",
+        "scheduled_start": "11:06 AM",
+        "scheduled_end": "11:18 AM",
+        "abstract": "iChatBio is an AI research platform for conversational exploration and integration of open biodiversity data, developed by the Advanced Computing and Information Systems (ACIS) Laboratory at the University of Florida. iChatBio operates by pulling data from online data sources into a unifying cloud-based workspace. Data interactions are performed by a team of autonomous large language model (LLM) agents, each specialized to interact with a single data source or data type. At its initial launch in February 2025, iChatBio only included three agents to access species occurrence data from Integrated Digitized Biocollections (iDigBio), the Global Biodiversity Information Facility (GBIF), and iNaturalist. To facilitate the development of new agents, we created an open source iChatBio Software Development Kit (SDK). The SDK has so far been used to develop 16 specialized agents, which have been incorporated into iChatBio to expand its scope to new data types and data sources, including Atlas of Living Australia (ALA), Biodiversity Heritage Library (BHL), Global Biotic Interactions (GloBI), GenBank, NASA Prediction of Worldwide Energy Resources (POWER), Ocean Biodiversity Information System (OBIS), World Register of Marine Species (WoRMS), and supporting agents for processing data, reading PDF documents, and generating maps from georeferenced data. iChatBio's design has also seen many improvements, including better intelligence, transparency, and configurability. This presentation will demonstrate how iChatBio's integration of diverse data sources and data processing tools supports emergent scientific use cases of online data beyond what is possible within existing Web-based data portals, while avoiding transparency and reproducibility issues that are common in LLM applications."
+      },
+      "actual": {
+        "start_timestamp": "03:35:29",
+        "end_timestamp": "03:48:35",
+        "duration_seconds": 786,
+        "speakers": [
+          {
+            "name": "Michael Elliott",
+            "affiliation": "University of Florida, ACIS Lab"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Speaker introduces himself. ASR renders iChatBio as 'iChat Bio'/'iTrip Bio'. Content matches the abstract; he reports 14 agents and 11 sources, versus 16 agents in the abstract.",
+        "transcript_quality": "high"
+      },
+      "summary": "Michael Elliott presented iChatBio, a public multi-agent AI system for biodiversity data. A chat agent delegates sub-tasks to specialised agents for GBIF, iDigBio, iNaturalist, ALA, OBIS, WoRMS, BHL, NCBI, GloBI, NASA climate data, web search and data processing. Worked examples combined GloBI and GBIF to find predators of the white-throated dipper with records in Norway, and generated descriptions and categories for specimen images. He stressed that chat text can hallucinate but data artefacts are real and traceable, and that more agents create emergent use cases.",
+      "one_line_takeaway": "iChatBio's specialised agents let a conversational interface combine many biodiversity data sources, with traceable, non-hallucinated data artefacts.",
+      "why_it_matters": "It lowers the barrier to multi-source questions no single portal can answer, and its open SDK invites the community to add data sources.",
+      "key_points": [
+        "Public since February 2025 at ichatbio.org; by May 2026 over 2,600 user conversations, 14 agents, 11 data sources, 12 student contributors.",
+        "A chat agent interprets requests and delegates to specialised agents; an open-source Python SDK lets others build agents.",
+        "Agents cover GBIF, iDigBio, iNaturalist, ALA, OBIS, WoRMS, BHL, NASA POWER, NCBI, Google web search, GloBI, plus processing and map generation.",
+        "Vision: data access, processing (filtering, enrichment, statistics, visualisation, FAIR packaging) and inference (Q&A, intelligent cleaning, hypothesis generation), only partly implemented.",
+        "Artefacts record exactly how data were retrieved (search parameters, requests).",
+        "Example: predators of Cinclus cinclus from GloBI, then GBIF counts in Norway; the chatbot looked at only about 10 species to keep responses short.",
+        "Moving toward user-defined repeatable workflows, e.g. describing and categorising specimen images from GBIF.",
+        "Climate values from NASA can be joined to occurrence records."
+      ],
+      "content_type": [
+        "software/tool",
+        "infrastructure"
+      ],
+      "audience_level": "general",
+      "themes_raw": [
+        "agentic AI",
+        "multi-agent systems",
+        "conversational data access",
+        "data provenance",
+        "biodiversity data integration"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "iChatBio",
+          "type": "software"
+        },
+        {
+          "name": "University of Florida",
+          "type": "organisation"
+        },
+        {
+          "name": "ACIS Lab",
+          "type": "organisation"
+        },
+        {
+          "name": "GBIF",
+          "type": "infrastructure"
+        },
+        {
+          "name": "iDigBio",
+          "type": "infrastructure"
+        },
+        {
+          "name": "iNaturalist",
+          "type": "infrastructure"
+        },
+        {
+          "name": "Atlas of Living Australia",
+          "type": "infrastructure"
+        },
+        {
+          "name": "OBIS",
+          "type": "infrastructure"
+        },
+        {
+          "name": "WoRMS",
+          "type": "infrastructure"
+        },
+        {
+          "name": "Biodiversity Heritage Library",
+          "type": "infrastructure"
+        },
+        {
+          "name": "NASA POWER",
+          "type": "infrastructure"
+        },
+        {
+          "name": "NCBI",
+          "type": "infrastructure"
+        },
+        {
+          "name": "GloBI",
+          "type": "infrastructure"
+        },
+        {
+          "name": "Catalogue of Life",
+          "type": "infrastructure"
+        },
+        {
+          "name": "Plants of the World Online",
+          "type": "infrastructure"
+        }
+      ],
+      "standards": [],
+      "software_tools": [
+        "iChatBio",
+        "iChatBio SDK"
+      ],
+      "datasets": [
+        "GBIF",
+        "GloBI",
+        "NASA POWER climate data"
+      ],
+      "methods": [
+        "LLM agent orchestration",
+        "API-based data retrieval",
+        "image description with multimodal LLMs"
+      ],
+      "questions": [],
+      "notable_claims": [
+        {
+          "claim": "As of May 2026 iChatBio has had over 2,600 user conversations and uses 14 agents across 11 data sources.",
+          "timestamp": "03:36:22",
+          "confidence": "high"
+        },
+        {
+          "claim": "Any data in iChatBio are derived from real data by reliable transformations, so they are traceable, repeatable and authentic even if chat text hallucinates.",
+          "timestamp": "03:45:26",
+          "confidence": "high"
+        },
+        {
+          "claim": "More agents mean more synergy and more emergent use cases.",
+          "timestamp": "03:45:59",
+          "confidence": "medium"
+        }
+      ],
+      "recommendations": [
+        "Contribute agents via the SDK",
+        "Give feedback with thumbs up/down"
+      ],
+      "results_findings": [],
+      "limitations": [
+        "Chat agent only examines a subset of results (e.g. ~10 predators).",
+        "Occasional bugs (failed artefact descriptions).",
+        "No reliable mechanisms for long, complex multi-step processes.",
+        "Only WoRMS taxonomy agent is mature."
+      ],
+      "future_work": [
+        "Dataset downloads for non-indexed data",
+        "User-defined repeatable workflows",
+        "More taxonomy agents (Catalogue of Life, POWO)",
+        "Graph visualisations"
+      ],
+      "examples_case_studies": [
+        "Predators of Cinclus cinclus with occurrences in Norway",
+        "Describing and categorising specimen images for a fish species",
+        "Air temperature range for a species from NASA data"
+      ],
+      "q_and_a": [
+        {
+          "question": "GBIF-type repositories have low metadata richness and completeness. Can iChatBio help?",
+          "answer_summary": "It could turn unstructured information into structured fields and bring information from GenBank back into occurrence records, but currently you would have to guide it step by step because it lacks reliable long-running process mechanisms.",
+          "timestamp": "03:46:28"
+        },
+        {
+          "question": "Taxonomy only comes from WoRMS. Will you extend to freshwater/terrestrial via ChecklistBank or Catalogue of Life?",
+          "answer_summary": "WoRMS is the best-quality taxonomy agent so far; Catalogue of Life and POWO agents are in progress, and the web agent can find other online taxonomy.",
+          "timestamp": "03:47:30"
+        }
+      ],
+      "representative_excerpt": null,
+      "notable_moments": [
+        {
+          "timestamp": "03:36:48",
+          "type": "key_point",
+          "description": "Multi-agent architecture and open SDK."
+        },
+        {
+          "timestamp": "03:40:13",
+          "type": "demonstration",
+          "description": "Worked example combining GloBI and GBIF."
+        },
+        {
+          "timestamp": "03:45:12",
+          "type": "conclusion",
+          "description": "Takeaways on hallucination vs traceable data."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "03:35:29",
+          "end_timestamp": "03:48:35"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": ""
+      }
+    },
+    {
+      "id": "sala-2026-09-25-12",
+      "type": "talk",
+      "programme_id": "event-341",
+      "title": "Reliable LLM-assisted curation of ecological survey data: a deployed agent bridging field collection and data curation",
+      "programme": {
+        "title": "Reliable LLM-assisted curation of ecological survey data: a deployed agent bridging field collection and data curation",
+        "speakers": [
+          {
+            "name": "Andrew Tokmakoff",
+            "affiliation": ""
+          }
+        ],
+        "session": "SYM47B Large Language Models for Biodiversity Data Discovery, Integration, and Curation. AI applications, integration, and validation",
+        "scheduled_start": "11:18 AM",
+        "scheduled_end": "11:30 AM",
+        "abstract": "We describe a deployed LLM curation agent that surfaces data-quality issues beyond the reach of schema constraints across TERN's SWARM ecological-monitoring database (around 950 sites). This contribution reports the agent's design, operating envelope, and the choices we believe make LLM-assisted curation usable on research-grade biodiversity data.\n\nThe agent is a containerised Python service with a configurable backing model - Gemini Flash Lite by default - exposing seven tools: read-only SQL against SWARM, REST queries against the Paratoo Strapi API, and findings persistence. A ten-phase full scan covers coordinate validity, completeness, transect structure, lookup-table validity, ecological plausibility, orphans, soil characterisation, uniqueness, and cross-system value mismatch. A focused mode re-checks open findings only and runs daily at negligible cost. Findings persist to a curation table with severity, category, and where applicable a suggested SQL fix. The agent never writes to the database autonomously; fixes require explicit curator approval via a web dashboard.\n\nThe agent's key advantage over schema validation is ecological plausibility reasoning. Findings surfaced include growth-form heights orders of magnitude too large (decimal-place entry errors), shrubs recorded taller than the canopy, epiphytes on bare substrate, soil horizons with inverted depth ordering, visits spanning implausible durations, and near-monoculture transects at sites expected to be species-rich. These issues cannot be caught by schema constraints - they require domain knowledge about what is ecologically reasonable. We discuss the human-approval gate rationale and initial curator-led validation to characterise true-positive rate by category."
+      },
+      "actual": {
+        "start_timestamp": "03:48:49",
+        "end_timestamp": "04:02:27",
+        "duration_seconds": 818,
+        "speakers": [
+          {
+            "name": "Andrew Tokmakoff",
+            "affiliation": "TERN Ecosystem Surveillance"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Virtual talk played as a recording, followed by one live question. Presented on behalf of the TERN team.",
+        "transcript_quality": "high"
+      },
+      "summary": "Andrew Tokmakoff described a deployed LLM curation agent for TERN Ecosystem Surveillance plot data. The data moved from an older system to a new EMSA-based, schema-driven app, and side-loaded data can bypass app validation. Declarative YAML rules compiled to SQL run first. The model then works through phased briefs and queries the database via a tool harness, surfacing ecologically implausible values (999 m hummock grass, shrubs taller than the canopy, inverted soil horizons). Findings go to a curator dashboard, and nothing is written without human approval. Lessons: adjudicate by class not row, never accept silence as 'no findings', and codify confirmed findings into deterministic rules.",
+      "one_line_takeaway": "An LLM agent that proposes findings for curator approval, with confirmed patterns turned into deterministic rules, catches plausibility errors that schema validation misses.",
+      "why_it_matters": "It is a rare deployed, cautious example of LLM-assisted curation with clear governance (no autonomous writes) and a practical recipe others can reuse.",
+      "key_points": [
+        "TERN is Australia's government-funded ecological research infrastructure; the Adelaide team runs hundreds of revisited plots collecting soils, vegetation and samples.",
+        "The new EMSA-based PWA is schema-driven, but a bridge is needed to the old publishing system; side-loaded Excel data lose app validation.",
+        "Data can be schema-valid but implausible, e.g. a 999 m hummock grass placeholder. Such errors are rare human factors, not systemic.",
+        "Declarative rules in YAML compile to SQL (e.g. point intercept heights > 80 m); rules were themselves created with the LLM.",
+        "Phased prompts ('briefs'), e.g. flag a single species across 50+ intercepts and don't reason it away by bioregion (the model once dismissed 76 intercepts as normal for arid regions).",
+        "Harness loop: brief and tools -> model requests queries -> harness runs SQL -> JSON rows back -> model reports findings -> findings table -> curator.",
+        "Every database write passes through a curator; adjudication is by class, not individual rows.",
+        "False positives (a 65 m tree in tall wet forest; 39 forest sites without point intercepts) lead to rule tuning.",
+        "Recipe: start from real problems, let the model roam, approve or reject, codify rules, use evals with known datasets."
+      ],
+      "content_type": [
+        "software/tool",
+        "workflow/method",
+        "case study"
+      ],
+      "audience_level": "intermediate",
+      "themes_raw": [
+        "LLM-assisted data curation",
+        "ecological plausibility checks",
+        "human-in-the-loop governance",
+        "rule codification",
+        "ecological monitoring data",
+        "agent harness design"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "TERN",
+          "type": "infrastructure"
+        },
+        {
+          "name": "TERN Ecosystem Surveillance",
+          "type": "organisation"
+        },
+        {
+          "name": "EMSA",
+          "type": "standard"
+        },
+        {
+          "name": "SWARM database",
+          "type": "dataset"
+        },
+        {
+          "name": "EcoPlots",
+          "type": "infrastructure"
+        }
+      ],
+      "standards": [
+        "EMSA",
+        "YAML",
+        "SQL"
+      ],
+      "software_tools": [
+        "curation agent harness",
+        "review dashboard",
+        "CouchDB",
+        "PostgreSQL"
+      ],
+      "datasets": [
+        "TERN SWARM ecological monitoring database"
+      ],
+      "methods": [
+        "LLM tool use",
+        "declarative data quality rules",
+        "class-level adjudication",
+        "evaluation with known datasets"
+      ],
+      "questions": [
+        "How do you decide which curation tasks need expert review?"
+      ],
+      "notable_claims": [
+        {
+          "claim": "The model never writes anything directly; every write goes through a human click.",
+          "timestamp": "03:53:56",
+          "confidence": "high"
+        },
+        {
+          "claim": "Getting the harness right was where all the hard work was.",
+          "timestamp": "03:58:31",
+          "confidence": "high"
+        },
+        {
+          "claim": "Silence from the model should not be accepted; it may mean token limits or failure rather than no findings.",
+          "timestamp": "03:58:39",
+          "confidence": "high"
+        }
+      ],
+      "recommendations": [
+        "Start with real curation problems and build a harness",
+        "Let the model surface issues, then codify confirmed ones as deterministic rules",
+        "Adjudicate by class, not by row",
+        "Don't accept silence",
+        "Use evals with a known dataset and expected results"
+      ],
+      "results_findings": [
+        "Found genuine but rare defects: impossible heights, epiphytes on bare ground, unclosed visits, inverted soil horizons, too many transects, malformed side-loaded labels.",
+        "Some findings were false positives that led to tuned rules."
+      ],
+      "limitations": [
+        "Suggested fixes can be wrong (e.g. nulling bad coordinates).",
+        "Model may reason itself out of valid flags."
+      ],
+      "future_work": [],
+      "examples_case_studies": [
+        "999 m hummock grass",
+        "single species across 76 intercepts",
+        "62 plots missing point intercepts, 39 of them forest sites"
+      ],
+      "q_and_a": [
+        {
+          "question": "How do you understand which curation tasks require expert review and which are safe?",
+          "answer_summary": "The curator is responsible for outcomes; the system surfaces rules and the curator applies domain knowledge to judge and tune them.",
+          "timestamp": "04:01:43"
+        }
+      ],
+      "representative_excerpt": {
+        "timestamp": "03:57:50",
+        "text": "Every write to the database passes through the curator, which is a person."
+      },
+      "notable_moments": [
+        {
+          "timestamp": "03:54:05",
+          "type": "key_point",
+          "description": "Declarative YAML rules compiled to SQL."
+        },
+        {
+          "timestamp": "03:55:34",
+          "type": "key_point",
+          "description": "How the harness and model interact."
+        },
+        {
+          "timestamp": "04:00:32",
+          "type": "conclusion",
+          "description": "Takeaways for reliable LLM curation."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "03:48:49",
+          "end_timestamp": "04:02:27"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Virtual presentation with live Q&A."
+      }
+    },
+    {
+      "id": "sala-2026-09-25-13",
+      "type": "talk",
+      "programme_id": "event-342",
+      "title": "Enhancing Biodiversity Georeferencing Using Large Language Models and Knowledge Graphs",
+      "programme": {
+        "title": "Enhancing Biodiversity Georeferencing Using Large Language Models and Knowledge Graphs",
+        "speakers": [
+          {
+            "name": "Roselyn Gabud",
+            "affiliation": ""
+          }
+        ],
+        "session": "SYM47B Large Language Models for Biodiversity Data Discovery, Integration, and Curation. AI applications, integration, and validation",
+        "scheduled_start": "11:30 AM",
+        "scheduled_end": "11:42 AM",
+        "abstract": "Geographic location is one of the most important pieces of information in biodiversity occurrence records. However, many biodiversity databases document locations only as place names or textual descriptions without geographic coordinates, often introducing ambiguity due to historical names, inconsistent spellings, and overlapping administrative regions. Consequently, current georeferencing approaches either rely on gazetteer lookups, string matching, and supervised training that remain limited for low-resource biodiversity datasets where locality descriptions are sparse, ambiguous, and domain-specific.\n\nIn this study, we develop a georeferencing pipeline that combines Large Language Models (LLMs) with a knowledge graph, i.e., Wikidata, to disambiguate location names in biodiversity occurrence records. An LLM is used as a preprocessing component to normalise locality names, identify spelling errors, resolve alternate names, and determine whether a locality reference corresponds to a valid geographic entity. The cleaned locality names are then matched against Wikidata entities using the Wikidata API. Candidate entities are ranked using lexical similarity and locality context from biodiversity records. The most likely Wikidata entity is then used to retrieve and assign geographic coordinates to the record. The proposed approach is applied to herbarium data from the Manchester Museum comprising 2,442 records collected from African sites. We compared our approach with a gazetteer-only baseline using fuzzy string matching, simulating the manual process of entering a place name into a gazetteer and selecting the top-ranked result. Our study aims to improve the accuracy of biodiversity georeferencing, particularly for ambiguous and historically inconsistent locality records."
+      },
+      "actual": {
+        "start_timestamp": "04:02:43",
+        "end_timestamp": "04:14:00",
+        "duration_seconds": 677,
+        "speakers": [
+          {
+            "name": "Roselyn Gabud",
+            "affiliation": "University of the Philippines Diliman"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Virtual talk played as a recording (ASR 'Roseline Gabut'/'Rosalind'). No questions from the room.",
+        "transcript_quality": "medium"
+      },
+      "summary": "Roselyn Gabud presented a georeferencing pipeline for Manchester Museum herbarium site records from Africa exported from EMu. An LLM, backed by GeoNames and Wikidata, fills missing locality hierarchy fields from narrative site descriptions, with spelling correction and per-entity fallbacks. Geographic entities are then matched from the most to the least specific level and scored by name similarity and hierarchy. A human-in-the-loop tool shows suggestions on a map, lets annotators correct them, re-run georeferencing and export back to EMu. Preprocessing cut records with only one populated locality field from 134 to 10, and records with four or more fields rose from 13 to 142.",
+      "one_line_takeaway": "LLM preprocessing plus knowledge-base matching fills in locality hierarchies and proposes coordinates, with a review tool to keep humans in control.",
+      "why_it_matters": "Hundreds of thousands of specimen records still await manual georeferencing; semi-automated methods that cope with sparse, ambiguous localities could clear that backlog.",
+      "key_points": [
+        "Collections such as Manchester Museum and Philippine biodiversity collections hold hundreds of thousands of records still georeferenced manually.",
+        "Many records have only a continent and a narrative site name, so filtering by country or province is impossible; ambiguity comes from outdated names, spellings and overlapping names.",
+        "Preprocessing: clean and extract location text, LLM interpretation of the full description, per-entity fallback via spelling correction, GeoNames, Wikidata and LLM, then hierarchy enrichment with confidence ratings.",
+        "Georeferencing queries GeoNames, Wikidata or Wikipedia from nearest named place up to continent, scoring candidates on name similarity and hierarchy; no match leaves coordinates blank.",
+        "Knowledge bases compared on 100 records (0.1-degree threshold): GeoNames good for administrative hierarchy but limited; Wikidata broader for natural features but noisy hierarchy; Wikipedia most comprehensive but noisy and slow.",
+        "On 263 annotated records (50 train, 213 dev), completeness improved markedly after preprocessing."
+      ],
+      "content_type": [
+        "workflow/method",
+        "software/tool"
+      ],
+      "audience_level": "intermediate",
+      "themes_raw": [
+        "georeferencing",
+        "locality parsing",
+        "knowledge graphs",
+        "Wikidata",
+        "human-in-the-loop tools",
+        "herbarium data"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "University of the Philippines Diliman",
+          "type": "organisation"
+        },
+        {
+          "name": "Manchester Museum",
+          "type": "organisation"
+        },
+        {
+          "name": "EMu",
+          "type": "software"
+        },
+        {
+          "name": "GeoNames",
+          "type": "infrastructure"
+        },
+        {
+          "name": "Wikidata",
+          "type": "infrastructure"
+        },
+        {
+          "name": "Wikipedia",
+          "type": "infrastructure"
+        },
+        {
+          "name": "British Council",
+          "type": "organisation"
+        },
+        {
+          "name": "International Science Partnerships Fund",
+          "type": "organisation"
+        }
+      ],
+      "standards": [],
+      "software_tools": [
+        "EMu",
+        "GeoNames API",
+        "Wikidata API",
+        "human-in-the-loop correction tool"
+      ],
+      "datasets": [
+        "Manchester Museum African collection site records"
+      ],
+      "methods": [
+        "LLM locality normalisation",
+        "hierarchical entity matching",
+        "candidate scoring"
+      ],
+      "questions": [],
+      "notable_claims": [
+        {
+          "claim": "Before preprocessing 134 site records had only one populated locality field; afterwards only 10 did.",
+          "timestamp": "04:11:28",
+          "confidence": "high"
+        },
+        {
+          "claim": "Records with four or more populated locality fields rose from 13 to 142.",
+          "timestamp": "04:11:39",
+          "confidence": "high"
+        }
+      ],
+      "recommendations": [],
+      "results_findings": [
+        "Large gain in locality completeness after LLM preprocessing.",
+        "Each knowledge base has distinct strengths: GeoNames administrative, Wikidata natural features, Wikipedia coverage."
+      ],
+      "limitations": [
+        "Suggested values can differ subtly from annotator choices (e.g. Western Cape vs City of Cape Town)."
+      ],
+      "future_work": [],
+      "examples_case_studies": [
+        "Mount Mozenberg record falling back to township-level match",
+        "Western Cape vs City of Cape Town discrepancy"
+      ],
+      "q_and_a": [],
+      "representative_excerpt": null,
+      "notable_moments": [
+        {
+          "timestamp": "04:04:24",
+          "type": "key_point",
+          "description": "Overview of the georeferencing pipeline."
+        },
+        {
+          "timestamp": "04:09:32",
+          "type": "key_point",
+          "description": "Comparison of GeoNames, Wikidata and Wikipedia."
+        },
+        {
+          "timestamp": "04:10:17",
+          "type": "demonstration",
+          "description": "Human-in-the-loop correction tool."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "04:02:43",
+          "end_timestamp": "04:14:00"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Virtual presentation as programmed."
+      }
+    },
+    {
+      "id": "sala-2026-09-25-14",
+      "type": "talk",
+      "programme_id": "event-343",
+      "title": "Validating LLM-Extracted Biodiversity Data to Preserve Scientific Meaning",
+      "programme": {
+        "title": "Validating LLM-Extracted Biodiversity Data to Preserve Scientific Meaning",
+        "speakers": [
+          {
+            "name": "Brooke Long-Fox",
+            "affiliation": ""
+          }
+        ],
+        "session": "SYM47B Large Language Models for Biodiversity Data Discovery, Integration, and Curation. AI applications, integration, and validation",
+        "scheduled_start": "11:42 AM",
+        "scheduled_end": "11:54 AM",
+        "abstract": "Artificial intelligence (AI) tools now enable large-scale extraction of biodiversity data from published literature, offering transformative potential for repositories seeking to expand data mobilization. However, current approaches largely treat extraction as a technical problem, leaving a critical gap in preserving scientific meaning, ensuring that interpretations are reviewed and traceable, and enabling reliable reuse. As a result, biodiversity datasets may appear FAIR while subtly diverging from the scientific intent of their original sources. Here, we describe a curation and validation infrastructure for AI-assisted biodiversity data, drawing on implementation within the specialized data repository, MorphoBank. In this context, scientific meaning is preserved when extracted character and character state definitions accurately reflect the original author’s intended distinctions, without altering those distinctions. We focus on the human validation required to achieve this: AI-generated draft data are reviewed through checklist-based verification to confirm that extracted data match the source, preserve meaning, and remain linked to their evidentiary context. Through case examples from this workflow, we show how human review identifies meaning-altering errors that are not detectable through automated validation alone. Together, these validation mechanisms enable scalable data extraction while preserving the scientific meaning of the original data. We present this as a generalizable model for biodiversity data systems that rely on AI-assisted extraction from literature. Automation accelerates data drafting, but reliable reuse depends on human validation."
+      },
+      "actual": {
+        "start_timestamp": "04:14:22",
+        "end_timestamp": "04:27:54",
+        "duration_seconds": 812,
+        "speakers": [
+          {
+            "name": "Brooke Long-Fox",
+            "affiliation": "MorphoBank"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Virtual talk played as a recording; chair thanks 'Guru' (ASR). Content matches the abstract.",
+        "transcript_quality": "high"
+      },
+      "summary": "Brooke Long-Fox explained how MorphoBank used an LLM tool, developed with intern Shreya Jariwala over about a year, to restore missing character and character-state definitions to ~600 NSF-funded phylogenetic matrices from PBDB. The tool is now a beta feature for users. It cut per-matrix curation from hours to minutes. Across 400+ papers and ~35,000 character-state entries accuracy was about 90%, but almost every matrix had some error: omissions, misaligned states, fabricated runs of characters, and specialist anatomical terms replaced with common words. Her message was that AI produces a draft and human validation keeps the data scientifically meaningful.",
+      "one_line_takeaway": "LLM extraction speeds up morphological matrix curation enormously, but errors, including fabrications, appear in almost every output, so expert validation is essential.",
+      "why_it_matters": "Data can look FAIR while silently changing an author's scientific meaning. Error types from real curation show why repositories must build in human validation.",
+      "key_points": [
+        "MorphoBank holds 1,500+ phylogenetic morphological character matrices from thousands of published papers.",
+        "Matrices are taxa x characters scored 0/1/2 etc.; the meaning lives in character and state definitions.",
+        "NSF funding supported adding ~600 PBDB Nexus files; many lacked state definitions, which took 1-2 to 10+ hours per matrix to add by hand.",
+        "The AI tool was trained on 20-50 hand-curated datasets; it needed page hints and expected character counts to find the right tables.",
+        "Now a beta feature in MorphoBank, with a warning that AI-extracted characters may contain errors (preprint on bioRxiv).",
+        "Results: 400+ papers, ~35,000 character-state entries, ~90% estimated accuracy; about three hours of work reduced to three minutes.",
+        "Error types: omissions, dense/irregular tables, heading misalignments, fabricated states, ambiguous anatomical terms resolved wrongly."
+      ],
+      "content_type": [
+        "case study",
+        "workflow/method",
+        "infrastructure"
+      ],
+      "audience_level": "intermediate",
+      "themes_raw": [
+        "LLM data extraction validation",
+        "phylogenetic character matrices",
+        "preserving scientific meaning",
+        "AI hallucination/fabrication",
+        "data repository curation"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "MorphoBank",
+          "type": "infrastructure"
+        },
+        {
+          "name": "Paleobiology Database (PBDB)",
+          "type": "infrastructure"
+        },
+        {
+          "name": "US National Science Foundation",
+          "type": "organisation"
+        },
+        {
+          "name": "UC Berkeley",
+          "type": "organisation"
+        },
+        {
+          "name": "bioRxiv",
+          "type": "infrastructure"
+        }
+      ],
+      "standards": [
+        "NEXUS format",
+        "FAIR principles"
+      ],
+      "software_tools": [
+        "MorphoBank AI character extraction (beta)"
+      ],
+      "datasets": [
+        "MorphoBank matrices",
+        "PBDB Nexus files (~600)"
+      ],
+      "methods": [
+        "LLM extraction from PDFs",
+        "checklist-based human validation"
+      ],
+      "questions": [],
+      "notable_claims": [
+        {
+          "claim": "Errors were found in almost every AI-extracted matrix.",
+          "timestamp": "04:22:38",
+          "confidence": "high"
+        },
+        {
+          "claim": "Over 400 papers were processed, about 35,000 character-state entries, with an estimated 90% accuracy.",
+          "timestamp": "04:23:52",
+          "confidence": "high"
+        },
+        {
+          "claim": "The LLM sometimes fabricated runs of characters that were not in the source.",
+          "timestamp": "04:25:28",
+          "confidence": "high"
+        }
+      ],
+      "recommendations": [
+        "Treat AI output as a rough draft that requires human validation before publication.",
+        "Authors should check AI-extracted characters carefully."
+      ],
+      "results_findings": [
+        "~90% accuracy over ~35,000 entries.",
+        "Curation time cut from ~3 hours to ~3 minutes per dataset, plus validation."
+      ],
+      "limitations": [
+        "Old or scanned PDFs are hard to read.",
+        "Tables are difficult for the LLM.",
+        "Needs more training data to approach perfect matrices."
+      ],
+      "future_work": [
+        "Continue improving the AI model and training data"
+      ],
+      "examples_case_studies": [
+        "Ammonoid siphuncle and external lobe characters with missing states 0 and 1"
+      ],
+      "q_and_a": [],
+      "representative_excerpt": {
+        "timestamp": "04:26:43",
+        "text": "So the automation of AI is great. It accelerates the drafting, but that is what it is. It's drafting."
+      },
+      "notable_moments": [
+        {
+          "timestamp": "04:22:38",
+          "type": "key_point",
+          "description": "Errors in almost every extraction."
+        },
+        {
+          "timestamp": "04:25:04",
+          "type": "key_point",
+          "description": "Taxonomy of observed error types, including fabrication."
+        },
+        {
+          "timestamp": "04:26:39",
+          "type": "conclusion",
+          "description": "Validation is needed; AI produces drafts."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "04:14:22",
+          "end_timestamp": "04:27:54"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Virtual presentation as programmed."
+      }
+    },
+    {
+      "id": "sala-2026-09-25-15",
+      "type": "discussion",
+      "programme_id": "event-362",
+      "title": "TDWG 2026 Unconference: pitches, topic voting and breakout report-backs",
+      "programme": {
+        "title": "UNC - TDWG 2026 Unconference",
+        "speakers": [],
+        "session": "UNC TDWG 2026 Unconference",
+        "scheduled_start": "1:00 PM",
+        "scheduled_end": "3:00 PM",
+        "abstract": "The Unconference is a participant-driven session designed to explore ideas inspired by the main TDWG 2026 Conference event and this year’s theme “Research and Robot-ready Biodiversity Data Standards”. Attendees can propose topics, join breakout discussions, and collaboratively examine issues of shared interest. The format provides an opportunity for all participants, in person or online, to connect with both existing and new colleagues, explore subjects in greater depth or propose new areas that haven’t been mentioned yet throughout the conference - sowing the seeds for new collaborations.\n\nWe invite participants to share their ideas on a topic board during the conference week, where others can also express their interest in the topic. With a little guidance from the organizers at the start of the session, we will work together to select and finalize discussion group topics and self-organize into breakout groups to learn, find synergy and gain new insights.\n\nThe session will end with breakout group leaders reporting insights or discussion summaries back to the whole group (e.g., what each group discovered, something learned). Participants are encouraged to carry discussions forward beyond the session though short writeups or position statements to invite broader engagement and continue collaboration."
+      },
+      "actual": {
+        "start_timestamp": "05:26:08",
+        "end_timestamp": "07:00:22",
+        "duration_seconds": 5654,
+        "speakers": [
+          {
+            "name": "Javier Molina",
+            "affiliation": "TDWG Outreach and Communications"
+          },
+          {
+            "name": "Nicky Nicolson",
+            "affiliation": "Royal Botanic Gardens, Kew"
+          },
+          {
+            "name": "Deb Paul",
+            "affiliation": ""
+          },
+          {
+            "name": "Esteban Marentes",
+            "affiliation": "GBIF"
+          },
+          {
+            "name": "Maarten Trekels",
+            "affiliation": ""
+          },
+          {
+            "name": "Quentin Groom",
+            "affiliation": ""
+          },
+          {
+            "name": "Sam Leeflang",
+            "affiliation": ""
+          },
+          {
+            "name": "Yasin Bakış",
+            "affiliation": "Tulane University"
+          },
+          {
+            "name": "Siobhan Leachman",
+            "affiliation": ""
+          },
+          {
+            "name": "Rukaya Johaadien",
+            "affiliation": ""
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Programmed Unconference session (event-362) in SAL A. Breakout groups met in SAL A/B/C off-recording between 05:58:52 and 06:35:49 (report-backs resume at 06:37:32). Pitch and report speaker names come from ASR and first names ('Martin' = Maarten, 'Stefan' = Esteban Marentes of GBIF, who counted votes and handed out GBIF gifts, 'Sam', 'Claudio/Claudia', 'Siobhan', 'Ruqayyah/Rukaya/Sarah Kaye', 'Jason' = Yasin). Surnames not said in the transcript (Trekels, Groom, Leeflang, Leachman, Johaadien, and Esteban Marentes as the vote counter) are inferred from context and are less certain. The organiser list (Javier Molina, Deb Paul, Chandra Earl, Shelley James, Nikki Nicholson) is stated.",
+        "transcript_quality": "medium"
+      },
+      "summary": "Organisers explained the format. Eleven proposers gave 90-second pitches: AI for natural history collections (CETAF), botanical legacies and access and benefit sharing, SPNHC-TDWG ties, causal modelling in ecology, controlled vocabularies, trait standards, river basin naming, what makes data AI-ready, Wikidata, project closure ('Closing Time'), and Darwin Core data packages and structured data extraction. After in-room and Zoom voting (interrupted by a Zoom outage), six groups met: controlled vocabularies (31 votes), Closing Time (22), AI readiness (20), Wikidata, AI for collections and Darwin Core data packages. Report-backs included plans for a controlled-vocabularies interest group, a working definition of AI readiness, Wikidata people-identifier issues, a global CETAF AI living document, and GBIF-centred conclusions on Darwin Core data packages.",
+      "one_line_takeaway": "The Unconference showed the community's priorities (controlled vocabularies, AI readiness, project sustainability, Wikidata, Darwin Core data packages) and started several follow-up groups.",
+      "why_it_matters": "It records community-driven agendas and commitments (a new interest group, an AI-readiness definition, a living AI guidelines document) that may shape future TDWG work.",
+      "key_points": [
+        "Pitches: Maarten (CETAF ISTC AI and robotics group) proposed a living document of AI use cases and guidelines for collections.",
+        "Quentin proposed discussing access and benefit sharing for digitised herbarium legacies (Nagoya Protocol), to improve a COST Action proposal due in October.",
+        "Deb Paul proposed making the SPNHC-TDWG memorandum of understanding more formal, with reciprocal activities each year.",
+        "Other pitches: causal modelling in ecology (EcoWeaver), discoverability of controlled vocabularies, trait data standardisation from an aquatic trait thesaurus, standardised river basin naming, defining AI readiness (new IQ-AIR task group), Wikidata for biodiversity, project closure and succession planning, Darwin Core data packages (ChatIPT experiences) and comparing structured-data extraction methods.",
+        "Votes: controlled vocabularies 31, Closing Time 22, AI-ready 20, Wikidata ~18, AI for collections 18, Darwin Core data packages 17 (14 + 3 online), botanical legacies 14, causal modelling 13, traits 12 + 1, SPNHC 10, river basins 3, extraction comparison 3.",
+        "Controlled vocabularies: the data quality group already listed 100+ active vocabularies; mapping tools exist; GBIF's vocabulary concepts could be improved; an interest group is being formed.",
+        "Closing Time: covered adopting physical and digital collections, supporting affected people, sudden disasters such as hacking, and the lack of up-to-date job descriptions and exit interviews.",
+        "AI readiness working definition: 'the degree to which a dataset and its associated workflows can support a defined AI task reliably', supported by structure, metadata, terminology, taxonomic backbone, identifiers, FAIRness, reproducibility, task performance, context, authorship, usage history and reliability.",
+        "Wikidata: ORCID problems (several per person or shared), adding people identifiers to collection management systems, little use of recordedByID/identifiedByID in GBIF, and a proposed Wikidata property for GBIF occurrence IDs.",
+        "Darwin Core data packages: GBIF should focus on finding, trusting, publishing and accessing complex data rather than visualising everything; tooling and visualisation are the blockers; AI helps with good examples and reusable prompts; GBIF for discovery, the IPT for unaltered data.",
+        "Deb Paul encouraged making room for unconference and hackathon formats, and Nicky Nicolson suggested 'speed blog' outputs."
+      ],
+      "content_type": [
+        "discussion",
+        "community/project"
+      ],
+      "audience_level": "general",
+      "themes_raw": [
+        "unconference format",
+        "controlled vocabularies",
+        "AI readiness definition",
+        "project sunsetting and succession",
+        "Wikidata for biodiversity",
+        "Darwin Core data packages",
+        "AI in collections digitisation",
+        "access and benefit sharing"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "CETAF",
+          "type": "organisation"
+        },
+        {
+          "name": "SPNHC",
+          "type": "organisation"
+        },
+        {
+          "name": "GBIF",
+          "type": "infrastructure"
+        },
+        {
+          "name": "Wikidata",
+          "type": "infrastructure"
+        },
+        {
+          "name": "ORCID",
+          "type": "infrastructure"
+        },
+        {
+          "name": "IPT",
+          "type": "software"
+        },
+        {
+          "name": "ChatIPT",
+          "type": "software"
+        },
+        {
+          "name": "EcoWeaver",
+          "type": "project"
+        },
+        {
+          "name": "The Carpentries",
+          "type": "organisation"
+        },
+        {
+          "name": "COST Action",
+          "type": "organisation"
+        },
+        {
+          "name": "Nagoya Protocol",
+          "type": "policy"
+        },
+        {
+          "name": "Zoom",
+          "type": "software"
+        },
+        {
+          "name": "Whova",
+          "type": "software"
+        }
+      ],
+      "standards": [
+        "Darwin Core",
+        "Darwin Core Data Package",
+        "Darwin Core Archive",
+        "MIDS",
+        "controlled vocabularies"
+      ],
+      "software_tools": [
+        "ChatIPT",
+        "IPT",
+        "Zoom",
+        "Etherpad"
+      ],
+      "datasets": [],
+      "methods": [
+        "unconference",
+        "dot/hand voting",
+        "breakout groups"
+      ],
+      "questions": [
+        "How can controlled vocabularies be made discoverable?",
+        "What defines AI-ready biodiversity data?",
+        "How should projects be closed down responsibly?",
+        "How can GBIF support complex Darwin Core data packages it cannot index?"
+      ],
+      "notable_claims": [
+        {
+          "claim": "The data quality group has already inventoried over 100 active controlled vocabularies.",
+          "timestamp": "06:40:06",
+          "confidence": "medium"
+        },
+        {
+          "claim": "AI readiness was defined as the degree to which a dataset and its associated workflows can support a defined AI task reliably.",
+          "timestamp": "06:46:51",
+          "confidence": "high"
+        },
+        {
+          "claim": "recordedByID and identifiedByID are rarely used in GBIF records.",
+          "timestamp": "06:49:24",
+          "confidence": "medium"
+        },
+        {
+          "claim": "Complex data packages break, or are not properly ingested by, the GBIF index model.",
+          "timestamp": "06:53:51",
+          "confidence": "medium"
+        }
+      ],
+      "recommendations": [
+        "Publish unconference outcomes (extended abstracts, blog posts, speed blogs).",
+        "Use GBIF for discovery and the IPT for accessing unaltered data-package data.",
+        "Test real Darwin Core data packages now while GBIF is actively working on them."
+      ],
+      "results_findings": [
+        "Six breakout groups formed; controlled vocabularies was the most voted topic (31).",
+        "Intention to form a TDWG controlled-vocabularies interest group.",
+        "Draft AI-readiness definition with a list of supporting dimensions."
+      ],
+      "limitations": [
+        "Only ~30 minutes for breakouts.",
+        "Zoom outage during voting affected online participation."
+      ],
+      "future_work": [
+        "Controlled vocabularies interest group",
+        "Continue AI-readiness definition work and publish it",
+        "CETAF AI living document and mailing list",
+        "Closing Time group to keep talking",
+        "Wikidata property proposal for GBIF occurrence ID"
+      ],
+      "examples_case_studies": [],
+      "q_and_a": [],
+      "representative_excerpt": null,
+      "notable_moments": [
+        {
+          "timestamp": "05:28:06",
+          "type": "key_point",
+          "description": "Explanation of the unconference format."
+        },
+        {
+          "timestamp": "05:32:13",
+          "type": "key_point",
+          "description": "Start of the 90-second topic pitches."
+        },
+        {
+          "timestamp": "05:47:05",
+          "type": "key_point",
+          "description": "Voting on topics."
+        },
+        {
+          "timestamp": "06:39:45",
+          "type": "key_point",
+          "description": "Controlled vocabularies group report."
+        },
+        {
+          "timestamp": "06:46:51",
+          "type": "key_point",
+          "description": "AI readiness definition reported."
+        },
+        {
+          "timestamp": "06:53:02",
+          "type": "key_point",
+          "description": "Darwin Core data packages group report."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "05:26:08",
+          "end_timestamp": "05:58:52"
+        },
+        {
+          "start_timestamp": "06:37:32",
+          "end_timestamp": "07:00:22"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Programmed plenary part of the Unconference; breakouts themselves not recorded."
+      }
+    },
+    {
+      "id": "sala-2026-09-25-16",
+      "type": "talk",
+      "programme_id": null,
+      "title": "TDWG Treasurer's Report: financial policies and investment proposals",
+      "programme": null,
+      "actual": {
+        "start_timestamp": "08:01:26",
+        "end_timestamp": "08:16:37",
+        "duration_seconds": 911,
+        "speakers": [
+          {
+            "name": "Chandra Earl",
+            "affiliation": "TDWG Treasurer"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Unprogrammed: part of the joint TDWG business meeting and closing session that followed the Unconference in SAL A (not in the programme data for this room). The chair introduces Chandra Earl as treasurer; she says she shadowed Stan Blum for a year.",
+        "transcript_quality": "high"
+      },
+      "summary": "Chandra Earl presented TDWG's finances and a new draft accounting and financial policies document that codifies practice for future treasurers. Membership brings about $18,000 a year and annual meetings roughly $10,000 net of publishing costs, against about $7,500 in regular expenses, so net revenue is about $17,500 a year. Individual membership is stagnant and institutional membership grows by only about 0.8 institutions a year. She proposed keeping $55,500 in operating cash plus an equal emergency fund in money-market funds, creating a $50,000 restricted endowment and investing the remaining $139,000 long term, for an estimated $48,000 a year. The money could support outreach, meeting hosts, member-only programming and named awards.",
+      "one_line_takeaway": "TDWG is financially stable but not growing its membership; the treasurer proposes codified policies, an endowment and investments to fund outreach and sustainability.",
+      "why_it_matters": "For a volunteer-run standards body, sustainable finances and membership growth underpin all its standards work; the proposals would change how TDWG funds community activities.",
+      "key_points": [
+        "A draft accounting and financial policies document codifies current practice so knowledge isn't held by one or two people; it will be public.",
+        "Average of about 64 individual and 171 institutional (x5) memberships per year.",
+        "Revenue: ~$18,000/year from dues; annual meetings average ~$18,000, or ~$10,000 excluding included publishing costs. Beijing and Kenya lost money; Oslo's apparent $177,000 is because bills are unpaid, and it is expected to break even.",
+        "Regular expenditures ~$7,000-7,500/year; Pensoft contract base fee ~$3,000; net ~$17,500/year.",
+        "Proposals: 100% operating reserve ($55,500), a matching short-term money-market emergency fund, a $50,000 restricted endowment, $139,000 in long-term investments; projected ~$48,000/year.",
+        "Ideas for use: funding outreach and the Time and Place subcommittee (e.g. host honoraria), member-only materials, a named endowment for travel/research awards, community support fund or newsletter.",
+        "A donate button is now on the TDWG website."
+      ],
+      "content_type": [
+        "policy/governance",
+        "community/project"
+      ],
+      "audience_level": "general",
+      "themes_raw": [
+        "society finances",
+        "membership growth",
+        "endowment",
+        "financial sustainability",
+        "governance transparency"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "TDWG",
+          "type": "organisation"
+        },
+        {
+          "name": "Pensoft",
+          "type": "organisation"
+        }
+      ],
+      "standards": [],
+      "software_tools": [],
+      "datasets": [],
+      "methods": [],
+      "questions": [
+        "What investment preferences should guide TDWG funds?",
+        "How can money be used to grow membership?",
+        "Should the endowment be named after someone and what should it fund?"
+      ],
+      "notable_claims": [
+        {
+          "claim": "Individual membership is stagnant and institutional membership is growing by only about 0.8 institutions per year.",
+          "timestamp": "08:11:29",
+          "confidence": "high"
+        },
+        {
+          "claim": "TDWG's net revenue is around $17,500 per year.",
+          "timestamp": "08:07:55",
+          "confidence": "high"
+        },
+        {
+          "claim": "The proposed changes could yield around $48,000 a year.",
+          "timestamp": "08:12:11",
+          "confidence": "medium"
+        }
+      ],
+      "recommendations": [
+        "Keep two times operating costs readily available",
+        "Create a restricted endowment with investment, distribution and use policies",
+        "Invest in sustainable options aligned with TDWG's mission"
+      ],
+      "results_findings": [
+        "Membership dues ~$18k/yr; meetings ~$10k/yr net of publishing; expenses ~$7.5k/yr."
+      ],
+      "limitations": [
+        "Policies document still in draft."
+      ],
+      "future_work": [
+        "Finalise and publish the financial policies document by end of year",
+        "Propose investment plan to the executive"
+      ],
+      "examples_case_studies": [],
+      "q_and_a": [],
+      "representative_excerpt": null,
+      "notable_moments": [
+        {
+          "timestamp": "08:02:49",
+          "type": "key_point",
+          "description": "New accounting and financial policies document."
+        },
+        {
+          "timestamp": "08:09:00",
+          "type": "key_point",
+          "description": "Investment and endowment proposal."
+        },
+        {
+          "timestamp": "08:11:20",
+          "type": "key_point",
+          "description": "Stagnant membership as a concern."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "08:01:26",
+          "end_timestamp": "08:16:37"
+        }
+      ],
+      "programme_match": {
+        "status": "unprogrammed",
+        "notes": "Part of the TDWG business meeting and closing session, not listed in the SAL A programme data."
+      }
+    },
+    {
+      "id": "sala-2026-09-25-17",
+      "type": "talk",
+      "programme_id": null,
+      "title": "TDWG Business Meeting: elections, subcommittee and working group reports, and TDWG 2027 announcement",
+      "programme": null,
+      "actual": {
+        "start_timestamp": "08:16:42",
+        "end_timestamp": "09:14:36",
+        "duration_seconds": 3474,
+        "speakers": [
+          {
+            "name": "Dave (TDWG Chair)",
+            "affiliation": "TDWG"
+          },
+          {
+            "name": "Ben Norton",
+            "affiliation": "TDWG Technical Architecture Group"
+          },
+          {
+            "name": "Kit Lewers",
+            "affiliation": "TDWG Time and Place subcommittee"
+          },
+          {
+            "name": "Patricia Mergen",
+            "affiliation": "TDWG Fundraising and Partnerships subcommittee"
+          },
+          {
+            "name": "Javier Molina",
+            "affiliation": "TDWG Outreach and Communications"
+          }
+        ],
+        "identification_confidence": "medium",
+        "identification_notes": "Unprogrammed business meeting in SAL A after the Unconference. The chair calls himself chair (colleagues call him 'Dave'; surname not said). Patricia's surname and some working-group speakers are not named in the transcript; 'Patricia Mergen' is inferred from her role and is less certain. The Henry Engledow remembrance, the student awards and the BioBlitz update in between are recorded as unassigned announcements.",
+        "transcript_quality": "medium"
+      },
+      "summary": "The TDWG chair opened elections for secretary, treasurer, the TAG chair (Ben Norton is stepping down), outreach and communications, and several regional representatives, with nominations closing around the end of October. Subcommittee chairs reported: the TAG on Darwin Core Data Package ratification, Latimer Core and MIDS; Time and Place on Montreal 2027 and the search for 2028 hosts; Fundraising and Partnerships on closing TDWG's European branch in favour of an associated-partner model; and Outreach on a rebuilt social media presence. Many of the 19 working groups gave one-line updates, including MIDS public review from 28 September, TCS2 ratification, the completed Mineralogy extension and a recommendation of SSSOM for standards mapping. The meeting ended by announcing TDWG 2027 in Montreal in June (Wednesday-Saturday) with GBIF, OBIS and Canadensys.",
+      "one_line_takeaway": "TDWG is recruiting for key elected roles and subcommittees while reporting a busy standards year and announcing a large joint 2027 meeting in Montreal.",
+      "why_it_matters": "It records TDWG's governance state, standards milestones and upcoming opportunities to get involved, useful for anyone tracking the standards pipeline.",
+      "key_points": [
+        "Elections: secretary, treasurer, TAG chair (open; Ben Norton stepping down), outreach and communications, and Asia, Latin America and North America regional reps; nominations roughly to end of October.",
+        "Regional representatives will review community support fund proposals and be asked to run at least one outreach activity a year, especially in Africa and Latin America.",
+        "The chair asked people to join functional subcommittees even if they don't want elected roles.",
+        "TAG: Darwin Core Data Package ratified; Latimer Core nearly there; MIDS going to public review.",
+        "Time and Place: Montreal next; 2028 is the priority, with offers already discussed for 2028-2030.",
+        "Fundraising and Partnerships: May workshop; idea of outsourcing administration to an umbrella association; TDWG's European branch closed; TDWG now joins EU projects as an unfunded associated partner (e.g. an AI proposal coordinated by Pensoft).",
+        "Outreach: LinkedIn followers grew from ~160 to 1,285; 35 social campaigns and 25 emails; Canva, a short-URL service and a communications brief adopted.",
+        "Working groups: MIDS public review from 28 September for ~2 months; GeoSchemes terrestrial and marine about to submit standards; Latimer Core structural/descriptive/terms layers for review early 2027; Darwin Core moving to scheduled public reviews; IQ-AIR task group started; Mineralogy extension finished (35 terms); ABCD term-level documentation; standards mapping to recommend SSSOM; TCS2 ratified; invasive species group proposes four new Darwin Core Data Package properties.",
+        "TDWG 2027: Montreal, June, Wednesday-Saturday, with GBIF, OBIS and Canadensys; 800-900 attendees expected."
+      ],
+      "content_type": [
+        "policy/governance",
+        "community/project",
+        "standard"
+      ],
+      "audience_level": "general",
+      "themes_raw": [
+        "TDWG governance",
+        "elections and volunteering",
+        "standards ratification pipeline",
+        "outreach and communications",
+        "conference planning",
+        "EU project participation"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "TDWG",
+          "type": "organisation"
+        },
+        {
+          "name": "Technical Architecture Group",
+          "type": "organisation"
+        },
+        {
+          "name": "SPNHC",
+          "type": "organisation"
+        },
+        {
+          "name": "Pensoft",
+          "type": "organisation"
+        },
+        {
+          "name": "GBIF",
+          "type": "organisation"
+        },
+        {
+          "name": "OBIS",
+          "type": "organisation"
+        },
+        {
+          "name": "Canadensys",
+          "type": "organisation"
+        },
+        {
+          "name": "Canva",
+          "type": "software"
+        },
+        {
+          "name": "LinkedIn",
+          "type": "software"
+        }
+      ],
+      "standards": [
+        "Darwin Core",
+        "Darwin Core Data Package",
+        "Latimer Core",
+        "MIDS",
+        "ABCD",
+        "TCS2",
+        "SSSOM",
+        "Mineralogy extension",
+        "GeoSchemes",
+        "Biodiversity Data Quality (BDQ)"
+      ],
+      "software_tools": [
+        "Canva",
+        "SSSOM"
+      ],
+      "datasets": [],
+      "methods": [],
+      "questions": [],
+      "notable_claims": [
+        {
+          "claim": "MIDS public review starts Monday 28 September and lasts about two months.",
+          "timestamp": "08:42:53",
+          "confidence": "high"
+        },
+        {
+          "claim": "TCS2 was ratified at the end of last year, making TCS a current TDWG standard.",
+          "timestamp": "08:52:13",
+          "confidence": "high"
+        },
+        {
+          "claim": "TDWG's LinkedIn following grew from about 160 to 1,285 over the year.",
+          "timestamp": "08:36:11",
+          "confidence": "high"
+        },
+        {
+          "claim": "TDWG 2027 will be in Montreal in June, Wednesday to Saturday, with GBIF, OBIS and Canadensys, expecting perhaps 800-900 people.",
+          "timestamp": "09:13:30",
+          "confidence": "high"
+        }
+      ],
+      "recommendations": [
+        "Join functional subcommittees and working groups",
+        "Stand for election or nominate candidates",
+        "Submit feedback during MIDS public review"
+      ],
+      "results_findings": [],
+      "limitations": [],
+      "future_work": [
+        "Find TDWG hosts for 2028 and beyond",
+        "Darwin Core scheduled public review calendar",
+        "Latimer Core public review early 2027",
+        "SSSOM recommendation for standards mapping"
+      ],
+      "examples_case_studies": [],
+      "q_and_a": [
+        {
+          "question": "When do nominations close?",
+          "answer_summary": "Roughly the end of October (answered by Stan Blum).",
+          "timestamp": "08:23:16"
+        }
+      ],
+      "representative_excerpt": null,
+      "notable_moments": [
+        {
+          "timestamp": "08:17:58",
+          "type": "key_point",
+          "description": "Open positions for the upcoming elections."
+        },
+        {
+          "timestamp": "08:28:33",
+          "type": "key_point",
+          "description": "Fundraising: European branch closure and associated partner model."
+        },
+        {
+          "timestamp": "08:40:58",
+          "type": "key_point",
+          "description": "Start of 19 working group one-line reports."
+        },
+        {
+          "timestamp": "09:13:30",
+          "type": "key_point",
+          "description": "TDWG 2027 Montreal details."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "08:16:42",
+          "end_timestamp": "08:54:26"
+        },
+        {
+          "start_timestamp": "09:11:51",
+          "end_timestamp": "09:14:36"
+        }
+      ],
+      "programme_match": {
+        "status": "unprogrammed",
+        "notes": "Business meeting and closing session not listed in the SAL A programme data."
+      }
+    }
+  ],
+  "unassigned": [
+    {
+      "start_timestamp": "00:32:11",
+      "end_timestamp": "00:34:57",
+      "type": "repeated_content",
+      "description": "Test playback before the session: repeated opening seconds of Ishaipiriyan Karunakularatnam's and Yağmur Güleç's recorded talks."
+    },
+    {
+      "start_timestamp": "00:55:29",
+      "end_timestamp": "00:58:27",
+      "type": "introduction",
+      "description": "Yasin Bakış (Tulane University) opens SYM47A. He frames questions on whether LLMs can extract biodiversity information reliably, with provenance, uncertainty, links to standards and human validation; notes his full introduction is posted in the chat; introduces Vince Smith."
+    },
+    {
+      "start_timestamp": "01:24:36",
+      "end_timestamp": "01:24:52",
+      "type": "announcement",
+      "description": "Chair: no questions for Arianna Salili-James (she had to leave); questions to Whova. Introduces Grete Pasch."
+    },
+    {
+      "start_timestamp": "01:51:00",
+      "end_timestamp": "01:51:18",
+      "type": "introduction",
+      "description": "Chair suggests continuing the discussion in the break and introduces Torsten Dikow (virtual)."
+    },
+    {
+      "start_timestamp": "02:02:43",
+      "end_timestamp": "02:02:57",
+      "type": "introduction",
+      "description": "Chair thanks Torsten, points to Whova for questions and introduces Ishaipiriyan Karunakularatnam."
+    },
+    {
+      "start_timestamp": "02:25:28",
+      "end_timestamp": "02:27:14",
+      "type": "announcement",
+      "description": "Chair closes SYM47A, previews SYM47B (curation of already produced knowledge) and advertises an afternoon Unconference topic on AI readiness with a planned publication."
+    },
+    {
+      "start_timestamp": "02:29:12",
+      "end_timestamp": "02:58:23",
+      "type": "break",
+      "description": "Coffee break: fragmentary room chatter (collaboration, storytelling with archives, ship's logs, AI search trustworthiness)."
+    },
+    {
+      "start_timestamp": "02:58:33",
+      "end_timestamp": "03:00:44",
+      "type": "introduction",
+      "description": "Chair opens SYM47B, focused on already produced biodiversity data, and introduces Bahadir Altintas."
+    },
+    {
+      "start_timestamp": "03:13:07",
+      "end_timestamp": "03:13:24",
+      "type": "introduction",
+      "description": "Chair notes Altintas ran over time, no questions; introduces Steen Dupont."
+    },
+    {
+      "start_timestamp": "04:14:01",
+      "end_timestamp": "04:14:17",
+      "type": "introduction",
+      "description": "Chair: Roselyn Gabud is online but no questions; introduces Brooke Long-Fox."
+    },
+    {
+      "start_timestamp": "04:28:02",
+      "end_timestamp": "04:28:40",
+      "type": "announcement",
+      "description": "Concluding remarks by chair Yasin Bakış: thanks presenters and advertises the 1 PM Unconference."
+    },
+    {
+      "start_timestamp": "05:07:32",
+      "end_timestamp": "05:25:57",
+      "type": "technical_issue",
+      "description": "Pre-Unconference setup: microphone checks, logistics and chatter; request to close doors."
+    },
+    {
+      "start_timestamp": "06:35:49",
+      "end_timestamp": "06:37:15",
+      "type": "announcement",
+      "description": "Organisers call breakout groups back and ask them to prepare summaries."
+    },
+    {
+      "start_timestamp": "07:00:40",
+      "end_timestamp": "07:03:31",
+      "type": "room_chatter",
+      "description": "Group photos of Unconference proposers and official conference photo."
+    },
+    {
+      "start_timestamp": "07:05:36",
+      "end_timestamp": "07:07:26",
+      "type": "announcement",
+      "description": "Request to sign a condolence book for Henry Engledow, followed by an informal conversation about him (data manager at a botanical garden, bridging collections and informatics)."
+    },
+    {
+      "start_timestamp": "07:53:01",
+      "end_timestamp": "07:55:21",
+      "type": "room_chatter",
+      "description": "Setup chatter before the business meeting."
+    },
+    {
+      "start_timestamp": "07:55:31",
+      "end_timestamp": "08:01:24",
+      "type": "announcement",
+      "description": "Opening of the joint TDWG business meeting and closing session by the TDWG chair: sponsor thanks (GBIF, Picturae, BioShare, ALA, Pensoft, EarthCube), lost and found, introduction of the executive, and a call for extended abstracts in the proceedings journal (100 last year, 6 so far this year; free DOI; deadline 9 October)."
+    },
+    {
+      "start_timestamp": "08:54:28",
+      "end_timestamp": "09:00:56",
+      "type": "announcement",
+      "description": "Remembrance of Henry Engledow, led by Deb Paul and Quentin Groom, with family online; invitation to sign the book and share photos."
+    },
+    {
+      "start_timestamp": "09:01:02",
+      "end_timestamp": "09:05:22",
+      "type": "announcement",
+      "description": "Pensoft Student Awards (a complimentary Pensoft journal publication): best poster Claudia Campanini; best oral presentation Yesheng Qiu (accepted on his behalf). Six posters and 18 oral presentations were judged by five judges."
+    },
+    {
+      "start_timestamp": "09:05:31",
+      "end_timestamp": "09:11:45",
+      "type": "announcement",
+      "description": "BioBlitz update (continues another week), photo slideshow of the week, game night and river walk, and thanks to organisers, hosts (University of Oslo, NHM Oslo, GBIF Norway), designer Rosivette Hernandez and volunteers."
+    },
+    {
+      "start_timestamp": "09:14:47",
+      "end_timestamp": "09:15:31",
+      "type": "room_chatter",
+      "description": "Organising and executive committee photo; end of recording."
+    }
+  ],
+  "programme_status": [
+    {
+      "programme_id": "event-305",
+      "title": "Introduction to session: AI-enabled knowledge creation and extraction",
+      "status": "presented",
+      "content_item_id": null,
+      "notes": "Brief introduction by Yasin Bakış at 00:55:29-00:58:27; recorded as unassigned introduction."
+    },
+    {
+      "programme_id": "event-306",
+      "title": "The Planetary Knowledge Base: an infinite solutions engine converting data into action for nature",
+      "status": "presented",
+      "content_item_id": "sala-2026-09-25-01",
+      "notes": "Presented by Vincent Smith as scheduled."
+    },
+    {
+      "programme_id": "event-307",
+      "title": "SCRIBE: Structured Collection Record Interpretation and Bio-entity Extraction",
+      "status": "presented",
+      "content_item_id": "sala-2026-09-25-02",
+      "notes": "Presented by Arianna Salili-James; no Q&A."
+    },
+    {
+      "programme_id": "event-308",
+      "title": "From Historical Oology Cards to Structured Biodiversity Data: Multimodal LLM Transcription, Uncertainty Metrics, and Human Review",
+      "status": "presented",
+      "content_item_id": "sala-2026-09-25-03",
+      "notes": "Presented by Grete Pasch."
+    },
+    {
+      "programme_id": "event-309",
+      "title": "Using Large Language Models to enhance biodiversity knowledge extraction: From taxonomic treatments to graph-based knowledge systems",
+      "status": "presented",
+      "content_item_id": "sala-2026-09-25-04",
+      "notes": "Presented by Ian Ondo."
+    },
+    {
+      "programme_id": "event-310",
+      "title": "Automated data transcription and Darwin Core field itemization from insect specimen labels using machine learning",
+      "status": "presented",
+      "content_item_id": "sala-2026-09-25-05",
+      "notes": "Pre-recorded virtual talk by Torsten Dikow."
+    },
+    {
+      "programme_id": "event-311",
+      "title": "LLM-Based Pipeline for Extracting Nomenclatural Acts from Taxonomic Literature",
+      "status": "presented",
+      "content_item_id": "sala-2026-09-25-06",
+      "notes": "Pre-recorded virtual talk by Ishaipiriyan Karunakularatnam, with one question answered."
+    },
+    {
+      "programme_id": "event-312",
+      "title": "Extracting Structured Biodiversity Knowledge from Literature with AI-Assisted Workflows",
+      "status": "presented",
+      "content_item_id": "sala-2026-09-25-07",
+      "notes": "Pre-recorded virtual talk by Yağmur Güleç; covered table extraction only."
+    },
+    {
+      "programme_id": "event-337",
+      "title": "Automated Landmark Detection for Scalable Morphometric Data Extraction from Digitized Fish Collections",
+      "status": "presented",
+      "content_item_id": "sala-2026-09-25-08",
+      "notes": "Presented by Bahadir Altintas."
+    },
+    {
+      "programme_id": "event-338",
+      "title": "Contained Agentic Workflow for Literature Analysis and Data Extraction in Museum Collections",
+      "status": "presented",
+      "content_item_id": "sala-2026-09-25-09",
+      "notes": "Presented by Steen Dupont with a live demo."
+    },
+    {
+      "programme_id": "event-339",
+      "title": "Curation through citation: using AI and a knowledge graph to curate DNA barcodes",
+      "status": "presented",
+      "content_item_id": "sala-2026-09-25-10",
+      "notes": "Presented by Roderic Page."
+    },
+    {
+      "programme_id": "event-340",
+      "title": "Integrating Many Data Sources in iChatBio Enables Emergent Scientific Use Cases",
+      "status": "presented",
+      "content_item_id": "sala-2026-09-25-11",
+      "notes": "Presented by Michael Elliott."
+    },
+    {
+      "programme_id": "event-341",
+      "title": "Reliable LLM-assisted curation of ecological survey data: a deployed agent bridging field collection and data curation",
+      "status": "presented",
+      "content_item_id": "sala-2026-09-25-12",
+      "notes": "Pre-recorded virtual talk by Andrew Tokmakoff with live Q&A."
+    },
+    {
+      "programme_id": "event-342",
+      "title": "Enhancing Biodiversity Georeferencing Using Large Language Models and Knowledge Graphs",
+      "status": "presented",
+      "content_item_id": "sala-2026-09-25-13",
+      "notes": "Pre-recorded virtual talk by Roselyn Gabud."
+    },
+    {
+      "programme_id": "event-343",
+      "title": "Validating LLM-Extracted Biodiversity Data to Preserve Scientific Meaning",
+      "status": "presented",
+      "content_item_id": "sala-2026-09-25-14",
+      "notes": "Pre-recorded virtual talk by Brooke Long-Fox."
+    },
+    {
+      "programme_id": "event-344",
+      "title": "Concluding remarks",
+      "status": "presented",
+      "content_item_id": null,
+      "notes": "Brief closing by Yasin Bakış at 04:28:02-04:28:40; recorded as unassigned announcement."
+    },
+    {
+      "programme_id": "event-362",
+      "title": "UNC - TDWG 2026 Unconference",
+      "status": "presented",
+      "content_item_id": "sala-2026-09-25-15",
+      "notes": "Pitches, voting and report-backs recorded; breakout discussions happened off-recording."
+    }
+  ]
+}
