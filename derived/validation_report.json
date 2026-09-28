@@ -36,12 +36,12 @@
     },
     "corrections_applied_in_derived": 24,
     "review_status_counts": {
-      "needs_review": 18,
-      "resolved": 36,
+      "needs_review": 16,
+      "resolved": 38,
       "informational": 4
     },
     "open_issues_by_severity": {
-      "medium": 8,
+      "medium": 6,
       "low": 10
     }
   },
@@ -173,11 +173,12 @@
       "field": "actual.speakers",
       "description": "Second co-presenter recorded as 'Nikolaj (surname unclear; ASR 'Raibek')'; the programme lists Mikhail Podolskiy. Either a replacement presenter or a severe ASR error.",
       "suggested_correction": "Confirm the co-presenter with GBIF; if it was Mikhail Podolskiy, use the programme name.",
-      "correction_applied": false,
+      "correction_applied": true,
       "source_files": [
         "output/Aula_taster_talks.json"
       ],
-      "review_status": "needs_review"
+      "review_status": "resolved",
+      "resolution": "Used the programme co-presenter Mikhail Podolskiy because the talk title is an exact match. The conflicting ASR rendering remains in identification_notes; this is a programme-based identification, not an audio confirmation."
     },
     {
       "issue_id": "VR-004",
@@ -214,7 +215,8 @@
       "source_files": [
         "output/TDWG 2026-09-24 Forum.json"
       ],
-      "review_status": "needs_review"
+      "review_status": "resolved",
+      "resolution": "The programme and actual title match exactly, and actual.speakers already uses the programmed name Patrick Ruch. No further name change is needed."
     },
     {
       "issue_id": "VR-006",
@@ -1119,5 +1121,6 @@
       ],
       "review_status": "informational"
     }
-  ]
+  ],
+  "speaker_name_policy": "For a talk with a close programme-title match, use the programme spelling for scheduled presenters when the recording gives only an uncertain ASR name. Preserve explicitly identified replacement presenters and additional co-presenters; do not add listed coauthors who are not heard presenting. Document any transcript/programme conflict in identification_notes."
 }

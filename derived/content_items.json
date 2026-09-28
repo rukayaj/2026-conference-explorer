@@ -1883,12 +1883,12 @@
           "affiliation": "GBIF Secretariat"
         },
         {
-          "name": "Nikolaj",
+          "name": "Mikhail Podolskiy",
           "affiliation": "GBIF Secretariat"
         }
       ],
       "identification_confidence": "high",
-      "identification_notes": "Talk content matches event-013. Federico Mendez ('Fede', 'Freddy') presented the first and last parts. The second presenter was introduced as 'Nicola'/'Nicola Raibek' and called 'Nikolaj', not Mikhail Podolskiy as listed in the programme. This may be a replacement co-presenter or a severe ASR error; the name is uncertain. Speaker label “Nikolaj (surname unclear; ASR 'Raibek')” is indexed as “Nikolaj”; see the correction record for the reason.",
+      "identification_notes": "Talk content and title match event-013 exactly. Federico Mendez presented the first and last parts. The programme lists Mikhail Podolskiy as the second co-presenter, so that name is used for indexing. Vimeo ASR rendered the introduction as 'Nicola'/'Nicola Raibek' and later 'Nikolaj'; the recording alone does not verify the co-presenter’s identity.",
       "transcript_quality": "medium",
       "duration_seconds": 952
     },
@@ -2077,6 +2077,12 @@
         "original": "Nikolaj (surname unclear; ASR 'Raibek')",
         "corrected": "Nikolaj",
         "reason": "Removed an ASR uncertainty note from the name; surname remains unknown."
+      },
+      {
+        "field": "actual.speakers[1].name",
+        "original": "Nikolaj",
+        "corrected": "Mikhail Podolskiy",
+        "reason": "The talk title matches the programme exactly. Under the programme-first speaker policy, use the scheduled co-presenter name; the ASR rendering remains documented in identification_notes."
       }
     ]
   },
