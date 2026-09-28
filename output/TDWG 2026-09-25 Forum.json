@@ -1,0 +1,878 @@
+{
+  "recording": {
+    "conference": "TDWG 2026",
+    "date": "2026-09-25",
+    "room": "FORUM",
+    "video_url": "",
+    "transcript_source": "TDWG 2026-09-25 Forum.srt",
+    "language": "en",
+    "notes": "Recording of session CO6 'AI Driven Monitoring and Species Identification' (Friday 25 September, 8:30-10:00 AM). Speech starts at 00:29:08 (approximately 8:30 AM) and the session closes at 01:33:49, so the whole session is covered. Four of five programmed talks were given; the third scheduled speaker (Pranav Jha) was absent through illness and the programme was compressed. The final talk was a pre-recorded video. ASR errors include 'TadWig/Tetwick' for TDWG, 'CamtrapDB' for Camtrap DP, 'LAUB/LOB' for LAUP and 'Md Abrarul Faisal' for Md Abrar Al Foysol."
+  },
+  "content_items": [
+    {
+      "id": "forum-2026-09-25-01",
+      "type": "talk",
+      "programme_id": "event-328",
+      "title": "Standardizing Multimodal Insect Monitoring Data for AI-Ready Pipelines: Lessons from an InsectAI Community Datathon",
+      "programme": {
+        "title": "Standardizing Multimodal Insect Monitoring Data for AI-Ready Pipelines: Lessons from an InsectAI Community Datathon",
+        "speakers": [
+          {
+            "name": "Jamie Alison",
+            "affiliation": ""
+          }
+        ],
+        "session": "CO6 AI Driven Monitoring and Species Identification",
+        "scheduled_start": "8:30 AM",
+        "scheduled_end": "8:45 AM",
+        "abstract": "The growing availability of automated insect monitoring systems is capturing huge volumes of media containing insects. Translating these heterogeneous datasets into interoperable, AI-ready resources remains a major bottleneck for biodiversity research. Within InsectAI, an international network advancing AI for insect monitoring, we organized a community \"datathon\" - a hackathon for implementing data exchange standards. Teams mapped eleven datasets from platforms including Mothbox, Diopsis, Lepmon, and AMI traps to the Camtrap DP standard, producing (1) curated before/after examples, (2) concrete proposals to refine Camtrap DP, and (3) conversion scripts, templates, and documentation.\n\nWe summarize key data management challenges exacerbated by entomological sensors as \"the five Cs\": Certainty (confidently separating taxa from morphology or sound alone); Consensus (reconciling determinations from multiple experts and/or AI models); Counting (hundreds of insects entering and leaving the frame); Cropping (storing regions of parent media while retaining provenance); and Coverage (spatial, temporal, and taxonomic scope, crucial for quantifying sampling effort and true negatives).\n\nWe proposed targeted adaptations to Camtrap DP addressing each challenge, and reflect on how this community-driven process offered insights unlikely to emerge from a top-down approach. All datasets, scripts, templates, and documentation are openly available at https://github.com/InsectAI-COST-Action/example-datasets."
+      },
+      "actual": {
+        "start_timestamp": "00:29:41",
+        "end_timestamp": "00:48:19",
+        "speakers": [
+          {
+            "name": "Jamie Alison",
+            "affiliation": "Aarhus University; InsectAI COST Action Working Group 3"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Chair invites 'Jamie' as first speaker; speaker introduces himself as Jamie from Aarhus University representing InsectAI Working Group 3; content matches the abstract. Slide text failed to render during the talk, so the speaker presented largely from memory.",
+        "transcript_quality": "high",
+        "duration_seconds": 1118
+      },
+      "summary": "Jamie Alison described an InsectAI community 'datathon' in which participants brought their own insect-camera datasets and tried to map them to the Camtrap DP standard, using a GitHub repository of mini-datasets with automated traffic-light progress reporting and the BioWatch tool as a reward for conformant data. He then set out the data challenges posed by insect sensing systems as a set of 'Cs' (consensus, cropping, counting, coverage and customisation), giving for each a recommendation for what can be done within Camtrap DP today and what might be added beyond it. His overall message was that Camtrap DP works well and should ideally not be changed much, but that the community needs ratified guidance on how to use it for insect data, with longer-term additions such as parent media IDs, track IDs, target taxonomic scope and an assertions table.",
+      "one_line_takeaway": "Camtrap DP can largely accommodate automated insect monitoring data today, but the community needs agreed guidance and a few targeted extensions (track IDs, parent media and crop offsets, target taxonomic scope, identification provenance) to handle insect-specific challenges.",
+      "why_it_matters": "Automated insect cameras produce huge, high-temporal-resolution datasets that could offer standardised, relatively unbiased biodiversity measurements, but only if the data can be shared in a common format; the datathon gives concrete, community-derived proposals for how an existing camera-trap standard can be stretched to cover them.",
+      "key_points": [
+        "A datathon is like a hackathon but focused on converting real data rather than writing code; participants brought stratified 'mini datasets' and conversion code to a shared GitHub repository.",
+        "An automated GitHub traffic-light report on how many standardisation criteria each dataset met motivated participants; BioWatch, which reads Camtrap DP datasets, showed immediate payoff from standardising.",
+        "Consensus: many human and machine agents now identify the same media; within Camtrap DP use the classifiedBy field, and beyond it proposed detections and pipelines (models) tables capture agent provenance; for now avoid multiple determinations per individual within a dataset.",
+        "Cropping: retain media with no observations in the media table (they define temporal scope) and record the parent media ID of crops, e.g. in media comments now, with a future parent media ID and bounding-box offsets in the media table.",
+        "Counting: insects coming and going make Camtrap DP's summable event-based observations hard to apply; recommendation is to use eventID for tracks for now and avoid individualID, with a longer-term 'track ID' concept sitting between event and media-based observation.",
+        "Coverage: Camtrap DP's taxonomic descriptor describes what a dataset contains, not what was searched for; recording target taxonomic scope and invalid samples enables true negatives, possibly by absorbing Humboldt Extension terminology.",
+        "Customisation: diverse monitoring systems should be captured as distinct sampling protocols, and extra data can be added as frictionless resources keyed to existing tables, but best-practice guidance is lacking; an assertions table from the Safe and Sound acoustics project is a candidate.",
+        "Many of these issues are long-standing in other sensing modalities, so the community should prioritise which are worth pushing forward."
+      ],
+      "content_type": [
+        "standard",
+        "community/project",
+        "workflow/method"
+      ],
+      "audience_level": "intermediate",
+      "themes_raw": [
+        "automated insect monitoring",
+        "camera trap data standards",
+        "Camtrap DP extensions",
+        "community datathon",
+        "identification provenance",
+        "human and machine identifications",
+        "true negatives and sampling effort",
+        "tracking individuals across frames",
+        "image crops and bounding boxes",
+        "sampling protocols"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "InsectAI",
+          "type": "project"
+        },
+        {
+          "name": "EU COST Action",
+          "type": "organisation"
+        },
+        {
+          "name": "Aarhus University",
+          "type": "organisation"
+        },
+        {
+          "name": "GBIF",
+          "type": "infrastructure"
+        },
+        {
+          "name": "Safe and Sound project",
+          "type": "project"
+        },
+        {
+          "name": "Beagle project",
+          "type": "project"
+        },
+        {
+          "name": "Royal Entomological Society (Approaches in Entomology journal)",
+          "type": "organisation"
+        },
+        {
+          "name": "AMI (Automated Monitoring of Insects) trap",
+          "type": "device"
+        }
+      ],
+      "standards": [
+        "Camtrap DP",
+        "Darwin Core",
+        "Humboldt Extension",
+        "Frictionless Data"
+      ],
+      "software_tools": [
+        "GitHub",
+        "BioWatch"
+      ],
+      "datasets": [
+        "InsectAI datathon mini datasets (example-datasets repository)"
+      ],
+      "methods": [
+        "datathon (data-focused hackathon)",
+        "automated standardisation progress reporting (traffic light)",
+        "tracking of individuals across frames"
+      ],
+      "questions": [
+        "What is the right structure for tracks of insects between event and media-level observations, and does it generalise beyond insects?",
+        "Should target taxonomic scope be recorded at project, deployment or observation level?",
+        "How should nested sampling structures (e.g. several traps in a field) be represented in Camtrap DP without parent event IDs?"
+      ],
+      "notable_claims": [
+        {
+          "claim": "Potentially 100 species in one night could pass an AMI light-trap camera, with timing resolved to the minute.",
+          "timestamp": "00:30:11",
+          "confidence": "high"
+        },
+        {
+          "claim": "Camtrap DP's event-based, summable observations stop applying well when hundreds of insects come and go during a single night-long event.",
+          "timestamp": "00:39:19",
+          "confidence": "high"
+        },
+        {
+          "claim": "Knowing the target taxonomic scope and sampling times turns absences into true negatives for the sample.",
+          "timestamp": "00:41:29",
+          "confidence": "high"
+        },
+        {
+          "claim": "Camtrap DP is good at what it does and ideally should not be changed; community-ratified guidance is the main need.",
+          "timestamp": "00:43:37",
+          "confidence": "high"
+        }
+      ],
+      "recommendations": [
+        "Use the Camtrap DP classifiedBy field to record which model or person made an identification.",
+        "For now, avoid multiple determined identifications for a single individual within a dataset.",
+        "Keep media without observations in the media table and record parent media IDs for crops (currently in media comments).",
+        "Use eventID for insect tracking information for now; avoid individualID.",
+        "Introduce a target taxonomic scope descriptor, initially at project level.",
+        "Develop community-ratified guidance on how to use Camtrap DP for insect sensing data.",
+        "Try the datathon format in other domains."
+      ],
+      "results_findings": [
+        "The datathon produced standardised datasets, conversion code and proposals for Camtrap DP from a diverse set of insect monitoring systems."
+      ],
+      "limitations": [],
+      "future_work": [
+        "Add parent media ID and bounding-box offsets to the Camtrap DP media table.",
+        "Introduce a track ID concept between event and media-based observation.",
+        "Consider absorbing Humboldt Extension terms and an assertions table into Camtrap DP.",
+        "Deploy more insect camera traps through the Beagle project."
+      ],
+      "examples_case_studies": [
+        "AMI light-trap camera video",
+        "InsectAI datathon"
+      ],
+      "q_and_a": [
+        {
+          "question": "Is target taxonomic scope recorded at the project or deployment level?",
+          "answer_summary": "It could even be at observation level because models have target scopes, but he would introduce it first as a project-level descriptor, putting the onus on the data provider and keeping things simple.",
+          "timestamp": "00:45:05"
+        },
+        {
+          "question": "How can nested monitoring structures (e.g. four traps together in a field) be standardised in Camtrap DP, which lacks parent event IDs?",
+          "answer_summary": "Camtrap DP has implied structured nesting (deployments, media, observations) but nested events would conflict with summable event-based observations; he has no immediate solution, but sees value in named nesting levels, which motivates the proposed track ID.",
+          "timestamp": "00:46:30"
+        }
+      ],
+      "representative_excerpt": {
+        "timestamp": "00:43:37",
+        "text": "Camtrap DP is really good at doing what it does, and we actually ideally don't want to change it. We think probably, as it is, we can find a way to use it, but we need community, I guess, ratified guidance so that people know when they have these frequently asked questions what to do."
+      },
+      "notable_moments": [
+        {
+          "timestamp": "00:32:34",
+          "type": "explanation",
+          "description": "What a datathon is and how the GitHub-based process with traffic-light reporting worked."
+        },
+        {
+          "timestamp": "00:40:00",
+          "type": "key_point",
+          "description": "The counting problem and the proposed track ID concept."
+        },
+        {
+          "timestamp": "00:41:14",
+          "type": "key_point",
+          "description": "Why target taxonomic scope and sampling coverage produce true negatives."
+        },
+        {
+          "timestamp": "00:43:34",
+          "type": "conclusion",
+          "description": "Take-home messages on Camtrap DP and the need for guidance."
+        },
+        {
+          "timestamp": "00:46:14",
+          "type": "question",
+          "description": "Audience question on representing nested monitoring structures."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "00:29:41",
+          "end_timestamp": "00:48:19"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Presented first, as scheduled; speaker and topic match."
+      }
+    },
+    {
+      "id": "forum-2026-09-25-02",
+      "type": "talk",
+      "programme_id": "event-329",
+      "title": "From Standardized Field Methods to AI-Ready Knowledge: The LEPMON Project with the LAUP Infrastructure Stack for Automated Moth Monitoring",
+      "programme": {
+        "title": "From Standardized Field Methods to AI-Ready Knowledge: The LEPMON Project with the LAUP Infrastructure Stack for Automated Moth Monitoring",
+        "speakers": [
+          {
+            "name": "Peter Grobe",
+            "affiliation": ""
+          }
+        ],
+        "session": "CO6 AI Driven Monitoring and Species Identification",
+        "scheduled_start": "8:45 AM",
+        "scheduled_end": "9:00 AM",
+        "abstract": "Automated biodiversity monitoring can deliver repeatable, high-throughput observations across sites and years, but only if standardization extends beyond field methods into the data infrastructure itself. In practice, images, locality information, detections, taxonomic predictions, human annotations, expert validations, and quality-control decisions are often fragmented across files, spreadsheets, and project-specific workflows. This fragmentation increases harmonization costs, weakens comparability, and limits the creation of trustworthy AI-ready biodiversity data. The LAUP software stack, developed for the German LEPMON project, addresses this by linking deployments, localities, media records, detections, AI-assisted classifications, human annotations, expert review, and publication outputs in one traceable workflow. Rather than treating standards as a final export step, LAUP makes structured curation, provenance tracking, and quality control part of routine operations. This preserves context, supports corrections, and documents how records change over time. A key extension is the integration of Camtrap DP as a core standard for data exchange and reuse. The aim is not merely to generate a Camtrap DP export at the end of the workflow, but to reflect its key concepts in the data infrastructure itself: by aligning deployments, media, and organism records with Camtrap DP concepts LAUP produces machine-actionable outputs that are easy to integrate into downstream analytical pipelines. We present LAUP as a practical bridge between standardized field monitoring, non-standardized data realities, and AI-ready biodiversity knowledge infrastructure, showing how domain-specific systems can turn raw image streams into curated, comparable, and reusable biodiversity evidence."
+      },
+      "actual": {
+        "start_timestamp": "00:49:05",
+        "end_timestamp": "01:07:15",
+        "speakers": [
+          {
+            "name": "Peter Grobe",
+            "affiliation": ""
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Speaker introduces himself as Peter Grobe of the LepMon project. ASR renders LEPMON as 'LepMon'/'LabMon', the LAUP portal as 'LAUB'/'LOB', ARNI as 'Arnie', and Camtrap DP as 'CamtrapDB'/'Camp Trap DP'.",
+        "transcript_quality": "medium",
+        "duration_seconds": 1090
+      },
+      "summary": "Peter Grobe presented the German LEPMON project, a nationwide automated monitoring programme for nocturnal moths using standardised UV light-screen cameras (ARNI) along urbanisation gradients in eight cities, across habitats and via a citizen-science rollout, totalling around 104 devices. After two seasons it has 2.6 million raw images from over 17,000 nightly runs, yielding 4.3 million crop observations. He described the LAUP (LepMon Annotation and Upload) portal, which couples AI localisation and classification, citizen-science annotation and expert validation, and demonstrated a new map-based filter and download that exports data as a Camtrap DP package, with crops referenced as IIIF URLs rather than stored derivatives.",
+      "one_line_takeaway": "LEPMON's LAUP portal shows an end-to-end infrastructure for camera-based moth monitoring that builds Camtrap DP into routine data management, making millions of observations downloadable and analysable.",
+      "why_it_matters": "It is a working, large-scale example of the insect data standardisation challenges raised in the previous talk, showing how standardised field hardware, integrated annotation workflows and Camtrap DP export can make automated monitoring data usable for biodiversity-change research.",
+      "key_points": [
+        "Lepidoptera make up about 16% of known insect species; Germany has about 2,200 microlepidoptera (mostly too small for cameras) and 1,440 macrolepidoptera, about 1,300 of them nocturnal, which are the project focus.",
+        "Deployment design: five traps per city along a sealing gradient from ~100% (centre) to 0% (outskirts) in eight cities, plus a 25-trap habitat programme, 17 externally funded traps and a citizen-science rollout, about 104 devices running March to October.",
+        "ARNI (Automatic Recorder of Nocturnal Insects) devices, in Pro and citizen-science versions largely 3D-printed, have a UV light, defined-size screen, environmental sensors and a dimmable flash, imaging every two minutes at the same resolution so images are comparable.",
+        "Time-lapse from Jena shows moth numbers peaking around 1 AM and declining by 4-5 AM; moths rarely rest, making tracking difficult.",
+        "Workflow: AI localisation and species classification, then citizen-science annotation of bounding boxes, then expert validation, since amateurs cannot reliably identify.",
+        "LAUP (LepMon Annotation and Upload) manages projects, devices and images and supports map-based filtering and download of data as a zipped Camtrap DP package (deployments, media, observations plus datapackage descriptor).",
+        "Crops are not stored: bounding boxes are stored as coordinates on the original image and each crop is addressed via a IIIF URL, saving space; observation identifiers link back to media and deployments.",
+        "Downloading large data was 'impossible' before adopting Camtrap DP."
+      ],
+      "content_type": [
+        "infrastructure",
+        "software/tool",
+        "case study"
+      ],
+      "audience_level": "intermediate",
+      "themes_raw": [
+        "automated moth monitoring",
+        "nocturnal insect light traps",
+        "urbanisation gradients",
+        "Camtrap DP implementation",
+        "AI-assisted identification with expert validation",
+        "citizen science annotation",
+        "IIIF image referencing",
+        "end-to-end data infrastructure"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "LEPMON project",
+          "type": "project"
+        },
+        {
+          "name": "LAUP (LepMon Annotation and Upload portal)",
+          "type": "platform"
+        },
+        {
+          "name": "ARNI (Automatic Recorder of Nocturnal Insects)",
+          "type": "device"
+        },
+        {
+          "name": "InsectAI",
+          "type": "project"
+        },
+        {
+          "name": "AI for Nature model (Leiden / Naturalis)",
+          "type": "software"
+        },
+        {
+          "name": "GBIF",
+          "type": "infrastructure"
+        },
+        {
+          "name": "Zugspitze",
+          "type": "location"
+        },
+        {
+          "name": "Leipzig canopy crane",
+          "type": "facility"
+        }
+      ],
+      "standards": [
+        "Camtrap DP",
+        "IIIF"
+      ],
+      "software_tools": [
+        "LAUP portal",
+        "AI for Nature classifier"
+      ],
+      "datasets": [
+        "LEPMON image dataset (2.6 million images, 4.3 million observations)"
+      ],
+      "methods": [
+        "UV light-screen camera trapping",
+        "AI localisation and classification",
+        "citizen-science annotation",
+        "expert validation",
+        "confidence-threshold model switching"
+      ],
+      "questions": [],
+      "notable_claims": [
+        {
+          "claim": "After two field seasons with 104 ARNI devices the project has 2.6 million raw images from over 17,000 nightly runs.",
+          "timestamp": "00:55:39",
+          "confidence": "high"
+        },
+        {
+          "claim": "The raw images yield 4.3 million observations (crops).",
+          "timestamp": "00:58:14",
+          "confidence": "high"
+        },
+        {
+          "claim": "Before using Camtrap DP, downloading the data was impossible; Camtrap DP enabled large-format downloads.",
+          "timestamp": "01:03:37",
+          "confidence": "high"
+        },
+        {
+          "claim": "An ARNI device costs around 5,000 euros, driven mainly by its 20-megapixel camera.",
+          "timestamp": "01:04:57",
+          "confidence": "high"
+        },
+        {
+          "claim": "The in-house model identifies about 200 species at about 95%; predictions under 70% confidence and non-moths are sent to the AI for Nature model from Leiden.",
+          "timestamp": "01:05:27",
+          "confidence": "medium"
+        }
+      ],
+      "recommendations": [],
+      "results_findings": [
+        "Moth activity on the screen at a Jena site peaks around 1 AM and ends around 4-5 AM.",
+        "A filtered spatial query for the Bonn urban-gradient area returned 67,000 observations downloadable as Camtrap DP."
+      ],
+      "limitations": [
+        "Microlepidoptera are mostly too small for the cameras.",
+        "Public models for non-moth taxa perform poorly because they are not trained on white-background images.",
+        "Citizen-science annotators cannot reliably identify taxa, requiring expert validation, which is currently the bottleneck for publishing to GBIF."
+      ],
+      "future_work": [
+        "Publish datasets to GBIF once data are reliably validated.",
+        "Find expert validation interfaces that keep experts engaged with common species."
+      ],
+      "examples_case_studies": [
+        "Jena time-lapse 2025",
+        "Bonn urban gradient data download",
+        "Zugspitze trap at around 2,000 m"
+      ],
+      "q_and_a": [
+        {
+          "question": "(Online, from Vijay) What is the approximate cost of an ARNI?",
+          "answer_summary": "Around 5,000 euros, mainly because of the 20-megapixel camera.",
+          "timestamp": "01:04:29"
+        },
+        {
+          "question": "What share can be identified to species level, and what about Trichoptera?",
+          "answer_summary": "An in-house model covers about 200 species at roughly 95%; predictions below 70% and non-moths (e.g. Trichoptera, beetles) go to the AI for Nature model from Leiden, but species-level ID is rare because models are not trained on white backgrounds; training images welcome.",
+          "timestamp": "01:05:09"
+        },
+        {
+          "question": "When will the first datasets be published to GBIF?",
+          "answer_summary": "When data are good and reliable; it depends on expert validation, and the project is researching interfaces that keep experts engaged beyond rare species.",
+          "timestamp": "01:06:42"
+        }
+      ],
+      "representative_excerpt": {
+        "timestamp": "01:03:10",
+        "text": "A key innovation of the LOB portal, at least from our point of view, lies in the close coupling of data management with online annotation and identification workflows, so we don't source them out."
+      },
+      "notable_moments": [
+        {
+          "timestamp": "00:54:43",
+          "type": "demonstration",
+          "description": "Time-lapse of a full night of moths on the screen in Jena."
+        },
+        {
+          "timestamp": "00:56:08",
+          "type": "explanation",
+          "description": "The AI, citizen-science and expert validation workflow in the LAUP portal."
+        },
+        {
+          "timestamp": "00:59:23",
+          "type": "demonstration",
+          "description": "Map-based filtering and Camtrap DP download from the LAUP portal."
+        },
+        {
+          "timestamp": "01:00:51",
+          "type": "explanation",
+          "description": "How bounding boxes and IIIF URLs replace stored crops."
+        },
+        {
+          "timestamp": "01:05:09",
+          "type": "question",
+          "description": "Species-level identification rates and the model-switching approach."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "00:49:05",
+          "end_timestamp": "01:07:15"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Presented second, as scheduled."
+      }
+    },
+    {
+      "id": "forum-2026-09-25-03",
+      "type": "talk",
+      "programme_id": "event-331",
+      "title": "Integrating advanced monitoring technologies for spatially explicit, ecosystem-based biodiversity conservation across diverse habitats in Saudi Arabia",
+      "programme": {
+        "title": "Integrating advanced monitoring technologies for spatially explicit, ecosystem-based biodiversity conservation across diverse habitats in Saudi Arabia",
+        "speakers": [
+          {
+            "name": "Mohammad Zafarul Islam",
+            "affiliation": ""
+          }
+        ],
+        "session": "CO6 AI Driven Monitoring and Species Identification",
+        "scheduled_start": "9:15 AM",
+        "scheduled_end": "9:30 AM",
+        "abstract": "This study evaluates a spatially explicit, ecosystem-based framework across 35 Biodiversity Protection Areas (BPAs) in Saudi Arabia. The network spans diverse ecosystems, from the hyper-arid Rub' al Khali, supporting reintroduced populations of Arabian Oryx, Sand Gazelles, and Red-necked Ostrich, to the high-altitude Abha BPA, a global biodiversity hotspot currently undergoing Nubian Ibex reintroduction. Coastal and marine sites further protect Red Sea mangrove forests, sea turtle breeding grounds, and Arabian Gulf marine megafauna.\n\nEcological assessments have recorded 906 species, including 44 native and 189 avian species, with 26 taxa listed on the IUCN Red List. Key fauna include the Arabian Striped Hyena, Asir Magpie, Arabian Wolf, and various shark and fish species. Integrated monitoring utilizes a technological stack comprising satellite transmitters, camera traps, Remote Sensing (RS), GIS, and Unmanned Aerial Vehicles (UAVs) to facilitate high-resolution population assessments. Strategically located within the African-Eurasian flyways, these BPAs also serve as vital stopovers for billions of migratory birds, including the threatened Socotra Cormorant and Steppe Eagle. This model demonstrates how advanced technology and spatial prioritization can effectively safeguard global biodiversity across complex, high-value ecosystems."
+      },
+      "actual": {
+        "start_timestamp": "01:07:40",
+        "end_timestamp": "01:24:20",
+        "speakers": [
+          {
+            "name": "Mohammad Zafarul Islam",
+            "affiliation": ""
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Chair calls 'Mohammed' to the stage; content (35 Biodiversity Protection Areas in Saudi Arabia, oryx, ostrich, Arabian leopard, satellite tracking) matches the abstract. Moved forward into the 9:00 slot because the scheduled third speaker was absent.",
+        "transcript_quality": "medium",
+        "duration_seconds": 1000
+      },
+      "summary": "Mohammad Zafarul Islam gave an overview of biodiversity monitoring and conservation across Saudi Arabia's 35 Biodiversity Protection Areas, spanning deserts, the southwestern highlands (a global biodiversity hotspot), wetlands, coasts and islands. He described reintroductions (Arabian oryx, red-necked ostrich as proxy for the extinct Arabian ostrich, sand gazelle), spatial tools such as a terrestrial heat map, desertification risk map, bird collision risk map and botanical range map, and tracking of houbara, eagles, vultures and sea turtles with satellite and VHF transmitters. He highlighted that the Arabian leopard has not been recorded in Saudi Arabia since 2014 despite over 500 camera traps, and that data are held in an internal portal with restricted sharing of sensitive species records.",
+      "one_line_takeaway": "Saudi Arabia's network of 35 Biodiversity Protection Areas combines reintroductions, spatial risk mapping and satellite, camera-trap and drone monitoring to conserve species across very diverse ecosystems.",
+      "why_it_matters": "It documents a large national monitoring effort in an under-represented region with major migratory flyways and threatened endemics, and raises the question of how such largely internal data could be mobilised through platforms like GBIF while protecting sensitive species.",
+      "key_points": [
+        "35 Biodiversity Protection Areas were identified using criteria closely related to the IUCN protected area management system.",
+        "The red-necked (North African) ostrich was reintroduced as a genetic proxy for the Arabian ostrich, whose last specimen was shot in 1968; oryx and sand gazelle were released in reserves such as Shaybah.",
+        "Spatial products include a multi-taxon terrestrial heat map to target intensive research, a desertification risk map, a bird collision risk map shared with the electricity sector, and a grid-based botanical range map, plus coral and benthic habitat mapping.",
+        "About 3 billion migratory birds pass through each year; power-line collisions affect large birds such as white storks.",
+        "Fenced reserves can cause mortality when animals try to leave during multi-year droughts.",
+        "Houbara bustards caught with trained saker falcons were fitted with satellite transmitters to map migration and stopover sites, which feed into international treaty efforts.",
+        "Despite more than 500 camera traps producing millions of photos, the last Arabian leopard recorded in Saudi Arabia was in 2014; one sub-adult was killed by a poisoned carcass.",
+        "Around 1,000 species have been recorded across the BPAs and data are georeferenced and pooled into an internal platform."
+      ],
+      "content_type": [
+        "case study",
+        "research"
+      ],
+      "audience_level": "general",
+      "themes_raw": [
+        "protected area networks",
+        "species reintroduction",
+        "satellite telemetry",
+        "camera trapping",
+        "spatial risk mapping",
+        "migratory bird flyways",
+        "Arabian leopard conservation",
+        "sensitive species data sharing",
+        "national biodiversity monitoring in Saudi Arabia"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "Biodiversity Protection Areas (BPAs), Saudi Arabia",
+          "type": "protected area network"
+        },
+        {
+          "name": "IUCN",
+          "type": "organisation"
+        },
+        {
+          "name": "Conservation International",
+          "type": "organisation"
+        },
+        {
+          "name": "Shaybah Reserve",
+          "type": "protected area"
+        },
+        {
+          "name": "GBIF",
+          "type": "infrastructure"
+        },
+        {
+          "name": "IUCN Specialist Groups",
+          "type": "organisation"
+        }
+      ],
+      "standards": [],
+      "software_tools": [],
+      "datasets": [],
+      "methods": [
+        "satellite and VHF telemetry",
+        "camera trapping",
+        "drone surveys",
+        "heat mapping",
+        "risk mapping",
+        "grid-based botanical survey",
+        "captive breeding and reintroduction",
+        "falcon-assisted capture"
+      ],
+      "questions": [],
+      "notable_claims": [
+        {
+          "claim": "The Arabian ostrich's last specimen was shot in 1968 near the Jordan border; genetic analysis showed the red-necked ostrich is closely related, so it was reintroduced.",
+          "timestamp": "01:09:49",
+          "confidence": "high"
+        },
+        {
+          "claim": "Around 3 billion birds migrate through the region each year.",
+          "timestamp": "01:11:43",
+          "confidence": "medium"
+        },
+        {
+          "claim": "Perhaps at most 100 Arabian leopards survive across Oman, Yemen and Saudi Arabia.",
+          "timestamp": "01:16:07",
+          "confidence": "high"
+        },
+        {
+          "claim": "The last Arabian leopard recorded in Saudi Arabia was in 2014 despite more than 500 camera traps.",
+          "timestamp": "01:16:18",
+          "confidence": "high"
+        },
+        {
+          "claim": "Around 1,000 species have been recorded across the 35 BPAs.",
+          "timestamp": "01:18:54",
+          "confidence": "high"
+        }
+      ],
+      "recommendations": [],
+      "results_findings": [],
+      "limitations": [
+        "Millions of camera-trap photographs have not yet been fully analysed.",
+        "Data are held internally and shared only selectively, e.g. with IUCN specialist groups."
+      ],
+      "future_work": [
+        "Develop an internal platform for pooling monitoring data and generating reports.",
+        "Protect migratory stopover sites through international treaties."
+      ],
+      "examples_case_studies": [
+        "Houbara bustard satellite tracking",
+        "Arabian leopard camera-trap search in the western highlands",
+        "Fenced reserve mortality during drought",
+        "Sea turtle (hawksbill and green) tracking"
+      ],
+      "q_and_a": [
+        {
+          "question": "How is the massive amount of data stored and processed?",
+          "answer_summary": "Through dedicated internal portals (camera-trap data in one; marine, terrestrial and ecosystem services components); photos are identified with freely available software but not all analysed; data are internal and shared selectively, with care for rare and threatened species.",
+          "timestamp": "01:20:15"
+        },
+        {
+          "question": "What methods are used to monitor invertebrates?",
+          "answer_summary": "Invertebrate data are collected by other researchers; not the speaker's speciality.",
+          "timestamp": "01:22:04"
+        },
+        {
+          "question": "Were falcons used to catch the bustards?",
+          "answer_summary": "Yes; experienced falconers with saker falcons caught five wild houbara without harming them, and the birds were released after fitting transmitters.",
+          "timestamp": "01:22:53"
+        }
+      ],
+      "representative_excerpt": null,
+      "notable_moments": [
+        {
+          "timestamp": "01:09:24",
+          "type": "key_point",
+          "description": "35 Biodiversity Protection Areas and reintroduction programmes."
+        },
+        {
+          "timestamp": "01:10:40",
+          "type": "explanation",
+          "description": "Spatial conservation tools: heat map, desertification and bird collision risk maps."
+        },
+        {
+          "timestamp": "01:15:56",
+          "type": "key_point",
+          "description": "Arabian leopard status and camera-trap search."
+        },
+        {
+          "timestamp": "01:20:15",
+          "type": "question",
+          "description": "How the monitoring data are stored, processed and shared."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "01:07:40",
+          "end_timestamp": "01:24:20"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Scheduled 9:15-9:30 but presented third, in the 9:00 slot, because the scheduled third speaker was absent."
+      }
+    },
+    {
+      "id": "forum-2026-09-25-04",
+      "type": "talk",
+      "programme_id": "event-332",
+      "title": "Evaluating Four Machine Learning Using Google Earth Engine for Analyzing LULC Dynamics of Sandwip Island, Bangladesh",
+      "programme": {
+        "title": "Evaluating Four Machine Learning Using Google Earth Engine for Analyzing LULC Dynamics of Sandwip Island, Bangladesh",
+        "speakers": [
+          {
+            "name": "Md Abrar Al Foysol",
+            "affiliation": ""
+          }
+        ],
+        "session": "CO6 AI Driven Monitoring and Species Identification",
+        "scheduled_start": "9:30 AM",
+        "scheduled_end": "9:45 AM",
+        "abstract": "Sandwip Island is a highly dynamic coastal environment experiencing continuous geomorphological changes driven by erosion, accretion, and sediment deposition. This study analyses shoreline changes from 1995 to 2026 using the Digital Shoreline Analysis System (DSAS) in ArcGIS and evaluates Land Use Land Cover (LULC) changes from 2000 to 2024 using Google Earth Engine and machine learning algorithms, including Classification and Regression Tree, Gradient Boosting Trees, Random Forest, and Support Vector Machines. A total of 140 ground-truth points representing seven LULC classes were used to assess model accuracy. Among the models, RF demonstrated the highest overall accuracy (93.57%), producing clearer boundaries and better separation of major land-cover classes. GBT achieved an accuracy of 92.14%, showing reliable classification across most LULC types. SVM reached a moderate accuracy of 90%, although some overgeneralization was observed in spectrally similar classes. CART showed the lowest accuracy (87.14%), with increased mixed-pixel occurrence in dense and heterogeneous regions. The findings reveal a gradual increase in the total area of Sandwip Island due to sediment deposition, contributing to the expansion of sandy areas (61.628 km²), mangroves (27.412 km²), vegetation (58.618 km²), cropland (31.587 km²), and built-up areas (60.031 km²). These results highlight the significant influence of natural coastal processes on land-cover dynamics and demonstrate the effectiveness of remote sensing and machine learning techniques for monitoring dynamic coastal environments. The study further suggests that integrating sediment transport modeling and tidal-current analysis with machine learning approaches could improve the accuracy of future coastal change assessments."
+      },
+      "actual": {
+        "start_timestamp": "01:24:54",
+        "end_timestamp": "01:32:56",
+        "speakers": [
+          {
+            "name": "Md Abrar Al Foysol",
+            "affiliation": "Shahjalal University of Science and Technology, Bangladesh"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Pre-recorded video (programme lists it as virtual). ASR renders the speaker's name as 'Md Abrarul Faisal' and the island once as 'Sundarban Island' and once as 'Shonib Island'; content matches the abstract. No live Q&A; the chair directed questions to Whova.",
+        "transcript_quality": "high",
+        "duration_seconds": 482
+      },
+      "summary": "In a pre-recorded talk, Md Abrar Al Foysol presented a study of shoreline and land use/land cover change on Sandwip Island in Bangladesh's dynamic Ganges-Brahmaputra-Meghna delta. Shoreline change from 1995 to 2025 was analysed with DSAS in ArcGIS, and land cover from 2000 to 2024/25 was classified in Google Earth Engine with CART, SVM, Random Forest and Gradient Tree Boost, assessed against 140 ground-truth points. Random Forest performed best (93.57% overall accuracy), and results show strong erosion and accretion, a large increase in built-up area and mangroves, and a decrease in barren land.",
+      "one_line_takeaway": "Random Forest in Google Earth Engine gave the most accurate land cover classification of the highly dynamic Sandwip Island, revealing large increases in built-up area and mangroves alongside strong shoreline erosion and accretion.",
+      "why_it_matters": "It shows how freely available satellite imagery and cloud-based machine learning can be used to monitor rapidly changing, understudied coastal environments and to compare classifier performance for such tasks.",
+      "key_points": [
+        "Sandwip Island is shaped by heavy sediment loads, continuous erosion and accretion, and pressures from population growth, infrastructure, climate change and aquaculture, yet is understudied.",
+        "Landsat and Sentinel-2 imagery were used; shorelines were extracted in ArcGIS and DSAS used to compute EPR, NSM and LRR.",
+        "Onshore shoreline EPR ranged from -160.5 to +203.3 m/yr and offshore from -245.2 to +572.9 m/yr.",
+        "CART showed more mixed pixels, SVM some overgeneralisation, Random Forest the cleanest map with GBT close behind; SVM was best for built-up areas.",
+        "Overall accuracy with 140 ground-truth points (20 per class, seven classes): RF 93.57%, GBT 92.14%, SVM 90%, CART 87.14%.",
+        "Built-up area rose from about 18.1 to 60 km2 (2000-2024), barren land fell from about 101.1 to 23.5 km2, and mangroves rose from about 17.7 to 27.4 km2.",
+        "Accretion occurred mainly in the east and southeast, erosion in the west."
+      ],
+      "content_type": [
+        "research",
+        "workflow/method"
+      ],
+      "audience_level": "intermediate",
+      "themes_raw": [
+        "land use land cover change",
+        "coastal shoreline dynamics",
+        "remote sensing classification",
+        "machine learning classifier comparison",
+        "Google Earth Engine",
+        "mangrove expansion",
+        "Bangladesh delta"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "Shahjalal University of Science and Technology",
+          "type": "organisation"
+        },
+        {
+          "name": "Sandwip Island",
+          "type": "location"
+        },
+        {
+          "name": "Landsat",
+          "type": "dataset"
+        },
+        {
+          "name": "Sentinel-2",
+          "type": "dataset"
+        }
+      ],
+      "standards": [],
+      "software_tools": [
+        "Google Earth Engine",
+        "ArcGIS",
+        "Digital Shoreline Analysis System (DSAS)"
+      ],
+      "datasets": [
+        "Landsat imagery",
+        "Sentinel-2 imagery",
+        "140 ground-truth points"
+      ],
+      "methods": [
+        "Random Forest",
+        "Gradient Tree Boost",
+        "Support Vector Machine",
+        "CART",
+        "End Point Rate (EPR)",
+        "Net Shoreline Movement (NSM)",
+        "Linear Regression Rate (LRR)",
+        "accuracy assessment",
+        "change detection"
+      ],
+      "questions": [],
+      "notable_claims": [
+        {
+          "claim": "Random Forest achieved the highest overall accuracy at 93.57%, versus 92.14% for GBT, 90% for SVM and 87.14% for CART.",
+          "timestamp": "01:29:26",
+          "confidence": "high"
+        },
+        {
+          "claim": "Built-up area on Sandwip increased from about 18.1 km2 in 2000 to 60 km2 in 2024.",
+          "timestamp": "01:31:33",
+          "confidence": "high"
+        },
+        {
+          "claim": "Mangrove area increased from about 17.7 to 27.4 km2.",
+          "timestamp": "01:31:51",
+          "confidence": "high"
+        }
+      ],
+      "recommendations": [],
+      "results_findings": [
+        "Random Forest was the best-performing classifier (93.57% overall accuracy).",
+        "Shoreline EPR ranged from -160.5 to +203.3 m/yr onshore and -245.2 to +572.9 m/yr offshore.",
+        "Built-up area and mangroves increased while barren land decreased markedly; water bodies stayed stable."
+      ],
+      "limitations": [],
+      "future_work": [
+        "Integrate sediment modelling, hydrodynamics and environmental parameters to improve shoreline and LULC assessment."
+      ],
+      "examples_case_studies": [
+        "Sandwip Island, Bangladesh"
+      ],
+      "q_and_a": [],
+      "representative_excerpt": null,
+      "notable_moments": [
+        {
+          "timestamp": "01:27:39",
+          "type": "key_point",
+          "description": "Shoreline erosion and accretion rates from DSAS."
+        },
+        {
+          "timestamp": "01:29:15",
+          "type": "key_point",
+          "description": "Classifier accuracy comparison."
+        },
+        {
+          "timestamp": "01:31:25",
+          "type": "key_point",
+          "description": "Land cover change figures from the Random Forest results."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "01:24:54",
+          "end_timestamp": "01:32:56"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Pre-recorded virtual talk played as the fourth and final presentation."
+      }
+    }
+  ],
+  "unassigned": [
+    {
+      "start_timestamp": "00:29:08",
+      "end_timestamp": "00:29:36",
+      "type": "introduction",
+      "description": "Chair invites the first speaker, Jamie, and sets up the laptop; no transcribed speech before this point."
+    },
+    {
+      "start_timestamp": "00:48:19",
+      "end_timestamp": "00:49:04",
+      "type": "announcement",
+      "description": "Chair announces that one speaker is sick and cannot attend, and that the programme will be compressed with the remaining talks run back to back; Peter Grobe is introduced."
+    },
+    {
+      "start_timestamp": "01:07:15",
+      "end_timestamp": "01:07:40",
+      "type": "introduction",
+      "description": "Chair welcomes Mohammed to the stage and slide setup."
+    },
+    {
+      "start_timestamp": "01:24:31",
+      "end_timestamp": "01:24:49",
+      "type": "introduction",
+      "description": "Chair introduces the pre-recorded talk by Md Abrar Al Foysol."
+    },
+    {
+      "start_timestamp": "01:33:03",
+      "end_timestamp": "01:33:49",
+      "type": "announcement",
+      "description": "Chair notes the virtual speaker cannot take live questions and directs questions to Whova, closes the session and invites presenters for a group photo."
+    }
+  ],
+  "programme_status": [
+    {
+      "programme_id": "event-328",
+      "title": "Standardizing Multimodal Insect Monitoring Data for AI-Ready Pipelines: Lessons from an InsectAI Community Datathon",
+      "status": "presented",
+      "content_item_id": "forum-2026-09-25-01",
+      "notes": "Presented by Jamie Alison as scheduled."
+    },
+    {
+      "programme_id": "event-329",
+      "title": "From Standardized Field Methods to AI-Ready Knowledge: The LEPMON Project with the LAUP Infrastructure Stack for Automated Moth Monitoring",
+      "status": "presented",
+      "content_item_id": "forum-2026-09-25-02",
+      "notes": "Presented by Peter Grobe as scheduled."
+    },
+    {
+      "programme_id": "event-330",
+      "title": "A Provenance-Aware Geospatial AI Pipeline for Auto-Labelling Multimodal Biodiversity Data: Application to Invasive Prosopis juliflora",
+      "status": "not_presented",
+      "content_item_id": null,
+      "notes": "No talk on Prosopis juliflora or the geospatial AI pipeline appears in the recording, which covers the whole session through to its close. At 00:48:28 the chair announced that one speaker was sick and could not attend and compressed the programme; the speaker was not named, but this is the only programmed talk that did not occur, so it is almost certainly Pranav Jha's."
+    },
+    {
+      "programme_id": "event-331",
+      "title": "Integrating advanced monitoring technologies for spatially explicit, ecosystem-based biodiversity conservation across diverse habitats in Saudi Arabia",
+      "status": "presented",
+      "content_item_id": "forum-2026-09-25-03",
+      "notes": "Presented by Mohammad Zafarul Islam, moved forward into the 9:00 slot."
+    },
+    {
+      "programme_id": "event-332",
+      "title": "Evaluating Four Machine Learning Using Google Earth Engine for Analyzing LULC Dynamics of Sandwip Island, Bangladesh",
+      "status": "presented",
+      "content_item_id": "forum-2026-09-25-04",
+      "notes": "Pre-recorded video; no live Q&A (questions redirected to Whova)."
+    }
+  ]
+}
