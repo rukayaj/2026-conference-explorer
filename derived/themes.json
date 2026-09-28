@@ -1,0 +1,5665 @@
+[
+  {
+    "id": "3d-and-advanced-imaging",
+    "name": "3D and advanced specimen imaging",
+    "description": "3D models, photogrammetry, X-ray and spectral imaging of specimens, and the data these produce.",
+    "aliases": [
+      "3D digitisation",
+      "3D digitisation data",
+      "3D reconstruction",
+      "3D specimen imaging",
+      "photogrammetry",
+      "spectral reflectance",
+      "X-ray imaging"
+    ],
+    "content_item_count": 6,
+    "content_item_ids": [
+      "salb-2026-09-22-21",
+      "salb-2026-09-22-26",
+      "salc-2026-09-22-17",
+      "salc-2026-09-22-18",
+      "sala-2026-09-24-20",
+      "salc-2026-09-25-05"
+    ],
+    "talk_count": 6,
+    "discussion_count": 0,
+    "related_themes": [
+      "ai-species-identification",
+      "collection-management-systems",
+      "specimen-digitisation"
+    ],
+    "related_theme_cooccurrence": {
+      "ai-species-identification": 2,
+      "collection-management-systems": 2,
+      "specimen-digitisation": 2
+    }
+  },
+  {
+    "id": "access-and-benefit-sharing",
+    "name": "Access and benefit sharing",
+    "description": "Access and benefit-sharing, digital sequence information, permits and compliance, and preventing biopiracy.",
+    "aliases": [
+      "access and benefit sharing",
+      "benefit sharing",
+      "benefit sharing and remuneration",
+      "biopiracy",
+      "data provenance and value return to primary data collectors",
+      "digital sequence information",
+      "permits and compliance"
+    ],
+    "content_item_count": 7,
+    "content_item_ids": [
+      "aula-plenary-1-02-berger-wolf-keynote",
+      "aula-taster-06-baringo-sociobiodiversity",
+      "salb-2026-09-22-04",
+      "salc-2026-09-24-04",
+      "salc-2026-09-24-21",
+      "sala-2026-09-25-01",
+      "sala-2026-09-25-15"
+    ],
+    "talk_count": 5,
+    "discussion_count": 2,
+    "related_themes": [
+      "traditional-knowledge-and-sociobiodiversity",
+      "foundation-models-and-imageomics",
+      "indigenous-data-governance",
+      "ai-ready-data",
+      "people-identification-and-attribution"
+    ],
+    "related_theme_cooccurrence": {
+      "traditional-knowledge-and-sociobiodiversity": 2,
+      "foundation-models-and-imageomics": 2,
+      "indigenous-data-governance": 2,
+      "ai-ready-data": 3,
+      "people-identification-and-attribution": 2
+    }
+  },
+  {
+    "id": "aeroecology-and-migration",
+    "name": "Aeroecology and animal migration",
+    "description": "Monitoring and forecasting animal movement and migration through the air using weather radar, telemetry and related data.",
+    "aliases": [
+      "digital twin of the aerosphere",
+      "migration forecasting",
+      "migratory bird flyways",
+      "nocturnal bird migration",
+      "satellite telemetry",
+      "weather radar aeroecology"
+    ],
+    "content_item_count": 2,
+    "content_item_ids": [
+      "salb-2026-09-24-06",
+      "forum-2026-09-25-03"
+    ],
+    "talk_count": 2,
+    "discussion_count": 0,
+    "related_themes": [
+      "drone-based-monitoring",
+      "identification-provenance-and-uncertainty",
+      "data-preservation-and-storage"
+    ],
+    "related_theme_cooccurrence": {
+      "drone-based-monitoring": 1,
+      "identification-provenance-and-uncertainty": 1,
+      "data-preservation-and-storage": 1
+    }
+  },
+  {
+    "id": "agricultural-biodiversity",
+    "name": "Agricultural biodiversity and pest management",
+    "description": "Biodiversity data for agriculture: crop genetic resources, pests and natural enemies, precision and robotic pest control.",
+    "aliases": [
+      "common bean",
+      "conservation biological control",
+      "integrated pest management",
+      "plant genetic resources",
+      "precision agriculture",
+      "robotic spraying",
+      "robotics and ecology"
+    ],
+    "content_item_count": 3,
+    "content_item_ids": [
+      "odin-2026-09-22-26",
+      "sala-2026-09-22-04",
+      "salc-2026-09-24-18"
+    ],
+    "talk_count": 3,
+    "discussion_count": 0,
+    "related_themes": [
+      "drone-based-monitoring",
+      "automated-sensor-monitoring",
+      "conservation-and-restoration"
+    ],
+    "related_theme_cooccurrence": {
+      "drone-based-monitoring": 1,
+      "automated-sensor-monitoring": 1,
+      "conservation-and-restoration": 1
+    }
+  },
+  {
+    "id": "ai-agents-and-conversational-access",
+    "name": "AI agents and conversational data access",
+    "description": "LLM agents, MCP servers, chatbots and question-answering systems that let people or machines query and analyse biodiversity data conversationally.",
+    "aliases": [
+      "agent harness design",
+      "agentic AI",
+      "agentic workflows",
+      "AI agents for scientific data analysis",
+      "AI assistants for data publishing support",
+      "conversational data access",
+      "LLM agent access to biodiversity data",
+      "LLM agents",
+      "MCP chatbots",
+      "MCP servers for agents",
+      "multi-agent systems",
+      "question answering"
+    ],
+    "content_item_count": 11,
+    "content_item_ids": [
+      "aula-plenary-1-02-berger-wolf-keynote",
+      "sala-2026-09-22-11",
+      "sala-2026-09-22-19",
+      "sala-2026-09-22-23",
+      "forum-2026-09-24-19",
+      "salc-2026-09-24-22",
+      "sala-2026-09-25-09",
+      "sala-2026-09-25-11",
+      "sala-2026-09-25-12",
+      "salb-2026-09-25-08",
+      "salc-2026-09-25-02"
+    ],
+    "talk_count": 10,
+    "discussion_count": 1,
+    "related_themes": [
+      "retrieval-augmented-generation",
+      "literature-mining",
+      "legacy-literature-digitisation",
+      "data-discovery",
+      "ai-assisted-digitisation"
+    ],
+    "related_theme_cooccurrence": {
+      "retrieval-augmented-generation": 2,
+      "literature-mining": 3,
+      "legacy-literature-digitisation": 2,
+      "data-discovery": 2,
+      "ai-assisted-digitisation": 2
+    }
+  },
+  {
+    "id": "ai-crawlers-and-bot-traffic",
+    "name": "AI crawlers and bot traffic",
+    "description": "The load and cost that AI crawlers and bots place on biodiversity data services, and responses such as rate limiting and cost recovery.",
+    "aliases": [
+      "AI crawler impact",
+      "AI crawlers",
+      "bot traffic",
+      "crawler cost recovery",
+      "publisher load",
+      "rate limiting",
+      "residential proxies"
+    ],
+    "content_item_count": 3,
+    "content_item_ids": [
+      "odin-2026-09-22-06",
+      "odin-2026-09-22-07",
+      "odin-2026-09-22-08"
+    ],
+    "talk_count": 2,
+    "discussion_count": 1,
+    "related_themes": [
+      "volunteer-and-community-curation",
+      "data-round-tripping",
+      "infrastructure-resilience",
+      "infrastructure-sustainability"
+    ],
+    "related_theme_cooccurrence": {
+      "volunteer-and-community-curation": 2,
+      "data-round-tripping": 2,
+      "infrastructure-resilience": 2,
+      "infrastructure-sustainability": 2
+    }
+  },
+  {
+    "id": "ai-assisted-digitisation",
+    "name": "AI-assisted digitisation",
+    "description": "Computer vision and machine learning applied to specimen images and digitisation workflows: segmentation, landmarking, measurement, clustering and other automated processing of digitised collections.",
+    "aliases": [
+      "AI in collections digitisation",
+      "AI-assisted curation",
+      "automated landmarking",
+      "computer vision",
+      "computer vision on specimen images",
+      "computer vision pipeline",
+      "damage detection",
+      "herbarium images",
+      "herbarium phenology classification",
+      "image clustering",
+      "image crops and bounding boxes",
+      "image deduplication",
+      "image similarity search",
+      "museum fish images",
+      "object detection and segmentation",
+      "scale bar detection",
+      "similarity matching",
+      "specimen image calibration",
+      "specimen morphology extraction",
+      "trait extraction from images"
+    ],
+    "content_item_count": 15,
+    "content_item_ids": [
+      "aula-plenary-1-02-berger-wolf-keynote",
+      "sala-2026-09-22-01",
+      "sala-2026-09-22-08",
+      "sala-2026-09-22-13",
+      "sala-2026-09-22-23",
+      "salb-2026-09-22-21",
+      "salb-2026-09-22-27",
+      "salb-2026-09-22-28",
+      "salb-2026-09-24-09",
+      "salb-2026-09-24-12",
+      "salc-2026-09-24-11",
+      "forum-2026-09-25-01",
+      "sala-2026-09-25-02",
+      "sala-2026-09-25-08",
+      "sala-2026-09-25-15"
+    ],
+    "talk_count": 14,
+    "discussion_count": 1,
+    "related_themes": [
+      "ai-ready-data",
+      "foundation-models-and-imageomics",
+      "trait-data",
+      "drone-based-monitoring",
+      "access-and-benefit-sharing"
+    ],
+    "related_theme_cooccurrence": {
+      "ai-ready-data": 6,
+      "foundation-models-and-imageomics": 3,
+      "trait-data": 3,
+      "drone-based-monitoring": 2,
+      "access-and-benefit-sharing": 2
+    }
+  },
+  {
+    "id": "ai-assisted-software-development",
+    "name": "AI-assisted software development",
+    "description": "Using LLMs and coding agents to build, document and prototype biodiversity software.",
+    "aliases": [
+      "agentic software development",
+      "AI-assisted software development",
+      "LLM-assisted documentation",
+      "LLM-built applications",
+      "rapid prototyping"
+    ],
+    "content_item_count": 7,
+    "content_item_ids": [
+      "odin-2026-09-22-08",
+      "odin-2026-09-22-09",
+      "sala-2026-09-22-02",
+      "salb-2026-09-22-26",
+      "sala-2026-09-24-02",
+      "sala-2026-09-24-14",
+      "sala-2026-09-24-24"
+    ],
+    "talk_count": 5,
+    "discussion_count": 2,
+    "related_themes": [
+      "under-resourced-collections",
+      "research-software-architecture",
+      "standards-development-and-governance",
+      "darwin-core-data-package"
+    ],
+    "related_theme_cooccurrence": {
+      "under-resourced-collections": 2,
+      "research-software-architecture": 2,
+      "standards-development-and-governance": 3,
+      "darwin-core-data-package": 2
+    }
+  },
+  {
+    "id": "ai-species-identification",
+    "name": "AI-assisted species identification",
+    "description": "Machine-learning models that identify or classify organisms from images, sound or other signals, and how their outputs are combined with human expertise.",
+    "aliases": [
+      "AI species identification",
+      "AI-assisted identification",
+      "AI-assisted identification with expert validation",
+      "AI-assisted species identification",
+      "insect identification",
+      "machine learning classifier comparison",
+      "metric learning",
+      "neuro-symbolic classification",
+      "pest vs natural enemy detection",
+      "plant identification from community imagery",
+      "species classification",
+      "species identifiability tagging",
+      "species identification models",
+      "trust in AI identification"
+    ],
+    "content_item_count": 13,
+    "content_item_ids": [
+      "aula-taster-08-raes-bmd-ai-monitoring",
+      "odin-2026-09-22-12",
+      "odin-2026-09-22-25",
+      "sala-2026-09-22-03",
+      "sala-2026-09-22-04",
+      "salb-2026-09-22-26",
+      "salc-2026-09-22-18",
+      "salb-2026-09-24-21",
+      "forum-2026-09-25-02",
+      "forum-2026-09-25-04",
+      "salb-2026-09-25-02",
+      "salb-2026-09-25-03",
+      "salb-2026-09-25-05"
+    ],
+    "talk_count": 12,
+    "discussion_count": 1,
+    "related_themes": [
+      "automated-sensor-monitoring",
+      "invasive-species",
+      "3d-and-advanced-imaging",
+      "ai-environmental-and-compute-costs",
+      "citizen-science"
+    ],
+    "related_theme_cooccurrence": {
+      "automated-sensor-monitoring": 3,
+      "invasive-species": 2,
+      "3d-and-advanced-imaging": 2,
+      "ai-environmental-and-compute-costs": 2,
+      "citizen-science": 3
+    }
+  },
+  {
+    "id": "ai-ready-data",
+    "name": "AI-ready data",
+    "description": "Making biodiversity data and metadata fit for machine learning: readiness definitions and metrics, dataset documentation (e.g. Croissant, dataset cards) and FAIR-for-AI.",
+    "aliases": [
+      "AI readiness",
+      "AI readiness definition",
+      "AI readiness metrics",
+      "AI-ready and FAIR for AI data",
+      "AI-ready data",
+      "AI-ready data products",
+      "AI-ready datasets",
+      "AI-ready metadata",
+      "AI-ready trait data",
+      "Croissant metadata",
+      "dataset cards",
+      "dataset evaluation checklist",
+      "FAIR for AI",
+      "image metadata for machine learning",
+      "metadata and FAIR for models",
+      "readiness profiles",
+      "robot-ready data"
+    ],
+    "content_item_count": 19,
+    "content_item_ids": [
+      "aula-plenary-1-02-berger-wolf-keynote",
+      "sala-2026-09-22-08",
+      "salb-2026-09-22-10",
+      "salb-2026-09-22-20",
+      "salc-2026-09-22-17",
+      "forum-2026-09-24-15",
+      "forum-2026-09-24-17",
+      "salb-2026-09-24-04",
+      "salb-2026-09-24-05",
+      "salb-2026-09-24-09",
+      "salb-2026-09-24-13",
+      "salb-2026-09-24-14",
+      "salb-2026-09-24-15",
+      "salc-2026-09-24-10",
+      "salc-2026-09-24-11",
+      "salc-2026-09-24-18",
+      "salc-2026-09-24-21",
+      "sala-2026-09-25-08",
+      "sala-2026-09-25-15"
+    ],
+    "talk_count": 17,
+    "discussion_count": 2,
+    "related_themes": [
+      "ai-assisted-digitisation",
+      "data-sovereignty",
+      "access-and-benefit-sharing",
+      "ml-training-data-and-benchmarks",
+      "automated-sensor-monitoring"
+    ],
+    "related_theme_cooccurrence": {
+      "ai-assisted-digitisation": 6,
+      "data-sovereignty": 3,
+      "access-and-benefit-sharing": 3,
+      "ml-training-data-and-benchmarks": 4,
+      "automated-sensor-monitoring": 3
+    }
+  },
+  {
+    "id": "automated-sensor-monitoring",
+    "name": "Automated sensor-based monitoring",
+    "description": "High-throughput biodiversity monitoring with automated sensors (light traps, cameras, acoustic devices and multimodal sensor networks) and the pipelines that turn detections into data.",
+    "aliases": [
+      "adaptive sampling",
+      "automated insect monitoring",
+      "automated moth monitoring",
+      "camera traps and passive acoustics",
+      "high-throughput biodiversity monitoring",
+      "insect monitoring",
+      "multi-scale, multi-modal sensor data",
+      "multimodal biodiversity monitoring",
+      "multimodal sensor monitoring",
+      "multimodal sensors",
+      "nocturnal insect light traps",
+      "roadside monitoring",
+      "sensor coordination",
+      "sensor deployment optimisation",
+      "sensor standardisation",
+      "sensor-to-GBIF pipeline"
+    ],
+    "content_item_count": 10,
+    "content_item_ids": [
+      "aula-plenary-1-02-berger-wolf-keynote",
+      "aula-taster-08-raes-bmd-ai-monitoring",
+      "sala-2026-09-22-03",
+      "sala-2026-09-22-05",
+      "sala-2026-09-22-06",
+      "salb-2026-09-24-05",
+      "salc-2026-09-24-17",
+      "salc-2026-09-24-18",
+      "forum-2026-09-25-01",
+      "forum-2026-09-25-02"
+    ],
+    "talk_count": 10,
+    "discussion_count": 0,
+    "related_themes": [
+      "drone-based-monitoring",
+      "camera-trap-data",
+      "bioacoustics",
+      "local-and-edge-ai",
+      "ml-training-data-and-benchmarks"
+    ],
+    "related_theme_cooccurrence": {
+      "drone-based-monitoring": 4,
+      "camera-trap-data": 3,
+      "bioacoustics": 2,
+      "local-and-edge-ai": 3,
+      "ml-training-data-and-benchmarks": 3
+    }
+  },
+  {
+    "id": "bioacoustics",
+    "name": "Bioacoustics and passive acoustic monitoring",
+    "description": "Recording, analysing and standardising animal sounds and soundscapes, including AI sound classifiers.",
+    "aliases": [
+      "bioacoustic AI models",
+      "bioacoustic data standards",
+      "bioacoustics",
+      "cetacean vocalisation",
+      "passive acoustic monitoring",
+      "sound art",
+      "soundscape ecology"
+    ],
+    "content_item_count": 4,
+    "content_item_ids": [
+      "sala-2026-09-22-05",
+      "salc-2026-09-24-17",
+      "salb-2026-09-25-05",
+      "salc-2026-09-25-10"
+    ],
+    "talk_count": 4,
+    "discussion_count": 0,
+    "related_themes": [
+      "automated-sensor-monitoring",
+      "long-term-monitoring",
+      "data-packaging-formats"
+    ],
+    "related_theme_cooccurrence": {
+      "automated-sensor-monitoring": 2,
+      "long-term-monitoring": 2,
+      "data-packaging-formats": 1
+    }
+  },
+  {
+    "id": "biobanks-and-living-collections",
+    "name": "Biobanks, seed banks and living collections",
+    "description": "Tissue and genetic-resource biobanks, seed banks and living collections, and tracking samples through them.",
+    "aliases": [
+      "biobank data",
+      "biobanking",
+      "biobanks",
+      "living collections",
+      "sample registries",
+      "sample traceability",
+      "seed banks",
+      "storage management",
+      "wildlife genetic resources"
+    ],
+    "content_item_count": 6,
+    "content_item_ids": [
+      "odin-2026-09-22-16",
+      "salb-2026-09-22-10",
+      "salc-2026-09-22-05",
+      "salc-2026-09-22-17",
+      "salc-2026-09-24-01",
+      "salc-2026-09-24-04"
+    ],
+    "talk_count": 6,
+    "discussion_count": 0,
+    "related_themes": [
+      "digital-extended-specimen",
+      "ai-ready-data",
+      "collection-management-systems"
+    ],
+    "related_theme_cooccurrence": {
+      "digital-extended-specimen": 4,
+      "ai-ready-data": 2,
+      "collection-management-systems": 2
+    }
+  },
+  {
+    "id": "digital-twins",
+    "name": "Biodiversity digital twins",
+    "description": "Building and operationalising digital twins of ecosystems, sensor systems and the ocean, and assessing their maturity.",
+    "aliases": [
+      "coastal digital twins",
+      "digital shadow vs digital twin",
+      "digital twin hype",
+      "digital twin maturity assessment",
+      "Digital Twin of the Ocean",
+      "digital twins of sensor systems",
+      "learning twins",
+      "lessons from BioDT",
+      "next-generation biodiversity digital twins",
+      "operationalising digital twins",
+      "rapid-response digital twins"
+    ],
+    "content_item_count": 5,
+    "content_item_ids": [
+      "salb-2026-09-24-03",
+      "salb-2026-09-24-04",
+      "salb-2026-09-24-05",
+      "salb-2026-09-24-07",
+      "salb-2026-09-24-08"
+    ],
+    "talk_count": 4,
+    "discussion_count": 1,
+    "related_themes": [
+      "ai-ready-data",
+      "critical-perspectives-on-ai",
+      "marine-biodiversity-data"
+    ],
+    "related_theme_cooccurrence": {
+      "ai-ready-data": 2,
+      "critical-perspectives-on-ai": 1,
+      "marine-biodiversity-data": 1
+    }
+  },
+  {
+    "id": "biodiversity-indicators-and-policy",
+    "name": "Biodiversity indicators and policy reporting",
+    "description": "Indicators, Essential Biodiversity Variables, data cubes and assessments that connect biodiversity data to policy (e.g. KMGBF, IPBES, Red List).",
+    "aliases": [
+      "biodiversity credits",
+      "biodiversity data cubes",
+      "biodiversity indicators",
+      "conservation status",
+      "Essential Biodiversity Variables",
+      "IPBES assessments",
+      "KMGBF indicators",
+      "policy reporting",
+      "policy use of biodiversity data",
+      "Red List Index tracking",
+      "science-policy interface",
+      "science-to-policy",
+      "taxonomic bias in conservation assessment"
+    ],
+    "content_item_count": 11,
+    "content_item_ids": [
+      "aula-taster-05-botha-sanparks-bims",
+      "odin-2026-09-22-01",
+      "odin-2026-09-22-22",
+      "salb-2026-09-22-06",
+      "salc-2026-09-22-12",
+      "forum-2026-09-24-02",
+      "forum-2026-09-24-09",
+      "forum-2026-09-24-20",
+      "salb-2026-09-24-01",
+      "salc-2026-09-24-23",
+      "salc-2026-09-25-11"
+    ],
+    "talk_count": 10,
+    "discussion_count": 1,
+    "related_themes": [
+      "decision-support",
+      "geospatial-infrastructure",
+      "infrastructure-funding",
+      "taxonomic-backbones-and-checklists",
+      "collection-impact-and-use"
+    ],
+    "related_theme_cooccurrence": {
+      "decision-support": 4,
+      "geospatial-infrastructure": 2,
+      "infrastructure-funding": 3,
+      "taxonomic-backbones-and-checklists": 3,
+      "collection-impact-and-use": 2
+    }
+  },
+  {
+    "id": "literature-mining",
+    "name": "Biodiversity literature mining",
+    "description": "Extracting occurrences, traits, names and other data from biodiversity literature and grey literature with text mining and NLP.",
+    "aliases": [
+      "biodiversity literature",
+      "document structure preservation",
+      "entomological literature",
+      "grey literature",
+      "legacy literature data extraction",
+      "literature and occurrence data integration",
+      "literature data extraction",
+      "literature data mobilisation",
+      "literature exploration",
+      "literature mining",
+      "literature search",
+      "literature services",
+      "literature triage",
+      "multilingual literature",
+      "multilingual NLP",
+      "nomenclatural acts extraction",
+      "occurrence extraction from literature",
+      "PDF table extraction",
+      "supplementary data indexing",
+      "taxonomic literature mining",
+      "text mining",
+      "trait extraction from literature"
+    ],
+    "content_item_count": 19,
+    "content_item_ids": [
+      "aula-taster-01-kearney-bhl",
+      "sala-2026-09-22-15",
+      "sala-2026-09-22-17",
+      "sala-2026-09-22-20",
+      "sala-2026-09-22-21",
+      "sala-2026-09-22-22",
+      "salb-2026-09-22-22",
+      "forum-2026-09-24-15",
+      "forum-2026-09-24-16",
+      "forum-2026-09-24-19",
+      "forum-2026-09-24-20",
+      "forum-2026-09-24-21",
+      "salc-2026-09-24-16",
+      "salc-2026-09-24-22",
+      "sala-2026-09-25-01",
+      "sala-2026-09-25-06",
+      "sala-2026-09-25-07",
+      "sala-2026-09-25-09",
+      "sala-2026-09-25-10"
+    ],
+    "talk_count": 19,
+    "discussion_count": 0,
+    "related_themes": [
+      "llm-information-extraction",
+      "retrieval-augmented-generation",
+      "knowledge-graphs",
+      "data-rescue",
+      "legacy-literature-digitisation"
+    ],
+    "related_theme_cooccurrence": {
+      "llm-information-extraction": 7,
+      "retrieval-augmented-generation": 3,
+      "knowledge-graphs": 6,
+      "data-rescue": 3,
+      "legacy-literature-digitisation": 3
+    }
+  },
+  {
+    "id": "camera-trap-data",
+    "name": "Camera trap data",
+    "description": "Managing, processing, standardising (e.g. Camtrap DP) and publishing camera-trap imagery and detections.",
+    "aliases": [
+      "AI pipeline for images and video",
+      "camera trap data",
+      "camera trap data management",
+      "camera trap data standards",
+      "camera trap monitoring",
+      "camera trapping",
+      "camera traps",
+      "Camtrap DP extensions",
+      "Camtrap DP implementation",
+      "Camtrap DP publishing"
+    ],
+    "content_item_count": 9,
+    "content_item_ids": [
+      "odin-2026-09-22-05",
+      "sala-2026-09-22-07",
+      "sala-2026-09-22-09",
+      "salb-2026-09-22-28",
+      "salc-2026-09-24-17",
+      "forum-2026-09-25-01",
+      "forum-2026-09-25-02",
+      "forum-2026-09-25-03",
+      "salc-2026-09-25-08"
+    ],
+    "talk_count": 9,
+    "discussion_count": 0,
+    "related_themes": [
+      "fair-digital-objects",
+      "automated-sensor-monitoring",
+      "drone-based-monitoring",
+      "citizen-science",
+      "human-in-the-loop"
+    ],
+    "related_theme_cooccurrence": {
+      "fair-digital-objects": 2,
+      "automated-sensor-monitoring": 3,
+      "drone-based-monitoring": 2,
+      "citizen-science": 3,
+      "human-in-the-loop": 3
+    }
+  },
+  {
+    "id": "capacity-building",
+    "name": "Capacity building and workforce",
+    "description": "Training, certification, curricula and retaining skilled people in biodiversity informatics and collections.",
+    "aliases": [
+      "accreditation",
+      "biocollections workforce",
+      "biodiversity informatics curricula",
+      "capacity building",
+      "capacity enhancement",
+      "certification of data mobilizers",
+      "data manager community",
+      "data manager role",
+      "data stewardship training",
+      "human infrastructure",
+      "investing in people",
+      "people-centred infrastructure",
+      "training and user support",
+      "user training",
+      "workforce and expertise retention"
+    ],
+    "content_item_count": 14,
+    "content_item_ids": [
+      "odin-2026-09-22-02",
+      "odin-2026-09-22-04",
+      "odin-2026-09-22-08",
+      "salc-2026-09-22-15",
+      "salc-2026-09-22-20",
+      "forum-2026-09-24-01",
+      "forum-2026-09-24-02",
+      "sala-2026-09-24-05",
+      "sala-2026-09-24-07",
+      "salc-2026-09-24-08",
+      "salb-2026-09-25-07",
+      "salb-2026-09-25-10",
+      "salb-2026-09-25-11",
+      "salc-2026-09-25-02"
+    ],
+    "talk_count": 11,
+    "discussion_count": 3,
+    "related_themes": [
+      "community-engagement",
+      "user-centred-design",
+      "infrastructure-resilience",
+      "data-preservation-and-storage",
+      "infrastructure-funding"
+    ],
+    "related_theme_cooccurrence": {
+      "community-engagement": 5,
+      "user-centred-design": 3,
+      "infrastructure-resilience": 4,
+      "data-preservation-and-storage": 2,
+      "infrastructure-funding": 3
+    }
+  },
+  {
+    "id": "citizen-science",
+    "name": "Citizen science",
+    "description": "Community and volunteer observation platforms, their data, identification behaviour, verification and integration into research.",
+    "aliases": [
+      "citizen observations",
+      "citizen science",
+      "citizen science annotation",
+      "citizen science data",
+      "citizen science data curation",
+      "citizen science identification behaviour",
+      "citizen science integration",
+      "citizen science networks",
+      "citizen science observations",
+      "citizen science verification",
+      "community ground-truthing",
+      "community science",
+      "cultivated vs wild",
+      "iNaturalist",
+      "observation quality",
+      "reporting structure",
+      "research grade",
+      "sampling bias in citizen science"
+    ],
+    "content_item_count": 16,
+    "content_item_ids": [
+      "odin-2026-09-22-12",
+      "odin-2026-09-22-21",
+      "odin-2026-09-22-22",
+      "odin-2026-09-22-23",
+      "odin-2026-09-22-24",
+      "odin-2026-09-22-25",
+      "odin-2026-09-22-26",
+      "sala-2026-09-22-05",
+      "sala-2026-09-22-09",
+      "salc-2026-09-22-11",
+      "salc-2026-09-24-11",
+      "salc-2026-09-24-12",
+      "forum-2026-09-25-02",
+      "salb-2026-09-25-04",
+      "salc-2026-09-25-08",
+      "salc-2026-09-25-09"
+    ],
+    "talk_count": 16,
+    "discussion_count": 0,
+    "related_themes": [
+      "urban-biodiversity",
+      "camera-trap-data",
+      "ai-species-identification",
+      "identification-provenance-and-uncertainty",
+      "invasive-species"
+    ],
+    "related_theme_cooccurrence": {
+      "urban-biodiversity": 3,
+      "camera-trap-data": 3,
+      "ai-species-identification": 3,
+      "identification-provenance-and-uncertainty": 2,
+      "invasive-species": 2
+    }
+  },
+  {
+    "id": "collection-impact-and-use",
+    "name": "Collection and data use and impact",
+    "description": "Tracking how collections and published data are used (loans, citations, downloads) and demonstrating their impact and return on investment.",
+    "aliases": [
+      "audience reach",
+      "collection impact",
+      "collection use analysis",
+      "data use tracking",
+      "GBIF data reuse",
+      "GBIF usage analysis",
+      "impact metrics",
+      "impact reporting",
+      "loans and publications tracking",
+      "return on investment",
+      "secondary data reuse",
+      "usage tracking"
+    ],
+    "content_item_count": 11,
+    "content_item_ids": [
+      "aula-2026-09-21-plenary2-walls",
+      "aula-taster-05-botha-sanparks-bims",
+      "odin-2026-09-22-02",
+      "salb-2026-09-22-13",
+      "salc-2026-09-22-07",
+      "forum-2026-09-24-02",
+      "forum-2026-09-24-04",
+      "forum-2026-09-24-08",
+      "forum-2026-09-24-18",
+      "salc-2026-09-25-03",
+      "salc-2026-09-25-06"
+    ],
+    "talk_count": 11,
+    "discussion_count": 0,
+    "related_themes": [
+      "infrastructure-funding",
+      "open-science",
+      "semantic-publishing",
+      "biodiversity-indicators-and-policy",
+      "people-identification-and-attribution"
+    ],
+    "related_theme_cooccurrence": {
+      "infrastructure-funding": 4,
+      "open-science": 2,
+      "semantic-publishing": 2,
+      "biodiversity-indicators-and-policy": 2,
+      "people-identification-and-attribution": 2
+    }
+  },
+  {
+    "id": "collection-data-models",
+    "name": "Collection data models",
+    "description": "Modelling collection objects and events: material entities, lots, storage units, transactions, movements and collection state.",
+    "aliases": [
+      "asset vs occurrence information",
+      "collection data model",
+      "collection data workflows",
+      "collection risk assessment",
+      "collection state documentation",
+      "data publication of lots",
+      "historical events in collection data",
+      "knowledge-centred data models",
+      "lot records",
+      "material entities",
+      "material entities vs occurrences",
+      "material entity typing",
+      "relational biodiversity data",
+      "relational data models",
+      "skeletal records",
+      "specimen movements",
+      "specimen vs dataset metadata",
+      "storage unit records",
+      "transaction records"
+    ],
+    "content_item_count": 13,
+    "content_item_ids": [
+      "aula-taster-06-baringo-sociobiodiversity",
+      "salc-2026-09-22-01",
+      "salc-2026-09-22-03",
+      "salc-2026-09-22-06",
+      "salc-2026-09-22-16",
+      "sala-2026-09-24-02",
+      "sala-2026-09-24-04",
+      "sala-2026-09-24-10",
+      "sala-2026-09-24-12",
+      "sala-2026-09-24-13",
+      "sala-2026-09-24-15",
+      "salc-2026-09-24-03",
+      "salc-2026-09-24-06"
+    ],
+    "talk_count": 12,
+    "discussion_count": 1,
+    "related_themes": [
+      "darwin-core-data-package",
+      "legacy-data-migration",
+      "collection-management-systems",
+      "palaeontology-data",
+      "under-resourced-collections"
+    ],
+    "related_theme_cooccurrence": {
+      "darwin-core-data-package": 4,
+      "legacy-data-migration": 3,
+      "collection-management-systems": 4,
+      "palaeontology-data": 2,
+      "under-resourced-collections": 2
+    }
+  },
+  {
+    "id": "collection-descriptions",
+    "name": "Collection descriptions and registries",
+    "description": "Describing collections at collection level (e.g. Latimer Core), collection registries, and making undigitised or hidden collections discoverable.",
+    "aliases": [
+      "collection description standards",
+      "collection disclosure",
+      "collection registries",
+      "collection-level description",
+      "discoverability of undigitised collections",
+      "European collections",
+      "hidden collections",
+      "Latimer Core",
+      "Latimer Core implementation"
+    ],
+    "content_item_count": 5,
+    "content_item_ids": [
+      "salc-2026-09-22-22",
+      "salc-2026-09-22-23",
+      "forum-2026-09-24-03",
+      "sala-2026-09-24-07",
+      "salc-2026-09-25-06"
+    ],
+    "talk_count": 4,
+    "discussion_count": 1,
+    "related_themes": [
+      "data-packaging-formats",
+      "people-identification-and-attribution",
+      "community-engagement"
+    ],
+    "related_theme_cooccurrence": {
+      "data-packaging-formats": 2,
+      "people-identification-and-attribution": 2,
+      "community-engagement": 2
+    }
+  },
+  {
+    "id": "collection-management-systems",
+    "name": "Collection management systems",
+    "description": "Software for managing collection data (e.g. Specify, Symbiota and institutional systems): data models, migration, replacement, hosting and publishing.",
+    "aliases": [
+      "batch editing",
+      "CMS data publishing",
+      "CMS integration",
+      "CMS migration",
+      "collection management system data models",
+      "collection management system history",
+      "collection management system migration",
+      "collection management system replacement",
+      "collection management systems",
+      "collections management systems",
+      "label printing",
+      "low-barrier CMS",
+      "multi-tenant databases",
+      "multi-tenant platforms",
+      "museum data management",
+      "platform modernisation",
+      "schema configuration sharing",
+      "single-instance CMS",
+      "Specify as a service",
+      "Symbiota",
+      "web interfaces for CMS"
+    ],
+    "content_item_count": 20,
+    "content_item_ids": [
+      "aula-taster-01-kearney-bhl",
+      "salc-2026-09-22-02",
+      "salc-2026-09-22-06",
+      "salc-2026-09-22-17",
+      "forum-2026-09-24-25",
+      "sala-2026-09-24-01",
+      "sala-2026-09-24-04",
+      "sala-2026-09-24-15",
+      "sala-2026-09-24-17",
+      "sala-2026-09-24-18",
+      "sala-2026-09-24-21",
+      "sala-2026-09-24-23",
+      "salb-2026-09-24-19",
+      "salc-2026-09-24-01",
+      "salc-2026-09-24-05",
+      "salc-2026-09-24-06",
+      "salc-2026-09-24-07",
+      "salc-2026-09-24-08",
+      "salc-2026-09-24-09",
+      "salc-2026-09-25-05"
+    ],
+    "talk_count": 20,
+    "discussion_count": 0,
+    "related_themes": [
+      "data-publishing-and-mobilisation",
+      "collection-data-models",
+      "infrastructure-sustainability",
+      "geoscience-collections",
+      "legacy-data-migration"
+    ],
+    "related_theme_cooccurrence": {
+      "data-publishing-and-mobilisation": 9,
+      "collection-data-models": 4,
+      "infrastructure-sustainability": 4,
+      "geoscience-collections": 3,
+      "legacy-data-migration": 3
+    }
+  },
+  {
+    "id": "colonial-legacies",
+    "name": "Colonial legacies and decolonisation",
+    "description": "Colonial provenance of collections and data, decolonisation and repatriation of data.",
+    "aliases": [
+      "colonial context",
+      "colonial provenance",
+      "data repatriation",
+      "decolonisation"
+    ],
+    "content_item_count": 3,
+    "content_item_ids": [
+      "salb-2026-09-22-04",
+      "salb-2026-09-22-17",
+      "salc-2026-09-24-06"
+    ],
+    "talk_count": 3,
+    "discussion_count": 0,
+    "related_themes": [
+      "historical-archives",
+      "traditional-knowledge-and-sociobiodiversity",
+      "indigenous-data-governance"
+    ],
+    "related_theme_cooccurrence": {
+      "historical-archives": 2,
+      "traditional-knowledge-and-sociobiodiversity": 1,
+      "indigenous-data-governance": 1
+    }
+  },
+  {
+    "id": "community-engagement",
+    "name": "Community engagement and outreach",
+    "description": "Engaging stakeholders, communities and the public: communication, outreach, collaboration and participation.",
+    "aliases": [
+      "change management",
+      "collection manager engagement",
+      "communication and engagement",
+      "community coordination",
+      "community datathon",
+      "community engagement",
+      "community guidelines",
+      "community participation",
+      "community survey",
+      "cross-disciplinary learning",
+      "institutional strategy",
+      "interdisciplinary collaboration",
+      "outreach and communications",
+      "partner institutions",
+      "science communication",
+      "social media outreach",
+      "stakeholder engagement"
+    ],
+    "content_item_count": 15,
+    "content_item_ids": [
+      "odin-2026-09-22-02",
+      "odin-2026-09-22-26",
+      "sala-2026-09-22-19",
+      "salc-2026-09-22-08",
+      "salc-2026-09-22-15",
+      "forum-2026-09-24-01",
+      "forum-2026-09-24-09",
+      "forum-2026-09-24-12",
+      "sala-2026-09-24-01",
+      "sala-2026-09-24-05",
+      "sala-2026-09-24-07",
+      "forum-2026-09-25-01",
+      "sala-2026-09-25-17",
+      "salc-2026-09-25-04",
+      "salc-2026-09-25-06"
+    ],
+    "talk_count": 11,
+    "discussion_count": 4,
+    "related_themes": [
+      "capacity-building",
+      "user-centred-design",
+      "collection-descriptions",
+      "identification-provenance-and-uncertainty",
+      "infrastructure-funding"
+    ],
+    "related_theme_cooccurrence": {
+      "capacity-building": 5,
+      "user-centred-design": 3,
+      "collection-descriptions": 2,
+      "identification-provenance-and-uncertainty": 2,
+      "infrastructure-funding": 3
+    }
+  },
+  {
+    "id": "conservation-and-restoration",
+    "name": "Conservation and restoration practice",
+    "description": "Applying biodiversity data to species conservation, protected areas and ecosystem restoration, including community-led conservation.",
+    "aliases": [
+      "Arabian leopard conservation",
+      "climate change adaptation",
+      "co-design with site managers",
+      "conservation",
+      "conservation impact",
+      "decentralized conservation",
+      "ecosystem restoration",
+      "invertebrate conservation",
+      "model reuse by conservation managers",
+      "poaching",
+      "protected area management",
+      "protected area networks",
+      "restoration ecology",
+      "restoration livelihoods",
+      "species reintroduction",
+      "wildlife trade"
+    ],
+    "content_item_count": 12,
+    "content_item_ids": [
+      "aula-taster-05-botha-sanparks-bims",
+      "aula-taster-08-raes-bmd-ai-monitoring",
+      "odin-2026-09-22-19",
+      "odin-2026-09-22-24",
+      "odin-2026-09-22-26",
+      "salb-2026-09-22-06",
+      "salc-2026-09-22-13",
+      "forum-2026-09-24-07",
+      "salb-2026-09-24-02",
+      "salb-2026-09-24-08",
+      "salc-2026-09-24-19",
+      "forum-2026-09-25-03"
+    ],
+    "talk_count": 11,
+    "discussion_count": 1,
+    "related_themes": [
+      "decision-support",
+      "evidence-synthesis",
+      "species-distribution-modelling",
+      "knowledge-representation",
+      "fair-data"
+    ],
+    "related_theme_cooccurrence": {
+      "decision-support": 4,
+      "evidence-synthesis": 3,
+      "species-distribution-modelling": 3,
+      "knowledge-representation": 2,
+      "fair-data": 2
+    }
+  },
+  {
+    "id": "controlled-vocabularies",
+    "name": "Controlled vocabularies",
+    "description": "Building, governing and aligning controlled vocabularies, thesauri and term lists (including multilingual ones).",
+    "aliases": [
+      "concept normalisation",
+      "controlled vocabularies",
+      "controlled vocabularies and ontologies",
+      "controlled vocabulary",
+      "institutional terminology harmonisation",
+      "multilingual term lists",
+      "SKOS thesauri",
+      "vocabulary alignment",
+      "vocabulary governance"
+    ],
+    "content_item_count": 14,
+    "content_item_ids": [
+      "odin-2026-09-22-18",
+      "salb-2026-09-22-07",
+      "salb-2026-09-22-09",
+      "salb-2026-09-22-27",
+      "salc-2026-09-22-01",
+      "salc-2026-09-22-05",
+      "forum-2026-09-24-11",
+      "forum-2026-09-24-22",
+      "sala-2026-09-24-01",
+      "sala-2026-09-24-22",
+      "salb-2026-09-24-10",
+      "salc-2026-09-24-08",
+      "salc-2026-09-24-22",
+      "sala-2026-09-25-15"
+    ],
+    "talk_count": 13,
+    "discussion_count": 1,
+    "related_themes": [
+      "data-discovery",
+      "semantic-interoperability",
+      "ontologies",
+      "darwin-core-data-package",
+      "ai-provenance"
+    ],
+    "related_theme_cooccurrence": {
+      "data-discovery": 3,
+      "semantic-interoperability": 4,
+      "ontologies": 3,
+      "darwin-core-data-package": 3,
+      "ai-provenance": 2
+    }
+  },
+  {
+    "id": "critical-perspectives-on-ai",
+    "name": "Critical perspectives on AI",
+    "description": "Grounded, sceptical framings of what machine learning and LLMs actually do, separating capability from hype and considering AI's effect on knowledge creation.",
+    "aliases": [
+      "AI adoption gaps",
+      "AI and knowledge creation",
+      "critical perspective on AI",
+      "real users vs hype",
+      "what is machine learning"
+    ],
+    "content_item_count": 4,
+    "content_item_ids": [
+      "aula-2026-09-21-plenary2-walls",
+      "sala-2026-09-22-01",
+      "salb-2026-09-24-08",
+      "salb-2026-09-25-11"
+    ],
+    "talk_count": 2,
+    "discussion_count": 2,
+    "related_themes": [
+      "open-science",
+      "standards-development-and-governance",
+      "trust-and-ethics"
+    ],
+    "related_theme_cooccurrence": {
+      "open-science": 2,
+      "standards-development-and-governance": 2,
+      "trust-and-ethics": 1
+    }
+  },
+  {
+    "id": "darwin-core-data-package",
+    "name": "Darwin Core Data Package",
+    "description": "The Darwin Core Data Package (DwC-DP) and conceptual model: design, profiles, adoption, and transition from Darwin Core Archives and ABCD.",
+    "aliases": [
+      "ABCD to Darwin Core Data Package transition",
+      "ABCD transition",
+      "agent roles in Darwin Core Data Package",
+      "backwards compatibility with DwC-A",
+      "Darwin Core conceptual model",
+      "Darwin Core Data Package",
+      "Darwin Core Data Package adoption",
+      "Darwin Core Data Package modelling",
+      "Darwin Core Data Package profiles",
+      "Darwin Core data packages",
+      "data package design tools",
+      "GBIF data model",
+      "occurrence derivation"
+    ],
+    "content_item_count": 14,
+    "content_item_ids": [
+      "aula-taster-04-gbif-dwc-dp",
+      "salb-2026-09-22-07",
+      "salb-2026-09-22-10",
+      "salb-2026-09-22-15",
+      "salc-2026-09-22-01",
+      "sala-2026-09-24-06",
+      "sala-2026-09-24-10",
+      "sala-2026-09-24-13",
+      "sala-2026-09-24-14",
+      "sala-2026-09-24-15",
+      "sala-2026-09-24-19",
+      "sala-2026-09-24-24",
+      "sala-2026-09-25-15",
+      "salb-2026-09-25-08"
+    ],
+    "talk_count": 12,
+    "discussion_count": 2,
+    "related_themes": [
+      "collection-data-models",
+      "research-software-architecture",
+      "digital-extended-specimen",
+      "palaeontology-data",
+      "controlled-vocabularies"
+    ],
+    "related_theme_cooccurrence": {
+      "collection-data-models": 4,
+      "research-software-architecture": 3,
+      "digital-extended-specimen": 4,
+      "palaeontology-data": 2,
+      "controlled-vocabularies": 3
+    }
+  },
+  {
+    "id": "darwin-core-mapping",
+    "name": "Darwin Core mapping and crosswalks",
+    "description": "Mapping and transforming source data to Darwin Core and other schemas, crosswalks, templates and tools that help data holders standardise.",
+    "aliases": [
+      "automated Darwin Core mapping",
+      "Darwin Core alignment",
+      "Darwin Core crosswalk",
+      "Darwin Core export",
+      "Darwin Core harmonisation",
+      "Darwin Core implementation",
+      "Darwin Core itemisation",
+      "Darwin Core mapping",
+      "Darwin Core standardization",
+      "data entry standards",
+      "data model alignment",
+      "data reporting templates",
+      "data templates",
+      "mapping languages",
+      "metadata crosswalks",
+      "schema mapping"
+    ],
+    "content_item_count": 17,
+    "content_item_ids": [
+      "odin-2026-09-22-14",
+      "odin-2026-09-22-15",
+      "odin-2026-09-22-17",
+      "sala-2026-09-22-10",
+      "sala-2026-09-22-20",
+      "salb-2026-09-22-16",
+      "salc-2026-09-22-02",
+      "salc-2026-09-22-03",
+      "salc-2026-09-22-15",
+      "sala-2026-09-24-14",
+      "sala-2026-09-24-19",
+      "salb-2026-09-24-15",
+      "salc-2026-09-24-07",
+      "salc-2026-09-24-08",
+      "sala-2026-09-25-05",
+      "salb-2026-09-25-09",
+      "salc-2026-09-25-07"
+    ],
+    "talk_count": 17,
+    "discussion_count": 0,
+    "related_themes": [
+      "type-specimens",
+      "standards-extensions",
+      "data-packaging-formats",
+      "research-software-architecture",
+      "collection-management-systems"
+    ],
+    "related_theme_cooccurrence": {
+      "type-specimens": 2,
+      "standards-extensions": 2,
+      "data-packaging-formats": 2,
+      "research-software-architecture": 2,
+      "collection-management-systems": 3
+    }
+  },
+  {
+    "id": "data-access-and-licensing",
+    "name": "Data access control and licensing",
+    "description": "Licences, embargoes, data agreements, access rights and machine-actionable policies governing data use.",
+    "aliases": [
+      "access rights",
+      "data agreements",
+      "data availability policies",
+      "data embargo",
+      "data licensing",
+      "data request mediation",
+      "machine-actionable policy",
+      "open licensing of taxonomic data",
+      "openness and licensing",
+      "role-based access",
+      "role-based access control"
+    ],
+    "content_item_count": 13,
+    "content_item_ids": [
+      "odin-2026-09-22-05",
+      "salb-2026-09-22-01",
+      "salb-2026-09-22-02",
+      "salb-2026-09-22-03",
+      "salb-2026-09-22-07",
+      "salb-2026-09-22-08",
+      "salb-2026-09-22-09",
+      "salc-2026-09-22-15",
+      "salc-2026-09-22-17",
+      "sala-2026-09-24-18",
+      "salb-2026-09-24-14",
+      "salb-2026-09-24-17",
+      "salc-2026-09-24-12"
+    ],
+    "talk_count": 12,
+    "discussion_count": 1,
+    "related_themes": [
+      "sensitive-species-data",
+      "personal-data-privacy",
+      "national-and-regional-data-networks",
+      "controlled-vocabularies",
+      "ai-ready-data"
+    ],
+    "related_theme_cooccurrence": {
+      "sensitive-species-data": 5,
+      "personal-data-privacy": 2,
+      "national-and-regional-data-networks": 2,
+      "controlled-vocabularies": 2,
+      "ai-ready-data": 2
+    }
+  },
+  {
+    "id": "data-sovereignty",
+    "name": "Data and digital sovereignty",
+    "description": "Who controls biodiversity data and infrastructure, at national, institutional and community level.",
+    "aliases": [
+      "data sovereignty",
+      "digital sovereignty"
+    ],
+    "content_item_count": 5,
+    "content_item_ids": [
+      "odin-2026-09-22-05",
+      "salb-2026-09-22-20",
+      "salc-2026-09-24-10",
+      "salc-2026-09-24-21",
+      "salc-2026-09-24-24"
+    ],
+    "talk_count": 4,
+    "discussion_count": 1,
+    "related_themes": [
+      "ai-ready-data",
+      "responsible-ai",
+      "fair-digital-objects"
+    ],
+    "related_theme_cooccurrence": {
+      "ai-ready-data": 3,
+      "responsible-ai": 2,
+      "fair-digital-objects": 1
+    }
+  },
+  {
+    "id": "data-discovery",
+    "name": "Data discovery and search",
+    "description": "Finding biodiversity data and resources: discoverability, federated search and indexing.",
+    "aliases": [
+      "data discoverability",
+      "data discoverability in aggregators",
+      "discoverability",
+      "federated querying",
+      "federated search",
+      "mobile data exploration",
+      "search indexing",
+      "search quality",
+      "service mapping",
+      "tool inventories"
+    ],
+    "content_item_count": 9,
+    "content_item_ids": [
+      "odin-2026-09-22-18",
+      "sala-2026-09-22-23",
+      "sala-2026-09-22-24",
+      "salc-2026-09-22-01",
+      "salc-2026-09-22-22",
+      "sala-2026-09-24-18",
+      "sala-2026-09-24-22",
+      "salb-2026-09-24-07",
+      "salb-2026-09-25-08"
+    ],
+    "talk_count": 8,
+    "discussion_count": 1,
+    "related_themes": [
+      "controlled-vocabularies",
+      "research-software-architecture",
+      "legacy-literature-digitisation",
+      "ontologies",
+      "ai-agents-and-conversational-access"
+    ],
+    "related_theme_cooccurrence": {
+      "controlled-vocabularies": 3,
+      "research-software-architecture": 2,
+      "legacy-literature-digitisation": 2,
+      "ontologies": 2,
+      "ai-agents-and-conversational-access": 2
+    }
+  },
+  {
+    "id": "data-gaps-and-biases",
+    "name": "Data gaps and biases",
+    "description": "Taxonomic, geographic and temporal gaps and biases in biodiversity data and the knowledge shortfalls they create.",
+    "aliases": [
+      "bias in opportunistic data",
+      "biodiversity data gaps",
+      "biodiversity knowledge shortfalls",
+      "biodiversity shortfalls",
+      "data bias in biodiversity observations",
+      "data gap analysis",
+      "data gaps",
+      "data supply gap",
+      "data-deficient species",
+      "grid vs biology mismatch",
+      "taxonomic bias",
+      "taxonomic gaps",
+      "taxonomic resolution bias",
+      "white ribbon data gap"
+    ],
+    "content_item_count": 13,
+    "content_item_ids": [
+      "aula-plenary-1-02-berger-wolf-keynote",
+      "aula-taster-02-groom-timeliness",
+      "aula-taster-03-slatyer-taxonomic-backbone",
+      "odin-2026-09-22-25",
+      "salc-2026-09-22-12",
+      "salc-2026-09-22-14",
+      "salb-2026-09-24-03",
+      "salb-2026-09-24-18",
+      "salb-2026-09-24-22",
+      "salc-2026-09-24-11",
+      "salc-2026-09-24-20",
+      "sala-2026-09-25-04",
+      "salc-2026-09-25-01"
+    ],
+    "talk_count": 13,
+    "discussion_count": 0,
+    "related_themes": [
+      "taxonomic-backbones-and-checklists",
+      "freshwater-biodiversity",
+      "ontologies",
+      "taxonomic-expertise",
+      "species-distribution-modelling"
+    ],
+    "related_theme_cooccurrence": {
+      "taxonomic-backbones-and-checklists": 3,
+      "freshwater-biodiversity": 2,
+      "ontologies": 2,
+      "taxonomic-expertise": 2,
+      "species-distribution-modelling": 2
+    }
+  },
+  {
+    "id": "data-governance",
+    "name": "Data governance and stewardship",
+    "description": "Institutional and community governance and stewardship of biodiversity data.",
+    "aliases": [
+      "community-driven governance",
+      "data governance",
+      "data governance enabling sharing",
+      "governance and stewardship",
+      "governance as connective tissue",
+      "governance transparency",
+      "inclusive governance",
+      "institutional data governance",
+      "research data management"
+    ],
+    "content_item_count": 9,
+    "content_item_ids": [
+      "aula-2026-09-21-plenary2-walls",
+      "odin-2026-09-22-01",
+      "sala-2026-09-22-15",
+      "forum-2026-09-24-07",
+      "sala-2026-09-24-05",
+      "sala-2026-09-24-21",
+      "salb-2026-09-24-04",
+      "salc-2026-09-24-14",
+      "sala-2026-09-25-16"
+    ],
+    "talk_count": 9,
+    "discussion_count": 0,
+    "related_themes": [
+      "evidence-synthesis",
+      "legacy-data-migration",
+      "research-infrastructure-landscape",
+      "infrastructure-resilience",
+      "infrastructure-funding"
+    ],
+    "related_theme_cooccurrence": {
+      "evidence-synthesis": 2,
+      "legacy-data-migration": 2,
+      "research-infrastructure-landscape": 3,
+      "infrastructure-resilience": 2,
+      "infrastructure-funding": 2
+    }
+  },
+  {
+    "id": "data-packaging-formats",
+    "name": "Data packaging and exchange formats",
+    "description": "Formats for packaging and exchanging datasets, such as Frictionless data packages, RO-Crate and self-describing files.",
+    "aliases": [
+      "active data formats",
+      "data exchange formats",
+      "data packages",
+      "Frictionless Data",
+      "Frictionless data packages",
+      "lossy data exchange",
+      "RO-Crate",
+      "SQLite"
+    ],
+    "content_item_count": 7,
+    "content_item_ids": [
+      "odin-2026-09-22-17",
+      "odin-2026-09-22-20",
+      "salc-2026-09-22-22",
+      "salc-2026-09-22-23",
+      "sala-2026-09-24-14",
+      "salb-2026-09-24-02",
+      "salc-2026-09-24-17"
+    ],
+    "talk_count": 7,
+    "discussion_count": 0,
+    "related_themes": [
+      "collection-descriptions",
+      "standards-development-and-governance",
+      "darwin-core-mapping"
+    ],
+    "related_theme_cooccurrence": {
+      "collection-descriptions": 2,
+      "standards-development-and-governance": 3,
+      "darwin-core-mapping": 2
+    }
+  },
+  {
+    "id": "data-preservation-and-storage",
+    "name": "Data preservation and storage",
+    "description": "Long-term preservation, archiving and storage of biodiversity data at scale.",
+    "aliases": [
+      "data archiving",
+      "data preservation",
+      "data storage",
+      "federated storage",
+      "large-scale storage",
+      "legacy data preservation",
+      "open data archiving"
+    ],
+    "content_item_count": 7,
+    "content_item_ids": [
+      "odin-2026-09-22-07",
+      "odin-2026-09-22-20",
+      "salc-2026-09-22-06",
+      "forum-2026-09-24-09",
+      "salb-2026-09-24-06",
+      "salb-2026-09-25-10",
+      "salb-2026-09-25-11"
+    ],
+    "talk_count": 5,
+    "discussion_count": 2,
+    "related_themes": [
+      "open-science",
+      "capacity-building",
+      "infrastructure-sustainability"
+    ],
+    "related_theme_cooccurrence": {
+      "open-science": 3,
+      "capacity-building": 2,
+      "infrastructure-sustainability": 2
+    }
+  },
+  {
+    "id": "data-provenance",
+    "name": "Data provenance",
+    "description": "Recording where data came from and how they were processed, including versioning, paradata and auditability.",
+    "aliases": [
+      "auditability",
+      "data provenance",
+      "data versioning",
+      "dataset provenance",
+      "evidence provenance",
+      "image provenance",
+      "media provenance",
+      "paradata",
+      "per-record provenance",
+      "provenance",
+      "provenance and attribution",
+      "provenance records",
+      "transparent data processing",
+      "workflow provenance"
+    ],
+    "content_item_count": 20,
+    "content_item_ids": [
+      "odin-2026-09-22-13",
+      "odin-2026-09-22-16",
+      "sala-2026-09-22-02",
+      "salb-2026-09-22-12",
+      "salc-2026-09-22-09",
+      "salc-2026-09-22-11",
+      "forum-2026-09-24-06",
+      "forum-2026-09-24-13",
+      "sala-2026-09-24-04",
+      "sala-2026-09-24-20",
+      "salb-2026-09-24-01",
+      "salb-2026-09-24-02",
+      "salb-2026-09-24-11",
+      "salb-2026-09-24-12",
+      "salc-2026-09-24-10",
+      "salc-2026-09-24-11",
+      "sala-2026-09-25-01",
+      "sala-2026-09-25-04",
+      "sala-2026-09-25-11",
+      "salc-2026-09-25-04"
+    ],
+    "talk_count": 20,
+    "discussion_count": 0,
+    "related_themes": [
+      "data-round-tripping",
+      "taxonomic-name-matching",
+      "persistent-identifiers",
+      "foundation-models-and-imageomics",
+      "responsible-ai"
+    ],
+    "related_theme_cooccurrence": {
+      "data-round-tripping": 4,
+      "taxonomic-name-matching": 3,
+      "persistent-identifiers": 4,
+      "foundation-models-and-imageomics": 2,
+      "responsible-ai": 3
+    }
+  },
+  {
+    "id": "data-publishing-and-mobilisation",
+    "name": "Data publishing and mobilisation",
+    "description": "Getting data from holders into aggregators such as GBIF: publishing pipelines, ingestion, continuous and automated publication, and barriers to publishing.",
+    "aliases": [
+      "API-driven data population",
+      "automated publishing",
+      "batch metadata",
+      "bulk data ingest",
+      "continuous data publication",
+      "cross-institutional aggregation",
+      "data delivery to aggregators",
+      "data dissemination",
+      "data enhancement",
+      "data ingest",
+      "data ingestion",
+      "data mobilisation",
+      "data publication barriers",
+      "data publication granularity",
+      "data publication pipelines",
+      "data publication to GBIF",
+      "data publication workflows",
+      "data publishing conventions",
+      "data publishing pipeline",
+      "data publishing to GBIF",
+      "data sharing",
+      "data sharing with aggregators",
+      "GBIF data analysis",
+      "GBIF ingestion",
+      "GBIF publishing",
+      "incentives for data sharing",
+      "living data publication",
+      "multimedia metadata",
+      "repository-to-GBIF pipelines",
+      "researcher data capture"
+    ],
+    "content_item_count": 27,
+    "content_item_ids": [
+      "aula-taster-02-groom-timeliness",
+      "aula-taster-04-gbif-dwc-dp",
+      "odin-2026-09-22-15",
+      "sala-2026-09-22-07",
+      "salc-2026-09-22-06",
+      "salc-2026-09-22-19",
+      "salc-2026-09-22-21",
+      "forum-2026-09-24-12",
+      "forum-2026-09-24-16",
+      "forum-2026-09-24-25",
+      "sala-2026-09-24-06",
+      "sala-2026-09-24-09",
+      "sala-2026-09-24-12",
+      "sala-2026-09-24-15",
+      "sala-2026-09-24-17",
+      "sala-2026-09-24-18",
+      "sala-2026-09-24-19",
+      "sala-2026-09-24-21",
+      "salb-2026-09-24-11",
+      "salc-2026-09-24-01",
+      "salc-2026-09-24-03",
+      "salc-2026-09-24-05",
+      "salc-2026-09-24-09",
+      "salc-2026-09-24-12",
+      "salc-2026-09-24-24",
+      "salc-2026-09-25-07",
+      "salc-2026-09-25-10"
+    ],
+    "talk_count": 26,
+    "discussion_count": 1,
+    "related_themes": [
+      "collection-management-systems",
+      "data-quality",
+      "collection-data-models",
+      "darwin-core-data-package",
+      "taxonomic-name-matching"
+    ],
+    "related_theme_cooccurrence": {
+      "collection-management-systems": 9,
+      "data-quality": 5,
+      "collection-data-models": 4,
+      "darwin-core-data-package": 4,
+      "taxonomic-name-matching": 3
+    }
+  },
+  {
+    "id": "data-quality",
+    "name": "Data quality assessment",
+    "description": "Tests, flags, validation and cleaning that assess and improve the quality of biodiversity records (e.g. BDQ tests).",
+    "aliases": [
+      "amendment caution",
+      "anti-distribution",
+      "biodiversity data quality tiers",
+      "data aggregator quality control",
+      "data cleaning and deduplication",
+      "data quality checks",
+      "data quality control",
+      "data quality flagging",
+      "data quality flags",
+      "data quality from consultancies",
+      "data quality over time",
+      "data quality reports",
+      "data quality tests",
+      "data quality workflows",
+      "data validation and referential integrity",
+      "ecological plausibility checks",
+      "metadata quality",
+      "metadata validation",
+      "quality control",
+      "record quality metrics",
+      "rule codification",
+      "suspicious occurrences",
+      "technical vs scientific validity",
+      "test responses",
+      "validation and amendment",
+      "validation semantics",
+      "verifiability"
+    ],
+    "content_item_count": 20,
+    "content_item_ids": [
+      "aula-taster-03-slatyer-taxonomic-backbone",
+      "aula-taster-04-gbif-dwc-dp",
+      "odin-2026-09-22-09",
+      "odin-2026-09-22-10",
+      "odin-2026-09-22-11",
+      "salb-2026-09-22-24",
+      "salc-2026-09-22-04",
+      "salc-2026-09-22-15",
+      "salc-2026-09-22-16",
+      "salc-2026-09-22-21",
+      "salc-2026-09-22-24",
+      "forum-2026-09-24-08",
+      "forum-2026-09-24-12",
+      "sala-2026-09-24-17",
+      "salb-2026-09-24-14",
+      "salb-2026-09-24-20",
+      "salb-2026-09-24-21",
+      "salc-2026-09-24-03",
+      "salc-2026-09-24-08",
+      "sala-2026-09-25-12"
+    ],
+    "talk_count": 19,
+    "discussion_count": 1,
+    "related_themes": [
+      "data-publishing-and-mobilisation",
+      "environmental-dna",
+      "minimum-information-standards",
+      "semantic-interoperability",
+      "fitness-for-use"
+    ],
+    "related_theme_cooccurrence": {
+      "data-publishing-and-mobilisation": 5,
+      "environmental-dna": 2,
+      "minimum-information-standards": 2,
+      "semantic-interoperability": 3,
+      "fitness-for-use": 2
+    }
+  },
+  {
+    "id": "data-rescue",
+    "name": "Data rescue and historical data",
+    "description": "Rescuing at-risk and historical biodiversity data and using it to establish baselines.",
+    "aliases": [
+      "conflict-affected data",
+      "data rescue",
+      "data rescue readiness",
+      "grey literature data rescue",
+      "historical baselines",
+      "historical biodiversity data",
+      "historical data",
+      "US federal data loss"
+    ],
+    "content_item_count": 7,
+    "content_item_ids": [
+      "odin-2026-09-22-04",
+      "odin-2026-09-22-05",
+      "sala-2026-09-22-21",
+      "forum-2026-09-24-05",
+      "forum-2026-09-24-25",
+      "salc-2026-09-24-16",
+      "sala-2026-09-25-07"
+    ],
+    "talk_count": 7,
+    "discussion_count": 0,
+    "related_themes": [
+      "semantic-interoperability",
+      "literature-mining",
+      "infrastructure-resilience",
+      "label-transcription-and-ocr"
+    ],
+    "related_theme_cooccurrence": {
+      "semantic-interoperability": 3,
+      "literature-mining": 3,
+      "infrastructure-resilience": 2,
+      "label-transcription-and-ocr": 2
+    }
+  },
+  {
+    "id": "data-round-tripping",
+    "name": "Data round-tripping and provider feedback",
+    "description": "Returning annotations, corrections and quality feedback from aggregators and users to data providers and closing the loop.",
+    "aliases": [
+      "data feedback to providers",
+      "data quality feedback",
+      "data round-tripping",
+      "feedback loops and metrics",
+      "iterative data improvement",
+      "provider feedback",
+      "provider-user divide",
+      "round-tripping",
+      "trend feedback to data providers",
+      "user feedback loop",
+      "value round-tripping"
+    ],
+    "content_item_count": 13,
+    "content_item_ids": [
+      "aula-taster-03-slatyer-taxonomic-backbone",
+      "odin-2026-09-22-07",
+      "odin-2026-09-22-08",
+      "odin-2026-09-22-16",
+      "salb-2026-09-22-09",
+      "salb-2026-09-22-12",
+      "salb-2026-09-22-15",
+      "salb-2026-09-22-18",
+      "salb-2026-09-22-19",
+      "forum-2026-09-24-06",
+      "sala-2026-09-24-06",
+      "salc-2026-09-24-10",
+      "salc-2026-09-25-10"
+    ],
+    "talk_count": 12,
+    "discussion_count": 1,
+    "related_themes": [
+      "ai-crawlers-and-bot-traffic",
+      "taxonomic-name-matching",
+      "volunteer-and-community-curation",
+      "data-provenance",
+      "people-identification-and-attribution"
+    ],
+    "related_theme_cooccurrence": {
+      "ai-crawlers-and-bot-traffic": 2,
+      "taxonomic-name-matching": 3,
+      "volunteer-and-community-curation": 3,
+      "data-provenance": 4,
+      "people-identification-and-attribution": 3
+    }
+  },
+  {
+    "id": "data-timeliness",
+    "name": "Data timeliness and latency",
+    "description": "The lag between observation, identification and data becoming available for action.",
+    "aliases": [
+      "data latency",
+      "identification lag",
+      "timeliness of biodiversity data"
+    ],
+    "content_item_count": 1,
+    "content_item_ids": [
+      "aula-taster-02-groom-timeliness"
+    ],
+    "talk_count": 1,
+    "discussion_count": 0,
+    "related_themes": [
+      "invasive-species",
+      "decision-support",
+      "data-gaps-and-biases"
+    ],
+    "related_theme_cooccurrence": {
+      "invasive-species": 1,
+      "decision-support": 1,
+      "data-gaps-and-biases": 1
+    }
+  },
+  {
+    "id": "data-visualisation",
+    "name": "Data visualisation",
+    "description": "Visualising biodiversity data and taxonomies with interactive and open-source tools.",
+    "aliases": [
+      "open-source visualisation",
+      "R Shiny",
+      "tree of life visualisation"
+    ],
+    "content_item_count": 3,
+    "content_item_ids": [
+      "odin-2026-09-22-15",
+      "salc-2026-09-24-20",
+      "salc-2026-09-24-23"
+    ],
+    "talk_count": 3,
+    "discussion_count": 0,
+    "related_themes": [
+      "trait-data",
+      "marine-biodiversity-data",
+      "geospatial-infrastructure"
+    ],
+    "related_theme_cooccurrence": {
+      "trait-data": 2,
+      "marine-biodiversity-data": 1,
+      "geospatial-infrastructure": 1
+    }
+  },
+  {
+    "id": "decision-support",
+    "name": "Decision support and dashboards",
+    "description": "Tools, dashboards and alerting systems that turn biodiversity data into information for managers and decision-makers.",
+    "aliases": [
+      "automated alerting",
+      "conservation decision support",
+      "data integration dashboards",
+      "decision support",
+      "decision support dashboards",
+      "decision-grade data",
+      "early warning system",
+      "Natura 2000 decision support",
+      "regional biodiversity dashboards"
+    ],
+    "content_item_count": 9,
+    "content_item_ids": [
+      "aula-taster-02-groom-timeliness",
+      "aula-taster-05-botha-sanparks-bims",
+      "odin-2026-09-22-19",
+      "salb-2026-09-22-06",
+      "salb-2026-09-22-24",
+      "salb-2026-09-24-01",
+      "salb-2026-09-24-19",
+      "salc-2026-09-24-19",
+      "salc-2026-09-25-11"
+    ],
+    "talk_count": 9,
+    "discussion_count": 0,
+    "related_themes": [
+      "biodiversity-indicators-and-policy",
+      "conservation-and-restoration",
+      "species-distribution-modelling",
+      "evidence-synthesis",
+      "schema-design-and-data-modelling"
+    ],
+    "related_theme_cooccurrence": {
+      "biodiversity-indicators-and-policy": 4,
+      "conservation-and-restoration": 4,
+      "species-distribution-modelling": 3,
+      "evidence-synthesis": 2,
+      "schema-design-and-data-modelling": 2
+    }
+  },
+  {
+    "id": "digital-extended-specimen",
+    "name": "Digital extended specimen",
+    "description": "Linking specimens to derived data, samples, sequences, media, archives and other specimens so the specimen record becomes a connected network.",
+    "aliases": [
+      "archives and collections linking",
+      "collections integration",
+      "composite specimens",
+      "cross-collection linking",
+      "derivatives as independent objects",
+      "digital extended specimen",
+      "extended specimen",
+      "hyper-extended specimen",
+      "material sample derivation",
+      "mixed-organism specimens",
+      "relationships in collection data",
+      "resource relationships",
+      "semi-persistent vouchers",
+      "specimen derivation",
+      "specimen relationships",
+      "specimen-to-sequence linking"
+    ],
+    "content_item_count": 17,
+    "content_item_ids": [
+      "salb-2026-09-22-10",
+      "salb-2026-09-22-17",
+      "salc-2026-09-22-02",
+      "salc-2026-09-22-05",
+      "salc-2026-09-22-18",
+      "forum-2026-09-24-01",
+      "forum-2026-09-24-06",
+      "forum-2026-09-24-13",
+      "sala-2026-09-24-13",
+      "sala-2026-09-24-15",
+      "sala-2026-09-24-16",
+      "sala-2026-09-24-23",
+      "sala-2026-09-24-24",
+      "salb-2026-09-24-14",
+      "salc-2026-09-24-01",
+      "salc-2026-09-24-02",
+      "salc-2026-09-24-04"
+    ],
+    "talk_count": 16,
+    "discussion_count": 1,
+    "related_themes": [
+      "biobanks-and-living-collections",
+      "darwin-core-data-package",
+      "persistent-identifiers",
+      "linked-open-data",
+      "collection-management-systems"
+    ],
+    "related_theme_cooccurrence": {
+      "biobanks-and-living-collections": 4,
+      "darwin-core-data-package": 4,
+      "persistent-identifiers": 5,
+      "linked-open-data": 3,
+      "collection-management-systems": 4
+    }
+  },
+  {
+    "id": "digitisation-planning",
+    "name": "Digitisation planning and prioritisation",
+    "description": "Deciding what to digitise and to what level: prioritisation, backlogs, frameworks, monitoring progress and digitisation on demand.",
+    "aliases": [
+      "digitisation backlog",
+      "digitisation best practice",
+      "digitisation framework",
+      "digitisation monitoring",
+      "digitisation on demand",
+      "digitisation planning",
+      "digitisation prioritisation",
+      "prioritisation strategies"
+    ],
+    "content_item_count": 8,
+    "content_item_ids": [
+      "sala-2026-09-22-13",
+      "salb-2026-09-22-11",
+      "salc-2026-09-22-07",
+      "salc-2026-09-22-21",
+      "salc-2026-09-22-24",
+      "sala-2026-09-24-03",
+      "sala-2026-09-24-06",
+      "sala-2026-09-24-08"
+    ],
+    "talk_count": 8,
+    "discussion_count": 0,
+    "related_themes": [
+      "minimum-information-standards",
+      "geoscience-collections",
+      "taxonomic-name-matching",
+      "label-transcription-and-ocr",
+      "data-quality"
+    ],
+    "related_theme_cooccurrence": {
+      "minimum-information-standards": 4,
+      "geoscience-collections": 2,
+      "taxonomic-name-matching": 2,
+      "label-transcription-and-ocr": 2,
+      "data-quality": 2
+    }
+  },
+  {
+    "id": "drone-based-monitoring",
+    "name": "Drone-based monitoring",
+    "description": "Using drones and aerial video for wildlife and behaviour monitoring, including detection and tracking of individuals.",
+    "aliases": [
+      "aerial biodiversity monitoring",
+      "animal behaviour monitoring",
+      "autonomous drones",
+      "drone datasets",
+      "drone video",
+      "drones",
+      "tracking individuals across frames"
+    ],
+    "content_item_count": 6,
+    "content_item_ids": [
+      "sala-2026-09-22-06",
+      "salb-2026-09-22-28",
+      "salb-2026-09-24-05",
+      "salb-2026-09-24-06",
+      "salc-2026-09-24-18",
+      "forum-2026-09-25-01"
+    ],
+    "talk_count": 6,
+    "discussion_count": 0,
+    "related_themes": [
+      "automated-sensor-monitoring",
+      "identification-provenance-and-uncertainty",
+      "camera-trap-data",
+      "local-and-edge-ai",
+      "ml-training-data-and-benchmarks"
+    ],
+    "related_theme_cooccurrence": {
+      "automated-sensor-monitoring": 4,
+      "identification-provenance-and-uncertainty": 2,
+      "camera-trap-data": 2,
+      "local-and-edge-ai": 2,
+      "ml-training-data-and-benchmarks": 2
+    }
+  },
+  {
+    "id": "ai-environmental-and-compute-costs",
+    "name": "Environmental and compute costs of AI",
+    "description": "Energy use, carbon footprint and compute cost of AI and IT, and frugal or green approaches to reduce them.",
+    "aliases": [
+      "AI compute infrastructure",
+      "compute cost",
+      "compute cost of AI",
+      "energy cost of AI",
+      "environmental impact of AI",
+      "environmental sustainability of IT",
+      "frugal AI",
+      "green AI",
+      "green research data management",
+      "knowledge distillation",
+      "responsible AI energy use"
+    ],
+    "content_item_count": 7,
+    "content_item_ids": [
+      "aula-taster-08-raes-bmd-ai-monitoring",
+      "odin-2026-09-22-03",
+      "sala-2026-09-22-03",
+      "sala-2026-09-22-07",
+      "salb-2026-09-22-20",
+      "forum-2026-09-24-19",
+      "salc-2026-09-24-14"
+    ],
+    "talk_count": 7,
+    "discussion_count": 0,
+    "related_themes": [
+      "local-and-edge-ai",
+      "human-in-the-loop",
+      "automated-sensor-monitoring",
+      "ai-species-identification",
+      "llm-information-extraction"
+    ],
+    "related_theme_cooccurrence": {
+      "local-and-edge-ai": 3,
+      "human-in-the-loop": 3,
+      "automated-sensor-monitoring": 2,
+      "ai-species-identification": 2,
+      "llm-information-extraction": 2
+    }
+  },
+  {
+    "id": "environmental-dna",
+    "name": "Environmental DNA",
+    "description": "eDNA, metabarcoding, environmental genomics and ancient DNA as sources of biodiversity occurrence data.",
+    "aliases": [
+      "ancient environmental DNA",
+      "eDNA",
+      "eDNA metabarcoding",
+      "environmental genomics",
+      "marine eDNA",
+      "paleogenomics"
+    ],
+    "content_item_count": 5,
+    "content_item_ids": [
+      "odin-2026-09-22-23",
+      "salb-2026-09-22-24",
+      "forum-2026-09-24-07",
+      "forum-2026-09-24-10",
+      "forum-2026-09-24-12"
+    ],
+    "talk_count": 5,
+    "discussion_count": 0,
+    "related_themes": [
+      "molecular-sequence-data",
+      "species-distribution-modelling",
+      "data-quality"
+    ],
+    "related_theme_cooccurrence": {
+      "molecular-sequence-data": 2,
+      "species-distribution-modelling": 2,
+      "data-quality": 2
+    }
+  },
+  {
+    "id": "evidence-synthesis",
+    "name": "Evidence synthesis and actionable knowledge",
+    "description": "Synthesising evidence from data and literature into actionable knowledge for research and decision-making.",
+    "aliases": [
+      "actionable knowledge",
+      "data synthesis",
+      "data to knowledge",
+      "ecological synthesis",
+      "evidence generation",
+      "evidence mapping",
+      "evidence quality grading",
+      "evidence synthesis",
+      "evidence types in biodiversity data",
+      "systematic review"
+    ],
+    "content_item_count": 7,
+    "content_item_ids": [
+      "aula-2026-09-21-plenary2-walls",
+      "odin-2026-09-22-19",
+      "sala-2026-09-22-08",
+      "forum-2026-09-24-07",
+      "salc-2026-09-24-15",
+      "salc-2026-09-24-19",
+      "salc-2026-09-25-04"
+    ],
+    "talk_count": 7,
+    "discussion_count": 0,
+    "related_themes": [
+      "knowledge-representation",
+      "conservation-and-restoration",
+      "knowledge-graphs",
+      "data-governance",
+      "decision-support"
+    ],
+    "related_theme_cooccurrence": {
+      "knowledge-representation": 3,
+      "conservation-and-restoration": 3,
+      "knowledge-graphs": 3,
+      "data-governance": 2,
+      "decision-support": 2
+    }
+  },
+  {
+    "id": "standards-extensions",
+    "name": "Extending data standards",
+    "description": "Designing and adopting extensions to Darwin Core and related standards for new data types.",
+    "aliases": [
+      "Darwin Core extension",
+      "Darwin Core extensions",
+      "data model extension",
+      "GBIF extensions"
+    ],
+    "content_item_count": 5,
+    "content_item_ids": [
+      "aula-taster-06-baringo-sociobiodiversity",
+      "salb-2026-09-22-07",
+      "salc-2026-09-22-02",
+      "sala-2026-09-24-16",
+      "salc-2026-09-24-07"
+    ],
+    "talk_count": 5,
+    "discussion_count": 0,
+    "related_themes": [
+      "indigenous-data-governance",
+      "darwin-core-mapping",
+      "digital-extended-specimen",
+      "collection-management-systems",
+      "standards-development-and-governance"
+    ],
+    "related_theme_cooccurrence": {
+      "indigenous-data-governance": 2,
+      "darwin-core-mapping": 2,
+      "digital-extended-specimen": 2,
+      "collection-management-systems": 2,
+      "standards-development-and-governance": 2
+    }
+  },
+  {
+    "id": "fair-data",
+    "name": "FAIR data principles",
+    "description": "Applying, evaluating and critiquing the FAIR principles for biodiversity data, collections and workflows.",
+    "aliases": [
+      "FAIR by design",
+      "FAIR collection data",
+      "FAIR content versus FAIR containers",
+      "FAIR data",
+      "FAIR evaluation",
+      "FAIR limitations",
+      "FAIR workflows"
+    ],
+    "content_item_count": 10,
+    "content_item_ids": [
+      "odin-2026-09-22-19",
+      "salc-2026-09-22-03",
+      "salc-2026-09-22-20",
+      "forum-2026-09-24-17",
+      "sala-2026-09-24-05",
+      "salb-2026-09-24-02",
+      "salb-2026-09-24-15",
+      "salc-2026-09-24-03",
+      "sala-2026-09-25-07",
+      "salb-2026-09-25-06"
+    ],
+    "talk_count": 10,
+    "discussion_count": 0,
+    "related_themes": [
+      "under-resourced-collections",
+      "knowledge-representation",
+      "legacy-data-migration",
+      "research-infrastructure-landscape",
+      "conservation-and-restoration"
+    ],
+    "related_theme_cooccurrence": {
+      "under-resourced-collections": 2,
+      "knowledge-representation": 2,
+      "legacy-data-migration": 2,
+      "research-infrastructure-landscape": 3,
+      "conservation-and-restoration": 2
+    }
+  },
+  {
+    "id": "fair-digital-objects",
+    "name": "FAIR digital objects",
+    "description": "Packaging data as FAIR Digital Objects with persistent, machine-actionable identifiers and typed metadata, and related signposting.",
+    "aliases": [
+      "FAIR digital objects",
+      "FAIR Digital Objects",
+      "FAIR Signposting"
+    ],
+    "content_item_count": 4,
+    "content_item_ids": [
+      "odin-2026-09-22-05",
+      "sala-2026-09-22-09",
+      "forum-2026-09-24-03",
+      "salb-2026-09-24-02"
+    ],
+    "talk_count": 4,
+    "discussion_count": 0,
+    "related_themes": [
+      "camera-trap-data",
+      "research-infrastructure-landscape",
+      "data-sovereignty"
+    ],
+    "related_theme_cooccurrence": {
+      "camera-trap-data": 2,
+      "research-infrastructure-landscape": 2,
+      "data-sovereignty": 1
+    }
+  },
+  {
+    "id": "fitness-for-use",
+    "name": "Fitness for use",
+    "description": "Judging whether data are fit for a particular purpose: use cases, task-specific quality and the context of use.",
+    "aliases": [
+      "context of use",
+      "data loss in reporting",
+      "ecological task accuracy",
+      "fit-for-purpose data",
+      "fitness for use",
+      "task-specific data quality",
+      "use cases"
+    ],
+    "content_item_count": 8,
+    "content_item_ids": [
+      "aula-2026-09-21-plenary2-walls",
+      "odin-2026-09-22-09",
+      "odin-2026-09-22-11",
+      "salb-2026-09-22-29",
+      "salb-2026-09-24-09",
+      "salb-2026-09-24-23",
+      "salc-2026-09-24-21",
+      "salc-2026-09-25-09"
+    ],
+    "talk_count": 6,
+    "discussion_count": 2,
+    "related_themes": [
+      "ontologies",
+      "standards-development-and-governance",
+      "llm-evaluation-and-hallucination",
+      "ai-ready-data",
+      "data-quality"
+    ],
+    "related_theme_cooccurrence": {
+      "ontologies": 2,
+      "standards-development-and-governance": 3,
+      "llm-evaluation-and-hallucination": 2,
+      "ai-ready-data": 2,
+      "data-quality": 2
+    }
+  },
+  {
+    "id": "foundation-models-and-imageomics",
+    "name": "Foundation models and imageomics",
+    "description": "Large pretrained vision, language and geospatial models for organismal biology, and imageomics as a field extracting biological traits from images.",
+    "aliases": [
+      "AI for biodiversity science",
+      "foundation models for organismal biology",
+      "geospatial foundation models",
+      "imageomics",
+      "knowledge graphs and foundation models",
+      "vision language models"
+    ],
+    "content_item_count": 6,
+    "content_item_ids": [
+      "aula-plenary-1-02-berger-wolf-keynote",
+      "salb-2026-09-22-14",
+      "salb-2026-09-22-21",
+      "salb-2026-09-24-09",
+      "salb-2026-09-24-11",
+      "sala-2026-09-25-01"
+    ],
+    "talk_count": 6,
+    "discussion_count": 0,
+    "related_themes": [
+      "ai-assisted-digitisation",
+      "access-and-benefit-sharing",
+      "ml-training-data-and-benchmarks",
+      "ai-ready-data",
+      "data-provenance"
+    ],
+    "related_theme_cooccurrence": {
+      "ai-assisted-digitisation": 3,
+      "access-and-benefit-sharing": 2,
+      "ml-training-data-and-benchmarks": 2,
+      "ai-ready-data": 2,
+      "data-provenance": 2
+    }
+  },
+  {
+    "id": "freshwater-biodiversity",
+    "name": "Freshwater biodiversity data",
+    "description": "Freshwater species, habitats and river systems: data platforms, taxonomy, spatial units and assessment under the Water Framework Directive.",
+    "aliases": [
+      "aquatic organisms",
+      "biotic homogenisation",
+      "catchment connectivity",
+      "dams and river conservation",
+      "drainage basins as spatial units",
+      "freshwater biodiversity information systems",
+      "freshwater data portal",
+      "freshwater data publishing guide",
+      "freshwater designations",
+      "freshwater spatial standards",
+      "freshwater taxonomy",
+      "human impact on freshwater communities",
+      "Neotropical freshwater insects",
+      "reference conditions",
+      "river basin naming",
+      "river restoration",
+      "Water Framework Directive"
+    ],
+    "content_item_count": 9,
+    "content_item_ids": [
+      "odin-2026-09-22-23",
+      "salb-2026-09-24-10",
+      "salb-2026-09-24-16",
+      "salb-2026-09-24-17",
+      "salb-2026-09-24-18",
+      "salb-2026-09-24-19",
+      "salb-2026-09-24-20",
+      "salb-2026-09-24-22",
+      "salb-2026-09-24-24"
+    ],
+    "talk_count": 9,
+    "discussion_count": 0,
+    "related_themes": [
+      "habitat-classification",
+      "taxonomic-backbones-and-checklists",
+      "species-distribution-modelling",
+      "data-gaps-and-biases",
+      "infrastructure-sustainability"
+    ],
+    "related_theme_cooccurrence": {
+      "habitat-classification": 2,
+      "taxonomic-backbones-and-checklists": 3,
+      "species-distribution-modelling": 2,
+      "data-gaps-and-biases": 2,
+      "infrastructure-sustainability": 2
+    }
+  },
+  {
+    "id": "infrastructure-funding",
+    "name": "Funding models for biodiversity infrastructure",
+    "description": "How infrastructures and data work are funded: funding models, diversification, costs, valuation and the effects of funding cuts.",
+    "aliases": [
+      "big tech partnerships",
+      "business models",
+      "community funding models",
+      "community fundraising",
+      "economic orchestration",
+      "economic valuation of data",
+      "endowment",
+      "financial sustainability",
+      "financial sustainability of infrastructure",
+      "funder engagement",
+      "funding diversification",
+      "funding fragmentation",
+      "funding landscape",
+      "infrastructure funding",
+      "infrastructure funding models",
+      "open data costs",
+      "private sector engagement",
+      "regulation",
+      "research infrastructure costs",
+      "shadow pricing",
+      "society finances",
+      "sustainable finance",
+      "sustainable funding",
+      "US federal funding cuts"
+    ],
+    "content_item_count": 17,
+    "content_item_ids": [
+      "aula-taster-01-kearney-bhl",
+      "odin-2026-09-22-01",
+      "odin-2026-09-22-08",
+      "odin-2026-09-22-21",
+      "salb-2026-09-22-24",
+      "salc-2026-09-22-14",
+      "forum-2026-09-24-01",
+      "forum-2026-09-24-02",
+      "forum-2026-09-24-04",
+      "forum-2026-09-24-05",
+      "forum-2026-09-24-08",
+      "forum-2026-09-24-09",
+      "sala-2026-09-25-01",
+      "sala-2026-09-25-16",
+      "salc-2026-09-25-01",
+      "salc-2026-09-25-05",
+      "salc-2026-09-25-06"
+    ],
+    "talk_count": 15,
+    "discussion_count": 2,
+    "related_themes": [
+      "infrastructure-resilience",
+      "collection-impact-and-use",
+      "open-science",
+      "infrastructure-sustainability",
+      "biodiversity-indicators-and-policy"
+    ],
+    "related_theme_cooccurrence": {
+      "infrastructure-resilience": 5,
+      "collection-impact-and-use": 4,
+      "open-science": 3,
+      "infrastructure-sustainability": 4,
+      "biodiversity-indicators-and-policy": 3
+    }
+  },
+  {
+    "id": "geographic-standards-and-gazetteers",
+    "name": "Geographic standards and gazetteers",
+    "description": "Gazetteers, higher geography, administrative and natural boundaries and geographic schemes (e.g. WGSRPD) used to describe where biodiversity occurs.",
+    "aliases": [
+      "Darwin Core location terms",
+      "gazetteers",
+      "geographic hierarchies",
+      "geographic standards",
+      "geographic standards application",
+      "geography standardisation",
+      "higher geography",
+      "historical boundaries",
+      "multilingual geographic names",
+      "OpenStreetMap",
+      "physical geography",
+      "political boundaries",
+      "WGSRPD update"
+    ],
+    "content_item_count": 7,
+    "content_item_ids": [
+      "sala-2026-09-22-12",
+      "forum-2026-09-24-23",
+      "forum-2026-09-24-24",
+      "forum-2026-09-24-25",
+      "sala-2026-09-24-22",
+      "salb-2026-09-24-22",
+      "salc-2026-09-24-06"
+    ],
+    "talk_count": 7,
+    "discussion_count": 0,
+    "related_themes": [
+      "georeferencing",
+      "geospatial-infrastructure",
+      "collection-management-systems",
+      "specimen-digitisation"
+    ],
+    "related_theme_cooccurrence": {
+      "georeferencing": 2,
+      "geospatial-infrastructure": 2,
+      "collection-management-systems": 2,
+      "specimen-digitisation": 2
+    }
+  },
+  {
+    "id": "georeferencing",
+    "name": "Georeferencing",
+    "description": "Assigning coordinates and uncertainty to locality descriptions, including legacy and historical localities.",
+    "aliases": [
+      "density-based clustering",
+      "georeferencing",
+      "georeferencing legacy records",
+      "historical localities",
+      "locality hierarchies",
+      "locality parsing",
+      "ungeoreferenced records"
+    ],
+    "content_item_count": 6,
+    "content_item_ids": [
+      "sala-2026-09-22-12",
+      "salb-2026-09-22-13",
+      "salc-2026-09-22-04",
+      "sala-2026-09-24-22",
+      "salc-2026-09-24-14",
+      "sala-2026-09-25-13"
+    ],
+    "talk_count": 6,
+    "discussion_count": 0,
+    "related_themes": [
+      "human-in-the-loop",
+      "geographic-standards-and-gazetteers",
+      "llm-information-extraction",
+      "local-and-edge-ai",
+      "specimen-digitisation"
+    ],
+    "related_theme_cooccurrence": {
+      "human-in-the-loop": 4,
+      "geographic-standards-and-gazetteers": 2,
+      "llm-information-extraction": 3,
+      "local-and-edge-ai": 2,
+      "specimen-digitisation": 2
+    }
+  },
+  {
+    "id": "geoscience-collections",
+    "name": "Geoscience and mineral collections",
+    "description": "Geological and mineral collections data, geologic context, stratigraphy and their place in TDWG standards.",
+    "aliases": [
+      "chronostratigraphy",
+      "earth science collections",
+      "earth science informatics",
+      "geological collections",
+      "geological context",
+      "geology in TDWG standards",
+      "geoscience collections",
+      "images of mineral specimens",
+      "mineral classification",
+      "mineral collections",
+      "mineralogy extension",
+      "solid solution series",
+      "stratigraphy and geologic age"
+    ],
+    "content_item_count": 9,
+    "content_item_ids": [
+      "salc-2026-09-22-02",
+      "salc-2026-09-22-03",
+      "salc-2026-09-22-04",
+      "salc-2026-09-22-06",
+      "salc-2026-09-22-07",
+      "salc-2026-09-22-08",
+      "salc-2026-09-22-24",
+      "forum-2026-09-24-05",
+      "sala-2026-09-24-23"
+    ],
+    "talk_count": 8,
+    "discussion_count": 1,
+    "related_themes": [
+      "minimum-information-standards",
+      "palaeontology-data",
+      "digitisation-planning",
+      "collection-management-systems",
+      "collection-data-models"
+    ],
+    "related_theme_cooccurrence": {
+      "minimum-information-standards": 3,
+      "palaeontology-data": 2,
+      "digitisation-planning": 2,
+      "collection-management-systems": 3,
+      "collection-data-models": 2
+    }
+  },
+  {
+    "id": "geospatial-infrastructure",
+    "name": "Geospatial data infrastructure",
+    "description": "Cloud-native geospatial formats, catalogues (e.g. STAC), web GIS and reproducible geospatial pipelines for biodiversity data.",
+    "aliases": [
+      "cloud-native geospatial formats",
+      "geospatial data",
+      "Google Earth Engine",
+      "map-based discovery",
+      "NetCDF",
+      "polygon definitions",
+      "reproducible geospatial pipelines",
+      "STAC catalogues",
+      "web GIS"
+    ],
+    "content_item_count": 7,
+    "content_item_ids": [
+      "sala-2026-09-22-23",
+      "forum-2026-09-24-23",
+      "forum-2026-09-24-24",
+      "salb-2026-09-24-01",
+      "salb-2026-09-24-04",
+      "salc-2026-09-24-23",
+      "forum-2026-09-25-04"
+    ],
+    "talk_count": 7,
+    "discussion_count": 0,
+    "related_themes": [
+      "geographic-standards-and-gazetteers",
+      "remote-sensing",
+      "biodiversity-indicators-and-policy"
+    ],
+    "related_theme_cooccurrence": {
+      "geographic-standards-and-gazetteers": 2,
+      "remote-sensing": 2,
+      "biodiversity-indicators-and-policy": 2
+    }
+  },
+  {
+    "id": "habitat-classification",
+    "name": "Habitat classification",
+    "description": "Classifying habitats and ecosystem types (e.g. EUNIS) and the characteristic species that define them.",
+    "aliases": [
+      "characteristic species",
+      "EUNIS revision",
+      "habitat flags",
+      "inland water habitat classification"
+    ],
+    "content_item_count": 2,
+    "content_item_ids": [
+      "salb-2026-09-24-17",
+      "salb-2026-09-24-24"
+    ],
+    "talk_count": 2,
+    "discussion_count": 0,
+    "related_themes": [
+      "freshwater-biodiversity",
+      "data-access-and-licensing",
+      "taxonomic-backbones-and-checklists"
+    ],
+    "related_theme_cooccurrence": {
+      "freshwater-biodiversity": 2,
+      "data-access-and-licensing": 1,
+      "taxonomic-backbones-and-checklists": 1
+    }
+  },
+  {
+    "id": "historical-archives",
+    "name": "Historical archives and field notes",
+    "description": "Field notes, correspondence, illustrations, expedition records and institutional archives as sources of biodiversity data and context.",
+    "aliases": [
+      "archival field notes",
+      "collecting trips",
+      "curatorial history",
+      "documentation and archives",
+      "documentation practices",
+      "field notes",
+      "historical archives",
+      "historical illustrations",
+      "historical scientific correspondence",
+      "institutional memory",
+      "museum history",
+      "research expeditions",
+      "tacit knowledge"
+    ],
+    "content_item_count": 11,
+    "content_item_ids": [
+      "aula-plenary-1-01-tdwg-chair-address",
+      "sala-2026-09-22-16",
+      "sala-2026-09-22-20",
+      "sala-2026-09-22-22",
+      "sala-2026-09-22-24",
+      "salb-2026-09-22-13",
+      "salb-2026-09-22-17",
+      "salb-2026-09-22-22",
+      "sala-2026-09-24-02",
+      "sala-2026-09-24-07",
+      "salc-2026-09-24-06"
+    ],
+    "talk_count": 9,
+    "discussion_count": 2,
+    "related_themes": [
+      "colonial-legacies",
+      "llm-information-extraction",
+      "literature-mining",
+      "linked-open-data",
+      "legacy-literature-digitisation"
+    ],
+    "related_theme_cooccurrence": {
+      "colonial-legacies": 2,
+      "llm-information-extraction": 5,
+      "literature-mining": 3,
+      "linked-open-data": 2,
+      "legacy-literature-digitisation": 2
+    }
+  },
+  {
+    "id": "human-in-the-loop",
+    "name": "Human-in-the-loop validation",
+    "description": "Workflows in which experts or volunteers review, correct and validate automated or AI outputs.",
+    "aliases": [
+      "content filtering",
+      "curator-in-the-loop",
+      "expert review",
+      "expertise-weighted voting",
+      "human review flagging",
+      "human verification",
+      "human-AI collaboration",
+      "human-in-the-loop",
+      "human-in-the-loop AI",
+      "human-in-the-loop annotation",
+      "human-in-the-loop curation",
+      "human-in-the-loop governance",
+      "human-in-the-loop quality",
+      "human-in-the-loop review",
+      "human-in-the-loop tools",
+      "human-in-the-loop validation",
+      "human-in-the-loop verification",
+      "review effort triage",
+      "validation of AI outputs"
+    ],
+    "content_item_count": 18,
+    "content_item_ids": [
+      "aula-taster-08-raes-bmd-ai-monitoring",
+      "odin-2026-09-22-12",
+      "odin-2026-09-22-14",
+      "sala-2026-09-22-02",
+      "sala-2026-09-22-07",
+      "sala-2026-09-22-09",
+      "sala-2026-09-22-11",
+      "sala-2026-09-22-12",
+      "salb-2026-09-22-28",
+      "salb-2026-09-22-29",
+      "salc-2026-09-22-04",
+      "sala-2026-09-24-03",
+      "salc-2026-09-24-12",
+      "salc-2026-09-24-14",
+      "sala-2026-09-25-03",
+      "sala-2026-09-25-06",
+      "sala-2026-09-25-12",
+      "sala-2026-09-25-13"
+    ],
+    "talk_count": 17,
+    "discussion_count": 1,
+    "related_themes": [
+      "georeferencing",
+      "llm-evaluation-and-hallucination",
+      "ai-environmental-and-compute-costs",
+      "camera-trap-data",
+      "local-and-edge-ai"
+    ],
+    "related_theme_cooccurrence": {
+      "georeferencing": 4,
+      "llm-evaluation-and-hallucination": 4,
+      "ai-environmental-and-compute-costs": 3,
+      "camera-trap-data": 3,
+      "local-and-edge-ai": 3
+    }
+  },
+  {
+    "id": "identification-keys-and-descriptive-data",
+    "name": "Identification keys and descriptive data",
+    "description": "Interactive and multi-access identification keys, structured descriptive data (e.g. SDD) and character matrices, including hybrids with AI.",
+    "aliases": [
+      "combining image recognition with keys",
+      "extending SDD",
+      "faceted identification",
+      "hybrid AI and identification keys",
+      "identification keys",
+      "identification session data",
+      "interactive identification keys",
+      "interoperability of descriptive data",
+      "key digitisation cost",
+      "morphological character matrices",
+      "multi-access identification keys",
+      "phylogenetic character matrices",
+      "structured descriptive data"
+    ],
+    "content_item_count": 9,
+    "content_item_ids": [
+      "sala-2026-09-22-11",
+      "salc-2026-09-22-19",
+      "salb-2026-09-24-14",
+      "salc-2026-09-24-20",
+      "sala-2026-09-25-14",
+      "salb-2026-09-25-01",
+      "salb-2026-09-25-02",
+      "salb-2026-09-25-03",
+      "salb-2026-09-25-04"
+    ],
+    "talk_count": 9,
+    "discussion_count": 0,
+    "related_themes": [
+      "taxonomic-expertise",
+      "llm-evaluation-and-hallucination",
+      "ai-species-identification",
+      "responsible-ai"
+    ],
+    "related_theme_cooccurrence": {
+      "taxonomic-expertise": 2,
+      "llm-evaluation-and-hallucination": 2,
+      "ai-species-identification": 2,
+      "responsible-ai": 2
+    }
+  },
+  {
+    "id": "identification-provenance-and-uncertainty",
+    "name": "Identification provenance and uncertainty",
+    "description": "Recording who or what identified an organism, how confident the identification is, and how human and machine identifications are exchanged.",
+    "aliases": [
+      "herbarium determinations",
+      "human and machine identifications",
+      "hybrid AI identification provenance",
+      "identification confidence",
+      "identification provenance",
+      "identification uncertainty",
+      "uncertainty representation",
+      "verification status exchange"
+    ],
+    "content_item_count": 6,
+    "content_item_ids": [
+      "odin-2026-09-22-12",
+      "salb-2026-09-24-06",
+      "salb-2026-09-24-23",
+      "forum-2026-09-25-01",
+      "salb-2026-09-25-04",
+      "salc-2026-09-25-04"
+    ],
+    "talk_count": 6,
+    "discussion_count": 0,
+    "related_themes": [
+      "drone-based-monitoring",
+      "community-engagement",
+      "citizen-science"
+    ],
+    "related_theme_cooccurrence": {
+      "drone-based-monitoring": 2,
+      "community-engagement": 2,
+      "citizen-science": 2
+    }
+  },
+  {
+    "id": "people-identification-and-attribution",
+    "name": "Identifying and crediting people",
+    "description": "Disambiguating collectors, determiners and other agents, person identifiers, and attribution and credit for data work.",
+    "aliases": [
+      "agent disambiguation",
+      "agent roles",
+      "attribution",
+      "attribution and credit for collectors",
+      "attribution of collectors and determiners",
+      "attribution of expertise",
+      "collector names",
+      "collector networks",
+      "data attribution and value",
+      "data publisher attribution",
+      "funder acknowledgement",
+      "non-traditional outputs",
+      "person identifiers",
+      "person identifiers for taxonomists",
+      "research credit and recognition",
+      "scholarly profiles",
+      "visibility of data work"
+    ],
+    "content_item_count": 13,
+    "content_item_ids": [
+      "aula-taster-06-baringo-sociobiodiversity",
+      "odin-2026-09-22-07",
+      "sala-2026-09-22-18",
+      "salb-2026-09-22-09",
+      "salb-2026-09-22-15",
+      "sala-2026-09-24-03",
+      "sala-2026-09-24-07",
+      "sala-2026-09-24-13",
+      "salc-2026-09-24-02",
+      "salc-2026-09-24-21",
+      "salc-2026-09-25-01",
+      "salc-2026-09-25-03",
+      "salc-2026-09-25-06"
+    ],
+    "talk_count": 11,
+    "discussion_count": 2,
+    "related_themes": [
+      "persistent-identifiers",
+      "open-science",
+      "collection-descriptions",
+      "data-round-tripping",
+      "access-and-benefit-sharing"
+    ],
+    "related_theme_cooccurrence": {
+      "persistent-identifiers": 5,
+      "open-science": 3,
+      "collection-descriptions": 2,
+      "data-round-tripping": 3,
+      "access-and-benefit-sharing": 2
+    }
+  },
+  {
+    "id": "indigenous-data-governance",
+    "name": "Indigenous data governance",
+    "description": "Indigenous data sovereignty and governance, the CARE principles, Local Contexts labels, and Indigenous perspectives on biodiversity data.",
+    "aliases": [
+      "biodiversity data as Indigenous data",
+      "CARE principles",
+      "FAIR and CARE complementarity",
+      "First Nations cultural significance",
+      "Indigenous data governance",
+      "Indigenous data sovereignty",
+      "Local Contexts labels",
+      "provenance of Indigenous data",
+      "reindeer grazing lands",
+      "Sámi data governance"
+    ],
+    "content_item_count": 6,
+    "content_item_ids": [
+      "aula-2026-09-21-plenary2-heatta",
+      "aula-taster-06-baringo-sociobiodiversity",
+      "salb-2026-09-22-04",
+      "salb-2026-09-22-07",
+      "salc-2026-09-24-10",
+      "salb-2026-09-25-11"
+    ],
+    "talk_count": 5,
+    "discussion_count": 1,
+    "related_themes": [
+      "traditional-knowledge-and-sociobiodiversity",
+      "standards-extensions",
+      "access-and-benefit-sharing",
+      "sensitive-species-data"
+    ],
+    "related_theme_cooccurrence": {
+      "traditional-knowledge-and-sociobiodiversity": 2,
+      "standards-extensions": 2,
+      "access-and-benefit-sharing": 2,
+      "sensitive-species-data": 2
+    }
+  },
+  {
+    "id": "infrastructure-resilience",
+    "name": "Infrastructure resilience and risk",
+    "description": "Resilience of research infrastructures to cyber attacks, funding shocks, geopolitical, energy and climate risks, and designs that reduce fragility.",
+    "aliases": [
+      "climate risk to archives",
+      "community-based resilience",
+      "crisis preparedness",
+      "cyber attack recovery",
+      "decentralised infrastructure",
+      "energy and supply risks",
+      "frugal infrastructure",
+      "geopolitical risk",
+      "infrastructure redundancy",
+      "infrastructure reliability",
+      "infrastructure resilience",
+      "institutional hosting risk",
+      "mutual aid",
+      "repository resilience",
+      "repository risk",
+      "research infrastructure resilience",
+      "resilience",
+      "risk distribution",
+      "risk management",
+      "safe-to-fail design"
+    ],
+    "content_item_count": 16,
+    "content_item_ids": [
+      "aula-taster-01-kearney-bhl",
+      "odin-2026-09-22-01",
+      "odin-2026-09-22-02",
+      "odin-2026-09-22-03",
+      "odin-2026-09-22-04",
+      "odin-2026-09-22-06",
+      "odin-2026-09-22-08",
+      "sala-2026-09-22-16",
+      "salc-2026-09-22-14",
+      "forum-2026-09-24-03",
+      "forum-2026-09-24-05",
+      "forum-2026-09-24-07",
+      "sala-2026-09-24-08",
+      "sala-2026-09-24-11",
+      "salb-2026-09-24-08",
+      "salb-2026-09-25-10"
+    ],
+    "talk_count": 14,
+    "discussion_count": 2,
+    "related_themes": [
+      "infrastructure-funding",
+      "ai-crawlers-and-bot-traffic",
+      "capacity-building",
+      "infrastructure-sustainability",
+      "data-rescue"
+    ],
+    "related_theme_cooccurrence": {
+      "infrastructure-funding": 5,
+      "ai-crawlers-and-bot-traffic": 2,
+      "capacity-building": 4,
+      "infrastructure-sustainability": 4,
+      "data-rescue": 2
+    }
+  },
+  {
+    "id": "infrastructure-sustainability",
+    "name": "Infrastructure sustainability",
+    "description": "Keeping biodiversity data infrastructures, repositories, tools and APIs going over time, including succession and decommissioning.",
+    "aliases": [
+      "cyberinfrastructure sustainability",
+      "ephemeral research repositories",
+      "infrastructure sustainability",
+      "open API sustainability",
+      "planning for decommissioning",
+      "project sunsetting and succession",
+      "repository sustainability",
+      "sustainability of biodiversity informatics centres",
+      "sustainability of infrastructure",
+      "sustainability of infrastructures",
+      "tool reuse and sustainability",
+      "value statements"
+    ],
+    "content_item_count": 16,
+    "content_item_ids": [
+      "aula-taster-01-kearney-bhl",
+      "odin-2026-09-22-03",
+      "odin-2026-09-22-06",
+      "odin-2026-09-22-07",
+      "sala-2026-09-22-14",
+      "sala-2026-09-22-15",
+      "sala-2026-09-22-19",
+      "forum-2026-09-24-01",
+      "forum-2026-09-24-04",
+      "salb-2026-09-24-07",
+      "salb-2026-09-24-16",
+      "salb-2026-09-24-19",
+      "salc-2026-09-24-01",
+      "sala-2026-09-25-15",
+      "salb-2026-09-25-10",
+      "salc-2026-09-25-05"
+    ],
+    "talk_count": 14,
+    "discussion_count": 2,
+    "related_themes": [
+      "ai-crawlers-and-bot-traffic",
+      "infrastructure-resilience",
+      "legacy-literature-digitisation",
+      "open-science",
+      "infrastructure-funding"
+    ],
+    "related_theme_cooccurrence": {
+      "ai-crawlers-and-bot-traffic": 2,
+      "infrastructure-resilience": 4,
+      "legacy-literature-digitisation": 3,
+      "open-science": 3,
+      "infrastructure-funding": 4
+    }
+  },
+  {
+    "id": "invasive-species",
+    "name": "Invasive species",
+    "description": "Detecting, mapping and managing invasive alien species and supporting regulation with data.",
+    "aliases": [
+      "invasive alien plant species",
+      "invasive alien species early detection",
+      "invasive species mapping",
+      "invasive species regulation",
+      "movement control"
+    ],
+    "content_item_count": 6,
+    "content_item_ids": [
+      "aula-taster-02-groom-timeliness",
+      "odin-2026-09-22-12",
+      "odin-2026-09-22-24",
+      "sala-2026-09-22-03",
+      "salb-2026-09-22-14",
+      "sala-2026-09-24-21"
+    ],
+    "talk_count": 6,
+    "discussion_count": 0,
+    "related_themes": [
+      "remote-sensing",
+      "ai-species-identification",
+      "citizen-science",
+      "data-publishing-and-mobilisation"
+    ],
+    "related_theme_cooccurrence": {
+      "remote-sensing": 2,
+      "ai-species-identification": 2,
+      "citizen-science": 2,
+      "data-publishing-and-mobilisation": 2
+    }
+  },
+  {
+    "id": "knowledge-graphs",
+    "name": "Knowledge graphs",
+    "description": "Constructing and using RDF and property-graph knowledge graphs to connect biodiversity data, literature and knowledge.",
+    "aliases": [
+      "biodiversity knowledge graphs",
+      "knowledge graph construction",
+      "knowledge graphs",
+      "planetary knowledge base",
+      "RDF",
+      "RDF knowledge graphs",
+      "semantic graph",
+      "virtual knowledge graphs"
+    ],
+    "content_item_count": 20,
+    "content_item_ids": [
+      "aula-2026-09-21-plenary2-walls",
+      "odin-2026-09-22-19",
+      "sala-2026-09-22-17",
+      "sala-2026-09-22-20",
+      "sala-2026-09-22-22",
+      "sala-2026-09-22-23",
+      "salb-2026-09-22-10",
+      "forum-2026-09-24-18",
+      "sala-2026-09-24-20",
+      "salb-2026-09-24-13",
+      "salc-2026-09-24-15",
+      "salc-2026-09-24-16",
+      "salc-2026-09-24-20",
+      "sala-2026-09-25-01",
+      "sala-2026-09-25-04",
+      "sala-2026-09-25-10",
+      "sala-2026-09-25-13",
+      "salb-2026-09-25-06",
+      "salb-2026-09-25-08",
+      "salb-2026-09-25-09"
+    ],
+    "talk_count": 20,
+    "discussion_count": 0,
+    "related_themes": [
+      "knowledge-representation",
+      "literature-mining",
+      "evidence-synthesis",
+      "semantic-publishing",
+      "retrieval-augmented-generation"
+    ],
+    "related_theme_cooccurrence": {
+      "knowledge-representation": 4,
+      "literature-mining": 6,
+      "evidence-synthesis": 3,
+      "semantic-publishing": 3,
+      "retrieval-augmented-generation": 2
+    }
+  },
+  {
+    "id": "knowledge-representation",
+    "name": "Knowledge representation and meaning",
+    "description": "Representing scientific statements, causal knowledge and context so meaning survives reuse (e.g. semantic units, Rosetta statements).",
+    "aliases": [
+      "causal knowledge graphs",
+      "causal knowledge representation",
+      "CLEAR principles",
+      "context dependence",
+      "context loss during data reuse",
+      "dynamic labels",
+      "FAIR and CLEAR principles",
+      "metadata and context",
+      "philosophy of causation",
+      "preserving scientific meaning",
+      "procedural knowledge",
+      "progressive formalisation",
+      "Rosetta statements",
+      "semantic units"
+    ],
+    "content_item_count": 8,
+    "content_item_ids": [
+      "aula-2026-09-21-plenary2-heatta",
+      "odin-2026-09-22-04",
+      "odin-2026-09-22-19",
+      "salc-2026-09-24-15",
+      "salc-2026-09-24-19",
+      "sala-2026-09-25-14",
+      "salb-2026-09-25-06",
+      "salb-2026-09-25-09"
+    ],
+    "talk_count": 8,
+    "discussion_count": 0,
+    "related_themes": [
+      "evidence-synthesis",
+      "knowledge-graphs",
+      "decision-support",
+      "fair-data",
+      "conservation-and-restoration"
+    ],
+    "related_theme_cooccurrence": {
+      "evidence-synthesis": 3,
+      "knowledge-graphs": 4,
+      "decision-support": 2,
+      "fair-data": 2,
+      "conservation-and-restoration": 2
+    }
+  },
+  {
+    "id": "label-transcription-and-ocr",
+    "name": "Label transcription and OCR",
+    "description": "Transcribing specimen labels, cards, handwritten records and printed text with OCR, handwriting recognition and multimodal LLMs, and evaluating transcription quality.",
+    "aliases": [
+      "AI extraction of handwritten tables",
+      "AI label transcription",
+      "AI transcription evaluation",
+      "AI-assisted label transcription",
+      "AI-assisted transcription",
+      "catalogue number recognition",
+      "historical archive transcription",
+      "insect label transcription",
+      "label transcription",
+      "LLM OCR",
+      "LLM transcription",
+      "machine learning OCR",
+      "multilingual labels",
+      "OCR",
+      "OCR quality",
+      "OCR quality benchmarking",
+      "re-OCR of BHL",
+      "structured data extraction from collection records"
+    ],
+    "content_item_count": 16,
+    "content_item_ids": [
+      "sala-2026-09-22-10",
+      "sala-2026-09-22-16",
+      "sala-2026-09-22-17",
+      "sala-2026-09-22-21",
+      "sala-2026-09-22-23",
+      "salb-2026-09-22-11",
+      "salb-2026-09-22-19",
+      "salb-2026-09-22-22",
+      "salb-2026-09-22-23",
+      "salb-2026-09-22-25",
+      "salc-2026-09-22-16",
+      "sala-2026-09-24-06",
+      "sala-2026-09-25-02",
+      "sala-2026-09-25-03",
+      "sala-2026-09-25-05",
+      "sala-2026-09-25-07"
+    ],
+    "talk_count": 16,
+    "discussion_count": 0,
+    "related_themes": [
+      "specimen-digitisation",
+      "llm-information-extraction",
+      "literature-mining",
+      "llm-evaluation-and-hallucination",
+      "marine-biodiversity-data"
+    ],
+    "related_theme_cooccurrence": {
+      "specimen-digitisation": 7,
+      "llm-information-extraction": 5,
+      "literature-mining": 4,
+      "llm-evaluation-and-hallucination": 3,
+      "marine-biodiversity-data": 2
+    }
+  },
+  {
+    "id": "legacy-data-migration",
+    "name": "Legacy data migration",
+    "description": "Moving and cleaning legacy databases, images and records into new systems and formats.",
+    "aliases": [
+      "archival format migration",
+      "data migration",
+      "legacy collections",
+      "legacy data cleaning",
+      "legacy data migration",
+      "legacy database migration",
+      "legacy image migration"
+    ],
+    "content_item_count": 9,
+    "content_item_ids": [
+      "salc-2026-09-22-17",
+      "sala-2026-09-24-04",
+      "sala-2026-09-24-05",
+      "sala-2026-09-24-11",
+      "salc-2026-09-24-02",
+      "salc-2026-09-24-03",
+      "salc-2026-09-24-06",
+      "salc-2026-09-24-14",
+      "salb-2026-09-25-11"
+    ],
+    "talk_count": 8,
+    "discussion_count": 1,
+    "related_themes": [
+      "collection-data-models",
+      "user-centred-design",
+      "collection-management-systems",
+      "data-governance",
+      "fair-data"
+    ],
+    "related_theme_cooccurrence": {
+      "collection-data-models": 3,
+      "user-centred-design": 2,
+      "collection-management-systems": 3,
+      "data-governance": 2,
+      "fair-data": 2
+    }
+  },
+  {
+    "id": "legacy-literature-digitisation",
+    "name": "Legacy literature digitisation",
+    "description": "Digitising and providing access to historical biodiversity literature (e.g. the Biodiversity Heritage Library), its interfaces, partnerships and sustainability.",
+    "aliases": [
+      "20th anniversary of BHL",
+      "accessibility compliance",
+      "BHL partnership",
+      "BHL sustainability and fundraising",
+      "BHL transition",
+      "BHL-GBIF relationship",
+      "community-driven subsetting",
+      "digital library interfaces",
+      "digitising legacy literature",
+      "open bibliographic data",
+      "semantic navigation",
+      "unit of work"
+    ],
+    "content_item_count": 9,
+    "content_item_ids": [
+      "aula-taster-01-kearney-bhl",
+      "sala-2026-09-22-11",
+      "sala-2026-09-22-14",
+      "sala-2026-09-22-15",
+      "sala-2026-09-22-16",
+      "sala-2026-09-22-18",
+      "sala-2026-09-22-23",
+      "sala-2026-09-22-24",
+      "forum-2026-09-24-20"
+    ],
+    "talk_count": 8,
+    "discussion_count": 1,
+    "related_themes": [
+      "infrastructure-sustainability",
+      "literature-mining",
+      "semantic-publishing",
+      "data-discovery",
+      "ai-agents-and-conversational-access"
+    ],
+    "related_theme_cooccurrence": {
+      "infrastructure-sustainability": 3,
+      "literature-mining": 3,
+      "semantic-publishing": 2,
+      "data-discovery": 2,
+      "ai-agents-and-conversational-access": 2
+    }
+  },
+  {
+    "id": "linked-open-data",
+    "name": "Linked open data and Wikidata",
+    "description": "Publishing and linking biodiversity entities as linked open data, notably in Wikidata.",
+    "aliases": [
+      "linked open data",
+      "linked research products",
+      "specimen URIs",
+      "Wikidata",
+      "Wikidata for biodiversity"
+    ],
+    "content_item_count": 9,
+    "content_item_ids": [
+      "aula-plenary-1-01-tdwg-chair-address",
+      "salb-2026-09-22-16",
+      "salb-2026-09-22-17",
+      "salc-2026-09-22-05",
+      "salb-2026-09-24-22",
+      "salc-2026-09-24-02",
+      "sala-2026-09-25-13",
+      "sala-2026-09-25-15",
+      "salc-2026-09-25-03"
+    ],
+    "talk_count": 8,
+    "discussion_count": 1,
+    "related_themes": [
+      "persistent-identifiers",
+      "tdwg-community-and-governance",
+      "digital-extended-specimen",
+      "historical-archives",
+      "volunteer-and-community-curation"
+    ],
+    "related_theme_cooccurrence": {
+      "persistent-identifiers": 4,
+      "tdwg-community-and-governance": 2,
+      "digital-extended-specimen": 3,
+      "historical-archives": 2,
+      "volunteer-and-community-curation": 2
+    }
+  },
+  {
+    "id": "llm-evaluation-and-hallucination",
+    "name": "LLM evaluation and hallucination",
+    "description": "Measuring the accuracy, uncertainty and cost of LLM outputs, and detecting or controlling hallucination.",
+    "aliases": [
+      "AI hallucination",
+      "AI hallucination/fabrication",
+      "evidence grounding",
+      "false certainty",
+      "hallucination",
+      "hallucination control",
+      "large language models as next-token predictors",
+      "LLM cost-accuracy trade-off",
+      "LLM data extraction validation",
+      "LLM evaluation agent",
+      "LLM grounding and hallucination control",
+      "LLM hallucination",
+      "LLM uncertainty estimation",
+      "log probabilities",
+      "measuring LLM performance",
+      "multi-model consensus"
+    ],
+    "content_item_count": 12,
+    "content_item_ids": [
+      "sala-2026-09-22-01",
+      "sala-2026-09-22-10",
+      "sala-2026-09-22-11",
+      "sala-2026-09-22-22",
+      "salb-2026-09-22-23",
+      "salb-2026-09-22-29",
+      "salb-2026-09-24-23",
+      "salc-2026-09-24-10",
+      "salc-2026-09-24-16",
+      "sala-2026-09-25-03",
+      "sala-2026-09-25-06",
+      "sala-2026-09-25-14"
+    ],
+    "talk_count": 11,
+    "discussion_count": 1,
+    "related_themes": [
+      "human-in-the-loop",
+      "label-transcription-and-ocr",
+      "fitness-for-use",
+      "literature-mining",
+      "identification-keys-and-descriptive-data"
+    ],
+    "related_theme_cooccurrence": {
+      "human-in-the-loop": 4,
+      "label-transcription-and-ocr": 3,
+      "fitness-for-use": 2,
+      "literature-mining": 3,
+      "identification-keys-and-descriptive-data": 2
+    }
+  },
+  {
+    "id": "llm-information-extraction",
+    "name": "LLM-based information extraction",
+    "description": "Using large language models to extract, structure and enrich biodiversity information from text and records, including prompt and schema design.",
+    "aliases": [
+      "AI data enrichment",
+      "annotated corpus",
+      "automated enrichment",
+      "caption generation",
+      "coreference resolution",
+      "entity extraction",
+      "entity linking",
+      "geographic extraction",
+      "habitat extraction",
+      "information extraction",
+      "LLM as parser and judge",
+      "LLM enrichment in batches",
+      "LLM extraction from taxonomic literature",
+      "LLM information extraction",
+      "LLM prompt customisation",
+      "LLM summarisation",
+      "LLM-assisted annotation",
+      "LLM-assisted data curation",
+      "multimodal knowledge extraction",
+      "prompt and schema design",
+      "prompting strategies",
+      "schema-constrained extraction",
+      "text classification"
+    ],
+    "content_item_count": 20,
+    "content_item_ids": [
+      "odin-2026-09-22-22",
+      "sala-2026-09-22-12",
+      "sala-2026-09-22-17",
+      "sala-2026-09-22-20",
+      "sala-2026-09-22-21",
+      "sala-2026-09-22-22",
+      "sala-2026-09-22-24",
+      "salb-2026-09-22-11",
+      "salb-2026-09-22-13",
+      "salb-2026-09-22-18",
+      "salb-2026-09-22-22",
+      "forum-2026-09-24-19",
+      "salb-2026-09-24-15",
+      "salc-2026-09-24-14",
+      "salc-2026-09-24-19",
+      "sala-2026-09-25-02",
+      "sala-2026-09-25-04",
+      "sala-2026-09-25-06",
+      "sala-2026-09-25-12",
+      "salb-2026-09-25-02"
+    ],
+    "talk_count": 19,
+    "discussion_count": 1,
+    "related_themes": [
+      "literature-mining",
+      "historical-archives",
+      "label-transcription-and-ocr",
+      "georeferencing",
+      "human-in-the-loop"
+    ],
+    "related_theme_cooccurrence": {
+      "literature-mining": 7,
+      "historical-archives": 5,
+      "label-transcription-and-ocr": 5,
+      "georeferencing": 3,
+      "human-in-the-loop": 4
+    }
+  },
+  {
+    "id": "local-and-edge-ai",
+    "name": "Local and edge AI",
+    "description": "Running AI models on local machines, on-device or at the edge (in the field or in museums) rather than via cloud services.",
+    "aliases": [
+      "edge AI",
+      "edge AI efficiency",
+      "edge computing",
+      "edge computing in museums",
+      "local AI",
+      "local AI hosting",
+      "local deployment",
+      "local LLMs",
+      "local models",
+      "on-device LLMs"
+    ],
+    "content_item_count": 10,
+    "content_item_ids": [
+      "sala-2026-09-22-03",
+      "sala-2026-09-22-06",
+      "sala-2026-09-22-07",
+      "sala-2026-09-22-10",
+      "sala-2026-09-22-12",
+      "salb-2026-09-22-21",
+      "salb-2026-09-24-05",
+      "salc-2026-09-24-14",
+      "salc-2026-09-24-24",
+      "sala-2026-09-25-09"
+    ],
+    "talk_count": 10,
+    "discussion_count": 0,
+    "related_themes": [
+      "ai-environmental-and-compute-costs",
+      "automated-sensor-monitoring",
+      "ml-training-data-and-benchmarks",
+      "drone-based-monitoring",
+      "georeferencing"
+    ],
+    "related_theme_cooccurrence": {
+      "ai-environmental-and-compute-costs": 3,
+      "automated-sensor-monitoring": 3,
+      "ml-training-data-and-benchmarks": 3,
+      "drone-based-monitoring": 2,
+      "georeferencing": 2
+    }
+  },
+  {
+    "id": "long-term-monitoring",
+    "name": "Long-term and national monitoring",
+    "description": "Long-term ecological research, national and regional monitoring networks and protected-area monitoring programmes.",
+    "aliases": [
+      "ecological monitoring data",
+      "ecological monitoring protocols",
+      "ecological observatory",
+      "long-term ecological research",
+      "long-term monitoring data",
+      "longitudinal records",
+      "monitoring in Asia",
+      "national biodiversity monitoring in Saudi Arabia",
+      "national monitoring network",
+      "Natura 2000 monitoring",
+      "protected area monitoring",
+      "vegetation monitoring",
+      "water plant monitoring"
+    ],
+    "content_item_count": 16,
+    "content_item_ids": [
+      "aula-taster-08-raes-bmd-ai-monitoring",
+      "odin-2026-09-22-17",
+      "odin-2026-09-22-22",
+      "sala-2026-09-22-05",
+      "sala-2026-09-22-08",
+      "salb-2026-09-22-23",
+      "forum-2026-09-24-06",
+      "salb-2026-09-24-13",
+      "salb-2026-09-24-23",
+      "salc-2026-09-24-13",
+      "forum-2026-09-25-03",
+      "sala-2026-09-25-12",
+      "salc-2026-09-25-07",
+      "salc-2026-09-25-08",
+      "salc-2026-09-25-10",
+      "salc-2026-09-25-11"
+    ],
+    "talk_count": 16,
+    "discussion_count": 0,
+    "related_themes": [
+      "sampling-event-and-survey-data",
+      "bioacoustics",
+      "citizen-science",
+      "camera-trap-data",
+      "automated-sensor-monitoring"
+    ],
+    "related_theme_cooccurrence": {
+      "sampling-event-and-survey-data": 3,
+      "bioacoustics": 2,
+      "citizen-science": 3,
+      "camera-trap-data": 2,
+      "automated-sensor-monitoring": 2
+    }
+  },
+  {
+    "id": "marine-biodiversity-data",
+    "name": "Marine biodiversity data",
+    "description": "Marine species and ocean data, marine geographic units and gazetteers, and land-sea integration.",
+    "aliases": [
+      "land-sea data integration",
+      "marine biodiversity data",
+      "marine gazetteer",
+      "marine geographic units",
+      "maritime boundaries",
+      "seabird data"
+    ],
+    "content_item_count": 6,
+    "content_item_ids": [
+      "odin-2026-09-22-15",
+      "salb-2026-09-22-23",
+      "forum-2026-09-24-22",
+      "forum-2026-09-24-23",
+      "salb-2026-09-24-03",
+      "sala-2026-09-25-07"
+    ],
+    "talk_count": 6,
+    "discussion_count": 0,
+    "related_themes": [
+      "label-transcription-and-ocr",
+      "data-visualisation",
+      "digital-twins"
+    ],
+    "related_theme_cooccurrence": {
+      "label-transcription-and-ocr": 2,
+      "data-visualisation": 1,
+      "digital-twins": 1
+    }
+  },
+  {
+    "id": "minimum-information-standards",
+    "name": "Minimum information standards for digitisation",
+    "description": "Defining minimum or complete information levels for digitised specimens (e.g. MIDS) and measuring data completeness.",
+    "aliases": [
+      "data completeness",
+      "MIDS",
+      "MIDS public review",
+      "minimal datasets",
+      "specimen metadata completeness"
+    ],
+    "content_item_count": 7,
+    "content_item_ids": [
+      "odin-2026-09-22-14",
+      "salb-2026-09-22-19",
+      "salc-2026-09-22-07",
+      "salc-2026-09-22-08",
+      "salc-2026-09-22-21",
+      "salc-2026-09-22-24",
+      "sala-2026-09-24-08"
+    ],
+    "talk_count": 6,
+    "discussion_count": 1,
+    "related_themes": [
+      "digitisation-planning",
+      "geoscience-collections",
+      "national-and-regional-data-networks",
+      "data-quality",
+      "specimen-digitisation"
+    ],
+    "related_theme_cooccurrence": {
+      "digitisation-planning": 4,
+      "geoscience-collections": 3,
+      "national-and-regional-data-networks": 2,
+      "data-quality": 2,
+      "specimen-digitisation": 2
+    }
+  },
+  {
+    "id": "ml-training-data-and-benchmarks",
+    "name": "ML training data and benchmarks",
+    "description": "Building, sharing and evaluating training datasets and benchmarks for biodiversity machine learning, including use of museum images as training data.",
+    "aliases": [
+      "benchmark dataset",
+      "benchmark datasets",
+      "biologically relevant ML benchmarks",
+      "dataset bias",
+      "machine learning training data",
+      "ML dataset platforms",
+      "model benchmarking",
+      "model feedback loops",
+      "model registry",
+      "museum collection images as training data",
+      "plant image datasets",
+      "sim-to-real",
+      "training data collection challenges",
+      "training dataset generation"
+    ],
+    "content_item_count": 13,
+    "content_item_ids": [
+      "aula-plenary-1-02-berger-wolf-keynote",
+      "sala-2026-09-22-04",
+      "sala-2026-09-22-06",
+      "sala-2026-09-22-08",
+      "sala-2026-09-22-09",
+      "sala-2026-09-22-10",
+      "salb-2026-09-22-14",
+      "salb-2026-09-22-23",
+      "sala-2026-09-24-09",
+      "salb-2026-09-24-05",
+      "salb-2026-09-24-15",
+      "salc-2026-09-24-12",
+      "salb-2026-09-25-03"
+    ],
+    "talk_count": 13,
+    "discussion_count": 0,
+    "related_themes": [
+      "specimen-annotation",
+      "automated-sensor-monitoring",
+      "local-and-edge-ai",
+      "ai-ready-data",
+      "foundation-models-and-imageomics"
+    ],
+    "related_theme_cooccurrence": {
+      "specimen-annotation": 3,
+      "automated-sensor-monitoring": 3,
+      "local-and-edge-ai": 3,
+      "ai-ready-data": 4,
+      "foundation-models-and-imageomics": 2
+    }
+  },
+  {
+    "id": "molecular-sequence-data",
+    "name": "Molecular and sequence data",
+    "description": "DNA barcodes and sequence data: curation, metadata, provenance and linking to specimens.",
+    "aliases": [
+      "DNA barcode curation",
+      "FAIR sequence data",
+      "genomic data provenance",
+      "metadata for sequences"
+    ],
+    "content_item_count": 4,
+    "content_item_ids": [
+      "forum-2026-09-24-07",
+      "forum-2026-09-24-10",
+      "forum-2026-09-24-13",
+      "sala-2026-09-25-10"
+    ],
+    "talk_count": 4,
+    "discussion_count": 0,
+    "related_themes": [
+      "environmental-dna",
+      "evidence-synthesis",
+      "specimen-annotation"
+    ],
+    "related_theme_cooccurrence": {
+      "environmental-dna": 2,
+      "evidence-synthesis": 1,
+      "specimen-annotation": 1
+    }
+  },
+  {
+    "id": "multilingual-data",
+    "name": "Multilingual biodiversity data",
+    "description": "Localisation, translation and multilingual access to biodiversity data and tools.",
+    "aliases": [
+      "localisation and translation"
+    ],
+    "content_item_count": 1,
+    "content_item_ids": [
+      "salc-2026-09-25-02"
+    ],
+    "talk_count": 1,
+    "discussion_count": 0,
+    "related_themes": [
+      "ai-agents-and-conversational-access",
+      "volunteer-and-community-curation",
+      "capacity-building"
+    ],
+    "related_theme_cooccurrence": {
+      "ai-agents-and-conversational-access": 1,
+      "volunteer-and-community-curation": 1,
+      "capacity-building": 1
+    }
+  },
+  {
+    "id": "national-and-regional-data-networks",
+    "name": "National and regional biodiversity data networks",
+    "description": "GBIF nodes, national biodiversity information systems, hosted and regional portals, and national data strategies.",
+    "aliases": [
+      "Africa biodiversity data",
+      "data portals",
+      "GBIF hosted portals",
+      "GBIF node infrastructure",
+      "GBIF node operations",
+      "GBIF nodes",
+      "hosted portals",
+      "inter-agency collaboration",
+      "Living Atlas deployment",
+      "national aggregation",
+      "national biodiversity data repository",
+      "national biodiversity data strategy",
+      "national biodiversity information system",
+      "regional biodiversity portal",
+      "Southeast Asia biodiversity data",
+      "web portals"
+    ],
+    "content_item_count": 14,
+    "content_item_ids": [
+      "odin-2026-09-22-14",
+      "sala-2026-09-22-18",
+      "salb-2026-09-22-01",
+      "salb-2026-09-22-02",
+      "salb-2026-09-22-18",
+      "salb-2026-09-22-19",
+      "salc-2026-09-22-13",
+      "salc-2026-09-22-14",
+      "forum-2026-09-24-08",
+      "salb-2026-09-24-13",
+      "salb-2026-09-24-19",
+      "salc-2026-09-24-07",
+      "salc-2026-09-25-02",
+      "salc-2026-09-25-11"
+    ],
+    "talk_count": 14,
+    "discussion_count": 0,
+    "related_themes": [
+      "minimum-information-standards",
+      "decision-support",
+      "sensitive-species-data",
+      "volunteer-and-community-curation",
+      "data-access-and-licensing"
+    ],
+    "related_theme_cooccurrence": {
+      "minimum-information-standards": 2,
+      "decision-support": 2,
+      "sensitive-species-data": 2,
+      "volunteer-and-community-curation": 2,
+      "data-access-and-licensing": 2
+    }
+  },
+  {
+    "id": "ontologies",
+    "name": "Ontologies",
+    "description": "Developing, cataloguing, aligning and governing ontologies and semantic artefacts, and ontology-based data access and integration.",
+    "aliases": [
+      "cross-domain ontologies",
+      "FAIR semantic artefacts",
+      "knowledge organisation",
+      "ontologies and semantics",
+      "ontology alignment",
+      "ontology catalogs",
+      "ontology governance",
+      "ontology-based data access",
+      "ontology-based integration",
+      "semantic drift",
+      "semantic governance",
+      "semantic mappings"
+    ],
+    "content_item_count": 10,
+    "content_item_ids": [
+      "aula-2026-09-21-plenary2-walls",
+      "odin-2026-09-22-18",
+      "salb-2026-09-22-27",
+      "sala-2026-09-24-11",
+      "sala-2026-09-24-14",
+      "salb-2026-09-24-03",
+      "salb-2026-09-24-10",
+      "salc-2026-09-24-11",
+      "salc-2026-09-24-21",
+      "salb-2026-09-25-08"
+    ],
+    "talk_count": 9,
+    "discussion_count": 1,
+    "related_themes": [
+      "trust-and-ethics",
+      "controlled-vocabularies",
+      "semantic-interoperability",
+      "fitness-for-use",
+      "research-software-architecture"
+    ],
+    "related_theme_cooccurrence": {
+      "trust-and-ethics": 2,
+      "controlled-vocabularies": 3,
+      "semantic-interoperability": 3,
+      "fitness-for-use": 2,
+      "research-software-architecture": 2
+    }
+  },
+  {
+    "id": "open-science",
+    "name": "Open data and open science",
+    "description": "Open data, open science and open access infrastructure, and pressures on openness (including from AI).",
+    "aliases": [
+      "open access infrastructure",
+      "open data",
+      "open data policy",
+      "open data vs cost recovery",
+      "open digital curation",
+      "open repositories for outputs",
+      "open science",
+      "open science under AI pressure",
+      "radical openness"
+    ],
+    "content_item_count": 9,
+    "content_item_ids": [
+      "salb-2026-09-22-09",
+      "forum-2026-09-24-04",
+      "forum-2026-09-24-09",
+      "salb-2026-09-24-08",
+      "salc-2026-09-24-21",
+      "salb-2026-09-25-10",
+      "salb-2026-09-25-11",
+      "salc-2026-09-25-03",
+      "salc-2026-09-25-05"
+    ],
+    "talk_count": 5,
+    "discussion_count": 4,
+    "related_themes": [
+      "data-preservation-and-storage",
+      "critical-perspectives-on-ai",
+      "people-identification-and-attribution",
+      "infrastructure-sustainability",
+      "infrastructure-funding"
+    ],
+    "related_theme_cooccurrence": {
+      "data-preservation-and-storage": 3,
+      "critical-perspectives-on-ai": 2,
+      "people-identification-and-attribution": 3,
+      "infrastructure-sustainability": 3,
+      "infrastructure-funding": 3
+    }
+  },
+  {
+    "id": "palaeontology-data",
+    "name": "Palaeontology data",
+    "description": "Fossil collections and palaeontological data, including deep-time environmental data.",
+    "aliases": [
+      "deep-time environmental data",
+      "fossil collection data",
+      "paleontological collections",
+      "paleontological data",
+      "paleontology data",
+      "paleontology informatics"
+    ],
+    "content_item_count": 5,
+    "content_item_ids": [
+      "salc-2026-09-22-01",
+      "salc-2026-09-22-03",
+      "sala-2026-09-24-06",
+      "sala-2026-09-24-23",
+      "salb-2026-09-24-14"
+    ],
+    "talk_count": 5,
+    "discussion_count": 0,
+    "related_themes": [
+      "geoscience-collections",
+      "collection-data-models",
+      "darwin-core-data-package",
+      "digital-extended-specimen"
+    ],
+    "related_theme_cooccurrence": {
+      "geoscience-collections": 2,
+      "collection-data-models": 2,
+      "darwin-core-data-package": 2,
+      "digital-extended-specimen": 2
+    }
+  },
+  {
+    "id": "persistent-identifiers",
+    "name": "Persistent identifiers",
+    "description": "Persistent and content-based identifiers for specimens, samples, media, names, literature and organisms, and their stability.",
+    "aliases": [
+      "annotation resilience",
+      "content-based identifiers",
+      "identifier management",
+      "IIIF image referencing",
+      "link rot",
+      "machine-readable identifiers",
+      "occurrence identifier stability",
+      "persistent identifiers",
+      "persistent identifiers for literature",
+      "persistent identifiers for media",
+      "persistent identifiers for names",
+      "persistent identifiers for samples",
+      "persistent organism identifiers",
+      "unstable identifiers",
+      "Wikidata as identifier broker",
+      "Wikidata as identifier hub"
+    ],
+    "content_item_count": 24,
+    "content_item_ids": [
+      "aula-taster-01-kearney-bhl",
+      "odin-2026-09-22-07",
+      "odin-2026-09-22-10",
+      "sala-2026-09-22-24",
+      "salb-2026-09-22-15",
+      "salb-2026-09-22-17",
+      "salc-2026-09-22-05",
+      "salc-2026-09-22-09",
+      "salc-2026-09-22-23",
+      "forum-2026-09-24-06",
+      "forum-2026-09-24-16",
+      "forum-2026-09-24-17",
+      "forum-2026-09-24-23",
+      "sala-2026-09-24-03",
+      "sala-2026-09-24-08",
+      "sala-2026-09-24-09",
+      "sala-2026-09-24-11",
+      "sala-2026-09-24-24",
+      "salb-2026-09-24-11",
+      "salb-2026-09-24-12",
+      "salc-2026-09-24-02",
+      "salc-2026-09-24-13",
+      "forum-2026-09-25-02",
+      "salc-2026-09-25-03"
+    ],
+    "talk_count": 22,
+    "discussion_count": 2,
+    "related_themes": [
+      "people-identification-and-attribution",
+      "linked-open-data",
+      "digital-extended-specimen",
+      "semantic-publishing",
+      "data-provenance"
+    ],
+    "related_theme_cooccurrence": {
+      "people-identification-and-attribution": 5,
+      "linked-open-data": 4,
+      "digital-extended-specimen": 5,
+      "semantic-publishing": 3,
+      "data-provenance": 4
+    }
+  },
+  {
+    "id": "personal-data-privacy",
+    "name": "Personal data and privacy",
+    "description": "Protecting the privacy of collectors, observers and researchers in biodiversity data.",
+    "aliases": [
+      "citizen science privacy",
+      "collector privacy",
+      "privacy of researcher data"
+    ],
+    "content_item_count": 3,
+    "content_item_ids": [
+      "salb-2026-09-22-03",
+      "salb-2026-09-22-08",
+      "salc-2026-09-25-03"
+    ],
+    "talk_count": 2,
+    "discussion_count": 1,
+    "related_themes": [
+      "sensitive-species-data",
+      "data-access-and-licensing",
+      "linked-open-data"
+    ],
+    "related_theme_cooccurrence": {
+      "sensitive-species-data": 2,
+      "data-access-and-licensing": 2,
+      "linked-open-data": 1
+    }
+  },
+  {
+    "id": "ai-provenance",
+    "name": "Provenance of AI-derived data",
+    "description": "Recording which models, versions and processes produced AI-generated annotations and records so they can be traced, trusted and reproduced.",
+    "aliases": [
+      "AI model provenance",
+      "AI provenance",
+      "lineage of AI-derived data",
+      "machine observations",
+      "model provenance",
+      "provenance for AI",
+      "provenance of AI use",
+      "reproducibility of AI pipelines",
+      "separating detection from interpretation",
+      "uncertainty propagation"
+    ],
+    "content_item_count": 8,
+    "content_item_ids": [
+      "salb-2026-09-22-09",
+      "salb-2026-09-22-11",
+      "salb-2026-09-22-16",
+      "salb-2026-09-22-27",
+      "salb-2026-09-24-11",
+      "salc-2026-09-24-13",
+      "salc-2026-09-24-17",
+      "salc-2026-09-25-04"
+    ],
+    "talk_count": 8,
+    "discussion_count": 0,
+    "related_themes": [
+      "controlled-vocabularies",
+      "data-provenance",
+      "persistent-identifiers"
+    ],
+    "related_theme_cooccurrence": {
+      "controlled-vocabularies": 2,
+      "data-provenance": 2,
+      "persistent-identifiers": 2
+    }
+  },
+  {
+    "id": "remote-sensing",
+    "name": "Remote sensing and Earth observation",
+    "description": "Satellite, airborne and spectral data for mapping land cover, habitats and organisms, and integrating Earth observation with occurrence data.",
+    "aliases": [
+      "coastal shoreline dynamics",
+      "ecoregion mapping",
+      "harmonising occurrence and Earth observation data",
+      "hyperspectral imaging",
+      "individual tree detection",
+      "land use land cover change",
+      "mangrove expansion",
+      "remote sensing",
+      "remote sensing classification",
+      "remote sensing integration",
+      "remote sensing time series"
+    ],
+    "content_item_count": 8,
+    "content_item_ids": [
+      "aula-taster-07-lewers-information-ecosystems",
+      "odin-2026-09-22-24",
+      "salb-2026-09-22-14",
+      "salb-2026-09-24-01",
+      "salb-2026-09-24-20",
+      "salc-2026-09-24-13",
+      "forum-2026-09-25-04",
+      "sala-2026-09-25-04"
+    ],
+    "talk_count": 8,
+    "discussion_count": 0,
+    "related_themes": [
+      "invasive-species",
+      "geospatial-infrastructure",
+      "species-distribution-modelling",
+      "data-provenance"
+    ],
+    "related_theme_cooccurrence": {
+      "invasive-species": 2,
+      "geospatial-infrastructure": 2,
+      "species-distribution-modelling": 2,
+      "data-provenance": 2
+    }
+  },
+  {
+    "id": "reproducible-workflows",
+    "name": "Reproducible workflows",
+    "description": "Reproducibility of analyses and workflow systems for executing and sharing them.",
+    "aliases": [
+      "remote workflow execution",
+      "reproducibility",
+      "workflow engines"
+    ],
+    "content_item_count": 5,
+    "content_item_ids": [
+      "forum-2026-09-24-14",
+      "forum-2026-09-24-20",
+      "sala-2026-09-24-21",
+      "salb-2026-09-24-02",
+      "salb-2026-09-24-14"
+    ],
+    "talk_count": 5,
+    "discussion_count": 0,
+    "related_themes": [
+      "fair-digital-objects",
+      "palaeontology-data",
+      "invasive-species"
+    ],
+    "related_theme_cooccurrence": {
+      "fair-digital-objects": 1,
+      "palaeontology-data": 1,
+      "invasive-species": 1
+    }
+  },
+  {
+    "id": "research-infrastructure-landscape",
+    "name": "Research infrastructure landscape",
+    "description": "How biodiversity research infrastructures fit together: scope, governance, federation, European data spaces and the visibility of infrastructure.",
+    "aliases": [
+      "acronym soup",
+      "biodiversity informatics infrastructure landscape",
+      "boundary objects",
+      "data as infrastructure",
+      "data spaces",
+      "DiSSCo UK",
+      "distributed research infrastructures",
+      "end-to-end data infrastructure",
+      "EU project participation",
+      "European data spaces",
+      "European Open Science Cloud",
+      "GBIF history and vision",
+      "governance of biodiversity infrastructures",
+      "history of biodiversity informatics",
+      "information ecosystems",
+      "infrastructure invisibility",
+      "institutional knowledge infrastructure",
+      "institutional science infrastructure",
+      "institutional versus federated infrastructure",
+      "platform proliferation",
+      "research infrastructure",
+      "research infrastructure governance",
+      "scope of infrastructures",
+      "sociotechnical infrastructure design",
+      "trophic cascade analogy",
+      "use cases for infrastructure"
+    ],
+    "content_item_count": 22,
+    "content_item_ids": [
+      "aula-plenary-1-01-tdwg-chair-address",
+      "aula-taster-07-lewers-information-ecosystems",
+      "odin-2026-09-22-01",
+      "odin-2026-09-22-21",
+      "sala-2026-09-22-14",
+      "sala-2026-09-22-15",
+      "sala-2026-09-22-19",
+      "salb-2026-09-22-25",
+      "salc-2026-09-22-03",
+      "forum-2026-09-24-03",
+      "forum-2026-09-24-05",
+      "forum-2026-09-24-21",
+      "sala-2026-09-24-02",
+      "salb-2026-09-24-02",
+      "salb-2026-09-24-04",
+      "salb-2026-09-24-21",
+      "salc-2026-09-24-05",
+      "forum-2026-09-25-02",
+      "sala-2026-09-25-02",
+      "sala-2026-09-25-17",
+      "salb-2026-09-25-06",
+      "salb-2026-09-25-11"
+    ],
+    "talk_count": 19,
+    "discussion_count": 3,
+    "related_themes": [
+      "data-governance",
+      "fair-digital-objects",
+      "fair-data",
+      "standards-development-and-governance",
+      "tdwg-community-and-governance"
+    ],
+    "related_theme_cooccurrence": {
+      "data-governance": 3,
+      "fair-digital-objects": 2,
+      "fair-data": 3,
+      "standards-development-and-governance": 4,
+      "tdwg-community-and-governance": 2
+    }
+  },
+  {
+    "id": "research-software-architecture",
+    "name": "Research software architecture",
+    "description": "Architectural choices for biodiversity software: APIs, microservices, event-driven and cloud-native systems.",
+    "aliases": [
+      "API-first software",
+      "cloud infrastructure",
+      "cloud-native data",
+      "control plane",
+      "event-driven architecture",
+      "microservices for biodiversity data",
+      "open-source infrastructure",
+      "REST APIs",
+      "system architecture"
+    ],
+    "content_item_count": 8,
+    "content_item_ids": [
+      "aula-taster-07-lewers-information-ecosystems",
+      "odin-2026-09-22-14",
+      "sala-2026-09-22-07",
+      "sala-2026-09-24-14",
+      "sala-2026-09-24-18",
+      "sala-2026-09-24-24",
+      "salb-2026-09-24-04",
+      "salb-2026-09-25-08"
+    ],
+    "talk_count": 7,
+    "discussion_count": 1,
+    "related_themes": [
+      "darwin-core-data-package",
+      "ai-assisted-software-development",
+      "data-discovery",
+      "ontologies",
+      "standards-development-and-governance"
+    ],
+    "related_theme_cooccurrence": {
+      "darwin-core-data-package": 3,
+      "ai-assisted-software-development": 2,
+      "data-discovery": 2,
+      "ontologies": 2,
+      "standards-development-and-governance": 3
+    }
+  },
+  {
+    "id": "responsible-ai",
+    "name": "Responsible and trustworthy AI",
+    "description": "Governance, security, interpretability and trust in AI systems used by biodiversity institutions, and the risks AI poses.",
+    "aliases": [
+      "AI and standards bodies",
+      "AI data mining risks",
+      "AI governance",
+      "AI governance in the public sector",
+      "AI impact on institutions",
+      "AI security and governance",
+      "AI-generated fakes",
+      "explainable identification",
+      "institutional trust in AI",
+      "interpretable AI",
+      "interpretable machine learning",
+      "open vs closed models",
+      "responsible AI",
+      "trust in AI outputs",
+      "trustworthy AI"
+    ],
+    "content_item_count": 16,
+    "content_item_ids": [
+      "aula-plenary-1-01-tdwg-chair-address",
+      "aula-plenary-1-02-berger-wolf-keynote",
+      "sala-2026-09-22-02",
+      "salb-2026-09-22-05",
+      "salb-2026-09-22-11",
+      "salb-2026-09-22-12",
+      "salb-2026-09-22-15",
+      "salb-2026-09-22-20",
+      "salb-2026-09-22-22",
+      "salb-2026-09-24-12",
+      "salc-2026-09-24-21",
+      "sala-2026-09-25-09",
+      "salb-2026-09-25-02",
+      "salb-2026-09-25-03",
+      "salb-2026-09-25-05",
+      "salb-2026-09-25-10"
+    ],
+    "talk_count": 15,
+    "discussion_count": 1,
+    "related_themes": [
+      "data-sovereignty",
+      "ai-species-identification",
+      "access-and-benefit-sharing",
+      "ai-ready-data",
+      "data-provenance"
+    ],
+    "related_theme_cooccurrence": {
+      "data-sovereignty": 2,
+      "ai-species-identification": 3,
+      "access-and-benefit-sharing": 2,
+      "ai-ready-data": 3,
+      "data-provenance": 3
+    }
+  },
+  {
+    "id": "retrieval-augmented-generation",
+    "name": "Retrieval-augmented generation",
+    "description": "Grounding language-model answers in retrieved documents or knowledge graphs (RAG, GraphRAG, vector and hybrid search).",
+    "aliases": [
+      "GraphRAG",
+      "retrieval-augmented generation",
+      "vector embeddings and hybrid search"
+    ],
+    "content_item_count": 4,
+    "content_item_ids": [
+      "sala-2026-09-22-17",
+      "salc-2026-09-24-22",
+      "sala-2026-09-25-09",
+      "salb-2026-09-25-06"
+    ],
+    "talk_count": 4,
+    "discussion_count": 0,
+    "related_themes": [
+      "literature-mining",
+      "ai-agents-and-conversational-access",
+      "knowledge-graphs"
+    ],
+    "related_theme_cooccurrence": {
+      "literature-mining": 3,
+      "ai-agents-and-conversational-access": 2,
+      "knowledge-graphs": 2
+    }
+  },
+  {
+    "id": "sampling-event-and-survey-data",
+    "name": "Sampling-event and survey data",
+    "description": "Structured survey and sampling-event data: protocols, sampling effort, absences, abundance and detectability (e.g. Humboldt Extension).",
+    "aliases": [
+      "absence data",
+      "abundance data",
+      "detectability",
+      "event-based data modelling",
+      "Humboldt Extension adoption",
+      "occupancy models",
+      "sampling effort metadata",
+      "sampling protocols",
+      "sampling-event datasets",
+      "site-based data",
+      "standardised protocols",
+      "standardised survey protocols",
+      "survey data",
+      "true negatives and sampling effort"
+    ],
+    "content_item_count": 9,
+    "content_item_ids": [
+      "odin-2026-09-22-17",
+      "salc-2026-09-22-18",
+      "forum-2026-09-24-11",
+      "forum-2026-09-24-13",
+      "salb-2026-09-24-21",
+      "forum-2026-09-25-01",
+      "salc-2026-09-25-08",
+      "salc-2026-09-25-09",
+      "salc-2026-09-25-10"
+    ],
+    "talk_count": 8,
+    "discussion_count": 1,
+    "related_themes": [
+      "long-term-monitoring",
+      "camera-trap-data",
+      "ai-species-identification",
+      "citizen-science",
+      "digital-extended-specimen"
+    ],
+    "related_theme_cooccurrence": {
+      "long-term-monitoring": 3,
+      "camera-trap-data": 2,
+      "ai-species-identification": 2,
+      "citizen-science": 2,
+      "digital-extended-specimen": 2
+    }
+  },
+  {
+    "id": "schema-design-and-data-modelling",
+    "name": "Schema design and data modelling",
+    "description": "Designing typed schemas and data models (e.g. LinkML), schema validation and specification-driven data capture.",
+    "aliases": [
+      "data model normalisation",
+      "LinkML schemas",
+      "separation of concerns",
+      "SHACL validation",
+      "specification-driven data capture",
+      "typed data schemas",
+      "XML-first workflows",
+      "YAML recipe-driven processing"
+    ],
+    "content_item_count": 7,
+    "content_item_ids": [
+      "aula-taster-04-gbif-dwc-dp",
+      "salc-2026-09-22-10",
+      "forum-2026-09-24-17",
+      "sala-2026-09-24-21",
+      "salb-2026-09-24-01",
+      "salb-2026-09-24-13",
+      "salc-2026-09-24-19"
+    ],
+    "talk_count": 7,
+    "discussion_count": 0,
+    "related_themes": [
+      "decision-support",
+      "ai-ready-data",
+      "data-publishing-and-mobilisation"
+    ],
+    "related_theme_cooccurrence": {
+      "decision-support": 2,
+      "ai-ready-data": 2,
+      "data-publishing-and-mobilisation": 2
+    }
+  },
+  {
+    "id": "semantic-publishing",
+    "name": "Semantic and FAIR publishing",
+    "description": "Publishing taxonomic treatments and articles as structured, machine-readable, FAIR content and linking publications to data.",
+    "aliases": [
+      "article-level metadata",
+      "citation linking",
+      "FAIR publications",
+      "journal FAIRness",
+      "open access publishing",
+      "semantic publishing",
+      "structured content in literature",
+      "taxonomic treatments"
+    ],
+    "content_item_count": 9,
+    "content_item_ids": [
+      "sala-2026-09-22-18",
+      "sala-2026-09-22-24",
+      "forum-2026-09-24-15",
+      "forum-2026-09-24-16",
+      "forum-2026-09-24-17",
+      "forum-2026-09-24-18",
+      "sala-2026-09-25-04",
+      "sala-2026-09-25-10",
+      "salc-2026-09-25-06"
+    ],
+    "talk_count": 8,
+    "discussion_count": 1,
+    "related_themes": [
+      "taxonomic-expertise",
+      "literature-mining",
+      "knowledge-graphs",
+      "legacy-literature-digitisation",
+      "persistent-identifiers"
+    ],
+    "related_theme_cooccurrence": {
+      "taxonomic-expertise": 3,
+      "literature-mining": 3,
+      "knowledge-graphs": 3,
+      "legacy-literature-digitisation": 2,
+      "persistent-identifiers": 3
+    }
+  },
+  {
+    "id": "semantic-interoperability",
+    "name": "Semantic interoperability",
+    "description": "Integrating heterogeneous data across domains and systems through shared semantics, annotation and harmonisation.",
+    "aliases": [
+      "automated site annotation",
+      "biodiversity data integration",
+      "biotic-abiotic data integration",
+      "cross-disciplinary data reuse",
+      "cross-domain interoperability",
+      "heterogeneous research data",
+      "infrastructure integration",
+      "interoperability",
+      "repository interoperability",
+      "semantic annotation",
+      "semantic annotation with IRIs",
+      "semantic harmonisation",
+      "semantic integration",
+      "semantic interoperability",
+      "vertical datum mismatch"
+    ],
+    "content_item_count": 17,
+    "content_item_ids": [
+      "odin-2026-09-22-04",
+      "odin-2026-09-22-05",
+      "odin-2026-09-22-18",
+      "odin-2026-09-22-20",
+      "salc-2026-09-22-05",
+      "forum-2026-09-24-12",
+      "sala-2026-09-24-17",
+      "sala-2026-09-24-20",
+      "salb-2026-09-24-03",
+      "salb-2026-09-24-10",
+      "salb-2026-09-24-13",
+      "salb-2026-09-24-20",
+      "salc-2026-09-24-16",
+      "salc-2026-09-24-18",
+      "salc-2026-09-24-20",
+      "salc-2026-09-24-22",
+      "sala-2026-09-25-11"
+    ],
+    "talk_count": 17,
+    "discussion_count": 0,
+    "related_themes": [
+      "data-rescue",
+      "controlled-vocabularies",
+      "ontologies",
+      "knowledge-graphs",
+      "data-quality"
+    ],
+    "related_theme_cooccurrence": {
+      "data-rescue": 3,
+      "controlled-vocabularies": 4,
+      "ontologies": 3,
+      "knowledge-graphs": 4,
+      "data-quality": 3
+    }
+  },
+  {
+    "id": "sensitive-species-data",
+    "name": "Sensitive and restricted-access species data",
+    "description": "Protecting sensitive species locations: generalisation, restricted access, standards for withheld information, and the costs and harms of over-restriction.",
+    "aliases": [
+      "AI exposure of sensitive locations",
+      "cost of restricted data management",
+      "culture change around redaction",
+      "Darwin Core information withheld",
+      "data errors exposing sensitive data",
+      "data generalisation to grids",
+      "data harvesting of sensitive records",
+      "diffusion classes",
+      "location generalisation",
+      "national sensitive species list",
+      "over-restriction harms",
+      "precautionary generalisation",
+      "precautionary principle",
+      "restricted access species data",
+      "restricted access species data standard",
+      "security by obscurity",
+      "semi-restricted access",
+      "sensitive species",
+      "sensitive species data",
+      "sensitive species data sharing",
+      "signal search"
+    ],
+    "content_item_count": 11,
+    "content_item_ids": [
+      "odin-2026-09-22-12",
+      "sala-2026-09-22-09",
+      "salb-2026-09-22-01",
+      "salb-2026-09-22-02",
+      "salb-2026-09-22-03",
+      "salb-2026-09-22-04",
+      "salb-2026-09-22-05",
+      "salb-2026-09-22-06",
+      "salb-2026-09-22-07",
+      "salb-2026-09-22-08",
+      "forum-2026-09-25-03"
+    ],
+    "talk_count": 10,
+    "discussion_count": 1,
+    "related_themes": [
+      "data-access-and-licensing",
+      "personal-data-privacy",
+      "indigenous-data-governance",
+      "camera-trap-data",
+      "conservation-and-restoration"
+    ],
+    "related_theme_cooccurrence": {
+      "data-access-and-licensing": 5,
+      "personal-data-privacy": 2,
+      "indigenous-data-governance": 2,
+      "camera-trap-data": 2,
+      "conservation-and-restoration": 2
+    }
+  },
+  {
+    "id": "species-distribution-modelling",
+    "name": "Species distribution modelling",
+    "description": "Modelling species distributions and ecological niches from occurrence and environmental data, and the data requirements this places on infrastructures.",
+    "aliases": [
+      "climate and species data integration",
+      "environmental modelling",
+      "genomic SDMs",
+      "modeller-data community collaboration",
+      "occurrence uncertainty resampling",
+      "predictive model reliability",
+      "spatial cross-validation",
+      "spatial risk mapping",
+      "species distribution for conservation",
+      "species distribution modelling",
+      "species distribution recording"
+    ],
+    "content_item_count": 12,
+    "content_item_ids": [
+      "aula-taster-05-botha-sanparks-bims",
+      "odin-2026-09-22-23",
+      "salb-2026-09-22-24",
+      "forum-2026-09-24-11",
+      "forum-2026-09-24-14",
+      "forum-2026-09-24-21",
+      "forum-2026-09-24-22",
+      "salb-2026-09-24-01",
+      "salb-2026-09-24-08",
+      "salb-2026-09-24-18",
+      "forum-2026-09-25-03",
+      "sala-2026-09-25-04"
+    ],
+    "talk_count": 11,
+    "discussion_count": 1,
+    "related_themes": [
+      "decision-support",
+      "environmental-dna",
+      "conservation-and-restoration",
+      "remote-sensing",
+      "taxonomic-backbones-and-checklists"
+    ],
+    "related_theme_cooccurrence": {
+      "decision-support": 3,
+      "environmental-dna": 2,
+      "conservation-and-restoration": 3,
+      "remote-sensing": 2,
+      "taxonomic-backbones-and-checklists": 3
+    }
+  },
+  {
+    "id": "specimen-annotation",
+    "name": "Specimen and record annotation",
+    "description": "Annotating specimen and occurrence records by people and machines (e.g. machine annotation services), and validating annotations.",
+    "aliases": [
+      "annotation of third-party data",
+      "annotation quality",
+      "annotation validation",
+      "collaborative annotation",
+      "machine annotation services",
+      "provenance of annotations",
+      "rule-based annotation",
+      "specimen annotation"
+    ],
+    "content_item_count": 8,
+    "content_item_ids": [
+      "odin-2026-09-22-10",
+      "sala-2026-09-22-08",
+      "sala-2026-09-22-09",
+      "salb-2026-09-22-12",
+      "salb-2026-09-22-19",
+      "salb-2026-09-22-25",
+      "sala-2026-09-24-09",
+      "sala-2026-09-25-10"
+    ],
+    "talk_count": 8,
+    "discussion_count": 0,
+    "related_themes": [
+      "taxonomic-expertise",
+      "ml-training-data-and-benchmarks",
+      "volunteer-and-community-curation",
+      "data-round-tripping",
+      "label-transcription-and-ocr"
+    ],
+    "related_theme_cooccurrence": {
+      "taxonomic-expertise": 3,
+      "ml-training-data-and-benchmarks": 3,
+      "volunteer-and-community-curation": 2,
+      "data-round-tripping": 2,
+      "label-transcription-and-ocr": 2
+    }
+  },
+  {
+    "id": "specimen-digitisation",
+    "name": "Specimen digitisation",
+    "description": "Digitising natural history specimens and collections, from imaging workflows and stations to national and legacy digitisation programmes.",
+    "aliases": [
+      "collections digitisation",
+      "digitisation at scale",
+      "digitisation stations",
+      "drawer-level digitisation",
+      "entomology collections",
+      "fish collections",
+      "herbarium data",
+      "herbarium digitisation",
+      "herbarium specimens",
+      "imaging workflows",
+      "imaging-first digitisation",
+      "insect imaging",
+      "legacy collection digitisation",
+      "low-cost digitisation",
+      "malacology collections",
+      "mass digitisation",
+      "mass digitisation conveyor",
+      "mass digitisation pipelines",
+      "national collection digitisation",
+      "oology collections",
+      "pinned insects",
+      "specimen digitisation"
+    ],
+    "content_item_count": 21,
+    "content_item_ids": [
+      "odin-2026-09-22-14",
+      "sala-2026-09-22-10",
+      "sala-2026-09-22-12",
+      "salb-2026-09-22-25",
+      "salb-2026-09-22-26",
+      "salc-2026-09-22-16",
+      "salc-2026-09-22-18",
+      "salc-2026-09-22-20",
+      "forum-2026-09-24-03",
+      "forum-2026-09-24-25",
+      "sala-2026-09-24-06",
+      "sala-2026-09-24-08",
+      "sala-2026-09-24-10",
+      "sala-2026-09-24-11",
+      "salc-2026-09-24-02",
+      "salc-2026-09-24-09",
+      "sala-2026-09-25-02",
+      "sala-2026-09-25-03",
+      "sala-2026-09-25-05",
+      "sala-2026-09-25-08",
+      "sala-2026-09-25-13"
+    ],
+    "talk_count": 21,
+    "discussion_count": 0,
+    "related_themes": [
+      "label-transcription-and-ocr",
+      "human-in-the-loop",
+      "georeferencing",
+      "3d-and-advanced-imaging",
+      "minimum-information-standards"
+    ],
+    "related_theme_cooccurrence": {
+      "label-transcription-and-ocr": 7,
+      "human-in-the-loop": 4,
+      "georeferencing": 2,
+      "3d-and-advanced-imaging": 2,
+      "minimum-information-standards": 2
+    }
+  },
+  {
+    "id": "standards-development-and-governance",
+    "name": "Standards development and governance",
+    "description": "How TDWG and other bodies develop, review, ratify, version and sustain standards, and how standards evolve and are adopted.",
+    "aliases": [
+      "cultural heritage standards",
+      "data standards evolution",
+      "data standards impact",
+      "history of TDWG standards",
+      "lessons from biomedical data standards",
+      "local flexibility vs shared standards",
+      "loss of standards archives",
+      "metadata standards",
+      "researcher incentives for data standards",
+      "role of standards bodies",
+      "schema convergence",
+      "schema divergence",
+      "standard ratification",
+      "standard revival",
+      "standards as data contracts",
+      "standards governance",
+      "standards ratification and public review",
+      "standards ratification pipeline",
+      "standards reuse",
+      "standards sustainability",
+      "standards versioning",
+      "sustainability of standards maintenance",
+      "TDWG standards",
+      "training metadata standards",
+      "vocabulary gaps in TDWG standards"
+    ],
+    "content_item_count": 24,
+    "content_item_ids": [
+      "aula-plenary-1-01-tdwg-chair-address",
+      "aula-2026-09-21-plenary2-walls",
+      "aula-taster-04-gbif-dwc-dp",
+      "aula-taster-07-lewers-information-ecosystems",
+      "odin-2026-09-22-09",
+      "sala-2026-09-22-13",
+      "salc-2026-09-22-23",
+      "forum-2026-09-24-06",
+      "forum-2026-09-24-10",
+      "forum-2026-09-24-14",
+      "forum-2026-09-24-22",
+      "forum-2026-09-24-24",
+      "sala-2026-09-24-05",
+      "sala-2026-09-24-14",
+      "sala-2026-09-24-16",
+      "sala-2026-09-24-20",
+      "sala-2026-09-24-24",
+      "salb-2026-09-24-09",
+      "salc-2026-09-24-07",
+      "salc-2026-09-24-17",
+      "sala-2026-09-25-17",
+      "salb-2026-09-25-01",
+      "salb-2026-09-25-07",
+      "salb-2026-09-25-11"
+    ],
+    "talk_count": 22,
+    "discussion_count": 2,
+    "related_themes": [
+      "tdwg-community-and-governance",
+      "ai-assisted-software-development",
+      "data-packaging-formats",
+      "fitness-for-use",
+      "research-software-architecture"
+    ],
+    "related_theme_cooccurrence": {
+      "tdwg-community-and-governance": 3,
+      "ai-assisted-software-development": 3,
+      "data-packaging-formats": 3,
+      "fitness-for-use": 3,
+      "research-software-architecture": 3
+    }
+  },
+  {
+    "id": "taxon-concepts",
+    "name": "Taxon concepts and taxonomic change",
+    "description": "Representing taxon concepts, taxonomic uncertainty and change over time, and identifiers for taxa.",
+    "aliases": [
+      "classification consistency",
+      "fossil taxonomy",
+      "taxon concept identifiers",
+      "taxon concepts",
+      "taxon identifiers",
+      "taxonomic change management",
+      "taxonomic data models",
+      "taxonomic qualifiers (cf., agg., s.l.)",
+      "taxonomic uncertainty",
+      "TCS implementation"
+    ],
+    "content_item_count": 9,
+    "content_item_ids": [
+      "sala-2026-09-22-21",
+      "salb-2026-09-22-05",
+      "salc-2026-09-22-10",
+      "salc-2026-09-22-11",
+      "sala-2026-09-24-23",
+      "salb-2026-09-24-21",
+      "salb-2026-09-24-23",
+      "salc-2026-09-24-02",
+      "salc-2026-09-24-05"
+    ],
+    "talk_count": 8,
+    "discussion_count": 1,
+    "related_themes": [
+      "taxonomic-backbones-and-checklists",
+      "digital-extended-specimen",
+      "collection-management-systems",
+      "research-infrastructure-landscape"
+    ],
+    "related_theme_cooccurrence": {
+      "taxonomic-backbones-and-checklists": 4,
+      "digital-extended-specimen": 2,
+      "collection-management-systems": 2,
+      "research-infrastructure-landscape": 2
+    }
+  },
+  {
+    "id": "taxonomic-backbones-and-checklists",
+    "name": "Taxonomic backbones and checklists",
+    "description": "Building, curating and publishing species checklists, national taxonomies and global taxonomic backbones (e.g. Catalogue of Life), and their relationship to one another.",
+    "aliases": [
+      "botanical checklists",
+      "Catalogue of Life",
+      "checklist data quality",
+      "checklist management",
+      "checklist publishing",
+      "checklists",
+      "checklists vs backbones",
+      "community databases",
+      "expert-curated checklists",
+      "expert-curated data",
+      "global species list",
+      "global taxonomic backbone",
+      "interoperability between taxonomic databases",
+      "national checklists",
+      "national contributions to taxonomy",
+      "national taxonomic backbone",
+      "national taxonomic backbones",
+      "national taxonomies",
+      "species checklist automation",
+      "species checklists",
+      "taxonomic backbone",
+      "taxonomic backbone conflicts",
+      "taxonomic backbone construction",
+      "taxonomic backbone feedback",
+      "taxonomic backbone for GBIF",
+      "taxonomic data",
+      "taxonomic databases",
+      "taxonomic reference authority",
+      "versioned citable checklists",
+      "WoRMS and FADA collaboration"
+    ],
+    "content_item_count": 20,
+    "content_item_ids": [
+      "aula-taster-03-slatyer-taxonomic-backbone",
+      "aula-taster-05-botha-sanparks-bims",
+      "odin-2026-09-22-13",
+      "odin-2026-09-22-20",
+      "salb-2026-09-22-18",
+      "salc-2026-09-22-04",
+      "salc-2026-09-22-09",
+      "salc-2026-09-22-10",
+      "salc-2026-09-22-11",
+      "salc-2026-09-22-12",
+      "salc-2026-09-22-13",
+      "salc-2026-09-22-19",
+      "forum-2026-09-24-02",
+      "forum-2026-09-24-10",
+      "forum-2026-09-24-22",
+      "salb-2026-09-24-16",
+      "salb-2026-09-24-17",
+      "salb-2026-09-24-18",
+      "salb-2026-09-24-21",
+      "salc-2026-09-24-05"
+    ],
+    "talk_count": 19,
+    "discussion_count": 1,
+    "related_themes": [
+      "taxon-concepts",
+      "freshwater-biodiversity",
+      "biodiversity-indicators-and-policy",
+      "species-distribution-modelling",
+      "data-gaps-and-biases"
+    ],
+    "related_theme_cooccurrence": {
+      "taxon-concepts": 4,
+      "freshwater-biodiversity": 3,
+      "biodiversity-indicators-and-policy": 3,
+      "species-distribution-modelling": 3,
+      "data-gaps-and-biases": 3
+    }
+  },
+  {
+    "id": "taxonomic-expertise",
+    "name": "Taxonomic expertise and the taxonomic impediment",
+    "description": "The shortage and loss of taxonomic expertise, dark taxa, identification bottlenecks, and efforts to map, capture and grow taxonomic knowledge.",
+    "aliases": [
+      "collaborative taxonomy",
+      "dark taxa",
+      "declining taxonomic expertise",
+      "digital-native species",
+      "expert knowledge capture",
+      "identification bottleneck",
+      "knowledge transfer between generations",
+      "research landscape analysis",
+      "taxonomic education",
+      "taxonomic expertise mapping",
+      "taxonomic impediment",
+      "tracking taxonomic research activity",
+      "virtual reference collections"
+    ],
+    "content_item_count": 11,
+    "content_item_ids": [
+      "odin-2026-09-22-10",
+      "odin-2026-09-22-25",
+      "salc-2026-09-22-19",
+      "forum-2026-09-24-15",
+      "forum-2026-09-24-18",
+      "forum-2026-09-24-21",
+      "sala-2026-09-24-09",
+      "sala-2026-09-25-10",
+      "salb-2026-09-25-02",
+      "salb-2026-09-25-07",
+      "salc-2026-09-25-01"
+    ],
+    "talk_count": 11,
+    "discussion_count": 0,
+    "related_themes": [
+      "specimen-annotation",
+      "semantic-publishing",
+      "tdwg-community-and-governance",
+      "literature-mining",
+      "identification-keys-and-descriptive-data"
+    ],
+    "related_theme_cooccurrence": {
+      "specimen-annotation": 3,
+      "semantic-publishing": 3,
+      "tdwg-community-and-governance": 2,
+      "literature-mining": 3,
+      "identification-keys-and-descriptive-data": 2
+    }
+  },
+  {
+    "id": "taxonomic-name-matching",
+    "name": "Taxonomic name matching",
+    "description": "Parsing, matching and reconciling scientific names against reference lists, and handling synonyms, homonyms and verbatim names.",
+    "aliases": [
+      "homonyms",
+      "name parsing",
+      "names matching",
+      "reconciliation",
+      "scientific name reconciliation",
+      "synonymy",
+      "taxonomic alignment",
+      "taxonomic matching",
+      "taxonomic name matching",
+      "taxonomic name resolution",
+      "taxonomic reconciliation",
+      "taxonomic synonymy",
+      "threatened species name matching",
+      "transitivity",
+      "verbatim names"
+    ],
+    "content_item_count": 10,
+    "content_item_ids": [
+      "aula-taster-03-slatyer-taxonomic-backbone",
+      "odin-2026-09-22-13",
+      "odin-2026-09-22-15",
+      "odin-2026-09-22-16",
+      "sala-2026-09-22-21",
+      "forum-2026-09-24-08",
+      "forum-2026-09-24-13",
+      "sala-2026-09-24-03",
+      "sala-2026-09-24-06",
+      "salc-2026-09-24-24"
+    ],
+    "talk_count": 10,
+    "discussion_count": 0,
+    "related_themes": [
+      "data-round-tripping",
+      "digitisation-planning",
+      "data-provenance",
+      "data-publishing-and-mobilisation",
+      "label-transcription-and-ocr"
+    ],
+    "related_theme_cooccurrence": {
+      "data-round-tripping": 3,
+      "digitisation-planning": 2,
+      "data-provenance": 3,
+      "data-publishing-and-mobilisation": 3,
+      "label-transcription-and-ocr": 2
+    }
+  },
+  {
+    "id": "tdwg-community-and-governance",
+    "name": "TDWG community and governance",
+    "description": "TDWG as an organisation: governance, interest groups, membership, finances and conference formats.",
+    "aliases": [
+      "conference planning",
+      "elections and volunteering",
+      "lightning talk format",
+      "membership growth",
+      "roadmap",
+      "TDWG governance",
+      "TDWG interest groups",
+      "TDWG organisational update",
+      "unconference format"
+    ],
+    "content_item_count": 7,
+    "content_item_ids": [
+      "aula-plenary-1-01-tdwg-chair-address",
+      "salb-2026-09-22-29",
+      "forum-2026-09-24-15",
+      "sala-2026-09-25-15",
+      "sala-2026-09-25-16",
+      "sala-2026-09-25-17",
+      "salb-2026-09-25-07"
+    ],
+    "talk_count": 5,
+    "discussion_count": 2,
+    "related_themes": [
+      "linked-open-data",
+      "standards-development-and-governance",
+      "taxonomic-expertise",
+      "ai-ready-data",
+      "research-infrastructure-landscape"
+    ],
+    "related_theme_cooccurrence": {
+      "linked-open-data": 2,
+      "standards-development-and-governance": 3,
+      "taxonomic-expertise": 2,
+      "ai-ready-data": 2,
+      "research-infrastructure-landscape": 2
+    }
+  },
+  {
+    "id": "traditional-knowledge-and-sociobiodiversity",
+    "name": "Traditional knowledge and sociobiodiversity",
+    "description": "Representing traditional knowledge and the social dimensions of biodiversity (sociobiodiversity) in data and standards.",
+    "aliases": [
+      "genetic heritage and traditional knowledge",
+      "inclusive data collection",
+      "socio-biodiversity data",
+      "sociobiodiversity data",
+      "traditional knowledge",
+      "traditional knowledge representation"
+    ],
+    "content_item_count": 4,
+    "content_item_ids": [
+      "aula-taster-06-baringo-sociobiodiversity",
+      "odin-2026-09-22-24",
+      "salb-2026-09-22-04",
+      "salc-2026-09-22-12"
+    ],
+    "talk_count": 4,
+    "discussion_count": 0,
+    "related_themes": [
+      "indigenous-data-governance",
+      "access-and-benefit-sharing",
+      "colonial-legacies"
+    ],
+    "related_theme_cooccurrence": {
+      "indigenous-data-governance": 2,
+      "access-and-benefit-sharing": 2,
+      "colonial-legacies": 1
+    }
+  },
+  {
+    "id": "trait-data",
+    "name": "Trait and phenology data",
+    "description": "Functional, morphological and phenological trait data: measurement, units, extraction and FAIR publication.",
+    "aliases": [
+      "extended measurements or facts",
+      "FAIR trait data",
+      "functional traits",
+      "geometric morphometrics",
+      "nest materials change",
+      "phenology data",
+      "phenotypic data",
+      "plant phenology",
+      "plant phenology data",
+      "plant traits",
+      "trait extraction",
+      "trait measurement",
+      "trait units"
+    ],
+    "content_item_count": 12,
+    "content_item_ids": [
+      "odin-2026-09-22-15",
+      "odin-2026-09-22-26",
+      "sala-2026-09-22-13",
+      "salb-2026-09-22-10",
+      "forum-2026-09-24-21",
+      "sala-2026-09-24-16",
+      "salb-2026-09-24-10",
+      "salc-2026-09-24-11",
+      "salc-2026-09-24-20",
+      "sala-2026-09-25-03",
+      "sala-2026-09-25-08",
+      "salb-2026-09-25-09"
+    ],
+    "talk_count": 12,
+    "discussion_count": 0,
+    "related_themes": [
+      "data-visualisation",
+      "ai-assisted-digitisation",
+      "ai-ready-data",
+      "knowledge-graphs",
+      "ontologies"
+    ],
+    "related_theme_cooccurrence": {
+      "data-visualisation": 2,
+      "ai-assisted-digitisation": 3,
+      "ai-ready-data": 3,
+      "knowledge-graphs": 3,
+      "ontologies": 2
+    }
+  },
+  {
+    "id": "trust-and-ethics",
+    "name": "Trust and research ethics",
+    "description": "Trust between data holders, infrastructures and users, and ethical conduct in biodiversity research.",
+    "aliases": [
+      "provenance and trust",
+      "research ethics",
+      "trust between collections and infrastructure",
+      "trust in research",
+      "trust layers"
+    ],
+    "content_item_count": 4,
+    "content_item_ids": [
+      "aula-2026-09-21-plenary2-heatta",
+      "aula-2026-09-21-plenary2-walls",
+      "salb-2026-09-22-12",
+      "sala-2026-09-24-11"
+    ],
+    "talk_count": 4,
+    "discussion_count": 0,
+    "related_themes": [
+      "ontologies",
+      "critical-perspectives-on-ai",
+      "indigenous-data-governance"
+    ],
+    "related_theme_cooccurrence": {
+      "ontologies": 2,
+      "critical-perspectives-on-ai": 1,
+      "indigenous-data-governance": 1
+    }
+  },
+  {
+    "id": "type-specimens",
+    "name": "Type specimens",
+    "description": "Inventorying, cataloguing and linking name-bearing type specimens.",
+    "aliases": [
+      "primary type specimens",
+      "type inventory",
+      "type specimen catalogues",
+      "type specimens"
+    ],
+    "content_item_count": 3,
+    "content_item_ids": [
+      "salb-2026-09-22-16",
+      "sala-2026-09-24-04",
+      "salb-2026-09-24-15"
+    ],
+    "talk_count": 3,
+    "discussion_count": 0,
+    "related_themes": [
+      "darwin-core-mapping",
+      "ai-provenance",
+      "linked-open-data"
+    ],
+    "related_theme_cooccurrence": {
+      "darwin-core-mapping": 2,
+      "ai-provenance": 1,
+      "linked-open-data": 1
+    }
+  },
+  {
+    "id": "under-resourced-collections",
+    "name": "Under-resourced and orphaned collections",
+    "description": "Collections with little funding or staff, orphaned collections and low-barrier ways to mobilise their data.",
+    "aliases": [
+      "African museums",
+      "low-barrier data mobilisation",
+      "orphaned collections",
+      "small team capacity",
+      "under-resourced collections"
+    ],
+    "content_item_count": 6,
+    "content_item_ids": [
+      "sala-2026-09-22-02",
+      "salc-2026-09-22-20",
+      "sala-2026-09-24-02",
+      "sala-2026-09-24-16",
+      "sala-2026-09-24-23",
+      "salc-2026-09-24-03"
+    ],
+    "talk_count": 6,
+    "discussion_count": 0,
+    "related_themes": [
+      "ai-assisted-software-development",
+      "fair-data",
+      "collection-data-models",
+      "digital-extended-specimen"
+    ],
+    "related_theme_cooccurrence": {
+      "ai-assisted-software-development": 2,
+      "fair-data": 2,
+      "collection-data-models": 2,
+      "digital-extended-specimen": 2
+    }
+  },
+  {
+    "id": "urban-biodiversity",
+    "name": "Urban biodiversity",
+    "description": "Biodiversity data and patterns in cities and along urbanisation gradients.",
+    "aliases": [
+      "cross-city comparison",
+      "urban biodiversity",
+      "urban biodiversity data platform",
+      "urban bird biodiversity",
+      "urbanisation gradients"
+    ],
+    "content_item_count": 4,
+    "content_item_ids": [
+      "odin-2026-09-22-23",
+      "sala-2026-09-22-02",
+      "forum-2026-09-25-02",
+      "salc-2026-09-25-09"
+    ],
+    "talk_count": 4,
+    "discussion_count": 0,
+    "related_themes": [
+      "citizen-science",
+      "environmental-dna",
+      "under-resourced-collections"
+    ],
+    "related_theme_cooccurrence": {
+      "citizen-science": 3,
+      "environmental-dna": 1,
+      "under-resourced-collections": 1
+    }
+  },
+  {
+    "id": "user-centred-design",
+    "name": "User-centred design",
+    "description": "Designing tools and infrastructures around user needs, with requirements elicitation, co-design and agile methods.",
+    "aliases": [
+      "agile development",
+      "agile project management",
+      "community feedback",
+      "design thinking",
+      "requirements elicitation",
+      "user needs",
+      "user-centred design"
+    ],
+    "content_item_count": 8,
+    "content_item_ids": [
+      "odin-2026-09-22-02",
+      "salc-2026-09-22-15",
+      "salc-2026-09-22-19",
+      "sala-2026-09-24-05",
+      "sala-2026-09-24-11",
+      "sala-2026-09-24-12",
+      "salb-2026-09-24-07",
+      "salb-2026-09-24-19"
+    ],
+    "talk_count": 7,
+    "discussion_count": 1,
+    "related_themes": [
+      "capacity-building",
+      "community-engagement",
+      "legacy-data-migration",
+      "infrastructure-resilience",
+      "infrastructure-sustainability"
+    ],
+    "related_theme_cooccurrence": {
+      "capacity-building": 3,
+      "community-engagement": 3,
+      "legacy-data-migration": 2,
+      "infrastructure-resilience": 2,
+      "infrastructure-sustainability": 2
+    }
+  },
+  {
+    "id": "vector-borne-disease-surveillance",
+    "name": "Vector-borne disease surveillance",
+    "description": "Medical entomology collections and data supporting surveillance of disease vectors.",
+    "aliases": [
+      "medical entomology",
+      "vector-borne disease surveillance"
+    ],
+    "content_item_count": 1,
+    "content_item_ids": [
+      "salc-2026-09-22-20"
+    ],
+    "talk_count": 1,
+    "discussion_count": 0,
+    "related_themes": [
+      "under-resourced-collections",
+      "fair-data",
+      "capacity-building"
+    ],
+    "related_theme_cooccurrence": {
+      "under-resourced-collections": 1,
+      "fair-data": 1,
+      "capacity-building": 1
+    }
+  },
+  {
+    "id": "volunteer-and-community-curation",
+    "name": "Volunteer and community curation",
+    "description": "Curation of data by volunteers and communities, and sustaining volunteer-run efforts.",
+    "aliases": [
+      "community curation",
+      "data lifecycle curation",
+      "data repository curation",
+      "paid community collaborators",
+      "participant support and retention",
+      "remote curation",
+      "volunteer curation",
+      "volunteer participation and succession",
+      "volunteer-maintained infrastructure"
+    ],
+    "content_item_count": 11,
+    "content_item_ids": [
+      "aula-plenary-1-01-tdwg-chair-address",
+      "odin-2026-09-22-07",
+      "odin-2026-09-22-08",
+      "salb-2026-09-22-13",
+      "salb-2026-09-22-16",
+      "salb-2026-09-22-18",
+      "salb-2026-09-22-25",
+      "sala-2026-09-24-09",
+      "sala-2026-09-25-14",
+      "salc-2026-09-25-02",
+      "salc-2026-09-25-08"
+    ],
+    "talk_count": 10,
+    "discussion_count": 1,
+    "related_themes": [
+      "ai-crawlers-and-bot-traffic",
+      "data-round-tripping",
+      "specimen-annotation",
+      "linked-open-data",
+      "historical-archives"
+    ],
+    "related_theme_cooccurrence": {
+      "ai-crawlers-and-bot-traffic": 2,
+      "data-round-tripping": 3,
+      "specimen-annotation": 2,
+      "linked-open-data": 2,
+      "historical-archives": 2
+    }
+  }
+]
