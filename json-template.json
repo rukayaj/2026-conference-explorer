@@ -1,0 +1,261 @@
+{
+  "recording": {
+    "conference": "TDWG 2026",
+    "date": "2026-09-XX",
+    "room": "",
+    "video_url": "",
+    "transcript_source": "",
+    "language": "en",
+    "notes": ""
+  },
+
+  "content_items": [
+    {
+      "id": "",
+      "type": "talk",
+
+      "programme_id": "",
+
+      "title": "",
+
+      "programme": {
+        "title": "",
+        "speakers": [
+          {
+            "name": "",
+            "affiliation": ""
+          }
+        ],
+        "session": "",
+        "scheduled_start": "",
+        "scheduled_end": "",
+        "abstract": ""
+      },
+
+      "actual": {
+        "start_timestamp": "",
+        "end_timestamp": "",
+        "duration_seconds": null,
+
+        "speakers": [
+          {
+            "name": "",
+            "affiliation": ""
+          }
+        ],
+
+        "identification_confidence": "high",
+        "identification_notes": "",
+
+        "transcript_quality": "high"
+      },
+
+      "summary": "",
+
+      "one_line_takeaway": "",
+
+      "why_it_matters": "",
+
+      "key_points": [],
+
+      "content_type": [
+        "research"
+      ],
+
+      "audience_level": "general",
+
+      "themes_raw": [],
+
+      "themes_normalized": [],
+
+      "entities": [
+        {
+          "name": "",
+          "type": ""
+        }
+      ],
+
+      "standards": [],
+
+      "software_tools": [],
+
+      "datasets": [],
+
+      "methods": [],
+
+      "questions": [],
+
+      "notable_claims": [
+        {
+          "claim": "",
+          "timestamp": "",
+          "confidence": "high"
+        }
+      ],
+
+      "recommendations": [],
+
+      "results_findings": [],
+
+      "limitations": [],
+
+      "future_work": [],
+
+      "examples_case_studies": [],
+
+      "q_and_a": [
+        {
+          "question": "",
+          "answer_summary": "",
+          "timestamp": ""
+        }
+      ],
+
+      "representative_excerpt": {
+        "timestamp": "",
+        "text": ""
+      },
+
+      "notable_moments": [
+        {
+          "timestamp": "",
+          "type": "key_point",
+          "description": ""
+        }
+      ],
+
+      "source_segments": [
+        {
+          "start_timestamp": "",
+          "end_timestamp": ""
+        }
+      ],
+
+      "programme_match": {
+        "status": "matched",
+        "notes": ""
+      }
+    },
+
+    {
+      "id": "",
+      "type": "discussion",
+
+      "programme_id": "",
+
+      "title": "",
+
+      "programme": {
+        "title": "Discussion",
+        "speakers": [],
+        "session": "",
+        "scheduled_start": "",
+        "scheduled_end": "",
+        "abstract": ""
+      },
+
+      "actual": {
+        "start_timestamp": "",
+        "end_timestamp": "",
+        "duration_seconds": null,
+
+        "speakers": [
+          {
+            "name": "",
+            "affiliation": ""
+          }
+        ],
+
+        "identification_confidence": "high",
+        "identification_notes": "",
+
+        "transcript_quality": "high"
+      },
+
+      "summary": "",
+
+      "one_line_takeaway": "",
+
+      "why_it_matters": "",
+
+      "key_points": [],
+
+      "content_type": [
+        "discussion"
+      ],
+
+      "audience_level": "general",
+
+      "themes_raw": [],
+
+      "themes_normalized": [],
+
+      "entities": [],
+
+      "standards": [],
+
+      "software_tools": [],
+
+      "datasets": [],
+
+      "methods": [],
+
+      "questions": [],
+
+      "notable_claims": [],
+
+      "recommendations": [],
+
+      "results_findings": [],
+
+      "limitations": [],
+
+      "future_work": [],
+
+      "examples_case_studies": [],
+
+      "q_and_a": [],
+
+      "representative_excerpt": null,
+
+      "notable_moments": [
+        {
+          "timestamp": "",
+          "type": "question",
+          "description": ""
+        }
+      ],
+
+      "source_segments": [
+        {
+          "start_timestamp": "",
+          "end_timestamp": ""
+        }
+      ],
+
+      "programme_match": {
+        "status": "matched",
+        "notes": ""
+      }
+    }
+  ],
+
+  "unassigned": [
+    {
+      "start_timestamp": "",
+      "end_timestamp": "",
+      "type": "announcement",
+      "description": ""
+    }
+  ],
+
+  "programme_status": [
+    {
+      "programme_id": "",
+      "title": "",
+      "status": "presented",
+      "content_item_id": "",
+      "notes": ""
+    }
+  ]
+}

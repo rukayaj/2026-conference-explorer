@@ -1,0 +1,6903 @@
+1
+00:00:02,310 --> 00:00:06,690
+I think it's-- Ah, perfect. That's a little too loud, maybe.
+
+2
+00:00:07,530 --> 00:00:11,940
+All right, we're going to get started in this, what appears to have become
+
+3
+00:00:12,030 --> 00:00:16,560
+cavernous space. A couple quick announcements before we get started.
+
+4
+00:00:17,280 --> 00:00:17,581
+One,
+
+5
+00:00:20,010 --> 00:00:25,770
+many of you may have known the illustrious Henry Engledow, who passed away
+
+6
+00:00:26,280 --> 00:00:28,830
+very recently. We will be
+
+7
+00:00:30,570 --> 00:00:34,890
+reserving a few minutes during our business meeting for people who would like to
+
+8
+00:00:34,920 --> 00:00:40,500
+share a remembrance. Also, at the registration table, beginning tomorrow and
+
+9
+00:00:40,710 --> 00:00:46,170
+remaining through the end of the week, there will be a book for his family and
+
+10
+00:00:46,260 --> 00:00:51,901
+loved ones if you'd like to sign or write some remembrances in there. That's first.
+
+11
+00:00:52,500 --> 00:00:58,380
+Second, at the end of the day today, please don't forget to be at City Hall
+
+12
+00:00:58,440 --> 00:01:02,430
+promptly. "Promptly" was the nice way that they worded it,
+
+13
+00:01:03,840 --> 00:01:07,200
+so please be on time for that. That is not in here.
+
+14
+00:01:07,260 --> 00:01:09,780
+It is at City Hall, which is across the way.
+
+15
+00:01:11,071 --> 00:01:16,920
+Also, for those of you who may have some location challenges periodically in your
+
+16
+00:01:16,980 --> 00:01:19,830
+lives, this is the only day that we're here at the Aula.
+
+17
+00:01:20,760 --> 00:01:24,420
+The rest of the week, we'll be at the Oslo Congress Center.
+
+18
+00:01:24,840 --> 00:01:28,290
+So please do not come back here unless you're feeling contemplative and want to
+
+19
+00:01:28,350 --> 00:01:29,430
+look at the paintings.
+
+20
+00:01:30,900 --> 00:01:32,250
+That's starting tomorrow morning.
+
+21
+00:01:33,150 --> 00:01:38,730
+Also, for any of you that have questions about Whova or need corrections in
+
+22
+00:01:38,790 --> 00:01:42,211
+Whova, please don't email us individually.
+
+23
+00:01:42,271 --> 00:01:45,690
+It's a challenge to check our individual accounts, so don't do that.
+
+24
+00:01:45,750 --> 00:01:49,080
+Please email the conference organizers' email.
+
+25
+00:01:49,141 --> 00:01:49,410
+That's
+
+26
+00:01:50,880 --> 00:01:56,610
+conf-organizers@tadwig.org. So if you have
+
+27
+00:01:57,271 --> 00:02:00,780
+any issues with Whova, please contact us that way.
+
+28
+00:02:01,620 --> 00:02:02,490
+And then finally,
+
+29
+00:02:04,590 --> 00:02:10,230
+just want to take an opportunity to call out our hosts here in Oslo
+
+30
+00:02:11,101 --> 00:02:15,930
+and recognize them. Those are the folks from the Norwegian Biodiversity Information
+
+31
+00:02:16,080 --> 00:02:21,540
+Centre, the University of Oslo, the Natural History Museum, and GBIF Norway.
+
+32
+00:02:21,840 --> 00:02:25,740
+So if anybody is from those organizations, could you embarrass yourself and stand
+
+33
+00:02:25,800 --> 00:02:28,830
+up just for one moment? Come on now.
+
+34
+00:02:39,810 --> 00:02:42,750
+So not only have they been involved in the planning since the beginning of this,
+
+35
+00:02:42,810 --> 00:02:46,290
+but there are bunches of students and others who are running around with those blue
+
+36
+00:02:46,380 --> 00:02:52,171
+T-shirts as volunteers. So please be kind and thank them for their
+
+37
+00:02:52,230 --> 00:02:52,740
+efforts.
+
+38
+00:02:54,450 --> 00:02:57,570
+So we'll get going. So a taste of TADWIG is what is next.
+
+39
+00:02:58,200 --> 00:03:03,480
+And so I will invite our organizer of the session, the convener extraordinaire,
+
+40
+00:03:04,770 --> 00:03:07,891
+and past chair of TADWIG, Ellie Wallace.
+
+41
+00:03:15,090 --> 00:03:17,070
+So welcome to our Taste of TADWIG session.
+
+42
+00:03:18,601 --> 00:03:23,550
+So we've got a more rapid-fire set of presentations this afternoon.
+
+43
+00:03:23,940 --> 00:03:29,400
+So each talk and questions, if there's time, will take up 15 minutes.
+
+44
+00:03:30,150 --> 00:03:34,531
+And the talks were specially chosen to provide a taste of the conference topics and
+
+45
+00:03:34,590 --> 00:03:39,690
+streams that have emerged around the theme of research and robot-ready biodiversity
+
+46
+00:03:39,750 --> 00:03:44,490
+data standards. That's the one lovely thing about having this set-up that we do of
+
+47
+00:03:45,330 --> 00:03:49,710
+starting off with symposia and then getting talks to fill those symposia, plus
+
+48
+00:03:50,101 --> 00:03:55,650
+getting the contributed orals presentations being put forward, is that the
+
+49
+00:03:55,710 --> 00:03:58,500
+themes sort of emerge organically from what gets
+
+50
+00:04:00,150 --> 00:04:06,031
+given to us. So we've got a really broad range of interesting themes that have come
+
+51
+00:04:06,120 --> 00:04:11,250
+out for this conference. So we hope you enjoy this smorgasbord of tasty conference
+
+52
+00:04:11,340 --> 00:04:12,870
+bites. And we're going to
+
+53
+00:04:14,820 --> 00:04:18,781
+start the session with the foundations that the field is built on, the literature.
+
+54
+00:04:19,560 --> 00:04:22,890
+So several of the speakers today have already shown us excerpts of letters,
+
+55
+00:04:23,100 --> 00:04:26,970
+digitized books, and journals, and there'll be a strong set of symposia and
+
+56
+00:04:27,031 --> 00:04:29,730
+workshops related to literature throughout the conference.
+
+57
+00:04:30,420 --> 00:04:34,591
+Our first speaker, Nicole Carney, will remind us of the importance of literature
+
+58
+00:04:34,650 --> 00:04:38,341
+with her talk about the Biodiversity Heritage Library. Thanks, Nicole.
+
+59
+00:04:46,230 --> 00:04:48,960
+Thank you, Ellie. Hello, everyone.
+
+60
+00:04:49,020 --> 00:04:54,031
+It is a great honor to be speaking in this beautiful room at TADWIG in what is an
+
+61
+00:04:54,060 --> 00:04:57,420
+incredibly significant year for the Biodiversity Heritage Library.
+
+62
+00:04:58,080 --> 00:05:01,531
+Those of you who have been following along will know that we have been on a
+
+63
+00:05:01,620 --> 00:05:03,960
+precarious and uncertain journey.
+
+64
+00:05:04,470 --> 00:05:08,250
+Last year, we were thrown into the wilderness, and we have had to find our own way
+
+65
+00:05:08,490 --> 00:05:14,070
+out. This beautiful illustration is from Joseph Hooker's 1854 Himalayan
+
+66
+00:05:14,160 --> 00:05:19,201
+journals. It's a living bridge. It is formed from the aerial roots of fig trees,
+
+67
+00:05:19,560 --> 00:05:22,860
+and for me, it really captures where BHL is right now.
+
+68
+00:05:23,580 --> 00:05:27,091
+For the past 18 months, we've been building a new bridge for BHL.
+
+69
+00:05:27,420 --> 00:05:31,980
+It is holding us up for now. We've put down some strong roots, but there are gaps.
+
+70
+00:05:32,341 --> 00:05:36,990
+BHL could still fall, and we don't yet know what is on the other side, which is
+
+71
+00:05:37,020 --> 00:05:41,730
+both scary and exciting. Today, I'm going to tell you the story of how we've got
+
+72
+00:05:41,790 --> 00:05:45,420
+this far and what it still might take to get to the other side.
+
+73
+00:05:46,740 --> 00:05:50,400
+Now, I know most in the room are very familiar with BHL because it is essential to
+
+74
+00:05:50,460 --> 00:05:54,630
+your work. But for those who aren't, the Biodiversity Heritage Library is the
+
+75
+00:05:54,690 --> 00:05:59,430
+world's largest virtual library of open access biodiversity literature and archival
+
+76
+00:05:59,490 --> 00:06:03,900
+material, and one of the world's most critical resources of biodiversity knowledge.
+
+77
+00:06:05,520 --> 00:06:11,220
+It is a global consortium of 684 contributing organizations and libraries who have
+
+78
+00:06:11,250 --> 00:06:15,720
+together made over 64 million pages of biodiversity knowledge freely accessible
+
+79
+00:06:15,810 --> 00:06:20,610
+online. It contains information on millions of the world's species and is the
+
+80
+00:06:21,000 --> 00:06:23,730
+foundation of our understanding of biodiversity.
+
+81
+00:06:24,750 --> 00:06:28,800
+BHL exists because the cultivation of natural science cannot be efficiently carried
+
+82
+00:06:28,860 --> 00:06:33,510
+on without reference to an extensive library, and the extensive library on BHL
+
+83
+00:06:33,570 --> 00:06:38,880
+contains information and resources produced as early as the 1100s and as recently
+
+84
+00:06:38,970 --> 00:06:39,930
+as last month.
+
+85
+00:06:41,130 --> 00:06:45,000
+Every page is fully searchable. Our taxonomic name recognition allows you to search
+
+86
+00:06:45,030 --> 00:06:47,370
+for both current and past scientific names.
+
+87
+00:06:48,870 --> 00:06:54,690
+We have added article data to over 450 scientific articles, and over 80,000
+
+88
+00:06:54,780 --> 00:06:58,831
+of those now have DOIs, bringing those articles into the modern linked network of
+
+89
+00:06:58,890 --> 00:07:03,870
+scholarly research. We retrospectively assign DOIs to species descriptions
+
+90
+00:07:03,901 --> 00:07:07,201
+published centuries ago, all the way through to the current day.
+
+91
+00:07:07,320 --> 00:07:11,311
+This is a DOI BHL assigned to a species description that was published in November
+
+92
+00:07:11,370 --> 00:07:16,410
+last year. To give you a sense of the massive amount of information made accessible
+
+93
+00:07:16,470 --> 00:07:20,160
+and discoverable on the Biodiversity Heritage Library, this is a map produced by
+
+94
+00:07:20,190 --> 00:07:25,530
+Rod Page. Every single dot on this map represents a latitude and a longitude pair
+
+95
+00:07:25,591 --> 00:07:27,420
+in a scholarly article on BHL.
+
+96
+00:07:28,980 --> 00:07:34,380
+However, this important discoverability work and our work assigning DOIs and many
+
+97
+00:07:34,440 --> 00:07:39,420
+other BHL projects were put on hold last year when we were thrown into an emergency
+
+98
+00:07:39,480 --> 00:07:44,220
+mode, when we received the unexpected news that the Smithsonian Institution, our
+
+99
+00:07:44,280 --> 00:07:48,540
+administrative and technical home, would cease to host the BHL on the 1st of
+
+100
+00:07:48,630 --> 00:07:54,420
+January this year. This decision placed BHL, one of the world's most widely used
+
+101
+00:07:54,480 --> 00:07:57,660
+and longest-running biodiversity infrastructures, at risk.
+
+102
+00:07:58,170 --> 00:08:02,940
+We were completely at sea, with the very real possibility of being pulled under.
+
+103
+00:08:04,800 --> 00:08:08,790
+As our host, the Smithsonian had provided the BHL secretariat staff and the
+
+104
+00:08:08,850 --> 00:08:13,530
+technical team, as well as the seven servers required to run the BHL website and
+
+105
+00:08:13,561 --> 00:08:18,750
+the website itself. With this support gone, we had to act quickly if we were to
+
+106
+00:08:18,841 --> 00:08:23,970
+help keep BHL afloat. We formed an emergency and transition team, and together with
+
+107
+00:08:24,000 --> 00:08:28,500
+the BHL Executive Committee, we have worked tirelessly over the past 18 months to
+
+108
+00:08:28,561 --> 00:08:32,100
+build a more autonomous, global, and sustainable BHL.
+
+109
+00:08:33,480 --> 00:08:36,780
+At this point, back in April last year, we had no idea what we were going to do,
+
+110
+00:08:37,020 --> 00:08:40,980
+how we would gather the support we needed to continue, or what the future of BHL
+
+111
+00:08:41,010 --> 00:08:45,330
+might look like. So it was more important than ever for us to communicate openly
+
+112
+00:08:45,390 --> 00:08:49,140
+and honestly with our community, to say that we didn't yet know what we were going
+
+113
+00:08:49,140 --> 00:08:54,030
+to do, we didn't have the answers, to invite their ideas and support, and to
+
+114
+00:08:54,090 --> 00:08:58,380
+reassure them that we would do everything we could to save the BHL and its staff.
+
+115
+00:08:59,370 --> 00:09:03,090
+We communicated every stage of the transition across our blog and on social media,
+
+116
+00:09:03,510 --> 00:09:08,431
+and we started a community forum on Discourse to invite their ideas and concerns.
+
+117
+00:09:09,504 --> 00:09:15,474
+The threat to the BHL encouraged an overwhelming outpouring of appreciation
+
+118
+00:09:15,534 --> 00:09:21,234
+and panic from our users. These included comments like, "BHL is one of the most
+
+119
+00:09:21,264 --> 00:09:25,344
+important, most valuable online projects and one of the greatest collections on the
+
+120
+00:09:25,404 --> 00:09:30,024
+internet. It is an indispensable record of the earth's biodiversity and represents
+
+121
+00:09:30,054 --> 00:09:33,084
+an invaluable part of our scientific and cultural heritage.
+
+122
+00:09:33,504 --> 00:09:38,034
+It's an absolutely vital resource for ecologists and evolutionary biologists." This
+
+123
+00:09:38,064 --> 00:09:40,104
+was my favorite, a pledge from a user.
+
+124
+00:09:40,464 --> 00:09:44,724
+She says, "I will send a box of handmade cookies every year for the rest of my life
+
+125
+00:09:44,754 --> 00:09:47,334
+to whichever institution takes on the BHL."
+
+126
+00:09:49,464 --> 00:09:54,384
+In June last year, we opened a global call for support, inviting expressions of
+
+127
+00:09:54,474 --> 00:09:59,184
+interest from institutions and stakeholders to host BHL's operational and technical
+
+128
+00:09:59,274 --> 00:10:04,524
+roles and services. In August, we moved to a new financial and legal home, the
+
+129
+00:10:04,584 --> 00:10:06,834
+Council on Library and Information Resources.
+
+130
+00:10:07,224 --> 00:10:12,205
+This means that BHL is now independently able to accept donations, pursue grants,
+
+131
+00:10:12,504 --> 00:10:16,944
+and manage our own staff contracts. It also provide BHL with autonomy.
+
+132
+00:10:17,514 --> 00:10:23,184
+BHL is no longer constrained by a single US federally affiliated
+
+133
+00:10:23,244 --> 00:10:27,084
+university, no longer constrained by their requirements and shifting priorities.
+
+134
+00:10:27,534 --> 00:10:31,284
+We're now operating as an independent, globally governed consortium.
+
+135
+00:10:32,484 --> 00:10:36,624
+BHL's call for support invited offers of technical hosting,
+
+136
+00:10:37,974 --> 00:10:41,034
+support for our existing systems, and some start funding.
+
+137
+00:10:41,094 --> 00:10:44,545
+What we received is giving us stability for one to two years.
+
+138
+00:10:44,664 --> 00:10:50,304
+I want to really emphasize this. BHL is secure and only secure
+
+139
+00:10:50,394 --> 00:10:52,014
+through to 2027.
+
+140
+00:10:54,354 --> 00:10:58,764
+On the 1st of January, BHL officially moved across to its new independent chapter.
+
+141
+00:10:59,334 --> 00:11:02,994
+On the left is our blog post explaining what that means for BHL and its staff, and
+
+142
+00:11:03,024 --> 00:11:06,774
+in February, we shared the exciting news that we have secured the staff positions
+
+143
+00:11:06,834 --> 00:11:08,514
+of all existing staff.
+
+144
+00:11:10,134 --> 00:11:13,705
+During this time, we have been extremely grateful to our BHL members.
+
+145
+00:11:13,914 --> 00:11:18,534
+These are the organizations who govern BHL and whose membership fees, along with
+
+146
+00:11:18,564 --> 00:11:22,795
+those of our affiliates, provide BHL with a reliable source of support.
+
+147
+00:11:23,274 --> 00:11:27,054
+Three of those organizations, the University of South Florida, Vanderbilt
+
+148
+00:11:27,144 --> 00:11:31,795
+University, and Zenberg Nature Support, joined BHL during the transition.
+
+149
+00:11:32,154 --> 00:11:37,314
+At the most uncertain time in BHL's history, these organizations decided that we
+
+150
+00:11:37,344 --> 00:11:39,295
+were worth supporting and joining.
+
+151
+00:11:40,584 --> 00:11:44,455
+Two of those organizations are providing BHL with significant technical support.
+
+152
+00:11:44,814 --> 00:11:48,924
+The University of South Florida Libraries are providing significant system support
+
+153
+00:11:48,984 --> 00:11:49,614
+from the core,
+
+154
+00:11:50,904 --> 00:11:55,134
+BHL's metadata collection workflow system, for three years, while Vanderbilt
+
+155
+00:11:55,194 --> 00:11:58,404
+University is providing us with an associate cloud engineer.
+
+156
+00:11:58,825 --> 00:12:03,834
+Rahul Sharma joins the technical team in BHL in February, and his role will help
+
+157
+00:12:03,894 --> 00:12:07,194
+build a resilient modern technical foundation for BHL.
+
+158
+00:12:08,004 --> 00:12:11,844
+But the news that most excited our users was that the Field Museum would take over
+
+159
+00:12:11,904 --> 00:12:15,504
+the hosting of BHL's website and technical infrastructure.
+
+160
+00:12:16,045 --> 00:12:19,554
+This was the news that answered the question that was most asked by our users
+
+161
+00:12:19,584 --> 00:12:23,033
+during the transition, which was, what is going to happen to the BHL website?
+
+162
+00:12:25,104 --> 00:12:29,124
+The response was an outpouring of relief and gratitude from across the world.
+
+163
+00:12:29,575 --> 00:12:34,914
+It was the best news. That the incredible free, open treasure trove of nature and
+
+164
+00:12:35,124 --> 00:12:38,664
+the crown jewel of biodiversity literature had been saved.
+
+165
+00:12:39,084 --> 00:12:42,325
+And from my favorite user, "I now know where to send cookies."
+
+166
+00:12:44,934 --> 00:12:49,284
+That big move from Washington, DC, to Chicago was completed at the end of June and
+
+167
+00:12:49,344 --> 00:12:52,734
+marked the final piece of our transition away from the Smithsonian.
+
+168
+00:12:54,054 --> 00:12:58,765
+With BHL's immediate future becoming more stable, we were finally able to start
+
+169
+00:12:58,825 --> 00:13:03,024
+thinking beyond survival to the future of BHL's aging platform.
+
+170
+00:13:04,164 --> 00:13:08,484
+Critical part of this process was to ask our users what they most wanted improved.
+
+171
+00:13:08,994 --> 00:13:12,445
+In July, we ran a BHL user survey, and the message was clear.
+
+172
+00:13:13,075 --> 00:13:17,904
+Enhanced text search was our users' number one priority, followed by image search
+
+173
+00:13:17,964 --> 00:13:19,254
+and an improved page viewer.
+
+174
+00:13:20,515 --> 00:13:25,104
+Our BHL platform modernization project is now underway, and it's much more than a
+
+175
+00:13:25,164 --> 00:13:30,924
+technical upgrade. The goal is to replace BHL's legacy infrastructure with a modern
+
+176
+00:13:30,984 --> 00:13:35,184
+cloud-based platform that has better search and discovery, improved performance and
+
+177
+00:13:35,244 --> 00:13:40,704
+reliability, and data that is connected, machine actionable, and easier to find,
+
+178
+00:13:40,765 --> 00:13:45,684
+reuse, and connect through better APIs, linked data, and persistent identifiers.
+
+179
+00:13:46,585 --> 00:13:50,335
+Alongside this work, we have some really exciting new collaborations underway,
+
+180
+00:13:50,454 --> 00:13:54,265
+including a major project led by the Natural History Museum in London.
+
+181
+00:13:54,774 --> 00:13:59,874
+The NHM team is developing new ways to unlock biodiversity literature at scale, and
+
+182
+00:13:59,904 --> 00:14:03,774
+they're in the final stages of recruiting a data scientist dedicated to this
+
+183
+00:14:03,835 --> 00:14:08,244
+project. Here is who will be speaking more about this exciting work tomorrow in our
+
+184
+00:14:08,274 --> 00:14:10,795
+BHL symposium. Encourage you to come along.
+
+185
+00:14:11,934 --> 00:14:15,714
+We've also expanded the BHL executive committee, adding a strategic development
+
+186
+00:14:15,804 --> 00:14:20,484
+officer and a member at large, which will increase our capacity for fundraising,
+
+187
+00:14:20,634 --> 00:14:22,434
+partnerships, and long-term planning.
+
+188
+00:14:23,214 --> 00:14:27,864
+David Eagleman, our chair, and our new strategic development officer, Amanda Bozar,
+
+189
+00:14:27,924 --> 00:14:30,954
+are both here at tADWIG this week. Please do go and talk to them.
+
+190
+00:14:32,604 --> 00:14:36,924
+Building this new future has also made us realize that BHL needs a more diverse and
+
+191
+00:14:36,984 --> 00:14:42,504
+resilient funding base. At the end of 2025, we ran a targeted campaign called Give
+
+192
+00:14:42,564 --> 00:14:47,634
+BHL Wings, calling on our users to help BHL take flight by the 1st of January.
+
+193
+00:14:48,174 --> 00:14:53,004
+We set a target of $50,000 US, and we reached that goal on New Year's Eve, which
+
+194
+00:14:53,064 --> 00:14:54,265
+totally made my year.
+
+195
+00:14:55,825 --> 00:15:00,204
+Our plea also reached the media. In June this year, The Guardian published a major
+
+196
+00:15:00,265 --> 00:15:05,244
+feature on BHL, bringing BHL and the very real threat to its future to a much wider
+
+197
+00:15:05,335 --> 00:15:10,045
+audience. We saw an immediate spike in our public donations, which brought in more
+
+198
+00:15:10,075 --> 00:15:13,765
+than $10,000 US on the day that article was published.
+
+199
+00:15:14,454 --> 00:15:19,945
+We were blown away by messages of support and calls to save the extraordinary BHL.
+
+200
+00:15:20,664 --> 00:15:24,114
+One reader suggested that if you're a tech billionaire or even just a millionaire,
+
+201
+00:15:24,474 --> 00:15:25,825
+you could do something extraordinary.
+
+202
+00:15:25,914 --> 00:15:27,954
+So if you do know one, please send them our way.
+
+203
+00:15:29,545 --> 00:15:32,664
+BHL had never had to rely on public fundraising before this.
+
+204
+00:15:33,054 --> 00:15:35,423
+Now we do, and the response has been amazing.
+
+205
+00:15:35,903 --> 00:15:40,795
+Last week, just in time for tADWIG, our online public donations reached $100,000
+
+206
+00:15:40,914 --> 00:15:46,224
+US, more than 1,750 individual donations from 48 countries,
+
+207
+00:15:46,704 --> 00:15:50,394
+demonstrating how deeply individuals value BHL.
+
+208
+00:15:51,114 --> 00:15:55,524
+This includes more than $2,200 US per month in recurring donations.
+
+209
+00:15:55,914 --> 00:16:00,564
+Our current campaign, Become a BHL Sustainer, is trying to increase that reliable
+
+210
+00:16:00,654 --> 00:16:04,795
+ongoing support. If you can afford a cup of coffee every week, please do join our
+
+211
+00:16:04,825 --> 00:16:06,174
+BHL Sustains program.
+
+212
+00:16:07,825 --> 00:16:13,075
+2026 does not only mark the beginning of BHL's new chapter, it is also BHL's 20th
+
+213
+00:16:13,164 --> 00:16:15,594
+anniversary. Happy birthday, BHL.
+
+214
+00:16:16,854 --> 00:16:20,335
+One of the ways we're celebrating this huge milestone is by showcasing the
+
+215
+00:16:20,364 --> 00:16:24,054
+extraordinary breadth and history of BHL's collections and the people and the
+
+216
+00:16:24,114 --> 00:16:26,575
+institutions that make BHL possible.
+
+217
+00:16:27,174 --> 00:16:30,414
+Each post in this series celebrates the incredible treasures.
+
+218
+00:16:30,744 --> 00:16:33,265
+Each one has been selected by a member of our community.
+
+219
+00:16:33,774 --> 00:16:36,835
+So of course, they include rare books and historic field diaries.
+
+220
+00:16:37,254 --> 00:16:41,545
+But they also showcase the treasure between the covers, such as the article data
+
+221
+00:16:41,575 --> 00:16:43,974
+that makes our species descriptions discoverable.
+
+222
+00:16:44,394 --> 00:16:48,684
+And our most recent post celebrates BHL as a repository of information about
+
+223
+00:16:48,744 --> 00:16:52,524
+extinct species. I encourage you to check them out and follow along as our series
+
+224
+00:16:52,585 --> 00:16:54,234
+unfolds through our anniversary year.
+
+225
+00:16:56,214 --> 00:16:58,374
+We've come a long way across this bridge.
+
+226
+00:16:58,734 --> 00:17:02,484
+Last year, there were times when we genuinely did not know if BHL would have a
+
+227
+00:17:02,575 --> 00:17:07,104
+future. Today, we have a new foundation beneath us, new partnerships, new
+
+228
+00:17:07,164 --> 00:17:10,795
+possibilities, new funding streams, new grants in the pipeline, and an
+
+229
+00:17:10,825 --> 00:17:14,725
+extraordinary network of people and organizations holding us up.
+
+230
+00:17:15,475 --> 00:17:19,644
+But I cannot stand here in front of you and say that BHL's future is secure.
+
+231
+00:17:20,154 --> 00:17:23,184
+It isn't. We need to stop taking BHL for granted.
+
+232
+00:17:24,624 --> 00:17:28,374
+A living bridge becomes stronger as more roots reach out, grow, intertwine, and
+
+233
+00:17:28,404 --> 00:17:34,374
+together strengthen the whole. BHL now has the independence and autonomy to welcome
+
+234
+00:17:34,494 --> 00:17:37,854
+ideas, partnerships, collaboration, and possibilities.
+
+235
+00:17:37,884 --> 00:17:42,414
+So if you or your organization has expertise, resources, funding, or connections
+
+236
+00:17:42,444 --> 00:17:46,494
+that could help make BHL stronger, please do reach out.
+
+237
+00:17:47,124 --> 00:17:51,324
+BHL's future is not yet fixed, and that's what makes this time so exciting.
+
+238
+00:17:52,884 --> 00:17:56,484
+We will be exploring BHL's future opportunities and possibilities throughout this
+
+239
+00:17:56,544 --> 00:18:00,384
+week at tADWIG. Tomorrow afternoon, we have two back-to-back sessions and a
+
+240
+00:18:00,444 --> 00:18:04,914
+dedicated BHL symposium where we'll explore some of those new partnerships,
+
+241
+00:18:05,064 --> 00:18:09,834
+infrastructure, and ideas that are already reimagining and transforming BHL.
+
+242
+00:18:10,404 --> 00:18:13,914
+And on Thursday, we have a hands-on workshop where we'll be exploring new
+
+243
+00:18:13,975 --> 00:18:18,084
+approaches and tools to maximize the value of the Biodiversity Heritage Library.
+
+244
+00:18:20,082 --> 00:18:23,682
+We invite you to join and help build VHL's future. Thank you for listening.
+
+245
+00:18:37,632 --> 00:18:40,272
+We do have a minute for a question, if anyone has one.
+
+246
+00:18:42,732 --> 00:18:44,532
+Or you can come and find Nicole later.
+
+247
+00:18:45,792 --> 00:18:47,892
+Or come to our symposium or our workshop. I'll be there.
+
+248
+00:18:49,482 --> 00:18:50,472
+Excellent. Thank you, Nicole.
+
+249
+00:18:56,442 --> 00:19:01,572
+So, that was a powerful reminder that even our most trusted and beloved
+
+250
+00:19:01,782 --> 00:19:05,532
+infrastructures still need constant care and reinvention.
+
+251
+00:19:06,342 --> 00:19:09,192
+But building strong foundations is only half the story.
+
+252
+00:19:09,342 --> 00:19:12,882
+We also need to get the data moving fast enough to matter.
+
+253
+00:19:13,513 --> 00:19:17,082
+So our next speaker, Quentin Groom, will talk about exactly that,
+
+254
+00:19:18,312 --> 00:19:22,452
+reducing the lag between observing something and being able to act on it.
+
+255
+00:19:23,112 --> 00:19:23,952
+Thank you, Quentin.
+
+256
+00:19:29,263 --> 00:19:31,542
+Thank you, Ellie, and thank you for inviting me to speak here.
+
+257
+00:19:31,602 --> 00:19:35,082
+It's a wonderful opportunity. Yes.
+
+258
+00:19:35,562 --> 00:19:40,152
+So we make an observation, and how long does it take before someone can actually
+
+259
+00:19:40,242 --> 00:19:44,082
+act on it? And that's what I wanted to discuss with you in my 15 minutes.
+
+260
+00:19:45,252 --> 00:19:49,002
+Just to make us completely clear, I think probably most people know in here, if you
+
+261
+00:19:49,062 --> 00:19:50,263
+look at things like GBIF,
+
+262
+00:19:51,763 --> 00:19:55,662
+this is a graph of the monthly observations globally in GBIF.
+
+263
+00:19:56,472 --> 00:20:01,482
+You see the seasonal peaks, you see the exponential rise, and you see it drops off
+
+264
+00:20:01,542 --> 00:20:07,332
+a cliff over the last two years because people haven't stopped making observations.
+
+265
+00:20:08,352 --> 00:20:10,932
+They've just not mobilized their data yet.
+
+266
+00:20:12,372 --> 00:20:14,742
+And, well, why does that matter?
+
+267
+00:20:16,452 --> 00:20:17,682
+Hold on. I should mention one thing.
+
+268
+00:20:17,742 --> 00:20:19,092
+If you go back and ex--
+
+269
+00:20:20,472 --> 00:20:25,812
+Yeah, go back. And you extrapolate this up, you see this exponential growth, and
+
+270
+00:20:25,872 --> 00:20:28,122
+you can kind of estimate how much that lag really is.
+
+271
+00:20:28,182 --> 00:20:31,752
+It's obvious in the last couple of years, but in actual fact, it goes back quite a
+
+272
+00:20:31,812 --> 00:20:36,672
+number of years, probably because people are still doing their PhDs and haven't
+
+273
+00:20:36,732 --> 00:20:41,263
+published their data, or their herbarium hasn't published its data and things like
+
+274
+00:20:41,352 --> 00:20:46,513
+this. So it's quite a long thing and accounts for tens of millions of observations
+
+275
+00:20:46,572 --> 00:20:47,082
+as well.
+
+276
+00:20:49,182 --> 00:20:53,352
+So I'm interested in invasive species. A lot of my group work on invasion biology.
+
+277
+00:20:54,162 --> 00:20:59,022
+And any invasion biologist will know that you need to act on something quickly to
+
+278
+00:20:59,053 --> 00:21:00,672
+have any chance of eradicating it.
+
+279
+00:21:01,182 --> 00:21:04,092
+But there's other people working on biodiversity who are interested in things like
+
+280
+00:21:04,152 --> 00:21:08,772
+pests, diseases, disease vectors, which don't want to work on the risks of two
+
+281
+00:21:08,832 --> 00:21:12,882
+years ago, but want to work on the most up-to-date data as possible.
+
+282
+00:21:13,542 --> 00:21:17,803
+But even if you're working in conservation, there's very little point, as we often
+
+283
+00:21:17,862 --> 00:21:23,352
+seem to be, just charting the decline in species, when we actually want to find out
+
+284
+00:21:23,382 --> 00:21:27,582
+which species are declining and act on them immediately and do something about that
+
+285
+00:21:27,612 --> 00:21:28,122
+decline.
+
+286
+00:21:30,102 --> 00:21:35,201
+So what often happens with biodiversity observations now is informal
+
+287
+00:21:35,263 --> 00:21:40,392
+networks supply information. I see a gray squirrel in Brussels,
+
+288
+00:21:41,022 --> 00:21:46,662
+and I email my friend who I know works on management of invasive species.
+
+289
+00:21:46,872 --> 00:21:48,702
+I thought I saw a gray squirrel in Brussels.
+
+290
+00:21:48,763 --> 00:21:50,682
+It may have been a red one, but I'm not really sure.
+
+291
+00:21:50,922 --> 00:21:56,562
+And he writes to somebody else, "Maybe it was a gray squirrel," and then somebody
+
+292
+00:21:56,652 --> 00:21:59,862
+who kills gray squirrels goes out and does something.
+
+293
+00:22:00,102 --> 00:22:04,752
+And that works quite well at a local level, but it doesn't really scale.
+
+294
+00:22:05,803 --> 00:22:10,362
+The other issue that's coming very rapidly is that although most of our
+
+295
+00:22:10,422 --> 00:22:13,992
+observations on places like GBIF are created by humans,
+
+296
+00:22:15,282 --> 00:22:20,232
+it's not going to be very long, it may be five years, that will get overtaken by
+
+297
+00:22:20,292 --> 00:22:24,492
+all the data that's coming in from eDNA, from camera traps, from acoustic sensors,
+
+298
+00:22:25,212 --> 00:22:30,372
+automated imaging, et cetera. And without that human in the loop, any invasive
+
+299
+00:22:30,462 --> 00:22:34,752
+species in those data that are not being specifically looked for will just be not
+
+300
+00:22:34,842 --> 00:22:35,232
+seen.
+
+301
+00:22:36,702 --> 00:22:40,572
+So we have to find ways to alert people to invasions.
+
+302
+00:22:41,952 --> 00:22:47,112
+So that normally happens by the species arriving.
+
+303
+00:22:47,832 --> 00:22:52,872
+There's then a lag for detection. That then has to be reported.
+
+304
+00:22:53,172 --> 00:22:56,892
+That needs to be alerted to all the people who need to do something, and then
+
+305
+00:22:56,952 --> 00:22:59,053
+somebody goes out in the field and does something.
+
+306
+00:22:59,652 --> 00:23:03,342
+Meanwhile, the species isn't just sitting there waiting to be killed.
+
+307
+00:23:04,212 --> 00:23:09,942
+It establishes, it gets stronger, it spreads, and all the time, the costs of that
+
+308
+00:23:10,092 --> 00:23:14,772
+eradication or management get higher and higher until it actually becomes not
+
+309
+00:23:14,832 --> 00:23:19,422
+effective to be able to eradicate something. So where does all the time go?
+
+310
+00:23:20,562 --> 00:23:23,142
+Well, it takes time to observe sometimes.
+
+311
+00:23:24,763 --> 00:23:29,832
+Camera traps sit in the field for months with just an SD card picking up data.
+
+312
+00:23:31,092 --> 00:23:34,872
+There's another lag on identification that I'll talk a bit about in a second.
+
+313
+00:23:35,682 --> 00:23:38,742
+Digitization is often an issue with things like collections.
+
+314
+00:23:39,522 --> 00:23:42,792
+A lot of work goes into then standardizing data that have been collected in all
+
+315
+00:23:42,852 --> 00:23:46,932
+sorts of different ways, and validating that data, again, takes time.
+
+316
+00:23:46,992 --> 00:23:50,382
+And ultimately, there's time associated with publication.
+
+317
+00:23:51,492 --> 00:23:56,172
+Then, even after publication, people making alerts have to aggregate data.
+
+318
+00:23:56,232 --> 00:23:58,872
+They analyze the data to find the important parts of it.
+
+319
+00:23:59,292 --> 00:24:03,222
+They then send out alerts to the people who need to know, and action has to be
+
+320
+00:24:03,282 --> 00:24:03,763
+taken.
+
+321
+00:24:06,342 --> 00:24:11,742
+Oops, I skipped. So just taking one of those lags, the
+
+322
+00:24:11,803 --> 00:24:16,932
+identification. These are data from iNaturalist, where I looked at how long does it
+
+323
+00:24:16,992 --> 00:24:17,412
+take for
+
+324
+00:24:18,972 --> 00:24:24,942
+a identification to become stable. So the top line, the blue line, is birds.
+
+325
+00:24:25,392 --> 00:24:27,432
+Most of the time, about 50% of the time,
+
+326
+00:24:28,722 --> 00:24:34,212
+the identification put on that bird is correct straight off as soon as someone puts
+
+327
+00:24:34,242 --> 00:24:38,682
+it into iNaturalist, and then it takes several months, even years, before it gets
+
+328
+00:24:38,772 --> 00:24:44,472
+close to its final point. Other taxa, the next one down are the mammals, the next
+
+329
+00:24:44,501 --> 00:24:47,352
+one down are the insects, and right at the bottom are all the plants.
+
+330
+00:24:48,702 --> 00:24:53,232
+Only 10% go in as the right identification right on day one, and it takes months
+
+331
+00:24:53,263 --> 00:24:55,182
+before they reach an identification.
+
+332
+00:24:56,412 --> 00:24:57,912
+So this is a problem,
+
+333
+00:24:59,292 --> 00:25:03,582
+but this is a problem that identification is just difficult, and it's more
+
+334
+00:25:03,642 --> 00:25:05,832
+difficult for difficult-to-identify things.
+
+335
+00:25:07,032 --> 00:25:12,042
+Remote fieldwork means there's a built-in lag because of the difficulties, and
+
+336
+00:25:12,102 --> 00:25:16,782
+taxonomic uncertainty builds in difficulties and builds in lags we find it hard to
+
+337
+00:25:16,842 --> 00:25:22,482
+deal with. But there are also operational choices which are really a choice and
+
+338
+00:25:23,412 --> 00:25:27,342
+not difficulties. Data sitting around doing nothing,
+
+339
+00:25:28,932 --> 00:25:33,912
+people putting embargoes on data, systems aren't connected, so you can't publish
+
+340
+00:25:34,002 --> 00:25:39,612
+easily from them, and waiting till a dataset is finished, whatever that
+
+341
+00:25:39,672 --> 00:25:40,033
+means.
+
+342
+00:25:42,703 --> 00:25:42,912
+So
+
+343
+00:25:44,922 --> 00:25:50,263
+traditionally and still, we collect data, we identify it, we clean it, we validate
+
+344
+00:25:50,322 --> 00:25:51,822
+it, analyze it, and we publish.
+
+345
+00:25:53,112 --> 00:25:58,752
+But just like iNaturalist, just to some extent like our herbarium, although it
+
+346
+00:25:58,752 --> 00:26:04,092
+doesn't work perfectly, what is better is to observe, to publish, to improve, to
+
+347
+00:26:04,182 --> 00:26:08,052
+update, to improve, to update, to improve, to update continuously.
+
+348
+00:26:09,492 --> 00:26:13,393
+What we don't necessarily have are ways to communicate with people that this is the
+
+349
+00:26:13,453 --> 00:26:16,572
+raw data and this is getting better and this has been checked, and things like
+
+350
+00:26:16,632 --> 00:26:20,832
+this, but we do have mechanisms to do this, and this allows users to get immediate
+
+351
+00:26:21,162 --> 00:26:22,182
+access to data.
+
+352
+00:26:24,072 --> 00:26:28,722
+If you're working on invasion biology, it doesn't matter if you have a few false
+
+353
+00:26:28,783 --> 00:26:32,442
+positives. It matters if you have a lot of false positives, but you can do
+
+354
+00:26:32,533 --> 00:26:35,292
+something with those data, and you can make a decision about whether you want to
+
+355
+00:26:35,382 --> 00:26:35,982
+act on it.
+
+356
+00:26:37,632 --> 00:26:42,462
+In our One Stop project, we are building a GBIF alert system.
+
+357
+00:26:43,092 --> 00:26:45,942
+This is the work of Nico Nooy from the
+
+358
+00:26:47,472 --> 00:26:51,612
+Binary Forest. That's his name, his company, probably. He's the programmer of this.
+
+359
+00:26:51,672 --> 00:26:57,582
+If you're interested in invasion species alert, you can follow that QR code there
+
+360
+00:26:57,672 --> 00:26:59,682
+and go to the website and take a look.
+
+361
+00:27:00,222 --> 00:27:05,172
+This is open source code, and it allows people to build on top of GBIF a system
+
+362
+00:27:05,203 --> 00:27:08,862
+that will alert people however they want to be alerted to whichever species they're
+
+363
+00:27:08,893 --> 00:27:13,152
+interested in over a particular area they're interested in, and they can receive
+
+364
+00:27:13,212 --> 00:27:16,632
+customized alerts on the invasive species they have.
+
+365
+00:27:16,962 --> 00:27:22,842
+And I think Walter Kock is here. He's just made a system
+
+366
+00:27:22,872 --> 00:27:25,092
+for Norway doing this. I don't think it's public yet.
+
+367
+00:27:25,422 --> 00:27:28,752
+But if you're interested in this and want to find somebody who's actually a user of
+
+368
+00:27:28,813 --> 00:27:30,942
+this, I think he's somewhere in the room
+
+369
+00:27:33,462 --> 00:27:39,072
+So we heard this morning a nice introduction to the seven shortfalls that beset
+
+370
+00:27:39,132 --> 00:27:43,302
+large-scale knowledge on biodiversity by Hortet et al.
+
+371
+00:27:43,962 --> 00:27:48,283
+And I'm going to be rather bold by suggesting that they missed one,
+
+372
+00:27:49,813 --> 00:27:54,912
+that is rival, because over 2,000 people who have cited this paper, and as you
+
+373
+00:27:54,942 --> 00:27:56,893
+probably know, it's a very well-used paper.
+
+374
+00:27:57,791 --> 00:28:01,662
+But they don't define a distinct shortfall associated with the timeliness.
+
+375
+00:28:02,143 --> 00:28:07,602
+And I would argue that we aren't understanding biodiversity if we're only looking
+
+376
+00:28:07,632 --> 00:28:09,942
+at biodiversity that was several years old.
+
+377
+00:28:10,332 --> 00:28:15,612
+Timeliness is an important shortfall in what we do on work on biodiversity.
+
+378
+00:28:17,082 --> 00:28:22,453
+So I would define that as a delay between the biodiversity observation being made
+
+379
+00:28:22,513 --> 00:28:26,263
+and that information becoming accessible to be able to act on it.
+
+380
+00:28:27,283 --> 00:28:33,132
+I got even bolder by naming that, and as any taxonomist knows, putting a
+
+381
+00:28:33,192 --> 00:28:36,192
+name on something helps to have a conversation about it.
+
+382
+00:28:36,763 --> 00:28:42,162
+And so I'm suggesting, and I've got to pronounce her name right, Wangari Maathai,
+
+383
+00:28:43,182 --> 00:28:47,352
+is to be named after. She was a Kenyan zoologist.
+
+384
+00:28:47,592 --> 00:28:50,832
+She won the Nobel Peace Prize, I guess, just here.
+
+385
+00:28:52,122 --> 00:28:54,042
+And she was the founder of the Green Belt Movement.
+
+386
+00:28:54,402 --> 00:29:00,132
+But she recognized that people in Kenya had information on the environmental
+
+387
+00:29:00,192 --> 00:29:04,872
+decay in their area. She was also a politician, and she recognized the need to
+
+388
+00:29:04,902 --> 00:29:09,072
+listen to these people, to get the data moving from those people to the people who
+
+389
+00:29:09,132 --> 00:29:15,072
+could actually act on it. And so I suggest we have a shortfall for the
+
+390
+00:29:15,132 --> 00:29:19,722
+timeliness of biodiversity data so that we can go out there and specifically work
+
+391
+00:29:19,813 --> 00:29:25,632
+on shortening that timescale. So to summarize, publish soon, publish
+
+392
+00:29:25,722 --> 00:29:29,712
+often, and improve continuously would be my mantra.
+
+393
+00:29:30,822 --> 00:29:33,222
+I think people are taking photos. I should stop and let you take them.
+
+394
+00:29:37,152 --> 00:29:42,402
+If you're interested to read a bit more, we produced a
+
+395
+00:29:43,002 --> 00:29:47,622
+policy brief over the summer. Many of the people involved in this policy brief are
+
+396
+00:29:47,682 --> 00:29:51,732
+sitting here before you. The QR code will also take you there.
+
+397
+00:29:52,783 --> 00:29:57,013
+And you can see the logos of the projects up there that we're working on this.
+
+398
+00:29:57,342 --> 00:30:01,482
+B³ is just finished. Biodiversity Means Data is very much going on, and Neil is
+
+399
+00:30:01,482 --> 00:30:03,582
+sitting just there to support that.
+
+400
+00:30:03,942 --> 00:30:07,272
+One Stop on Invasive Species is very much behind this.
+
+401
+00:30:08,143 --> 00:30:09,972
+MAMBO, I think it's finished as well.
+
+402
+00:30:10,542 --> 00:30:14,052
+Garden is finished, and AURORA is still going on.
+
+403
+00:30:15,402 --> 00:30:17,442
+So I need to thank all my contributors.
+
+404
+00:30:17,862 --> 00:30:21,102
+There have actually been a very large number of contributors to this in all sorts
+
+405
+00:30:21,132 --> 00:30:24,942
+of different ways, and that's why I've listed all the projects and collaborations
+
+406
+00:30:25,212 --> 00:30:28,752
+below. And thank you very much for your attention.
+
+407
+00:30:41,112 --> 00:30:44,322
+You bet. So Quentin was quite quick, as he says.
+
+408
+00:30:44,982 --> 00:30:48,822
+So there's lots of time for questions if anyone has something that they would like
+
+409
+00:30:48,912 --> 00:30:51,132
+to challenge him with. Ramona.
+
+410
+00:30:52,482 --> 00:30:54,612
+We'll just get you a mic, Ramona.
+
+411
+00:30:56,502 --> 00:30:57,402
+I think the mic doesn't-
+
+412
+00:30:57,763 --> 00:30:58,182
+They can't
+
+413
+00:30:59,742 --> 00:31:00,102
+hear without a mic.
+
+414
+00:31:00,102 --> 00:31:00,372
+Want the mic?
+
+415
+00:31:00,432 --> 00:31:04,242
+Have we got the microphone anywhere? The roving mic?
+
+416
+00:31:05,772 --> 00:31:07,092
+Can we call out there and stand up there?
+
+417
+00:31:07,152 --> 00:31:07,422
+Yeah.
+
+418
+00:31:07,482 --> 00:31:10,722
+Sure. Oh, no, there it is. It's up the back.
+
+419
+00:31:11,412 --> 00:31:11,772
+We can call out there.
+
+420
+00:31:11,772 --> 00:31:13,033
+Ellie, can you run up the back?
+
+421
+00:31:14,263 --> 00:31:14,563
+Fine.
+
+422
+00:31:15,372 --> 00:31:16,242
+So pick up.
+
+423
+00:31:16,272 --> 00:31:21,912
+Thanks, Quentin. Great talk. So, I have occasionally recently advocated for getting
+
+424
+00:31:21,942 --> 00:31:25,813
+rid of the scientific publication and just publishing data directly.
+
+425
+00:31:25,872 --> 00:31:29,652
+Do you think that that would-- Again, I assume the answer is yes, but correct me if
+
+426
+00:31:29,712 --> 00:31:33,822
+I'm wrong. Wouldn't that help speed up the time to data discovery if people would
+
+427
+00:31:33,852 --> 00:31:37,002
+just publish their data as soon as they were available rather than waiting until a
+
+428
+00:31:37,063 --> 00:31:37,783
+paper's published?
+
+429
+00:31:39,132 --> 00:31:40,302
+This is such a big question.
+
+430
+00:31:42,372 --> 00:31:46,992
+Yeah, I'm frequently reminded that PhD students need a career afterwards, and so
+
+431
+00:31:47,172 --> 00:31:49,362
+they are nervous about releasing all of their data.
+
+432
+00:31:49,813 --> 00:31:55,632
+And I think to some extent, yeah, we need to detach that data collection to
+
+433
+00:31:55,692 --> 00:31:57,643
+some extent from the research question.
+
+434
+00:31:57,972 --> 00:32:01,362
+It's actually a waste of time for a PhD student to be out in the field sometimes
+
+435
+00:32:02,652 --> 00:32:07,453
+just collecting data. I should rephrase that a bit because I think it's very good
+
+436
+00:32:08,022 --> 00:32:09,792
+that PhD students are out in the field.
+
+437
+00:32:11,382 --> 00:32:14,412
+Not because I want them to waste their time, but because they become more connected
+
+438
+00:32:15,042 --> 00:32:18,102
+to life, and see what their system is.
+
+439
+00:32:18,643 --> 00:32:21,582
+But sometimes, data collection should be
+
+440
+00:32:22,932 --> 00:32:24,612
+a whole discipline of its own.
+
+441
+00:32:24,672 --> 00:32:28,902
+Yeah, but you're essentially advocating for a change in the value system already,
+
+442
+00:32:29,052 --> 00:32:31,482
+so this is just taking it another percent.
+
+443
+00:32:31,572 --> 00:32:36,252
+Yes.
+
+444
+00:32:36,342 --> 00:32:37,092
+Anyone else?
+
+445
+00:32:40,092 --> 00:32:40,722
+Oh, okay.
+
+446
+00:32:44,862 --> 00:32:49,662
+Congratulations to our keynote speakers for being the enthusiastic questioners.
+
+447
+00:32:55,002 --> 00:32:55,092
+One of the-
+
+448
+00:32:55,092 --> 00:32:55,422
+It's on.
+
+449
+00:32:55,632 --> 00:32:55,992
+It's on. Okay.
+
+450
+00:32:58,783 --> 00:33:03,522
+One of the mechanisms for speeding up data publishing and sort of
+
+451
+00:33:04,692 --> 00:33:10,362
+the not waiting until you publish everything you can possibly is
+
+452
+00:33:10,453 --> 00:33:16,063
+to explicitly provide value for data and through not just
+
+453
+00:33:16,182 --> 00:33:20,442
+attribution, but actually impact on other publications and
+
+454
+00:33:24,042 --> 00:33:29,652
+not just in form of citations, but literally for, in some cases, financial direct
+
+455
+00:33:29,712 --> 00:33:32,472
+contribution to the data sources.
+
+456
+00:33:32,982 --> 00:33:33,283
+And there are
+
+457
+00:33:36,042 --> 00:33:41,862
+mechanisms that are being built now to do that, mostly driven by industry for
+
+458
+00:33:43,542 --> 00:33:47,742
+nature data valuation, but it actually can work for other.
+
+459
+00:33:48,222 --> 00:33:54,192
+What are your thoughts on using those mechanisms to speed up data access
+
+460
+00:33:54,313 --> 00:33:58,422
+and alleviate this thought, say, you haven't published everything I could do from
+
+461
+00:33:58,453 --> 00:33:58,992
+those yet?
+
+462
+00:34:00,612 --> 00:34:05,832
+Yeah. I'm not sure I fully follow, but yeah, it doesn't make sense in the
+
+463
+00:34:06,672 --> 00:34:11,112
+current system that you have grants for three years and you spend that money on
+
+464
+00:34:11,172 --> 00:34:14,712
+data collection just for those three years, and we don't have this long-term
+
+465
+00:34:14,772 --> 00:34:16,993
+funding for infrastructures to collect data.
+
+466
+00:34:17,022 --> 00:34:22,542
+And obviously, you know about the neon data that is long-term collection.
+
+467
+00:34:22,932 --> 00:34:28,902
+And we certainly have movements towards that in Europe, to have infrastructures for
+
+468
+00:34:28,993 --> 00:34:32,112
+long-term data collection on biodiversity.
+
+469
+00:34:34,062 --> 00:34:35,953
+Yeah, what are my thoughts on that? There's just so much.
+
+470
+00:34:38,592 --> 00:34:43,752
+I would say we're still stuck on trying to observe everything, and that we need to
+
+471
+00:34:43,812 --> 00:34:49,062
+focus. I think even though AI and
+
+472
+00:34:49,393 --> 00:34:53,682
+automated systems will overtake human beings, we definitely need all those human
+
+473
+00:34:53,743 --> 00:34:59,112
+being observations too, because they really fit an important niche.
+
+474
+00:35:00,612 --> 00:35:04,032
+But we have to get much better at our indicators,
+
+475
+00:35:06,672 --> 00:35:10,152
+and because we know what indicators we want to follow, we know what data collects
+
+476
+00:35:10,182 --> 00:35:14,712
+in the first place. But then we also have the issue of the unknown unknowns, and
+
+477
+00:35:14,742 --> 00:35:18,582
+that's where I think the human beings really come into play, is because I don't
+
+478
+00:35:18,643 --> 00:35:21,972
+think AI yet is very good at the unknown unknowns.
+
+479
+00:35:22,062 --> 00:35:23,652
+It just kind of tends to ignore them.
+
+480
+00:35:25,932 --> 00:35:27,402
+I don't think that answered your question, but
+
+481
+00:35:27,582 --> 00:35:32,502
+We can talk about it later. All right. Thank you, Quentin. Thank you.
+
+482
+00:35:40,212 --> 00:35:42,342
+So we've had a reminder about the cost of delay,
+
+483
+00:35:44,623 --> 00:35:50,382
+but then there's the other bit in there about the need to identify
+
+484
+00:35:50,442 --> 00:35:53,982
+things. What is it? It's one thing to collect all that data, but do you know what
+
+485
+00:35:54,012 --> 00:35:57,192
+it is? And then how do you get it into
+
+486
+00:36:00,462 --> 00:36:04,242
+an infrastructure like GBIF or the Atlas of Living Australia, where I work?
+
+487
+00:36:05,232 --> 00:36:09,432
+So Pam Cameron Sluiter, who's our next speaker, is going to take us inside one of
+
+488
+00:36:09,492 --> 00:36:14,202
+the biggest untangling jobs in biodiversity informatics, which is to rebuild a
+
+489
+00:36:14,232 --> 00:36:17,143
+national taxonomic backbone. Welcome, Pam.
+
+490
+00:36:25,393 --> 00:36:28,752
+Hi, everybody. I'm guaranteed to stuff up the slides, so I'll just get that out of
+
+491
+00:36:28,752 --> 00:36:29,472
+the way to start.
+
+492
+00:36:31,062 --> 00:36:35,592
+I'd like to begin by acknowledging the traditional owners on the lands that Simon,
+
+493
+00:36:35,682 --> 00:36:41,623
+my co-author, and I work on, the Ngunnawal people and
+
+494
+00:36:41,712 --> 00:36:46,368
+the Wurrung- were Wurundjeri people of the Kulin nation.
+
+495
+00:36:46,428 --> 00:36:48,978
+It always was Aboriginal land and always will be.
+
+496
+00:36:49,848 --> 00:36:53,118
+We wish to acknowledge their elders, past and present, and to extend that
+
+497
+00:36:53,449 --> 00:36:56,598
+acknowledgement to any First Nations people who might be here today.
+
+498
+00:36:58,068 --> 00:37:02,628
+I'll be talking today about the use of taxonomic backbones to arrange data, how
+
+499
+00:37:02,658 --> 00:37:08,148
+backbones require different rules to, say, taxonomic checklists,
+
+500
+00:37:08,718 --> 00:37:14,508
+and how the ALA's gone about improving our backbone using the ALA as an
+
+501
+00:37:14,538 --> 00:37:15,199
+example.
+
+502
+00:37:17,328 --> 00:37:23,208
+So we are the largest publicly accessible data set in Australia with over 184
+
+503
+00:37:23,268 --> 00:37:26,358
+million records and many thousands of users.
+
+504
+00:37:27,018 --> 00:37:32,388
+Since its beginning, the taxonomic backbone of the ALA has been central to how we
+
+505
+00:37:32,718 --> 00:37:38,358
+serve diversity data to users. Australia has a host of reasons for using a
+
+506
+00:37:38,418 --> 00:37:43,699
+national species list, not only because of the high level of endemism in our biota,
+
+507
+00:37:43,788 --> 00:37:49,699
+but also because there are differences in the taxonomy that we Australians use and
+
+508
+00:37:49,728 --> 00:37:52,818
+what everybody else uses because we're just that contrary.
+
+509
+00:37:54,798 --> 00:37:58,458
+We've got thousands of undescribed species only known by phrase names.
+
+510
+00:38:00,378 --> 00:38:04,668
+We frequently in Australia use species names that end up in legislation and are
+
+511
+00:38:04,699 --> 00:38:10,578
+therefore very hard to change. We have the risk posed by literally thousands
+
+512
+00:38:10,699 --> 00:38:15,048
+of invasive species that are either in Australia or threatening to arrive.
+
+513
+00:38:15,738 --> 00:38:21,468
+And there's the increasing importance of recognizing traditional ecological
+
+514
+00:38:21,558 --> 00:38:27,258
+knowledge as part of the conservation and governance of biodiversity in Australia.
+
+515
+00:38:27,949 --> 00:38:32,388
+The common thread in all this is a need for a simple common reference point for
+
+516
+00:38:32,449 --> 00:38:37,188
+researchers, government, and industry, and that purpose has been served by many
+
+517
+00:38:37,248 --> 00:38:42,498
+years by the National Species List of the Australian Biological Resources Study, or
+
+518
+00:38:42,588 --> 00:38:43,818
+ABRS for short.
+
+519
+00:38:46,908 --> 00:38:52,758
+So for much of the ALA's history, we've used the NSL, and the
+
+520
+00:38:52,818 --> 00:38:57,858
+backbone of the taxonomy that we use in the ALA has been assembled what's been
+
+521
+00:38:57,918 --> 00:39:00,258
+jokingly called the large taxon collider.
+
+522
+00:39:02,268 --> 00:39:06,588
+This basically combines that ABRS National Species List with multiple other
+
+523
+00:39:06,678 --> 00:39:11,628
+sources, including Catalog of Life, the New Zealand Organism Register, and also a
+
+524
+00:39:11,688 --> 00:39:14,628
+host of other ad hoc changes from many other sources.
+
+525
+00:39:17,029 --> 00:39:22,008
+The large taxon collider, in all its physical glory, provides a streamlined,
+
+526
+00:39:22,128 --> 00:39:27,768
+automated process where taxonomic checklists are combined automatically with no
+
+527
+00:39:27,858 --> 00:39:33,738
+human input. It's a very attractive and extremely efficient way of operating
+
+528
+00:39:33,798 --> 00:39:37,878
+because it's got fairly minimal human intervention.
+
+529
+00:39:38,538 --> 00:39:43,368
+However, the success of the collider requires that all input checklists that are
+
+530
+00:39:43,428 --> 00:39:44,868
+coming from taxonomic checklists
+
+531
+00:39:47,449 --> 00:39:52,279
+are consistent as possible in the taxonomic hierarchy they use, and that's because
+
+532
+00:39:52,699 --> 00:39:58,038
+any variance in the hierarchy or authorship will generate errors and duplication as
+
+533
+00:39:58,097 --> 00:40:00,588
+you produce the taxonomic backbone.
+
+534
+00:40:01,218 --> 00:40:04,488
+This, of course, affects findability and data matching.
+
+535
+00:40:05,029 --> 00:40:09,378
+The collider is dependent on incoming checklists having all possible name
+
+536
+00:40:09,438 --> 00:40:10,968
+combinations for correct matching.
+
+537
+00:40:11,029 --> 00:40:15,438
+And as we know, all taxonomic checklists are 100% complete, they never have any
+
+538
+00:40:15,498 --> 00:40:16,128
+errors in them.
+
+539
+00:40:18,888 --> 00:40:22,398
+But it's a never ending issue for us.
+
+540
+00:40:22,428 --> 00:40:27,199
+So for example, to give it an Australian example, the common bent-wing bat, which
+
+541
+00:40:27,258 --> 00:40:32,598
+is a rare and endangered species in Australia, despite its name, was misidentified
+
+542
+00:40:32,658 --> 00:40:37,428
+for many years as a thing called Miniopterus schreibersii, before it was actually
+
+543
+00:40:37,488 --> 00:40:41,688
+recognized as an endemic species, Miniopterus aereonoe.
+
+544
+00:40:42,199 --> 00:40:48,168
+The problem is that because it wasn't actually a synonym, it was never included
+
+545
+00:40:48,228 --> 00:40:53,538
+in the NSL. So what we had was a situation where we had an endangered
+
+546
+00:40:53,598 --> 00:40:58,968
+species in the NSL, but the synonym by which most of the records in Australia were
+
+547
+00:40:59,058 --> 00:41:02,178
+actually known were not actually connecting to anything.
+
+548
+00:41:03,588 --> 00:41:07,848
+That's not a criticism of the NSL. Our colleagues in ABRS added it as soon as we
+
+549
+00:41:07,908 --> 00:41:12,678
+found it. The issue is really until we started looking, it was simply unrecognized
+
+550
+00:41:12,798 --> 00:41:14,568
+as an error in the collider process.
+
+551
+00:41:15,558 --> 00:41:20,898
+The collider also assumes, and this is important, that the names are placed in a
+
+552
+00:41:20,958 --> 00:41:25,548
+taxonomic checklist where they need to be for correct data matching, not where they
+
+553
+00:41:25,578 --> 00:41:27,468
+need to be for taxonomic purposes.
+
+554
+00:41:27,738 --> 00:41:31,518
+And it's absolutely not the same thing, and I want to make this clear.
+
+555
+00:41:32,238 --> 00:41:37,548
+For example, having a misapplied name listed both against the taxon that it was
+
+556
+00:41:37,608 --> 00:41:42,828
+misapplied to, as well as the place where it should be, which is relatively common
+
+557
+00:41:42,888 --> 00:41:46,608
+in a taxonomic checklist, is a disaster for data matching.
+
+558
+00:41:47,268 --> 00:41:50,208
+At worst, you're going to end up with a homonym, and at best, you're going to end
+
+559
+00:41:50,298 --> 00:41:54,168
+up with the record in the wrong place in your taxonomic tree.
+
+560
+00:41:58,788 --> 00:42:03,348
+Realistically, the idea of automatically building an error-free, human-free
+
+561
+00:42:03,588 --> 00:42:04,998
+backbone is a fiction.
+
+562
+00:42:06,288 --> 00:42:08,958
+There's rarely consistency between sources.
+
+563
+00:42:09,048 --> 00:42:13,878
+There are always nearly errors and omissions, and the focus of taxonomic checklists
+
+564
+00:42:13,968 --> 00:42:18,199
+is simply not the same as the focus of data aggregators or database managers.
+
+565
+00:42:18,798 --> 00:42:23,088
+In fact, the inevitable consequence of using a large taxon collider without human
+
+566
+00:42:23,148 --> 00:42:27,408
+intervention or quality control is demonstrated by what I've got up here.
+
+567
+00:42:28,128 --> 00:42:32,779
+So this is a previous version of the ALA's taxonomic backbone from a few years ago.
+
+568
+00:42:33,648 --> 00:42:39,438
+It shows at the very highest taxonomic levels exactly how taxonomic concepts are
+
+569
+00:42:39,558 --> 00:42:42,468
+jumbled, the units aren't placing correctly,
+
+570
+00:42:44,178 --> 00:42:47,958
+and there are simple duplications, and it's far worse at lower levels.
+
+571
+00:42:48,078 --> 00:42:52,098
+And in this version of the taxonomic tree, which is where we started from, there
+
+572
+00:42:52,098 --> 00:42:57,258
+were over 10 million records, which was 10% of the ALA's data holdings at the time,
+
+573
+00:42:57,558 --> 00:42:59,358
+that simply weren't matching to anything.
+
+574
+00:43:01,098 --> 00:43:06,078
+In one case, one scientific name had 78 different variations in the system.
+
+575
+00:43:06,708 --> 00:43:10,398
+So is that important? Well, I'd argue if you're interested in AI,
+
+576
+00:43:11,628 --> 00:43:16,308
+or in making your data either findable or reusable, it's pretty important.
+
+577
+00:43:16,818 --> 00:43:21,078
+And if your focus is actually the best possible representation of biodiversity
+
+578
+00:43:21,168 --> 00:43:25,818
+data, then there's far too much noise to isolate data quality issues or names
+
+579
+00:43:25,878 --> 00:43:28,788
+matching issues. So how do you go about fixing it?
+
+580
+00:43:30,108 --> 00:43:34,788
+Well, we took a systematic three-stage approach, through three successive
+
+581
+00:43:34,848 --> 00:43:40,758
+backbones. In the first iteration, we looked at trying to
+
+582
+00:43:40,848 --> 00:43:44,538
+make sure that the input checklists were as complete as possible.
+
+583
+00:43:45,048 --> 00:43:47,928
+In the second iteration, we identified gaps and filled them.
+
+584
+00:43:48,408 --> 00:43:52,608
+And in the last iteration, or the latest iteration, we focused on improving the
+
+585
+00:43:52,668 --> 00:43:57,768
+backbone by looking at data mismatches and no matches, and I'll explain about that
+
+586
+00:43:57,798 --> 00:43:58,458
+in a moment.
+
+587
+00:44:00,529 --> 00:44:06,408
+At a high level, our core realization is, as I've already kind of indicated, and
+
+588
+00:44:06,468 --> 00:44:10,458
+which seems really obvious in hindsight, that taxonomic checklists are not the same
+
+589
+00:44:10,518 --> 00:44:16,128
+as taxonomic backbones. A backbone is there to display data against the best
+
+590
+00:44:16,188 --> 00:44:21,168
+available name, not to correctly reflect all the taxonomic decisions and pathways
+
+591
+00:44:21,228 --> 00:44:23,838
+that have led to that best available name.
+
+592
+00:44:24,648 --> 00:44:28,908
+Therefore, taxonomic checklists are the essential basis of the system, but they
+
+593
+00:44:28,938 --> 00:44:33,138
+require intervention by modification in order to display data correctly.
+
+594
+00:44:33,738 --> 00:44:38,568
+This includes removing or repositioning possibly entirely valid names to improve
+
+595
+00:44:38,628 --> 00:44:44,118
+data matching. Moreover, critical end uses, such as threatened species assessments
+
+596
+00:44:44,268 --> 00:44:49,248
+or restricting sensitive species data, also require changes to the backbone.
+
+597
+00:44:49,638 --> 00:44:53,808
+And to meet those cases, we might need to include informal synonyms such as
+
+598
+00:44:53,928 --> 00:44:58,488
+spelling errors, populations, or even informal names that aren't actually part of
+
+599
+00:44:58,518 --> 00:44:59,838
+the taxonomic framework.
+
+600
+00:45:03,288 --> 00:45:08,238
+We've learned the four important issues for backbones are, firstly, to display
+
+601
+00:45:08,328 --> 00:45:10,068
+data, you need a single hierarchy.
+
+602
+00:45:11,358 --> 00:45:15,888
+I would argue that you don't actually need a scientifically valid hierarchy; you
+
+603
+00:45:15,978 --> 00:45:21,468
+need a single hierarchy. You try to work towards a scientifically valid
+
+604
+00:45:21,529 --> 00:45:24,648
+hierarchy, but what you need is something that avoids duplication.
+
+605
+00:45:25,518 --> 00:45:29,508
+The second thing is there's always going to be a need to insert names that are
+
+606
+00:45:29,598 --> 00:45:35,568
+absent from input checklists. In ALA, we prioritize species in legislation, such as
+
+607
+00:45:35,598 --> 00:45:39,768
+threatened species, biosecurity species, or restricted access species.
+
+608
+00:45:41,598 --> 00:45:47,148
+There's also a need to contentiously remove or move concepts that
+
+609
+00:45:47,208 --> 00:45:51,078
+result in observation records going to the wrong best available name.
+
+610
+00:45:51,618 --> 00:45:53,568
+And I've already talked about misapplication
+
+611
+00:45:55,830 --> 00:46:00,210
+Misapplications, but there's also misidentifications and a host of other examples.
+
+612
+00:46:01,140 --> 00:46:06,601
+Lastly, in certain instances, this may mean overriding the best current name in
+
+613
+00:46:06,660 --> 00:46:10,620
+order to make sure that the data matches the commonly accepted name.
+
+614
+00:46:12,810 --> 00:46:16,741
+The biggest innovation we've adopted is metric checking and feedback loops.
+
+615
+00:46:17,250 --> 00:46:18,660
+We use Checklist Bank
+
+616
+00:46:19,950 --> 00:46:24,450
+to test versions of our backbone using statistics on issues such as duplicates and
+
+617
+00:46:24,510 --> 00:46:27,210
+orphan taxonomic units without children.
+
+618
+00:46:27,991 --> 00:46:32,190
+We match draft taxonomic backbones against our data, and the process of matching
+
+619
+00:46:32,250 --> 00:46:36,991
+data to our backbone enables us to identify what we call higher matches, where the
+
+620
+00:46:37,050 --> 00:46:41,430
+name on an incoming observation will only match to a higher point in the taxonomy,
+
+621
+00:46:42,570 --> 00:46:46,200
+or where there's no matches, i.e., the incoming name won't match to anything.
+
+622
+00:46:46,710 --> 00:46:51,840
+But they're both basically really valuable guides as to where we need to focus our
+
+623
+00:46:51,870 --> 00:46:55,351
+attention on from the perspective of improving the backbone.
+
+624
+00:46:56,280 --> 00:47:00,150
+Most recently, we've extracted a complete set of parameters passed to names
+
+625
+00:47:00,241 --> 00:47:05,610
+matching. This effectively gives us all 2.06 million names match combinations
+
+626
+00:47:06,601 --> 00:47:10,680
+between our data and backbone, which basically drives the two processes that I've
+
+627
+00:47:10,741 --> 00:47:11,700
+just talked about.
+
+628
+00:47:14,430 --> 00:47:17,640
+So we're still using the code in the large taxon collider.
+
+629
+00:47:17,700 --> 00:47:22,530
+So the large taxon collider still exists, but what we've done is stopped the
+
+630
+00:47:22,590 --> 00:47:26,790
+colliding, and we've actually moved to a process where we control our inputs.
+
+631
+00:47:27,180 --> 00:47:31,920
+We add our sources one at a time using the national species list as the core, and
+
+632
+00:47:32,010 --> 00:47:37,230
+other elements are added bottom up to minimize duplicates and keep a single
+
+633
+00:47:37,290 --> 00:47:42,030
+hierarchy. Feedback loops check every step and maintain quality control.
+
+634
+00:47:44,760 --> 00:47:47,190
+And the proof, as they say, is in the pudding.
+
+635
+00:47:48,030 --> 00:47:53,130
+So the total number of accepted taxonomic units over the last three years has
+
+636
+00:47:53,190 --> 00:47:59,070
+reduced from 380,000 to 233,000, which as far as we can tell, is
+
+637
+00:47:59,760 --> 00:48:02,880
+pretty close to the total number of named species in Australia.
+
+638
+00:48:03,721 --> 00:48:09,300
+We have less than 1.5% of records affected now by names matching issues, and over
+
+639
+00:48:09,330 --> 00:48:13,950
+10,000 species that previously had no data now have enough data to actually
+
+640
+00:48:15,450 --> 00:48:18,180
+get them into public availability.
+
+641
+00:48:19,920 --> 00:48:24,840
+Over 99% of species listed in government lists in Australia now correctly match to
+
+642
+00:48:25,170 --> 00:48:30,270
+current scientific names. Moreover, and this has been actually really revealing,
+
+643
+00:48:30,330 --> 00:48:33,991
+for the first time we've been able to generate reliable metrics on data gaps,
+
+644
+00:48:34,380 --> 00:48:36,840
+taxonomically, spatially, and
+
+645
+00:48:38,190 --> 00:48:39,960
+whatever the other one that is that I've forgotten
+
+646
+00:48:42,480 --> 00:48:45,721
+that basically feeds into our data mobilization program.
+
+647
+00:48:45,780 --> 00:48:50,370
+So we can actually target our digitization efforts and make suggestions to the
+
+648
+00:48:50,400 --> 00:48:55,380
+collection sector and the ecological data sector in Australia as to where they
+
+649
+00:48:55,410 --> 00:48:58,200
+should be focusing their efforts in terms of digitization.
+
+650
+00:48:59,130 --> 00:49:04,770
+Lastly, we've been able to create a feedback loop back to ABRS to improve what the
+
+651
+00:49:04,830 --> 00:49:08,610
+national species list by telling them where there are actually issues in the
+
+652
+00:49:08,910 --> 00:49:11,669
+downstream system from a data quality perspective.
+
+653
+00:49:13,410 --> 00:49:17,101
+Far be it for me to imply that we've solved everything, we absolutely haven't.
+
+654
+00:49:18,150 --> 00:49:23,130
+So for that 1.5% of data that's still not matching, we know that at least a third
+
+655
+00:49:23,190 --> 00:49:26,280
+of that can actually match, and we need to figure out why it's not.
+
+656
+00:49:26,971 --> 00:49:31,440
+We need to come up with a solution to pro parte synonyms, which in most databases,
+
+657
+00:49:32,130 --> 00:49:36,630
+what tends to happen is the record ends up on one synonym and not the others.
+
+658
+00:49:36,810 --> 00:49:41,910
+So how do you actually alert to users that the record that they're looking for
+
+659
+00:49:41,971 --> 00:49:43,500
+might be under another species?
+
+660
+00:49:44,730 --> 00:49:50,250
+Homonyms remain our perennial pain, and we're working on a way to improve
+
+661
+00:49:50,280 --> 00:49:54,300
+our way of handling genetic data as a growing data set.
+
+662
+00:49:54,721 --> 00:49:59,221
+And lastly, we need a way of handling populations, or at least a term for groups
+
+663
+00:49:59,280 --> 00:50:04,020
+below taxonomic resolution, which frequently feature in government species lists,
+
+664
+00:50:04,140 --> 00:50:06,540
+either threatened species lists or sensitive lists.
+
+665
+00:50:09,900 --> 00:50:15,210
+And just to get a little bit of AI in there, we generated an AI logo for taxonomic
+
+666
+00:50:15,270 --> 00:50:15,721
+backbone.
+
+667
+00:50:19,320 --> 00:50:23,310
+That's a post-death metal band called Taxonomic Backbone, in case you're wondering,
+
+668
+00:50:23,730 --> 00:50:28,230
+you want the AI prompt. Thank you for TDWG for the opportunity to speak today.
+
+669
+00:50:28,560 --> 00:50:32,790
+And in addition to our many colleagues in ALA, I'd also like to thank the ABRS
+
+670
+00:50:32,880 --> 00:50:37,500
+team, the many taxonomists who contribute to the ecosystem in Australia, and
+
+671
+00:50:37,530 --> 00:50:42,991
+particularly Bob Mesibov, who has single-handedly been a massive influence on our
+
+672
+00:50:43,050 --> 00:50:45,721
+ability to deal with all of this. Thank you very much.
+
+673
+00:50:56,340 --> 00:51:01,080
+Okay. I don't know if anyone can ask a question that would only give a 30-second
+
+674
+00:51:01,200 --> 00:51:03,991
+answer, but if you think you can, then put your hand up.
+
+675
+00:51:05,760 --> 00:51:06,210
+Quentin?
+
+676
+00:51:06,570 --> 00:51:07,920
+When are T-shirts on sale?
+
+677
+00:51:11,400 --> 00:51:11,730
+I hope
+
+678
+00:51:13,201 --> 00:51:13,290
+so.
+
+679
+00:51:13,351 --> 00:51:17,280
+Do you have one wish list for changes to the nomenclatural codes?
+
+680
+00:51:18,090 --> 00:51:18,330
+Sorry?
+
+681
+00:51:18,601 --> 00:51:22,650
+Do you have one thing if you wished to change in the nomenclatural codes, what
+
+682
+00:51:22,650 --> 00:51:23,190
+would it be?
+
+683
+00:51:26,940 --> 00:51:27,960
+That's a good question.
+
+684
+00:51:29,790 --> 00:51:30,810
+Can I think about that?
+
+685
+00:51:33,180 --> 00:51:39,150
+Look, no. I need to think about
+
+686
+00:51:39,210 --> 00:51:39,601
+that.
+
+687
+00:51:41,221 --> 00:51:44,910
+Okay, you'll get your answer later on in the conference. Thanks, Cam.
+
+688
+00:51:46,410 --> 00:51:46,800
+Okay, so
+
+689
+00:51:54,150 --> 00:51:55,981
+that's the Australian taxonomy sorted.
+
+690
+00:51:56,701 --> 00:51:59,070
+So we'll now move on to the rest of the world.
+
+691
+00:52:01,440 --> 00:52:04,981
+And given the challenges that Cam's just described, it's a wonder that so many
+
+692
+00:52:05,040 --> 00:52:07,080
+records do match somewhere into
+
+693
+00:52:08,820 --> 00:52:14,070
+our big infrastructures. So now we're going to move on to Darwin Core, the best
+
+694
+00:52:14,160 --> 00:52:19,860
+known of the TDWG standards, but not the only one, has underpinned the occurrence
+
+695
+00:52:19,951 --> 00:52:22,409
+infrastructure successfully for many, many years.
+
+696
+00:52:23,040 --> 00:52:26,729
+But it's become clear now that with all the new ways that we're collecting data,
+
+697
+00:52:26,790 --> 00:52:30,810
+that Darwin Core needed a bigger update than the tweaks that the Darwin Core
+
+698
+00:52:30,870 --> 00:52:33,750
+Maintenance Group have been managing for a number of years.
+
+699
+00:52:33,960 --> 00:52:37,740
+Sorry, John, you wouldn't describe them as tweaks. They're a bit bigger than that.
+
+700
+00:52:38,190 --> 00:52:43,201
+But bear with me. So GBIF are now preparing to integrate Darwin Core Data Package
+
+701
+00:52:43,260 --> 00:52:48,750
+as the next stage, and I welcome Fede and Nicola to tell us about their plans.
+
+702
+00:52:57,750 --> 00:53:00,240
+Hello, everyone. Sorry if that's too loud.
+
+703
+00:53:02,040 --> 00:53:07,530
+You need to be wake up anyway. So I'm here with my colleague Nicola Raibek, and
+
+704
+00:53:07,560 --> 00:53:11,971
+we're going to talk about integrating Darwin Core Data Packages into the GBIF
+
+705
+00:53:12,030 --> 00:53:13,050
+existing platform.
+
+706
+00:53:14,851 --> 00:53:20,250
+Let's just get started. One of the challenges that we face in this community is
+
+707
+00:53:20,310 --> 00:53:25,410
+representing the complexity of biodiversity data in data structure that can capture
+
+708
+00:53:25,471 --> 00:53:27,150
+as much information as possible.
+
+709
+00:53:28,530 --> 00:53:32,641
+The de facto standard, the dominant protocol and standard has been so far Darwin
+
+710
+00:53:32,701 --> 00:53:37,020
+Core Archives. Darwin Core Archive basically is like a zip file.
+
+711
+00:53:37,080 --> 00:53:42,840
+If you open it, what you get inside is a core file, and then there's
+
+712
+00:53:42,900 --> 00:53:48,810
+extension files. There's a meta XML that describes how the core file
+
+713
+00:53:48,870 --> 00:53:53,731
+is related to the extensions, and there's also an EML that describes the dataset
+
+714
+00:53:53,760 --> 00:53:56,340
+metadata. Right? So
+
+715
+00:53:58,290 --> 00:54:02,880
+the first message that I want to make with you is that Darwin Core Archives are not
+
+716
+00:54:02,910 --> 00:54:05,820
+going anywhere. We're going to continue supporting Darwin Core Archives.
+
+717
+00:54:07,170 --> 00:54:12,900
+So if that data publishing mechanism is sufficient for your needs, just keep using
+
+718
+00:54:12,960 --> 00:54:13,680
+it, okay?
+
+719
+00:54:16,951 --> 00:54:21,660
+An independent GBIF 20 year review highlighted that the model of publishing data
+
+720
+00:54:22,020 --> 00:54:27,810
+around central entities such as occurrences, events, and taxons was not sufficient,
+
+721
+00:54:28,020 --> 00:54:28,770
+not only to
+
+722
+00:54:29,971 --> 00:54:34,080
+publish the existing data, but also to engage with new communities.
+
+723
+00:54:34,471 --> 00:54:39,690
+And that was the reason why we started looking for a new data standard in this
+
+724
+00:54:39,721 --> 00:54:40,020
+sense.
+
+725
+00:54:41,310 --> 00:54:45,690
+There are two important milestones that I want to highlight for this year that in
+
+726
+00:54:45,721 --> 00:54:51,510
+May 26, the Darwin Core Data Package conceptual model
+
+727
+00:54:51,601 --> 00:54:55,050
+was ratified as part of the Darwin Core standard.
+
+728
+00:54:56,118 --> 00:55:01,758
+And then the 15th of September, that's less than a week ago, that the
+
+729
+00:55:01,848 --> 00:55:07,338
+non-descent period after the final review just finished. Okay?
+
+730
+00:55:08,239 --> 00:55:14,088
+And it's expected by the cohort that the executive
+
+731
+00:55:14,388 --> 00:55:14,959
+of that week
+
+732
+00:55:16,368 --> 00:55:18,679
+ratifies the standard and releases the standard.
+
+733
+00:55:18,739 --> 00:55:18,888
+So
+
+734
+00:55:20,449 --> 00:55:23,329
+we are super close now to get the standard out.
+
+735
+00:55:25,338 --> 00:55:29,868
+If you look into a Darwin Core data package, it resembles a Darwin Core archive.
+
+736
+00:55:30,138 --> 00:55:33,949
+It has data file similar to a Darwin Core archive.
+
+737
+00:55:34,158 --> 00:55:39,978
+It has an EML, the same EML that you have been using for Darwin Core archives, but
+
+738
+00:55:40,038 --> 00:55:42,918
+it has now something new that is called the data package.json.
+
+739
+00:55:43,068 --> 00:55:47,329
+That's something that is borrowed from the frictionless data specification.
+
+740
+00:55:48,258 --> 00:55:53,598
+And in the data package.json, if I open that file, what I can see is how the data
+
+741
+00:55:53,658 --> 00:55:58,188
+tables are related between them, but also I can see the specification of those
+
+742
+00:55:58,248 --> 00:56:01,398
+tables. In this particular example, what we're seeing is the event table.
+
+743
+00:56:02,298 --> 00:56:07,518
+You can see that it has fields, it has constraints for those fields.
+
+744
+00:56:08,088 --> 00:56:12,018
+It also specifies how the table is related with our table that's called the
+
+745
+00:56:12,408 --> 00:56:15,858
+referential integrity, and it also has data types.
+
+746
+00:56:16,788 --> 00:56:19,699
+I was presenting this to the Living Atlases yesterday, and
+
+747
+00:56:20,989 --> 00:56:24,438
+I almost get emotional to see that we're going to have a data standard with data
+
+748
+00:56:24,528 --> 00:56:25,128
+types in it.
+
+749
+00:56:26,598 --> 00:56:30,709
+So just imagine how that is going to help with some of the data quality issues that
+
+750
+00:56:30,739 --> 00:56:36,348
+we have seen in the past. Okay, the IPT, the
+
+751
+00:56:36,408 --> 00:56:40,638
+Integrated Publishing Toolkit, is going to continue supporting Darwin Core data
+
+752
+00:56:40,699 --> 00:56:45,348
+packages just like it does for CANTA IPT, for Cal IPT, and also for Darwin Core
+
+753
+00:56:45,408 --> 00:56:50,748
+archives. So the user will be able to upload their files, to map the
+
+754
+00:56:52,158 --> 00:56:57,888
+data files into the targeted schemas, can also fill the metadata for
+
+755
+00:56:57,918 --> 00:57:01,308
+both the data package.json and also for the EML.
+
+756
+00:57:03,829 --> 00:57:06,348
+Then you can validate the archive.
+
+757
+00:57:06,588 --> 00:57:11,598
+Nikolaj is going to walk us through the validation process, but it's going to be a
+
+758
+00:57:11,658 --> 00:57:16,248
+more strict validation in terms of data types, completeness of the
+
+759
+00:57:17,808 --> 00:57:20,808
+data, and referential integrity issues.
+
+760
+00:57:21,558 --> 00:57:23,989
+And then you can publish the archive.
+
+761
+00:57:24,558 --> 00:57:30,199
+I just want to highlight there it has a test standard, so this is
+
+762
+00:57:30,258 --> 00:57:33,558
+enabled only in the test environment so far, okay?
+
+763
+00:57:34,278 --> 00:57:35,658
+And then I'm going to explain why.
+
+764
+00:57:37,668 --> 00:57:41,028
+Okay, but so far I haven't said anything what happens with your data.
+
+765
+00:57:41,239 --> 00:57:44,929
+So I managed to map my archive. I published it into GBIF.
+
+766
+00:57:44,959 --> 00:57:49,338
+But now what happens with that? In GBIF, we have a data platform that is called the
+
+767
+00:57:49,429 --> 00:57:54,618
+Data Injection Platform. And basically what it does, it downloads the data from the
+
+768
+00:57:54,679 --> 00:57:58,188
+sources. It applies a series of data routines
+
+769
+00:58:00,138 --> 00:58:04,728
+to enhance the data from the spatial point of view with taxonomies like the
+
+770
+00:58:04,758 --> 00:58:09,167
+category of life, et cetera. And then it feeds some data stores, and that's what
+
+771
+00:58:09,257 --> 00:58:15,199
+power the data services such as the GBIF API, GBIF downloads, and
+
+772
+00:58:15,709 --> 00:58:17,088
+the GBIF data portal.
+
+773
+00:58:18,739 --> 00:58:21,768
+This is only the technical view of the data pipeline.
+
+774
+00:58:21,858 --> 00:58:27,618
+It also has a human component. We have a group of people giving help desk to the
+
+775
+00:58:28,158 --> 00:58:31,008
+publishers, and there's also a lot of training material.
+
+776
+00:58:31,848 --> 00:58:37,158
+We know that the data packages has a richer format to the formats that we expose to
+
+777
+00:58:37,188 --> 00:58:41,929
+the APIs. But then we think that it's a first step to integrate the Darwin Core
+
+778
+00:58:41,959 --> 00:58:46,068
+data packages into the existing pipeline, and that's what Nikolaj is going to
+
+779
+00:58:47,088 --> 00:58:47,989
+explain to us now.
+
+780
+00:58:50,929 --> 00:58:56,718
+Thank you. Hello. So as Fede was just telling us about, we
+
+781
+00:58:56,778 --> 00:59:00,768
+have made these new elements-- Is it going? Yeah.
+
+782
+00:59:02,088 --> 00:59:04,338
+To integrate Darwin Core data packages.
+
+783
+00:59:05,538 --> 00:59:10,068
+These elements has been, first of all, a new validation method, which has more
+
+784
+00:59:10,098 --> 00:59:15,798
+validations. We are also including the metadata synchronization, which we already
+
+785
+00:59:15,858 --> 00:59:19,668
+have existingly, but adapting with the Darwin Core data packages.
+
+786
+00:59:20,628 --> 00:59:25,128
+And lastly, we have a new ingestion that I'll also tell more about.
+
+787
+00:59:25,699 --> 00:59:29,478
+And of course, it ends up on gbif.org and other places.
+
+788
+00:59:32,478 --> 00:59:38,268
+So first step is validation, and for validation with Darwin Core data packages,
+
+789
+00:59:39,138 --> 00:59:41,628
+there's a lot of different areas which are getting checked.
+
+790
+00:59:42,498 --> 00:59:48,318
+So as we were shown before, there's a JSON schema checker or a JSON schema file,
+
+791
+00:59:49,068 --> 00:59:49,968
+the data package JSON,
+
+792
+00:59:51,288 --> 00:59:54,138
+and that is being checked both to see if it's valid or not.
+
+793
+00:59:54,528 --> 00:59:57,588
+So of course, we want to have valid schema cells.
+
+794
+00:59:57,858 --> 00:59:59,538
+We cannot really identify anything.
+
+795
+01:00:00,888 --> 01:00:06,348
+Then we are looking also into that specific schema file and checking with the TADWG
+
+796
+01:00:06,468 --> 01:00:08,838
+standardized definitions
+
+797
+01:00:10,608 --> 01:00:11,658
+to see how they match.
+
+798
+01:00:13,368 --> 01:00:16,158
+So we are all agreeing on the same standard to use.
+
+799
+01:00:18,498 --> 01:00:21,739
+Once we are past the schema, we are going in to check the actual data.
+
+800
+01:00:22,278 --> 01:00:26,538
+So in actual data checks, we are now doing unique constraint checks.
+
+801
+01:00:27,228 --> 01:00:28,728
+So there can only be a single
+
+802
+01:00:30,168 --> 01:00:34,579
+this value in an entire resource. We're checking primary key constraints.
+
+803
+01:00:35,028 --> 01:00:39,739
+We are also checking this new thing with referential integrity, so that whenever
+
+804
+01:00:39,768 --> 01:00:43,579
+you have something that points to another resource, you are actually guaranteed
+
+805
+01:00:43,638 --> 01:00:46,968
+that it's there, else our validation will simply not pass.
+
+806
+01:00:48,408 --> 01:00:53,449
+In addition to this, we're also supplying cell statistics, such as unique column
+
+807
+01:00:53,508 --> 01:00:57,018
+counts. We're also having information about how many
+
+808
+01:00:58,368 --> 01:01:03,318
+values are actually present for a given column, so that you have a bit more insight
+
+809
+01:01:03,348 --> 01:01:09,138
+into your data about, "Was my values actually filled out?" Or what happened with
+
+810
+01:01:09,168 --> 01:01:09,288
+them.
+
+811
+01:01:11,568 --> 01:01:17,179
+Once we are past our validation, we then allow our metadata synchronization to
+
+812
+01:01:17,239 --> 01:01:21,407
+update in our registry, which is controlling how we are downloading things.
+
+813
+01:01:23,148 --> 01:01:27,258
+This, in turn, helps us to ensure that we are keeping up to date with things such
+
+814
+01:01:27,317 --> 01:01:31,788
+as title, descriptions, context, licenses, and citations and so forth.
+
+815
+01:01:32,808 --> 01:01:38,179
+And here, for just the data part, we are primarily using the EML, XML, which I
+
+816
+01:01:38,239 --> 01:01:39,618
+think most are familiar with.
+
+817
+01:01:40,938 --> 01:01:45,138
+But there's also a few things where we can fall back to the data package JSON with
+
+818
+01:01:45,138 --> 01:01:45,768
+the new format.
+
+819
+01:01:48,648 --> 01:01:53,658
+Lastly, we have ingestions, which is the new part, and also a huge work,
+
+820
+01:01:54,709 --> 01:01:59,868
+where in this case, we are trying to take the Darwin Core data packages and then
+
+821
+01:02:00,408 --> 01:02:04,998
+reform it into our internal structure, which allows us to express it on the
+
+822
+01:02:05,058 --> 01:02:09,048
+gbif.org side on side with the existing Darwin Core archive.
+
+823
+01:02:10,938 --> 01:02:16,038
+So this, in turn, also allow people to start ingesting Darwin Core data packages
+
+824
+01:02:16,548 --> 01:02:18,168
+without losing anything,
+
+825
+01:02:19,489 --> 01:02:21,918
+yet, or you will not lose anything.
+
+826
+01:02:22,518 --> 01:02:26,658
+But in the future, we'll create new views which allow a richer representation of
+
+827
+01:02:26,688 --> 01:02:28,878
+your data on the gbif.org site.
+
+828
+01:02:32,449 --> 01:02:36,258
+And to show part of that ingestion, here's some examples.
+
+829
+01:02:37,338 --> 01:02:42,408
+My colleagues from data have helped us transform some of these data sets into
+
+830
+01:02:42,679 --> 01:02:43,848
+Darwin Core data packages.
+
+831
+01:02:45,468 --> 01:02:50,959
+So here we have the Nice Botanic Garden herbarium as example,
+
+832
+01:02:52,068 --> 01:02:53,418
+and I've taken some examples here.
+
+833
+01:02:55,278 --> 01:02:57,438
+So first off, we have a geographical
+
+834
+01:02:59,028 --> 01:03:04,908
+view where we have some things such as country, we have latitude, longitude,
+
+835
+01:03:04,968 --> 01:03:05,838
+and other informations.
+
+836
+01:03:07,938 --> 01:03:11,209
+And that might have been more simple data in the Darwin Core archive, for example.
+
+837
+01:03:12,168 --> 01:03:18,108
+But with Darwin Core data packages, we now have a list of different resources
+
+838
+01:03:18,168 --> 01:03:19,548
+that link together in different ways.
+
+839
+01:03:20,058 --> 01:03:24,618
+So it's not just occurrence getting it directly from event,
+
+840
+01:03:26,329 --> 01:03:30,768
+but also there's other ways that we could have some material that was pointing to
+
+841
+01:03:30,829 --> 01:03:35,658
+the occurrence, and then that material was also part of some event.
+
+842
+01:03:36,829 --> 01:03:42,079
+So you can express how you are attaching data in many different ways, and we will
+
+843
+01:03:42,558 --> 01:03:45,888
+correctly interpret that and represent it on gbif.org.
+
+844
+01:03:48,739 --> 01:03:53,568
+There's also more complex cases. Most of them are, unfortunately for me.
+
+845
+01:03:55,998 --> 01:03:59,718
+So here we have a bunch of information about material mapping, where we have record
+
+846
+01:03:59,748 --> 01:04:00,258
+numbers-
+
+847
+01:04:01,914 --> 01:04:04,074
+And we have preparation and other information.
+
+848
+01:04:04,375 --> 01:04:07,525
+And as we can see, the graph here is starting to grow a bit more, and there's
+
+849
+01:04:07,554 --> 01:04:09,354
+becoming a lot more relations to this.
+
+850
+01:04:11,664 --> 01:04:14,244
+So we have all of these different
+
+851
+01:04:16,194 --> 01:04:19,344
+mappings that needs to be ensured across.
+
+852
+01:04:22,525 --> 01:04:25,104
+Lastly, I want to show you the media mapping,
+
+853
+01:04:26,604 --> 01:04:29,844
+where again, it's a more complex graph here.
+
+854
+01:04:31,434 --> 01:04:37,224
+One thing to note from the Darwin Core archive is that we can now use things
+
+855
+01:04:37,254 --> 01:04:42,594
+such as a usage policy, which is reused across many different medias because we can
+
+856
+01:04:42,625 --> 01:04:47,394
+now have a link from media to a usage policy, which was not possible before.
+
+857
+01:04:51,804 --> 01:04:52,014
+Then,
+
+858
+01:04:53,275 --> 01:04:57,294
+I think we have some new news.
+
+859
+01:04:58,134 --> 01:05:03,864
+Yes, sir. So we've been working and thinking what information would be
+
+860
+01:05:03,924 --> 01:05:07,375
+valuable for someone that published a Darwin Core data package in the GBIF
+
+861
+01:05:07,405 --> 01:05:11,905
+platform. So this is also enabled only in the test environment, but one of the
+
+862
+01:05:11,964 --> 01:05:13,914
+things that we have enabled is for
+
+863
+01:05:15,174 --> 01:05:20,754
+particular data publishers, for authenticated users, we're going to enable the view
+
+864
+01:05:20,785 --> 01:05:26,275
+of the data validation. And I think that's going to be a great tool to debug
+
+865
+01:05:26,484 --> 01:05:29,004
+the ingestion process.
+
+866
+01:05:31,734 --> 01:05:37,434
+This one. Then we've been thinking then how to provide a friendly user interface
+
+867
+01:05:37,464 --> 01:05:42,144
+for data packages. When you think of data packages, more or less has the structure
+
+868
+01:05:42,204 --> 01:05:44,634
+of a database with tables, relationships, and so on.
+
+869
+01:05:45,264 --> 01:05:48,864
+Showing something like that to the user, it wouldn't be so friendly.
+
+870
+01:05:49,194 --> 01:05:53,364
+So we've been thinking in concise views that the user can just navigate and see the
+
+871
+01:05:53,424 --> 01:05:54,894
+relationships of those tables in
+
+872
+01:05:56,275 --> 01:06:00,414
+an easier, more friendly way. Here you can see the navigation at the left side, and
+
+873
+01:06:00,444 --> 01:06:05,844
+then you can click in one of those tables and see the table detail, navigating the
+
+874
+01:06:05,934 --> 01:06:08,724
+raw data that has been published. Yep.
+
+875
+01:06:10,644 --> 01:06:14,544
+Now, what's next for us? What are the plans now?
+
+876
+01:06:15,204 --> 01:06:21,114
+So first, when I talk with the technical executive, it's going to
+
+877
+01:06:21,144 --> 01:06:25,285
+release the standard, so we have to align the software components to the official
+
+878
+01:06:25,344 --> 01:06:31,285
+release of that. We're going to enable the ingestion pipeline and also in the IPP
+
+879
+01:06:31,344 --> 01:06:34,764
+to publish the Darwin Core data packages into the test environment.
+
+880
+01:06:35,184 --> 01:06:40,014
+And we're going to invite users to use the test platform and to give us feedback
+
+881
+01:06:40,584 --> 01:06:45,924
+about that. Then we're going to think of when it's a feasible time to move this to
+
+882
+01:06:45,984 --> 01:06:46,525
+production.
+
+883
+01:06:47,844 --> 01:06:53,514
+There's one outstanding issue. The maintenance group for Darwin Core data package
+
+884
+01:06:54,025 --> 01:06:58,285
+is going to periodically release new versions of that, and then we need to find an
+
+885
+01:06:58,344 --> 01:07:01,914
+engineering solution on how to keep up with different multiple versions of that.
+
+886
+01:07:02,244 --> 01:07:05,065
+It's not something new, it's something that we have done, for example, for ABCDE
+
+887
+01:07:06,444 --> 01:07:09,684
+standards. And then later, that's for next year.
+
+888
+01:07:09,744 --> 01:07:10,344
+We know that
+
+889
+01:07:11,754 --> 01:07:15,684
+we're trying to squeeze in data packages into a more strict format.
+
+890
+01:07:15,984 --> 01:07:17,333
+So we need to start developing the
+
+891
+01:07:19,224 --> 01:07:23,844
+addition for the new data services around richer data, and that's the work for next
+
+892
+01:07:23,905 --> 01:07:27,174
+year. And then this is one
+
+893
+01:07:28,614 --> 01:07:30,804
+of the dreams that we have. This is the...
+
+894
+01:07:31,584 --> 01:07:34,644
+Don't take it as a compromise that we're going to build that, but it will be
+
+895
+01:07:34,854 --> 01:07:36,054
+something that we would like to have.
+
+896
+01:07:36,384 --> 01:07:40,914
+There is some kind of integrated view where you can go and see all the different
+
+897
+01:07:40,974 --> 01:07:45,894
+types of data published from a richer format, and then you can provide dashboards
+
+898
+01:07:46,164 --> 01:07:49,584
+with that. And, yeah. So that's it.
+
+899
+01:07:49,644 --> 01:07:52,944
+Before you say clap, I have one more slide.
+
+900
+01:07:56,004 --> 01:07:58,674
+I just want to consume all my time because I don't want to answer any questions.
+
+901
+01:08:01,194 --> 01:08:01,285
+No,
+
+902
+01:08:02,754 --> 01:08:06,354
+at the beginning of my presentation, I said something about the 20-year review of
+
+903
+01:08:06,414 --> 01:08:11,125
+GBIF. That basically means that this year GBIF turns 25.
+
+904
+01:08:11,634 --> 01:08:17,394
+So, please come to our booth and we're going to have there stickers and chocolates
+
+905
+01:08:17,454 --> 01:08:21,264
+and... We don't have beers, too expensive in this country, but the rest of the
+
+906
+01:08:21,324 --> 01:08:23,785
+things you can find in there. So thank you so much.
+
+907
+01:08:34,464 --> 01:08:38,065
+Bribing us with chocolate to get out of answering questions, that's very sneaky,
+
+908
+01:08:38,124 --> 01:08:38,694
+Freddy.
+
+909
+01:08:40,134 --> 01:08:43,044
+But we are out of time, so you've successfully done it.
+
+910
+01:08:43,405 --> 01:08:48,384
+You don't have to answer a question, yet. But come and find them later on.
+
+911
+01:08:49,254 --> 01:08:55,014
+Okay. Let's move on. So we've heard about cleaning up half a
+
+912
+01:08:55,044 --> 01:09:00,655
+million names, and we've heard about developing standards that we use to collect
+
+913
+01:09:00,684 --> 01:09:03,324
+and share the data to the infrastructures.
+
+914
+01:09:04,374 --> 01:09:07,704
+But it's another thing to turn that work into something a park ranger can actually
+
+915
+01:09:07,854 --> 01:09:13,794
+use on the ground. So Judith Botha, who's joined us from South Africa, will show us
+
+916
+01:09:13,854 --> 01:09:17,995
+what happens when that backbone work reaches the people making conservation
+
+917
+01:09:18,025 --> 01:09:22,194
+decisions on the ground in South Africa's national parks. Thanks, Judith.
+
+918
+01:09:28,134 --> 01:09:30,204
+Thanks, Ellie, and afternoon, everybody.
+
+919
+01:09:30,294 --> 01:09:33,594
+So I'm going to take you guys on a quick safari to South Africa.
+
+920
+01:09:34,044 --> 01:09:36,084
+So keep your hats on because it gets warm.
+
+921
+01:09:37,134 --> 01:09:42,025
+So just to give you some background about what South African National Parks is.
+
+922
+01:09:42,474 --> 01:09:44,995
+So really, it was established in 1976.
+
+923
+01:09:45,474 --> 01:09:49,104
+It has quite a detailed mandate that you can see there on the left-hand side.
+
+924
+01:09:49,614 --> 01:09:53,485
+But really the important part is that it's supposed to conserve, protect, control,
+
+925
+01:09:53,574 --> 01:09:59,094
+and manage the national park systems and the biological diversity
+
+926
+01:09:59,184 --> 01:10:00,384
+throughout South Africa.
+
+927
+01:10:02,064 --> 01:10:05,814
+So currently we have 21 national parks across South Africa.
+
+928
+01:10:06,354 --> 01:10:10,824
+The map nicely illustrates those in green, with the blue being the marine protected
+
+929
+01:10:10,914 --> 01:10:13,374
+areas that we're also responsible for.
+
+930
+01:10:13,974 --> 01:10:19,314
+So we manage approximately 4.4 million hectares of terrestrial national parks, as
+
+931
+01:10:19,374 --> 01:10:24,174
+well as around 370,000 hectares of marine protected areas.
+
+932
+01:10:24,594 --> 01:10:28,974
+So Kruger Park in the top right-hand corner there, that's where I'm based, even
+
+933
+01:10:29,004 --> 01:10:29,694
+though I work
+
+934
+01:10:31,495 --> 01:10:33,623
+over all of our parks in South Africa.
+
+935
+01:10:34,134 --> 01:10:38,094
+It's roughly two million hectares, so that's about the size of Israel, okay?
+
+936
+01:10:38,214 --> 01:10:41,964
+So to give you a little bit of an indication of the size.
+
+937
+01:10:42,204 --> 01:10:44,785
+We also turned 100 years this year.
+
+938
+01:10:44,874 --> 01:10:49,614
+So Kruger Park has been around for 100 years, and we hope to conserve it so that it
+
+939
+01:10:49,674 --> 01:10:55,104
+can carry on for many more. So I think this map just nicely illustrates the wide
+
+940
+01:10:55,164 --> 01:10:58,524
+range of biodiversity and biomes that we are responsible for.
+
+941
+01:10:59,004 --> 01:11:03,474
+So it stretches across the marine, the terrestrial, and the aquatic environments,
+
+942
+01:11:03,535 --> 01:11:07,014
+together with all the different biodiversity data associated with that.
+
+943
+01:11:07,704 --> 01:11:11,424
+I saw earlier on, they were looking like on one of the presentations, it seemed
+
+944
+01:11:11,454 --> 01:11:17,304
+like there was 176 or something animal species in Australia.
+
+945
+01:11:17,364 --> 01:11:18,174
+Is that correct?
+
+946
+01:11:19,584 --> 01:11:23,964
+157,000 I think you had on your first graph. Something like that.
+
+947
+01:11:24,024 --> 01:11:27,234
+Anyway, we have about 67,000 animal species.
+
+948
+01:11:27,864 --> 01:11:32,304
+But many of our groups are largely unknown, and also a lot of them have a high
+
+949
+01:11:32,364 --> 01:11:36,834
+level of endemism. So obviously we are very interested in knowing about where they
+
+950
+01:11:36,924 --> 01:11:39,024
+are and being able to conserve them.
+
+951
+01:11:39,474 --> 01:11:43,344
+As Ellie mentioned, we have many rangers that work in our park, and we'd like to
+
+952
+01:11:43,944 --> 01:11:49,074
+present them with tools that they can use to get snapshots and dashboards around
+
+953
+01:11:49,134 --> 01:11:51,984
+the biodiversity data that they do have in their parks.
+
+954
+01:11:52,554 --> 01:11:54,924
+So just moving on to what we do have.
+
+955
+01:11:55,014 --> 01:11:59,814
+So the left-hand side shows that we have a number of scientists that are based in
+
+956
+01:11:59,874 --> 01:12:04,434
+all of our national parks. So we have a lot of monitoring data that is collected.
+
+957
+01:12:04,854 --> 01:12:09,864
+So this includes data on field sampling data, sensor data, image data, collar data,
+
+958
+01:12:10,374 --> 01:12:14,634
+camera trap data. I think everybody in the audience kind of knows what all of that
+
+959
+01:12:14,964 --> 01:12:20,652
+entails. It also then spans the three different biomes, marine,
+
+960
+01:12:20,742 --> 01:12:26,262
+terrestrial, and aquatic. But we also have many other stakeholders and partners in
+
+961
+01:12:27,162 --> 01:12:31,633
+our landscape that we are interested in getting their data as well to make sure
+
+962
+01:12:31,692 --> 01:12:34,782
+that we can take evidence-based decisions.
+
+963
+01:12:35,232 --> 01:12:40,932
+So our real problem came to how can we take all of this data and collate it so that
+
+964
+01:12:40,992 --> 01:12:46,662
+we can come up with ways for rangers and park staff to quickly get a species list.
+
+965
+01:12:46,752 --> 01:12:52,572
+Also, we are mandated to provide a management park every five years for every park,
+
+966
+01:12:53,052 --> 01:12:56,742
+and in these management parks, we have to have updated species lists.
+
+967
+01:12:57,252 --> 01:13:02,262
+So in the past, this was very laborious and very manual, so people went, you looked
+
+968
+01:13:02,292 --> 01:13:06,192
+for all the literature, you took out all the species data, and then you then
+
+969
+01:13:06,252 --> 01:13:09,732
+consolidated this and produced an annotated checklist.
+
+970
+01:13:10,242 --> 01:13:14,322
+So we partnered with the Freshwater Research Centre, they've got a talk later in
+
+971
+01:13:14,383 --> 01:13:18,492
+the week that you'll hear about, together with their technical partner, CartoSA,
+
+972
+01:13:18,582 --> 01:13:23,383
+and we developed the BIMS, or the SANParks Biodiversity Information Management
+
+973
+01:13:23,472 --> 01:13:28,572
+System. So in essence, what this is, it's a central platform to integrate
+
+974
+01:13:28,662 --> 01:13:34,122
+biodiversity data across all the different areas and to
+
+975
+01:13:34,482 --> 01:13:38,142
+help us make these evidence-based conservation decisions.
+
+976
+01:13:38,562 --> 01:13:42,402
+So you'll see we have the taxon groups on the left-hand side there.
+
+977
+01:13:42,792 --> 01:13:47,353
+So the ones that will be very familiar ones in the top line there, mammals, plants,
+
+978
+01:13:47,442 --> 01:13:52,422
+birds. So our staff and our park rangers focus a lot of attention on those groups.
+
+979
+01:13:52,812 --> 01:13:56,112
+But as you get down to the bottom line, you'll see there's things like fungi,
+
+980
+01:13:56,262 --> 01:14:01,362
+algae, crustaceans, some very strange things, cnidarians, which I don't even know
+
+981
+01:14:01,422 --> 01:14:05,892
+what they are, worms, bryozoans, et cetera.
+
+982
+01:14:06,252 --> 01:14:10,182
+Obviously, we are interested in this biodiversity data as well, and we currently
+
+983
+01:14:10,242 --> 01:14:14,652
+don't have any monitoring platforms to enable us to collect this data.
+
+984
+01:14:15,012 --> 01:14:19,812
+So we would like to collect the data, get the data from other sources.
+
+985
+01:14:20,232 --> 01:14:24,732
+So the system really has four features, the first one being the data harvesting and
+
+986
+01:14:24,792 --> 01:14:28,902
+generating our checklist. The second one are these summary dashboards that people
+
+987
+01:14:28,962 --> 01:14:33,192
+can pull up. Then we are also interested in looking at our red list species and how
+
+988
+01:14:33,222 --> 01:14:37,662
+these trends change over time. And lastly, we can't look at species data without
+
+989
+01:14:37,722 --> 01:14:41,472
+looking at the environment. So if you have your climate data together with your
+
+990
+01:14:41,532 --> 01:14:46,752
+species data in one dashboard, it just makes it much quicker for people to get the
+
+991
+01:14:46,812 --> 01:14:52,362
+data and interpret it. So on the left-hand side there on the top, you can see that
+
+992
+01:14:52,422 --> 01:14:56,952
+we harvest both species data and occurrence data from GBIF directly.
+
+993
+01:14:57,402 --> 01:15:00,162
+So our species data is harvested from a bigger area.
+
+994
+01:15:00,222 --> 01:15:04,722
+We then have a much smaller area that contains our reserves, plus a buffer area and
+
+995
+01:15:04,782 --> 01:15:08,593
+a botany catchment that we are interested to make sure that we are getting all the
+
+996
+01:15:08,682 --> 01:15:13,633
+GBIF occurrence data. The bottom box shows that we enter then a whole lot of other
+
+997
+01:15:13,692 --> 01:15:18,822
+data sources, which are unpublished literature, a lot of databases, published
+
+998
+01:15:18,883 --> 01:15:24,042
+books, reports, theses. So we've got one or two staff members that basically all
+
+999
+01:15:24,072 --> 01:15:27,972
+they do is they look at literature going back many years, and they actually take
+
+1000
+01:15:28,032 --> 01:15:31,482
+that information out and upload it into our system.
+
+1001
+01:15:32,022 --> 01:15:36,732
+Then the nice thing that we do use is we use the GBIF taxonomic backbone.
+
+1002
+01:15:36,822 --> 01:15:40,992
+So luckily for this audience, I don't need to go into any detail around how that
+
+1003
+01:15:41,022 --> 01:15:45,343
+works, but that's definitely a benefit for us and keeps us making sure that we're
+
+1004
+01:15:45,402 --> 01:15:48,642
+only using the accepted names for our species.
+
+1005
+01:15:49,512 --> 01:15:54,012
+So just to give you an example, so this is a Kruger-based example, and this is what
+
+1006
+01:15:54,162 --> 01:15:58,302
+our BIMS looks like when a manager or a staff member will open it.
+
+1007
+01:15:58,782 --> 01:16:03,912
+So as most web pages have, on the left-hand side, you'll see a number of filters.
+
+1008
+01:16:03,972 --> 01:16:07,722
+So you can filter through from a particular taxonomic group.
+
+1009
+01:16:07,782 --> 01:16:13,152
+It also has spatial temporal filters, and also then about red list status as well
+
+1010
+01:16:13,242 --> 01:16:17,952
+as origin and endemism. So what I'm interested in doing here is to generate a bird
+
+1011
+01:16:18,012 --> 01:16:23,772
+checklist for Kruger. So I've just highlighted the bird, and I've asked for
+
+1012
+01:16:23,892 --> 01:16:29,862
+the spatial filter of Kruger, and then the dashboard gets generated, and
+
+1013
+01:16:30,012 --> 01:16:32,742
+I can then download my annotated checklist.
+
+1014
+01:16:33,162 --> 01:16:35,383
+So this is an Excel version of the checklist.
+
+1015
+01:16:35,442 --> 01:16:39,672
+We also have this available that can be downloaded either as a PDF or CSV.
+
+1016
+01:16:40,152 --> 01:16:42,822
+So you'll see there's categories at the top there.
+
+1017
+01:16:42,912 --> 01:16:48,162
+So we have taxonomic information, then we have things around the species, the
+
+1018
+01:16:48,252 --> 01:16:53,052
+status, the source, the spatial information, and also the record management.
+
+1019
+01:16:53,502 --> 01:16:58,032
+So of particular importance are things like the GBIF coordinate uncertainty, as
+
+1020
+01:16:58,093 --> 01:16:59,742
+well as the coordinate precision.
+
+1021
+01:17:00,252 --> 01:17:06,192
+Some other handy columns is the number of records and when the last or the
+
+1022
+01:17:06,252 --> 01:17:11,142
+most recent record was seen. So that can give us a good indication of is that
+
+1023
+01:17:11,232 --> 01:17:16,392
+species still likely to be in the park, or was it something that was found many
+
+1024
+01:17:16,422 --> 01:17:18,672
+years ago and probably isn't there anymore.
+
+1025
+01:17:19,062 --> 01:17:23,112
+We also then have an include and exclude column, which allows us in the data that
+
+1026
+01:17:23,142 --> 01:17:28,212
+we upload, if we know there has been a misidentification or we think it is, we can
+
+1027
+01:17:28,272 --> 01:17:33,672
+then put in a to exclude, so that next time around when we develop the same species
+
+1028
+01:17:33,732 --> 01:17:38,202
+list, we know that that was an erroneous record, and we don't need to include that
+
+1029
+01:17:38,262 --> 01:17:43,182
+in our checklist anymore. So then just going on to the second feature, which is the
+
+1030
+01:17:43,272 --> 01:17:48,612
+summary dashboards. So you can see there again, that's just the same graph or the
+
+1031
+01:17:48,672 --> 01:17:53,082
+map that I had just now, the bird data, for Kruger National Park.
+
+1032
+01:17:53,412 --> 01:17:57,042
+And then on the right-hand side, you can see there's some graphs that the rangers
+
+1033
+01:17:57,072 --> 01:18:02,172
+can have a look at and download. So just to zoom into a little bit more detail,
+
+1034
+01:18:02,593 --> 01:18:07,152
+you'll see this is one that shows endemism and origin, and then there's also graphs
+
+1035
+01:18:07,212 --> 01:18:10,512
+that show conservation status as well.
+
+1036
+01:18:11,832 --> 01:18:16,422
+So our red list species, what do we want to do with those and how do we track them?
+
+1037
+01:18:16,482 --> 01:18:21,222
+Okay, so this is if we were interested in all the taxonomic groups within Kruger,
+
+1038
+01:18:21,672 --> 01:18:26,892
+this feature gives us a graph and a summary table that shows us what percentage of
+
+1039
+01:18:27,012 --> 01:18:30,312
+our species have the different red list status.
+
+1040
+01:18:30,612 --> 01:18:35,052
+The graph at the bottom is the red list species index that our partner
+
+1041
+01:18:35,112 --> 01:18:37,122
+organization, SANBI, has developed.
+
+1042
+01:18:37,603 --> 01:18:42,012
+So you'll see the different colors on the graph of the different taxonomic groups.
+
+1043
+01:18:42,343 --> 01:18:48,312
+So how the index works is that every time SANBI reevaluates the taxonomic group,
+
+1044
+01:18:48,522 --> 01:18:51,042
+the status may or may not be changed.
+
+1045
+01:18:51,402 --> 01:18:55,482
+And that's why, for example, you can see there's a big dip in the purple line.
+
+1046
+01:18:55,722 --> 01:18:58,482
+That was in the year that it was reevaluated.
+
+1047
+01:18:58,843 --> 01:19:03,762
+The closer the line is to zero means the more species in that particular taxonomic
+
+1048
+01:19:03,822 --> 01:19:09,282
+group are close to extinction. So we would like our lines to be as close to one as
+
+1049
+01:19:09,343 --> 01:19:14,832
+possible. There are several lines at the top of the graph that are just constantly
+
+1050
+01:19:14,922 --> 01:19:20,112
+at one, and those are the taxonomic groups that haven't been evaluated.
+
+1051
+01:19:20,892 --> 01:19:23,802
+So then lastly, just moving on to our climate dashboard.
+
+1052
+01:19:23,862 --> 01:19:28,452
+So as I mentioned, it's really nice to have climatic data available if you are
+
+1053
+01:19:28,512 --> 01:19:30,883
+looking at species distribution.
+
+1054
+01:19:31,332 --> 01:19:36,133
+So this is just some of our climate stations that we have uploaded data.
+
+1055
+01:19:36,522 --> 01:19:39,822
+So really easy for a ranger or park manager just to go in.
+
+1056
+01:19:39,883 --> 01:19:41,742
+You can just find the station of interest.
+
+1057
+01:19:42,222 --> 01:19:47,622
+You then get a series of graphs, you get some summary data, and you
+
+1058
+01:19:47,742 --> 01:19:51,012
+also then get some graphs on the side.
+
+1059
+01:19:51,072 --> 01:19:55,242
+You can see the bottom one, that's just from when the station began to when it
+
+1060
+01:19:55,332 --> 01:20:01,242
+ended. It also has a temporal component, so you can pick out which years or
+
+1061
+01:20:01,272 --> 01:20:03,462
+which dates you're interested in.
+
+1062
+01:20:03,792 --> 01:20:06,312
+And then, of course, the data sets on the right-hand side.
+
+1063
+01:20:06,432 --> 01:20:11,982
+Obviously, a lot of this data is partner data, so it has access
+
+1064
+01:20:12,042 --> 01:20:17,772
+restrictions. But, for our SANParks staff, any of our SANParks colleagues can
+
+1065
+01:20:17,832 --> 01:20:23,562
+actually get this information. So as this week is going around AI and automation,
+
+1066
+01:20:24,162 --> 01:20:28,332
+if we can just pause for a minute and reflect on how both of these were used in
+
+1067
+01:20:28,362 --> 01:20:32,832
+this talk. So firstly, obviously, my friend Chat helped me with some of the
+
+1068
+01:20:33,192 --> 01:20:38,112
+prettier visuals. I do not have a very good brain on that side.
+
+1069
+01:20:38,202 --> 01:20:41,712
+So all the prettiness comes from Chat, but I promise it's all my work.
+
+1070
+01:20:42,192 --> 01:20:44,742
+So just around the data harvesting and the checklist.
+
+1071
+01:20:45,072 --> 01:20:49,782
+So as I mentioned, the data is harvested on a period specific to
+
+1072
+01:20:49,843 --> 01:20:54,552
+particular taxonomic groups directly from GBIF itself.
+
+1073
+01:20:55,002 --> 01:20:59,802
+Then we also have large data sets that are running all the time.
+
+1074
+01:20:59,922 --> 01:21:04,843
+So we have a lot of staff in the field that have collection devices.
+
+1075
+01:21:04,902 --> 01:21:08,322
+These are then entered with different field platforms.
+
+1076
+01:21:08,353 --> 01:21:12,912
+It goes to some software package. We then write scripts and automations to make
+
+1077
+01:21:12,942 --> 01:21:17,430
+sure that we're cleaning that data and that they are ready then for To be entered
+
+1078
+01:21:17,490 --> 01:21:22,800
+into our platforms. Then the assimilation of the species information across the
+
+1079
+01:21:22,830 --> 01:21:26,370
+multiple sources, that's all done by automation.
+
+1080
+01:21:26,731 --> 01:21:31,110
+Our checklist annotations, and then, of course, importantly, our species taxonomy
+
+1081
+01:21:31,140 --> 01:21:33,600
+is verified against the backbone.
+
+1082
+01:21:33,990 --> 01:21:39,540
+Summary databases, many of the information that we get is automatically
+
+1083
+01:21:39,600 --> 01:21:41,910
+assigned values from the particular website.
+
+1084
+01:21:42,270 --> 01:21:47,191
+So all our citers information is drawn directly from there, so nobody has to
+
+1085
+01:21:47,760 --> 01:21:51,810
+re-input that. And then, of course, the generations of the dashboards and the
+
+1086
+01:21:51,870 --> 01:21:54,330
+summaries is all done automatically.
+
+1087
+01:21:55,110 --> 01:21:58,050
+Pretty much the same thing with our Red List Species index.
+
+1088
+01:21:58,410 --> 01:22:02,340
+So we are automatically assigning the values as they come off the different
+
+1089
+01:22:02,400 --> 01:22:06,510
+websites. Then we have this generation of dashboards and summaries.
+
+1090
+01:22:06,900 --> 01:22:10,050
+And then lastly, the generation of the Red List index.
+
+1091
+01:22:10,560 --> 01:22:13,890
+Quite similar for our climate summaries and downloads.
+
+1092
+01:22:14,250 --> 01:22:19,441
+Once again, this automation of these summaries and dashboards so that our staff
+
+1093
+01:22:19,530 --> 01:22:24,600
+don't have to go and reinvent the wheel every time they would like to get a summary
+
+1094
+01:22:24,660 --> 01:22:29,460
+done. So then just in closing-- oh, sorry, hold on. There we are.
+
+1095
+01:22:29,910 --> 01:22:35,070
+So in conclusion, automation and AI have played a large role in ensuring that our
+
+1096
+01:22:35,130 --> 01:22:40,500
+large datasets are integrated and that they ensure us to improve our evidence-based
+
+1097
+01:22:40,590 --> 01:22:42,930
+decision making. So just to
+
+1098
+01:22:44,191 --> 01:22:49,770
+move on to my thank yous, I'd like to just say a big thank you to our
+
+1099
+01:22:49,860 --> 01:22:53,519
+funders. So we had two rounds of funding in this project.
+
+1100
+01:22:53,580 --> 01:22:58,320
+First, the Jaris Biodiversity Foundation gave us a substantial grant, and then the
+
+1101
+01:22:58,441 --> 01:23:04,050
+AFD or the French Development Agency, our partners, Freshwater Research
+
+1102
+01:23:04,380 --> 01:23:09,000
+Commission, as well as Cartoza. Without their big brains, we would never have got
+
+1103
+01:23:09,030 --> 01:23:13,500
+this off the ground. And then lastly, to the funders who've made it possible for me
+
+1104
+01:23:13,560 --> 01:23:18,210
+to be here, of course, SANParks, but then also the Science, Technology and
+
+1105
+01:23:18,270 --> 01:23:24,150
+Innovation Department from South Africa, as well as the National Science Collection
+
+1106
+01:23:24,210 --> 01:23:26,040
+Facility. So thank you for listening.
+
+1107
+01:23:26,130 --> 01:23:28,890
+If anybody is interested, I will be around for the week.
+
+1108
+01:23:29,400 --> 01:23:33,870
+And if you'd like to throw some of your tech at some of our data, please come and
+
+1109
+01:23:33,960 --> 01:23:36,780
+speak to me. We're always open for that. Thank you.
+
+1110
+01:23:48,240 --> 01:23:50,340
+Does anyone have a question for Judith?
+
+1111
+01:23:50,760 --> 01:23:53,250
+Now, it is actually quite hard to hear up here.
+
+1112
+01:23:54,810 --> 01:23:56,790
+Yeah, great talk. I had one question.
+
+1113
+01:23:56,850 --> 01:24:00,481
+So you're collecting a lot of extra data in the field, but do you also publish this
+
+1114
+01:24:00,510 --> 01:24:01,500
+data back to GBIF?
+
+1115
+01:24:01,770 --> 01:24:02,130
+Yes.
+
+1116
+01:24:02,310 --> 01:24:02,701
+Oh, okay.
+
+1117
+01:24:03,090 --> 01:24:06,240
+So some of-- sorry, let me stand here.
+
+1118
+01:24:06,930 --> 01:24:12,691
+So obviously, a lot of our data is protected because of the sensitivity, but we
+
+1119
+01:24:12,780 --> 01:24:17,310
+do publish our data up to GBIF. We've also published all our herbaria collection
+
+1120
+01:24:17,370 --> 01:24:23,040
+datasets up to GBIF. So we have, I think, four or five quite large datasets that go
+
+1121
+01:24:23,100 --> 01:24:27,900
+back many years that are on GBIF. So we are working towards publishing to GBIF as
+
+1122
+01:24:27,960 --> 01:24:29,880
+well as having this as our repository.
+
+1123
+01:24:38,191 --> 01:24:41,790
+Judith, Cindy behind you has a question as well, but she will ask you later.
+
+1124
+01:24:45,060 --> 01:24:47,670
+Okay. Thank you. Okay, moving along.
+
+1125
+01:24:48,481 --> 01:24:52,740
+So we've just seen data standards in action in the hands of conservation managers.
+
+1126
+01:24:53,400 --> 01:24:58,680
+But whilst much valuable biodiversity knowledge comes from our gadgets and sensors,
+
+1127
+01:24:59,160 --> 01:25:03,840
+some of the richest knowledge about species and ecosystems lives in indigenous
+
+1128
+01:25:03,870 --> 01:25:08,670
+communities and is passed down over generations as Marit has already told us
+
+1129
+01:25:08,701 --> 01:25:14,310
+something about earlier today. So Clara Barango Fonseca will show us what it takes
+
+1130
+01:25:14,370 --> 01:25:17,430
+to make space for that knowledge within Darwin Core.
+
+1131
+01:25:18,330 --> 01:25:19,350
+Wow. So we'll see my-
+
+1132
+01:25:21,300 --> 01:25:25,951
+Hello. Good afternoon. A special hello to people that live in South America or from
+
+1133
+01:25:26,010 --> 01:25:26,731
+South America.
+
+1134
+01:25:28,920 --> 01:25:34,350
+So I'm Clara, and I'm from the Brazilian Information System.
+
+1135
+01:25:35,191 --> 01:25:40,140
+I'm going to talk about our work in extending Darwin Core to represent
+
+1136
+01:25:40,231 --> 01:25:42,810
+sociobiodiversity and traditional knowledge in Brazil.
+
+1137
+01:25:44,970 --> 01:25:48,810
+First, I'm going to talk what is sociobiodiversity data.
+
+1138
+01:25:49,380 --> 01:25:54,570
+So according to the Brazilian National Sociobiodiversity Plan from the Ministry of
+
+1139
+01:25:54,630 --> 01:25:58,590
+Environment, Ministry of Social Development, and Ministry from Agrarian
+
+1140
+01:25:58,680 --> 01:26:04,500
+Development, sociobiodiversity data is data describing the interrelationship
+
+1141
+01:26:04,530 --> 01:26:10,201
+between biodiversity and sociocultural diversity, including biodiversity resources,
+
+1142
+01:26:10,260 --> 01:26:14,760
+traditional practices, uses, and knowledge, reflecting the relationships between
+
+1143
+01:26:15,000 --> 01:26:19,020
+biodiversity, indigenous people, traditional and local communities, and family
+
+1144
+01:26:19,201 --> 01:26:23,310
+farmers. But where does this information come from?
+
+1145
+01:26:24,030 --> 01:26:29,040
+So mainly, the most important source is the communities and territories themselves.
+
+1146
+01:26:31,770 --> 01:26:35,790
+Indigenous people in local communities document their own biodiversity uses and
+
+1147
+01:26:35,850 --> 01:26:41,731
+practices, and they are knowledge holders and data owners, and this information
+
+1148
+01:26:41,790 --> 01:26:47,191
+should only be shared according to their consent and decisions in governance.
+
+1149
+01:26:48,120 --> 01:26:52,170
+But we have other forms, other sources of this information.
+
+1150
+01:26:52,231 --> 01:26:56,941
+We can find this information in scientific articles, biological collections, and
+
+1151
+01:26:56,970 --> 01:27:00,691
+museums, often under the term occurrence remarks.
+
+1152
+01:27:04,470 --> 01:27:07,590
+This information could be also found in works by naturalists,
+
+1153
+01:27:09,360 --> 01:27:15,270
+the travelers and naturalists who visit Brazil between the 17th and 19th centuries,
+
+1154
+01:27:15,330 --> 01:27:19,920
+documenting what they observe and learn, and also we can find this information in
+
+1155
+01:27:19,981 --> 01:27:22,080
+market inventories or films.
+
+1156
+01:27:24,180 --> 01:27:24,451
+And
+
+1157
+01:27:26,610 --> 01:27:31,530
+so that's a-- oh, sorry. That's a great, interesting challenge.
+
+1158
+01:27:32,130 --> 01:27:34,441
+We have different kinds of evidence,
+
+1159
+01:27:36,030 --> 01:27:36,510
+different
+
+1160
+01:27:38,040 --> 01:27:43,951
+information produced in different historical context, and it's always a challenge
+
+1161
+01:27:44,010 --> 01:27:47,010
+to see who is the holder of this knowledge.
+
+1162
+01:27:47,701 --> 01:27:53,490
+So for that reason, it was a SES project in 2024, together with
+
+1163
+01:27:53,520 --> 01:27:59,070
+Brazil, Colombia, and Argentina, that we try to develop a data, the first
+
+1164
+01:27:59,310 --> 01:28:04,110
+step, developing a data extension for documenting sociobiodiversity information.
+
+1165
+01:28:04,260 --> 01:28:10,201
+So we had some webinars and in-person workshop that we end up with a
+
+1166
+01:28:10,231 --> 01:28:15,300
+few terms. So terms like use-to, use-to description, use-form,
+
+1167
+01:28:16,020 --> 01:28:21,810
+used-by holder. There was a few terms, one is controlled vocabularies that use
+
+1168
+01:28:21,900 --> 01:28:27,570
+like used-to, organized by used-by type, source type, and other free text, like
+
+1169
+01:28:27,660 --> 01:28:30,270
+used-by holder, use-form, use-to description.
+
+1170
+01:28:30,810 --> 01:28:35,731
+All this information is stored in a GitHub repository.
+
+1171
+01:28:37,350 --> 01:28:43,201
+And the important thing is we're still evolving, discussing, and organizing this
+
+1172
+01:28:43,260 --> 01:28:48,300
+information, but that extension was validated by three
+
+1173
+01:28:49,080 --> 01:28:54,960
+case studies. One was the translation of a book from the 17th
+
+1174
+01:28:55,080 --> 01:29:00,360
+century. The second study case was directly with the community on the
+
+1175
+01:29:00,691 --> 01:29:06,660
+literal of Rio de Janeiro, and the third study was to organize
+
+1176
+01:29:06,720 --> 01:29:07,710
+information of a
+
+1177
+01:29:09,780 --> 01:29:13,951
+living collection of medicinal plants in the botanic garden of Rio de Janeiro.
+
+1178
+01:29:14,731 --> 01:29:16,650
+So these are more or less the results.
+
+1179
+01:29:17,220 --> 01:29:19,830
+So the first one, we had some information gaps.
+
+1180
+01:29:20,040 --> 01:29:24,451
+Used-by holder was missing, used-where was not there, and then we have some
+
+1181
+01:29:24,481 --> 01:29:27,390
+ambiguiting interpretation of terms like used-to.
+
+1182
+01:29:27,451 --> 01:29:31,380
+It's depending who's reading the book and put this information.
+
+1183
+01:29:31,590 --> 01:29:32,220
+We have some
+
+1184
+01:29:34,920 --> 01:29:40,620
+ambiguiting interpretation. Second case study directly to the
+
+1185
+01:29:40,680 --> 01:29:45,960
+community was almost all full, all fulfilled, but we had some publisher
+
+1186
+01:29:48,150 --> 01:29:51,240
+discussion. Who is the publisher of this data? Is it the researcher?
+
+1187
+01:29:51,300 --> 01:29:56,760
+Is it the community? But we know that if we publish through GBIF, the
+
+1188
+01:29:56,820 --> 01:29:59,970
+publisher, it's the most important for the citation tracking.
+
+1189
+01:30:00,390 --> 01:30:05,731
+So what we have to discuss how this set data is going to
+
+1190
+01:30:06,150 --> 01:30:09,300
+cite it and reusing, so who is the publisher again?
+
+1191
+01:30:11,910 --> 01:30:17,520
+The third study case, same things. Used-by type, used-by holder were missing.
+
+1192
+01:30:20,178 --> 01:30:24,528
+But then we move forward. We have another project in Brazil.
+
+1193
+01:30:24,618 --> 01:30:30,049
+It's a GEF project we call Entre Ciências, which means between science.
+
+1194
+01:30:30,228 --> 01:30:36,198
+It's intercultural research, and this project select eight territories,
+
+1195
+01:30:36,738 --> 01:30:41,118
+six in the Amazon and two in the Brazilian Cerrado or savanna.
+
+1196
+01:30:42,228 --> 01:30:47,209
+This project will discuss about data sovereignty and governance for the indigenous
+
+1197
+01:30:47,268 --> 01:30:50,838
+people and local communities. And this project will provide
+
+1198
+01:30:52,218 --> 01:30:57,108
+funding and fellowships to local researchers to identify what they want to
+
+1199
+01:30:57,978 --> 01:31:03,468
+study and monitor. And then we will also talk about data
+
+1200
+01:31:03,528 --> 01:31:06,888
+standards, data use, publishing, data portals.
+
+1201
+01:31:07,459 --> 01:31:09,558
+This project, it starts
+
+1202
+01:31:10,758 --> 01:31:13,188
+two months ago, and it's for three years.
+
+1203
+01:31:15,049 --> 01:31:20,658
+And just to finish the Brazilian context, in Brazil, we have a law, biodiversity
+
+1204
+01:31:20,718 --> 01:31:26,088
+law, which says that all research made by researchers or
+
+1205
+01:31:26,148 --> 01:31:31,038
+companies that have some natural heritage genetic
+
+1206
+01:31:31,878 --> 01:31:37,218
+studies or with biodiversity or associated traditional knowledge, they have to
+
+1207
+01:31:37,308 --> 01:31:41,448
+register this in the national system for the management of genetic heritage and
+
+1208
+01:31:41,508 --> 01:31:43,008
+associated traditional knowledge.
+
+1209
+01:31:43,638 --> 01:31:49,278
+This system will be able to have some mechanisms to benefit sharing between the
+
+1210
+01:31:49,338 --> 01:31:54,588
+companies or researchers and the communities, and we are providing
+
+1211
+01:31:54,678 --> 01:32:00,648
+support on data organization. So we organize a few templates based on
+
+1212
+01:32:00,709 --> 01:32:05,748
+Colombia's templates that we were thinking on
+
+1213
+01:32:05,988 --> 01:32:09,138
+traditional knowledge templates.
+
+1214
+01:32:09,378 --> 01:32:15,258
+And we realized that sometimes it's not species focused.
+
+1215
+01:32:15,318 --> 01:32:20,808
+Maybe it's better to understand that the knowledge is the core and more
+
+1216
+01:32:20,868 --> 01:32:23,238
+important, because sometimes one product or one
+
+1217
+01:32:26,358 --> 01:32:29,388
+knowledge, it's made of several species.
+
+1218
+01:32:29,628 --> 01:32:35,478
+So we did some changes in our templates, and this looks like
+
+1219
+01:32:36,948 --> 01:32:38,658
+the templates of the organizing
+
+1220
+01:32:40,488 --> 01:32:45,228
+associated traditional knowledge. And so what's next?
+
+1221
+01:32:45,648 --> 01:32:49,998
+We have to align control vocabularies and other terms with existing standards to
+
+1222
+01:32:50,058 --> 01:32:53,778
+keep working with our social biodiversity extension.
+
+1223
+01:32:55,308 --> 01:32:59,988
+We will continue working together with Atlas of Living Australia, with the Living
+
+1224
+01:33:00,078 --> 01:33:01,758
+Atlas community, and also with the
+
+1225
+01:33:03,318 --> 01:33:06,348
+task interest group in sensitive data species.
+
+1226
+01:33:07,038 --> 01:33:12,768
+And we also will continue collaboration with indigenous GBIF governance task group,
+
+1227
+01:33:13,638 --> 01:33:19,158
+and we need to increase our engagement with Nedwig and Darwin Core Data
+
+1228
+01:33:19,218 --> 01:33:19,638
+Package.
+
+1229
+01:33:21,288 --> 01:33:26,628
+So thank you all. Thank you, all the organizations that we are working together.
+
+1230
+01:33:26,868 --> 01:33:27,198
+Thank you.
+
+1231
+01:33:38,268 --> 01:33:39,378
+Do we have any questions for
+
+1232
+01:33:39,408 --> 01:33:46,098
+Clara?
+
+1233
+01:33:46,128 --> 01:33:51,078
+No, we have nervous giggles, but no questions. Okay. I'll catch you later, Clara.
+
+1234
+01:33:52,308 --> 01:33:53,688
+Okay, moving along.
+
+1235
+01:33:55,158 --> 01:33:57,108
+So that was a great example of
+
+1236
+01:33:58,998 --> 01:34:04,788
+how standards need to adapt and evolve to represent things that they
+
+1237
+01:34:04,848 --> 01:34:09,588
+weren't originally built for. But our next speaker asks an even bigger question.
+
+1238
+01:34:09,828 --> 01:34:14,959
+Instead of continually stretching our existing systems, what if we designed
+
+1239
+01:34:15,018 --> 01:34:18,828
+biodiversity data infrastructure completely differently from the ground up?
+
+1240
+01:34:20,058 --> 01:34:24,768
+To take us there, I'd like to invite Kit Lewers to the stage. Thanks, Kit.
+
+1241
+01:34:31,278 --> 01:34:34,878
+Okay. Hi. Also, not to scare you guys, I'm not completely tear down everything.
+
+1242
+01:34:36,078 --> 01:34:40,668
+But hi, my name is Kit Lewers. I'm a PhD candidate at the University of Colorado
+
+1243
+01:34:40,758 --> 01:34:46,698
+Boulder. I'm also a NASA CLIMAS fellow/researcher at Goddard
+
+1244
+01:34:46,758 --> 01:34:51,288
+Space Flight Center, where broadly I build infrastructure that can help process raw
+
+1245
+01:34:51,378 --> 01:34:56,088
+sensor outputs to integrate data from remote sensing, biodiversity informatics,
+
+1246
+01:34:56,178 --> 01:35:01,368
+physics, and ecology, where I mainly work on multi-instrument and integrated
+
+1247
+01:35:01,428 --> 01:35:04,188
+platforms focused on optics and spectroscopy.
+
+1248
+01:35:04,668 --> 01:35:08,448
+But this presentation actually deals with quite possibly my favorite vein of
+
+1249
+01:35:08,508 --> 01:35:13,368
+information science, which is what I'm getting my PhD in, and that is information
+
+1250
+01:35:13,459 --> 01:35:18,468
+ecosystems. And it came really from a place of reflecting on my time living and
+
+1251
+01:35:18,528 --> 01:35:20,268
+working in Yellowstone National Park.
+
+1252
+01:35:20,988 --> 01:35:25,518
+And the question that ended up emerging was: what if the way ecosystems respond to
+
+1253
+01:35:25,578 --> 01:35:29,598
+disruption is the way we should design the systems that manage scientific
+
+1254
+01:35:29,628 --> 01:35:34,188
+knowledge? So this presentation actually begins with an analogy and a story about a
+
+1255
+01:35:34,218 --> 01:35:38,358
+woman named Molly Beatty. She was the director of the US Fish and Wildlife Service
+
+1256
+01:35:38,418 --> 01:35:43,278
+beginning in 1993, and she had to make a decision that helped reshape one of the
+
+1257
+01:35:43,338 --> 01:35:46,608
+most studied ecosystems in the world, which is Yellowstone National Park.
+
+1258
+01:35:47,388 --> 01:35:51,738
+And Beatty was a scientist, a lawyer, a public servant, and when she assumed
+
+1259
+01:35:51,799 --> 01:35:55,188
+leadership, she inherited a system that was already deep in conflict.
+
+1260
+01:35:55,698 --> 01:36:01,068
+Ranchers, scientists, policymakers, federal agencies, local communities, and
+
+1261
+01:36:01,128 --> 01:36:05,959
+landscapes were all entangled in competing priorities, and she stood at that
+
+1262
+01:36:05,988 --> 01:36:10,668
+decision point with her team, and that decision was wolves.
+
+1263
+01:36:11,268 --> 01:36:15,198
+So by the early 20th century, wolves had been systematically eradicated from
+
+1264
+01:36:15,228 --> 01:36:20,299
+Yellowstone, and the last resident packs disappeared in the 1920s through hunting
+
+1265
+01:36:20,358 --> 01:36:24,588
+and predator control programs, reflecting an assumption at the time that large
+
+1266
+01:36:24,618 --> 01:36:26,148
+predators were inherently harmful.
+
+1267
+01:36:26,718 --> 01:36:30,408
+So what followed ended up not being a system that was frozen in the wolves'
+
+1268
+01:36:30,528 --> 01:36:36,258
+absence, but one where elk, bison, vegetation, other predators, climate, fire,
+
+1269
+01:36:36,348 --> 01:36:40,518
+hydrology, human management, and more continued interacting.
+
+1270
+01:36:41,209 --> 01:36:43,398
+Removing the wolf had not removed complexity.
+
+1271
+01:36:43,518 --> 01:36:47,748
+It had just removed one set of relationships from an already complex system.
+
+1272
+01:36:48,468 --> 01:36:52,607
+And restoring these relationships meant returning an apex predator to a landscape
+
+1273
+01:36:52,638 --> 01:36:57,738
+from which it had been absent for roughly 70 years while under extreme scrutiny and
+
+1274
+01:36:57,828 --> 01:37:02,478
+opposition. Understandably so, ranchers feared for their livestock.
+
+1275
+01:37:02,988 --> 01:37:04,998
+Communities questioned the necessity.
+
+1276
+01:37:05,538 --> 01:37:10,368
+Scientists could anticipate some outcomes, but they could not specify precisely how
+
+1277
+01:37:10,608 --> 01:37:13,098
+an ecosystem this complex would respond.
+
+1278
+01:37:13,758 --> 01:37:19,698
+But nevertheless, in January 1995, 14 wolves from Canada entered
+
+1279
+01:37:19,728 --> 01:37:24,528
+Yellowstone, with 17 following the next year, and that was 14 animals initially
+
+1280
+01:37:24,618 --> 01:37:29,088
+against 2.2 million acres with no precise model of what was to follow.
+
+1281
+01:37:30,978 --> 01:37:35,868
+And what ended up following became one of the most iconic and maybe most debated
+
+1282
+01:37:35,959 --> 01:37:40,308
+examples of a trophic cascade, which is the process where changes at one trophic
+
+1283
+01:37:40,368 --> 01:37:43,549
+level can propagate indirectly through others.
+
+1284
+01:37:44,148 --> 01:37:47,209
+But trophic cascades are not simple chains of cause and effect.
+
+1285
+01:37:47,388 --> 01:37:53,118
+They unfold within networks. Their effects can be nonlinear, spatially uneven,
+
+1286
+01:37:53,778 --> 01:37:59,658
+delayed, amplified, weakened, and redirected by processes
+
+1287
+01:37:59,748 --> 01:38:01,158
+occurring elsewhere in the system.
+
+1288
+01:38:01,818 --> 01:38:05,209
+So wolves did not simply return and reduce elk populations.
+
+1289
+01:38:05,959 --> 01:38:10,188
+Their return altered predation pressure within a system that also contained other
+
+1290
+01:38:10,248 --> 01:38:13,698
+components. Elk abundance and distribution had changed.
+
+1291
+01:38:13,998 --> 01:38:18,228
+Browsing pressure also changed. And aspen and willow recovered in some places while
+
+1292
+01:38:18,288 --> 01:38:22,068
+not in others. And beaver populations increased, and bison expanded.
+
+1293
+01:38:22,459 --> 01:38:26,209
+And to this day, scientists continue debating the relative importance of these
+
+1294
+01:38:26,268 --> 01:38:32,028
+pathways. And what emerged was not the simple chain of wolves changed elk,
+
+1295
+01:38:32,209 --> 01:38:35,268
+elk released vegetation, vegetation restored the rivers.
+
+1296
+01:38:35,568 --> 01:38:40,308
+There was something infinitely more interesting happening, and that is a network of
+
+1297
+01:38:40,368 --> 01:38:44,508
+interacting responses whose strength and direction varied across space and time.
+
+1298
+01:38:45,228 --> 01:38:48,888
+So no individual wolf contained a blueprint for Yellowstone.
+
+1299
+01:38:49,068 --> 01:38:52,878
+They didn't know how to restore an aspen stand, and no elk knew that it was
+
+1300
+01:38:52,908 --> 01:38:55,098
+participating in a trophic cascade.
+
+1301
+01:38:55,818 --> 01:39:00,438
+System-level change emerged from interactions among these components because
+
+1302
+01:39:00,468 --> 01:39:04,518
+Yellowstone is not only an ecological story, but also a story of systems.
+
+1303
+01:39:05,028 --> 01:39:09,348
+So what Beatty and her team helped enable, and what ecologists have spent the last
+
+1304
+01:39:09,528 --> 01:39:14,388
+30 years documenting, is demonstration that complex systems do not necessarily
+
+1305
+01:39:14,418 --> 01:39:17,898
+respond to interventions in entirely predictable ways.
+
+1306
+01:39:18,588 --> 01:39:23,778
+Change one relationship, and other relationships respond. The system reorganizes.
+
+1307
+01:39:25,314 --> 01:39:29,544
+And an ecosystem, in many ways, is information unfolding in real-time.
+
+1308
+01:39:30,144 --> 01:39:34,704
+So the movement of elk, the growth of an aspen, or the shifting of a riverbank are
+
+1309
+01:39:34,734 --> 01:39:39,294
+physical processes, but each event in the present becomes part of the informational
+
+1310
+01:39:39,444 --> 01:39:43,254
+substrate through which we understand the system in the future via data.
+
+1311
+01:39:44,004 --> 01:39:47,484
+And the same is true of the information systems that we build to study
+
+1312
+01:39:47,514 --> 01:39:50,304
+biodiversity. They operate up to global scales.
+
+1313
+01:39:50,694 --> 01:39:54,414
+They integrate observations across institutions, disciplines, technologies, and
+
+1314
+01:39:54,504 --> 01:39:59,484
+time. And the challenge is not only storing the data, although that is non-trivial.
+
+1315
+01:39:59,995 --> 01:40:03,684
+The challenge is enabling information to move through systems that it was not
+
+1316
+01:40:03,774 --> 01:40:05,664
+originally designed to operate within.
+
+1317
+01:40:06,384 --> 01:40:10,314
+So different institutions, different standards, different tools, different
+
+1318
+01:40:10,374 --> 01:40:14,304
+histories, and priorities, each can occupy something like its own niche.
+
+1319
+01:40:14,754 --> 01:40:19,434
+And each may be internally coherent, but collectively, they form an information
+
+1320
+01:40:19,524 --> 01:40:23,934
+ecosystem, which is interdependent, loosely coupled, heterogeneous, and only
+
+1321
+01:40:24,024 --> 01:40:28,374
+partially coordinated. So once again, that question that ended up emerging is, what
+
+1322
+01:40:28,404 --> 01:40:32,424
+would it mean to design information systems with some of the properties we observe
+
+1323
+01:40:32,454 --> 01:40:36,234
+in complex ecological systems? In an ecosystem,
+
+1324
+01:40:36,294 --> 01:40:42,294
+components
+
+1325
+01:40:42,354 --> 01:40:43,884
+matter because of their interactions.
+
+1326
+01:40:44,094 --> 01:40:48,294
+A change in one place can become an event to which something elsewhere responds.
+
+1327
+01:40:48,774 --> 01:40:53,245
+And system-level behavior emerges not from any single component, but the
+
+1328
+01:40:53,274 --> 01:40:56,064
+relationships among them. So
+
+1329
+01:40:57,444 --> 01:41:01,344
+wolves mattered not simply because wolves were present, but because their presence
+
+1330
+01:41:01,404 --> 01:41:04,374
+restored interactions that had been absent from the system.
+
+1331
+01:41:05,094 --> 01:41:09,414
+Similarly, data does not become valuable simply because it exists in a repository
+
+1332
+01:41:09,474 --> 01:41:13,495
+or an aggregator. Its greater value emerges through interaction.
+
+1333
+01:41:13,974 --> 01:41:17,364
+A new dataset enters an infrastructure. That arrival becomes an event.
+
+1334
+01:41:17,904 --> 01:41:20,574
+A workflow is triggered. A product is updated.
+
+1335
+01:41:20,934 --> 01:41:24,954
+A model can be recalibrated, and now an analysis has become possible.
+
+1336
+01:41:25,434 --> 01:41:30,204
+And other datasets can now acquire new context, and those outputs themselves can
+
+1337
+01:41:30,234 --> 01:41:34,434
+become new events. So information begins to cascade through the system.
+
+1338
+01:41:35,064 --> 01:41:38,694
+And this perspective is what motivates the architectural approach taken in my
+
+1339
+01:41:38,754 --> 01:41:43,374
+research, which is event-driven modular systems informed by microservices
+
+1340
+01:41:43,464 --> 01:41:48,234
+architecture paradigms. In these systems, components are designed to be loosely
+
+1341
+01:41:48,294 --> 01:41:52,644
+coupled but highly responsive. And rather than enforcing one monolithic pipeline in
+
+1342
+01:41:52,674 --> 01:41:57,384
+which every component must change together, microservices allow functions such as
+
+1343
+01:41:57,444 --> 01:42:02,904
+data ingestion, processing, analysis, transformation, and dissemination to operate
+
+1344
+01:42:02,995 --> 01:42:08,484
+independently while communicating through well-defined interfaces, protocols, and
+
+1345
+01:42:08,544 --> 01:42:11,634
+responding dynamically to events in the larger system.
+
+1346
+01:42:12,294 --> 01:42:17,094
+So no individual service contains a blueprint for the entire information ecosystem.
+
+1347
+01:42:17,514 --> 01:42:21,114
+System-level behavior emerges through coordination among them.
+
+1348
+01:42:21,745 --> 01:42:26,755
+So this architecture is scalable not only computationally but sociotechnically.
+
+1349
+01:42:27,325 --> 01:42:31,374
+So new components can be introduced without requiring the entire system to be
+
+1350
+01:42:31,404 --> 01:42:35,634
+redesigned, and different organizations can maintain their own services while
+
+1351
+01:42:35,664 --> 01:42:40,015
+participating in a shared information ecosystem through standards, interfaces, and
+
+1352
+01:42:40,044 --> 01:42:41,034
+event exchanges.
+
+1353
+01:42:42,265 --> 01:42:47,844
+In this way, microservices enable a form of coordination without requiring the
+
+1354
+01:42:47,874 --> 01:42:49,825
+burden of complete centralization.
+
+1355
+01:42:50,784 --> 01:42:54,534
+But loosely coupled, by no means, is structureless.
+
+1356
+01:42:55,015 --> 01:42:58,974
+There remains a necessary layer of shared structure, typically through standards
+
+1357
+01:42:59,005 --> 01:43:03,174
+and governance mechanisms that allow independent components to understand and
+
+1358
+01:43:03,234 --> 01:43:08,575
+respond to one another. So this shared structure does not eliminate difference.
+
+1359
+01:43:08,995 --> 01:43:12,505
+It creates conditions under which difference can coexist productively.
+
+1360
+01:43:14,064 --> 01:43:18,084
+So this is also not entirely foreign to biodiversity informatics.
+
+1361
+01:43:18,624 --> 01:43:23,005
+In many ways, Darwin Core already allows our sociotechnical infrastructure to
+
+1362
+01:43:23,034 --> 01:43:27,894
+behave like a modular system. A natural history museum, the NEON Biorepository,
+
+1363
+01:43:28,164 --> 01:43:33,745
+iNaturalist, and NASA collect fundamentally different forms of evidence, and they
+
+1364
+01:43:33,894 --> 01:43:38,064
+operate under different institutional missions, technologies, and definitions of
+
+1365
+01:43:38,124 --> 01:43:43,075
+expertise. They do not by any means need to adopt the same internal database
+
+1366
+01:43:43,134 --> 01:43:47,784
+protocols, workflows, or organizational models in order to contribute to a shared
+
+1367
+01:43:47,844 --> 01:43:53,184
+information ecosystem. Instead, Darwin Core provides something like a data
+
+1368
+01:43:53,245 --> 01:43:58,464
+contract where institutions can map locally managed information into a
+
+1369
+01:43:58,495 --> 01:44:02,005
+vocabulary that other components of the ecosystem can interpret.
+
+1370
+01:44:02,604 --> 01:44:07,644
+GBIF can then aggregate and expose those records so that researchers can query
+
+1371
+01:44:07,705 --> 01:44:09,265
+across institutional boundaries.
+
+1372
+01:44:09,894 --> 01:44:14,154
+And no single institution needs to be omniscient of the stack that is happening.
+
+1373
+01:44:14,904 --> 01:44:19,554
+So the museum can remain a museum. NEON can maintain its own sampling and
+
+1374
+01:44:19,584 --> 01:44:24,505
+repository protocols. iNaturalist can retain its community-based novel, and their
+
+1375
+01:44:24,564 --> 01:44:28,255
+differences do not have to disappear for the information to become interoperable.
+
+1376
+01:44:28,944 --> 01:44:34,044
+But there is power in making implicit behaviors such as these explicit in
+
+1377
+01:44:34,104 --> 01:44:38,364
+architecture. When we recognize something like Darwin Core as part of connective
+
+1378
+01:44:38,424 --> 01:44:41,844
+infrastructure, we can design more intentionally around it.
+
+1379
+01:44:42,534 --> 01:44:46,015
+We can ask where translation occurs, which assumptions are embedded in those
+
+1380
+01:44:46,075 --> 01:44:50,394
+mappings, and what provenance must be preserved, and who is responsible for
+
+1381
+01:44:50,424 --> 01:44:52,854
+maintaining the interface between systems.
+
+1382
+01:44:53,304 --> 01:44:57,564
+And this allows for biodiversity informatics to remain institutionally diverse
+
+1383
+01:44:57,624 --> 01:45:01,674
+while still functioning in a larger interconnected system.
+
+1384
+01:45:02,304 --> 01:45:05,814
+And as I said in the beginning, in my work, I scale these concepts
+
+1385
+01:45:07,434 --> 01:45:12,294
+to be connected across disciplines while also allowing new additions with far less
+
+1386
+01:45:12,354 --> 01:45:18,024
+friction. So at NASA, before anybody really sees the data, it goes through about
+
+1387
+01:45:18,084 --> 01:45:19,884
+three levels. So that's what the L's are.
+
+1388
+01:45:20,124 --> 01:45:25,075
+L0 is the raw observation and digital numbers that you get off of the sensor, and
+
+1389
+01:45:25,224 --> 01:45:29,304
+L1 is the calibrated radiance, and then L2 is reflectance, which is what people
+
+1390
+01:45:29,394 --> 01:45:31,314
+usually use to get derived products.
+
+1391
+01:45:32,094 --> 01:45:36,714
+So for example, if NASA's remote sensing data that I work with becomes part of GBIF
+
+1392
+01:45:36,804 --> 01:45:40,884
+information, NASA would first need to go through all of this before it even gets to
+
+1393
+01:45:40,944 --> 01:45:41,634
+Darwin Core.
+
+1394
+01:45:43,614 --> 01:45:48,654
+So this allows for including NASA's remote sensing data as an addition and not an
+
+1395
+01:45:48,714 --> 01:45:53,904
+entire paradigm change, because we would not be putting satellite imagery into GBIF
+
+1396
+01:45:53,995 --> 01:45:57,834
+via Darwin Core. We would be using Darwin Core to represent the biodiversity
+
+1397
+01:45:57,894 --> 01:45:59,874
+observations derived from that imagery.
+
+1398
+01:46:00,745 --> 01:46:04,734
+So the challenge then is not to build systems that eliminate complexity.
+
+1399
+01:46:05,124 --> 01:46:08,184
+It's to build systems capable of living with complexity.
+
+1400
+01:46:08,934 --> 01:46:12,265
+Yellowstone did not become a perfectly balanced system following wolf
+
+1401
+01:46:12,325 --> 01:46:16,194
+reintroduction, but it did become a different system with new dynamics.
+
+1402
+01:46:16,765 --> 01:46:19,374
+Conflict between conservation and land use persists.
+
+1403
+01:46:19,825 --> 01:46:22,584
+Management decisions remain very much contested.
+
+1404
+01:46:23,034 --> 01:46:26,964
+Ecological relationships continue changing, and even our scientific interpretation
+
+1405
+01:46:27,024 --> 01:46:30,924
+of what happened has changed as decades of new observations have accumulated.
+
+1406
+01:46:31,674 --> 01:46:33,834
+The intervention did not resolve complexity.
+
+1407
+01:46:34,164 --> 01:46:37,015
+It changed the conditions under which complexity unfolded.
+
+1408
+01:46:37,674 --> 01:46:41,064
+And this is not a failure. This is what system-level change looks like.
+
+1409
+01:46:41,424 --> 01:46:44,154
+And the same is true of infrastructures developed in my work.
+
+1410
+01:46:44,575 --> 01:46:48,594
+Improved data pipelines do not eliminate debates over data ownership, standards,
+
+1411
+01:46:48,654 --> 01:46:53,034
+governance, or interpretation, and new architectures do not dissolve institutional
+
+1412
+01:46:53,094 --> 01:46:57,024
+boundaries. They instead change the conditions under which those boundaries
+
+1413
+01:46:57,084 --> 01:47:01,374
+interact, and they enable new forms of exchange, collaboration, response, and
+
+1414
+01:47:01,464 --> 01:47:05,995
+adaptation. Because the goal has never been to solve the information ecosystem,
+
+1415
+01:47:06,534 --> 01:47:09,984
+it's to create conditions under which the information ecosystem can continue to
+
+1416
+01:47:10,734 --> 01:47:15,834
+evolve. Molly Beatty, once again, and her team did not fix Yellowstone, but what
+
+1417
+01:47:15,864 --> 01:47:18,955
+she did was help restore a relationship that had been removed from it.
+
+1418
+01:47:19,495 --> 01:47:25,374
+Some effects cascaded, others weakened, some occurred only locally, and some became
+
+1419
+01:47:25,404 --> 01:47:29,544
+visible only after years or decades of observation. And that's the model.
+
+1420
+01:47:30,234 --> 01:47:34,765
+Not a static and perfect and complete system, and not a system in which every
+
+1421
+01:47:34,854 --> 01:47:39,384
+outcome must be specified in advance, but systems capable of cascading and
+
+1422
+01:47:39,444 --> 01:47:41,484
+reorganizing as conditions change.
+
+1423
+01:47:41,964 --> 01:47:45,474
+The lesson of Yellowstone is not that one wolf can change a river, but that
+
+1424
+01:47:45,505 --> 01:47:49,674
+restoring infrastructural relationships can change what an entire system is capable
+
+1425
+01:47:49,734 --> 01:47:55,224
+of doing. And my question for my PhD, perhaps obsession if I'm doing it for a
+
+1426
+01:47:55,255 --> 01:47:59,604
+PhD, is what it would mean to build information systems that can do the same for
+
+1427
+01:47:59,634 --> 01:48:04,194
+biodiversity. And with that, I would like to thank all of you very much for
+
+1428
+01:48:04,224 --> 01:48:07,434
+listening. And if we have time for questions, go for it.
+
+1429
+01:48:15,265 --> 01:48:17,874
+And I did take all of these pictures, and I'm very proud of them.
+
+1430
+01:48:20,664 --> 01:48:22,434
+Okay. Any questions for Kit?
+
+1431
+01:48:26,424 --> 01:48:27,745
+You must be proud of them, Kit.
+
+1432
+01:48:32,220 --> 01:48:35,461
+We have no questions? All right, so you can catch Kit later,
+
+1433
+01:48:37,140 --> 01:48:38,490
+and I'm sure you will
+
+1434
+01:48:40,201 --> 01:48:43,320
+because that's a genuinely exciting provocation from Kit.
+
+1435
+01:48:44,160 --> 01:48:49,980
+Data infrastructure that could be built, adapt, evolve in a whole
+
+1436
+01:48:50,070 --> 01:48:50,640
+new way.
+
+1437
+01:48:52,651 --> 01:48:58,350
+Now we're going back to the world of AI, and Niels Reyes is going to show us a
+
+1438
+01:48:58,380 --> 01:49:04,320
+glimpse of that future already in motion with AI-driven monitoring now
+
+1439
+01:49:04,380 --> 01:49:08,430
+running at a scale of tens of thousands of protected sites across Europe.
+
+1440
+01:49:09,451 --> 01:49:10,260
+Thanks, Niels.
+
+1441
+01:49:11,070 --> 01:49:11,670
+Yeah. Let's see.
+
+1442
+01:49:17,580 --> 01:49:21,270
+Well, adding a final flavor to the plate of that rig, and so there will be a little
+
+1443
+01:49:21,300 --> 01:49:25,350
+bit of overlap with previous flavors, especially the lag and also with sand parks.
+
+1444
+01:49:26,040 --> 01:49:29,790
+So I'm the coordinator of the Biodiversity Meets Data project, so the logo is up
+
+1445
+01:49:29,850 --> 01:49:32,850
+there, and I'm going to talk a little bit about mainstreaming high-throughput
+
+1446
+01:49:32,941 --> 01:49:34,800
+biodiversity monitoring using AI.
+
+1447
+01:49:34,920 --> 01:49:39,060
+I will outline my project, then we'll go into the AI, and then I will talk a little
+
+1448
+01:49:39,090 --> 01:49:40,800
+bit about the costs and
+
+1449
+01:49:42,451 --> 01:49:46,080
+expenses on computation that comes with the deployment of AI.
+
+1450
+01:49:47,760 --> 01:49:52,470
+First of all, so Biodiversity Meets Data is a European project, is a Horizon Europe
+
+1451
+01:49:52,500 --> 01:49:56,760
+project, and it's an innovation action, and that's different from a research and
+
+1452
+01:49:56,820 --> 01:50:00,810
+innovation action, and that is that we're going to mainstream existing technology
+
+1453
+01:50:00,870 --> 01:50:04,140
+to new stakeholders. So we're scaling up here across Europe.
+
+1454
+01:50:04,201 --> 01:50:08,461
+It is a European project, and it's a biodiversity explorer for high-throughput
+
+1455
+01:50:08,519 --> 01:50:14,220
+biodiversity monitoring tools, biodiversity data, biodiversity analysis, and for
+
+1456
+01:50:14,250 --> 01:50:17,970
+better conservation across Europe. So I will focus only on the first part today.
+
+1457
+01:50:19,980 --> 01:50:22,980
+Now, these European projects, they come with expectations.
+
+1458
+01:50:23,610 --> 01:50:27,600
+And one of the first expectations from this project is a better monitoring of
+
+1459
+01:50:27,660 --> 01:50:33,451
+biodiversity in the European Union by high-throughput methods, leading to a
+
+1460
+01:50:33,480 --> 01:50:35,610
+better implementation of the nature directive.
+
+1461
+01:50:35,701 --> 01:50:39,840
+So the nature directives in Europe are the habitats directive protecting habitats
+
+1462
+01:50:40,201 --> 01:50:45,720
+and the birds directives protecting birds, and that's implemented in 27,000
+
+1463
+01:50:45,901 --> 01:50:51,060
+Natura 2000 areas, and well, this project extends to the Emerald Network, so UK and
+
+1464
+01:50:51,090 --> 01:50:54,360
+Norway is also in scope together with Switzerland and Ukraine.
+
+1465
+01:50:55,201 --> 01:50:58,260
+Well, then we're covering 30,000 potential areas.
+
+1466
+01:50:58,320 --> 01:51:00,870
+So we're not going to cover them all. This is a pilot study, right?
+
+1467
+01:51:03,060 --> 01:51:07,531
+So now then the next one is a better understanding of the state of nature and the
+
+1468
+01:51:07,590 --> 01:51:12,600
+drivers of biodiversity loss and better uses of existing data.
+
+1469
+01:51:12,691 --> 01:51:16,711
+So a lot of data is still sitting in databases and needs to be mobilized, the same
+
+1470
+01:51:16,740 --> 01:51:21,720
+as was the case in South Africa. If you want to do any trend analysis, you have to
+
+1471
+01:51:21,781 --> 01:51:24,060
+start mobilizing your baseline data.
+
+1472
+01:51:25,890 --> 01:51:31,320
+And then thirdly, that should result in a more complete view of the state of nature
+
+1473
+01:51:31,380 --> 01:51:36,180
+and its evolution. Now, the solution to all this is the
+
+1474
+01:51:36,240 --> 01:51:39,930
+BMD infrastructure, and it looks like this.
+
+1475
+01:51:41,040 --> 01:51:46,770
+So on the left side, we have mostly data mobilization and generation, including the
+
+1476
+01:51:46,830 --> 01:51:49,441
+middle part and the bottom here. So there's mobilizing this data.
+
+1477
+01:51:49,920 --> 01:51:53,040
+So we're generating a lot of data, and on the other side, we're going to use this
+
+1478
+01:51:53,070 --> 01:51:56,191
+data. And so a web history viewer is just visualizing the data.
+
+1479
+01:51:56,610 --> 01:52:00,420
+But then the biodiversity analysis tools in the proposal, those were still called
+
+1480
+01:52:00,480 --> 01:52:05,040
+virtual research environments. Now, for the stakeholders we're working with, VREs
+
+1481
+01:52:05,340 --> 01:52:09,810
+does not resonate. So we rephrased it to biodiversity analysis tools.
+
+1482
+01:52:10,560 --> 01:52:14,850
+Currently, we're in month 19, so we still have quite some time to go.
+
+1483
+01:52:15,570 --> 01:52:19,470
+And there were more or less seven objectives, and I will deal with two of them
+
+1484
+01:52:19,531 --> 01:52:21,961
+today. And this is a very important one.
+
+1485
+01:52:21,990 --> 01:52:26,130
+That is enabling natural resource managers with high-throughput biodiversity
+
+1486
+01:52:26,220 --> 01:52:29,220
+monitoring tools and AI species identification.
+
+1487
+01:52:29,310 --> 01:52:33,930
+So we need AI to scale up this process of monitoring because humans cannot do it
+
+1488
+01:52:33,990 --> 01:52:37,380
+alone. And then we're looking at camera traps, audio devices, and eDNA.
+
+1489
+01:52:37,470 --> 01:52:39,750
+And eDNA, I'm not going to touch on today neither.
+
+1490
+01:52:40,770 --> 01:52:45,000
+But what is important here is that we're going to mobilize all these data to GBIF
+
+1491
+01:52:45,781 --> 01:52:51,600
+because GBIF harmonizes all the data. And then why are we generating this data?
+
+1492
+01:52:51,810 --> 01:52:54,031
+Data generation itself is never a purpose.
+
+1493
+01:52:54,090 --> 01:52:57,390
+You want to do something, you want to analyze it, you want to assess trends, you
+
+1494
+01:52:57,420 --> 01:53:00,781
+want to improve your management, you want to inform policy, and so on.
+
+1495
+01:53:01,230 --> 01:53:05,580
+So we're developing these biodiversity analysis tools for the three realms covered
+
+1496
+01:53:05,640 --> 01:53:10,290
+by the Natura 2000 network, and we co-design these tools with our stakeholders.
+
+1497
+01:53:10,800 --> 01:53:15,810
+So and then what I mentioned, we are doing innovation action and not a research and
+
+1498
+01:53:15,870 --> 01:53:20,910
+innovation action. So the first and foremost stakeholder community for our project
+
+1499
+01:53:21,031 --> 01:53:26,191
+is public and private and third sector managers of natural resource sites, and then
+
+1500
+01:53:26,281 --> 01:53:29,790
+also the policymakers, and in the very end, we have the academia.
+
+1501
+01:53:30,330 --> 01:53:35,070
+So this is not our target group. And then, of course, we develop these tools, and
+
+1502
+01:53:35,130 --> 01:53:38,191
+that aligns very well with what Sand parks has shown.
+
+1503
+01:53:39,151 --> 01:53:43,350
+And we might need to collaborate a little bit more here and to avoid duplication.
+
+1504
+01:53:43,441 --> 01:53:46,050
+So for instance, this is a biodiversity status tool.
+
+1505
+01:53:46,470 --> 01:53:50,220
+On the left side, you see to what directive the species are listed that are
+
+1506
+01:53:50,281 --> 01:53:54,480
+observed, so that the managers of sites get an insight and instant overview of what
+
+1507
+01:53:54,510 --> 01:53:56,730
+their data and their devices have been capturing.
+
+1508
+01:53:57,540 --> 01:54:00,180
+So now, how have these devices have been capturing?
+
+1509
+01:54:00,360 --> 01:54:03,750
+Now, those with camera traps, audio masts, and eDNA.
+
+1510
+01:54:03,840 --> 01:54:05,640
+That's what we're covering with BMD.
+
+1511
+01:54:07,110 --> 01:54:12,570
+And then where traditionally you would go from a camera or an audio device in the
+
+1512
+01:54:12,630 --> 01:54:15,660
+field, and then they start recording, and then you have to start collecting your
+
+1513
+01:54:15,720 --> 01:54:19,140
+data, then you have to transfer it to a laptop, and then you have to start
+
+1514
+01:54:19,441 --> 01:54:23,310
+analyzing the data and do a manual identification.
+
+1515
+01:54:23,880 --> 01:54:28,470
+Where with BMD, where we want to go is that you have a camera trap with a 4G
+
+1516
+01:54:28,560 --> 01:54:33,781
+connection and then a large battery pack or even a solar panel, automated upload,
+
+1517
+01:54:33,990 --> 01:54:37,651
+remote control over your camera, so you can assess whether they're still working or
+
+1518
+01:54:37,680 --> 01:54:43,531
+not, and then data archiving and long-term storage, and then basically an automated
+
+1519
+01:54:43,590 --> 01:54:48,090
+species identification recognition with AI, and then moving these data to GBIF, so
+
+1520
+01:54:48,120 --> 01:54:50,760
+that it's preserved for the future and can be analyzed.
+
+1521
+01:54:51,870 --> 01:54:56,191
+Now, for that purpose, at Naturalis, we have developed a platform that's called
+
+1522
+01:54:56,250 --> 01:55:00,750
+ARISE. And ARISE is an acronym for the Authoritative and Rapid Identification
+
+1523
+01:55:00,840 --> 01:55:03,451
+System for Essential Biodiversity Information.
+
+1524
+01:55:03,870 --> 01:55:07,470
+And then where we're looking at today is this within the red box, a sensors to AI.
+
+1525
+01:55:07,531 --> 01:55:10,500
+That's a digital species identification platform.
+
+1526
+01:55:10,560 --> 01:55:14,670
+So ARISE does more, but at this stage, you're looking at that part.
+
+1527
+01:55:15,180 --> 01:55:17,401
+We have quite a few sensors already deployed.
+
+1528
+01:55:18,540 --> 01:55:21,810
+And the interface of ARISE basically looks like this.
+
+1529
+01:55:21,930 --> 01:55:25,651
+On the left side, you have a navigation panel. Here you see the current deployment.
+
+1530
+01:55:25,740 --> 01:55:29,281
+So although it started in the Netherlands, we're already spreading out, and we're
+
+1531
+01:55:29,310 --> 01:55:31,020
+now scaling up to European scales.
+
+1532
+01:55:32,401 --> 01:55:37,770
+Now, what's important here is that you can upload or receive all your images and
+
+1533
+01:55:37,830 --> 01:55:41,310
+audio recordings through 4G. You can manage your data.
+
+1534
+01:55:41,430 --> 01:55:43,531
+So there's a data management platform.
+
+1535
+01:55:45,480 --> 01:55:50,250
+And then most importantly, we have access to a library of AIs.
+
+1536
+01:55:50,670 --> 01:55:54,781
+So now in orange here, I highlighted all the audio AIs.
+
+1537
+01:55:54,870 --> 01:55:58,020
+Those were recently developed under the Mambo project.
+
+1538
+01:55:58,441 --> 01:56:01,830
+So Quinten already mentioned that one as well. So we have one for birds, bats.
+
+1539
+01:56:03,151 --> 01:56:04,830
+There's several. There's a multi
+
+1540
+01:56:06,300 --> 01:56:09,031
+birds that we have two. Frogs is a new one.
+
+1541
+01:56:09,120 --> 01:56:11,941
+Insects are coming in, and then cicadas and crickets.
+
+1542
+01:56:12,961 --> 01:56:17,191
+And then for the camera traps, we have MegaDetector and SpeciesNet.
+
+1543
+01:56:17,220 --> 01:56:21,151
+There's a Google model. And at Naturalis, we developed the multi-source model
+
+1544
+01:56:21,240 --> 01:56:22,740
+ourselves, and that's
+
+1545
+01:56:23,970 --> 01:56:29,160
+built for citizen science images, but that worked very well on camera trap images
+
+1546
+01:56:29,220 --> 01:56:33,451
+as well, as long as the camera is operating in daylight and not with infrared,
+
+1547
+01:56:33,540 --> 01:56:36,961
+because that makes it a little bit more difficult for this particular algorithm to
+
+1548
+01:56:37,560 --> 01:56:40,711
+identify. But the good thing is you have access to all these different algorithms,
+
+1549
+01:56:40,770 --> 01:56:42,090
+so you can play around with that.
+
+1550
+01:56:43,770 --> 01:56:48,360
+And then next, we have access to three different supercomputer platforms.
+
+1551
+01:56:49,800 --> 01:56:54,031
+Well, and the question here for the users is whether you can wait a night before we
+
+1552
+01:56:54,060 --> 01:56:58,560
+process this data because if you do it on the fly, it's a very costly exercise.
+
+1553
+01:56:58,980 --> 01:56:59,370
+So we
+
+1554
+01:57:00,570 --> 01:57:03,630
+allow that while you get an information, a message.
+
+1555
+01:57:03,930 --> 01:57:06,211
+Well, please come back tomorrow and then check your data.
+
+1556
+01:57:07,230 --> 01:57:11,100
+And then, well, ultimately, you get all your identifications back here.
+
+1557
+01:57:11,160 --> 01:57:15,120
+So this was run with two models. First, we always run the MegaDetector.
+
+1558
+01:57:15,240 --> 01:57:19,050
+MegaDetector is very simple. It's identifying humans, cars, and animals.
+
+1559
+01:57:19,531 --> 01:57:24,840
+So to comply with the GDPR, we have to remove all the humans, and we also have to
+
+1560
+01:57:24,870 --> 01:57:30,420
+remove license plates. So now and then what's left in this case was identified with
+
+1561
+01:57:30,990 --> 01:57:34,800
+the SpeciesNet, and that was identified as a hare, which is correct
+
+1562
+01:57:36,727 --> 01:57:42,157
+Yeah. And then the latest edition, and that was conditional for the BMD project, is
+
+1563
+01:57:42,216 --> 01:57:47,076
+now once this data set has been identified and created, we can export this as
+
+1564
+01:57:47,167 --> 01:57:50,676
+Camtrap data package. And why is that so relevant?
+
+1565
+01:57:51,336 --> 01:57:54,966
+And the Camtrap data package in this community, that's not a new thing.
+
+1566
+01:57:55,716 --> 01:58:00,907
+But this allows all this data to be mapped to the Darwin Core standard, to be
+
+1567
+01:58:00,995 --> 01:58:05,586
+unified and harmonized, and then uploaded to GBIF.
+
+1568
+01:58:05,736 --> 01:58:09,996
+And not only uploaded to GBIF, but we can also map it to the same background
+
+1569
+01:58:10,056 --> 01:58:15,576
+taxonomy. So all this data coming in from all these different centers are mapped
+
+1570
+01:58:15,636 --> 01:58:19,176
+against the Catalogue of Life as it has now been implemented.
+
+1571
+01:58:19,776 --> 01:58:24,426
+And then it serves these biodiversity analysis tools either straight to the API or
+
+1572
+01:58:24,456 --> 01:58:28,956
+through the GBIF snapshots. And then it will drive these species.
+
+1573
+01:58:29,016 --> 01:58:31,596
+Well, this is not a bet. This is one of the first one, and
+
+1574
+01:58:33,816 --> 01:58:39,756
+the likely suspect here by the species distribution modeling to predict the effects
+
+1575
+01:58:39,786 --> 01:58:42,336
+of climate change on the distribution of species.
+
+1576
+01:58:42,696 --> 01:58:46,506
+Because in certain areas, you might want to conserve certain habitats, but due to
+
+1577
+01:58:46,566 --> 01:58:51,066
+climate change, any investment will be a waste of money to try and keep that
+
+1578
+01:58:51,727 --> 01:58:52,926
+particular kind of habitat.
+
+1579
+01:58:54,876 --> 01:58:59,886
+So, that's a bit what we're now implementing across Europe with our stakeholders.
+
+1580
+01:59:00,456 --> 01:59:05,107
+And then the last part is a little bit about how these algorithms actually perform
+
+1581
+01:59:05,436 --> 01:59:07,596
+and what it has costed to develop them.
+
+1582
+01:59:09,216 --> 01:59:14,946
+Now, according to our specialist of the ARISE platform, image recognition is
+
+1583
+01:59:15,006 --> 01:59:20,886
+blazing fast, so that there's 0.03 seconds for one image to be recognized
+
+1584
+01:59:21,576 --> 01:59:25,716
+on a GPU. That's a graphics chip. Or a 0.06 on a CPU.
+
+1585
+01:59:26,526 --> 01:59:31,296
+This was one image from my vegetable plot in Utrecht in the Netherlands, so it will
+
+1586
+01:59:31,686 --> 01:59:33,216
+correctly identify this here.
+
+1587
+01:59:34,746 --> 01:59:40,686
+Sound is slightly more complicated, takes a bit more time to compute, but
+
+1588
+01:59:40,986 --> 01:59:46,206
+here you see one minute recording, and this particular recording identified 10
+
+1589
+01:59:46,266 --> 01:59:51,966
+different vocalizations of birds. This is a very common sparrow.
+
+1590
+01:59:53,917 --> 01:59:55,477
+No, a great tit. Sorry.
+
+1591
+01:59:58,176 --> 02:00:00,306
+So that's a little bit more complicated.
+
+1592
+02:00:02,376 --> 02:00:08,316
+And then going into the costs. So now identifying an image is only a split second,
+
+1593
+02:00:08,407 --> 02:00:10,326
+but teaching it is a little bit more.
+
+1594
+02:00:10,866 --> 02:00:16,386
+So it takes eight seconds per image to actually learn the algorithm to recognize
+
+1595
+02:00:16,417 --> 02:00:16,806
+something.
+
+1596
+02:00:20,706 --> 02:00:25,326
+Now, then the costs. The costs are expressed in the SBUs, and I had to look this
+
+1597
+02:00:25,386 --> 02:00:27,036
+one up. This is not my field of expertise.
+
+1598
+02:00:27,096 --> 02:00:32,286
+But apparently, that's the Stony Brook University quantity, and that's a
+
+1599
+02:00:32,346 --> 02:00:34,417
+supercomputer's internal currency.
+
+1600
+02:00:37,056 --> 02:00:38,857
+Yes. Twice. Okay.
+
+1601
+02:00:40,506 --> 02:00:42,846
+And then we had something on the renting cost.
+
+1602
+02:00:43,266 --> 02:00:48,306
+So one GPU to do the actual computation, that's 120 SBUs per hour.
+
+1603
+02:00:48,815 --> 02:00:54,636
+And if you do it on a high capacity CPU, that's 192 SBUs per hour.
+
+1604
+02:00:54,966 --> 02:01:00,846
+So now depending on the facility, the cost of SBUs differ, but that's a little bit
+
+1605
+02:01:01,116 --> 02:01:02,196
+what you have to keep in mind.
+
+1606
+02:01:03,996 --> 02:01:08,857
+And then, for the training of this multi-source model, which is a fairly complex
+
+1607
+02:01:09,096 --> 02:01:14,046
+model which covers 44,000 taxa and a number of species.
+
+1608
+02:01:15,126 --> 02:01:20,376
+For this data set and the training, there were 42 million labeled images used, and
+
+1609
+02:01:20,436 --> 02:01:23,526
+this multi-source model combines 39 different models.
+
+1610
+02:01:23,586 --> 02:01:25,326
+So mammals are separate from birds.
+
+1611
+02:01:25,686 --> 02:01:29,407
+So there's a higher classifier, and once you have classified it to the higher
+
+1612
+02:01:29,466 --> 02:01:31,116
+level, you go into the deeper levels.
+
+1613
+02:01:32,616 --> 02:01:33,216
+That's how this
+
+1614
+02:01:34,566 --> 02:01:40,116
+model works. This model currently serves 100 million requests per year.
+
+1615
+02:01:40,596 --> 02:01:44,167
+So from citizens science apps, but also from this platform ARISE.
+
+1616
+02:01:45,036 --> 02:01:48,907
+It's available through a high availability auto-scaling web service.
+
+1617
+02:01:49,746 --> 02:01:52,176
+It runs in Naturalis on bare metal servers.
+
+1618
+02:01:52,686 --> 02:01:56,256
+But the training of this one model takes five months training.
+
+1619
+02:01:57,157 --> 02:02:00,727
+So and we repeat that every year. So that's updated yearly.
+
+1620
+02:02:01,147 --> 02:02:04,326
+So it's five months training, one month validation and testing.
+
+1621
+02:02:05,016 --> 02:02:09,157
+And then if you then boil this down to the actual cost, depending on which
+
+1622
+02:02:09,516 --> 02:02:13,746
+supercomputer facility you use, that is between 93,000 to
+
+1623
+02:02:13,776 --> 02:02:19,716
+€130,000 for Snellius, and then 26 to
+
+1624
+02:02:19,926 --> 02:02:25,477
+38 on another one. The advantage of Snellius is that is like an
+
+1625
+02:02:26,586 --> 02:02:30,907
+academic facility that can be used by Naturalis and not for commercial purposes.
+
+1626
+02:02:31,056 --> 02:02:33,576
+So that makes our lives a little bit more easy.
+
+1627
+02:02:34,236 --> 02:02:39,816
+So, this is what I could extract now from the performance, what is needed for these
+
+1628
+02:02:39,876 --> 02:02:42,516
+computers and what the costs are to run these things.
+
+1629
+02:02:43,446 --> 02:02:46,026
+With that, I would like to conclude this presentation.
+
+1630
+02:02:46,477 --> 02:02:51,756
+BMD is a consortium of 14 different partners, among which Quinten and Maïa, of
+
+1631
+02:02:51,846 --> 02:02:55,266
+course, was here. But also Catalogue of Life.
+
+1632
+02:02:55,686 --> 02:02:58,566
+We have an advisory board where GBIF is represented.
+
+1633
+02:02:59,227 --> 02:03:04,477
+So we're working hard on now getting this up and running and really starting
+
+1634
+02:03:04,536 --> 02:03:06,786
+rolling it out. And with that, I would
+
+1635
+02:03:09,036 --> 02:03:12,426
+thank you for your attention. And you can follow us here.
+
+1636
+02:03:21,696 --> 02:03:23,316
+Okay. I mean, it's the questions.
+
+1637
+02:03:25,986 --> 02:03:29,376
+Hey, Tanya. And there's one at the back as well.
+
+1638
+02:03:30,696 --> 02:03:32,167
+Can you hear?
+
+1639
+02:03:32,256 --> 02:03:34,357
+Not online. Not if you're in Australia.
+
+1640
+02:03:34,897 --> 02:03:35,316
+All right.
+
+1641
+02:03:36,936 --> 02:03:40,506
+So there's a glaring kind of-- This is great, and
+
+1642
+02:03:42,066 --> 02:03:42,397
+I think
+
+1643
+02:03:44,526 --> 02:03:46,956
+it would be great to have this planet-wide.
+
+1644
+02:03:48,366 --> 02:03:53,286
+There is an omission, for example, here on invertebrate monitoring, right?
+
+1645
+02:03:53,376 --> 02:03:56,647
+So they're completely, I think, not represented, maybe a little bit through
+
+1646
+02:03:56,706 --> 02:04:02,345
+soundscape. So if I wanted to add the camera
+
+1647
+02:04:02,407 --> 02:04:07,716
+traps that are being developed for vertebrates, that means at this point, I think,
+
+1648
+02:04:07,806 --> 02:04:13,446
+retraining all the models. Are you also keeping
+
+1649
+02:04:13,506 --> 02:04:16,716
+track of what it the cost not only of training models, but
+
+1650
+02:04:17,917 --> 02:04:23,796
+distillation and deployment on devices and the cost of running, so
+
+1651
+02:04:23,886 --> 02:04:29,436
+the energy storage compute on devices themselves and the
+
+1652
+02:04:29,526 --> 02:04:32,616
+trade-offs between those and how you're thinking about it?
+
+1653
+02:04:34,897 --> 02:04:37,026
+Well, I do not have the details of that.
+
+1654
+02:04:37,086 --> 02:04:41,466
+Well, we're looking more in green AI development, that's for sure, with the AI
+
+1655
+02:04:41,526 --> 02:04:45,366
+team. So the team behind the multi-source model and which is applied and well by
+
+1656
+02:04:45,426 --> 02:04:49,477
+various communities and which is also very good for the camera traps.
+
+1657
+02:04:49,566 --> 02:04:52,897
+So we definitely look into that one, but I do not have the details.
+
+1658
+02:04:53,167 --> 02:04:56,346
+And you also mentioned something on invertebrate monitoring? Yeah.
+
+1659
+02:04:56,407 --> 02:05:01,776
+So I didn't really touch on that. So invertebrates in the freshwater and marine
+
+1660
+02:05:01,836 --> 02:05:07,626
+realms and also from malaise trapping, that's mostly done with eDNA
+
+1661
+02:05:08,376 --> 02:05:12,607
+at this moment. So I know from the Mambo project that they have been trying a lot
+
+1662
+02:05:12,636 --> 02:05:17,436
+of things with cameras. For night-flying insects, we have the Avon traps, which get
+
+1663
+02:05:17,496 --> 02:05:22,056
+attracted to the light. Day flying, we have also the Optix cameras.
+
+1664
+02:05:23,586 --> 02:05:26,016
+So they have vertical screens or flat screens.
+
+1665
+02:05:26,076 --> 02:05:29,316
+So for hoverflies, you also always need to have them flat.
+
+1666
+02:05:29,676 --> 02:05:33,727
+So we always have a subset. So that's definitely things that we're working on.
+
+1667
+02:05:34,056 --> 02:05:37,806
+For BMD, it's camera traps, audio, and eDNA for now.
+
+1668
+02:05:38,136 --> 02:05:42,936
+And well, that's as how complicated we go for now. Next project.
+
+1669
+02:05:43,536 --> 02:05:46,746
+Okay, very last question. Up there.
+
+1670
+02:05:52,657 --> 02:05:58,206
+Regarding data reliability, you said you do the
+
+1671
+02:05:58,266 --> 02:06:03,486
+prediction recognition using AI and then push the data into GBIF.
+
+1672
+02:06:03,876 --> 02:06:04,206
+Yeah.
+
+1673
+02:06:04,266 --> 02:06:07,446
+There's one part missing from my point of view.
+
+1674
+02:06:07,506 --> 02:06:08,886
+That's a human in the loop to
+
+1675
+02:06:11,196 --> 02:06:16,206
+say, "Okay, this is the correct identification or not." Otherwise, you flood GBIF
+
+1676
+02:06:16,266 --> 02:06:21,816
+with predictions from the AI that might not be that reliable, especially when it
+
+1677
+02:06:21,876 --> 02:06:23,227
+comes to invertebrates.
+
+1678
+02:06:24,066 --> 02:06:25,026
+How do you deal with that?
+
+1679
+02:06:25,116 --> 02:06:25,296
+No,
+
+1680
+02:06:27,006 --> 02:06:29,676
+excellent point, and that's part of the system as well.
+
+1681
+02:06:29,766 --> 02:06:32,826
+So you have a predictive accuracy.
+
+1682
+02:06:33,846 --> 02:06:36,966
+It's highly recommended to reduce and do filtering.
+
+1683
+02:06:37,206 --> 02:06:40,026
+There's a lot of filtering options in the ARISE platform as well.
+
+1684
+02:06:40,566 --> 02:06:45,397
+Although we want to have a fully automated workflow, I'm not sure whether that's
+
+1685
+02:06:45,456 --> 02:06:49,657
+really realistic. But then the ones with the lower prediction, you would like to
+
+1686
+02:06:49,716 --> 02:06:55,056
+have either the user look at it. As a user, you log into the system, you have your
+
+1687
+02:06:55,116 --> 02:06:58,296
+responsibility of your own data set and also have your responsibility for
+
+1688
+02:06:58,326 --> 02:07:03,036
+publishing. Well, my opinion is there's not a single data set with any errors on
+
+1689
+02:07:03,096 --> 02:07:07,357
+GBIF that can be found, and you can only trace these errors by making them publicly
+
+1690
+02:07:07,386 --> 02:07:10,926
+available, because then people can actually pinpoint you to where the errors are.
+
+1691
+02:07:11,857 --> 02:07:13,986
+And that's where the human in the loop comes in.
+
+1692
+02:07:14,286 --> 02:07:18,756
+There's indeed an option that you can make corrections on wrong identifications and
+
+1693
+02:07:18,786 --> 02:07:19,986
+maybe omit also
+
+1694
+02:07:23,286 --> 02:07:27,966
+low accuracy predictions. And then the last thing, everything we do here is an open
+
+1695
+02:07:28,026 --> 02:07:31,866
+source, open access. All the bets and the code behind the biodiversity analysis
+
+1696
+02:07:31,897 --> 02:07:33,336
+tools will become available.
+
+1697
+02:07:34,626 --> 02:07:38,886
+That's also nice maybe to exchange code with some parks, and because we're all
+
+1698
+02:07:38,946 --> 02:07:40,386
+dealing with the same issues there, right?
+
+1699
+02:07:42,336 --> 02:07:43,956
+Let's not duplicate things too much.
+
+1700
+02:07:44,016 --> 02:07:46,026
+Okay. Thank you, Niels.
+
+1701
+02:07:54,036 --> 02:07:56,076
+That's our tasting plate complete.
+
+1702
+02:07:56,526 --> 02:08:02,496
+From BHL's challenges and its future to data lags, backbones rebuilt, tools in the
+
+1703
+02:08:02,526 --> 02:08:06,876
+hands of practitioners, traditional knowledge, a bold new vision for
+
+1704
+02:08:06,936 --> 02:08:10,657
+infrastructure, and AI operating at a continental scale.
+
+1705
+02:08:10,956 --> 02:08:14,977
+Thank you very much to all eight speakers from our fantastic session.
+
+1706
+02:08:23,496 --> 02:08:27,607
+In my new capacity as editor of BIS, before I let you go, I'm just going to do a
+
+1707
+02:08:27,667 --> 02:08:33,456
+little advertisement. And I want to put in a plug for submitting extended
+
+1708
+02:08:33,576 --> 02:08:37,836
+abstracts for your talks. All of the speakers today have agreed to put in an
+
+1709
+02:08:37,897 --> 02:08:43,026
+extended abstract, so take from their example that all of you speaking over the
+
+1710
+02:08:43,056 --> 02:08:47,616
+next few days are also invited to put in an extended abstract using the Author
+
+1711
+02:08:47,676 --> 02:08:52,236
+platform provided by our publishing partner and conference sponsor, Pensoft.
+
+1712
+02:08:52,776 --> 02:08:53,616
+Thank you very much.
+
+1713
+02:08:54,846 --> 02:08:57,816
+Your session organizers have also been asked to nominate talks that they would
+
+1714
+02:08:57,846 --> 02:09:02,286
+particularly like to see published in BIS to create an enduring record of their
+
+1715
+02:09:02,346 --> 02:09:07,056
+symposium. Some of you will actually be tapped on the shoulder and asked to put in
+
+1716
+02:09:07,386 --> 02:09:11,227
+an extended abstract, but you're very welcome to just do so.
+
+1717
+02:09:11,647 --> 02:09:17,496
+We would really like to have a really great permanent record of the proceedings of
+
+1718
+02:09:17,556 --> 02:09:18,607
+this year's conference.
+
+1719
+02:09:20,046 --> 02:09:22,026
+Now I'm going to send you out into the sunshine.
+
+1720
+02:09:22,716 --> 02:09:28,026
+The mayor is very keen to have us be there on time at 5:00 this afternoon, so don't
+
+1721
+02:09:28,116 --> 02:09:29,796
+spend too much time in the sunshine.
+
+1722
+02:09:30,727 --> 02:09:35,376
+The town hall is that way and a little bit to the left, I'm told, and it's
+
+1723
+02:09:37,175 --> 02:09:38,046
+not a long walk.
+
+1724
+02:09:39,696 --> 02:09:40,175
+With that,
+
+1725
+02:09:41,376 --> 02:09:47,227
+we'll thank the speakers again, and I will see you very soon to have a drink with
+
+1726
+02:09:47,256 --> 02:09:48,907
+the mayor. Thank you very much.

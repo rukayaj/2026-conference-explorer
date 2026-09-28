@@ -1,0 +1,102 @@
+You have the programme for one room/day at TDWG 2026 program-data.js and the continuous timestamped transcript/video from that room.
+
+Identify the substantive content that actually occurred, using the programme as context rather than assuming the schedule was followed exactly. This includes individual talks and substantive panel/session discussions. Then create structured JSON records using the schema provided below.
+
+Base descriptions primarily on what was actually said in the transcript. Use programme abstracts to help identify talks, speakers and context, but do not let abstract language substitute for the contents of the actual presentation.
+
+Talks may start early or late, change order, be shortened, be cancelled, have replacement speakers, or be replaced by something not in the programme. Identify what actually happened.
+
+Keep talk-specific Q&A with its talk where possible. If there is a substantial general discussion involving several talks or the whole session, make it its own `discussion` content item rather than treating it as unassigned material.
+
+Announcements, introductions without substantive content, breaks, room chatter, repeated video/audio, technical problems and material that cannot confidently be assigned should go in `unassigned`.
+
+For each talk or discussion, capture what would later make it useful and interesting to explore: what it was about, its main contribution or argument, important findings, systems and concepts, useful timestamps, questions it raises, and why someone might care about it.
+
+The `summary` should normally be 2–4 sentences and describe the actual presentation rather than the abstract.
+
+`one_line_takeaway` should capture the main point in one sentence.
+
+`why_it_matters` can interpret the significance of the work, but should stay grounded in what was presented.
+
+`key_points` should capture the most important substantive points rather than simply restating the summary.
+
+For `themes_raw`, extract natural, specific themes that fit this item. Do not worry about making theme vocabulary consistent across the whole conference; that will be normalised later. Leave `themes_normalized` empty.
+
+Extract named organisations, projects, infrastructures, platforms, standards, software, datasets and methods where they are genuinely important to the presentation.
+
+Populate `results_findings`, `recommendations`, `limitations`, `future_work` and `questions` only when they are actually present in, or clearly expressed by, the presentation or discussion. Do not manufacture a limitation or future-work item just because the field exists. Empty arrays are expected.
+
+For `notable_claims`, record substantive claims, conclusions or findings that are clearly supported by the transcript. Include a timestamp pointing to where the claim is made.
+
+For `representative_excerpt`, include a short self-contained passage only when the transcript contains a good one. It should normally be one to three meaningful sentences and make sense outside the surrounding transcript. Otherwise use `null`.
+
+For `notable_moments`, identify a small number of moments worth jumping to in the video: a key result, strong argument, useful explanation, important question, demonstration, conclusion, or similar. Do not add moments merely to fill the array.
+
+Use exact timestamps from the transcript. Every timestamp attached to a content item must fall within one of that item's `source_segments`. If a timestamp cannot be located confidently, omit that timestamped item rather than guessing.
+
+Use `identification_confidence` to reflect confidence in matching the transcript segment to the programme. Explain unusual cases such as ASR errors in names, replacement speakers, talks missing from the programme, changed titles or reordered talks.
+
+For an unprogrammed talk, create a normal `talk` content item with `programme_id: null` and `programme: null`, and infer a concise title only when the topic is clear.
+
+For a substantive discussion, use `type: "discussion"`. If the programme contains a scheduled discussion item, link it through `programme_id`; otherwise use `null`.
+
+Record every scheduled programme item in `programme_status`, including introductions and discussions, so that cancellations and discrepancies are explicit.
+
+Return valid JSON only, matching the structure below. Do not include Markdown fences or explanatory text around the JSON.
+
+Json template file should be available to you at json-template.json. 
+
+Conventions: 
+content_items[].type
+    talk
+    discussion
+
+content_type
+    research
+    software/tool
+    standard
+    infrastructure
+    dataset
+    workflow/method
+    case study
+    community/project
+    policy/governance
+    conceptual
+    discussion
+
+audience_level
+    general
+    intermediate
+    specialist
+
+actual.identification_confidence
+    high
+    medium
+    low
+
+actual.transcript_quality
+    high
+    medium
+    low
+
+programme_match.status
+    matched
+    replacement
+    unprogrammed
+    uncertain
+
+programme_status.status
+    presented
+    not_presented
+    uncertain
+
+unassigned.type
+    introduction
+    announcement
+    break
+    technical_issue
+    room_chatter
+    repeated_content
+    unidentifiable
+    
+Let me know if there are any problems with this or you can't access any of these files. 

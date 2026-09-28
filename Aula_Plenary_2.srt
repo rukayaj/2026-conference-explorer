@@ -1,0 +1,4299 @@
+1
+00:00:00,691 --> 00:00:01,470
+All right, everybody.
+
+2
+00:00:03,510 --> 00:00:04,830
+We'll get started again.
+
+3
+00:00:06,480 --> 00:00:12,390
+Welcome back. I hope you filled up on coffee and other things appropriately so.
+
+4
+00:00:17,640 --> 00:00:23,010
+We have two speakers to follow before we head off for lunch.
+
+5
+00:00:25,201 --> 00:00:31,140
+One thing I wanted to let you folks know is that our troll, in fact, here has
+
+6
+00:00:31,230 --> 00:00:35,610
+a name. Does anybody know the name of the troll?
+
+7
+00:00:37,200 --> 00:00:40,350
+A couple of folks, mostly people I know and have worked with.
+
+8
+00:00:41,340 --> 00:00:44,070
+So the name of the troll is Gimimir Standardsson.
+
+9
+00:00:46,590 --> 00:00:49,830
+If you want the history behind that, you can find me sometime this week and I'll
+
+10
+00:00:49,890 --> 00:00:53,401
+tell you the long and sordid story of Gimimir.
+
+11
+00:00:55,470 --> 00:00:59,130
+All right, so we will get started. I'm going to introduce Dag Andersen, who is
+
+12
+00:01:00,840 --> 00:01:06,690
+one of our hosts here and works with GBIF
+
+13
+00:01:06,750 --> 00:01:09,301
+Norway. Dag, are you ready?
+
+14
+00:01:10,980 --> 00:01:11,910
+We'll get started.
+
+15
+00:01:22,230 --> 00:01:28,051
+So I'll be brief. I want to introduce Marit Hetta from Tromsø, which is
+
+16
+00:01:28,110 --> 00:01:32,880
+going to guide us through traditional data standards.
+
+17
+00:01:32,970 --> 00:01:34,770
+And she's part of the CARE
+
+18
+00:01:36,000 --> 00:01:41,910
+Task Group to develop this. So welcome on the stage, Marit Hetta, Assistant
+
+19
+00:01:42,000 --> 00:01:43,110
+Professor in Tromsø.
+
+20
+00:01:59,490 --> 00:02:00,601
+Okay. So buoris, everyone,
+
+21
+00:02:02,010 --> 00:02:03,540
+and thank you for having me here today,
+
+22
+00:02:05,340 --> 00:02:07,080
+and thank you for that introduction.
+
+23
+00:02:08,310 --> 00:02:14,190
+So I'm a Sámi living in Bodegå, northern Norway or the Norwegian side
+
+24
+00:02:14,220 --> 00:02:14,940
+of Sámi.
+
+25
+00:02:16,620 --> 00:02:20,340
+I have a background in biology, and
+
+26
+00:02:23,430 --> 00:02:29,400
+the heart of my work is the meeting between Sámi knowledge and scientific knowledge
+
+27
+00:02:29,460 --> 00:02:30,030
+systems.
+
+28
+00:02:32,250 --> 00:02:35,760
+And I also work in education and knowledge transmission,
+
+29
+00:02:37,050 --> 00:02:41,851
+and particularly how Sámi knowledge can be strengthened and passed on to future
+
+30
+00:02:41,910 --> 00:02:42,690
+generations.
+
+31
+00:02:44,130 --> 00:02:47,671
+So all of these interests come together in the topic I want to talk about today,
+
+32
+00:02:48,330 --> 00:02:51,930
+Sámi biodiversity data and indigenous data governance.
+
+33
+00:02:53,101 --> 00:02:55,200
+So I'm going to take a simple
+
+34
+00:02:56,490 --> 00:03:02,130
+example throughout the presentation, lichen data from Sámi reindeer grazing
+
+35
+00:03:02,190 --> 00:03:07,740
+lands, and then explore what happens when biodiversity data are collected, shared,
+
+36
+00:03:07,921 --> 00:03:08,760
+and reused.
+
+37
+00:03:13,291 --> 00:03:19,171
+So 20 years back, when I was in the middle of my master's degree in biology, I
+
+38
+00:03:19,201 --> 00:03:20,490
+had the opportunity to
+
+39
+00:03:21,840 --> 00:03:23,220
+work as a field assistant
+
+40
+00:03:24,570 --> 00:03:28,740
+in a project with NINA, the Norwegian Institute for Nature Research.
+
+41
+00:03:30,240 --> 00:03:32,970
+I joined the NINA researchers doing fieldwork
+
+42
+00:03:34,620 --> 00:03:40,080
+on permanent monitoring plots close to my home town.
+
+43
+00:03:42,120 --> 00:03:47,730
+The monitoring program was established in 1998 to follow changes in the winter
+
+44
+00:03:47,791 --> 00:03:49,860
+grazing areas on the Finnmark Plateau,
+
+45
+00:03:51,240 --> 00:03:52,080
+where we have
+
+46
+00:03:53,430 --> 00:03:54,720
+Sámi reindeer husbandry.
+
+47
+00:03:57,031 --> 00:03:58,860
+So there were two parts to the monitoring.
+
+48
+00:03:59,310 --> 00:04:04,890
+One used satellite data to look at vegetation over larger areas, and the other,
+
+49
+00:04:05,041 --> 00:04:10,351
+which NINA was responsible for, involved returning to permanent monitoring plots on
+
+50
+00:04:10,380 --> 00:04:10,951
+the ground.
+
+51
+00:04:12,930 --> 00:04:17,880
+The plots were distributed across winter grazing areas, and the idea was to return
+
+52
+00:04:17,940 --> 00:04:21,781
+to them regularly and document how the vegetation was changing.
+
+53
+00:04:22,920 --> 00:04:26,490
+The distribution of the plots looked like on the map up there,
+
+54
+00:04:28,140 --> 00:04:32,220
+and we flew with helicopter between the maps, and it was about 10 kilometers
+
+55
+00:04:32,281 --> 00:04:33,510
+between the plots.
+
+56
+00:04:38,040 --> 00:04:44,010
+So when I participated in 2005, we returned to plots that had already been surveyed
+
+57
+00:04:44,130 --> 00:04:45,390
+in 1998.
+
+58
+00:04:46,800 --> 00:04:51,930
+So we registered the vegetation, different species, estimated vegetation cover,
+
+59
+00:04:52,680 --> 00:04:54,960
+measured thickness of the lichen, and more.
+
+60
+00:04:56,701 --> 00:05:00,660
+This meant that the researchers could compare the same location over time.
+
+61
+00:05:02,190 --> 00:05:06,810
+And overall, the study actually found an increase in lichen during this period.
+
+62
+00:05:08,760 --> 00:05:13,980
+Across the plots, average lichen cover increased about 18% in '98 to
+
+63
+00:05:14,310 --> 00:05:20,220
+28% in 2005, and average lichen thickness increased from 22 to 28
+
+64
+00:05:20,281 --> 00:05:20,910
+millimeters.
+
+65
+00:05:22,531 --> 00:05:26,520
+But that doesn't mean that everything was improving everywhere.
+
+66
+00:05:27,451 --> 00:05:32,130
+There were considerable differences between areas, and the report discussed several
+
+67
+00:05:32,190 --> 00:05:38,040
+possible explanations, including grazing pressure, snow conditions, precipitation,
+
+68
+00:05:38,130 --> 00:05:39,750
+and other climatic factors.
+
+69
+00:05:41,010 --> 00:05:45,781
+So for the researchers then, these measurements were a way of monitoring ecological
+
+70
+00:05:45,870 --> 00:05:49,020
+change and the condition of winter grazing areas.
+
+71
+00:05:50,070 --> 00:05:54,300
+And when I was there as a biology student, that was also how I understood what we
+
+72
+00:05:54,330 --> 00:05:54,990
+were doing.
+
+73
+00:05:56,910 --> 00:06:02,550
+But today, 20 years later, I look back at exactly the same fieldwork and the same
+
+74
+00:06:02,610 --> 00:06:07,680
+lichen data, and I see another layer of questions, because these were not just data
+
+75
+00:06:07,680 --> 00:06:12,300
+about lichen. They were data collected from Sámi reindeer grazing lands.
+
+76
+00:06:13,201 --> 00:06:16,740
+And that changes the question we might ask
+
+77
+00:06:18,210 --> 00:06:19,170
+about those data,
+
+78
+00:06:20,520 --> 00:06:24,841
+what they represent, how they're used, and who they matter to.
+
+79
+00:06:29,430 --> 00:06:32,790
+So a biodiversity data point can have consequences.
+
+80
+00:06:34,201 --> 00:06:39,780
+So here we have the dataset that was published with the report, a part of it,
+
+81
+00:06:41,880 --> 00:06:44,790
+so in this case, different species of lichen.
+
+82
+00:06:46,140 --> 00:06:51,870
+So it looks quite simple at first sight, a species, a location, a date,
+
+83
+00:06:51,960 --> 00:06:53,010
+perhaps a measurement,
+
+84
+00:06:55,831 --> 00:06:58,591
+and a simple occurrence record.
+
+85
+00:07:00,390 --> 00:07:04,800
+But the same record can look very different depending on who is looking at it.
+
+86
+00:07:06,841 --> 00:07:10,710
+For a biodiversity infrastructure, it is an occurrence.
+
+87
+00:07:11,610 --> 00:07:14,430
+For a researcher, it may be ecological evidence.
+
+88
+00:07:15,270 --> 00:07:19,680
+For a planning authority, it could potentially become evidence used in decisions
+
+89
+00:07:19,770 --> 00:07:24,600
+about land use. And for a reindeer herder, it may be information about pasture.
+
+90
+00:07:25,710 --> 00:07:30,390
+And this is where the apparently simple lichen observation starts to become much
+
+91
+00:07:30,420 --> 00:07:31,290
+more complicated.
+
+92
+00:07:32,581 --> 00:07:36,780
+Reindeer move between seasonal grazing areas, and lichen is a particularly
+
+93
+00:07:36,841 --> 00:07:42,570
+important winter food resource. So information about where lichen
+
+94
+00:07:42,660 --> 00:07:48,270
+occurs, its condition, and how it changes over time can also be information about
+
+95
+00:07:48,331 --> 00:07:53,760
+reindeer grazing lands. And those grazing lands are connected to Sámi livelihoods,
+
+96
+00:07:53,910 --> 00:07:57,390
+rights, knowledge, and relationships with the land.
+
+97
+00:07:59,280 --> 00:08:04,020
+So information about lichen can become relevant far beyond biodiversity research.
+
+98
+00:08:04,651 --> 00:08:06,510
+It can enter management decisions,
+
+99
+00:08:08,040 --> 00:08:13,890
+land use, planning, discussions about competing land uses, and
+
+100
+00:08:13,951 --> 00:08:16,050
+disputes concerning grazing lands.
+
+101
+00:08:18,451 --> 00:08:23,520
+It is still a record about lichen, but it exists within a much larger web of
+
+102
+00:08:23,581 --> 00:08:24,451
+relationships.
+
+103
+00:08:25,710 --> 00:08:30,690
+So the question is: Where does biodiversity data end and indigenous data begin?
+
+104
+00:08:32,461 --> 00:08:36,961
+And those boundaries are not easy to draw.
+
+105
+00:08:38,370 --> 00:08:41,970
+And it's also where indigenous governance starts to enter the picture.
+
+106
+00:08:43,800 --> 00:08:47,490
+But before we can talk about indigenous data sovereignty or indigenous data
+
+107
+00:08:47,550 --> 00:08:52,950
+governance, we need to start somewhere more fundamental, with indigenous peoples'
+
+108
+00:08:53,040 --> 00:08:54,901
+rights and self-determination.
+
+109
+00:09:00,151 --> 00:09:04,950
+So I don't want to give a legal lecture on UNDRIP, but it is an important starting
+
+110
+00:09:05,010 --> 00:09:08,940
+point for understanding why we are talking about indigenous data sovereignty in the
+
+111
+00:09:09,000 --> 00:09:09,690
+first place.
+
+112
+00:09:10,944 --> 00:09:15,114
+The United Nations declarations on the rights of indigenous peoples provides an
+
+113
+00:09:15,144 --> 00:09:18,234
+international framework for the rights of indigenous peoples.
+
+114
+00:09:18,955 --> 00:09:24,024
+UNDRIP was adopted by the UN General Assembly in 2007, following more than two
+
+115
+00:09:24,144 --> 00:09:27,864
+decades of negotiations between indigenous peoples and states.
+
+116
+00:09:29,394 --> 00:09:33,924
+It is a most comprehensive international instrument addressing the rights of
+
+117
+00:09:33,984 --> 00:09:38,575
+indigenous peoples and established minimum standards for wellbeing and rights.
+
+118
+00:09:40,344 --> 00:09:46,014
+These include rights relating to self-determination, participation in
+
+119
+00:09:46,075 --> 00:09:49,284
+decision-making, lands and resources,
+
+120
+00:09:50,545 --> 00:09:55,795
+culture, language, knowledge, and the ability of indigenous peoples to pursue own
+
+121
+00:09:55,854 --> 00:09:56,634
+priorities.
+
+122
+00:10:01,825 --> 00:10:05,964
+So there are several articles in UNDRIP that are particularly relevant when we
+
+123
+00:10:05,994 --> 00:10:09,114
+start thinking about knowledge, data, and biodiversity.
+
+124
+00:10:10,404 --> 00:10:16,314
+Articles 11 to 13 include the right of indigenous peoples to maintain, protect,
+
+125
+00:10:16,464 --> 00:10:21,744
+practice, and develop cultural standards, traditions, and importantly,
+
+126
+00:10:22,404 --> 00:10:26,784
+the right to transmit histories, languages, oral traditions, and knowledge to
+
+127
+00:10:26,844 --> 00:10:27,955
+future generations.
+
+128
+00:10:29,484 --> 00:10:32,874
+They also address questions of control and return.
+
+129
+00:10:33,774 --> 00:10:37,944
+For example, Article 11 addresses redress, which may include
+
+130
+00:10:39,504 --> 00:10:44,904
+restitution where cultural, intellectual, religious, or spiritual property has been
+
+131
+00:10:44,964 --> 00:10:47,934
+taken without free, prior, and informed consent.
+
+132
+00:10:49,075 --> 00:10:54,864
+And Article 12 explicitly addresses access and repatriation in relation to
+
+133
+00:10:54,955 --> 00:10:57,325
+ceremonial objects and human remains.
+
+134
+00:10:59,604 --> 00:11:05,274
+So these articles were not written specifically about biodiversity databases, but
+
+135
+00:11:05,304 --> 00:11:08,934
+they give us an important foundation for the questions we're discussing today.
+
+136
+00:11:10,014 --> 00:11:14,904
+Because when we talk about Sámi knowledge of biodiversity, landscapes, grazing
+
+137
+00:11:14,934 --> 00:11:19,224
+conditions, we are also talking about knowledge that is connected to culture,
+
+138
+00:11:19,314 --> 00:11:23,904
+language, land, and relationships, and knowledge that needs to be transmitted to
+
+139
+00:11:23,994 --> 00:11:25,194
+future generations.
+
+140
+00:11:27,714 --> 00:11:32,844
+So despite the growing recognitions of indigenous rights through UNDRIP and other
+
+141
+00:11:32,904 --> 00:11:37,644
+international instruments, much of the research data concerning Sámi people is
+
+142
+00:11:37,674 --> 00:11:43,614
+still held and governed by universities, state archives, museums, and research
+
+143
+00:11:43,674 --> 00:11:44,575
+infrastructures,
+
+144
+00:11:45,774 --> 00:11:51,325
+and these institutions may have legal, administrative, or custodial responsibility
+
+145
+00:11:51,384 --> 00:11:52,254
+for the data.
+
+146
+00:11:54,414 --> 00:11:58,554
+But this can mean the Sámi communities themselves have limited influence over
+
+147
+00:11:58,584 --> 00:12:04,524
+decisions about use and stewardship, even when those data concern Sámi collective
+
+148
+00:12:04,584 --> 00:12:05,064
+histories,
+
+149
+00:12:06,444 --> 00:12:08,094
+culture, knowledge, and more.
+
+150
+00:12:11,124 --> 00:12:14,964
+So the question is not simply whether we can preserve or make data accessible.
+
+151
+00:12:15,264 --> 00:12:18,684
+It is also whether indigenous peoples can continue to maintain
+
+152
+00:12:20,124 --> 00:12:25,733
+and transmit knowledge and have a meaningful role in decisions concerning material
+
+153
+00:12:25,825 --> 00:12:27,984
+and information connected to that knowledge.
+
+154
+00:12:31,374 --> 00:12:34,434
+So indigenous data sovereignty doesn't begin with data.
+
+155
+00:12:34,764 --> 00:12:38,634
+It begins with self-determination and indigenous people's rights.
+
+156
+00:12:46,374 --> 00:12:51,114
+So here I want to distinguish between two closely related concepts, indigenous data
+
+157
+00:12:51,204 --> 00:12:53,545
+sovereignty and indigenous data governance.
+
+158
+00:12:55,224 --> 00:12:58,945
+So indigenous data sovereignty is fundamentally about self-determination, rights,
+
+159
+00:12:59,004 --> 00:13:04,374
+and authority. It recognizes the right of indigenous peoples to have authority over
+
+160
+00:13:04,434 --> 00:13:08,034
+data that concerns our people, communities, land, and knowledge.
+
+161
+00:13:09,024 --> 00:13:12,654
+Indigenous data governance is about putting that authority into practice.
+
+162
+00:13:14,064 --> 00:13:19,045
+It concerns the policies, protocols, institutions, and decision-making processes
+
+163
+00:13:19,075 --> 00:13:24,204
+that shape how data are collected, stored, accessed, interpreted, shared, and
+
+164
+00:13:24,265 --> 00:13:24,864
+reused.
+
+165
+00:13:26,844 --> 00:13:31,914
+But indigenous data governance is not simply another form of good data management.
+
+166
+00:13:33,414 --> 00:13:37,644
+It requires us to think more fundamentally about whose knowledge counts, who holds
+
+167
+00:13:37,704 --> 00:13:41,575
+authority, and how power is exercised within our data systems.
+
+168
+00:13:43,164 --> 00:13:47,274
+And ultimately, the purpose is to support indigenous self-determination and
+
+169
+00:13:47,364 --> 00:13:49,195
+long-term cultural continuity.
+
+170
+00:13:52,585 --> 00:13:54,894
+So the two dimensions are in practice,
+
+171
+00:13:57,445 --> 00:14:01,434
+and it's particularly useful when we talk about biodiversity data.
+
+172
+00:14:03,534 --> 00:14:05,424
+So the first is data for governance.
+
+173
+00:14:05,874 --> 00:14:10,075
+Indigenous peoples need access to data in order to make our own decisions and
+
+174
+00:14:10,134 --> 00:14:11,964
+govern according to our own priorities.
+
+175
+00:14:13,164 --> 00:14:18,714
+For Sámi communities, that include biodiversity data on reindeer grazing
+
+176
+00:14:18,774 --> 00:14:22,524
+conditions and changes in ecosystems and so on.
+
+177
+00:14:23,634 --> 00:14:25,374
+And the second is governance of data.
+
+178
+00:14:25,644 --> 00:14:27,954
+This is about having authority over that data.
+
+179
+00:14:30,894 --> 00:14:34,734
+So we can have access to data without having authority over how those data are
+
+180
+00:14:34,795 --> 00:14:39,265
+governed. And equally, if we want meaningful indigenous governance, we also need
+
+181
+00:14:39,384 --> 00:14:43,045
+access to the information necessary for our own decision-making.
+
+182
+00:14:48,474 --> 00:14:53,484
+So for biodiversity data, this becomes particularly interesting because we might
+
+183
+00:14:53,545 --> 00:14:55,524
+think, but these aren't data about people.
+
+184
+00:14:56,244 --> 00:14:59,724
+These are data about species, ecosystems, plants, and animals.
+
+185
+00:15:01,104 --> 00:15:04,045
+So then we move on to what are indigenous data?
+
+186
+00:15:08,424 --> 00:15:14,184
+So indigenous data, we might think it's, for example, health data, demographic
+
+187
+00:15:14,274 --> 00:15:19,164
+data, administrative data, or research involving indigenous participants.
+
+188
+00:15:19,825 --> 00:15:24,714
+But it's much more than that. Indigenous data can include data, information, and
+
+189
+00:15:24,744 --> 00:15:29,964
+knowledges in any format that impact indigenous peoples, nations,
+
+190
+00:15:30,024 --> 00:15:33,204
+communities at both collective and individual levels.
+
+191
+00:15:34,825 --> 00:15:37,644
+And this framework identifies three broad areas.
+
+192
+00:15:38,214 --> 00:15:43,343
+There are data about us as individuals, things like health, administrative, legal,
+
+193
+00:15:43,374 --> 00:15:48,114
+and social data. There are data about us as collectives, including languages,
+
+194
+00:15:48,204 --> 00:15:52,795
+traditional and cultural information, knowledge systems, and ancestral and
+
+195
+00:15:52,854 --> 00:15:53,784
+collective knowledge.
+
+196
+00:15:56,124 --> 00:15:58,825
+And then it's data about our non-human relations.
+
+197
+00:15:59,515 --> 00:16:05,184
+So this includes data about land, water, territories, ecosystems, plants, and
+
+198
+00:16:05,244 --> 00:16:08,244
+animals. So suddenly, we're back to the
+
+199
+00:16:09,594 --> 00:16:13,104
+lichen data, the lichen I showed you earlier.
+
+200
+00:16:14,664 --> 00:16:17,575
+So the boundaries are not necessarily that simple.
+
+201
+00:16:19,674 --> 00:16:22,734
+So the lichen occurs within Sámi reindeer grazing lands.
+
+202
+00:16:22,884 --> 00:16:26,515
+They're connected to reindeer, to culture, to language,
+
+203
+00:16:29,784 --> 00:16:31,554
+to grazing conditions, and so on.
+
+204
+00:16:32,814 --> 00:16:37,045
+So biodiversity data do not necessarily have to contain information about Sámi
+
+205
+00:16:37,134 --> 00:16:39,984
+person to have relevance for indigenous data governance.
+
+206
+00:16:43,134 --> 00:16:47,814
+So I think this one is the most important point for the biodiversity
+
+207
+00:16:47,874 --> 00:16:48,835
+infrastructures.
+
+208
+00:16:52,374 --> 00:16:58,104
+So before we move further, I want to talk about the Sámi
+
+209
+00:16:58,164 --> 00:16:58,914
+context.
+
+210
+00:17:02,575 --> 00:17:06,684
+So there can be skepticism and caution toward research towards sharing data,
+
+211
+00:17:08,214 --> 00:17:10,314
+and this does not come from nowhere.
+
+212
+00:17:14,785 --> 00:17:18,924
+For generations, Sámi people have been researched, measured, classified, and
+
+213
+00:17:18,984 --> 00:17:22,404
+documented by institutions outside Sámi society.
+
+214
+00:17:23,454 --> 00:17:28,765
+This history includes colonization and assimilation and also racial biology,
+
+215
+00:17:29,334 --> 00:17:34,254
+where Sámi people were measured and categorized as objects of scientific research.
+
+216
+00:17:35,394 --> 00:17:40,015
+Data, photographs, human remains, cultural objects, and knowledge have been
+
+217
+00:17:40,044 --> 00:17:45,114
+collected and taken into universities, museums, archives, and other institutions.
+
+218
+00:17:45,984 --> 00:17:50,694
+And historically, Sámi people have often had very limited influence over what was
+
+219
+00:17:50,725 --> 00:17:56,664
+collected, how it was interpreted, where it was kept, and who could access it, and
+
+220
+00:17:56,725 --> 00:17:58,734
+how it could later be reused.
+
+221
+00:18:00,624 --> 00:18:05,214
+The quotation on this slide illustrates how that history can continue to shape
+
+222
+00:18:05,274 --> 00:18:09,475
+people's willingness to participate in research and to provide information.
+
+223
+00:18:10,884 --> 00:18:16,104
+And this is not unique to Sámi. Similar questions about research relationships,
+
+224
+00:18:16,554 --> 00:18:17,364
+extraction,
+
+225
+00:18:18,624 --> 00:18:22,494
+and trust are discussed by indigenous peoples in many parts of the world.
+
+226
+00:18:24,564 --> 00:18:28,854
+So one of the important tasks for research today is building and maintaining trust.
+
+227
+00:18:29,604 --> 00:18:33,294
+But trust cannot simply be requested from Sámi communities.
+
+228
+00:18:33,864 --> 00:18:36,804
+It has to be earned through the way research is done.
+
+229
+00:18:37,975 --> 00:18:43,765
+And that means meaningful participation, transparency, relationships,
+
+230
+00:18:43,884 --> 00:18:48,265
+accountability, and having a say in what happens to data after they have been
+
+231
+00:18:48,324 --> 00:18:48,954
+collected.
+
+232
+00:18:52,884 --> 00:18:57,534
+So back to the lichen data. At the beginning, I presented this as a quite
+
+233
+00:18:57,744 --> 00:19:00,475
+straightforward biodiversity monitoring project.
+
+234
+00:19:01,314 --> 00:19:05,725
+We had permanent plots, we identified species, we measured lichen cover and
+
+235
+00:19:05,784 --> 00:19:08,874
+condition, and we compared changes over time.
+
+236
+00:19:10,015 --> 00:19:13,914
+So we have a biodiversity record and observation of lichen.
+
+237
+00:19:15,954 --> 00:19:19,644
+Put many of these observations together and we can say something about the
+
+238
+00:19:19,704 --> 00:19:22,884
+distribution and condition of lichen across the landscape.
+
+239
+00:19:24,024 --> 00:19:27,774
+But this particular landscape is also reindeer grazing land, and lichen is an
+
+240
+00:19:27,834 --> 00:19:30,174
+important winter grazing resource for reindeer.
+
+241
+00:19:31,194 --> 00:19:34,374
+So this data can also tell us something about grazing conditions,
+
+242
+00:19:35,694 --> 00:19:39,654
+and this is where the data can begin to move beyond ecological monitoring.
+
+243
+00:19:40,644 --> 00:19:44,515
+The data can be analyzed, combined with other information, and used in research and
+
+244
+00:19:44,574 --> 00:19:50,094
+management. They may contribute to how environmental change and grazing conditions
+
+245
+00:19:50,184 --> 00:19:54,475
+are understood and potentially to decisions concerning these landscapes.
+
+246
+00:19:55,674 --> 00:19:58,765
+And those landscapes are not simply ecological spaces.
+
+247
+00:19:59,544 --> 00:20:01,734
+They are connected to Sámi reindeer husbandry.
+
+248
+00:20:08,725 --> 00:20:12,834
+So before I go further with this example, I want to make one thing very clear.
+
+249
+00:20:13,344 --> 00:20:18,654
+I'm not using this case to criticize NINA or the researchers who carried out this
+
+250
+00:20:18,714 --> 00:20:24,234
+work. This was valuable ecological monitoring, and I was fortunate to participate
+
+251
+00:20:24,294 --> 00:20:29,934
+in it. I'm also looking back at research that was conducted almost 20 years ago
+
+252
+00:20:29,964 --> 00:20:33,924
+through questions and frameworks that have developed considerably since then.
+
+253
+00:20:36,324 --> 00:20:38,904
+So I'm using this as a thought experiment.
+
+254
+00:20:39,234 --> 00:20:43,884
+If we looked at this data today through the lens of indigenous data governance,
+
+255
+00:20:44,334 --> 00:20:47,454
+what additional questions might we ask?
+
+256
+00:20:48,954 --> 00:20:52,524
+And here I want to look at what happens when this data move beyond the individual
+
+257
+00:20:52,584 --> 00:20:57,984
+measurements. The monitoring data were analyzed and published in the NINA report.
+
+258
+00:21:00,054 --> 00:21:04,464
+The report found that overall lichen cover had increased and that average lichen
+
+259
+00:21:04,524 --> 00:21:07,044
+thickness had also increased.
+
+260
+00:21:08,304 --> 00:21:11,844
+So from the ecological measurements, the researchers could document what they
+
+261
+00:21:11,904 --> 00:21:17,274
+interpreted as a generally positive development in the lichen vegetation,
+
+262
+00:21:18,354 --> 00:21:21,444
+although there were considerable differences between areas.
+
+263
+00:21:23,034 --> 00:21:26,394
+And these findings also traveled outside the scientific report.
+
+264
+00:21:26,604 --> 00:21:31,254
+Here, for example, the headline says, "Better grazing on Finnmarksvidda," which is
+
+265
+00:21:31,464 --> 00:21:33,654
+a plateau in Northern Norway.
+
+266
+00:21:35,274 --> 00:21:39,504
+The text underneath says that research shows that lichen is growing in Finnmark.
+
+267
+00:21:45,114 --> 00:21:47,154
+And I find this transition interesting.
+
+268
+00:21:47,604 --> 00:21:50,634
+We started with measurements of lichen cover and thickness.
+
+269
+00:21:51,204 --> 00:21:56,094
+The scientific report interprets changes in the lichen vegetation, and then in
+
+270
+00:21:56,154 --> 00:21:58,824
+public communication, this becomes better grazing.
+
+271
+00:21:59,994 --> 00:22:02,184
+But what does better grazing actually mean?
+
+272
+00:22:03,354 --> 00:22:08,034
+Can we determine that from the amount and thickness of lichen data alone?
+
+273
+00:22:10,374 --> 00:22:14,334
+For a reindeer herder, grazing conditions involve much more than how much lichen is
+
+274
+00:22:14,394 --> 00:22:20,094
+present. They also involve snow and ice conditions, whether the reindeer can
+
+275
+00:22:20,184 --> 00:22:25,734
+actually access the lichen, weather, landscape disturbance, movement between
+
+276
+00:22:25,794 --> 00:22:29,274
+seasonal grazing areas, and knowledge on how reindeer use the land.
+
+277
+00:22:31,674 --> 00:22:34,314
+So this is where I see an important knowledge gap.
+
+278
+00:22:35,064 --> 00:22:40,074
+The report gives us valuable ecological knowledge, but in this particular account,
+
+279
+00:22:40,164 --> 00:22:44,604
+there's much less visibility of the knowledge and perspectives of the Sámi reindeer
+
+280
+00:22:44,634 --> 00:22:46,914
+herders who use these grazing lands.
+
+281
+00:22:48,894 --> 00:22:51,774
+That doesn't make the ecological data less valuable.
+
+282
+00:22:52,074 --> 00:22:55,374
+It means that the ecological data are only one part of the picture.
+
+283
+00:22:59,754 --> 00:23:02,874
+So this brings us back to the indigenous data governance.
+
+284
+00:23:04,734 --> 00:23:10,614
+It is also about whose knowledge is included in interpreting those data, who
+
+285
+00:23:10,674 --> 00:23:13,044
+gets to define what that findings mean,
+
+286
+00:23:14,334 --> 00:23:18,804
+and whose perspectives are visible when these findings are communicated and used.
+
+287
+00:23:20,154 --> 00:23:24,294
+So more lichen does not by itself tell us what better grazing means.
+
+288
+00:23:27,804 --> 00:23:32,274
+So that's why we need FAIR principles for indigenous data governance.
+
+289
+00:23:33,294 --> 00:23:38,784
+So many of you are familiar with FAIR, so I don't want to go through all of
+
+290
+00:23:39,204 --> 00:23:44,814
+these in detail. So FAIR stands for collective benefit, authority to
+
+291
+00:23:44,844 --> 00:23:47,424
+control, responsibility, and ethics.
+
+292
+00:23:48,534 --> 00:23:53,964
+While FAIR focuses primarily on the characteristics that enable data to be found,
+
+293
+00:23:54,265 --> 00:23:58,794
+accessed, combined, and reused, CARE brings attention to people, rights,
+
+294
+00:23:58,944 --> 00:24:01,674
+relationships, and purposes in data governance.
+
+295
+00:24:06,294 --> 00:24:10,614
+Collective benefits ask whether the data ecosystems are designed in ways that
+
+296
+00:24:10,734 --> 00:24:13,194
+actually create benefits for indigenous peoples.
+
+297
+00:24:14,244 --> 00:24:19,044
+Authority to control is about recognizing indigenous peoples' rights and interests
+
+298
+00:24:19,104 --> 00:24:24,624
+in data and the authority in decisions about how those data are governed.
+
+299
+00:24:26,094 --> 00:24:30,024
+Responsibility reminds us that working with indigenous data also creates
+
+300
+00:24:30,084 --> 00:24:35,154
+responsibilities to build relationships, strengthen capacity, and recognize
+
+301
+00:24:35,214 --> 00:24:37,884
+indigenous languages, knowledge, and worldviews.
+
+302
+00:24:39,804 --> 00:24:44,544
+And ethics ask us to consider indigenous rights and wellbeing throughout the entire
+
+303
+00:24:44,604 --> 00:24:48,384
+data life cycle, including possible future uses of the data.
+
+304
+00:24:51,684 --> 00:24:55,314
+So CARE gives us an important framework for thinking differently about data
+
+305
+00:24:55,344 --> 00:24:56,064
+governance.
+
+306
+00:25:03,475 --> 00:25:06,084
+So Carol and colleagues make an important distinction here.
+
+307
+00:25:06,414 --> 00:25:11,244
+FAIR and CARE are complementary. They are not competing approaches.
+
+308
+00:25:12,504 --> 00:25:16,015
+But they ask us to do somewhat different things.
+
+309
+00:25:17,064 --> 00:25:22,284
+Assessing whether a data set is FAIR can largely be a technical exercise.
+
+310
+00:25:22,884 --> 00:25:28,164
+We can ask whether the data are findable, accessible, interoperable, and reusable.
+
+311
+00:25:28,794 --> 00:25:31,794
+CARE cannot be addressed only by looking at the data set.
+
+312
+00:25:32,334 --> 00:25:34,584
+CARE requires engagement with people.
+
+313
+00:25:35,904 --> 00:25:40,314
+And importantly, this engagement cannot simply happen at the end of a research
+
+314
+00:25:40,344 --> 00:25:43,944
+project when we are preparing a data set for publication.
+
+315
+00:25:44,814 --> 00:25:48,894
+CARE needs to be considered throughout the data life cycle, from the question we
+
+316
+00:25:49,014 --> 00:25:53,574
+ask and the way data are collected, through governance and analysis, to sharing,
+
+317
+00:25:54,084 --> 00:25:55,554
+reuse, and future use.
+
+318
+00:25:57,114 --> 00:26:01,524
+So making data technically reusable is not the same thing as making their reuse
+
+319
+00:26:01,614 --> 00:26:03,114
+appropriate or ethical.
+
+320
+00:26:10,734 --> 00:26:14,814
+And that creates a practical question: How do we operationalize CARE?
+
+321
+00:26:15,954 --> 00:26:19,554
+And this is also a question we have been working with in Sámi.
+
+322
+00:26:24,564 --> 00:26:28,194
+So one important development was the first international conference on Sámi
+
+323
+00:26:28,254 --> 00:26:32,245
+research data governance held in Tromsø in January 2023.
+
+324
+00:26:33,264 --> 00:26:37,824
+The conference grew out of the Giida Sámi network and earlier online seminars that
+
+325
+00:26:37,855 --> 00:26:42,654
+had brought together Sámi and non-Sámi researchers and people working with research
+
+326
+00:26:42,715 --> 00:26:44,574
+data in Norway, Sweden, and Finland.
+
+327
+00:26:45,834 --> 00:26:50,605
+The purpose was to create a space where experiences could be shared and begin
+
+328
+00:26:50,665 --> 00:26:54,954
+discussing what indigenous data governance actually means in a Sámi and Nordic
+
+329
+00:26:55,014 --> 00:26:55,764
+context.
+
+330
+00:26:57,415 --> 00:27:01,614
+CARE was an important framework for the conference, but the question was really how
+
+331
+00:27:01,674 --> 00:27:05,904
+principles like CARE could be understood and eventually put into practice in Sámi.
+
+332
+00:27:08,844 --> 00:27:12,774
+Indigenous data governance is about indigenous authority and self-determination, so
+
+333
+00:27:12,804 --> 00:27:17,514
+we also need Sámi-led spaces where researchers, institutions, organizations, and
+
+334
+00:27:17,605 --> 00:27:22,674
+people working with data can discuss what appropriate governance should look like
+
+335
+00:27:22,764 --> 00:27:24,024
+in our own context.
+
+336
+00:27:26,934 --> 00:27:30,355
+And the responses to that first conference showed that there was considerable
+
+337
+00:27:30,415 --> 00:27:32,154
+interest in doing exactly that.
+
+338
+00:27:37,687 --> 00:27:42,336
+There was broad participation from Sámi organizations, academia, governmental
+
+339
+00:27:42,427 --> 00:27:47,946
+organizations, and NGOs, including Sámi Parliament, the Sámi Council, and the
+
+340
+00:27:48,036 --> 00:27:50,616
+Expert Ethical Committee for Sámi Health Research.
+
+341
+00:27:52,086 --> 00:27:54,516
+And the range of topics was also quite broad.
+
+342
+00:27:55,056 --> 00:28:00,187
+There were discussions on ethics, archives and repositories, health data,
+
+343
+00:28:00,937 --> 00:28:05,736
+school research, machine learning, different contexts across Sámi, and practical
+
+344
+00:28:05,796 --> 00:28:07,866
+approaches about data governance.
+
+345
+00:28:09,666 --> 00:28:13,836
+Another important outcome was that several of the conference contributions were
+
+346
+00:28:13,866 --> 00:28:19,056
+developed further and published in a thematic issue of Acta Borealia on Indigenous
+
+347
+00:28:19,116 --> 00:28:20,406
+research data governance.
+
+348
+00:28:28,026 --> 00:28:32,466
+So a working group was also established to strengthen the network and continue the
+
+349
+00:28:32,496 --> 00:28:33,246
+collaboration.
+
+350
+00:28:35,496 --> 00:28:40,056
+So the conference was an important meeting point, but it did not emerge in
+
+351
+00:28:40,146 --> 00:28:45,576
+isolation. It grew out of an emerging network in Sámi and was also connected to a
+
+352
+00:28:45,606 --> 00:28:49,866
+much broader international movement around Indigenous data sovereignty and
+
+353
+00:28:49,927 --> 00:28:51,336
+Indigenous data governance.
+
+354
+00:28:54,906 --> 00:28:59,946
+The Global Indigenous Data Alliance, or GIDA, was established in 2019.
+
+355
+00:29:00,366 --> 00:29:05,106
+It is an international network for Indigenous researchers, data practitioners, and
+
+356
+00:29:05,166 --> 00:29:10,326
+policy advocates working to advance Indigenous data sovereignty and Indigenous data
+
+357
+00:29:10,356 --> 00:29:10,986
+governance.
+
+358
+00:29:12,366 --> 00:29:16,776
+GIDA's work is about asserting Indigenous peoples' rights and interests in data,
+
+359
+00:29:17,286 --> 00:29:22,296
+but importantly, it is also about data for self-determination, ensuring that
+
+360
+00:29:22,356 --> 00:29:26,916
+Indigenous peoples have access to and can use data for their own priorities,
+
+361
+00:29:27,396 --> 00:29:28,957
+wellbeing, and decision-making.
+
+362
+00:29:30,127 --> 00:29:33,516
+So there are really two sides here, having authority over data concerning
+
+363
+00:29:33,576 --> 00:29:35,496
+Indigenous peoples and having the data
+
+364
+00:29:36,846 --> 00:29:39,187
+that Indigenous peoples need for their own governance.
+
+365
+00:29:41,856 --> 00:29:47,616
+GIDA has connected networks and initiatives in different parts of the world.
+
+366
+00:29:47,796 --> 00:29:53,766
+In Sámi, we have GIDA Sámi. It was established in 2021, and the
+
+367
+00:29:53,796 --> 00:29:57,216
+reason for establishing GIDA Sámi was quite simple.
+
+368
+00:29:58,056 --> 00:30:02,946
+Global principles need to be understood and operationalized in the local Indigenous
+
+369
+00:30:03,006 --> 00:30:03,636
+context.
+
+370
+00:30:05,556 --> 00:30:09,036
+So GIDA Sámi, therefore, has three main objectives.
+
+371
+00:30:10,957 --> 00:30:16,776
+First, to promote, adapt, and operationalize the CARE principles in Sámi context.
+
+372
+00:30:18,306 --> 00:30:22,896
+Second, to increase awareness of care within research, memory, and archival
+
+373
+00:30:22,957 --> 00:30:28,326
+institutions. And third, to advance the discussion about Sámi data governance
+
+374
+00:30:28,386 --> 00:30:29,106
+principles.
+
+375
+00:30:31,056 --> 00:30:35,466
+Ultimately, the aim is to strengthen Sámi data governance, ensure that data can
+
+376
+00:30:35,526 --> 00:30:39,516
+better serve the needs and priorities of contemporary Sámi society.
+
+377
+00:30:43,146 --> 00:30:45,486
+So there are other things happening as well,
+
+378
+00:30:48,486 --> 00:30:50,616
+and I just want to briefly mention these,
+
+379
+00:30:52,986 --> 00:30:57,696
+because these are discussions that are moving from principles toward practice.
+
+380
+00:30:59,256 --> 00:31:04,896
+So one recent development is the IEE 2890:2025 standard on the
+
+381
+00:31:04,927 --> 00:31:06,906
+provenance of Indigenous peoples' data.
+
+382
+00:31:08,106 --> 00:31:12,756
+It provides guidance for describing and recording the provenance of data relating
+
+383
+00:31:12,817 --> 00:31:16,836
+to Indigenous peoples, including their cultures, lands, and knowledge systems.
+
+384
+00:31:18,516 --> 00:31:23,046
+What is particularly relevant here is that provenance is connected not only to data
+
+385
+00:31:23,106 --> 00:31:27,996
+integrity, but also to questions of Indigenous participation, control, and
+
+386
+00:31:28,056 --> 00:31:31,207
+governance as data circulate and are reused.
+
+387
+00:31:32,646 --> 00:31:38,226
+And the standard explicitly identifies biodiversity research as one of the areas
+
+388
+00:31:38,286 --> 00:31:39,666
+where this is relevant.
+
+389
+00:31:42,187 --> 00:31:45,696
+Another development is particularly
+
+390
+00:31:47,346 --> 00:31:50,076
+relevant for this community. In 2025,
+
+391
+00:31:52,086 --> 00:31:57,457
+GBIF established an Indigenous data governance task group looking at how care can
+
+392
+00:31:57,486 --> 00:31:59,677
+be supported within the GBIF network.
+
+393
+00:32:01,356 --> 00:32:06,127
+This includes work with local context labels and notices and exploring how
+
+394
+00:32:06,187 --> 00:32:09,726
+Indigenous context can remain connected to biodiversity data.
+
+395
+00:32:11,466 --> 00:32:16,266
+This work is still ongoing, so I don't want to present it as a finished solution.
+
+396
+00:32:17,526 --> 00:32:21,187
+But I think it's significant that these questions are now being considered within
+
+397
+00:32:21,246 --> 00:32:24,096
+biodiversity data infrastructures itself.
+
+398
+00:32:26,406 --> 00:32:27,666
+So more things happening.
+
+399
+00:32:30,216 --> 00:32:35,796
+These things are not limited to biodiversity infrastructures or to Sámi.
+
+400
+00:32:36,636 --> 00:32:40,116
+Internationally, we're seeing many different attempts to put Indigenous data
+
+401
+00:32:40,177 --> 00:32:45,306
+governance into practice. One example is the development of guidelines for the
+
+402
+00:32:45,336 --> 00:32:48,457
+governance of Indigenous peoples' data in scholarly publishing.
+
+403
+00:32:51,636 --> 00:32:56,346
+This reminds us that governance does not end when data collection or a research
+
+404
+00:32:56,377 --> 00:33:00,666
+project ends. Data and knowledge continue to travel through publications,
+
+405
+00:33:01,026 --> 00:33:03,906
+repositories, and other research systems.
+
+406
+00:33:06,546 --> 00:33:10,656
+And then we're also seeing Indigenous peoples developing own infrastructure.
+
+407
+00:33:11,046 --> 00:33:15,846
+And this example from Aotearoa, New Zealand, is a Maori-owned data storage network
+
+408
+00:33:16,296 --> 00:33:21,486
+designed to enable Maori data to be stored within Maori-controlled infrastructure.
+
+409
+00:33:22,596 --> 00:33:25,476
+So here, data sovereignty becomes very concrete.
+
+410
+00:33:26,016 --> 00:33:30,366
+It is not only about principles, but also about ownership, infrastructures, and
+
+411
+00:33:30,427 --> 00:33:31,056
+control.
+
+412
+00:33:32,736 --> 00:33:38,106
+So things are happening in many levels, and there is no single technical solution.
+
+413
+00:33:42,696 --> 00:33:45,156
+So then let's return back to the lichen.
+
+414
+00:33:49,446 --> 00:33:53,286
+So I'm not looking back at this project to ask what the researchers did wrong.
+
+415
+00:33:53,556 --> 00:33:57,187
+Instead, I want to use this data as a thought experiment.
+
+416
+00:33:58,356 --> 00:34:03,696
+If we were collecting and sharing this lichen data today with what we know
+
+417
+00:34:04,716 --> 00:34:09,187
+about Indigenous data governance, care, and Sámi research ethics, what additional
+
+418
+00:34:09,246 --> 00:34:14,766
+questions might we ask? A biodiversity record can carry quite a lot of information.
+
+419
+00:34:15,756 --> 00:34:19,236
+We can record the species, the location, the date, and the observer.
+
+420
+00:34:19,297 --> 00:34:22,536
+We can add measurements, identifiers, and other metadata.
+
+421
+00:34:24,486 --> 00:34:28,146
+And through biodiversity infrastructures, those data can become findable,
+
+422
+00:34:28,236 --> 00:34:31,866
+accessible, and reusable far beyond the original research project.
+
+423
+00:34:33,366 --> 00:34:38,766
+But what about Sámi context, knowledge provenance, authority, responsibilities for
+
+424
+00:34:38,856 --> 00:34:44,377
+reuse, and so on? And how could we better align this data with care?
+
+425
+00:34:58,806 --> 00:34:58,927
+So
+
+426
+00:35:00,636 --> 00:35:06,096
+what does it actually require in practice to align this data with care?
+
+427
+00:35:07,866 --> 00:35:10,956
+So before we do that, I want to mention these
+
+428
+00:35:11,016 --> 00:35:16,596
+Sámi ethical guidelines for research.
+
+429
+00:35:17,766 --> 00:35:22,297
+And this is an important development in Sámi that we need to include.
+
+430
+00:35:23,196 --> 00:35:28,536
+In 2024, new ethical guidelines for research involving the Sámi people in Finland
+
+431
+00:35:28,567 --> 00:35:33,966
+were published. These guidelines bring Sámi ethical considerations into the
+
+432
+00:35:33,996 --> 00:35:39,456
+research process itself, including how research is planned, how relationships with
+
+433
+00:35:39,516 --> 00:35:44,496
+Sámi communities are built, and how research that may affect Sámi people and
+
+434
+00:35:44,556 --> 00:35:46,746
+communities is carried out.
+
+435
+00:35:48,966 --> 00:35:51,666
+And in the same year, the Sámi Council adopted
+
+436
+00:35:54,666 --> 00:35:57,456
+the Sámi Ownership and Data Access Principle, SODA.
+
+437
+00:35:58,626 --> 00:36:03,636
+SODA builds on care but makes some things particularly explicit in a Sámi context.
+
+438
+00:36:04,146 --> 00:36:08,317
+It speaks about collective benefits, Sámi authority to control, Sámi ownership,
+
+439
+00:36:08,406 --> 00:36:09,996
+responsibility, and ethics.
+
+440
+00:36:11,436 --> 00:36:15,336
+And importantly, these questions concern the whole data lifecycle, collecting,
+
+441
+00:36:15,427 --> 00:36:17,766
+storage, use, sharing, and future reuse.
+
+442
+00:36:19,146 --> 00:36:23,136
+So together, these developments remind us that Indigenous data governance is not
+
+443
+00:36:23,196 --> 00:36:26,766
+something we simply add to a dataset at the point of publication.
+
+444
+00:36:27,996 --> 00:36:32,646
+It is an iterative process that needs to be considered from the beginning of the
+
+445
+00:36:32,706 --> 00:36:38,526
+research and revisited as the data are collected, interpreted, stored,
+
+446
+00:36:38,616 --> 00:36:39,606
+shared, and reused.
+
+447
+00:36:43,272 --> 00:36:47,143
+And so that also brings us back very clearly to the question of ownership and
+
+448
+00:36:47,172 --> 00:36:52,692
+authority. Who has the right and decision-making power in relation to Sámi data?
+
+449
+00:36:57,462 --> 00:37:00,222
+So here, the CARE data maturity model
+
+450
+00:37:01,632 --> 00:37:03,702
+is one way to operationalize care.
+
+451
+00:37:06,612 --> 00:37:09,552
+One thing I find particularly useful about this model
+
+452
+00:37:11,802 --> 00:37:17,472
+is that it presents care as an iterative process rather
+
+453
+00:37:17,562 --> 00:37:18,312
+something that
+
+454
+00:37:19,542 --> 00:37:21,762
+we do once the project is ended.
+
+455
+00:37:24,762 --> 00:37:28,662
+So in the beginning, we start by recognizing the context and establishing the
+
+456
+00:37:28,722 --> 00:37:31,032
+principles and values that should guide the work.
+
+457
+00:37:33,102 --> 00:37:37,482
+Then we assess where we are, identify priorities, document progress, and
+
+458
+00:37:37,542 --> 00:37:39,852
+importantly, review, reflect, and improve.
+
+459
+00:37:44,262 --> 00:37:49,782
+So my colleagues here to the right
+
+460
+00:37:52,032 --> 00:37:53,322
+have also been working with
+
+461
+00:37:54,852 --> 00:37:58,182
+what this could mean specifically in Sámi research context.
+
+462
+00:37:59,352 --> 00:38:04,932
+This paper brings together the CARE principles and Sámi ethical guidance and
+
+463
+00:38:05,022 --> 00:38:07,692
+translates them into more practical recommendations.
+
+464
+00:38:09,102 --> 00:38:14,082
+For example, collective benefit means asking Sámi partners what they actually need
+
+465
+00:38:14,143 --> 00:38:17,682
+from the research and considering benefits and possible harms.
+
+466
+00:38:18,882 --> 00:38:23,623
+Authority to control means thinking about consent, collective interests, data
+
+467
+00:38:23,682 --> 00:38:28,992
+governance plans, and how Sámi people are represented in decisions about access,
+
+468
+00:38:29,172 --> 00:38:30,132
+use, and reuse.
+
+469
+00:38:31,452 --> 00:38:36,312
+Responsibility includes relationships, cultural competence, and documenting
+
+470
+00:38:36,373 --> 00:38:38,623
+governance in the data management process.
+
+471
+00:38:39,672 --> 00:38:45,042
+And ethics include transparency, appropriate conditions for access and reuse, and
+
+472
+00:38:45,072 --> 00:38:45,942
+benefit-sharing.
+
+473
+00:38:47,862 --> 00:38:52,212
+The important point is that these decisions begin before the data are collected and
+
+474
+00:38:52,272 --> 00:38:54,643
+continue throughout the life cycle of the data.
+
+475
+00:38:58,752 --> 00:39:00,792
+So FAIR and CARE for the lichen data.
+
+476
+00:39:02,442 --> 00:39:07,482
+On the left is the kind of biodiversity record we started with, a scientific name,
+
+477
+00:39:07,572 --> 00:39:10,452
+a location, a data, and an observer.
+
+478
+00:39:11,623 --> 00:39:17,143
+If we apply the questions from the CARE framework and the Sámi contextualization I
+
+479
+00:39:17,232 --> 00:39:21,432
+showed on the previous slide, we begin to see additional questions around the
+
+480
+00:39:21,492 --> 00:39:22,002
+record.
+
+481
+00:39:23,202 --> 00:39:26,202
+For collective benefit, who needs this data?
+
+482
+00:39:26,742 --> 00:39:30,942
+Could monitoring priorities also respond to the information needs within Sámi
+
+483
+00:39:30,972 --> 00:39:36,012
+reindeer herding communities? For authority to control, are relevant Sámi rights
+
+484
+00:39:36,042 --> 00:39:40,123
+holders involved in decisions about collecting, access, and sharing, and reuse?
+
+485
+00:39:42,342 --> 00:39:46,602
+Responsibility asks what responsibilities come with collecting and stewarding this
+
+486
+00:39:46,632 --> 00:39:49,362
+data and what relationships need to be maintained?
+
+487
+00:39:50,652 --> 00:39:53,172
+And ethics asks us to consider how the data,
+
+488
+00:39:54,402 --> 00:39:58,362
+their interpretation, and their future reuse could affect Sámi interests and
+
+489
+00:39:58,393 --> 00:40:02,202
+whether Sámi knowledge and interpretations are appropriately represented.
+
+490
+00:40:04,602 --> 00:40:07,812
+At the same time, we want biodiversity data to be FAIR.
+
+491
+00:40:08,712 --> 00:40:13,123
+We want them to be findable. We want them to be accessible under appropriate
+
+492
+00:40:13,182 --> 00:40:18,072
+conditions. We want systems to be able to understand and exchange them, and we want
+
+493
+00:40:18,102 --> 00:40:19,422
+the data to be reusable.
+
+494
+00:40:20,952 --> 00:40:24,342
+But when we put CARE and FAIR beside each other like this, another question
+
+495
+00:40:24,402 --> 00:40:29,772
+appears. As we make the lichen data easier to discover, share, and reuse, how do
+
+496
+00:40:30,402 --> 00:40:34,962
+we make sure that relevant context, authority, and responsibilities are not lost?
+
+497
+00:40:35,893 --> 00:40:37,873
+FAIR can help this lichen data travel.
+
+498
+00:40:38,112 --> 00:40:41,862
+CARE asks us to consider the governance around it.
+
+499
+00:40:51,012 --> 00:40:55,782
+So that brings us to the biodiversity infrastructure itself, and these are things
+
+500
+00:40:55,812 --> 00:40:58,662
+that the GBIF Indigenous Task Force is working with.
+
+501
+00:40:59,772 --> 00:41:03,702
+So if you take this CARE question seriously, what could they mean when biodiversity
+
+502
+00:41:03,762 --> 00:41:06,732
+data are shared through infrastructure such as GBIF?
+
+503
+00:41:08,472 --> 00:41:10,062
+So there may be three stages.
+
+504
+00:41:11,982 --> 00:41:16,692
+Data that are already there, the reuse of those data, and new data collections.
+
+505
+00:41:17,862 --> 00:41:22,962
+First, there are already biodiversity data in GBIF that may be significant in Sámi
+
+506
+00:41:23,022 --> 00:41:26,143
+context. Lichen is an obvious example.
+
+507
+00:41:27,402 --> 00:41:32,502
+How do we recognize when apparently ordinary biodiversity data also have particular
+
+508
+00:41:32,562 --> 00:41:35,202
+significance for Sámi communities and interests?
+
+509
+00:41:36,222 --> 00:41:41,143
+And if that significance is identified, could mechanisms such as local context help
+
+510
+00:41:41,772 --> 00:41:44,172
+make some of that context visible?
+
+511
+00:41:45,792 --> 00:41:48,972
+The second question is what happens when those data are reused?
+
+512
+00:41:49,932 --> 00:41:54,282
+Once biodiversity data are aggregated, downloaded, combined with other datasets,
+
+513
+00:41:54,402 --> 00:41:59,682
+and used for new purposes, they can travel a very long way from the context in
+
+514
+00:41:59,712 --> 00:42:01,393
+which they were originally collected.
+
+515
+00:42:02,262 --> 00:42:05,172
+So can relevant context remain connected to the data?
+
+516
+00:42:06,672 --> 00:42:08,922
+Can provenance and reuse be traced?
+
+517
+00:42:10,212 --> 00:42:15,432
+And can information about governance and responsibilities continue to accompany the
+
+518
+00:42:15,492 --> 00:42:17,472
+data as they move between systems?
+
+519
+00:42:20,172 --> 00:42:22,632
+The third situation is new data collection.
+
+520
+00:42:23,592 --> 00:42:29,262
+Rather than trying to add care at the end, care can be considered when the research
+
+521
+00:42:29,322 --> 00:42:34,542
+is designed. Who should participate? What governance arrangements are appropriate?
+
+522
+00:42:35,082 --> 00:42:37,782
+What should be included in the data management plan?
+
+523
+00:42:38,202 --> 00:42:41,472
+And what protocols might be needed for future access and reuse?
+
+524
+00:42:43,602 --> 00:42:48,552
+So for existing data, we may need to recognize and reconnect context.
+
+525
+00:42:49,302 --> 00:42:53,742
+For reused data, we need to ask whether that context and governance can travel with
+
+526
+00:42:53,772 --> 00:42:59,412
+the data. And for new data, we have the opportunity to build
+
+527
+00:42:59,502 --> 00:43:01,662
+care into the process from the beginning.
+
+528
+00:43:04,032 --> 00:43:07,092
+So I want to emphasize that I'm presenting these as
+
+529
+00:43:07,151 --> 00:43:12,012
+questions rather than technical solutions.
+
+530
+00:43:15,342 --> 00:43:17,712
+So I want to finish where I started with the lichen.
+
+531
+00:43:21,373 --> 00:43:26,202
+Almost 20 years ago, when I was measuring lichen on the Finnmark Plateau, I
+
+532
+00:43:26,262 --> 00:43:30,192
+understood what we were collecting primarily as ecological data.
+
+533
+00:43:30,792 --> 00:43:34,452
+A species, a location, a measurement, a change over time.
+
+534
+00:43:35,322 --> 00:43:40,242
+But looking at those same data today through a lens of indigenous data governance,
+
+535
+00:43:40,393 --> 00:43:41,952
+I see something more.
+
+536
+00:43:43,212 --> 00:43:48,042
+The lichen record is still a biodiversity record, but it does not exist in
+
+537
+00:43:48,132 --> 00:43:53,802
+isolation. The lichen is part of an ecosystem, but it is also connected to reindeer
+
+538
+00:43:53,862 --> 00:43:58,512
+grazing, and through that, to the Sámi reindeer husbandry, land use, knowledge,
+
+539
+00:43:58,572 --> 00:44:01,362
+livelihoods, and relationships with the land.
+
+540
+00:44:01,932 --> 00:44:07,182
+So ecological data can have significance and consequences far beyond the individual
+
+541
+00:44:07,272 --> 00:44:08,292
+species record.
+
+542
+00:44:10,332 --> 00:44:14,292
+And this connects to the broader understanding of indigenous data that I have
+
+543
+00:44:14,352 --> 00:44:19,452
+talked about today. Indigenous data are not only data about indigenous people.
+
+544
+00:44:19,692 --> 00:44:25,002
+They can also include data about our lands, waters, ecosystems, plants, animals,
+
+545
+00:44:25,092 --> 00:44:26,832
+and other non-human relations.
+
+546
+00:44:28,932 --> 00:44:33,462
+And we are seeing important developments in Sápmi through care, Sámi ethical
+
+547
+00:44:33,522 --> 00:44:38,262
+guidelines, Soada, Giida Sápmi, and wider discussions about research data
+
+548
+00:44:38,292 --> 00:44:42,672
+governance. So we are moving from broad principle towards thinking much more
+
+549
+00:44:42,732 --> 00:44:45,222
+concretely about governance in practice.
+
+550
+00:44:47,052 --> 00:44:51,822
+Because making biodiversity data open, fair, and reusable can create enormous
+
+551
+00:44:51,882 --> 00:44:57,822
+value. But as those data become easier to discover, aggregate, and reuse,
+
+552
+00:44:58,002 --> 00:45:01,902
+we also need to think about what may be lost when they move away from their
+
+553
+00:45:01,932 --> 00:45:03,042
+original context.
+
+554
+00:45:05,022 --> 00:45:10,873
+So biodiversity infrastructure can carry a species name, location, a
+
+555
+00:45:10,932 --> 00:45:15,552
+date, and provenance. The challenge is how it can also support relevant context,
+
+556
+00:45:15,643 --> 00:45:18,012
+relationships, rights, and responsibilities.
+
+557
+00:45:19,992 --> 00:45:22,602
+So maybe this is the question I want to leave with you today.
+
+558
+00:45:23,022 --> 00:45:27,672
+When biodiversity data travel, does their governance travel with them?
+
+559
+00:45:33,373 --> 00:45:33,612
+Thank
+
+560
+00:45:33,672 --> 00:45:42,582
+you.
+
+561
+00:45:55,434 --> 00:45:59,304
+So we are in a situation where unfortunately we are a bit behind.
+
+562
+00:46:00,355 --> 00:46:06,294
+So if you have questions for Mara, please find her at the lunch break.
+
+563
+00:46:07,554 --> 00:46:11,184
+We're just going to try to get you as much time back for your lunch break as
+
+564
+00:46:11,244 --> 00:46:14,154
+possible, and so we're going to move forward.
+
+565
+00:46:14,574 --> 00:46:19,734
+So I'm going to let Javier continue with the adventures for the morning.
+
+566
+00:46:21,324 --> 00:46:27,234
+Okay. Hello. Let's get this moving.
+
+567
+00:46:27,984 --> 00:46:28,884
+Very big audience.
+
+568
+00:46:30,234 --> 00:46:35,514
+All right. Before I move forward and introduce our next keynote speaker, Ramona,
+
+569
+00:46:36,324 --> 00:46:38,304
+I wanted to take the opportunity for a small ad.
+
+570
+00:46:39,025 --> 00:46:43,853
+This is a caveat in regards to the pictures that my colleague earlier, Mario,
+
+571
+00:46:43,944 --> 00:46:48,834
+mentioned earlier today. Basically, I think it is important that we want to respect
+
+572
+00:46:48,894 --> 00:46:54,444
+personal space and consent, but also on the other hand, basically, I think we are a
+
+573
+00:46:54,474 --> 00:46:59,514
+very nice community, so I really ask you to continue to share pictures, basically
+
+574
+00:46:59,544 --> 00:47:03,114
+throughout the conference or pictures of the sessions and so on with all your
+
+575
+00:47:03,174 --> 00:47:08,934
+colleagues. Social media, you can use the hashtag #TADWIG2026, one word.
+
+576
+00:47:09,504 --> 00:47:14,634
+And also there is a feature in Whova, called Share Your Moments.
+
+577
+00:47:15,594 --> 00:47:19,525
+Please do so. And if you are nice to me, you buy me a coffee, you can also make it
+
+578
+00:47:19,614 --> 00:47:23,784
+a do TADWIG socials. So I will stop with the announcement there.
+
+579
+00:47:24,355 --> 00:47:28,284
+And now let me move and introduce our next speaker, Ramona.
+
+580
+00:47:29,334 --> 00:47:32,605
+So there are a couple of things that I learned earlier from Ramona.
+
+581
+00:47:32,964 --> 00:47:38,004
+Firstly, she is coming from Tucson, Arizona. No, it is not Tuxon, it is not Duxon.
+
+582
+00:47:38,064 --> 00:47:40,525
+Forget about the C. Tucson. All right?
+
+583
+00:47:41,124 --> 00:47:44,814
+Second thing, and probably something that you are not going to find in Ramona's
+
+584
+00:47:45,084 --> 00:47:48,714
+typical biography, Ramona was a fashion designer.
+
+585
+00:47:49,044 --> 00:47:52,434
+You can find Ramona in the past, basically in fashion shows
+
+586
+00:47:54,264 --> 00:47:57,864
+from New York to Amsterdam. No, no, no. Yes, Amsterdam. Yep.
+
+587
+00:47:59,244 --> 00:48:04,134
+And that was before she decided to move into other pursuits,
+
+588
+00:48:05,184 --> 00:48:07,224
+going back to study in
+
+589
+00:48:08,844 --> 00:48:09,384
+her 30s.
+
+590
+00:48:10,855 --> 00:48:14,454
+And that is what takes basically to what Ramona is going to do today.
+
+591
+00:48:14,994 --> 00:48:18,894
+Ramona is a data scientist, biologist, and director of the Data Collaboration
+
+592
+00:48:19,014 --> 00:48:21,594
+Center at Critical Path Institute, C-Path,
+
+593
+00:48:25,134 --> 00:48:29,574
+a nonprofit organization that accelerates drug development for those most in need.
+
+594
+00:48:30,084 --> 00:48:34,344
+Ramona has spent most of her career designing ontology-based data integration
+
+595
+00:48:34,434 --> 00:48:39,234
+systems while juggling identifiers, metadata, and many practical challenges of
+
+596
+00:48:39,534 --> 00:48:43,944
+making data reusable. I think some of us will feel or resonate with that.
+
+597
+00:48:45,654 --> 00:48:50,844
+Before joining C-Path, Ramona was an assistant research professor in the Bio5
+
+598
+00:48:50,934 --> 00:48:54,894
+Institute and a scientific analyst at the University of Arizona.
+
+599
+00:48:55,284 --> 00:48:57,264
+Thank God I didn't have to say Tucson again.
+
+600
+00:48:57,714 --> 00:49:01,314
+Where she led initiatives related to integrating, managing, and publishing
+
+601
+00:49:01,434 --> 00:49:06,654
+large-scale scientific data. Ramona completed postdoctoral studies at the New York
+
+602
+00:49:06,684 --> 00:49:11,184
+Botanical Garden, earned a PhD in ecology and evolution from Stony Brook
+
+603
+00:49:11,275 --> 00:49:15,504
+University, and received a bachelor's degree in environmental resource management
+
+604
+00:49:15,594 --> 00:49:20,904
+and horticulture from the Pennsylvania State University. Oh, I almost got it right.
+
+605
+00:49:22,014 --> 00:49:27,744
+In an era where we have tools such as large language models and agentic
+
+606
+00:49:27,834 --> 00:49:33,294
+AI are changing how we do science and study biodiversity, those tools have not
+
+607
+00:49:33,355 --> 00:49:37,944
+changed the things Ramona is most passionate about, data integration, data
+
+608
+00:49:37,974 --> 00:49:43,254
+management, data reuse, and using those skills more importantly, to make the world
+
+609
+00:49:43,344 --> 00:49:46,914
+a better place. Please join me in welcoming Ramona Walls.
+
+610
+00:49:56,454 --> 00:49:59,934
+Thank you for that lovely introduction, Javier, and your pronunciation of Tucson.
+
+611
+00:50:01,164 --> 00:50:06,144
+And thank you particularly to the GBIF and this year's organizers for giving me
+
+612
+00:50:06,174 --> 00:50:09,054
+this opportunity to reconnect with the TADWIG community.
+
+613
+00:50:12,114 --> 00:50:16,254
+When I was early in my career, TADWIG really became my professional home.
+
+614
+00:50:16,584 --> 00:50:20,754
+It gave me the opportunity to learn the skills, develop the knowledge that I needed
+
+615
+00:50:20,814 --> 00:50:24,174
+to find a career path, bringing me to where I am today.
+
+616
+00:50:24,684 --> 00:50:27,775
+And I'm happy to say that there are many friends and colleagues here in the
+
+617
+00:50:27,834 --> 00:50:32,844
+audience, but also a lot of new faces, which is wonderful to see TADWIG continuing
+
+618
+00:50:32,874 --> 00:50:34,824
+with the next generation of researchers.
+
+619
+00:50:36,234 --> 00:50:40,824
+So let me make-- I do have a clicker. Okay.
+
+620
+00:50:43,794 --> 00:50:45,624
+So I'm going to talk to you today...
+
+621
+00:50:48,954 --> 00:50:51,174
+I don't know how to make the movie go here.
+
+622
+00:50:51,594 --> 00:50:54,264
+So I have slideshows, but on my
+
+623
+00:50:57,384 --> 00:51:01,374
+computer, there is a button to click play, which I don't see here.
+
+624
+00:51:03,804 --> 00:51:06,025
+Anyone in the back can make it play?
+
+625
+00:51:14,785 --> 00:51:18,204
+Oh, somebody else is doing it. Somebody else is controlling the mouse. Okay.
+
+626
+00:51:18,324 --> 00:51:22,285
+Okay, thanks. I think it's going now. So I'm going to talk-- Okay.
+
+627
+00:51:22,344 --> 00:51:24,954
+I'm going to talk to you. I'm going to talk fast, can't talk to the movie now.
+
+628
+00:51:25,344 --> 00:51:30,174
+I'm going to talk about the transition from data to knowledge, and I'm going to
+
+629
+00:51:30,234 --> 00:51:32,844
+start with a question. How do you know something?
+
+630
+00:51:33,775 --> 00:51:36,084
+Of course, we learn a lot of knowledge.
+
+631
+00:51:36,324 --> 00:51:40,104
+We get that passed down from our parents, from our professors, et cetera.
+
+632
+00:51:40,494 --> 00:51:43,434
+But as scientists, we're really in the business of making new knowledge.
+
+633
+00:51:43,764 --> 00:51:49,405
+We want answers to questions like, how do global impact or biodiversity loss
+
+634
+00:51:49,494 --> 00:51:52,164
+impact the world? What is plant phenology?
+
+635
+00:51:52,464 --> 00:51:53,994
+How do we know how
+
+636
+00:51:55,704 --> 00:51:59,815
+the seasonal timing of plants, flowers, and reproductive and other vegetative
+
+637
+00:51:59,905 --> 00:52:03,504
+structures are impacted by climate change or other factors?
+
+638
+00:52:04,584 --> 00:52:07,734
+How does the fossil record help us understand human evolution?
+
+639
+00:52:11,454 --> 00:52:17,155
+What mechanisms are responsible for the outbreak of pests or
+
+640
+00:52:17,184 --> 00:52:20,844
+diseases, and how can we use that to understand human health, agriculture, other
+
+641
+00:52:20,905 --> 00:52:26,244
+applied sciences? Why are some animals brightly colored and aposematic,
+
+642
+00:52:27,144 --> 00:52:31,584
+and why do others remain sort of dull and hidden within the background?
+
+643
+00:52:35,815 --> 00:52:40,254
+Animal behavior. What can studying the behavior of animals help teach us about the
+
+644
+00:52:40,285 --> 00:52:44,275
+behavior of organisms in general, whether it's about population, individual
+
+645
+00:52:44,334 --> 00:52:48,324
+interactions, mating behavior, defense, et cetera?
+
+646
+00:52:49,254 --> 00:52:54,984
+We might also want to answer questions about species interactions, whether they're
+
+647
+00:52:55,074 --> 00:52:57,565
+mutually beneficial, herbivorous,
+
+648
+00:53:00,504 --> 00:53:05,844
+a crab using the shell of a snail. Are they parasitic
+
+649
+00:53:05,905 --> 00:53:06,655
+interactions?
+
+650
+00:53:07,974 --> 00:53:13,434
+We can also use information data to understand decomposition and its impacts on
+
+651
+00:53:13,494 --> 00:53:14,304
+ecosystems.
+
+652
+00:53:16,464 --> 00:53:22,285
+What about other behavior aspects
+
+653
+00:53:22,464 --> 00:53:28,315
+such as, or evolution aspects as mimicry, herbivory? What do animals eat?
+
+654
+00:53:29,664 --> 00:53:34,224
+Why do cacti do these crazy things sometimes? I'd love to know the answer to that.
+
+655
+00:53:34,285 --> 00:53:36,594
+Look, there's a fruit growing out the side of a stem.
+
+656
+00:53:37,315 --> 00:53:41,424
+What the heck is this thing, even? I don't know. I assume it's a beetle larvae.
+
+657
+00:53:41,754 --> 00:53:44,184
+Why is this banded gecko trying to get into my house?
+
+658
+00:53:46,644 --> 00:53:51,414
+And why do reindeer's eyes change colors during winter season, become more blue?
+
+659
+00:53:51,775 --> 00:53:57,204
+For the record, the answer is because the continued dilation of their pupils causes
+
+660
+00:53:57,264 --> 00:54:00,894
+a layer at the back of their eyes to change its reflectivity, making them more
+
+661
+00:54:00,954 --> 00:54:06,625
+sensitive to blue light, which presumably helps them see the contrast of
+
+662
+00:54:06,655 --> 00:54:10,315
+lichen against the snow in the wintertime, finding the food that they need.
+
+663
+00:54:13,014 --> 00:54:18,804
+Let's see if this works now. Yep. So science is really about answering these
+
+664
+00:54:18,864 --> 00:54:23,065
+questions. How do we do science? We go from observation, the collection of data,
+
+665
+00:54:23,574 --> 00:54:25,494
+generation of evidence, to knowledge.
+
+666
+00:54:25,884 --> 00:54:30,384
+A couple of great examples using biodiversity, they use this method to address
+
+667
+00:54:30,444 --> 00:54:36,294
+scientific questions are the work of Barbara McClintock, who used maize
+
+668
+00:54:36,594 --> 00:54:41,035
+and genetics to discover transposons and eventually won a Nobel Prize for her work
+
+669
+00:54:41,094 --> 00:54:45,894
+there. Another contemporary example is Gila monsters, animals that live in my
+
+670
+00:54:45,924 --> 00:54:51,655
+backyard. Work on their metabolism, help people understand GLP-1 inhibitors, which
+
+671
+00:54:51,684 --> 00:54:55,254
+are now widely used in medicines such as Ozempic for weight loss,
+
+672
+00:54:55,974 --> 00:55:00,714
+alcoholism control, and many other uses.
+
+673
+00:55:03,756 --> 00:55:08,376
+So just a talk, what I'm going to talk about today, again, I'm going to focus on
+
+674
+00:55:08,946 --> 00:55:11,886
+how do we transform data into knowledge. I'm going to cover six topics.
+
+675
+00:55:12,456 --> 00:55:16,386
+First of all, what are data? We all say data, but I want to talk a little bit about
+
+676
+00:55:16,446 --> 00:55:19,536
+how I'm defining it within the context of what I'm talking about from an
+
+677
+00:55:19,626 --> 00:55:25,116
+ontological perspective. What do we do to transform that data into knowledge, and
+
+678
+00:55:26,677 --> 00:55:28,476
+through the use of evidence generation there?
+
+679
+00:55:28,956 --> 00:55:31,837
+Now we're going to throw AI into the mix because it really is transforming our
+
+680
+00:55:31,896 --> 00:55:34,027
+world. How do we take that into consideration?
+
+681
+00:55:34,686 --> 00:55:40,057
+The real importance of ontologies, standards, and data governance, and then what
+
+682
+00:55:40,116 --> 00:55:44,226
+TABB's role and how important it is for groups like TABB to make this happen
+
+683
+00:55:44,286 --> 00:55:47,706
+effectively. So you're probably noticing here, there's some really consistent
+
+684
+00:55:47,856 --> 00:55:49,866
+themes with the two talks earlier today.
+
+685
+00:55:50,256 --> 00:55:55,027
+Happy to say that I haven't seen radical disagreement about the ideas that I had,
+
+686
+00:55:55,236 --> 00:55:56,976
+which were presented by the other speakers.
+
+687
+00:55:57,036 --> 00:56:00,277
+But I hope that I can bring a somewhat different perspective to it.
+
+688
+00:56:01,536 --> 00:56:04,626
+So let me start with talking about what are data. What do I think data are?
+
+689
+00:56:05,106 --> 00:56:08,587
+So data are the result of an observation or measurement.
+
+690
+00:56:10,386 --> 00:56:15,366
+They are written down, recorded. They can be text, they can be numbers.
+
+691
+00:56:15,786 --> 00:56:18,396
+They can be a video or an audio recording.
+
+692
+00:56:20,136 --> 00:56:22,626
+They're almost always a sample of something.
+
+693
+00:56:22,896 --> 00:56:27,427
+So it's true that if you take a herbarium specimen of an individual, you have the
+
+694
+00:56:27,486 --> 00:56:29,706
+whole represent-- Well, not in plants.
+
+695
+00:56:29,736 --> 00:56:31,146
+You usually just have a little piece of the plant.
+
+696
+00:56:31,506 --> 00:56:33,696
+But for an insect, you may have the entire insect there.
+
+697
+00:56:34,057 --> 00:56:38,436
+But that plant, if it's a leaf, that leaf is a representation of the whole plant,
+
+698
+00:56:38,527 --> 00:56:43,236
+was a representation of the population, which is then a
+
+699
+00:56:43,297 --> 00:56:46,686
+representation of the species, et cetera. Right?
+
+700
+00:56:47,286 --> 00:56:51,846
+So they're data, but like most data, most measurements, say you measure my blood
+
+701
+00:56:51,876 --> 00:56:55,656
+pressure, you might measure it four times, but it's not a complete record of my
+
+702
+00:56:55,686 --> 00:56:59,677
+blood pressure. So it is a sample of the thing that you're trying to understand.
+
+703
+00:57:00,846 --> 00:57:05,436
+And data, really key distinction. Data are intended to represent the truth.
+
+704
+00:57:05,976 --> 00:57:08,856
+They may be a sample, but from them, we want to know,
+
+705
+00:57:10,476 --> 00:57:14,047
+is something present or absent? What's its size? What condition it is in?
+
+706
+00:57:14,677 --> 00:57:18,096
+What's its identity or species? What relationships are there to other things?
+
+707
+00:57:18,186 --> 00:57:21,307
+So data are not just random recordings of information.
+
+708
+00:57:21,337 --> 00:57:25,716
+They are intended to represent the truth, and so that's a difference between data
+
+709
+00:57:25,777 --> 00:57:27,996
+and any piece of information that you might have out there.
+
+710
+00:57:29,886 --> 00:57:35,616
+From an ontological perspective, a widely used ontology within the biosciences is
+
+711
+00:57:35,677 --> 00:57:37,626
+the Information Artifact Ontology.
+
+712
+00:57:38,047 --> 00:57:43,027
+And so IAO defines data as a data entity, which is
+
+713
+00:57:44,677 --> 00:57:47,916
+an information content entity that is intended to be one or more truthful
+
+714
+00:57:48,006 --> 00:57:52,686
+statements about something, modulo measure imprecision or other systematic errors,
+
+715
+00:57:53,346 --> 00:57:59,316
+and is constructed, acquired, and acquired by a method which reliably tends
+
+716
+00:57:59,346 --> 00:58:01,536
+to produce approximately truthful statements.
+
+717
+00:58:02,226 --> 00:58:06,846
+So you can see that my perspective about what data is, it aligns very closely with
+
+718
+00:58:06,876 --> 00:58:09,456
+the Information Artifact Ontology.
+
+719
+00:58:10,206 --> 00:58:15,815
+And so in that ontology, data entity is a subclass of information
+
+720
+00:58:15,876 --> 00:58:20,406
+content entity, which is defined as a generically independent continuant that is
+
+721
+00:58:20,496 --> 00:58:25,566
+about something. I won't go into the definition of a generically independent
+
+722
+00:58:25,626 --> 00:58:26,346
+continuant.
+
+723
+00:58:28,297 --> 00:58:33,906
+But you can see that information is largely larger, a category of things
+
+724
+00:58:33,966 --> 00:58:37,686
+that are described, and data entity is a very specific
+
+725
+00:58:39,006 --> 00:58:41,166
+subtype of an information content entity.
+
+726
+00:58:44,106 --> 00:58:45,246
+So then what is knowledge?
+
+727
+00:58:46,476 --> 00:58:46,716
+And
+
+728
+00:58:48,666 --> 00:58:52,686
+I'm going to be talking about knowledge in a very sort of traditional, scientific,
+
+729
+00:58:53,047 --> 00:58:57,156
+Western understanding of what knowledge is and scientific knowledge.
+
+730
+00:58:57,726 --> 00:59:02,226
+As we've seen already today, there are different types of knowledge and different
+
+731
+00:59:02,256 --> 00:59:07,236
+ways of defining what the knowledge is that you know or that's relevant to your
+
+732
+00:59:07,356 --> 00:59:11,616
+situation. But knowledge and the study of knowledge has been around for many, many
+
+733
+00:59:11,646 --> 00:59:16,266
+years. Most cultures throughout history have a goddess or a god of knowledge or
+
+734
+00:59:16,326 --> 00:59:19,956
+wisdom. So that's Athena's symbol from ancient Greece.
+
+735
+00:59:20,316 --> 00:59:26,166
+This is Saraswati. I'm sorry, now I can't remember the name exactly
+
+736
+00:59:26,527 --> 00:59:29,106
+, but this is an ancient Hindu goddess of knowledge and wisdom.
+
+737
+00:59:29,496 --> 00:59:34,297
+So why is knowledge so important? Because it's survival, right?
+
+738
+00:59:34,416 --> 00:59:37,206
+Imagine if you were born and thrown into the wilderness and you had to figure out
+
+739
+00:59:37,266 --> 00:59:40,986
+everything for yourself. Probably wouldn't make it very long, aside from the
+
+740
+00:59:41,047 --> 00:59:44,016
+biological needs of not being able to eat or talk or walk.
+
+741
+00:59:46,716 --> 00:59:49,057
+This is probably a pyramid that many of you have seen before.
+
+742
+00:59:49,116 --> 00:59:52,356
+It's the knowledge pyramid, and what's clear here is that data is at the very
+
+743
+00:59:52,416 --> 00:59:55,866
+bottom. It's the foundation of all knowledge.
+
+744
+00:59:56,916 --> 01:00:02,047
+In this case, this structure, information is derived from data.
+
+745
+01:00:03,366 --> 01:00:06,396
+Notice that's the opposite of what I showed you in the Information Artifact
+
+746
+01:00:06,486 --> 01:00:12,366
+Ontology, where a data entity is a type of information content
+
+747
+01:00:12,427 --> 01:00:15,516
+entity. That's because information is defined differently than here.
+
+748
+01:00:15,636 --> 01:00:18,156
+So here's a really important role of ontologies.
+
+749
+01:00:18,216 --> 01:00:23,856
+How you define something is going to define how you understand that entity within
+
+750
+01:00:23,916 --> 01:00:26,736
+the worldview that you're trying to work within.
+
+751
+01:00:28,266 --> 01:00:33,366
+Wisdom, a little bit beyond our talk here, but without knowledge, you can't have
+
+752
+01:00:33,396 --> 01:00:33,786
+wisdom.
+
+753
+01:00:36,036 --> 01:00:41,076
+I hope everyone here is working towards wisdom and putting your data, your
+
+754
+01:00:41,106 --> 01:00:44,616
+information, and your knowledge to good use to behave wisely and make the world a
+
+755
+01:00:44,646 --> 01:00:45,307
+better place.
+
+756
+01:00:47,166 --> 01:00:47,376
+So
+
+757
+01:00:48,606 --> 01:00:53,646
+if we want to transform data into knowledge, this is a fairly--
+
+758
+01:00:55,177 --> 01:00:58,057
+It's not the only way you can get there, but this is the way that we generally
+
+759
+01:00:58,177 --> 01:01:01,896
+operate within science in the world that most of us are living in.
+
+760
+01:01:02,436 --> 01:01:06,036
+So first, you have to have meaning of the data. You need to know what it means.
+
+761
+01:01:06,786 --> 01:01:10,416
+You have to establish trust. This is about provenance, context.
+
+762
+01:01:11,136 --> 01:01:13,626
+You have to define the relevance of the data.
+
+763
+01:01:13,746 --> 01:01:14,196
+So
+
+764
+01:01:15,966 --> 01:01:20,047
+are the data that you're working with relevant to the context in which you're
+
+765
+01:01:20,106 --> 01:01:25,686
+working? And now that I work in a biomedical regulatory world for
+
+766
+01:01:25,716 --> 01:01:28,896
+regulators, this phrase, context of use, comes up constantly.
+
+767
+01:01:28,986 --> 01:01:33,185
+So it's not just what data do you have, but how relevant are they to the question
+
+768
+01:01:33,216 --> 01:01:35,646
+that you're trying to answer? It's very specific.
+
+769
+01:01:37,297 --> 01:01:42,636
+Finally, evidence. So you combine the meaning of the data, your trust for it, do
+
+770
+01:01:42,696 --> 01:01:47,047
+you know who collected it, what it means, with the relevance to the application and
+
+771
+01:01:47,076 --> 01:01:50,016
+the question that you're trying to answer, and then you create evidence.
+
+772
+01:01:50,196 --> 01:01:53,886
+And that evidence is what you use to create knowledge.
+
+773
+01:01:54,846 --> 01:01:58,927
+So here's a couple examples of evidence that you might find through careful
+
+774
+01:01:59,016 --> 01:02:02,376
+observation in the natural world. You got a feather.
+
+775
+01:02:03,486 --> 01:02:07,807
+There's evidence right there that a bird of that particular species is present.
+
+776
+01:02:08,226 --> 01:02:13,177
+If you can recognize the feather, you can say, "Okay, I know bird X was here." I
+
+777
+01:02:13,206 --> 01:02:16,986
+don't know what this was from. Possibly a blue jay.
+
+778
+01:02:18,636 --> 01:02:23,706
+You can now probably look at it and extract some DNA evidence for it and gain even
+
+779
+01:02:23,736 --> 01:02:27,666
+more information. Looking at the picture on the right, you've got a paw print.
+
+780
+01:02:27,756 --> 01:02:30,006
+I believe that's a raccoon. Not 100% sure.
+
+781
+01:02:30,726 --> 01:02:35,226
+You've got strong evidence that a raccoon was there if you recognize that print.
+
+782
+01:02:35,916 --> 01:02:38,226
+So which of these is stronger evidence?
+
+783
+01:02:40,536 --> 01:02:44,376
+I would say the feather is stronger because you can identify exactly what-- You got
+
+784
+01:02:44,436 --> 01:02:49,506
+a physical specimen here. Unless you're a real expert and the paw prints of the
+
+785
+01:02:49,566 --> 01:02:53,376
+animal that you're working from, that you're looking for, are really unique to that
+
+786
+01:02:53,466 --> 01:02:57,427
+animal, someone could have come along with a little mold and stamped them in the
+
+787
+01:02:57,486 --> 01:03:01,027
+ground, right? So how much trust do you have in the paw prints versus how much
+
+788
+01:03:01,116 --> 01:03:05,797
+trust do you have in the feather? So different kinds of data, different levels of
+
+789
+01:03:05,856 --> 01:03:09,307
+trust, different strengths of evidence there.
+
+790
+01:03:15,277 --> 01:03:15,516
+So
+
+791
+01:03:17,886 --> 01:03:23,166
+I've talked already about how getting from data to knowledge requires evidence,
+
+792
+01:03:23,886 --> 01:03:26,496
+but there are people that know things without any evidence.
+
+793
+01:03:28,116 --> 01:03:32,496
+And I'm not talking about the kind of indigenous knowledge that was discussed in
+
+794
+01:03:32,527 --> 01:03:36,576
+the last talk because, again, there are different ways, different types of evidence
+
+795
+01:03:36,786 --> 01:03:39,277
+being passed down for different reasons that you can know.
+
+796
+01:03:40,356 --> 01:03:43,146
+But there are many cases in the world where people know things
+
+797
+01:03:44,797 --> 01:03:47,496
+with very little evidence or misleading evidence.
+
+798
+01:03:48,846 --> 01:03:51,246
+We're living this a lot in my country right now.
+
+799
+01:03:52,476 --> 01:03:56,976
+So here's a classic example of knowledge without strong evidence.
+
+800
+01:03:57,066 --> 01:04:02,797
+So a lot of people know or claim that there is an unknown species-like
+
+801
+01:04:02,856 --> 01:04:05,826
+organism living in the Himalayas, known as a Yeti.
+
+802
+01:04:06,307 --> 01:04:10,356
+Some people also think species like this may live in northern Norway.
+
+803
+01:04:11,623 --> 01:04:13,603
+And there's pseudo-evidence, right?
+
+804
+01:04:13,842 --> 01:04:17,652
+So there are stories, there have been sightings, there are footprints passed down,
+
+805
+01:04:18,522 --> 01:04:22,753
+and there are even samples in collections, hair, bones, et cetera.
+
+806
+01:04:23,562 --> 01:04:25,512
+And those are traceable. So
+
+807
+01:04:27,072 --> 01:04:31,512
+what happened is someone took the evidence that did exist, the data that did exist,
+
+808
+01:04:31,572 --> 01:04:34,901
+those specimens, and actually did an analysis against them.
+
+809
+01:04:35,322 --> 01:04:39,672
+So they sequenced a number of them and were able to turn them into
+
+810
+01:04:41,112 --> 01:04:44,922
+actual knowledge that is consistent with the scientific method that we're using
+
+811
+01:04:44,952 --> 01:04:48,762
+here. So those data turned out to belong to bears and one dog.
+
+812
+01:04:49,152 --> 01:04:53,202
+There was not actually a known primate species living in the Himalayas.
+
+813
+01:04:53,742 --> 01:04:54,012
+So
+
+814
+01:04:55,542 --> 01:04:58,452
+out of this, they got unexpected scientific value.
+
+815
+01:04:58,512 --> 01:05:03,822
+So new information about the evolutionary history of these Himalayan bears that was
+
+816
+01:05:03,883 --> 01:05:09,042
+not known before. It wasn't that the study just disproved that there are no Yetis
+
+817
+01:05:09,103 --> 01:05:12,012
+living there, but they actually were able to understand something about the
+
+818
+01:05:12,492 --> 01:05:17,802
+evolutionary history and diversity of Himalayan bears.
+
+819
+01:05:20,472 --> 01:05:22,633
+So this is where we throw AI into the mix.
+
+820
+01:05:24,432 --> 01:05:28,362
+I don't need to go into details because we had a really great talk this morning
+
+821
+01:05:28,422 --> 01:05:32,262
+from Tanya about what AI can do, machine learning, all the tools that it can really
+
+822
+01:05:32,292 --> 01:05:37,152
+help you. But let's think about this for a second. Does AI generate data?
+
+823
+01:05:38,562 --> 01:05:44,413
+I posit that it does. AI can generate these new data entities specifically as
+
+824
+01:05:44,442 --> 01:05:46,811
+defined by the information artifact ontology.
+
+825
+01:05:47,383 --> 01:05:52,962
+It can create text, images, synthetic datasets, it can make predictions, it can
+
+826
+01:05:53,353 --> 01:05:57,072
+classify. Again, got some great examples of that in the talk this morning, so I
+
+827
+01:05:57,072 --> 01:05:58,062
+don't need to go into that.
+
+828
+01:05:59,623 --> 01:06:01,603
+And it can infer values. So
+
+829
+01:06:03,522 --> 01:06:08,322
+it's generating data. What it's not doing is generating new empirical observations
+
+830
+01:06:08,353 --> 01:06:10,512
+of the world, at least not yet.
+
+831
+01:06:12,163 --> 01:06:17,892
+So if a model, for example, predicts the trait distribution within a species,
+
+832
+01:06:19,753 --> 01:06:25,633
+is that evidence? It's that the model is producing new
+
+833
+01:06:25,692 --> 01:06:31,152
+data, but that is not the same thing as going out and measuring the distribution of
+
+834
+01:06:31,212 --> 01:06:32,652
+a trait within an organism, right?
+
+835
+01:06:32,742 --> 01:06:36,913
+So it's more of a hypothesis saying, "Here's generated data.
+
+836
+01:06:38,292 --> 01:06:43,362
+Do I trust it? Is it real?" So that's the next question. Does AI create knowledge?
+
+837
+01:06:44,623 --> 01:06:46,962
+So it can reproduce knowledge.
+
+838
+01:06:48,582 --> 01:06:52,902
+AI is amazing at synthesizing information into
+
+839
+01:06:54,582 --> 01:06:56,982
+insights, into information that we already know.
+
+840
+01:06:57,103 --> 01:07:00,883
+Again, great example about the machine learning algorithms this morning, talking
+
+841
+01:07:00,942 --> 01:07:05,413
+about beak size, for example, and shape. It can create candidate knowledge.
+
+842
+01:07:06,582 --> 01:07:12,192
+So it can create new hypotheses, describe new relationships or explanations or
+
+843
+01:07:12,222 --> 01:07:16,812
+predictions. Another awesome example this morning about how AI is generating these
+
+844
+01:07:16,873 --> 01:07:18,913
+kinds of candidates of knowledge.
+
+845
+01:07:21,642 --> 01:07:25,902
+It can help create new knowledge when those inferences become sufficiently
+
+846
+01:07:25,962 --> 01:07:29,172
+supported by evidence. So this is, again, the role of evidence here.
+
+847
+01:07:29,592 --> 01:07:29,802
+So
+
+848
+01:07:31,032 --> 01:07:33,222
+do I trust what AI's discovered?
+
+849
+01:07:34,572 --> 01:07:37,722
+It definitely can discover things that we don't know. It has already.
+
+850
+01:07:37,782 --> 01:07:43,572
+It's doing it every day. But it only becomes knowledge if we have a reason to
+
+851
+01:07:43,603 --> 01:07:48,103
+believe it's true. So is it really evidence? How do we know if it's evidence?
+
+852
+01:07:48,672 --> 01:07:53,772
+Do we trust it? What is the context of use? What is the provenance of the data?
+
+853
+01:07:53,862 --> 01:07:56,623
+How were they collected? What analyses were done on it?
+
+854
+01:07:57,163 --> 01:08:01,873
+Whether you're using hand calculations on a piece of paper or using AI to do it,
+
+855
+01:08:01,932 --> 01:08:05,322
+you still need to have those pieces of information to know whether or
+
+856
+01:08:07,392 --> 01:08:09,522
+not you're willing to accept it as knowledge.
+
+857
+01:08:11,082 --> 01:08:11,292
+So
+
+858
+01:08:13,692 --> 01:08:17,083
+knowledge is one thing when we're going out, and this is still happening.
+
+859
+01:08:17,142 --> 01:08:22,032
+Again, every day, many, many scientists are working where they have a hypothesis,
+
+860
+01:08:22,152 --> 01:08:27,133
+they go out and collect some data, they translate, they test the hypothesis, they
+
+861
+01:08:27,312 --> 01:08:28,782
+publish that as evidence for
+
+862
+01:08:30,343 --> 01:08:32,652
+confirmation or rejection of their hypothesis.
+
+863
+01:08:33,192 --> 01:08:38,262
+If you're the person collecting the data, you might think that writing a tag with a
+
+864
+01:08:38,353 --> 01:08:42,972
+specimen ID, writing the number of the specimen on your little file, taking notes
+
+865
+01:08:43,062 --> 01:08:45,282
+in your notebook, that that's sufficient.
+
+866
+01:08:45,312 --> 01:08:47,862
+And it is sufficient for your study that you're trying to prove.
+
+867
+01:08:48,432 --> 01:08:53,142
+But secondary data use, the only way that we're really able to scale the kind of
+
+868
+01:08:53,202 --> 01:08:58,062
+inquiry that we need to keep up with the changes in the world, is through reuse of
+
+869
+01:08:58,123 --> 01:09:00,792
+the data. So you're standing there in a collection
+
+870
+01:09:02,112 --> 01:09:04,212
+with that puzzled look on your face.
+
+871
+01:09:05,172 --> 01:09:09,163
+You can tell from this person, who some of us know, even though you can't see their
+
+872
+01:09:09,222 --> 01:09:13,392
+face, you can see the, "What's going on here?" So you need more information.
+
+873
+01:09:13,452 --> 01:09:14,112
+So this is where
+
+874
+01:09:16,093 --> 01:09:16,452
+trust,
+
+875
+01:09:18,282 --> 01:09:24,042
+standards, governance, and ontologies come in. How do we create that kind of trust?
+
+876
+01:09:25,333 --> 01:09:29,922
+GBIF, standards organizations. So since I've switched from working in biodiversity
+
+877
+01:09:29,982 --> 01:09:35,262
+primarily to working in biomedical science primarily, I have really grown to
+
+878
+01:09:35,442 --> 01:09:37,482
+appreciate the importance of standards bodies.
+
+879
+01:09:38,322 --> 01:09:40,333
+I didn't appreciate it when I worked within TDWG.
+
+880
+01:09:40,603 --> 01:09:43,242
+I knew we were important, blah, blah, blah, but now that I'm there, now that we
+
+881
+01:09:43,302 --> 01:09:43,692
+actually have
+
+882
+01:09:44,922 --> 01:09:49,992
+regulations in the European Union and the United States, there are actually laws
+
+883
+01:09:50,052 --> 01:09:52,093
+telling us what we can believe and what we can't.
+
+884
+01:09:53,593 --> 01:09:54,343
+We don't trust,
+
+885
+01:09:55,782 --> 01:10:00,312
+at least for whether or not the FDA is going to approve a medicine, they don't
+
+886
+01:10:00,402 --> 01:10:06,312
+trust an academic-funded, NIH-funded study who's developed a great ontology
+
+887
+01:10:06,432 --> 01:10:11,112
+to back up their claims. They want a standards organization that is international,
+
+888
+01:10:11,232 --> 01:10:15,133
+independent, is going to be around 10, 20 years from now.
+
+889
+01:10:15,672 --> 01:10:21,192
+So TDWG's made it since, when was that first? I think 1985.
+
+890
+01:10:22,182 --> 01:10:25,392
+It's not bad, 40 years. I have a feeling that it's going to be here in another 40
+
+891
+01:10:25,422 --> 01:10:30,942
+years. And so standards organizations like TDWG are really crucial
+
+892
+01:10:31,002 --> 01:10:34,452
+here to creating this kind of knowledge, evidence, and trust.
+
+893
+01:10:35,982 --> 01:10:38,832
+I'm not going to say a whole lot about standards here. They're what you do.
+
+894
+01:10:38,892 --> 01:10:42,252
+You know this. They're the core of TDWG.
+
+895
+01:10:42,612 --> 01:10:46,512
+They include data structures, models, vocabularies, exchange formats.
+
+896
+01:10:47,383 --> 01:10:50,353
+Standards are what allow us to communicate and share data.
+
+897
+01:10:51,252 --> 01:10:55,392
+Even if we speak different languages, when we're on the telephone, or writing a
+
+898
+01:10:55,422 --> 01:10:58,272
+letter to one another, we can use standards to help there.
+
+899
+01:10:59,022 --> 01:11:02,802
+Same thing with data governance. Governance controls
+
+900
+01:11:04,362 --> 01:11:06,552
+who can access data, what they can do with it.
+
+901
+01:11:07,212 --> 01:11:10,782
+We have a lot of modern systems that support complex governance.
+
+902
+01:11:11,742 --> 01:11:12,432
+Great talk,
+
+903
+01:11:13,692 --> 01:11:14,682
+the last talk about
+
+904
+01:11:16,122 --> 01:11:19,272
+how do we let the governance travel with the information?
+
+905
+01:11:20,593 --> 01:11:24,402
+Not going to give you a technical talk about that, but I would say, Rob and I were
+
+906
+01:11:24,432 --> 01:11:27,762
+talking about that, like, "Can we actually do this?" And I said, "Yes." And I
+
+907
+01:11:27,792 --> 01:11:31,272
+thought, "Well, no, but three to five years, we're going to be able to do this.
+
+908
+01:11:31,542 --> 01:11:36,312
+We're going to have the structures in place to make governance portable along with
+
+909
+01:11:36,343 --> 01:11:42,103
+the data." This is something that within CPATH, the work that my
+
+910
+01:11:42,133 --> 01:11:43,512
+department does is
+
+911
+01:11:44,952 --> 01:11:50,412
+all about managing governance. And CPATH has been around for 20 years now, and it
+
+912
+01:11:50,472 --> 01:11:55,152
+is the governance, the very strong and very flexible governance that we use that
+
+913
+01:11:55,212 --> 01:11:59,112
+gives us credibility and trust and lets people contribute their data, share their
+
+914
+01:11:59,172 --> 01:12:01,843
+data through us that they would not share with anybody else.
+
+915
+01:12:02,593 --> 01:12:06,552
+And so that's that last bit. Good governance makes altruism possible.
+
+916
+01:12:08,022 --> 01:12:12,162
+One of the most common excuses that people or companies will use about why they
+
+917
+01:12:12,192 --> 01:12:16,812
+can't share their data is, "Well, because I can't control who can see it." Well,
+
+918
+01:12:17,202 --> 01:12:19,603
+now you can, and so they don't have an excuse anymore.
+
+919
+01:12:20,112 --> 01:12:23,622
+And so they're willing to do it more often than what you might expect.
+
+920
+01:12:26,112 --> 01:12:29,442
+Governance is great. Standards are great. Controlled vocabularies are great.
+
+921
+01:12:30,822 --> 01:12:36,672
+And they can improve data interoperability quite a lot, but they only have loose
+
+922
+01:12:36,732 --> 01:12:40,633
+semantics, if any. This is actually a slide I pulled out from a presentation from
+
+923
+01:12:42,103 --> 01:12:43,032
+2017.
+
+924
+01:12:44,383 --> 01:12:46,212
+It's still applicable. Why make a new slide?
+
+925
+01:12:46,242 --> 01:12:48,103
+Because it's still very much the truth.
+
+926
+01:12:49,482 --> 01:12:52,362
+So we need semantics, and this is where ontologies come in.
+
+927
+01:12:54,192 --> 01:12:59,353
+Ontology is kind of two things, the philosophical study of being or the nature of
+
+928
+01:12:59,412 --> 01:13:01,812
+existence, and the features of its entities.
+
+929
+01:13:01,872 --> 01:13:07,212
+That's a bust of Socrates, who was one of the original ontologists back in ancient
+
+930
+01:13:07,242 --> 01:13:07,603
+Greece.
+
+931
+01:13:10,002 --> 01:13:13,633
+From a practical standpoint, an ontology is an artifact.
+
+932
+01:13:13,722 --> 01:13:17,022
+It's a structured vocabulary that encodes the semantics of the entities in a
+
+933
+01:13:17,082 --> 01:13:22,122
+domain. And just like FAIR principles, the key here is that it is both human and
+
+934
+01:13:22,152 --> 01:13:27,745
+machine readable. Ontologies are encoded in often RDS resource
+
+935
+01:13:27,774 --> 01:13:31,434
+description format, and it lets computers understand what data mean.
+
+936
+01:13:32,724 --> 01:13:37,134
+Can you capture all of the nuances of human understanding in machine-readable
+
+937
+01:13:37,224 --> 01:13:42,654
+language? Not yet. Don't know that you ever need to, but you capture quite a lot
+
+938
+01:13:42,684 --> 01:13:47,304
+and enough to actually-- For again, context of use, you capture the content that
+
+939
+01:13:47,364 --> 01:13:52,944
+you need for what you're trying to do and the domains where your ontology applies.
+
+940
+01:13:54,474 --> 01:13:59,334
+So a couple of quick ontology examples where I've worked over the years.
+
+941
+01:13:59,785 --> 01:14:03,924
+Most recently, I've been contributing to the Plant Phenology Ontology.
+
+942
+01:14:04,434 --> 01:14:10,404
+It's an ontology that, again, encodes the semantics of what are the
+
+943
+01:14:10,464 --> 01:14:15,984
+seasonal timings of variation of when plants put on flowers, produce fruits,
+
+944
+01:14:16,344 --> 01:14:18,414
+drop their leaves, grow their new leaves in the spring.
+
+945
+01:14:18,834 --> 01:14:23,424
+It's based on the Plant Ontology and the Plant Trait Ontology, which were two very
+
+946
+01:14:23,484 --> 01:14:28,344
+early ontologies that got me from doing basic science into the data science world.
+
+947
+01:14:29,245 --> 01:14:34,974
+And the Plant Phenology Ontology has been of great value for integrating plant
+
+948
+01:14:35,004 --> 01:14:38,904
+phenology data from multiple sources, iNaturalist, National Phenology Network,
+
+949
+01:14:39,384 --> 01:14:41,814
+NEON, other international phenology networks,
+
+950
+01:14:43,134 --> 01:14:46,554
+into a recent study that was published doing a global analysis
+
+951
+01:14:47,904 --> 01:14:51,745
+of plant phenotypes, which you can see at Rob Guralnick's talk on Thursday.
+
+952
+01:14:51,834 --> 01:14:53,124
+He'll be presenting on that work.
+
+953
+01:14:54,654 --> 01:15:00,174
+Another older ontology is the Biocollections Ontology, and I think actually BCO and
+
+954
+01:15:01,224 --> 01:15:05,154
+a related ontology called the Population Community Ontology are the reason that I
+
+955
+01:15:05,184 --> 01:15:07,134
+got involved in TADWIG to start with.
+
+956
+01:15:07,164 --> 01:15:08,214
+There were some working groups
+
+957
+01:15:09,745 --> 01:15:14,424
+on those two ontology back at a TADWIG meeting in Oxford many moons ago.
+
+958
+01:15:14,964 --> 01:15:20,064
+So the Biology Collection Ontology or BCO is really trying to describe the
+
+959
+01:15:20,094 --> 01:15:23,334
+semantics of collections and the different types of
+
+960
+01:15:25,104 --> 01:15:30,264
+sampling efforts that you can have describing the relationships among the
+
+961
+01:15:30,294 --> 01:15:30,864
+ontology--
+
+962
+01:15:32,544 --> 01:15:37,224
+Take a break there. Describing the relationships between data that are produced and
+
+963
+01:15:37,285 --> 01:15:42,114
+the sampling effort. So you might have a transect with a site within it and then a
+
+964
+01:15:42,174 --> 01:15:44,964
+particular type of sampling and then repeated sampling within there.
+
+965
+01:15:45,024 --> 01:15:46,164
+So those types of efforts.
+
+966
+01:15:48,745 --> 01:15:49,044
+Going to
+
+967
+01:15:53,274 --> 01:15:58,344
+switch gears for a second and just give a few examples from the world that I live
+
+968
+01:15:58,374 --> 01:16:01,644
+in now that may be of interest to people within this community.
+
+969
+01:16:02,454 --> 01:16:07,224
+A very widely used standard for real world data, that is data that's collected
+
+970
+01:16:07,344 --> 01:16:10,854
+outside of clinical trials through the hospital, through
+
+971
+01:16:12,054 --> 01:16:14,184
+research networks, through
+
+972
+01:16:16,254 --> 01:16:21,774
+in situ studies. So data that we call real world data, which is data collected
+
+973
+01:16:21,834 --> 01:16:23,634
+outside of a controlled clinical trial.
+
+974
+01:16:24,624 --> 01:16:28,914
+Observational Medical Outcomes Partnerships, this is their model.
+
+975
+01:16:28,944 --> 01:16:30,745
+It's a relational model.
+
+976
+01:16:32,035 --> 01:16:36,354
+And as you can see, it's fairly complex, but it's really based on observations and
+
+977
+01:16:36,414 --> 01:16:41,035
+measurements. So something that the BCO was really founded around.
+
+978
+01:16:41,094 --> 01:16:43,285
+So it's highly relevant to the work that I do there.
+
+979
+01:16:43,584 --> 01:16:45,294
+It is widely used throughout the world.
+
+980
+01:16:45,294 --> 01:16:49,854
+It is what allows federated analyses of real world data across multiple sites for
+
+981
+01:16:49,884 --> 01:16:50,724
+many cases.
+
+982
+01:16:53,004 --> 01:16:56,694
+Again, limited semantic. This is just the data structure.
+
+983
+01:16:57,234 --> 01:17:01,495
+But to go along with this, there is the OMOP vocabulary, which is--
+
+984
+01:17:03,144 --> 01:17:05,514
+Many people call it an ontology. It's not.
+
+985
+01:17:05,904 --> 01:17:09,684
+But it has enough structure to provide a certain level of semantics.
+
+986
+01:17:10,074 --> 01:17:14,724
+And many of the terms that are used that are part of the OMOP vocabulary are pooled
+
+987
+01:17:14,785 --> 01:17:20,124
+from external sources that are more ontologically structured, such as the SNOMED or
+
+988
+01:17:20,154 --> 01:17:23,304
+the World Health Organization drug lists.
+
+989
+01:17:24,624 --> 01:17:30,054
+And to help with the semantics, there has been implementation of the OMOP common
+
+990
+01:17:30,114 --> 01:17:35,454
+data model for healthcare records coming from hospitals, which is called FHIR, Fast
+
+991
+01:17:35,514 --> 01:17:41,124
+Healthcare Interoperability Resource, which is required in both the US and Europe
+
+992
+01:17:41,214 --> 01:17:44,664
+if you're going to be sharing healthcare data.
+
+993
+01:17:46,584 --> 01:17:49,374
+Both of these are going to become even more important as a new law is rolling
+
+994
+01:17:49,674 --> 01:17:51,354
+around the European health data space.
+
+995
+01:17:52,014 --> 01:17:57,294
+So might be something worth looking into as potential models for use within
+
+996
+01:17:57,354 --> 01:17:58,674
+biodiversity data.
+
+997
+01:18:01,104 --> 01:18:04,194
+Another quick example of some of the work that I'm doing with my team within
+
+998
+01:18:04,285 --> 01:18:06,804
+Seapath is doing right now is creating a knowledge graph.
+
+999
+01:18:07,314 --> 01:18:11,394
+So we have data coming in from many different sources, some very large datasets,
+
+1000
+01:18:11,814 --> 01:18:16,344
+some very small. They might be structured by CDISC, SDTM standards, which is a
+
+1001
+01:18:16,404 --> 01:18:21,384
+clinical trial data standard. We get a lot of non-structured data or, well, tabular
+
+1002
+01:18:21,444 --> 01:18:27,384
+data from patient registries, from ultra rare diseases, where there are patient
+
+1003
+01:18:27,654 --> 01:18:30,834
+groups going out and trying to collect data about the people with rare disease.
+
+1004
+01:18:31,794 --> 01:18:35,995
+Get semi-structured datasets from a national organization for rare diseases, which
+
+1005
+01:18:36,024 --> 01:18:41,484
+is also these, excuse me, patient organization-driven registries.
+
+1006
+01:18:41,874 --> 01:18:46,734
+We have a pipeline that goes through and automatically annotates that data with
+
+1007
+01:18:46,794 --> 01:18:50,724
+ontology terms, stores the annotations into our
+
+1008
+01:18:51,924 --> 01:18:56,124
+internal metadata catalog called data.world, using the structure of the
+
+1009
+01:18:58,674 --> 01:19:03,864
+simple standard for sharing. I always forget what SSLM stands.
+
+1010
+01:19:04,014 --> 01:19:05,274
+Simple standard for sharing-
+
+1011
+01:19:07,524 --> 01:19:08,035
+Instrumental?
+
+1012
+01:19:08,094 --> 01:19:12,474
+I can't read that yet. Yes, but I expect many of you are familiar with it already,
+
+1013
+01:19:12,564 --> 01:19:16,434
+which is great. So why is this valuable for us, this knowledge graph?
+
+1014
+01:19:17,184 --> 01:19:20,064
+We are constantly expanding what we use it for.
+
+1015
+01:19:20,124 --> 01:19:24,564
+But one of the key pieces has been being able to do queries across datasets.
+
+1016
+01:19:24,594 --> 01:19:28,495
+Because we have a catalog where you can go as a person who signed up for it and go
+
+1017
+01:19:28,554 --> 01:19:31,254
+choose datasets, do some exploration beforehand.
+
+1018
+01:19:31,254 --> 01:19:35,094
+But if you want to do queries across all of the datasets, you have to have some
+
+1019
+01:19:35,124 --> 01:19:36,594
+kind of common meeting across them.
+
+1020
+01:19:36,624 --> 01:19:40,794
+And so this, for example, is a query looking at all the data that we have for ALS,
+
+1021
+01:19:40,854 --> 01:19:46,164
+amyotrophic lateral sclerosis, searching for phenotypes and saying, "Okay, how many
+
+1022
+01:19:46,224 --> 01:19:51,174
+of your datasets have data on depression or anxiety, and where can I go to get
+
+1023
+01:19:51,234 --> 01:19:51,624
+those?"
+
+1024
+01:19:53,424 --> 01:19:57,624
+That's something that I think is very useful when you have distributed data or data
+
+1025
+01:19:57,654 --> 01:20:01,914
+that are not yet fully standardized for integration, but you want to start to ask
+
+1026
+01:20:01,974 --> 01:20:03,144
+questions across them.
+
+1027
+01:20:05,364 --> 01:20:05,814
+All right.
+
+1028
+01:20:07,644 --> 01:20:12,474
+I started out in the beginning talking about this data to knowledge transformation.
+
+1029
+01:20:13,464 --> 01:20:17,154
+You start with an observation. You collect some data about that observation.
+
+1030
+01:20:17,844 --> 01:20:22,434
+You use that data and your context of use to generate evidence, and from that you
+
+1031
+01:20:22,464 --> 01:20:26,544
+can derive knowledge. So data on their own are not knowledge.
+
+1032
+01:20:27,714 --> 01:20:30,684
+Adding AI into the mix really raises the stakes.
+
+1033
+01:20:32,154 --> 01:20:37,614
+It may help us generate new information and new knowledge, but it doesn't take away
+
+1034
+01:20:37,674 --> 01:20:43,584
+the need for provenance, good data collection practices, using
+
+1035
+01:20:43,644 --> 01:20:49,554
+fair data standards. So things like standards that can make data shareable, using
+
+1036
+01:20:49,644 --> 01:20:53,604
+semantics that can make them interpretable, creating ontologies.
+
+1037
+01:20:55,434 --> 01:20:58,674
+TADWIG helps build this infrastructure for the generation of evidence.
+
+1038
+01:20:59,184 --> 01:21:05,124
+That to me is, as a scientist, the key value of TADWIG, is that you
+
+1039
+01:21:06,204 --> 01:21:12,024
+take data, provide the infrastructure so that people can use it to
+
+1040
+01:21:12,084 --> 01:21:12,834
+create evidence.
+
+1041
+01:21:15,594 --> 01:21:19,734
+That's the number one message of what can TADWIG do?
+
+1042
+01:21:20,184 --> 01:21:26,035
+Keep doing that, please. We need TADWIG in the world, so keep going.
+
+1043
+01:21:26,124 --> 01:21:30,864
+It's great. The future of biodiversity science depends not just on having more
+
+1044
+01:21:30,924 --> 01:21:35,304
+data, though we certainly need that, but on preserving enough meaning and context
+
+1045
+01:21:35,334 --> 01:21:36,954
+for those data to become evidence.
+
+1046
+01:21:38,904 --> 01:21:39,144
+So
+
+1047
+01:21:41,245 --> 01:21:44,934
+take the chain at the top, turn it into what you need to do, an activity chain.
+
+1048
+01:21:45,024 --> 01:21:49,854
+So you need to observe accurately. You need to preserve the meaning.
+
+1049
+01:21:50,814 --> 01:21:55,164
+You need to establish trust, and only then can you generate knowledge.
+
+1050
+01:21:56,004 --> 01:21:59,424
+So AI, that hasn't taken away any of those steps,
+
+1051
+01:22:00,684 --> 01:22:05,874
+but it makes it even more important. It can make those steps go faster.
+
+1052
+01:22:06,804 --> 01:22:12,324
+But it's more important than ever to continue to be accurate, contain meaning,
+
+1053
+01:22:13,044 --> 01:22:14,724
+ensure trust, and generate knowledge.
+
+1054
+01:22:15,654 --> 01:22:20,694
+So with that, I'm happy to stop and take some questions if there is time.
+
+1055
+01:22:34,974 --> 01:22:35,844
+Are we back on schedule?
+
+1056
+01:22:37,344 --> 01:22:37,614
+No?
+
+1057
+01:22:37,884 --> 01:22:38,424
+We will be.
+
+1058
+01:22:40,314 --> 01:22:44,604
+It always comes back together. Mara, Ramona, thank you so much.
+
+1059
+01:22:44,664 --> 01:22:45,204
+You are welcome.
+
+1060
+01:22:45,535 --> 01:22:50,754
+Please find them at lunch if you have questions, or if you'd just like to share
+
+1061
+01:22:50,814 --> 01:22:55,434
+witty anecdotes, that's fine, too. You can do that. A couple of things.
+
+1062
+01:22:55,644 --> 01:22:59,995
+We are going to break for lunch here, but before you go, first, be back at 2:00
+
+1063
+01:23:00,054 --> 01:23:04,884
+sharp or 1400 hours for those of you who know it that way, because we will start on
+
+1064
+01:23:04,974 --> 01:23:09,594
+time. Second, if you are presenting as a part of the Taste of TADWIG this
+
+1065
+01:23:09,684 --> 01:23:10,194
+afternoon-
+
+1066
+01:23:10,194 --> 01:23:10,794
+Maybe we should come and we can talk about video
+
+1067
+01:23:10,824 --> 01:23:14,154
+... please be back here 15 minutes earlier-
+
+1068
+01:23:14,634 --> 01:23:14,844
+Okay
+
+1069
+01:23:14,844 --> 01:23:17,904
+... so that we can get you all set up and squared away.
+
+1070
+01:23:19,014 --> 01:23:19,644
+Otherwise-
+
+1071
+01:23:20,064 --> 01:23:20,184
+Okay
+
+1072
+01:23:20,184 --> 01:23:25,794
+... please remember, food and drink stay out there when you come back at 2:00.
+
+1073
+01:23:25,854 --> 01:23:28,044
+Again, thank you, Ramona. Thank you, Mara.
+
+1074
+01:23:28,104 --> 01:23:30,594
+We appreciate you speaking with us, and
+
+1075
+01:23:32,214 --> 01:23:33,774
+go get yourself fed.

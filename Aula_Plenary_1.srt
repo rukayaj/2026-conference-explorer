@@ -1,0 +1,4979 @@
+1
+00:00:00,660 --> 00:00:04,350
+Well, welcome everybody. Welcome to TADWIG 2026 in Oslo.
+
+2
+00:00:05,370 --> 00:00:06,930
+So very pleased that you've made it.
+
+3
+00:00:08,340 --> 00:00:12,210
+You may not be so pleased with me afterward, but that's okay. I am accustomed.
+
+4
+00:00:13,650 --> 00:00:14,340
+Very quickly,
+
+5
+00:00:15,660 --> 00:00:21,540
+a quick thank you to all of our sponsors, who we will detail at length in a
+
+6
+00:00:21,600 --> 00:00:25,470
+few moments. I just want to give you a quick lay of the land.
+
+7
+00:00:27,151 --> 00:00:32,520
+This is what's happening today. We're going to begin with some welcoming and
+
+8
+00:00:33,661 --> 00:00:36,661
+warm conversation and presentation.
+
+9
+00:00:38,280 --> 00:00:42,030
+Hugo will give us a formal welcome to Oslo.
+
+10
+00:00:43,020 --> 00:00:48,330
+The deputy chair, Ellie Saliba, will then take care of some housekeeping issues.
+
+11
+00:00:49,380 --> 00:00:54,990
+I will excite you beyond imagination with an address after
+
+12
+00:00:55,080 --> 00:01:00,571
+that. And then we have our three keynote speakers, Tanya, Marit, and
+
+13
+00:01:00,810 --> 00:01:06,060
+Ramona. At that point, we will have lunch. There will be a coffee break in there.
+
+14
+00:01:06,120 --> 00:01:08,910
+We're just not going to tell you when it is exactly. We'll surprise you.
+
+15
+00:01:10,200 --> 00:01:12,900
+And then the afternoon is a taste of TADWIG with Ellie Wallace.
+
+16
+00:01:13,980 --> 00:01:18,600
+There will be some events after that that we'll tell you about, but this is what
+
+17
+00:01:18,630 --> 00:01:23,220
+you can look forward to. You can find it in the Whova app if you're curious about
+
+18
+00:01:23,280 --> 00:01:24,961
+the details and the timing of things.
+
+19
+00:01:25,560 --> 00:01:30,270
+But just so we can figure out who's here today, we will all be really good at
+
+20
+00:01:30,330 --> 00:01:34,020
+following instructions, so if you can raise your hand if you traveled here from
+
+21
+00:01:34,080 --> 00:01:35,130
+somewhere in Norway.
+
+22
+00:01:37,439 --> 00:01:40,500
+That's good. Yeah, some of you will have to turn your heads to see how many hands
+
+23
+00:01:40,500 --> 00:01:43,440
+are up. That's great. Thank you for hosting us. We appreciate it very much.
+
+24
+00:01:44,790 --> 00:01:48,120
+And how about if you traveled from somewhere other than Norway?
+
+25
+00:01:51,030 --> 00:01:53,040
+So the math is mathing. That's good.
+
+26
+00:01:54,391 --> 00:01:58,950
+Probably the most important question, how many of you paid an arm and a leg to get
+
+27
+00:01:59,010 --> 00:01:59,250
+here?
+
+28
+00:02:01,351 --> 00:02:05,010
+Okay, I'm not expecting as many hands because you probably gave them away.
+
+29
+00:02:05,700 --> 00:02:06,570
+Okay, good.
+
+30
+00:02:08,370 --> 00:02:08,970
+How about
+
+31
+00:02:10,230 --> 00:02:12,450
+people who've been to 10 or more TADWIG meetings?
+
+32
+00:02:16,141 --> 00:02:19,230
+There are some of you that could probably keep that up if I asked for 20.
+
+33
+00:02:21,450 --> 00:02:23,671
+See, they're still up in the back. Arthur.
+
+34
+00:02:25,470 --> 00:02:28,980
+How about how many of you are attending this meeting virtually?
+
+35
+00:02:31,290 --> 00:02:33,300
+Okay, we're just checking for AI agents.
+
+36
+00:02:35,940 --> 00:02:40,020
+And the most important question, how many of you are here for the first time?
+
+37
+00:02:42,060 --> 00:02:45,120
+Awesome.
+
+38
+00:02:48,150 --> 00:02:50,160
+So thank you very much for coming for your first time.
+
+39
+00:02:50,671 --> 00:02:55,470
+We have some opportunities for you that Ellie Saliba will detail in a couple of
+
+40
+00:02:55,500 --> 00:02:57,780
+moments. We will just get right to it.
+
+41
+00:02:57,990 --> 00:03:00,840
+I'm sorry, I'm not doing a very good job of speaking directly into the mic.
+
+42
+00:03:01,320 --> 00:03:04,020
+We will just get right to it. I want to welcome Hugo de Boer.
+
+43
+00:03:04,110 --> 00:03:04,530
+He is the,
+
+44
+00:03:05,820 --> 00:03:09,810
+make sure I get this right, the director of science and the head of the Department
+
+45
+00:03:09,840 --> 00:03:14,730
+of Research and Collections and the head of delegation for GBIF Norway, as well as
+
+46
+00:03:14,760 --> 00:03:18,750
+the vice chair of GBIF Science Committee. So Hugo, welcome.
+
+47
+00:03:22,951 --> 00:03:24,630
+Do you want this or do you want to stand there?
+
+48
+00:03:31,050 --> 00:03:31,380
+All right.
+
+49
+00:03:37,351 --> 00:03:39,240
+There we go. Good morning,
+
+50
+00:03:40,800 --> 00:03:45,390
+and welcome to Oslo. I'm Hugo, as Dave introduced me.
+
+51
+00:03:47,101 --> 00:03:52,740
+I'm really glad to welcome you here to Oslo and also to the University of Oslo.
+
+52
+00:03:53,610 --> 00:03:56,010
+And it's a real pleasure for me to open TADWIG.
+
+53
+00:03:56,820 --> 00:03:56,970
+So
+
+54
+00:03:58,260 --> 00:04:04,080
+you're looking here at four versions of Edvard Munch's "The Scream,"
+
+55
+00:04:04,770 --> 00:04:09,660
+one of Norway's great treasures, first dated to
+
+56
+00:04:09,690 --> 00:04:15,421
+1893. And there's four of us locally who are helping to
+
+57
+00:04:15,510 --> 00:04:19,500
+organize the meeting, Dag, Rukia, Kathy, and me.
+
+58
+00:04:20,610 --> 00:04:21,870
+TADWIG, of course, runs the conference.
+
+59
+00:04:22,320 --> 00:04:26,880
+But getting this many people into the city, keeping the logistics moving, well,
+
+60
+00:04:26,940 --> 00:04:32,910
+what can I say? This existential panic depicted by Munch in The Scream is something
+
+61
+00:04:32,940 --> 00:04:34,650
+we could really resonate with at times.
+
+62
+00:04:38,430 --> 00:04:42,091
+Now look at the walls around you,
+
+63
+00:04:43,410 --> 00:04:48,690
+because you're sitting inside one of Munch's most ambitious projects.
+
+64
+00:04:49,740 --> 00:04:52,980
+It's prestigious. It was also a bit controversial in its day.
+
+65
+00:04:55,320 --> 00:05:00,750
+Munch painted these paintings here in this room more than 100 years ago.
+
+66
+00:05:02,040 --> 00:05:05,460
+There are 11 paintings, and they tell the story of the university
+
+67
+00:05:06,720 --> 00:05:10,650
+and the sciences. Behind The Scream is the image of the sun.
+
+68
+00:05:12,900 --> 00:05:16,440
+It symbolizes enlightenment as a sunrise.
+
+69
+00:05:17,730 --> 00:05:23,430
+On that wall, we have history with an old man explaining something to
+
+70
+00:05:23,670 --> 00:05:24,330
+a young boy.
+
+71
+00:05:26,040 --> 00:05:28,320
+On the left, we see alma mater,
+
+72
+00:05:29,880 --> 00:05:32,610
+the nourishing university,
+
+73
+00:05:34,350 --> 00:05:40,110
+reaching back to Bologna's Alma Mater Studiorum from 1088.
+
+74
+00:05:42,150 --> 00:05:47,400
+And also, I think relevant for us, some of the sciences are also directly
+
+75
+00:05:47,430 --> 00:05:47,970
+referenced.
+
+76
+00:05:49,770 --> 00:05:50,310
+We have
+
+77
+00:05:51,930 --> 00:05:56,100
+over there in the corner is chemistry.
+
+78
+00:05:59,100 --> 00:05:59,460
+Here
+
+79
+00:06:00,990 --> 00:06:02,490
+in this corner, we have
+
+80
+00:06:04,110 --> 00:06:06,360
+physics symbolized by the rays,
+
+81
+00:06:07,860 --> 00:06:10,620
+and maybe my favorite, we have here
+
+82
+00:06:12,000 --> 00:06:12,510
+botany,
+
+83
+00:06:14,190 --> 00:06:17,790
+these women harvesting from the tree of knowledge.
+
+84
+00:06:21,150 --> 00:06:26,610
+So something about the room itself, the aula, this space is, I think everybody
+
+85
+00:06:26,701 --> 00:06:31,410
+agrees in Oslo, that this is one of the most beautiful places to be.
+
+86
+00:06:32,460 --> 00:06:35,640
+The other most beautiful place is the Oslo City Hall,
+
+87
+00:06:37,290 --> 00:06:40,740
+where the Nobel Peace Prize is awarded each December.
+
+88
+00:06:41,610 --> 00:06:46,320
+And that is exactly where we will gather this evening at 5:00 for the welcome
+
+89
+00:06:46,350 --> 00:06:50,970
+reception. So in a single day, you get to stand in both.
+
+90
+00:06:51,960 --> 00:06:54,091
+Not a bad way, I think, to start the conference.
+
+91
+00:07:01,050 --> 00:07:03,930
+Our logo is a smiling troll,
+
+92
+00:07:05,550 --> 00:07:09,660
+which takes us from Munch to Norse mythology,
+
+93
+00:07:11,550 --> 00:07:14,790
+and to something surprisingly close to what we're working on.
+
+94
+00:07:15,930 --> 00:07:21,780
+In old Norse sources, trolls dwell in the wild,
+
+95
+00:07:21,930 --> 00:07:22,920
+isolated places,
+
+96
+00:07:24,120 --> 00:07:27,030
+mountains, rocks, caves, forests.
+
+97
+00:07:27,360 --> 00:07:31,860
+They live in small family groups, and they're rarely helpful to humans.
+
+98
+00:07:33,870 --> 00:07:37,081
+They belong to nature, and they're out at the edge of the known world.
+
+99
+00:07:41,701 --> 00:07:42,540
+And here we see
+
+100
+00:07:43,920 --> 00:07:45,901
+Kittelsen and the Norwegian troll.
+
+101
+00:07:46,350 --> 00:07:52,081
+For over a century, our mental image of the Norwegian troll has been that
+
+102
+00:07:52,770 --> 00:07:58,320
+created by Theodor Kittelsen. He illustrated the folk tales of
+
+103
+00:07:58,410 --> 00:08:04,230
+Asbjørnsen and Moe for nearly 30 years, and many say that he
+
+104
+00:08:04,320 --> 00:08:07,800
+settled once and for all what a Norwegian troll looks like.
+
+105
+00:08:10,680 --> 00:08:11,701
+And it's that connection
+
+106
+00:08:12,990 --> 00:08:18,300
+that I want to draw here again to TADWIG, because before Kittelsen, the troll
+
+107
+00:08:18,841 --> 00:08:22,800
+was in a way formless. Everyone pictured it differently.
+
+108
+00:08:24,390 --> 00:08:28,651
+But he gave it a shared form. He gave it a kind of common language. Right?
+
+109
+00:08:29,040 --> 00:08:31,620
+And this is exactly I would say that we're doing here at TADWIG.
+
+110
+00:08:32,341 --> 00:08:38,190
+Biodiversity, like a troll, is wild, scattered, endlessly varied, and hard to
+
+111
+00:08:38,220 --> 00:08:42,961
+pin down. Our task here as a group is to give it a shared language,
+
+112
+00:08:44,401 --> 00:08:50,340
+standards that let data from a forest in Uganda and a specimen drawer
+
+113
+00:08:50,401 --> 00:08:51,061
+here in Oslo
+
+114
+00:08:52,350 --> 00:08:53,370
+speak to one another.
+
+115
+00:08:55,410 --> 00:08:58,110
+We in Norway like to think we live close to nature.
+
+116
+00:08:58,651 --> 00:09:02,490
+We build our stories around it, and data standards are simply
+
+117
+00:09:03,931 --> 00:09:09,120
+how we turn that wild, tangled diversity into something we can share, connect, and
+
+118
+00:09:09,151 --> 00:09:09,390
+protect.
+
+119
+00:09:13,152 --> 00:09:17,592
+So let us go from trolls to living nature.
+
+120
+00:09:18,642 --> 00:09:24,192
+The image here on the screen is the University of Oslo's Botanical Garden, Norway's
+
+121
+00:09:24,252 --> 00:09:29,652
+oldest. It was founded in 1814 and is part of the Natural History Museum.
+
+122
+00:09:30,402 --> 00:09:36,012
+We have around 5,000 plant species cared for through research, education,
+
+123
+00:09:36,852 --> 00:09:41,412
+and conservation. The conference itself is here and also at the Congress Center,
+
+124
+00:09:42,072 --> 00:09:46,633
+but as a host, I would like you to also enjoy the botanical garden.
+
+125
+00:09:46,722 --> 00:09:51,912
+So if you have time, please do come and explore the wonderful garden while you're
+
+126
+00:09:51,942 --> 00:09:52,242
+here.
+
+127
+00:09:55,062 --> 00:09:56,052
+A little bit more history,
+
+128
+00:09:58,332 --> 00:09:59,502
+and also a personal invitation.
+
+129
+00:10:00,972 --> 00:10:06,432
+The main wing of Tøyen Manor in the botanical garden is probably the oldest
+
+130
+00:10:07,182 --> 00:10:09,702
+standing timber building in Greater Oslo.
+
+131
+00:10:10,812 --> 00:10:14,202
+This house dates to 1679,
+
+132
+00:10:16,092 --> 00:10:21,762
+and it is an estate that passed through Norway's Chancellor Jens Bjelke, then to
+
+133
+00:10:21,822 --> 00:10:25,962
+the Danish king, and it was later donated to the university in 1812.
+
+134
+00:10:27,342 --> 00:10:32,202
+Today, it holds exhibitions and a cafe. It also happens to be where my office is.
+
+135
+00:10:32,352 --> 00:10:34,422
+So if you're in the garden, do drop by.
+
+136
+00:10:40,062 --> 00:10:45,672
+A few practical things, instead of all my meanderings about trolls and
+
+137
+00:10:45,942 --> 00:10:46,482
+folklore.
+
+138
+00:10:47,982 --> 00:10:51,762
+Wednesday is our day for excursions and also the BioBlitz.
+
+139
+00:10:53,322 --> 00:10:56,832
+We have forests and lake hikes, island hopping on fjords, birding,
+
+140
+00:10:57,042 --> 00:10:59,322
+behind-the-scenes visits to our museum and collections.
+
+141
+00:10:59,982 --> 00:11:03,702
+If you'd like to join, sign up at the registration desk.
+
+142
+00:11:04,392 --> 00:11:09,972
+Cathy, whom you will have seen here, has the sheets on Tuesday at the Congress
+
+143
+00:11:10,032 --> 00:11:15,822
+Center. And do join the BioBlitz that we have set up for the meeting on
+
+144
+00:11:15,942 --> 00:11:21,582
+iNaturalist. We can get some real records recorded in the very
+
+145
+00:11:21,672 --> 00:11:24,282
+standards that this meeting wants to have.
+
+146
+00:11:25,633 --> 00:11:26,592
+Wednesday evening,
+
+147
+00:11:28,182 --> 00:11:31,992
+our conference social. Yesterday, we already had a conference social, but on
+
+148
+00:11:32,022 --> 00:11:35,472
+Wednesday evening, another conference social, because we're a very social bunch, is
+
+149
+00:11:35,502 --> 00:11:39,672
+at the Munch Museum on the waterfront. Ninety rooms of Munch.
+
+150
+00:11:39,762 --> 00:11:42,372
+So if you haven't seen enough Munch, there's more Munch there.
+
+151
+00:11:43,992 --> 00:11:48,522
+Your ticket that you got, the little sticker, it will get you into the galleries
+
+152
+00:11:48,672 --> 00:11:53,682
+before and after, so give yourself some time to wonder and enjoy his art.
+
+153
+00:11:55,992 --> 00:12:01,392
+If you plan to visit several museums and ride the public transport, you can get 20%
+
+154
+00:12:01,452 --> 00:12:06,012
+off on the Oslo Pass, and I think Cathy also has a code, and you can also email the
+
+155
+00:12:06,133 --> 00:12:08,113
+conference organizers.
+
+156
+00:12:10,002 --> 00:12:11,442
+So wrapping up,
+
+157
+00:12:13,302 --> 00:12:14,802
+this is a little insider tip.
+
+158
+00:12:16,242 --> 00:12:20,172
+It's something that's happening this very week that goes beyond the usual
+
+159
+00:12:20,502 --> 00:12:25,392
+highlights. So on Thursday evening, the 24th of September, from 8:00 to
+
+160
+00:12:25,452 --> 00:12:31,363
+11:00, the electric lights along the Akerselva River that
+
+161
+00:12:31,452 --> 00:12:35,592
+runs from the mountains through the city to the sea, they are switched off, and
+
+162
+00:12:35,592 --> 00:12:37,992
+they are replaced by 4,500 torches.
+
+163
+00:12:39,432 --> 00:12:41,863
+And this whole eight-kilometer route,
+
+164
+00:12:43,872 --> 00:12:45,102
+with little waterfalls and
+
+165
+00:12:47,892 --> 00:12:53,592
+streams, comes alive with live performances, music, dance, lights.
+
+166
+00:12:54,583 --> 00:13:00,402
+It's called the Akerselva Along the River, and the idea is the symbolism of
+
+167
+00:13:00,432 --> 00:13:04,422
+the autumn equinox, so the balance of light and dark.
+
+168
+00:13:05,382 --> 00:13:08,863
+So if you have the evening free on Thursday, do consider to visit.
+
+169
+00:13:09,822 --> 00:13:14,532
+So that's all that I wanted to share with you, and again, welcome to Oslo.
+
+170
+00:13:29,352 --> 00:13:31,512
+Thank you very much, Hugo. I appreciate that.
+
+171
+00:13:31,812 --> 00:13:36,613
+Now I would like to introduce to you the deputy chair of TIDWEG, Elie Saliba.
+
+172
+00:13:43,182 --> 00:13:48,312
+Hi, everybody. So now we're going to look a little bit at the housekeeping for the
+
+173
+00:13:48,373 --> 00:13:51,762
+week, all the information that you might need to get around.
+
+174
+00:13:52,182 --> 00:13:55,092
+It's going to be a little bit less poetic than what we've had until now.
+
+175
+00:13:55,152 --> 00:14:00,312
+But first, to start, I would like to give a huge thanks to the conference committee
+
+176
+00:14:00,342 --> 00:14:04,303
+and the people who have been working tirelessly to make this happen.
+
+177
+00:14:04,422 --> 00:14:09,672
+So please, all of you that are in this room, can you stand up so that people can
+
+178
+00:14:09,792 --> 00:14:10,272
+see you?
+
+179
+00:14:11,863 --> 00:14:17,352
+And if you have any questions during the week, you can come and find us, all the
+
+180
+00:14:17,382 --> 00:14:19,632
+people that are here, the picture here.
+
+181
+00:14:20,322 --> 00:14:20,592
+And
+
+182
+00:14:22,182 --> 00:14:26,652
+please, so that people can see you, please stand up and be recognizable.
+
+183
+00:14:39,972 --> 00:14:45,192
+Also, a huge thanks to Kate Louwers and Laura Slaughter, who have also been helping
+
+184
+00:14:45,252 --> 00:14:46,932
+and working hard to make this happen.
+
+185
+00:14:47,502 --> 00:14:52,992
+The local team, the Norwegian, have been absolutely incredible, doing everything on
+
+186
+00:14:53,053 --> 00:14:55,873
+time so that everything can be perfect for you.
+
+187
+00:14:56,502 --> 00:15:01,303
+And also, all the volunteers who help with the abstract reviews and the TIDWEG
+
+188
+00:15:01,333 --> 00:15:04,392
+regulars we can count on to make anything happen every year.
+
+189
+00:15:04,483 --> 00:15:09,522
+So again, thank you to all of these people who have been working to make this
+
+190
+00:15:09,553 --> 00:15:15,402
+happen. Thank yous also go to our sponsors, GBIF, Bectere, Biosphere Digitation,
+
+191
+00:15:15,522 --> 00:15:20,712
+Atlas of Living Australia, Pensoft, and EarthGate for their financial help and to
+
+192
+00:15:20,772 --> 00:15:25,572
+have made all of this happen. You will be able to find their stands during the week
+
+193
+00:15:26,382 --> 00:15:28,032
+in the foyer of the
+
+194
+00:15:29,592 --> 00:15:30,282
+Congress Center.
+
+195
+00:15:32,412 --> 00:15:37,992
+You have the registration stand. I think most of you went through it.
+
+196
+00:15:38,141 --> 00:15:39,583
+This is where you can get your tickets.
+
+197
+00:15:39,672 --> 00:15:43,363
+If you have any questions, you can go ask a question there.
+
+198
+00:15:44,202 --> 00:15:47,142
+For the Congress Center, the stand will be in the foyer.
+
+199
+00:15:47,202 --> 00:15:52,182
+You already have a map in Whova if you need to find where the foyer is, but it's
+
+200
+00:15:52,212 --> 00:15:54,162
+basically at the entrance of the building.
+
+201
+00:15:55,002 --> 00:15:58,722
+If you haven't gotten your T-shirts, they are available there, and if you want to
+
+202
+00:15:58,782 --> 00:16:00,342
+buy one, you can still buy one
+
+203
+00:16:01,662 --> 00:16:07,422
+at the registration stand. Also, if you have any questions for, as Hugo just said,
+
+204
+00:16:07,542 --> 00:16:12,432
+for the excursions, you can ask them or sign up at the registration stand.
+
+205
+00:16:14,142 --> 00:16:18,733
+For the code of conduct, by being here, you agree to follow the code of conduct.
+
+206
+00:16:18,822 --> 00:16:24,252
+If you see anything that is out of the ordinary, you
+
+207
+00:16:24,342 --> 00:16:28,272
+can refer to the code of conduct people.
+
+208
+00:16:28,392 --> 00:16:34,303
+They can be recognized by a pink star and an orange and brown ribbon around their
+
+209
+00:16:34,363 --> 00:16:34,632
+neck.
+
+210
+00:16:36,012 --> 00:16:39,672
+Just please do also be aware that you shouldn't be taking pictures of people
+
+211
+00:16:39,702 --> 00:16:42,072
+without their consent and publishing them online.
+
+212
+00:16:42,942 --> 00:16:45,852
+We are in Europe, but also this is just not a nice thing to do.
+
+213
+00:16:46,452 --> 00:16:51,583
+And so if you need more information about the code of conduct, you can find them on
+
+214
+00:16:51,642 --> 00:16:52,363
+the link below.
+
+215
+00:16:53,892 --> 00:16:58,092
+For the Wi-Fi code, because we are all workaholics, we cannot stop checking our
+
+216
+00:16:58,152 --> 00:16:59,562
+emails every five minutes.
+
+217
+00:17:00,882 --> 00:17:03,312
+Here in this building, you can use eduroam if you need to.
+
+218
+00:17:03,373 --> 00:17:09,133
+There's also a password that I cannot say out loud or put on this presentation for
+
+219
+00:17:09,162 --> 00:17:11,113
+security reasons, but it's on Whova.
+
+220
+00:17:11,623 --> 00:17:12,942
+So you can go to the
+
+221
+00:17:14,172 --> 00:17:19,333
+section on Whova about logistics, and you'll find the password for the Wi-Fi, and
+
+222
+00:17:19,363 --> 00:17:23,142
+you can also request it either from one of the organizers if you don't have any way
+
+223
+00:17:23,202 --> 00:17:25,692
+to connect or the registration stand.
+
+224
+00:17:27,402 --> 00:17:32,232
+For tomorrow, the password will be available at the Congress Center, so we have a
+
+225
+00:17:32,292 --> 00:17:35,442
+way of probably printing it and putting it everywhere, so you'll find it.
+
+226
+00:17:35,502 --> 00:17:36,342
+Don't worry about this.
+
+227
+00:17:37,722 --> 00:17:42,402
+If you haven't uploaded your presentation yet, please do.
+
+228
+00:17:43,122 --> 00:17:45,582
+Don't wait to the last minute to have it
+
+229
+00:17:47,502 --> 00:17:51,102
+in the Google Drive. The conference program, if you need to
+
+230
+00:17:52,932 --> 00:17:55,992
+reach for it, is on Whova and on the TIDWEG website.
+
+231
+00:17:56,412 --> 00:18:01,752
+And if you want, you can download the Whova app to access it on your phone.
+
+232
+00:18:02,682 --> 00:18:06,312
+A small important thing about the Whova app, if you are on the Whova app, you can
+
+233
+00:18:06,402 --> 00:18:11,832
+access the posters in the Home section in that menu in particular.
+
+234
+00:18:11,892 --> 00:18:15,942
+And please keep an eye on the organizers' announcements, because if anything
+
+235
+00:18:15,972 --> 00:18:19,212
+happens, it's going to be posted there before anywhere else.
+
+236
+00:18:21,636 --> 00:18:27,485
+In case of an emergency, you can call all of these number, 113 for general help or
+
+237
+00:18:27,546 --> 00:18:32,736
+for health-related issues, 112 for the police, 110 for fire emergency.
+
+238
+00:18:33,996 --> 00:18:39,546
+And you can download an app also if you have any reasons that it's easier for you
+
+239
+00:18:39,636 --> 00:18:39,816
+to
+
+240
+00:18:42,066 --> 00:18:47,226
+use an app rather than calling. And you can have more information about emergencies
+
+241
+00:18:47,286 --> 00:18:48,846
+in Norway in the two links that are there.
+
+242
+00:18:48,937 --> 00:18:52,956
+Obviously, the whole presentation is going to be put on Whova for you to access.
+
+243
+00:18:54,426 --> 00:18:56,916
+For coffee and lunch breaks, because we all need sugar
+
+244
+00:18:58,926 --> 00:19:02,766
+to be able to survive this week, so today we're going to be eating in the seller.
+
+245
+00:19:02,916 --> 00:19:07,566
+I'm not going to try to pronounce this, otherwise I'll lose all my welcome in
+
+246
+00:19:07,596 --> 00:19:08,016
+Norway.
+
+247
+00:19:10,356 --> 00:19:13,566
+So this means the aula seller, and it's going to be
+
+248
+00:19:14,916 --> 00:19:19,146
+in the basement or a couple of stairs below.
+
+249
+00:19:20,226 --> 00:19:23,976
+There you can scan this QR code to have a map to help guide you, but otherwise you
+
+250
+00:19:24,006 --> 00:19:29,437
+can just follow the organizers. For the Congress Center, it's going to be upstairs
+
+251
+00:19:29,496 --> 00:19:35,166
+on the third floor. And it's going to be tables and sitting down lunch.
+
+252
+00:19:35,197 --> 00:19:37,026
+Today we're having sandwiches.
+
+253
+00:19:38,256 --> 00:19:41,976
+So on Tuesday in particular, please find Ellie Wallace if you're a newcomer because
+
+254
+00:19:42,006 --> 00:19:47,226
+we will be hosting a newcomer table so that people for whom it's the first TADWIG,
+
+255
+00:19:47,376 --> 00:19:48,906
+they can get together,
+
+256
+00:19:50,346 --> 00:19:54,486
+have a chat, and ask any questions they need to ask to know more about the
+
+257
+00:19:54,546 --> 00:19:55,176
+community.
+
+258
+00:19:57,187 --> 00:20:01,086
+If you are in need of accessibility accommodations, here there's an accessible
+
+259
+00:20:01,146 --> 00:20:04,236
+bathroom directly next to the place we're going to eat.
+
+260
+00:20:04,326 --> 00:20:09,816
+There's a lift to get you there. In the Oslo Congress Center, the accessible
+
+261
+00:20:09,966 --> 00:20:12,336
+bathroom is on the first floor next to the cloakroom.
+
+262
+00:20:13,116 --> 00:20:16,146
+There's also a lift to take you to the third floor if necessary.
+
+263
+00:20:16,236 --> 00:20:21,066
+Please give priority to people who need it for the use of the lift and use the
+
+264
+00:20:21,156 --> 00:20:22,116
+stairs if you can.
+
+265
+00:20:24,336 --> 00:20:29,826
+For the mayor invitation today, so it's at 5:00 PM as Hugo just said, please
+
+266
+00:20:30,336 --> 00:20:35,826
+have your invitation, the small paper that you have with you, at any time because
+
+267
+00:20:36,156 --> 00:20:40,447
+there's very strict security measures as it's a public building.
+
+268
+00:20:41,046 --> 00:20:45,816
+And arrive a little bit earlier because there might be airport-type security to get
+
+269
+00:20:45,906 --> 00:20:50,766
+in, so a little bit of a queue. So if you can arrive a little bit early to be able
+
+270
+00:20:50,826 --> 00:20:53,796
+to get in. Some refreshment will be served, no more.
+
+271
+00:20:55,626 --> 00:21:00,156
+For excursions, again, you can check the details on the website, and if you have
+
+272
+00:21:00,216 --> 00:21:03,216
+any questions, you can ask the people at the registration desk.
+
+273
+00:21:05,976 --> 00:21:06,996
+At the Munch Museum,
+
+274
+00:21:08,197 --> 00:21:11,076
+there will be, as Hugo also just said, a social event.
+
+275
+00:21:11,346 --> 00:21:15,906
+You can get in basically any time during the day with the other ticket you were
+
+276
+00:21:15,937 --> 00:21:21,697
+given at the registration desk. There will be a little bit of finger
+
+277
+00:21:21,786 --> 00:21:27,636
+food and a couple of drink per person. However, the museum closes at 9:00 PM.
+
+278
+00:21:27,816 --> 00:21:30,846
+And as you might have noticed if you have been here for a couple of days,
+
+279
+00:21:31,236 --> 00:21:33,306
+restaurants tend to close fairly early.
+
+280
+00:21:33,937 --> 00:21:38,376
+So if you want to have a real dinner, we advise you to leave a little bit early to
+
+281
+00:21:38,406 --> 00:21:42,666
+have the time to go to a restaurant and have a little bit of food.
+
+282
+00:21:43,056 --> 00:21:46,596
+Otherwise, we hope you will enjoy your time at the Munch Museum.
+
+283
+00:21:47,796 --> 00:21:51,006
+On Thursday, there will be a game night if you wish.
+
+284
+00:21:51,666 --> 00:21:52,836
+And this is
+
+285
+00:21:54,096 --> 00:21:58,056
+by TADWIG member for TADWIG members, so people came in with their own games.
+
+286
+00:21:59,166 --> 00:22:04,356
+It's going to be at the Botanical Garden at the museum, and it's to the Lids house
+
+287
+00:22:04,416 --> 00:22:06,426
+at the Botanical Garden. So the people who were at the
+
+288
+00:22:08,346 --> 00:22:11,556
+icebreaker yesterday, it's around 100 meters from where we were yesterday.
+
+289
+00:22:12,636 --> 00:22:16,596
+Bring your own snacks and drink if you want to participate, and there's also here a
+
+290
+00:22:16,687 --> 00:22:19,656
+QR code with the map if you need to find your way.
+
+291
+00:22:21,066 --> 00:22:26,316
+On Friday, there will be our traditional unconference from 1:00 PM to 3:00 PM with
+
+292
+00:22:26,346 --> 00:22:27,876
+here a list of organizers.
+
+293
+00:22:28,326 --> 00:22:34,116
+Don't hesitate to reach out to them if you
+
+294
+00:22:34,176 --> 00:22:35,136
+have any question.
+
+295
+00:22:38,226 --> 00:22:41,706
+So basically, for the people who do not know, an unconference is an occasion for
+
+296
+00:22:41,736 --> 00:22:45,126
+you to put forward a subject, something that has been discussed during the week
+
+297
+00:22:45,187 --> 00:22:50,616
+that you would wish to go deeper into it, or another subject that has not been
+
+298
+00:22:50,646 --> 00:22:54,066
+mentioned during the week that you would like to see discussed.
+
+299
+00:22:54,246 --> 00:23:00,187
+And you can scan this QR code to add to the list of topics
+
+300
+00:23:00,216 --> 00:23:04,656
+that you would like to discuss. Again, all of this is going to be available on
+
+301
+00:23:04,716 --> 00:23:10,656
+Whova for you to be able to have access
+
+302
+00:23:10,687 --> 00:23:11,316
+to everything.
+
+303
+00:23:13,266 --> 00:23:17,856
+And the last part, and another tradition of TADWIG, the BioBlitz is already open.
+
+304
+00:23:19,056 --> 00:23:23,496
+There are two BioBlitzes, at least in parallel, one for the people here in Norway,
+
+305
+00:23:23,706 --> 00:23:26,256
+one for our colleagues online worldwide.
+
+306
+00:23:26,346 --> 00:23:31,296
+So again, you can scan the QR codes to access the BioBlitz and add your pictures
+
+307
+00:23:31,356 --> 00:23:37,056
+during the week. There will be on Friday the
+
+308
+00:23:37,116 --> 00:23:40,056
+traditional also BioBlitz review.
+
+309
+00:23:41,256 --> 00:23:46,926
+So yeah, that's all about Blitz. Just before finishing, Friday will also be the
+
+310
+00:23:46,986 --> 00:23:51,546
+time for the TADWIG business meeting. We invite you to join if you can.
+
+311
+00:23:51,576 --> 00:23:55,356
+This is where we discuss the affairs of TADWIG and how
+
+312
+00:23:58,296 --> 00:24:02,706
+it's managed. And if you have at any time during the week you feel like talking to
+
+313
+00:24:02,766 --> 00:24:07,086
+people from the exec, if you have questions about how it works, please do not
+
+314
+00:24:07,146 --> 00:24:11,886
+hesitate to reach for us and ask us any questions you might have.
+
+315
+00:24:13,656 --> 00:24:18,906
+With this, in the name of all the organizing committee, I bid you welcome to
+
+316
+00:24:18,937 --> 00:24:22,836
+Norway, and we hope that you're going to enjoy your week and this year's TADWIG.
+
+317
+00:24:23,256 --> 00:24:24,096
+Thank you very much.
+
+318
+00:24:38,976 --> 00:24:39,606
+All right.
+
+319
+00:24:41,197 --> 00:24:42,276
+I think we're in good shape.
+
+320
+00:24:43,596 --> 00:24:45,126
+Famous last words.
+
+321
+00:24:46,956 --> 00:24:52,745
+Before I move ahead with my presentation, one clarification.
+
+322
+00:24:53,046 --> 00:24:55,176
+With game night, it's not just TADWIG members.
+
+323
+00:24:55,566 --> 00:24:58,836
+Anybody who's here can attend, and we encourage you to do that.
+
+324
+00:24:59,586 --> 00:25:01,896
+But if you're a member, we'll actually let you sit in a chair.
+
+325
+00:25:04,536 --> 00:25:06,756
+So have your membership card ready and at hand.
+
+326
+00:25:07,716 --> 00:25:11,136
+Also, just one quick announcement before I begin.
+
+327
+00:25:11,976 --> 00:25:16,866
+Every year, as we plan these meetings, somebody sort of
+
+328
+00:25:17,916 --> 00:25:22,206
+rises to the occasion and becomes a bit of a superhero for the way that these
+
+329
+00:25:22,236 --> 00:25:23,226
+meetings get planned.
+
+330
+00:25:24,456 --> 00:25:27,937
+So I'm going to ask a strange question for this crowd because I know who you are.
+
+331
+00:25:28,236 --> 00:25:31,206
+How many of you are planning to go out for a beer at some point this week?
+
+332
+00:25:33,156 --> 00:25:33,606
+Okay.
+
+333
+00:25:35,437 --> 00:25:37,207
+Stan, could you stand up for a second?
+
+334
+00:25:38,856 --> 00:25:41,736
+Stan is our superhero this year for the meeting.
+
+335
+00:25:48,516 --> 00:25:52,986
+I hope, Stan, that you took notes on who raised their hands because all of you owe
+
+336
+00:25:53,046 --> 00:25:53,677
+him a beer.
+
+337
+00:25:55,567 --> 00:25:56,886
+That's where I'm going with that.
+
+338
+00:25:58,207 --> 00:26:02,256
+Already, he has saved the day, and we're only 30 minutes in.
+
+339
+00:26:03,006 --> 00:26:03,246
+So
+
+340
+00:26:05,016 --> 00:26:06,486
+superhero Stan, just
+
+341
+00:26:07,957 --> 00:26:10,296
+pay him all due respect.
+
+342
+00:26:12,336 --> 00:26:16,086
+So I forgot to do this at the beginning. I'm Dave Bloom.
+
+343
+00:26:16,177 --> 00:26:21,937
+I'm the chair of TADWIG, and I welcome you once again to
+
+344
+00:26:21,996 --> 00:26:25,326
+TADWIG 2026 here in Oslo.
+
+345
+00:26:26,976 --> 00:26:32,256
+I'd like to take, if I could, the next 90 minutes to talk with you all about the
+
+346
+00:26:32,286 --> 00:26:35,796
+great things that TADWIG is doing and all the challenges that we face.
+
+347
+00:26:36,877 --> 00:26:42,666
+Unfortunately for me, but very fortunate for you, Ellie Wallace, who put
+
+348
+00:26:42,726 --> 00:26:46,716
+together the program, knows all too well that I am more than capable of talking
+
+349
+00:26:46,776 --> 00:26:50,826
+about TADWIG for 90 minutes, and so she said I could have 15.
+
+350
+00:26:52,776 --> 00:26:57,786
+So rather than sulk over this crushing defeat, I have decided to make the most of
+
+351
+00:26:57,846 --> 00:27:02,076
+the 14 minutes that I have remaining and let you know what's going on.
+
+352
+00:27:02,226 --> 00:27:08,046
+So I'll begin with some of TADWIG's highlights since we were together last.
+
+353
+00:27:10,416 --> 00:27:14,677
+So perhaps nothing that happened over the last year held the attention of our
+
+354
+00:27:14,707 --> 00:27:20,616
+communities more than the Darwin Core data package, which I am happy
+
+355
+00:27:20,646 --> 00:27:22,656
+to say has been ratified
+
+356
+00:27:24,006 --> 00:27:28,146
+We are grateful to the many people who participated in that multi-year effort,
+
+357
+00:27:29,166 --> 00:27:32,526
+especially those folks working on the Darwin Core maintenance group.
+
+358
+00:27:32,886 --> 00:27:37,086
+And you can say yay or cheer for that if you want to do. Thank you.
+
+359
+00:27:39,726 --> 00:27:40,716
+Hallelujah.
+
+360
+00:27:44,466 --> 00:27:49,506
+Also in here, they've completed one round of public review, which is intended to
+
+361
+00:27:49,567 --> 00:27:53,526
+happen three or four times annually. So that was successful.
+
+362
+00:27:54,966 --> 00:28:00,486
+Now, the biodiversity data quality interest group is moving forward
+
+363
+00:28:00,576 --> 00:28:06,427
+towards a ratification. They have yet to complete their public review, and that
+
+364
+00:28:06,457 --> 00:28:07,656
+will be coming up soon.
+
+365
+00:28:09,726 --> 00:28:15,486
+The minimum information about a digital specimen or MIDS standard
+
+366
+00:28:15,606 --> 00:28:21,457
+is also poised to enter the public review phase of its journey very soon,
+
+367
+00:28:21,877 --> 00:28:26,286
+possibly this week, maybe next week. It's going to happen really soon.
+
+368
+00:28:27,127 --> 00:28:33,067
+And many thanks to both of those groups of people for pushing those processes
+
+369
+00:28:33,127 --> 00:28:38,166
+forward. A special thanks to Doug Anderson and Sharon Grant, who are the review
+
+370
+00:28:38,226 --> 00:28:40,266
+managers for both of those standards
+
+371
+00:28:41,496 --> 00:28:47,437
+respectively. And then finally, the second Darwin Core public review of this
+
+372
+00:28:47,466 --> 00:28:50,076
+year has been completed. That was just last week.
+
+373
+00:28:50,496 --> 00:28:53,196
+And all of the proposals reviewed have been passed.
+
+374
+00:28:54,187 --> 00:28:58,296
+Once those updates and additions have been approved by the executive committee, you
+
+375
+00:28:58,326 --> 00:29:02,437
+will all see significant changes to the Humboldt extension and to the new
+
+376
+00:29:02,496 --> 00:29:05,256
+mineralogy extension. All good news.
+
+377
+00:29:06,817 --> 00:29:11,346
+So this last spring marked another successful round of our virtual working
+
+378
+00:29:11,437 --> 00:29:16,776
+sessions. Our thanks to past tag chair Ben Norton, and North America regional
+
+379
+00:29:16,836 --> 00:29:21,156
+representative Erica Krimmel for all of their efforts to make that event work
+
+380
+00:29:21,216 --> 00:29:26,766
+beautifully. We also have a new task group in our midst, the Image
+
+381
+00:29:26,826 --> 00:29:31,716
+Quality and AI Readiness Group. So if you are interested to join that effort,
+
+382
+00:29:31,806 --> 00:29:37,567
+please find Yasin Vakis and Hank Bart during the week, and ask them about
+
+383
+00:29:37,687 --> 00:29:43,386
+how that's going to work. The TDWG Community Support Fund handed out
+
+384
+00:29:43,506 --> 00:29:47,526
+four awards this year totaling a little more than 15,000 US dollars.
+
+385
+00:29:48,276 --> 00:29:53,136
+Those went to mineralogy, sensitive species, invasive species in the environmental
+
+386
+00:29:53,226 --> 00:29:55,446
+samples, and eDNA working groups.
+
+387
+00:29:58,026 --> 00:30:03,636
+Some of you may have heard about a small gathering that we held in the fall of last
+
+388
+00:30:03,666 --> 00:30:09,216
+year in Bogota, Colombia. Living Data 2025 played host to more than
+
+389
+00:30:09,546 --> 00:30:13,446
+900 participants, including more than 700 in person.
+
+390
+00:30:14,677 --> 00:30:19,536
+Our thanks to our partners at the Humboldt Institute, GBIF, OBIS, and GeoBon for
+
+391
+00:30:19,596 --> 00:30:21,156
+making that a meeting to remember.
+
+392
+00:30:22,266 --> 00:30:24,846
+Stay tuned for more news about the Living Data series.
+
+393
+00:30:25,177 --> 00:30:26,976
+That'll come a little bit later this week.
+
+394
+00:30:28,567 --> 00:30:33,067
+We also await word from the EU regarding the recent submission of the Bicycle AI
+
+395
+00:30:33,156 --> 00:30:38,165
+grant. Meanwhile, our friends at Disco have received a capacity enhancement grant
+
+396
+00:30:38,226 --> 00:30:43,776
+from GBIF to develop a plan to map their data to the Darwin Core data package, and
+
+397
+00:30:43,836 --> 00:30:47,317
+we look forward to working with both of those projects.
+
+398
+00:30:48,877 --> 00:30:53,856
+Finally, Biodiversity Information Science and Standards, that's TDWG's journal and
+
+399
+00:30:53,916 --> 00:30:58,596
+hosted by Pensoft, has a shiny new editor-in-chief, Ellie Wallace.
+
+400
+00:30:58,957 --> 00:31:00,187
+Ellie, you want to say hi?
+
+401
+00:31:06,817 --> 00:31:11,496
+So Ellie has got her work cut out for her, and she plans to refresh the editorial
+
+402
+00:31:11,556 --> 00:31:16,656
+boards. And she also plans to expand business publishing to include peer-reviewed
+
+403
+00:31:16,746 --> 00:31:20,826
+papers, of which we already have several manuscripts in the pipeline, which is
+
+404
+00:31:20,916 --> 00:31:26,317
+great. So please keep us in mind the next time that you have a paper of your own
+
+405
+00:31:26,346 --> 00:31:30,096
+ready to go to publication. We're also considering, although we haven't decided
+
+406
+00:31:30,156 --> 00:31:35,286
+yet, on the possibility of discounts to TDWG members for those publication fees.
+
+407
+00:31:35,886 --> 00:31:41,556
+And just by the way, Ellie is looking for a co-editor for this year's
+
+408
+00:31:41,616 --> 00:31:44,286
+collection of extended abstracts from this meeting.
+
+409
+00:31:44,886 --> 00:31:48,996
+So if you're interested in that opportunity or interested in any of the other items
+
+410
+00:31:49,086 --> 00:31:53,886
+I mentioned about this, please seek out Ellie and talk to her about what is
+
+411
+00:31:53,946 --> 00:31:56,226
+possible and what kinds of assistance you could use.
+
+412
+00:31:58,416 --> 00:31:58,687
+So,
+
+413
+00:32:00,726 --> 00:32:04,177
+that's a nice assortment of good news from TDWG, but there's also more.
+
+414
+00:32:05,526 --> 00:32:09,427
+So recently, a variety of new communities that are eager to publish their data to
+
+415
+00:32:09,516 --> 00:32:14,016
+GBIF and other data aggregators have brought a wide range of new data types and
+
+416
+00:32:14,076 --> 00:32:16,356
+considerations into the TDWG's orbit.
+
+417
+00:32:17,317 --> 00:32:21,216
+Almost all of these highlights that I just mentioned are examples of how TDWG is
+
+418
+00:32:21,276 --> 00:32:25,026
+working to meet those needs and the challenges of this community.
+
+419
+00:32:25,896 --> 00:32:29,826
+As a result, TDWG finds itself at a crossroads of sorts.
+
+420
+00:32:30,546 --> 00:32:34,207
+We need to think carefully about which path we take to serve our growing community.
+
+421
+00:32:34,656 --> 00:32:40,177
+So I'd like to take the next couple of minutes and explain how we got here, and
+
+422
+00:32:42,336 --> 00:32:48,246
+it's my hope that what we can do is find a way to help you help us
+
+423
+00:32:48,336 --> 00:32:49,627
+to stay on the right path.
+
+424
+00:32:52,927 --> 00:32:58,116
+So in the 1980s, when TDWG was founded, that's a photograph from the 1980s.
+
+425
+00:32:59,106 --> 00:33:02,076
+The purpose was to explore taxonomy.
+
+426
+00:33:02,136 --> 00:33:07,927
+That was the primary focus, and understandably, at the time, participants tended to
+
+427
+00:33:07,957 --> 00:33:12,427
+be taxonomists, mostly botanists, and academics interested in names.
+
+428
+00:33:13,207 --> 00:33:18,276
+At the time, communication was limited to handwritten or typed correspondence and
+
+429
+00:33:18,306 --> 00:33:19,836
+through the mail, I know,
+
+430
+00:33:22,506 --> 00:33:27,756
+and telephone calls. And the TDWG meetings, such as they were, tended to be the
+
+431
+00:33:27,846 --> 00:33:32,317
+only opportunity for our community to get together to discuss work in person.
+
+432
+00:33:32,856 --> 00:33:37,806
+At the time, telephones were just as likely to be used as weapons of murder in
+
+433
+00:33:37,866 --> 00:33:42,786
+Alfred Hitchcock films as much as they were for communication, and the desktop
+
+434
+00:33:42,817 --> 00:33:47,076
+machines that we were using at the time were truly personal computers.
+
+435
+00:33:48,276 --> 00:33:53,346
+The hot topics of discussion, hold onto your seat, were the isolated relational
+
+436
+00:33:53,405 --> 00:33:57,216
+databases that people were learning how to develop at the time.
+
+437
+00:33:59,226 --> 00:34:00,756
+Then one day, lightning struck,
+
+438
+00:34:02,106 --> 00:34:05,136
+and we found ourselves on the cusp of something revolutionary.
+
+439
+00:34:05,796 --> 00:34:10,056
+So this is a paragraph from some correspondence that TDWG's deputy chair, Eli
+
+440
+00:34:10,116 --> 00:34:14,826
+Saliba, discovered in a box under a cavernous desk at a botanic garden somewhere in
+
+441
+00:34:14,886 --> 00:34:17,826
+Belgium while practicing his Indiana Jones cosplay.
+
+442
+00:34:23,317 --> 00:34:28,266
+The good news is that TDWG, this person, and others understood the value of the
+
+443
+00:34:28,326 --> 00:34:33,067
+witchcraft that we now know to be the internet, and soon afterward, the next age of
+
+444
+00:34:33,127 --> 00:34:34,236
+TDWG was upon us.
+
+445
+00:34:36,396 --> 00:34:42,067
+So TDWG pivoted, and the focus became primary biodiversity data or occurrence data
+
+446
+00:34:42,187 --> 00:34:45,427
+around the turn of the century. It even sounds old when we say around the turn of
+
+447
+00:34:45,457 --> 00:34:50,437
+the century. It was a time when those data that were living in isolated relational
+
+448
+00:34:50,496 --> 00:34:54,246
+databases started to come of age and wanted to get out of the house and away from
+
+449
+00:34:54,276 --> 00:34:59,376
+their parents. Soon, those data found data portals such as GBIF and the Vertebrate
+
+450
+00:34:59,436 --> 00:35:03,996
+Networks, both of which I will add are celebrating their 25th anniversaries this
+
+451
+00:35:04,056 --> 00:35:09,726
+year. Those portals then evolved into places where the data could hang out,
+
+452
+00:35:10,056 --> 00:35:11,826
+socialize, and be themselves.
+
+453
+00:35:13,236 --> 00:35:18,427
+New communities of practice arrived at the party, so new tools, formats, and
+
+454
+00:35:18,486 --> 00:35:20,346
+standards were needed to meet that demand.
+
+455
+00:35:20,976 --> 00:35:26,916
+XML, RDF, data schemas were all applied, and data standards such as
+
+456
+00:35:26,976 --> 00:35:32,586
+ABCD and Darwin Core were born. A new focus on ontology to standardize vocabularies
+
+457
+00:35:32,646 --> 00:35:38,286
+blossomed, and new telecommunications tools like Skype or Zoom changed the way that
+
+458
+00:35:38,317 --> 00:35:42,636
+we work together, and even our annual meetings begin to evolve into joint ventures
+
+459
+00:35:42,726 --> 00:35:45,876
+that were of interest to diverse communities all around the globe.
+
+460
+00:35:47,016 --> 00:35:52,026
+Which leaves us today on the cusp of a new focus for TDWG, linked open data.
+
+461
+00:35:53,136 --> 00:35:58,356
+This game has already begun. Data package standards for cam traps and Darwin Core
+
+462
+00:35:58,416 --> 00:36:02,556
+allow us to bring even more communities of practice and new data types into the
+
+463
+00:36:02,616 --> 00:36:03,427
+TDWG fold,
+
+464
+00:36:04,956 --> 00:36:07,776
+along with all the associated challenges and
+
+465
+00:36:09,786 --> 00:36:12,067
+questions about implementation and participation.
+
+466
+00:36:12,846 --> 00:36:16,626
+So while we can still visit our favorite data portals to discover and access
+
+467
+00:36:16,656 --> 00:36:17,047
+primary
+
+468
+00:36:18,966 --> 00:36:24,427
+biodiversity data, we now must find ways to link distributed data resources in ways
+
+469
+00:36:24,456 --> 00:36:26,616
+that encourage even greater discovery.
+
+470
+00:36:28,902 --> 00:36:32,382
+So this leaves TDWG with a variety of opportunities and challenges before it.
+
+471
+00:36:32,742 --> 00:36:36,282
+And thanks to Ellie Wallace, I have time to mention only a few of those most
+
+472
+00:36:36,312 --> 00:36:36,762
+pressing.
+
+473
+00:36:38,652 --> 00:36:41,623
+So let's begin with documentation.
+
+474
+00:36:42,522 --> 00:36:46,332
+We can view this in several ways, but the two most pressing are how we handle our
+
+475
+00:36:46,422 --> 00:36:48,912
+archives and how we address distributed storage.
+
+476
+00:36:49,692 --> 00:36:54,912
+For TDWG, archival storage includes those musty boxes of handwritten documents, as
+
+477
+00:36:54,972 --> 00:36:59,143
+well as all of the digital documents that many of you have created and have hidden
+
+478
+00:36:59,202 --> 00:37:01,572
+away in your own personal cloud storage accounts.
+
+479
+00:37:03,162 --> 00:37:05,172
+Also included in our archival storage
+
+480
+00:37:07,182 --> 00:37:12,102
+is the documentation that we put online to describe and explain our data standards,
+
+481
+00:37:12,162 --> 00:37:14,412
+our extensions, schemas, and data structures.
+
+482
+00:37:15,192 --> 00:37:19,062
+In all cases, we need to do some housekeeping, and we need to make some important
+
+483
+00:37:19,092 --> 00:37:23,802
+decisions about how our tools and documentation can be made more accessible to a
+
+484
+00:37:23,862 --> 00:37:29,322
+wider audience. In the very near future, we'll be launching a new task group to
+
+485
+00:37:29,382 --> 00:37:34,362
+review the tools and processes that we use to ensure that we can maintain the
+
+486
+00:37:34,422 --> 00:37:39,643
+standards that we have and support future standards that may require new and
+
+487
+00:37:39,702 --> 00:37:41,592
+different forms of documentation.
+
+488
+00:37:43,452 --> 00:37:49,242
+So participation is another challenge for TDWG, and we want and need each and every
+
+489
+00:37:49,362 --> 00:37:54,072
+one of you to help us move forward. But to make this happen, TDWG needs to be
+
+490
+00:37:54,132 --> 00:37:59,442
+better about helping those people who are interested to find a place in TDWG where
+
+491
+00:37:59,472 --> 00:38:01,962
+their skills and knowledge can be most beneficial.
+
+492
+00:38:03,192 --> 00:38:08,772
+One way that you can participate is by running for a seat on the TDWG
+
+493
+00:38:08,832 --> 00:38:13,212
+Executive Committee. This year, there are multiple seats that are up for election.
+
+494
+00:38:15,132 --> 00:38:19,002
+If you're not feeling ready to jump into an election, then we would love for you to
+
+495
+00:38:19,062 --> 00:38:24,252
+join one of our subcommittees. The skills that we need on these committees are
+
+496
+00:38:24,342 --> 00:38:28,662
+vast. They're almost as vast as the number of salmon that you saw in our previous
+
+497
+00:38:28,692 --> 00:38:30,012
+housekeeping presentation.
+
+498
+00:38:31,272 --> 00:38:34,662
+And finally, you can join one of our working groups.
+
+499
+00:38:35,382 --> 00:38:39,252
+All of the maintenance groups, the interest groups, the task groups can use new
+
+500
+00:38:39,312 --> 00:38:43,542
+perspectives, creative solutions, and extra hands for support.
+
+501
+00:38:44,682 --> 00:38:49,393
+Now, lest you think that you don't have what it takes to participate in TDWG,
+
+502
+00:38:49,842 --> 00:38:54,132
+please allow me to share the small subset of the skills and knowledge bases that we
+
+503
+00:38:54,162 --> 00:38:56,862
+would love to have at every level of the organization.
+
+504
+00:38:58,092 --> 00:39:00,342
+And I'm not joking about any of those.
+
+505
+00:39:02,382 --> 00:39:06,762
+It doesn't matter if you're a student or a grizzled old-timer, we'd love to have
+
+506
+00:39:06,822 --> 00:39:11,352
+you. It also doesn't matter if you are an expert in any given subject or not.
+
+507
+00:39:12,102 --> 00:39:17,472
+Join us if you have the expertise, and join us if you'd like to learn and acquire
+
+508
+00:39:17,532 --> 00:39:22,602
+the same expertise for yourself. So please use this week to talk with members of
+
+509
+00:39:22,632 --> 00:39:26,893
+the executive committee, myself, Ellie especially.
+
+510
+00:39:27,702 --> 00:39:29,532
+Talk to the chairs of the subcommittees.
+
+511
+00:39:30,132 --> 00:39:33,672
+Talk to the conveners and members of the task groups and working groups, and find
+
+512
+00:39:33,732 --> 00:39:37,752
+out how you can become a part of the solutions to our next set of challenges.
+
+513
+00:39:38,382 --> 00:39:42,431
+Everybody read it? Peter Desmet, you found yours in there, I hope.
+
+514
+00:39:47,922 --> 00:39:50,682
+Okay. So TDWG is a 100% volunteer organization.
+
+515
+00:39:51,732 --> 00:39:56,442
+Everyone who works on behalf of TDWG does so because they believe in TDWG's mission
+
+516
+00:39:56,502 --> 00:39:59,772
+and the role that it plays in science, policy, and education.
+
+517
+00:40:00,582 --> 00:40:04,812
+Of course, we know that some people are paid indirectly by employers who allow some
+
+518
+00:40:04,873 --> 00:40:09,282
+people to spend some of their working hours on TDWG business, while others may get
+
+519
+00:40:09,342 --> 00:40:11,742
+paid for a limited time by special project funding.
+
+520
+00:40:12,132 --> 00:40:17,022
+But mostly, people are involved with TDWG because they are, at least while we're
+
+521
+00:40:17,052 --> 00:40:19,662
+here in Norway, altruistic trolls.
+
+522
+00:40:20,893 --> 00:40:23,922
+And I'm talking about good trolls, I'm not talking about the trolls on the
+
+523
+00:40:23,982 --> 00:40:29,712
+internet. But even altruistic trolls eventually step away, and when they do, we
+
+524
+00:40:29,742 --> 00:40:33,222
+need to be sure that they've had a chance to share what they know with the next
+
+525
+00:40:33,282 --> 00:40:39,132
+generation of trolls. The growth of standards and extensions have created a growing
+
+526
+00:40:39,192 --> 00:40:41,532
+need for people to help with maintenance, too.
+
+527
+00:40:42,522 --> 00:40:48,132
+What was once a task that could be completed by one or two people now require four
+
+528
+00:40:48,162 --> 00:40:48,672
+or five.
+
+529
+00:40:49,932 --> 00:40:54,672
+This presents an opportunity for TDWG especially to work more closely with its
+
+530
+00:40:54,762 --> 00:41:00,582
+partners and organizations that we work with often, like GBIF and OBIS, to
+
+531
+00:41:00,643 --> 00:41:05,862
+imagine how we can maintain these standards more equitably and sustainably.
+
+532
+00:41:06,852 --> 00:41:10,842
+We also need to broaden our financial outlook and have already begun to explore
+
+533
+00:41:10,902 --> 00:41:15,132
+ways that we can expand our abilities to support our efforts financially through
+
+534
+00:41:15,192 --> 00:41:17,832
+partnerships and other forms of giving.
+
+535
+00:41:18,432 --> 00:41:23,052
+And some of you may have already noticed that the menu items on the TDWG website
+
+536
+00:41:23,292 --> 00:41:28,782
+have changed. Our treasurer, Chanda Earle, decreed that
+
+537
+00:41:29,832 --> 00:41:35,052
+she would have a donate button. So soon after her declaration, a miracle occurred,
+
+538
+00:41:35,082 --> 00:41:39,492
+and we discovered that a donate button had appeared, and it's been used.
+
+539
+00:41:40,062 --> 00:41:41,623
+Thank you very much, Deb Paul.
+
+540
+00:41:48,072 --> 00:41:48,373
+Yeah.
+
+541
+00:41:53,412 --> 00:41:57,643
+So we hope that all of you will be a little more like Deb in that regard, and we
+
+542
+00:41:57,672 --> 00:42:00,672
+would welcome your participation and ideas on all of these topics.
+
+543
+00:42:02,112 --> 00:42:06,643
+And there's this other matter. There's a disturbance in the Force.
+
+544
+00:42:07,662 --> 00:42:11,082
+We've been discussing it for a couple of years now, and in that very short time,
+
+545
+00:42:11,143 --> 00:42:14,652
+the abilities and applications of artificial intelligence have expanded
+
+546
+00:42:14,742 --> 00:42:20,112
+exponentially. Is this another revolutionary lightning strike? How will we use it?
+
+547
+00:42:20,772 --> 00:42:22,123
+What does it mean for our community?
+
+548
+00:42:22,212 --> 00:42:24,762
+How much and how rapidly will it change how we work?
+
+549
+00:42:25,362 --> 00:42:29,802
+One thing is certain, the use of AI makes the work of TDWG even more important.
+
+550
+00:42:31,092 --> 00:42:34,812
+So I encourage all of you to take some time this week to think about these
+
+551
+00:42:34,902 --> 00:42:39,882
+challenges and how they affect your own work and how they affect the work of your
+
+552
+00:42:39,942 --> 00:42:41,382
+projects and your institutions.
+
+553
+00:42:42,643 --> 00:42:47,232
+Take advantage of the fact that there are more than 350 like-minded individuals
+
+554
+00:42:47,292 --> 00:42:51,822
+here this week in person. Engage with these folks, and engage with the folks that
+
+555
+00:42:51,852 --> 00:42:55,692
+are watching from their offices and their homes online.
+
+556
+00:42:56,172 --> 00:43:01,661
+And most importantly, talk to somebody about TDWG and find out how you can make
+
+557
+00:43:01,692 --> 00:43:06,312
+this community even stronger, more nimble, and resilient.
+
+558
+00:43:07,422 --> 00:43:08,172
+So with that,
+
+559
+00:43:09,612 --> 00:43:13,422
+I now will transition to our first keynote speaker.
+
+560
+00:43:14,562 --> 00:43:16,962
+And I am very pleased
+
+561
+00:43:19,662 --> 00:43:23,832
+to have the honor to introduce Dr. Tanya Berger-Wolf.
+
+562
+00:43:25,152 --> 00:43:29,922
+Tanya is a professor of computer science engineering, electrical and computer
+
+563
+00:43:29,982 --> 00:43:34,032
+engineering, and evolution, ecology, and organismal biology at--
+
+564
+00:43:35,592 --> 00:43:36,192
+Okay, hold on. Let
+
+565
+00:43:37,393 --> 00:43:42,222
+me rephrase that. Tanya is a professor of practically everything-
+
+566
+00:43:43,662 --> 00:43:48,822
+... at The Ohio State University, where she is also the director of the
+
+567
+00:43:48,912 --> 00:43:51,282
+Translational Data Analytics Institute.
+
+568
+00:43:51,762 --> 00:43:56,143
+A pioneer in AI for ecology, biodiversity, and conservation, she leads the
+
+569
+00:43:56,292 --> 00:44:00,222
+NSF-funded Imagin-- I can't say that word.
+
+570
+00:44:00,552 --> 00:44:04,242
+I've been practicing this for six months, and I still can't say that word.
+
+571
+00:44:06,672 --> 00:44:11,893
+So Image-Omics, is that right? Image-Omics Institute, and the
+
+572
+00:44:12,042 --> 00:44:17,082
+US-Canada co-funded AI and Biodiversity Change Global Centre.
+
+573
+00:44:19,062 --> 00:44:24,762
+Please help me to welcome Tanya, and we welcome her with open
+
+574
+00:44:24,822 --> 00:44:25,152
+arms.
+
+575
+00:44:33,762 --> 00:44:35,893
+Thank you. Am I on?
+
+576
+00:44:39,582 --> 00:44:43,302
+Okay. Clearly, the first order of business is to practice the word Image-Omics.
+
+577
+00:44:47,442 --> 00:44:52,482
+So among all the titles and icons, my goal for the next about 40 minutes
+
+578
+00:44:53,352 --> 00:44:55,302
+is to... Ready? Yes. Okay...
+
+579
+00:44:56,562 --> 00:44:59,502
+is to explain those icons. So
+
+580
+00:45:00,732 --> 00:45:05,802
+most of the work that I will show is represented in there, and so that is
+
+581
+00:45:06,702 --> 00:45:08,712
+funded by Image-Omics Institute.
+
+582
+00:45:10,332 --> 00:45:15,582
+We envision this as the new field of science where we're focused on omics
+
+583
+00:45:16,302 --> 00:45:21,342
+biology, particularly observable traits and phenotype from images, hence image
+
+584
+00:45:21,462 --> 00:45:25,572
+omics. And there are two ways to say it, image-omics or imageomics.
+
+585
+00:45:27,192 --> 00:45:29,832
+Choose your own, and let's practice. So image-omics.
+
+586
+00:45:32,004 --> 00:45:34,464
+Now you can tell everybody about it.
+
+587
+00:45:36,025 --> 00:45:41,724
+The US and Canada co-funded AI and Biodiversity Change Global Center, the
+
+588
+00:45:42,564 --> 00:45:47,304
+NSF funded Institute for Computational Cyber Infrastructure
+
+589
+00:45:48,234 --> 00:45:52,194
+in the environment for-- sorry. Cyber Infrastructure for Computational Learning in
+
+590
+00:45:52,224 --> 00:45:57,954
+the Environment, ICICLE, and the newly funded NSF project on
+
+591
+00:45:58,044 --> 00:46:03,444
+AI-ready biodiversity change global-- sorry, AI-ready biodiversity and
+
+592
+00:46:03,504 --> 00:46:07,434
+ecology data infrastructure. So, with that, let's get going.
+
+593
+00:46:08,454 --> 00:46:11,275
+Because this is the opening, right? So we've got to get the energy.
+
+594
+00:46:11,364 --> 00:46:17,214
+And also, this is my first ADWIC, so I'm super excited to join
+
+595
+00:46:17,244 --> 00:46:17,994
+this community.
+
+596
+00:46:19,434 --> 00:46:21,894
+Please be kind.
+
+597
+00:46:23,634 --> 00:46:28,344
+If you have rotten tomatoes to throw at me while I'm giving this talk, put them
+
+598
+00:46:28,404 --> 00:46:29,874
+nicely on the stage.
+
+599
+00:46:31,884 --> 00:46:32,064
+So
+
+600
+00:46:33,414 --> 00:46:33,894
+why?
+
+601
+00:46:35,605 --> 00:46:41,214
+We just mentioned AI has come to everything, including to science, and that has
+
+602
+00:46:41,275 --> 00:46:46,284
+changed also data and conversations about science. But has it?
+
+603
+00:46:48,324 --> 00:46:52,224
+So going back to kind of the formalization of the scientific method
+
+604
+00:46:53,664 --> 00:46:59,424
+over a century ago by Henri Poincaré who wrote this
+
+605
+00:46:59,484 --> 00:47:03,714
+wonderful, very thin book I highly encourage you, called Science and Method, which
+
+606
+00:47:03,775 --> 00:47:08,184
+he ends with this following paragraph, that scientific method consists in
+
+607
+00:47:08,243 --> 00:47:10,014
+observation and experiment, duh.
+
+608
+00:47:11,154 --> 00:47:15,714
+If the scientist had an infinity of time at his disposal, all he had
+
+609
+00:47:16,974 --> 00:47:21,444
+to do, it would be sufficient to say to him, look, and look carefully.
+
+610
+00:47:21,834 --> 00:47:25,164
+But since he has now time to look at everything, and above all, to look carefully,
+
+611
+00:47:25,434 --> 00:47:29,304
+and, something I tell my students all the time, since it is better not to look at
+
+612
+00:47:29,394 --> 00:47:33,984
+all than to look carelessly, he's forced to make a selection. Right?
+
+613
+00:47:34,344 --> 00:47:40,074
+And so this is where I would argue technology and computation comes in.
+
+614
+00:47:40,554 --> 00:47:45,204
+What it brings to the scientific conversation, it doesn't change the scientific
+
+615
+00:47:45,264 --> 00:47:50,394
+method, but it allows scientists to look at more things more carefully, at larger
+
+616
+00:47:50,484 --> 00:47:53,244
+scale and higher resolution. Right?
+
+617
+00:47:53,664 --> 00:47:53,934
+And
+
+618
+00:47:55,614 --> 00:47:58,674
+we have been developing the technology for scientists to look
+
+619
+00:48:00,624 --> 00:48:05,574
+at more things over the last 20 years with explosion of remote sensing satellites,
+
+620
+00:48:05,634 --> 00:48:10,644
+autonomous vehicles underwater, on the ground, and in the air.
+
+621
+00:48:11,304 --> 00:48:16,584
+The on-body sensors that you can put on animals now as tiny as butterflies.
+
+622
+00:48:17,544 --> 00:48:22,614
+We're now tracking monarch flight with a sensor that is about three rice grains
+
+623
+00:48:23,874 --> 00:48:24,324
+size.
+
+624
+00:48:25,614 --> 00:48:31,404
+These stationary sensors, camera traps, acoustic recorders, and these guys that
+
+625
+00:48:31,464 --> 00:48:35,004
+now everybody's going to use to add to the iNaturalist.
+
+626
+00:48:35,094 --> 00:48:39,355
+How many of you have taken a picture of a living organism in the last two days?
+
+627
+00:48:40,824 --> 00:48:42,594
+This is the right community.
+
+628
+00:48:44,605 --> 00:48:49,105
+For those who haven't raised their hand, may I also remind you that humans are
+
+629
+00:48:49,134 --> 00:48:50,754
+indeed living organisms.
+
+630
+00:48:53,394 --> 00:48:57,684
+Okay. And eDNA and many other sensors.
+
+631
+00:48:57,804 --> 00:49:02,814
+I just learned about a chemical sensor that can sense the change in phenology of
+
+632
+00:49:02,844 --> 00:49:03,624
+plants. So there is
+
+633
+00:49:07,704 --> 00:49:13,614
+ground-penetrating radars that
+
+634
+00:49:13,674 --> 00:49:16,344
+can start sensing tiny invertebrates.
+
+635
+00:49:16,374 --> 00:49:20,484
+So the future continues to give us more
+
+636
+00:49:21,804 --> 00:49:26,275
+things to look at. But can we look at them more carefully? Well, let's see.
+
+637
+00:49:26,334 --> 00:49:29,904
+First of all, we're done with data, right? We really have everything we need.
+
+638
+00:49:33,025 --> 00:49:37,674
+All right. Well, so the bottom left, the pointer here, you can barely see it.
+
+639
+00:49:39,234 --> 00:49:43,074
+Top right left is the biodiversity heat map of the world, and
+
+640
+00:49:44,664 --> 00:49:46,944
+of course, the Amazon is where it's at.
+
+641
+00:49:47,844 --> 00:49:50,694
+It's also where we're losing biodiversity the fastest.
+
+642
+00:49:51,744 --> 00:49:55,554
+You can have essentially the same map for where we're losing biodiversity the
+
+643
+00:49:55,644 --> 00:50:01,554
+fastest. The bottom left is GBIF observations, the number of GBIF
+
+644
+00:50:01,644 --> 00:50:07,464
+observations. And really you're starting to see the near complementarity of
+
+645
+00:50:07,494 --> 00:50:11,544
+where we have highest biodiversity to where we have data on that biodiversity.
+
+646
+00:50:12,504 --> 00:50:18,234
+The same trends hold for iNat and for eBird, despite the fact that
+
+647
+00:50:18,294 --> 00:50:22,014
+birders are crazy and will contribute to bird observations wherever they are.
+
+648
+00:50:22,344 --> 00:50:26,964
+Clearly not everywhere. And so, the thing is that
+
+649
+00:50:27,234 --> 00:50:33,025
+there's clear geographic bias there in where we actually have data.
+
+650
+00:50:33,444 --> 00:50:38,605
+But anything you put on the X-axis, if the Y is the number of
+
+651
+00:50:38,694 --> 00:50:40,074
+observations, whether it's the
+
+652
+00:50:42,025 --> 00:50:46,914
+species, we're going to have super skewed distributions.
+
+653
+00:50:46,974 --> 00:50:51,775
+We know a lot about very little, very few species, very few locations,
+
+654
+00:50:53,154 --> 00:50:58,494
+and then diminishingly nothing about the rest. Right?
+
+655
+00:50:59,514 --> 00:51:02,394
+In fact, the bias is not just geographic.
+
+656
+00:51:03,384 --> 00:51:07,105
+There are people who have dug deeper into it, and not surprisingly,
+
+657
+00:51:08,454 --> 00:51:14,394
+there is a strong correlation by number of observation and the average income per
+
+658
+00:51:14,514 --> 00:51:20,364
+unit of space. Right? So we have data not where the biodiversity, not where
+
+659
+00:51:20,454 --> 00:51:23,664
+nature is, but where rich humans are.
+
+660
+00:51:24,864 --> 00:51:29,694
+That's essentially it. So we still need to get more data.
+
+661
+00:51:30,655 --> 00:51:32,634
+But can we look at it more carefully?
+
+662
+00:51:33,324 --> 00:51:34,644
+And so over the last
+
+663
+00:51:36,714 --> 00:51:42,234
+decade, more now, we also have seen an explosion in computational approaches and
+
+664
+00:51:42,294 --> 00:51:46,974
+methods to start processing that data, particularly image data, and then more
+
+665
+00:51:47,004 --> 00:51:52,674
+recently, language data. Right? We can take complex images and start
+
+666
+00:51:52,734 --> 00:51:54,144
+extracting all the
+
+667
+00:51:55,344 --> 00:51:57,924
+living organisms are, including humans, where
+
+668
+00:51:59,125 --> 00:52:02,724
+to do localization, we can put bounding boxes around them, the pose estimation.
+
+669
+00:52:02,994 --> 00:52:08,094
+We can start naming species. We can reconstruct the environment. Right?
+
+670
+00:52:08,275 --> 00:52:12,984
+But we still have lots of gaps. So we recently published this paper
+
+671
+00:52:14,214 --> 00:52:18,894
+on the shortfalls. So we didn't identify the shortfalls of biodiversity data.
+
+672
+00:52:18,954 --> 00:52:20,964
+That was done previously. But
+
+673
+00:52:22,525 --> 00:52:22,794
+how
+
+674
+00:52:24,354 --> 00:52:27,684
+we can not only fill these shortfalls, but it's a prospective paper.
+
+675
+00:52:28,014 --> 00:52:33,984
+What role and potential do AI methods play in filling those shortfalls,
+
+676
+00:52:34,344 --> 00:52:38,094
+and what needs to be done to develop those AI methods?
+
+677
+00:52:38,155 --> 00:52:43,434
+Because many of them still do not exist. And this is where my job starts.
+
+678
+00:52:44,454 --> 00:52:49,674
+But okay, if you look at these shortfalls, starting with Linnaean, this bold
+
+679
+00:52:49,734 --> 00:52:52,584
+taxonomic naming and description, this group should know the answer.
+
+680
+00:52:53,454 --> 00:52:54,954
+How many estimated species of
+
+681
+00:52:56,184 --> 00:52:59,544
+plants, fungi, and animals are out there about?
+
+682
+00:53:00,834 --> 00:53:01,974
+20 million. Huh?
+
+683
+00:53:03,775 --> 00:53:07,134
+Really? Okay, come on. Order of magnitude.
+
+684
+00:53:10,375 --> 00:53:12,594
+10 million. 10 million. All right.
+
+685
+00:53:12,894 --> 00:53:17,724
+So up until about four years ago, right, the estimate was somewhere around 10, 15
+
+686
+00:53:17,754 --> 00:53:21,954
+million. And about four years, because it's based on the rate of discovery, and we
+
+687
+00:53:22,014 --> 00:53:27,084
+started discovering species a lot faster, especially in the ocean, the number has
+
+688
+00:53:27,174 --> 00:53:30,204
+jumped to about 30 to 50 million estimated species out there.
+
+689
+00:53:30,264 --> 00:53:33,474
+But we still have only about two million, right, named.
+
+690
+00:53:34,494 --> 00:53:37,344
+And even that is argued that they're duplicates, so maybe it's just a million and a
+
+691
+00:53:37,405 --> 00:53:42,744
+half. But the gap is growing. So this shortfall, the
+
+692
+00:53:42,804 --> 00:53:47,905
+Linnaean shortfall, that is probably the kind of-- this is the community to fill
+
+693
+00:53:47,994 --> 00:53:52,315
+it. That gap is growing, not shrinking.
+
+694
+00:53:53,065 --> 00:53:56,964
+And then in the order, we see the estimating abundance,
+
+695
+00:53:58,734 --> 00:53:58,884
+the
+
+696
+00:54:00,324 --> 00:54:05,304
+distribution information, regional distribution space, so that's the spatial, the
+
+697
+00:54:05,514 --> 00:54:10,584
+responses to the environment, morphology and function of organisms, the traits
+
+698
+00:54:10,674 --> 00:54:15,565
+particularly, and then putting it in the context of phylogeny, and then the last
+
+699
+00:54:15,625 --> 00:54:21,174
+one is on interactions. And so we see that this goes from just naming things to
+
+700
+00:54:21,234 --> 00:54:23,905
+increasingly complex structure
+
+701
+00:54:25,824 --> 00:54:27,294
+of biological systems. Right?
+
+702
+00:54:28,584 --> 00:54:32,634
+Because nothing makes sense except in the context of environment and evolution.
+
+703
+00:54:33,655 --> 00:54:38,094
+And so great, this covers pretty much all of ecology, all of
+
+704
+00:54:39,444 --> 00:54:41,394
+that part of science.
+
+705
+00:54:43,728 --> 00:54:46,878
+So what does AI have to do with this?
+
+706
+00:54:47,058 --> 00:54:51,888
+For every single one of them, not only are there existing ways,
+
+707
+00:54:52,489 --> 00:54:57,829
+existing methods that we can use to fill those shortfalls,
+
+708
+00:54:58,758 --> 00:55:04,579
+but they all link on the right to the state-of-the-art and the
+
+709
+00:55:05,298 --> 00:55:11,268
+very active research in AI. But to do this, to actually develop these
+
+710
+00:55:11,329 --> 00:55:16,788
+methods in machine learning, in AI... And when I say AI, I do not mean LLMs.
+
+711
+00:55:19,218 --> 00:55:23,329
+Most of it, 99%, is machine learning.
+
+712
+00:55:25,459 --> 00:55:25,968
+And so
+
+713
+00:55:27,558 --> 00:55:30,588
+a lot of the work is happening within the machine learning community,
+
+714
+00:55:32,088 --> 00:55:36,648
+which is very exciting when you publish good ground-truthed
+
+715
+00:55:37,459 --> 00:55:40,489
+datasets with beautiful pictures of birds,
+
+716
+00:55:42,199 --> 00:55:45,858
+and good well-defined computational tasks.
+
+717
+00:55:47,148 --> 00:55:50,508
+We call them benchmarks in the machine learning community. Here's a large dataset.
+
+718
+00:55:50,688 --> 00:55:53,538
+Here's the well-defined computational task.
+
+719
+00:55:53,568 --> 00:55:58,728
+Here's the baselines on other methods that exist out there that how they perform on
+
+720
+00:55:58,788 --> 00:56:03,558
+that task. Ready, set, go. And the entire machine learning community goes, set,
+
+721
+00:56:03,829 --> 00:56:06,978
+go... Well, not entire, but a good number goes to competition.
+
+722
+00:56:07,068 --> 00:56:12,408
+Just for comparison, machine learning conferences these days, or related all of the
+
+723
+00:56:12,528 --> 00:56:18,018
+AI machine learning conferences, are about 20,000 to 25,000 people,
+
+724
+00:56:19,098 --> 00:56:24,318
+right? So that community, even a fraction of it, when they get excited about these
+
+725
+00:56:24,378 --> 00:56:30,288
+problems, things happen. But the thing is that the way we solve it right now also
+
+726
+00:56:30,348 --> 00:56:34,579
+has to change, because quite often we come out with methods that have very little
+
+727
+00:56:34,668 --> 00:56:39,438
+impact or relevance to the original problem that's been posed, right?
+
+728
+00:56:39,829 --> 00:56:45,168
+Because they are very benchmark oriented, and the benchmarks and the accuracy
+
+729
+00:56:45,228 --> 00:56:50,508
+methods drive the solutions that give you better and better answers about the bulk
+
+730
+00:56:50,598 --> 00:56:54,829
+of the very skewed distribution, where we have a lot of data, where we already know
+
+731
+00:56:54,918 --> 00:56:56,388
+everything we wanted to know about.
+
+732
+00:56:56,628 --> 00:57:02,058
+And so we keep on getting to know more things about the things that we already know
+
+733
+00:57:02,148 --> 00:57:06,408
+everything we wanted to know about, not that long tail
+
+734
+00:57:07,668 --> 00:57:12,288
+where the discovery is hidden, where the new things are, where we do need
+
+735
+00:57:12,378 --> 00:57:13,758
+desperately to find
+
+736
+00:57:15,468 --> 00:57:18,798
+ways to understand something about it, right?
+
+737
+00:57:19,248 --> 00:57:24,949
+So if we do want to look at these things more carefully, we need AI that makes that
+
+738
+00:57:25,008 --> 00:57:30,018
+discovery possible, that is interpretable, and that generates testable hypotheses.
+
+739
+00:57:30,528 --> 00:57:34,158
+Right? So that's a paper. I'm not a coauthor, but it's a wonderful paper that was
+
+740
+00:57:34,188 --> 00:57:36,978
+published by my colleagues, including Sarah Beery.
+
+741
+00:57:38,748 --> 00:57:43,699
+And so we said, okay, well, for that, we need to actually incorporate biological
+
+742
+00:57:43,758 --> 00:57:44,718
+knowledge into
+
+743
+00:57:46,308 --> 00:57:49,398
+the design of these methods. And that was the goal of
+
+744
+00:57:51,318 --> 00:57:53,298
+the big project from the Image Genomics Institute.
+
+745
+00:57:53,329 --> 00:57:58,937
+And by the way, Hilmar Labbé and Yasin Bakkies and Heng Bart, who's hiding over
+
+746
+00:57:58,998 --> 00:57:59,118
+there,
+
+747
+00:58:00,318 --> 00:58:04,038
+are all a part of the Image Genomics Institute and are here.
+
+748
+00:58:05,478 --> 00:58:10,968
+With that, the simplest, dumbest way, right, the most immediate way to incorporate
+
+749
+00:58:11,028 --> 00:58:15,318
+biological knowledge into design of machine learning methods.
+
+750
+00:58:15,858 --> 00:58:18,978
+So we said, okay, we're going to design a foundation model, build a foundation
+
+751
+00:58:19,038 --> 00:58:21,918
+model for organismal foundation model from images,
+
+752
+00:58:23,929 --> 00:58:28,489
+by just adding taxonomy, the full taxonomic sequence, as a caption to every image.
+
+753
+00:58:28,579 --> 00:58:30,949
+That's it, right? Does it give us anything?
+
+754
+00:58:32,838 --> 00:58:36,588
+And so we trained the foundation model on the
+
+755
+00:58:37,608 --> 00:58:41,778
+version two is 214 million images
+
+756
+00:58:43,848 --> 00:58:49,758
+of about a million species. So that's half of everything that's named out there.
+
+757
+00:58:50,209 --> 00:58:55,998
+That brings up that it evens out the taxonomic bias a little bit, because we
+
+758
+00:58:56,058 --> 00:58:56,418
+have
+
+759
+00:58:58,728 --> 00:59:04,398
+brought up the insects and invertebrates in general quite a bit up in that
+
+760
+00:59:04,459 --> 00:59:07,728
+dataset. So it comes from Encyclopedia of Life, GBIF.
+
+761
+00:59:08,449 --> 00:59:11,778
+iNat, we did a lot of deduplication.
+
+762
+00:59:12,108 --> 00:59:13,968
+FathomNet, which is a great dataset
+
+763
+00:59:15,438 --> 00:59:20,358
+and a great organization in general that's focused on making marine and ocean data,
+
+764
+00:59:21,318 --> 00:59:21,978
+image data,
+
+765
+00:59:23,748 --> 00:59:29,358
+AI-ready. And then BioSCAN, which is the project on developing
+
+766
+00:59:30,228 --> 00:59:33,288
+DNA barcodes for species, but they also photograph all the
+
+767
+00:59:34,848 --> 00:59:40,038
+samples that they derive the DNA samples from, the species.
+
+768
+00:59:40,068 --> 00:59:45,228
+And so that together, we build this model, BioCLIP, and it
+
+769
+00:59:45,288 --> 00:59:49,158
+implicitly learns the taxonomy. Great. Amazing.
+
+770
+00:59:49,218 --> 00:59:52,938
+So you can do it not just to species, whatever you want to do, not just to species,
+
+771
+00:59:53,028 --> 00:59:58,038
+but to any taxonomic level. And because it's a foundation model,
+
+772
+01:00:00,199 --> 01:00:02,358
+we didn't train it to do species classification.
+
+773
+01:00:02,418 --> 01:00:06,679
+We just labeled the images with that. But it does learn species.
+
+774
+01:00:07,038 --> 01:00:12,588
+It can do species classification because it learned to associate names with images.
+
+775
+01:00:16,008 --> 01:00:21,408
+But wait, there's more. It can do many other things. So scale matters, turns out.
+
+776
+01:00:21,468 --> 01:00:26,959
+The information contained in images sub-partition the clusters within every
+
+777
+01:00:27,079 --> 01:00:32,358
+species cluster, which you would expect of data, into
+
+778
+01:00:32,778 --> 01:00:38,718
+sub-clusters of juveniles, adult, female, male, disease, non-diseased,
+
+779
+01:00:38,778 --> 01:00:40,668
+and by different kinds of diseases.
+
+780
+01:00:41,688 --> 01:00:46,429
+Across species, there's a dimension in the model representation space where
+
+781
+01:00:46,489 --> 01:00:48,888
+Darwin's finches align by a beak size.
+
+782
+01:00:49,308 --> 01:00:53,718
+There is nothing that we gave the model about beak size, but clearly that
+
+783
+01:00:53,778 --> 01:00:56,538
+information is already contained in the images.
+
+784
+01:00:56,929 --> 01:01:01,758
+So there is a lot of biological information that's there that scientists have been
+
+785
+01:01:01,848 --> 01:01:07,128
+observing clearly, right? That has been noted a little bit over a century ago.
+
+786
+01:01:08,538 --> 01:01:14,388
+The fish, based on the FishAIR dataset, AI-ready
+
+787
+01:01:14,449 --> 01:01:14,897
+dataset,
+
+788
+01:01:16,938 --> 01:01:19,938
+is separating by freshwater and non-freshwater.
+
+789
+01:01:20,478 --> 01:01:26,088
+So scientists are starting to use that to start asking questions and
+
+790
+01:01:26,358 --> 01:01:30,108
+generating hypotheses. For example, one of the
+
+791
+01:01:31,459 --> 01:01:35,418
+image genomics evolutionary biologists is looking at this partition separation
+
+792
+01:01:35,449 --> 01:01:40,008
+between female and male in birds, and understanding the distance between female and
+
+793
+01:01:40,038 --> 01:01:42,528
+male, and the
+
+794
+01:01:44,028 --> 01:01:49,248
+sexual dimorphism by mating structure of the species, right?
+
+795
+01:01:49,308 --> 01:01:51,858
+You can ask many other questions, and I'll give you a few.
+
+796
+01:01:52,218 --> 01:01:55,038
+You can explore this space by looking,
+
+797
+01:01:58,068 --> 01:02:02,508
+sort of doing visual search, and giving it an example image, and asking what's
+
+798
+01:02:02,598 --> 01:02:08,028
+around it, right? So starting to see how the data are organized and what
+
+799
+01:02:08,838 --> 01:02:12,108
+does the model essentially think is like that, right?
+
+800
+01:02:12,199 --> 01:02:15,079
+What is the information in the images that's similar to that?
+
+801
+01:02:15,138 --> 01:02:19,938
+So in this case, it's a diseased milkweed, and you can see that all the other
+
+802
+01:02:20,028 --> 01:02:25,278
+images near it are of damaged milkweed. You can start asking about interactions.
+
+803
+01:02:25,368 --> 01:02:27,048
+Here is a moth pollinating
+
+804
+01:02:28,638 --> 01:02:34,429
+a flower, and it will give you around it are images of the same species of moth as
+
+805
+01:02:34,489 --> 01:02:37,459
+a pollinator for different plants.
+
+806
+01:02:38,058 --> 01:02:42,588
+So you can essentially visually ask the question, what does this moth pollinate?
+
+807
+01:02:43,548 --> 01:02:45,768
+And you can think of your own kind of queries.
+
+808
+01:02:46,218 --> 01:02:50,868
+So this is starting to fill some of the shortfalls, right?
+
+809
+01:02:50,959 --> 01:02:55,818
+Just by injecting a little bit of biological information into the
+
+810
+01:02:57,408 --> 01:03:03,378
+machine learning model. You can start asking questions about,
+
+811
+01:03:03,498 --> 01:03:09,438
+is this a new species, right? Flagging new species and speeding up the naming
+
+812
+01:03:09,558 --> 01:03:15,408
+of one of the most under-monitored, understudied, and
+
+813
+01:03:15,528 --> 01:03:19,128
+under-named taxonomic group, moths.
+
+814
+01:03:20,508 --> 01:03:24,768
+Right? So this is a project by David Rolnick at McGill University, who's part of
+
+815
+01:03:24,829 --> 01:03:27,798
+the ABC, AI and Biodiversity Change Global Center.
+
+816
+01:03:28,699 --> 01:03:34,128
+They built the whole, starting with a camera trap that attracts moths, the whole
+
+817
+01:03:34,188 --> 01:03:40,158
+processing system, and working with a Montreal insectarium to
+
+818
+01:03:40,248 --> 01:03:44,179
+start identifying new species using BioCLIP.
+
+819
+01:03:44,268 --> 01:03:47,478
+Sarah Beery, who already was mentioned and also is part of ABC,
+
+820
+01:03:48,798 --> 01:03:53,959
+took a different approach to surface different kinds of interactions with
+
+821
+01:03:54,018 --> 01:03:57,648
+iNaturalist data with the project Inquire. Right?
+
+822
+01:03:57,739 --> 01:04:03,408
+And they're now starting to look explicitly for interactions, trophic
+
+823
+01:04:03,468 --> 01:04:04,728
+interactions particularly.
+
+824
+01:04:08,112 --> 01:04:13,842
+But okay, great. This allows us to look at more things, but are we looking more
+
+825
+01:04:13,902 --> 01:04:17,472
+carefully? Are we understanding what we're looking at?
+
+826
+01:04:17,952 --> 01:04:23,202
+And so for that, the second requirement, so not just scientific, the AI for science
+
+827
+01:04:23,262 --> 01:04:23,623
+has to
+
+828
+01:04:25,692 --> 01:04:30,133
+be able to facilitate discovery. We're kind of getting there, but then it needs to
+
+829
+01:04:30,163 --> 01:04:33,702
+be interpretable. So how do we make AI interpretable?
+
+830
+01:04:34,092 --> 01:04:39,972
+And so there's a lot of development recently in the machine learning AI communities
+
+831
+01:04:41,712 --> 01:04:45,492
+on sort of pushing interpretability in different ways.
+
+832
+01:04:45,942 --> 01:04:51,192
+Of asking questions both from the model's perspective of what does model pay
+
+833
+01:04:51,282 --> 01:04:54,253
+attention to when making a determination that this
+
+834
+01:04:56,503 --> 01:04:59,353
+image belongs to this class of species.
+
+835
+01:05:02,652 --> 01:05:08,353
+We really took it and pushed it towards biologically meaningful interpretability.
+
+836
+01:05:08,832 --> 01:05:13,902
+So not just highlighting parts of the image that are relevant for the model,
+
+837
+01:05:14,472 --> 01:05:19,302
+but pushing it to the kind of modern machine learning models, transformers use
+
+838
+01:05:19,392 --> 01:05:23,353
+attention mechanisms to guide the model
+
+839
+01:05:25,092 --> 01:05:30,792
+in this billion parameter space towards a particular region of that space.
+
+840
+01:05:31,212 --> 01:05:37,123
+So these ones essentially after making a determination, ask, okay, what
+
+841
+01:05:37,212 --> 01:05:40,902
+parts of the image were relevant for this particular species?
+
+842
+01:05:40,992 --> 01:05:46,062
+We train the models to be essentially species identification experts
+
+843
+01:05:46,842 --> 01:05:51,702
+from the attention point of view. And so it highlights parts of the image, not as
+
+844
+01:05:51,732 --> 01:05:57,012
+an amorphous kind of cloud, but specifically from any pose, from any
+
+845
+01:05:57,853 --> 01:06:02,832
+position of the same species, this rose-breasted grosbeak, say that several times
+
+846
+01:06:02,862 --> 01:06:08,772
+fast. It highlights parts of the image, so in this case, the
+
+847
+01:06:08,832 --> 01:06:13,663
+white belly, the rose chest, the black head, and so on, right?
+
+848
+01:06:13,722 --> 01:06:19,152
+And so you can see that the position and the specific location matters.
+
+849
+01:06:19,782 --> 01:06:22,212
+Great. And you can do it again at any taxonomic...
+
+850
+01:06:25,242 --> 01:06:30,462
+Somewhere? No. Okay, great. Any taxonomic level. Great.
+
+851
+01:06:30,522 --> 01:06:33,913
+So it highlighted some part of the image. Awesome.
+
+852
+01:06:34,782 --> 01:06:36,732
+But what about that part of the image?
+
+853
+01:06:36,792 --> 01:06:41,532
+And so we used sparse autoencoders, which is yet another kind of
+
+854
+01:06:41,592 --> 01:06:46,932
+state-of-the-art set of tools that are broadly
+
+855
+01:06:47,623 --> 01:06:51,942
+now being used and developed within machine learning community, AI community, to
+
+856
+01:06:53,353 --> 01:06:56,413
+start associating the
+
+857
+01:06:58,003 --> 01:07:03,402
+machine learning features, dimensions of a space, with something that's
+
+858
+01:07:03,432 --> 01:07:07,932
+semantically biologically meaningful. Takes a lot of work, turns out.
+
+859
+01:07:10,092 --> 01:07:15,552
+So, okay, in this case, so we highlighted a beak.
+
+860
+01:07:17,413 --> 01:07:21,732
+What does it mean? Does it mean that birds have a beak and it's important?
+
+861
+01:07:22,003 --> 01:07:24,702
+Well, it's not a particularly deep discovery, right?
+
+862
+01:07:26,982 --> 01:07:32,142
+So essentially it highlights a beak when we ask a question, what makes this
+
+863
+01:07:33,103 --> 01:07:38,772
+bird, so house sparrow, North American house sparrow, different from other
+
+864
+01:07:38,832 --> 01:07:43,542
+birds? A beak? Well, not really, right? Like, what about the beak?
+
+865
+01:07:43,902 --> 01:07:47,383
+So we developed a set of tools where you can actually ask that question, what about
+
+866
+01:07:47,413 --> 01:07:51,012
+the beak? What about this particular part that is highlighted?
+
+867
+01:07:51,103 --> 01:07:56,623
+So you can essentially minimize the weight on every
+
+868
+01:07:56,742 --> 01:08:01,633
+pixel that's highlighted and say, "If I minimize the weight and
+
+869
+01:08:01,753 --> 01:08:06,853
+reconstruct this bird with these zeroed-out weights, what would it look like?"
+
+870
+01:08:07,242 --> 01:08:10,422
+Well, it turns out what it would look like, that beak would become smaller and
+
+871
+01:08:10,482 --> 01:08:15,342
+darker. Okay, great. So what if I jack up those weights and really make this
+
+872
+01:08:15,373 --> 01:08:19,123
+particular part the most important part of saying this is a house sparrow?
+
+873
+01:08:19,452 --> 01:08:22,093
+What makes this house sparrow different from all the other birds?
+
+874
+01:08:22,152 --> 01:08:25,753
+Well, it turns out this beak then becomes different shape.
+
+875
+01:08:25,992 --> 01:08:30,732
+It's thicker, bigger, and wider. So you can start asking not just it's a beak, but
+
+876
+01:08:30,822 --> 01:08:34,663
+what about the beak? And that leads to discovery of new traits.
+
+877
+01:08:35,772 --> 01:08:38,833
+We're starting also to work with biologists to
+
+878
+01:08:40,422 --> 01:08:43,992
+refresh or build new taxonomic keys, dichotomous keys.
+
+879
+01:08:44,802 --> 01:08:46,572
+Not taxonomic keys, dichotomous keys.
+
+880
+01:08:47,112 --> 01:08:52,422
+We're working on with lepidopterists to identify
+
+881
+01:08:52,512 --> 01:08:57,402
+distinguishing characteristics that are missed by humans for mimic
+
+882
+01:08:57,972 --> 01:09:03,402
+species that until now only have been possible through genome
+
+883
+01:09:03,462 --> 01:09:04,062
+sequencing,
+
+884
+01:09:06,012 --> 01:09:10,932
+identifying new species, and also correlating or associating
+
+885
+01:09:11,532 --> 01:09:17,112
+traits, and I'll talk a little bit, with functional traits or with ecological
+
+886
+01:09:17,202 --> 01:09:18,913
+factors. All right?
+
+887
+01:09:20,232 --> 01:09:22,992
+And that part, the last part, is in beetles.
+
+888
+01:09:23,052 --> 01:09:27,282
+So we're working with the National Ecological Observatory Network in the US, NEON,
+
+889
+01:09:28,362 --> 01:09:33,642
+to process their biological collections, particularly in this case, ground beetles.
+
+890
+01:09:33,672 --> 01:09:39,192
+This is bycatch. And the catch, so they're stored by a repository.
+
+891
+01:09:39,222 --> 01:09:40,333
+They're not imaged.
+
+892
+01:09:42,583 --> 01:09:44,562
+They are in these kinds of test tubes.
+
+893
+01:09:44,802 --> 01:09:49,843
+So we developed a pipeline, the workflow, that is common to many museums, in fact,
+
+894
+01:09:50,682 --> 01:09:56,262
+and other biological natural history collections, where you have your collection,
+
+895
+01:09:56,322 --> 01:10:00,702
+you need to image it, and you need to image in a way that actually also gives you a
+
+896
+01:10:00,762 --> 01:10:04,572
+lot of additional information and processes labels.
+
+897
+01:10:06,222 --> 01:10:11,862
+By the way, as an aside, if you're doing it for a herbarium or
+
+898
+01:10:11,922 --> 01:10:16,272
+botanical garden collection, Leaf Machine, and I've mentioned it a couple of times
+
+899
+01:10:16,633 --> 01:10:21,883
+yesterday, we're not part of the project, but Leaf Machine is a great workflow with
+
+900
+01:10:21,942 --> 01:10:24,343
+a lot of tools that speed up that process.
+
+901
+01:10:25,752 --> 01:10:27,612
+Okay, beetles. So,
+
+902
+01:10:28,812 --> 01:10:33,732
+take a test tube, dump it, process it, so all the tools, segment it,
+
+903
+01:10:34,692 --> 01:10:39,972
+get the outline of each segment, put landmarks, and measure the distances between
+
+904
+01:10:40,032 --> 01:10:44,262
+landmarks. Turns out, that way of doing it, when we just published this, is more
+
+905
+01:10:44,383 --> 01:10:46,032
+accurate than doing it with calipers.
+
+906
+01:10:47,172 --> 01:10:51,222
+So now you have this whole set of measurements and traits
+
+907
+01:10:51,883 --> 01:10:57,792
+that can start being correlated with different things, and start being
+
+908
+01:10:57,853 --> 01:11:01,182
+associated with function. Right.
+
+909
+01:11:02,622 --> 01:11:03,732
+One of the things,
+
+910
+01:11:04,932 --> 01:11:10,603
+the first pass of this, not to that level of resolution, but we ran a competition
+
+911
+01:11:11,442 --> 01:11:17,292
+together with our sister institutes of imageomics on a machine learning competition
+
+912
+01:11:18,912 --> 01:11:24,372
+of associating beetle communities as predictors for
+
+913
+01:11:24,462 --> 01:11:24,912
+drought
+
+914
+01:11:26,712 --> 01:11:27,522
+ahead of time.
+
+915
+01:11:29,502 --> 01:11:34,002
+And you can get some signal out of it, and now we're redoing the whole thing with
+
+916
+01:11:34,152 --> 01:11:39,672
+actual, very precise, these trait measures, distances, and other information,
+
+917
+01:11:40,392 --> 01:11:45,252
+because there is a reasonable hypothesis that
+
+918
+01:11:46,032 --> 01:11:50,383
+traits in ground beetles respond to soil moisture.
+
+919
+01:11:50,682 --> 01:11:54,732
+So there should be a signal, and so we're verifying, essentially, testing these
+
+920
+01:11:54,762 --> 01:11:56,682
+kinds of things, and others.
+
+921
+01:11:58,392 --> 01:12:01,542
+But wait. Behavior is also traits.
+
+922
+01:12:02,353 --> 01:12:05,353
+So what about behavioral traits at population level?
+
+923
+01:12:06,192 --> 01:12:07,932
+You need very different kind of data.
+
+924
+01:12:08,532 --> 01:12:14,502
+And so this is where we started working in Kenya, but also
+
+925
+01:12:14,562 --> 01:12:18,492
+expanded it to other locations, of using drones.
+
+926
+01:12:18,552 --> 01:12:23,862
+This is today the tool for behavior data collection of
+
+927
+01:12:23,892 --> 01:12:28,633
+populations at population scale, particularly about movement, but also developing
+
+928
+01:12:28,692 --> 01:12:30,042
+the whole workflow of
+
+929
+01:12:32,052 --> 01:12:37,722
+how do you collect that data, and also the computer vision workflows
+
+930
+01:12:37,872 --> 01:12:40,152
+of identifying different behavior.
+
+931
+01:12:40,633 --> 01:12:41,052
+There is
+
+932
+01:12:42,462 --> 01:12:48,192
+independent research at Max Planck Institute of animal behavior that is
+
+933
+01:12:48,222 --> 01:12:51,162
+expanding the vocabulary, the ontology of
+
+934
+01:12:52,603 --> 01:12:57,792
+animal behavior and the ecological kind of taxonomies and ecological
+
+935
+01:12:57,853 --> 01:12:58,633
+ontologies.
+
+936
+01:12:59,952 --> 01:13:04,902
+And so especially not just individual, but pair-wise.
+
+937
+01:13:04,962 --> 01:13:10,843
+So where we come in is how do you build systems, autonomous systems, that
+
+938
+01:13:10,902 --> 01:13:16,752
+can collect data on animal behavior in situ, in the wild, without actually
+
+939
+01:13:16,872 --> 01:13:20,262
+altering the very behavior that we want to collect?
+
+940
+01:13:21,156 --> 01:13:24,126
+And how do you do it as a system so where an acoustic
+
+941
+01:13:26,557 --> 01:13:29,766
+sensor can maybe detect behavior that sends the drone and so on?
+
+942
+01:13:30,246 --> 01:13:36,156
+And so with that, this work has been done by Jenna Klein, a wonderful PhD student,
+
+943
+01:13:36,216 --> 01:13:38,526
+who just graduated and is doing post-doc at MIT.
+
+944
+01:13:40,057 --> 01:13:40,866
+Will be on the market
+
+945
+01:13:43,807 --> 01:13:49,746
+as a faculty position market. So her paper on this won the Robert May prize as the
+
+946
+01:13:49,807 --> 01:13:52,176
+first non-biology paper that won that prize.
+
+947
+01:13:52,926 --> 01:13:55,326
+But relevantly for this community, she
+
+948
+01:13:58,356 --> 01:14:03,366
+started the Wild Labs Ed Computing working group and
+
+949
+01:14:04,836 --> 01:14:10,506
+is very interested in expanding the FAIR4AI drone data
+
+950
+01:14:10,686 --> 01:14:15,726
+standards, because that is now the primary source of animal behavior and movement
+
+951
+01:14:15,816 --> 01:14:16,266
+data.
+
+952
+01:14:17,616 --> 01:14:23,016
+And so her talk is on Thursday. She's going to give a remote talk on this on
+
+953
+01:14:23,076 --> 01:14:23,526
+Thursday,
+
+954
+01:14:24,996 --> 01:14:26,136
+if you're interested.
+
+955
+01:14:28,626 --> 01:14:33,996
+Overall, there's a whole bunch more tools that have been developed in genomics.
+
+956
+01:14:34,026 --> 01:14:35,466
+They're all open,
+
+957
+01:14:36,666 --> 01:14:39,216
+all the datasets are fair and FAIR4AI.
+
+958
+01:14:39,636 --> 01:14:42,876
+We're developing the standard, in fact, that I'll tell you in a little bit, and
+
+959
+01:14:42,906 --> 01:14:48,726
+they're all accessible there. There's a very well indexed and searchable, and
+
+960
+01:14:48,756 --> 01:14:54,726
+there's even a tool, part of it is a method for creating your own repository
+
+961
+01:14:55,986 --> 01:14:59,496
+and searchable catalog, so you can with your own branding.
+
+962
+01:14:59,557 --> 01:15:03,426
+So part of that, you can have your own method for doing it.
+
+963
+01:15:04,956 --> 01:15:07,986
+The other thing is, remember I told you at the beginning how machine learning
+
+964
+01:15:08,046 --> 01:15:12,006
+community thinks and gets mobilized to answer any question.
+
+965
+01:15:13,147 --> 01:15:17,916
+One of the things is benchmarks. And so benchmark is a well-defined task, plus
+
+966
+01:15:18,006 --> 01:15:22,926
+training and testing data. And so we realized that if we want to change the culture
+
+967
+01:15:23,016 --> 01:15:26,196
+and the way that machine learning methods are being developed for this community,
+
+968
+01:15:26,557 --> 01:15:30,666
+we need to change the benchmarks. And so we've released our own set of benchmarks
+
+969
+01:15:30,726 --> 01:15:35,016
+that are biologically relevant. And if you want to add to that, please come and
+
+970
+01:15:35,046 --> 01:15:38,496
+talk to me. We're already seeing externally kind of external, so movement
+
+971
+01:15:38,526 --> 01:15:42,696
+prediction benchmarks and others are starting to appear that are well-defined for
+
+972
+01:15:42,726 --> 01:15:45,426
+machine learning community, but the tasks and the
+
+973
+01:15:48,066 --> 01:15:52,626
+accuracy measurements, and all the other relevant ones are from biological
+
+974
+01:15:52,656 --> 01:15:53,286
+perspective.
+
+975
+01:15:55,116 --> 01:15:57,366
+If anybody has the answer to that, let's talk.
+
+976
+01:16:00,726 --> 01:16:00,966
+So,
+
+977
+01:16:02,586 --> 01:16:08,376
+right, with this, clearly, AI is about to replace humans and do science.
+
+978
+01:16:10,626 --> 01:16:14,616
+No. So just as a quick aside and to kind of calm everybody,
+
+979
+01:16:16,086 --> 01:16:19,176
+we've done a study. We started doing a study project on
+
+980
+01:16:20,526 --> 01:16:25,746
+selecting ecological papers that are very data-driven and
+
+981
+01:16:26,826 --> 01:16:30,546
+identifying questions in this paper, so as benchmarks,
+
+982
+01:16:33,425 --> 01:16:34,476
+that are answerable.
+
+983
+01:16:36,755 --> 01:16:41,916
+So it's paper that has a dataset, very data-driven, single dataset, one of those
+
+984
+01:16:41,976 --> 01:16:42,336
+four.
+
+985
+01:16:44,316 --> 01:16:50,106
+And the questions are of the kind, do distorted species exhibit large episodic
+
+986
+01:16:50,166 --> 01:16:53,316
+fluctuations in annual abundance in Sonoran Desert habitats, right?
+
+987
+01:16:53,376 --> 01:16:58,807
+So these are very well-posed, data-driven questions.
+
+988
+01:16:58,866 --> 01:17:03,906
+So we've collected right now, and been published, collected about 300 of those,
+
+989
+01:17:04,926 --> 01:17:10,446
+and building this dataset of benchmark questions and partitioned the scientific
+
+990
+01:17:11,346 --> 01:17:14,526
+process to answer these questions into four stages.
+
+991
+01:17:15,876 --> 01:17:21,156
+Here's the dataset source, let's say NEON, National Ecological Observatory Network.
+
+992
+01:17:21,696 --> 01:17:24,846
+Find the relevant data to answer this question within this...
+
+993
+01:17:25,116 --> 01:17:30,606
+We're being very, very nice. We're saying in this dataset, in the right database.
+
+994
+01:17:31,506 --> 01:17:34,446
+Once you've found it, figure a way to actually extract it.
+
+995
+01:17:34,506 --> 01:17:39,516
+You build the API to extract it, then organize the data, and then actually, okay,
+
+996
+01:17:39,666 --> 01:17:43,536
+this organized data, use this kind of analysis to answer this question.
+
+997
+01:17:44,076 --> 01:17:50,046
+So typically, it is that last one that is posed for AI agents,
+
+998
+01:17:50,136 --> 01:17:54,276
+because by this point, the scientists have already done all of the work.
+
+999
+01:17:54,936 --> 01:18:00,216
+And so we said, "Okay, let's get AI agents, state of the art at the time," so this
+
+1000
+01:18:00,276 --> 01:18:03,666
+is four months ago, so state of the art has changed.
+
+1001
+01:18:04,026 --> 01:18:09,606
+But still, AI agents, to answer all of this and run them through all four stages.
+
+1002
+01:18:10,686 --> 01:18:16,416
+And so it turns out that, and compare them to a non-expert human,
+
+1003
+01:18:16,506 --> 01:18:18,456
+also known as computer science graduate student,
+
+1004
+01:18:20,166 --> 01:18:21,397
+to see how
+
+1005
+01:18:22,776 --> 01:18:28,266
+they perform. And on the X-axis is the number of tokens measured in the dollar
+
+1006
+01:18:28,386 --> 01:18:31,926
+signs that you need to answer that question. Right?
+
+1007
+01:18:32,016 --> 01:18:36,066
+The more tokens you give, the better the answer, and so different agents also
+
+1008
+01:18:36,397 --> 01:18:39,216
+require different amount of tokens to get to the answer.
+
+1009
+01:18:39,666 --> 01:18:44,916
+We measure their pass rate as within 90% of the accurate
+
+1010
+01:18:45,816 --> 01:18:50,466
+answer. So, it got 90% of the necessary data. That's a pass.
+
+1011
+01:18:50,946 --> 01:18:51,276
+So,
+
+1012
+01:18:52,986 --> 01:18:55,716
+there's a strong correlation. The more money you give them, the more tokens, the
+
+1013
+01:18:55,746 --> 01:19:01,116
+better they figure out. But the surprising thing, they fail spectacularly to
+
+1014
+01:19:01,176 --> 01:19:05,076
+construct the right API once they know what data to get.
+
+1015
+01:19:05,647 --> 01:19:10,986
+And that is a statement about data readiness, not about the ability of AI agents,
+
+1016
+01:19:11,916 --> 01:19:12,216
+right?
+
+1017
+01:19:13,836 --> 01:19:18,126
+Also this, once you get the right data, prepare it for analysis.
+
+1018
+01:19:18,246 --> 01:19:20,976
+That one actually is a statement of
+
+1019
+01:19:22,506 --> 01:19:25,956
+the implicit knowledge and a statement of metadata
+
+1020
+01:19:28,026 --> 01:19:31,596
+that describes the data that is not accessible.
+
+1021
+01:19:32,076 --> 01:19:36,726
+There's a lot of implicit knowledge that's not accessible for AI agents.
+
+1022
+01:19:37,986 --> 01:19:42,516
+I don't know if we want to make it accessible, but it's that that makes them fail.
+
+1023
+01:19:43,296 --> 01:19:48,096
+Right, and once you actually specify, okay, here's the data, here's the analysis
+
+1024
+01:19:48,156 --> 01:19:53,496
+method, ready, set, go, that's when AI agents can do it-ish, right?
+
+1025
+01:19:53,586 --> 01:19:59,256
+To about 60% accuracy, but also with thousands of dollars worth of
+
+1026
+01:19:59,316 --> 01:20:03,546
+tokens. I'd rather train a graduate student to do that, honestly.
+
+1027
+01:20:06,307 --> 01:20:12,276
+But the thing is, this failure kind of mode is very much
+
+1028
+01:20:12,366 --> 01:20:12,666
+about the
+
+1029
+01:20:14,436 --> 01:20:18,666
+AI readiness of data. Because there is no AI without data.
+
+1030
+01:20:19,026 --> 01:20:21,276
+We finally get to this point in the talk.
+
+1031
+01:20:22,686 --> 01:20:25,147
+And a lot of other resources.
+
+1032
+01:20:26,826 --> 01:20:31,807
+But especially for data, so we do need, as David pointed out, we do need
+
+1033
+01:20:32,376 --> 01:20:38,196
+distributed data infrastructure that supports AI use directly if we want to
+
+1034
+01:20:38,256 --> 01:20:39,156
+use AI methods
+
+1035
+01:20:40,866 --> 01:20:46,236
+to answer them. And that also respects the rights and
+
+1036
+01:20:46,686 --> 01:20:49,086
+provides value for the primary data collectors.
+
+1037
+01:20:49,476 --> 01:20:54,276
+GBIF is not a primary data collector, despite the fact that's where we get data to
+
+1038
+01:20:54,307 --> 01:20:59,796
+build big models. And so we started thinking about what does AI ready mean and came
+
+1039
+01:20:59,856 --> 01:21:00,696
+to the conclusion that
+
+1040
+01:21:01,956 --> 01:21:04,326
+AI ready is very specific to a question.
+
+1041
+01:21:05,466 --> 01:21:10,356
+But in between lives FAIR4AI, which is findable, accessible, interoperable, and
+
+1042
+01:21:10,416 --> 01:21:16,356
+reusable by a machine, by something that's automatically accessible,
+
+1043
+01:21:16,446 --> 01:21:21,426
+right? And then you can get that and make it very specific for a task, AI-ready.
+
+1044
+01:21:22,147 --> 01:21:26,706
+And so we're thinking about it as this question data model triangle,
+
+1045
+01:21:28,116 --> 01:21:33,126
+where increasingly when you have a question or a scientific question or a research
+
+1046
+01:21:33,156 --> 01:21:34,656
+and management kind of
+
+1047
+01:21:36,006 --> 01:21:36,546
+decision,
+
+1048
+01:21:38,106 --> 01:21:42,516
+you need data and you need methods, right, as we saw in this workflow.
+
+1049
+01:21:43,506 --> 01:21:47,106
+And we're starting to see this is where LLMs do come in.
+
+1050
+01:21:47,557 --> 01:21:49,746
+You can translate them into requirements.
+
+1051
+01:21:49,807 --> 01:21:54,307
+To answer this question, I need this kind of data, not this specific data, but this
+
+1052
+01:21:54,366 --> 01:21:57,246
+kind of data, and maybe this kind of analysis.
+
+1053
+01:21:58,986 --> 01:22:03,846
+And models particularly are really good at being documented because we now have
+
+1054
+01:22:03,906 --> 01:22:08,346
+model cards, we now have model context protocols that kind of expose to the rest of
+
+1055
+01:22:08,406 --> 01:22:12,126
+the world, I need this kind of data. I work with this kind of...
+
+1056
+01:22:13,386 --> 01:22:17,586
+I can answer potentially this kind of questions, well-defined questions.
+
+1057
+01:22:17,647 --> 01:22:19,897
+So there's still not a direct connection here.
+
+1058
+01:22:21,397 --> 01:22:22,116
+But data,
+
+1059
+01:22:23,436 --> 01:22:28,626
+so there are now emerging standards that are being developed of FAIR, FAIR4AI,
+
+1060
+01:22:29,676 --> 01:22:30,516
+FAIR4ML
+
+1061
+01:22:32,136 --> 01:22:33,756
+Beyond the biodiversity community,
+
+1062
+01:22:35,076 --> 01:22:41,046
+there's still a lot of work to do. We're still arguing about the
+
+1063
+01:22:41,076 --> 01:22:46,897
+definitions. And also, to build these models, they're built on aggregate data
+
+1064
+01:22:46,986 --> 01:22:47,796
+like GBIF,
+
+1065
+01:22:49,116 --> 01:22:54,726
+where a lot of data coming into that comes from primary small data
+
+1066
+01:22:54,786 --> 01:23:00,036
+collectors, primary data sources, small projects, small conservation
+
+1067
+01:23:00,096 --> 01:23:05,316
+organizations in case of biodiversity, regional governments, and so on.
+
+1068
+01:23:05,766 --> 01:23:11,406
+And so all of it flows uni-directionally towards these big aggregators.
+
+1069
+01:23:13,176 --> 01:23:13,476
+And
+
+1070
+01:23:15,096 --> 01:23:20,795
+there is very little at the moment of even infrastructure that
+
+1071
+01:23:20,855 --> 01:23:24,066
+brings value back to the primary data collectors.
+
+1072
+01:23:24,366 --> 01:23:30,066
+And so there is a new white paper and a framework put together, so this comes out
+
+1073
+01:23:30,156 --> 01:23:34,596
+of Latin America and the Caribbean, on sovereign data supply chain.
+
+1074
+01:23:36,186 --> 01:23:38,766
+Of what it means and how to operationalize it,
+
+1075
+01:23:40,746 --> 01:23:45,456
+and what are the requirements. I highly encourage you to take a look at this.
+
+1076
+01:23:46,776 --> 01:23:47,316
+And so
+
+1077
+01:23:48,966 --> 01:23:52,536
+we've created, the group led by
+
+1078
+01:23:53,736 --> 01:23:58,866
+Eric Sokol of NEON, Alex Wild of Smithsonian Institution,
+
+1079
+01:24:00,756 --> 01:24:06,666
+Elizabeth Compagno, Hilmar Lapp, and others,
+
+1080
+01:24:06,726 --> 01:24:09,276
+has developed this FAIR for AI checklist,
+
+1081
+01:24:11,016 --> 01:24:11,557
+which
+
+1082
+01:24:12,786 --> 01:24:18,456
+specifically identifies criteria in these four categories and develops them
+
+1083
+01:24:18,546 --> 01:24:23,796
+into much, much more structured... Four, three, two, five.
+
+1084
+01:24:23,916 --> 01:24:25,206
+Okay, I'll take bids.
+
+1085
+01:24:27,036 --> 01:24:32,976
+Okay. And it kind of expands it into different
+
+1086
+01:24:33,036 --> 01:24:36,276
+categories. We now have more than 90 categories
+
+1087
+01:24:37,686 --> 01:24:43,026
+of FAIR for AI, so clearly it's not a human task. So what do we do?
+
+1088
+01:24:43,866 --> 01:24:44,796
+We developed an agent
+
+1089
+01:24:46,446 --> 01:24:51,156
+that does this. It's an agent that goes through this task list and sort of with--
+
+1090
+01:24:51,246 --> 01:24:54,126
+This whole thing has been developed in three workshops.
+
+1091
+01:24:55,057 --> 01:24:59,616
+Community workshops, international community workshops, but also started with GBIF,
+
+1092
+01:24:59,736 --> 01:25:01,026
+iNat, NatureServe,
+
+1093
+01:25:03,876 --> 01:25:07,686
+and kind of bigger ones, and then expanded it.
+
+1094
+01:25:07,746 --> 01:25:11,557
+We had a workshop at Living Data, we had a workshop at the First International
+
+1095
+01:25:12,036 --> 01:25:16,206
+Conservation Technology Conference, so kind of building this with the community.
+
+1096
+01:25:16,716 --> 01:25:19,626
+What does it mean? What's important? How do we check it?
+
+1097
+01:25:20,226 --> 01:25:24,996
+Do the agents, when they return an answer, that also is constructive, not just a
+
+1098
+01:25:25,086 --> 01:25:29,856
+score, but tells you here's why, what you need to bring up that score, do they
+
+1099
+01:25:29,976 --> 01:25:30,996
+actually help?
+
+1100
+01:25:32,826 --> 01:25:38,166
+Do they give what we think they should be giving as an answer?
+
+1101
+01:25:38,256 --> 01:25:43,626
+So we ran it on the initial data sets that are part of this working group.
+
+1102
+01:25:44,255 --> 01:25:48,186
+And if you want to know more, again, there is a Thursday talk.
+
+1103
+01:25:49,506 --> 01:25:53,647
+Eric Sokol was supposed to deliver it. I'm going to speak in his place.
+
+1104
+01:25:54,636 --> 01:25:57,756
+But it is the work that is done by this group.
+
+1105
+01:25:58,416 --> 01:26:03,096
+And so to kind of expand this, why do we care?
+
+1106
+01:26:03,156 --> 01:26:07,866
+Because as I showed you, we're getting a lot more data.
+
+1107
+01:26:08,436 --> 01:26:10,596
+And the future is multi-scale,
+
+1108
+01:26:11,886 --> 01:26:13,807
+multi-sensory, and multi-modal.
+
+1109
+01:26:14,136 --> 01:26:18,816
+And so we're starting to get data sets that are going across scales and modalities.
+
+1110
+01:26:19,147 --> 01:26:23,946
+One of the first multi-scale data sets was the OpenForis data set that goes from
+
+1111
+01:26:24,066 --> 01:26:29,256
+individual tree data all the way to planetary forest data.
+
+1112
+01:26:29,466 --> 01:26:31,656
+That's because trees don't walk away, so, you know.
+
+1113
+01:26:32,706 --> 01:26:36,156
+And you can see them from satellites, so that's wonderful.
+
+1114
+01:26:36,426 --> 01:26:39,426
+But we're seeing that data, that kind of data, multi-scale.
+
+1115
+01:26:39,516 --> 01:26:45,066
+How do we build data infrastructure and standards that actually
+
+1116
+01:26:45,186 --> 01:26:50,856
+capture that? That connect that, and that make it possible for machine
+
+1117
+01:26:50,916 --> 01:26:56,796
+learning methods, not just to analyze, but to provide value back to the
+
+1118
+01:26:56,856 --> 01:27:01,926
+original data providers. When we identify the canopy, it should go all the way back
+
+1119
+01:27:02,016 --> 01:27:04,416
+to the primary source, not just to aggregate.
+
+1120
+01:27:05,586 --> 01:27:10,686
+When we do it across different modalities and connect different modalities, again,
+
+1121
+01:27:11,647 --> 01:27:16,836
+what does it mean to align data and to provide value and to give an answer?
+
+1122
+01:27:17,286 --> 01:27:21,066
+And so we started with a small experiment at a safari in North America.
+
+1123
+01:27:21,186 --> 01:27:24,186
+It's the largest safari in North America, The Wilds.
+
+1124
+01:27:25,147 --> 01:27:27,276
+That is an hour from my university.
+
+1125
+01:27:27,996 --> 01:27:33,276
+By instrumenting with everything that we could get our hands on at the time.
+
+1126
+01:27:34,716 --> 01:27:35,016
+And
+
+1127
+01:27:37,686 --> 01:27:41,886
+so that we can start looking at this, both from the systems perspective, the
+
+1128
+01:27:41,946 --> 01:27:46,356
+computational perspective, and also data perspective.
+
+1129
+01:27:49,476 --> 01:27:54,726
+And that talk and how do we think about it is also on Thursday.
+
+1130
+01:27:55,266 --> 01:27:59,076
+I'm going to be busy on Thursday, but this is work done by Jenna Klein, and I'll be
+
+1131
+01:27:59,256 --> 01:27:59,976
+presenting it.
+
+1132
+01:28:01,926 --> 01:28:02,316
+And
+
+1133
+01:28:03,816 --> 01:28:09,546
+that, so that we can actually start moving from just using AI to
+
+1134
+01:28:09,696 --> 01:28:14,856
+speed up and scale up data collection and processing and naming things,
+
+1135
+01:28:15,876 --> 01:28:20,616
+even though we need that, to actually generating hypotheses,
+
+1136
+01:28:21,966 --> 01:28:27,397
+understanding systems, and predicting how these systems would behave under unseen
+
+1137
+01:28:27,456 --> 01:28:29,946
+conditions. And with that,
+
+1138
+01:28:32,016 --> 01:28:35,946
+all of this, I may be standing here, but the work is done by everybody else pretty
+
+1139
+01:28:35,976 --> 01:28:37,476
+much, but me. So thank you.
+
+1140
+01:28:50,466 --> 01:28:51,636
+There's no questions, right?
+
+1141
+01:28:51,726 --> 01:28:52,506
+We're going to find out.
+
+1142
+01:28:52,836 --> 01:28:53,136
+Oh.
+
+1143
+01:28:53,196 --> 01:28:58,266
+So I know that it is break time, but is there one question that we can give Tanya?
+
+1144
+01:28:59,046 --> 01:29:01,235
+It's got to be the best question that you've got.
+
+1145
+01:29:01,956 --> 01:29:02,796
+No pressure, no pressure.
+
+1146
+01:29:02,886 --> 01:29:03,696
+No pressure.
+
+1147
+01:29:04,206 --> 01:29:06,036
+But also, I will be available to talk-
+
+1148
+01:29:06,246 --> 01:29:06,576
+She will be here-
+
+1149
+01:29:06,606 --> 01:29:07,446
+For the whole week
+
+1150
+01:29:07,566 --> 01:29:08,647
+... she'll be here all week, yeah.
+
+1151
+01:29:08,676 --> 01:29:11,046
+Yeah, I'll be around. But I am happy to answer questions.
+
+1152
+01:29:11,736 --> 01:29:12,636
+Oh yeah, there is a question.
+
+1153
+01:29:12,756 --> 01:29:13,596
+All the way in the back.
+
+1154
+01:29:17,526 --> 01:29:18,096
+So is it out? Maybe make sense.
+
+1155
+01:29:18,186 --> 01:29:21,186
+Wait for the microphone. Hold on, we have people online.
+
+1156
+01:29:23,046 --> 01:29:23,316
+Yeah.
+
+1157
+01:29:24,666 --> 01:29:29,256
+Do you think you could expand the BioClip model to paleo collections and use a
+
+1158
+01:29:29,316 --> 01:29:30,846
+similar approach, and have you looked at that?
+
+1159
+01:29:32,406 --> 01:29:34,656
+Great question. So paleo collections, yes.
+
+1160
+01:29:34,716 --> 01:29:38,736
+In fact, some of the GBIF already has paleo.
+
+1161
+01:29:40,866 --> 01:29:44,826
+Not quite paleo-paleo, but it has bones and skeletal information.
+
+1162
+01:29:45,486 --> 01:29:50,226
+So the answer is probably yes. But we would need--
+
+1163
+01:29:51,666 --> 01:29:53,016
+There's no AI without data.
+
+1164
+01:29:54,696 --> 01:29:59,736
+And there are efforts now to explicitly do this specifically for paleo collections
+
+1165
+01:29:59,796 --> 01:30:02,046
+because there are a lot of these
+
+1166
+01:30:03,726 --> 01:30:07,176
+nuances there of you have one tooth, what do you do with it?
+
+1167
+01:30:07,236 --> 01:30:08,886
+What kind of information are you getting out of it?
+
+1168
+01:30:09,786 --> 01:30:13,716
+And so it is very much multimodal. So there is the
+
+1169
+01:30:15,246 --> 01:30:20,916
+3D image, quite often more so than 2D, but 3D DNA chemical
+
+1170
+01:30:20,976 --> 01:30:26,856
+information. So the models that are being trained for paleo are a
+
+1171
+01:30:26,916 --> 01:30:31,176
+little bit different. But there's certainly a connection that's possible there,
+
+1172
+01:30:31,506 --> 01:30:31,866
+yeah.
+
+1173
+01:30:33,276 --> 01:30:34,566
+Another question here.
+
+1174
+01:30:36,186 --> 01:30:36,186
+Yeah.
+
+1175
+01:30:36,276 --> 01:30:39,516
+Yeah, quick question, hopefully. I'm not sure if I get to run.
+
+1176
+01:30:39,576 --> 01:30:40,147
+I'm not judging.
+
+1177
+01:30:40,206 --> 01:30:45,636
+I heard that, yeah, it sounded a little bit to me that you also criticize the
+
+1178
+01:30:45,696 --> 01:30:49,506
+deployment way of the data sets at the end with regard to quality.
+
+1179
+01:30:49,626 --> 01:30:55,356
+So if they go to Kaggle or wherever, OpenML, they might sink into
+
+1180
+01:30:56,016 --> 01:31:00,756
+the trash, which is already there, which has questionable taxonomic names in it and
+
+1181
+01:31:00,846 --> 01:31:06,756
+so on. So you mentioned FAIR4ML, which is for the models, not for the data itself,
+
+1182
+01:31:06,816 --> 01:31:09,936
+but this is published in a qualitative repository, to my knowledge.
+
+1183
+01:31:10,476 --> 01:31:14,136
+It's ML entry, as I've been made, and maybe it's also in Alexidom now.
+
+1184
+01:31:14,466 --> 01:31:18,936
+So do you envision something similar for highly curated biological or biodiversity
+
+1185
+01:31:18,996 --> 01:31:20,616
+data sets for deployment?
+
+1186
+01:31:21,486 --> 01:31:26,196
+Yeah. So just to understand the question, because there's the preamble to the
+
+1187
+01:31:26,226 --> 01:31:27,486
+question, then in the question.
+
+1188
+01:31:29,286 --> 01:31:32,016
+So is the question about FAIR4ML?
+
+1189
+01:31:36,492 --> 01:31:37,332
+How do you, sorry?
+
+1190
+01:31:38,412 --> 01:31:40,992
+Envision to deploy the data sets, where should they go in?
+
+1191
+01:31:41,052 --> 01:31:46,392
+Should they end in cargo, for example, as repository to mobilize them there, where
+
+1192
+01:31:46,452 --> 01:31:51,192
+they might undergo on the trash? If you follow up these all adding to Croissant
+
+1193
+01:31:51,282 --> 01:31:55,812
+standards, high level, add provenance, Swiss prof or whatever, and so on.
+
+1194
+01:31:56,202 --> 01:31:59,682
+So where do you think could these data set lives in and be mobilized for the
+
+1195
+01:31:59,712 --> 01:32:03,612
+community? Will this be still the standard repositories, which have the highest
+
+1196
+01:32:03,642 --> 01:32:04,422
+success, of course?
+
+1197
+01:32:05,232 --> 01:32:07,152
+So there are a couple of ways of
+
+1198
+01:32:09,402 --> 01:32:14,862
+going about sort of adding the FAIR4AI or FAIR4ML metadata as it's being
+
+1199
+01:32:14,922 --> 01:32:18,312
+accumulated. Right? So
+
+1200
+01:32:19,603 --> 01:32:22,332
+one way, which we're hoping, is that
+
+1201
+01:32:22,722 --> 01:32:28,302
+the aggregate, the big data sets, the
+
+1202
+01:32:28,392 --> 01:32:34,212
+aggregates like NEON, like GBIF, and INA, we actually make those
+
+1203
+01:32:34,272 --> 01:32:37,242
+FAIR4AI, not FAIR4ML. There's a distinction.
+
+1204
+01:32:37,302 --> 01:32:42,042
+So FAIR4AI, and by the way, that started with the Ecological Synthesis Center, ESO,
+
+1205
+01:32:43,362 --> 01:32:46,572
+FAIR4AI checklist, and also augmented with a
+
+1206
+01:32:48,912 --> 01:32:52,332
+human health checklist and a disease checklist.
+
+1207
+01:32:52,362 --> 01:32:57,133
+And so there's kind of developing and community input.
+
+1208
+01:32:58,392 --> 01:33:04,302
+So that is a property of the data set, and
+
+1209
+01:33:04,392 --> 01:33:08,322
+that all of the annotation that happens is on the original data set.
+
+1210
+01:33:09,582 --> 01:33:15,402
+Right. That's one thing. The thing is, once it goes FAIR4ML and model
+
+1211
+01:33:15,492 --> 01:33:19,752
+ready, these kinds of data sets are being published now in machine learning
+
+1212
+01:33:19,782 --> 01:33:25,093
+communities, and they lose connection to the primary data at this point.
+
+1213
+01:33:26,082 --> 01:33:29,832
+And there is no, quite often, even attribution anymore to primary data.
+
+1214
+01:33:29,892 --> 01:33:31,633
+So we're actually trying to break this.
+
+1215
+01:33:32,952 --> 01:33:33,282
+And
+
+1216
+01:33:34,512 --> 01:33:39,732
+so CyVerse and other projects, more broadly than biodiversity data, are really
+
+1217
+01:33:39,792 --> 01:33:45,192
+figuring out how do you keep provenance chains, and everything
+
+1218
+01:33:45,252 --> 01:33:47,802
+that's created by machine learning methods.
+
+1219
+01:33:47,832 --> 01:33:51,762
+So for example, if I put bounding box around every beetle, the coordinates of that
+
+1220
+01:33:51,822 --> 01:33:56,232
+bounding box should go back to the original data provider, right, on the same
+
+1221
+01:33:56,322 --> 01:33:58,242
+image. When we de-duplicate
+
+1222
+01:33:59,922 --> 01:34:05,412
+GBIF data, because there are a lot of duplicates there or near duplicates,
+
+1223
+01:34:06,103 --> 01:34:09,822
+that information should go back to the primary data providers.
+
+1224
+01:34:10,212 --> 01:34:12,222
+When we clean up and
+
+1225
+01:34:14,682 --> 01:34:19,752
+reconnect to taxonomy, because GBIF just changed its taxonomy service, right?
+
+1226
+01:34:20,322 --> 01:34:25,452
+So we have to update. If somebody's going to use it for machine learning
+
+1227
+01:34:25,902 --> 01:34:30,072
+training of any kind, the name has to be the most recent.
+
+1228
+01:34:30,103 --> 01:34:33,642
+But you also have to have connections to the original ones, right, and
+
+1229
+01:34:35,742 --> 01:34:39,162
+all the versions of the name so that you know what to associate with.
+
+1230
+01:34:39,762 --> 01:34:44,562
+And so we've built ways to do these connections on GBIF data.
+
+1231
+01:34:46,902 --> 01:34:52,182
+And it is now going to be part of GBIF, but it also has to go back to the original
+
+1232
+01:34:52,242 --> 01:34:57,612
+data providers so they can derive value from the work that we've done, which is a
+
+1233
+01:34:57,672 --> 01:35:02,772
+lot of work, and also not to have to use AI
+
+1234
+01:35:02,802 --> 01:35:07,512
+resources, cyber infrastructure resources, to redo that work, which they probably
+
+1235
+01:35:07,572 --> 01:35:10,932
+can't even do because you need to do it in the context of a big data set.
+
+1236
+01:35:11,383 --> 01:35:17,292
+And so the goal is not to create new repositories of any kind,
+
+1237
+01:35:17,622 --> 01:35:23,082
+but to create a data infrastructure that amends existing one and create kind of
+
+1238
+01:35:24,103 --> 01:35:30,072
+a relatively lightweight AI-enabled and AI-ready infrastructure on top of it
+
+1239
+01:35:30,853 --> 01:35:34,722
+that brings value all the way up and down the data chain.
+
+1240
+01:35:36,972 --> 01:35:42,343
+All right, so if there are additional questions, please find Tania at the break or
+
+1241
+01:35:43,152 --> 01:35:46,932
+sometime during the week. I'm making an executive decision to give you a little
+
+1242
+01:35:47,022 --> 01:35:51,162
+extra time for your break, especially since you'll have to travel a little bit to
+
+1243
+01:35:51,192 --> 01:35:55,422
+get to the restrooms and come back. We will start promptly at 11:05.
+
+1244
+01:35:56,232 --> 01:35:59,532
+So please, thank you for joining us.
+
+1245
+01:35:59,593 --> 01:36:03,012
+Thank you, Tania, and we'll see you at 11:05.
