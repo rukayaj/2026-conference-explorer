@@ -1,0 +1,2251 @@
+{
+  "recording": {
+    "conference": "TDWG 2026",
+    "date": "2026-09-25",
+    "room": "SAL B",
+    "video_url": "",
+    "transcript_source": "TDWG 2026-09-25 SAL B.srt",
+    "language": "en",
+    "notes": "Continuous recording covering SYM32 'May the Data Be Structured: Linking Descriptions, Identification and AI' (8:30-10:00 AM; speech from 00:50:04, so about 8:30 AM) and, after a coffee-break gap (02:15:55-02:51:35), SYM36 'Designing Institutional Knowledge Data Science Centres for Biodiversity' (10:30 AM-12:00 PM; opened at 02:53:17, closed at 04:25:39). The afternoon Unconference breakout (event-363) is not covered. All ten programmed talks were given. SYM32's scheduled discussion slot was absorbed by Q&A; SYM36 ended with a long chair-led discussion. Three talks were pre-recorded or virtual (Puissant, Vignes Lebbe, Mimouni). ASR errors include 'TADWIG/TadWIC/TEDx' for TDWG, 'Expert' for Xper, 'Adeline Carné' for Adeline Kerner, 'Wouter Coe' for Wouter Koch, 'Régine Vine' for Régine Vignes Lebbe, 'Cyprien Pokorski' for Cyprien Pankowski, 'Lars Voigt' for Lars Vogt, 'Claves' for Clavis, 'SPipole' for SPIPOLL, 'Phenops' for PhenObs and 'TETRIS/TETRIXX' for TETTRIs/TETTRIs Next Level."
+  },
+  "content_items": [
+    {
+      "id": "salb-2026-09-25-01",
+      "type": "talk",
+      "programme_id": "event-314",
+      "title": "Ctrl+Alt+SDD: A Historical Review Toward a Standard Reboot",
+      "programme": {
+        "title": "Ctrl+Alt+SDD: A Historical Review Toward a Standard Reboot",
+        "speakers": [
+          {
+            "name": "Adeline Kerner",
+            "affiliation": ""
+          }
+        ],
+        "session": "SYM32 May the Data Be Structured: Linking Descriptions, Identification and AI",
+        "scheduled_start": "8:30 AM",
+        "scheduled_end": "8:50 AM",
+        "abstract": "Structured Descriptive Data (SDD) is a TDWG standard, ratified in 2005, that structures taxonomic descriptions in a machine-readable format. SDD aims to standardize descriptive biodiversity data while preserving the richness and complexity of taxonomic knowledge. Built around descriptive concepts, characters, states, and semantic relationships, SDD allowed adaptation to different taxonomic contexts.\n\nThis flexibility became both a strength and a limitation. SDD allows users to freely create additional concepts and vocabularies, enabling rich and highly adaptable descriptive practices. However, this freedom also limited interoperability: similar concepts could be created under different names depending on the application, complicating the reuse of an SDD file in another application.\n\nSDD supports complex descriptions, multilingual versions, and additional resources, making it particularly complete. However, its XML-based structure is often perceived as verbose, technically heavy, difficult to implement, and less accessible compared to newer web technologies. As a result, SDD adoption progressively declined, and today, only a handful of projects still actively use it.\n\nInterest in SDD recently re-emerged following discussions during the TDWG 2023 Unconference on the future of descriptive data standards. The objective is not simply to revive the original standard, but to rethink how structured descriptive data could better support interoperability, FAIR principles, and modern workflows.\n\nCurrent discussions around a possible “SDD 2.0” emphasize greater plasticity, modularity, and easier integration with modern biodiversity data infrastructures while preserving the conceptual completeness and adaptability that made the original SDD valuable."
+      },
+      "actual": {
+        "start_timestamp": "00:52:10",
+        "end_timestamp": "01:10:07",
+        "duration_seconds": 1077,
+        "speakers": [
+          {
+            "name": "Elie Saliba",
+            "affiliation": ""
+          },
+          {
+            "name": "Adeline Kerner",
+            "affiliation": ""
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Chair/moderator Adeline Kerner (ASR 'Adeline Carné') announces that the first talk is shared: Elie Saliba presents the history of SDD and Kerner the Xper part. Pre-session chatter says 'We have merged the talks'. Content matches the abstract.",
+        "transcript_quality": "medium"
+      },
+      "summary": "A two-part review of TDWG's Structured Descriptive Data (SDD) standard. Elie Saliba traced its lineage from single-access keys and the DELTA format through SDD's development (from 1998, ratified 2005, last updated to 1.1 in 2006-2007) and noted that much of its development record was lost when a wiki disappeared. Adeline Kerner then showed how the Xper software family has implemented SDD and where it has had to bend or extend it, and suggested that the Xper4 redevelopment is a chance to restart community discussion on SDD.",
+      "one_line_takeaway": "SDD is well-documented but dormant and imperfectly interoperable, and the Xper4 rebuild is an opportunity to reopen and modernise it together with the community.",
+      "why_it_matters": "Structured descriptive data underpin interactive identification keys, and several later talks in the session (Xper-AI hybrids, recording identification sessions) depend on SDD being revived and extended. The talk also warns about how easily standards history can be lost.",
+      "key_points": [
+        "Single-access keys (the oldest attributed to Lamarck, 1815) make it hard to express doubt or go back, and get stuck when a character is not visible; free-access keys need formalised descriptions but allow multiple paths, weighting and extra help.",
+        "DELTA (Description Language for Taxonomy), developed and maintained by Mike Dallwitz in Australia since the 1970s and endorsed by TDWG in the 1980s, was tied to its own software, so other tools created their own formats; SDD was introduced to restore interoperability.",
+        "SDD discussions began at the 1998 meeting, driven by Gregor Hagedorn (who wrote a PhD largely on the topic); SDD 1.0 was approved in 2005 at St Petersburg and SDD 1.1 (2006-2007, prompted by GBIF) was the last public update. It was used in European projects such as EDIT.",
+        "Most development documentation lived on a wiki that was lost; the history had to be rebuilt from printed personal archives, and the TDWG GitHub copy needs curation.",
+        "SDD has five main classes (described entities/items, descriptors, states, descriptions, groups) and is XML-based. Its flexibility undermined interoperability, it has no provision for AI, captures little metadata and does not store user identification paths.",
+        "Xper has evolved from a 1980s standalone program through Xper2 to the free, collaborative, online Xper3, keeping SDD import/export throughout. The Xper3 identification web services consume SDD.",
+        "Lucid and Xper both implemented SDD, but a 2008 comparison found their files were not fully interoperable, because of how the XML was structured rather than because of the tags.",
+        "Xper specialises SDD constructs (measure subtypes; a rating scale of 1-5 for observation convenience) and converts calculated descriptors, which SDD lacks, into categorical ones, freezing their states and losing information.",
+        "Q&A: SDD was 'a bit early', designed for features that software implemented only much later. Twenty years of hindsight make it easier to keep what worked and drop what never did."
+      ],
+      "content_type": [
+        "standard",
+        "software/tool",
+        "community/project"
+      ],
+      "audience_level": "intermediate",
+      "themes_raw": [
+        "history of TDWG standards",
+        "structured descriptive data",
+        "interactive identification keys",
+        "standard revival",
+        "loss of standards archives",
+        "interoperability of descriptive data"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "SDD (Structured Descriptive Data)",
+          "type": "standard"
+        },
+        {
+          "name": "DELTA",
+          "type": "standard"
+        },
+        {
+          "name": "Xper3",
+          "type": "software"
+        },
+        {
+          "name": "Xper4",
+          "type": "software"
+        },
+        {
+          "name": "Lucid",
+          "type": "software"
+        },
+        {
+          "name": "TDWG",
+          "type": "organisation"
+        },
+        {
+          "name": "GBIF",
+          "type": "organisation"
+        },
+        {
+          "name": "EDIT",
+          "type": "project"
+        },
+        {
+          "name": "Gregor Hagedorn",
+          "type": "person"
+        },
+        {
+          "name": "Mike Dallwitz",
+          "type": "person"
+        }
+      ],
+      "standards": [
+        "SDD 1.0",
+        "SDD 1.1",
+        "DELTA"
+      ],
+      "software_tools": [
+        "Xper",
+        "Xper2",
+        "Xper3",
+        "Xper4",
+        "Lucid"
+      ],
+      "datasets": [],
+      "methods": [
+        "single-access keys",
+        "free-access (multi-access) interactive keys"
+      ],
+      "questions": [
+        "How easy would it be to get Xper-specific extensions into a long-dormant SDD standard?"
+      ],
+      "notable_claims": [
+        {
+          "claim": "SDD reached version 1.0 and was approved as an international standard in 2005 at the St Petersburg TDWG meeting; SDD 1.1 (2006-2007) was the last public update.",
+          "timestamp": "00:56:47",
+          "confidence": "high"
+        },
+        {
+          "claim": "Most of the information on SDD's development was on a wiki page that was lost, so the history had to be reconstructed from printed personal archives.",
+          "timestamp": "00:57:22",
+          "confidence": "high"
+        },
+        {
+          "claim": "In 2008 the SDD implementations of Lucid and Xper were not fully interoperable because of how the XML was structured.",
+          "timestamp": "01:02:10",
+          "confidence": "high"
+        },
+        {
+          "claim": "Converting Xper's calculated descriptors to categorical descriptors for SDD freezes their state and loses information.",
+          "timestamp": "01:06:16",
+          "confidence": "high"
+        }
+      ],
+      "recommendations": [
+        "Reopen community discussion on SDD using Xper4 as the occasion.",
+        "Ensure TDWG does not lose archives and discussions again."
+      ],
+      "results_findings": [],
+      "limitations": [
+        "SDD's XML is verbose and hard for humans to read.",
+        "SDD's flexibility undermined interoperability.",
+        "SDD does not capture AI, rich metadata or user identification paths."
+      ],
+      "future_work": [
+        "Xper4 development, with renewed community discussion of an SDD update."
+      ],
+      "examples_case_studies": [
+        "Xper2/Xper3 SDD mapping",
+        "2008 Lucid-Xper SDD interoperability comparison"
+      ],
+      "q_and_a": [
+        {
+          "question": "Some SDD implementations seem hacky; how easy would it be to get these needs into the SDD standard given that it has been dormant?",
+          "answer_summary": "Saliba said SDD was well thought out and well documented (Hagedorn's PhD and earlier theses) but was designed ahead of the software. With twenty years of hindsight it is easier to keep what worked and drop what never did. The main problem is lost archives, but reopening the technical discussion should not be hard.",
+          "timestamp": "01:07:38"
+        }
+      ],
+      "representative_excerpt": {
+        "timestamp": "00:58:46",
+        "text": "The flexibility that it provided at the time-- So SDD lets you do a little bit of your own thing, but basically that played a role against its main objective of being interoperable."
+      },
+      "notable_moments": [
+        {
+          "timestamp": "00:57:22",
+          "type": "key_point",
+          "description": "The SDD development wiki was lost; history was reconstructed from printed archives."
+        },
+        {
+          "timestamp": "01:02:10",
+          "type": "key_point",
+          "description": "2008 comparison shows Lucid and Xper SDD files were not interoperable."
+        },
+        {
+          "timestamp": "01:07:01",
+          "type": "conclusion",
+          "description": "Xper4 is proposed as the opportunity to restart the SDD discussion."
+        },
+        {
+          "timestamp": "01:08:20",
+          "type": "question",
+          "description": "Why SDD was 'a bit early' and how it could be revived."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "00:52:10",
+          "end_timestamp": "01:10:07"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Matched to event-314. Delivered jointly by Elie Saliba (history) and Adeline Kerner (Xper implementation); only Kerner is listed in the programme."
+      }
+    },
+    {
+      "id": "salb-2026-09-25-02",
+      "type": "talk",
+      "programme_id": "event-315",
+      "title": "Structured identification keys complementing AI: closing the corpus bottleneck with AI-assisted digitisation",
+      "programme": {
+        "title": "Structured identification keys complementing AI: closing the corpus bottleneck with AI-assisted digitisation",
+        "speakers": [
+          {
+            "name": "Wouter Koch",
+            "affiliation": ""
+          }
+        ],
+        "session": "SYM32 May the Data Be Structured: Linking Descriptions, Identification and AI",
+        "scheduled_start": "8:50 AM",
+        "scheduled_end": "9:04 AM",
+        "abstract": "AI image recognition and structured identification keys are complements, not competitors. Image models narrow the candidate set from thousands of species to a handful; a well-formed key then guides the user the rest of the way. But the structured keys themselves remain the bottleneck - building a new key by hand is a large, complex task even for experts, and most curated taxonomic knowledge sits in printed books in non-machine-readable form.\n\nWe present a working pipeline that addresses this bottleneck. AI-driven extraction and audit produce Clavis JSON, a deliberately minimal capturing format with built-in correctness guarantees. Each character state captures a single trait, sibling states together cover every value the source asserts without overlap, shared traits are stored on the parent taxon, rare variants stay reachable through frequency values, and an automated checker confirms references resolve and every species ends up with a distinguishing combination of traits. Clavis is polythetic by design (no fixed paths) and uses the same taxon/character/state primitives as SDD; it was built for verifier simplicity and a low barrier for authors, and is mappable to SDD where downstream consumers need it.\n\nThe resulting key runs in an open web key player, which has been integrated into a working demo version of Norway's national species-recognition app, where image-based AI provides candidates that the key then refines. The engineering of the AI-assisted digitisation pipeline behind these files - detailed methods and costs - is treated in a companion talk in \"AI for Biodiversity Data\" (SYM30)."
+      },
+      "actual": {
+        "start_timestamp": "01:10:37",
+        "end_timestamp": "01:28:54",
+        "duration_seconds": 1097,
+        "speakers": [
+          {
+            "name": "Wouter Koch",
+            "affiliation": ""
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Introduced as co-moderator/timekeeper 'Wouter' (ASR 'Wouter Coe') and says 'it's me' when the next speaker is announced; content matches the abstract. The app name is garbled by ASR as 'Artodactyl' (likely Artsorakel, Norway's species-recognition app). The slides failed to render and were shown from a browser.",
+        "transcript_quality": "medium"
+      },
+      "summary": "Koch argued that image-recognition AI and structured multi-access identification keys complement each other. In his pipeline an image model gives candidate species, which then filter a Clavis-format key so the user answers only a few discriminating questions. He also showed a prototype in which a vision-language model checks which key characters are visible in a photo and explains the identification. To remove the key-building bottleneck, an agentic LLM pipeline extracts characters from printed literature (e.g., Norwegian mammal books) into draft keys for around $10-30 each, which experts then review.",
+      "one_line_takeaway": "AI and identification keys are complementary, and LLM-assisted digitisation of printed literature now makes it feasible to build structured keys at scale for expert review.",
+      "why_it_matters": "Keys add explanation and education that image classifiers lack, and they ground AI in domain knowledge that is disappearing as taxonomists retire. Cheap draft keys change the expert's role from building keys to reviewing them.",
+      "key_points": [
+        "Every occurrence point depends on an identification, so identification underpins most biodiversity data.",
+        "The Norwegian image-recognition app is kept low-threshold (no sign-up) and shows uncertainty, e.g. warning users not to eat mushrooms identified by AI; but images cannot capture every diagnostic feature and give no learning.",
+        "Digital multi-access keys avoid getting stuck on an unanswerable question. Keys are authored in the Clavis JSON format, and Koch argued that AI makes mapping between formats increasingly trivial.",
+        "Pipeline 1: photo, then image AI species candidates, then those candidates filter the key, so the user answers two or three species-specific questions. Some states are already eliminated, which reduces user error. A working dragonfly demo is integrated with the national app API.",
+        "Pipeline 2 (not yet scalable): candidate list, key facts and photo are passed to a multimodal VLM, which reports which characters it can see and generates an explanation that includes diagnostic features not visible in the photo.",
+        "An agentic pipeline extracts facts only from supplied sources (e.g., rodent traits from Norwegian mammal books) and collates them into a key, possibly one that never existed as a key before.",
+        "Draft keys cost under $10 for a single source and about $30 for multiple sources with Claude Opus. Experts now review a working key in an interface instead of starting from an empty spreadsheet.",
+        "Clavis is peer-reviewed and narrower than SDD: it breaks keys apart and reassembles them rather than representing them verbatim. Pensoft now supports Clavis import/export, and the key player works simply from a URL to a Clavis file."
+      ],
+      "content_type": [
+        "software/tool",
+        "workflow/method",
+        "standard"
+      ],
+      "audience_level": "intermediate",
+      "themes_raw": [
+        "AI-assisted species identification",
+        "multi-access identification keys",
+        "LLM extraction from taxonomic literature",
+        "explainable identification",
+        "declining taxonomic expertise",
+        "key digitisation cost"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "Clavis",
+          "type": "standard/format"
+        },
+        {
+          "name": "Artsorakel (Norwegian species recognition app)",
+          "type": "software"
+        },
+        {
+          "name": "Pensoft",
+          "type": "organisation"
+        },
+        {
+          "name": "Claude Opus",
+          "type": "AI model"
+        },
+        {
+          "name": "Qwen",
+          "type": "AI model"
+        },
+        {
+          "name": "TaxonWorks",
+          "type": "software"
+        },
+        {
+          "name": "SDD",
+          "type": "standard"
+        }
+      ],
+      "standards": [
+        "Clavis JSON",
+        "SDD"
+      ],
+      "software_tools": [
+        "Clavis key player and editor",
+        "Norwegian species-recognition app (Artsorakel)",
+        "Claude Opus",
+        "CNN image classifier",
+        "multimodal VLM"
+      ],
+      "datasets": [
+        "Norwegian mammal literature (rodents)",
+        "dragonfly key"
+      ],
+      "methods": [
+        "image-recognition candidate filtering of multi-access keys",
+        "VLM-based character verification and explanation",
+        "agentic LLM extraction of characters from literature"
+      ],
+      "questions": [
+        "Can smaller open models (e.g., Qwen) replace frontier models for key extraction?"
+      ],
+      "notable_claims": [
+        {
+          "claim": "A draft key costs under $10 from a single source and about $30 from multiple sources using a frontier model (Claude Opus).",
+          "timestamp": "01:20:38",
+          "confidence": "high"
+        },
+        {
+          "claim": "Pensoft has implemented Clavis as an import/export format for publications.",
+          "timestamp": "01:24:01",
+          "confidence": "high"
+        },
+        {
+          "claim": "Expert digitisation of a key takes days to weeks at minimum, which is not scalable.",
+          "timestamp": "01:20:10",
+          "confidence": "medium"
+        },
+        {
+          "claim": "Even a tenfold cost increase would keep LLM key drafting feasible compared with paying experts.",
+          "timestamp": "01:28:13",
+          "confidence": "medium"
+        }
+      ],
+      "recommendations": [
+        "Encourage experts to encode more characters than a classical key needs and to split compound statements into one characteristic per question."
+      ],
+      "results_findings": [
+        "Working demo: an image AI plus a dragonfly key in which some options are pre-eliminated after candidate filtering."
+      ],
+      "limitations": [
+        "The VLM explanation pipeline is not scalable yet.",
+        "AI-drafted keys are 'not perfect' and need expert review.",
+        "Costs are subsidised by technology companies."
+      ],
+      "future_work": [
+        "Try cheaper open models (Qwen or newer deterministic models) for extraction."
+      ],
+      "examples_case_studies": [
+        "Dragonfly key integrated with Norwegian species-recognition app",
+        "Rodent key drafted from Norwegian mammal books"
+      ],
+      "q_and_a": [
+        {
+          "question": "How mature is the Clavis JSON format; could another system (e.g., TaxonWorks) serve Clavis to your key interface?",
+          "answer_summary": "Yes. Clavis is peer-reviewed (Koch hesitates to call it a standard until it is widely treated as one). The player only needs a URL to a Clavis file, and Pensoft now supports it.",
+          "timestamp": "01:22:57"
+        },
+        {
+          "question": "Keys usually fail if you miss one question; how do you work around that?",
+          "answer_summary": "The key only asks questions whose answers are known for all remaining species, and several characters can separate the same set, so users can pick answerable ones. Experts are encouraged to record one characteristic per question with illustrations.",
+          "timestamp": "01:25:04"
+        },
+        {
+          "question": "Is the cost based on a frontier model, and are you trying smaller or fine-tuned models?",
+          "answer_summary": "Claude Opus was used, which Koch considers overkill and the maximum cost. The next step is to try Qwen or newer models. Even at ten times the cost it would be cheaper than paying experts.",
+          "timestamp": "01:27:07"
+        }
+      ],
+      "representative_excerpt": {
+        "timestamp": "01:21:22",
+        "text": "And I very much want to highlight that we need the domain knowledge for the educational part, for the grounding of the AI itself."
+      },
+      "notable_moments": [
+        {
+          "timestamp": "01:15:33",
+          "type": "demonstration",
+          "description": "Pipeline: image AI candidates filter the multi-access key."
+        },
+        {
+          "timestamp": "01:17:22",
+          "type": "demonstration",
+          "description": "VLM explains an identification from key characters."
+        },
+        {
+          "timestamp": "01:19:07",
+          "type": "key_point",
+          "description": "Agentic extraction of key characters from printed literature."
+        },
+        {
+          "timestamp": "01:20:38",
+          "type": "key_point",
+          "description": "Cost of AI-drafted keys: under $10 to about $30."
+        },
+        {
+          "timestamp": "01:22:57",
+          "type": "question",
+          "description": "Maturity of Clavis and interoperability with other systems."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "01:10:37",
+          "end_timestamp": "01:28:54"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Matched to event-315 as scheduled."
+      }
+    },
+    {
+      "id": "salb-2026-09-25-03",
+      "type": "talk",
+      "programme_id": "event-316",
+      "title": "Beyond traditional identification keys: hybrid deep learning and Xper3 keys for insect identification",
+      "programme": {
+        "title": "Beyond traditional identification keys: an example of hybrid identification method using deep learning and Xper3 keys for insect identification",
+        "speakers": [
+          {
+            "name": "Agathe Puissant",
+            "affiliation": ""
+          }
+        ],
+        "session": "SYM32 May the Data Be Structured: Linking Descriptions, Identification and AI",
+        "scheduled_start": "9:04 AM",
+        "scheduled_end": "9:18 AM",
+        "abstract": "Taxonomic identification keys are essential tools for species identification, but remain prone to user error when morphological characters are ambiguous or numerous. Deep learning offers powerful alternatives through automatic extraction of morphological descriptors from images, yet fully automatic approaches lack the interpretability and expert validation that interactive keys provide. Here, we develop a hybrid identification framework that combines metric learning, which builds morphological representation spaces enabling nearest-neighbour identification, with interactive identification keys. We apply this approach to French ladybirds (Coccinellidae) and show that deep learning pre-filtering complements the Xper3 interactive key, reaching 90% accuracy in suggesting nearest taxa and reducing the mean number of identification steps by more than half while maintaining user control over the final identification.\n\nThis hybrid approach leverages the power of automatic image recognition as well as the interpretability of morphological keys. Its implementation uses the Xper3 knowledge bases in the SDD exchange format and the associated interactive key service (Kerner et al., 2024). For the image AI component, only the training phase remains time-consuming, as the application subsequently relies solely on nearest neighbours retrieval, enabling a low environmental cost of the hybrid method. This is generalisable to other taxa, thereby offering a scalable and accessible framework for AI-assisted identification of specimens."
+      },
+      "actual": {
+        "start_timestamp": "01:29:23",
+        "end_timestamp": "01:40:52",
+        "duration_seconds": 689,
+        "speakers": [
+          {
+            "name": "Agathe Puissant",
+            "affiliation": "Sorbonne University / Muséum national d'Histoire naturelle"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Pre-recorded virtual talk introduced by the chair by title and speaker ('Agathe Puisson'). Content matches the abstract. The speaker was not confirmed to be online for questions.",
+        "transcript_quality": "medium"
+      },
+      "summary": "Puissant presented a hybrid identification method. A supervised contrastive metric-learning model trained on photographs of MNHN collection specimens of French ladybirds (Coccinellidae) returns the nearest candidate taxa, which then pre-filter an Xper3 interactive key. The model's top-10 hit rate was about 90% on both unstandardised GBIF images and standardised professional photographs. Pre-filtering cut the mean number of key steps sharply, especially for difficult cases, while leaving the final decision to the user.",
+      "one_line_takeaway": "Deep-learning pre-filtering of an interactive key keeps the key's explainability while greatly shortening identification paths.",
+      "why_it_matters": "The approach turns digitised museum collections into training data for tools that non-experts, e.g. in large-scale monitoring, can use without handing the final decision to a black box.",
+      "key_points": [
+        "Collection specimens give precisely identified images covering broad morphological variation, but such datasets are small, have many classes and are imbalanced.",
+        "Automated tools such as BirdNET and Pl@ntNet need large training sets and were described as usually less taxonomically precise than expert-built keys.",
+        "Uses supervised contrastive learning (SupCon): a CNN embeds images so that same-class pairs are pulled together and different-class pairs pushed apart, which enables nearest-neighbour identification.",
+        "Evaluation metric: hit rate, i.e. whether the correct taxon is among the 10 nearest neighbours. Hyperparameter search selected a deep network with long training and moderate augmentation.",
+        "External validation on GBIF images (variable lighting and pose) and on a professional photo website both gave about a 90% hit rate.",
+        "In an Xper3 interface the uploaded image filters the key. Performance drops for dark or complex backgrounds, since training images had backgrounds removed.",
+        "The average path length fell from 4.2 steps to about one (ASR partly garbled); the longer the original path, the larger the reduction."
+      ],
+      "content_type": [
+        "research",
+        "software/tool",
+        "workflow/method"
+      ],
+      "audience_level": "intermediate",
+      "themes_raw": [
+        "hybrid AI and identification keys",
+        "metric learning",
+        "museum collection images as training data",
+        "explainable identification",
+        "insect identification"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "Xper3",
+          "type": "software"
+        },
+        {
+          "name": "Muséum national d'Histoire naturelle",
+          "type": "organisation"
+        },
+        {
+          "name": "Sorbonne University",
+          "type": "organisation"
+        },
+        {
+          "name": "GBIF",
+          "type": "infrastructure"
+        },
+        {
+          "name": "BirdNET",
+          "type": "software"
+        },
+        {
+          "name": "Pl@ntNet",
+          "type": "software"
+        },
+        {
+          "name": "Coccinellidae",
+          "type": "taxon"
+        }
+      ],
+      "standards": [
+        "SDD"
+      ],
+      "software_tools": [
+        "Xper3",
+        "SupCon (supervised contrastive learning)",
+        "convolutional neural networks"
+      ],
+      "datasets": [
+        "MNHN Paris ladybird specimen photographs",
+        "GBIF ladybird images",
+        "professional ladybird photography website images"
+      ],
+      "methods": [
+        "supervised contrastive learning",
+        "nearest-neighbour retrieval",
+        "top-10 hit rate",
+        "identification path-length analysis"
+      ],
+      "questions": [],
+      "notable_claims": [
+        {
+          "claim": "The model reached a hit rate of about 90% on both external validation datasets.",
+          "timestamp": "01:37:24",
+          "confidence": "high"
+        },
+        {
+          "claim": "AI pre-filtering reduced the average identification path from 4.2 steps to about one step.",
+          "timestamp": "01:38:41",
+          "confidence": "medium"
+        },
+        {
+          "claim": "The longer the path without AI, the greater the reduction with AI pre-filtering.",
+          "timestamp": "01:38:46",
+          "confidence": "high"
+        }
+      ],
+      "recommendations": [],
+      "results_findings": [
+        "About 90% top-10 hit rate generalising to external images.",
+        "Large reduction in key steps, largest for hard cases."
+      ],
+      "limitations": [
+        "Performance degrades with dark or complex backgrounds that differ from the background-removed training images.",
+        "The gain was quantified theoretically, not with real users."
+      ],
+      "future_work": [
+        "Test correct-identification rates with real users with and without AI.",
+        "Add automatic background removal.",
+        "Apply the workflow to other taxa that have keys."
+      ],
+      "examples_case_studies": [
+        "French ladybirds (Coccinellidae) with an existing Xper3 key"
+      ],
+      "q_and_a": [],
+      "representative_excerpt": null,
+      "notable_moments": [
+        {
+          "timestamp": "01:37:24",
+          "type": "result",
+          "description": "About 90% hit rate on external datasets."
+        },
+        {
+          "timestamp": "01:38:34",
+          "type": "result",
+          "description": "Path-length reduction with AI pre-filtering."
+        },
+        {
+          "timestamp": "01:39:53",
+          "type": "conclusion",
+          "description": "Perspectives: user testing, background removal, other taxa."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "01:29:23",
+          "end_timestamp": "01:40:52"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Matched to event-316; pre-recorded virtual presentation."
+      }
+    },
+    {
+      "id": "salb-2026-09-25-04",
+      "type": "talk",
+      "programme_id": "event-317",
+      "title": "Needs for data standards about sharing and analyzing identification tools usage",
+      "programme": {
+        "title": "Needs for data standards about sharing and analyzing identification tools usage",
+        "speakers": [
+          {
+            "name": "Regine Vignes Lebbe",
+            "affiliation": ""
+          }
+        ],
+        "session": "SYM32 May the Data Be Structured: Linking Descriptions, Identification and AI",
+        "scheduled_start": "9:18 AM",
+        "scheduled_end": "9:32 AM",
+        "abstract": "Specimen identification has traditionally relied on printed single-access (polytomous) keys using morphological and anatomical characters. These approaches later evolved into more flexible and interactive free-access identification keys. DNA barcoding also emerged as a method for identification based on molecular data.\n\nOver the last two decades, automatic identification software using images or sounds (e.g., Merlin Bird ID, Pl@ntnet) has become increasingly popular. During TDWG 2025, Vignes Lebbe et. al proposed several hybrid scenarios combining connectionist AI and human interpretation through free-access keys. Two of these scenarios have been implemented in 2026 by integrating AI with the Xper3 identification software. Such hybrid approaches provide an explanatory dimension in addition to the automation enabled by AI. However, they lead to an open question: how can these hybrid identification processes be represented and stored for later analysis, and how can these be used to improve future identifications?\n\nIn 2015, the Xper3 development team implemented a system to record identification pathways within the SPIPOLL citizen science program called Xperience. This enabled analyses of the users’ choices, interpretation errors, and collected feedback for improving the key (Delaunay, 2019). However, these records remained confidential and relied on a format created for that purpose.\n\nWe will discuss the value of a standardized format for storing and exchanging hybrid identification workflows and associated keys, as well as addressing data representation and the potential of a system for the automatic improvement of keys."
+      },
+      "actual": {
+        "start_timestamp": "01:41:44",
+        "end_timestamp": "01:54:46",
+        "duration_seconds": 782,
+        "speakers": [
+          {
+            "name": "Régine Vignes Lebbe",
+            "affiliation": "Sorbonne University"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Speaker introduces herself as 'Régine Vine from Sorbonne University in Paris' (ASR); co-authors Adeline Kerner and Elie Saliba are in the room. Virtual talk with the speaker online. SPIPOLL is rendered 'SPipole' by ASR.",
+        "transcript_quality": "medium"
+      },
+      "summary": "Vignes Lebbe proposed extending SDD so that it records how identification tools are used as well as the keys themselves. Drawing on the SPIPOLL citizen-science programme, where Xper3 logged participants' identification pathways in a closed format, she argued that an identification session is more than a path through a key graph: it combines context, observations with uncertainty, navigation including backtracking, and in hybrid cases AI outputs. She outlined a session model made of question, response and result steps and linked it to a planned Xper4 identification service.",
+      "one_line_takeaway": "SDD should be extended so identification sessions (context, uncertain responses, backtracking and AI outputs) become open, shareable data, not just the keys.",
+      "why_it_matters": "Recorded identification sessions could show where users go wrong, improve keys and provide rich training and evaluation data for AI models, because they capture the reasoning as well as the final name.",
+      "key_points": [
+        "Identification has moved from single-access keys to free-access keys, AI tools and now hybrid approaches, used in research, education, citizen science and public outreach.",
+        "In SPIPOLL (MNHN citizen science on flower-visiting insects) the Xper3 team recorded identification pathways. This enabled analysis of character choice sequences, errors, feedback and metrics such as backtracking frequency, but only in a closed format.",
+        "An identification session is not merely a path through a key graph: it needs who identified what specimen, observations, uncertainty, corrections, backtracking and AI contributions.",
+        "The proposal is to add three objects to SDD (identification context, identification session, identification process). The talk focused on the session.",
+        "A session is a sequence of steps: question, response or result. Qualitative responses may hold several states with confidence; quantitative ones hold values or intervals with accuracy. Uncertainty must not be lost.",
+        "A result leads to a new question, an end, or a backtrack to a previous question. An end may give one or more taxa with compatibility or probability and does not imply success.",
+        "For hybrid identification, at minimum store a reference to the trained model and its output (e.g., taxa with probabilities).",
+        "Next step: a new identification service linked to Xper4 that offers single-access key generation, free-access keys, hybrid identification and storage and sharing of sessions."
+      ],
+      "content_type": [
+        "standard",
+        "conceptual",
+        "software/tool"
+      ],
+      "audience_level": "specialist",
+      "themes_raw": [
+        "identification session data",
+        "extending SDD",
+        "citizen science identification behaviour",
+        "uncertainty representation",
+        "hybrid AI identification provenance"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "SDD",
+          "type": "standard"
+        },
+        {
+          "name": "SPIPOLL",
+          "type": "project"
+        },
+        {
+          "name": "Xper3",
+          "type": "software"
+        },
+        {
+          "name": "Xper4",
+          "type": "software"
+        },
+        {
+          "name": "Muséum national d'Histoire naturelle",
+          "type": "organisation"
+        },
+        {
+          "name": "Sorbonne University",
+          "type": "organisation"
+        }
+      ],
+      "standards": [
+        "SDD"
+      ],
+      "software_tools": [
+        "Xper3",
+        "Xper4",
+        "Xperience (SPIPOLL pathway logging)"
+      ],
+      "datasets": [
+        "SPIPOLL identification pathway records"
+      ],
+      "methods": [
+        "modelling identification sessions as sequences of question/response/result steps"
+      ],
+      "questions": [
+        "What semantics should confidence, accuracy and compatibility have in a future standard?",
+        "What exactly should be stored about the AI component in hybrid identification?"
+      ],
+      "notable_claims": [
+        {
+          "claim": "SDD can represent identification keys but not full identification sessions.",
+          "timestamp": "01:53:27",
+          "confidence": "high"
+        },
+        {
+          "claim": "SPIPOLL identification pathway records enabled analysis of character choices, errors and backtracking, but were stored in a specific closed format.",
+          "timestamp": "01:45:15",
+          "confidence": "high"
+        },
+        {
+          "claim": "Shared identification sessions could provide valuable datasets for training and evaluating AI models.",
+          "timestamp": "01:53:41",
+          "confidence": "high"
+        }
+      ],
+      "recommendations": [
+        "Extend SDD with identification context, session and process objects.",
+        "Preserve observer uncertainty when storing sessions."
+      ],
+      "results_findings": [],
+      "limitations": [
+        "The terms confidence, accuracy and compatibility still need precise semantics.",
+        "The talk did not define context or process objects in detail."
+      ],
+      "future_work": [
+        "Implement an Xper4 identification service that stores and shares identification sessions.",
+        "Explore an extended SDD for exchanging identification processes."
+      ],
+      "examples_case_studies": [
+        "SPIPOLL citizen-science programme"
+      ],
+      "q_and_a": [],
+      "representative_excerpt": {
+        "timestamp": "01:54:00",
+        "text": "The identification key define the graph. The identification session record the trajectory to obtain the identification."
+      },
+      "notable_moments": [
+        {
+          "timestamp": "01:44:10",
+          "type": "example",
+          "description": "SPIPOLL pathway recording example."
+        },
+        {
+          "timestamp": "01:46:26",
+          "type": "key_point",
+          "description": "An identification session is more than a path."
+        },
+        {
+          "timestamp": "01:49:00",
+          "type": "key_point",
+          "description": "Proposed step model: question, response, result."
+        },
+        {
+          "timestamp": "01:53:21",
+          "type": "conclusion",
+          "description": "Summary and call for an extended SDD."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "01:41:44",
+          "end_timestamp": "01:54:46"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Matched to event-317; virtual presentation. The chair invited questions afterwards and none were asked."
+      }
+    },
+    {
+      "id": "salb-2026-09-25-05",
+      "type": "talk",
+      "programme_id": "event-318",
+      "title": "The Iterative Signal-Based System (ISBS): Structuring Bioacoustic Data for Interpretable Identification",
+      "programme": {
+        "title": "The Iterative Signal-Based System (ISBS): Structuring Bioacoustic Data for Interpretable Identification",
+        "speakers": [
+          {
+            "name": "Cyprien Pankowski",
+            "affiliation": ""
+          }
+        ],
+        "session": "SYM32 May the Data Be Structured: Linking Descriptions, Identification and AI",
+        "scheduled_start": "9:32 AM",
+        "scheduled_end": "9:46 AM",
+        "abstract": "Passive acoustic monitoring produces large volumes of heterogeneous data, yet their integration into biodiversity information systems remains limited by the lack of structured and interpretable representations. Machine learning approaches often rely on large annotated datasets and provide limited interpretability, making it difficult to explicitly represent the knowledge supporting identification decisions.\n\nWe propose the Iterative Signal-Based System (ISBS), a descriptor-based framework designed to structure bioacoustic signals into explicit knowledge representations. The approach relies on a three-phase process (detection, description, classification) in which acoustic events are characterized using acoustics descriptors combined with contextual metadata. These elements are organized within a graph-based knowledge structure linking descriptors, semantic entities, and target classes.\n\nThis representation supports interpretable identification through symbolic comparison with previously validated cases and descriptor configurations. The approach aligns with principles of structured descriptive data by organizing observations into reusable and semantically coherent entities.\n\nThe current implementation was developed as a proof of concept on a limited dataset of 518 cetacean vocalizations. Classification was evaluated on broad acoustic categories (e.g. harmonic, impulsive, and stationary), validating the representation framework while maintaining interpretability of the decision process. The framework highlights how structured representations can capture domain knowledge and support expert-driven validation.\n\nISBS is designed as a preparatory layer for machine learning, enabling the structuring and enrichment of bioacoustic data prior to large-scale automated analysis."
+      },
+      "actual": {
+        "start_timestamp": "01:55:24",
+        "end_timestamp": "02:15:38",
+        "duration_seconds": 1214,
+        "speakers": [
+          {
+            "name": "Cyprien Pankowski",
+            "affiliation": "Reunion Island University"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Speaker name is rendered by ASR as 'Cyprien Pokorski'; he identifies himself as a PhD student at Reunion Island University, and the content matches the abstract. The classification system is rendered 'ICABS/iKBS' (IKBS).",
+        "transcript_quality": "medium"
+      },
+      "summary": "Pankowski presented ISBS, a hybrid neural-symbolic framework for classifying cetacean vocalisations from passive acoustic monitoring. It works in three phases: detection (manual now, neural detection in progress), description (45 acoustic descriptors plus contextual metadata such as location and recordist), and classification with IKBS, a symbolic knowledge-based system from his lab. A proof of concept on over 500 events from the Watkins marine mammal sound database classified vocalisations into harmonic, impulsive and stationary acoustic domains. In Q&A an audience member explained that Camtrap DP is being adapted as a TDWG standard for bioacoustic data.",
+      "one_line_takeaway": "Describing cetacean vocalisations with explicit descriptors and symbolic classification gives interpretable, taxonomy-like structure to bioacoustic data before large-scale AI.",
+      "why_it_matters": "Neural classifiers are opaque, and there is no consensus on how to describe cetacean calls. A descriptor-based, interpretable approach could support a shared ontology of vocalisations and studies of how calls vary over time and between populations.",
+      "key_points": [
+        "Passive acoustic monitoring yields weeks of recordings with sparse events (e.g., minke whales detectable 100 km or more away), so manual processing is very time-consuming.",
+        "Neural networks classify well but lose the information on why a call is classified as it is. Annotators also disagree on how many vocalisations a spectrogram contains, and there is no international consensus.",
+        "Detection: neural approaches are acceptable for detection because explainability matters less there. Manual detections supply known cases for the knowledge base, and boat noise is a major problem.",
+        "Description: 45 acoustic descriptors (temporal, spectral/frequency, cepstral) plus contextual metadata such as recording location and recordist, together with any expert annotations.",
+        "Classification uses IKBS, a knowledge-based system developed about 20 years ago in the lab for corals and turtles and adapted here to vocalisations.",
+        "Proof of concept: Watkins marine sound database, seven cetacean species seen around Reunion, more than 500 events, classified into harmonic, impulsive and stationary domains or combinations. Results were described as promising; the transcribed accuracy figure is garbled.",
+        "Next: classify vocalisation types rather than species. The long-term hope is individual-level recognition and a consensus ontology of cetacean vocalisations.",
+        "Q&A: an audience member reported that Camtrap DP was evaluated for bioacoustics (Safe and Sound project) and is being adapted (Safer and Sounder, starting in December), with a TDWG bioacoustic-ready standard expected in about a year."
+      ],
+      "content_type": [
+        "research",
+        "workflow/method"
+      ],
+      "audience_level": "specialist",
+      "themes_raw": [
+        "bioacoustics",
+        "passive acoustic monitoring",
+        "interpretable AI",
+        "neuro-symbolic classification",
+        "cetacean vocalisation",
+        "bioacoustic data standards"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "ISBS",
+          "type": "method"
+        },
+        {
+          "name": "IKBS",
+          "type": "software"
+        },
+        {
+          "name": "Watkins Marine Mammal Sound Database",
+          "type": "dataset"
+        },
+        {
+          "name": "Reunion Island University",
+          "type": "organisation"
+        },
+        {
+          "name": "Camtrap DP",
+          "type": "standard"
+        },
+        {
+          "name": "Safe and Sound",
+          "type": "project"
+        },
+        {
+          "name": "Safer and Sounder",
+          "type": "project"
+        },
+        {
+          "name": "WILDLABS",
+          "type": "organisation"
+        },
+        {
+          "name": "BirdNET",
+          "type": "software"
+        }
+      ],
+      "standards": [
+        "Camtrap DP",
+        "SDD"
+      ],
+      "software_tools": [
+        "IKBS",
+        "BirdNET"
+      ],
+      "datasets": [
+        "Watkins Marine Mammal Sound Database (subset, more than 500 events, seven species)"
+      ],
+      "methods": [
+        "acoustic descriptor extraction",
+        "symbolic knowledge-based classification",
+        "neural event detection",
+        "multi-agent querying of species-specific networks"
+      ],
+      "questions": [
+        "Should TDWG define an exchange format for acoustic data?",
+        "How can individual whale voices be described and separated?"
+      ],
+      "notable_claims": [
+        {
+          "claim": "There is no international consensus on how to describe and classify cetacean vocalisations; annotators may see one, three or five vocalisations in the same spectrogram.",
+          "timestamp": "01:57:38",
+          "confidence": "high"
+        },
+        {
+          "claim": "Camtrap DP was found suitable for bioacoustic data and is being adapted, with a bioacoustic-ready TDWG standard expected in about a year.",
+          "timestamp": "02:15:05",
+          "confidence": "medium"
+        }
+      ],
+      "recommendations": [
+        "Link bioacoustic description work with SDD rather than developing a separate approach (chair's comment)."
+      ],
+      "results_findings": [
+        "Proof of concept classifies acoustic domains (harmonic, impulsive, stationary) with promising accuracy."
+      ],
+      "limitations": [
+        "Proof of concept limited to broad acoustic domains, not species or individuals.",
+        "Heterogeneous recording data make adapting general models such as BirdNET hard.",
+        "Neural detection is still a work in progress."
+      ],
+      "future_work": [
+        "Neural automatic event detection.",
+        "Classification of vocalisation types.",
+        "An ontology of cetacean vocalisations proposed to the international community."
+      ],
+      "examples_case_studies": [
+        "Cetaceans around Reunion Island"
+      ],
+      "q_and_a": [
+        {
+          "question": "Is the neural network for the first step trained from scratch or based on existing models?",
+          "answer_summary": "Only detection is neural (classification is symbolic). It is a work in progress with two interns, and the plan is a multi-agent approach querying existing species-specific networks.",
+          "timestamp": "02:10:01"
+        },
+        {
+          "question": "Suggestion to retrain BirdNET, which can learn new classes from few samples.",
+          "answer_summary": "BirdNET was not chosen because adapting it to underwater acoustics and heterogeneous data would take time the PhD does not have.",
+          "timestamp": "02:11:02"
+        },
+        {
+          "question": "Is there data for individual identification?",
+          "answer_summary": "Not yet; dolphin studies suggest signature 'names' and whales have individual voices, but the proof of concept covers only acoustic domains.",
+          "timestamp": "02:12:14"
+        },
+        {
+          "question": "Online question: would a TDWG exchange format for acoustic data be useful?",
+          "answer_summary": "Pankowski agreed it could build consensus. An audience member added that the Camtrap DP standard is being adapted for bioacoustics through the Safe and Sound and Safer and Sounder projects, and invited people to a Camtrap DP lunch meeting.",
+          "timestamp": "02:13:34"
+        }
+      ],
+      "representative_excerpt": null,
+      "notable_moments": [
+        {
+          "timestamp": "01:58:01",
+          "type": "key_point",
+          "description": "Overview of the three-phase ISBS hybrid framework."
+        },
+        {
+          "timestamp": "02:06:00",
+          "type": "result",
+          "description": "Proof of concept on the Watkins database."
+        },
+        {
+          "timestamp": "02:14:02",
+          "type": "key_point",
+          "description": "Audience member explains that Camtrap DP is being adapted for bioacoustic data."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "01:54:52",
+          "end_timestamp": "02:15:38"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Matched to event-318 as scheduled."
+      }
+    },
+    {
+      "id": "salb-2026-09-25-06",
+      "type": "talk",
+      "programme_id": "event-346",
+      "title": "The LIB Open Knowledge Space: A semantic architecture for FAIR, CLEAR, and AI-ready biodiversity knowledge",
+      "programme": {
+        "title": "The LIB Open Knowledge Space: A semantic architecture for FAIR, CLEAR, and AI-ready biodiversity knowledge",
+        "speakers": [],
+        "session": "SYM36 Designing Institutional Knowledge Data Science Centres for Biodiversity",
+        "scheduled_start": "10:30 AM",
+        "scheduled_end": "10:45 AM",
+        "abstract": "Natural history collections risk remaining isolated archives unless their data and knowledge are transformed into connected, semantically structured, and machine-actionable resources. The LIB Open Knowledge Space is a planned FAIR-, CARE-, and CLEAR-compliant knowledge infrastructure. It is central to the data and knowledge science strategy of the Leibniz Institute for the Analysis of Biodiversity Change (LIB) to integrate collection data, research outputs, and curated knowledge into a unified environment serving as LIB's living memory and an anchor of distributed semantic interoperability.\n\nThe architecture rests on two frameworks: (1) The Semantic Units Framework organises biodiversity data and knowledge into modular, identifiable units of meaning, each with a globally unique persistent identifier and explicit epistemic status, supporting assertional, existential, prototypical, and universal statements. (2) The Semantic Ladder defines a progressive formalisation pathway from natural language text snippets through Rosetta Statement anchors to Description Logics-based representations, enabling incremental FAIRness without full formalisation at data entry. Across all levels, vector embeddings support similarity-based search and AI-assisted exploration, enabling hybrid symbolic-vector access that we plan to complement with LIBTellMe, a RAG-based chatbot.\n\nTogether, these frameworks support semantic digital twins of specimens capturing not only associated data but also object and object-data journeys, going beyond the extended specimen concept.\n\nWe present the conceptual architecture and research programme, and invite discussion on alignment with DiSSCo and NFDI4Biodiversity."
+      },
+      "actual": {
+        "start_timestamp": "02:53:43",
+        "end_timestamp": "03:08:15",
+        "duration_seconds": 872,
+        "speakers": [
+          {
+            "name": "Lars Vogt",
+            "affiliation": "Leibniz Institute for the Analysis of Biodiversity Change (LIB)"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "The programme lists no speaker. The chair introduces 'Lars Voigt' (ASR for Lars Vogt), who introduces himself as from LIB and presents the Open Knowledge Space; content matches the abstract.",
+        "transcript_quality": "high"
+      },
+      "summary": "Vogt presented the planned LIB Open Knowledge Space, the core infrastructure of LIB's new Centre for Biodiversity Knowledge Science. He argued that FAIR efforts often make only containers (metadata) FAIR rather than content. The architecture combines the Semantic Units framework, in which each humanly meaningful statement is an identifiable, versioned resource with metadata and vector embeddings, with a 'semantic ladder' of progressive formalisation. The ladder runs from raw text snippets through entity-linked snippets and Rosetta statements to OWL or higher-logic models, and the running example was a beetle observed feeding on carrion.",
+      "one_line_takeaway": "Knowledge can enter the LIB Open Knowledge Space as natural language immediately and be formalised step by step, so content becomes FAIR, CLEAR and AI-ready incrementally.",
+      "why_it_matters": "The approach lowers the entry barrier for semantic knowledge graphs while keeping a route to full formal semantics, and it offers a model for institutional knowledge centres built on natural history collections.",
+      "key_points": [
+        "FAIRness is a continuum, not a Boolean; many projects build 'FAIR containers, not FAIR content'.",
+        "Semantic units: every semantically meaningful piece of content gets its own identifier, instantiates a type, and carries provenance and technical metadata, source reference, extraction method and a vector embedding.",
+        "Ladder level 1: a text snippet linked via a data property, with no formalisation cost. Level 2: entity recognition and linking to Wikidata or ontology terms for basic semantic search.",
+        "Rosetta statements use linguistic syntax-tree positions and semantic roles to create formalised, still natural-language statement types, represented in RDF by n-ary reification. They can be queried with SPARQL, validated with SHACL, and rendered as dynamic labels.",
+        "Higher levels: OWL-based models reached via schema crosswalks from Rosetta schemas. The approach is technology-agnostic (RDF/OWL, property graph or relational).",
+        "LIBTellMe, a RAG chatbot over LIB documents, will let users push relevant answers into the space as text snippet units. Diversity Workbench collection data will be imported at higher formalisation levels.",
+        "A vector layer runs alongside the ladder; each rank adds FAIRness and AI-readiness, and content is only pushed up when a use case needs it.",
+        "Everything will be open source and aligned with community standards, with federated approaches under consideration."
+      ],
+      "content_type": [
+        "infrastructure",
+        "conceptual"
+      ],
+      "audience_level": "specialist",
+      "themes_raw": [
+        "semantic units",
+        "progressive formalisation",
+        "FAIR content versus FAIR containers",
+        "CLEAR principles",
+        "knowledge graphs",
+        "vector embeddings and hybrid search",
+        "institutional knowledge infrastructure"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "Leibniz Institute for the Analysis of Biodiversity Change (LIB)",
+          "type": "organisation"
+        },
+        {
+          "name": "LIB Open Knowledge Space",
+          "type": "infrastructure"
+        },
+        {
+          "name": "Semantic Units Framework",
+          "type": "method"
+        },
+        {
+          "name": "Rosetta Statements",
+          "type": "method"
+        },
+        {
+          "name": "LIBTellMe",
+          "type": "software"
+        },
+        {
+          "name": "Diversity Workbench",
+          "type": "software"
+        },
+        {
+          "name": "Wikidata",
+          "type": "infrastructure"
+        }
+      ],
+      "standards": [
+        "RDF",
+        "OWL",
+        "SPARQL",
+        "SHACL"
+      ],
+      "software_tools": [
+        "LIBTellMe (RAG chatbot)",
+        "Diversity Workbench"
+      ],
+      "datasets": [
+        "LIB collection data"
+      ],
+      "methods": [
+        "semantic units",
+        "Rosetta statements",
+        "semantic ladder / progressive formalisation",
+        "vector embeddings",
+        "entity linking",
+        "n-ary RDF reification"
+      ],
+      "questions": [],
+      "notable_claims": [
+        {
+          "claim": "Many who say they make data FAIR only make the dataset metadata FAIR, building FAIR containers rather than FAIR content.",
+          "timestamp": "02:55:06",
+          "confidence": "high"
+        },
+        {
+          "claim": "Creating Rosetta statement types takes about a day of training, making modelling low-barrier.",
+          "timestamp": "03:02:01",
+          "confidence": "high"
+        },
+        {
+          "claim": "Every semantic unit is versioned and therefore always citable and referenceable.",
+          "timestamp": "03:06:10",
+          "confidence": "high"
+        }
+      ],
+      "recommendations": [
+        "Formalise content only when a use case requires it."
+      ],
+      "results_findings": [],
+      "limitations": [
+        "CARE principles are not yet worked out in the architecture."
+      ],
+      "future_work": [
+        "Develop CARE aspects.",
+        "Build the LIBTellMe chatbot and its integration.",
+        "Explore federated knowledge-space approaches."
+      ],
+      "examples_case_studies": [
+        "Running example: beetle observed feeding on carrion before collection"
+      ],
+      "q_and_a": [],
+      "representative_excerpt": {
+        "timestamp": "02:55:06",
+        "text": "And many people say they make their data fair, but what they actually do is they make the metadata for the datasets fair, so they build fair containers, but not fair content."
+      },
+      "notable_moments": [
+        {
+          "timestamp": "02:56:12",
+          "type": "key_point",
+          "description": "The two pillars: semantic units and progressive formalisation."
+        },
+        {
+          "timestamp": "02:59:22",
+          "type": "explanation",
+          "description": "How Rosetta statements are derived from syntax trees."
+        },
+        {
+          "timestamp": "03:04:21",
+          "type": "key_point",
+          "description": "The semantic ladder and the LIBTellMe chatbot pipeline."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "02:53:43",
+          "end_timestamp": "03:08:15"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Matched to event-346; the programme lists no speaker, and the talk was presented by Lars Vogt."
+      }
+    },
+    {
+      "id": "salb-2026-09-25-07",
+      "type": "talk",
+      "programme_id": "event-347",
+      "title": "Strengthening Taxonomic capacity and Biodiversity Information in Education",
+      "programme": {
+        "title": "Strengthening Taxonomic capacity and Biodiversity Information in Education",
+        "speakers": [
+          {
+            "name": "Patricia Mergen",
+            "affiliation": ""
+          }
+        ],
+        "session": "SYM36 Designing Institutional Knowledge Data Science Centres for Biodiversity",
+        "scheduled_start": "10:45 AM",
+        "scheduled_end": "11:00 AM",
+        "abstract": "“Name It To Save It” is the motto of the Taxonomy Recognition Day organised every 23rd of May, set up by the EU Project TETTRIs (Transforming European Taxonomy through Training, Research, and Innovations) (https://tettris.eu/). The underlying idea is that if people can identify species and better know their characteristics, habitats and needs, more awareness and means will be mobilised to protect them. To be effective, the naming and description of the species have to be done in a correct and user-friendly manner. It is thus essential that subjects such as nomenclature, taxonomy and biodiversity informatics and data standards are addressed properly both in academic and non-academic education. Within the TETTRIs project, 2 work packages were dedicated to training, resulting in a landscape analysis on taxonomic expertise needs as a result of a stakeholder process, a Memorandum of Understanding (MoU) for increased collaboration on taxonomic training and research and in the production of several pilot courses in taxonomy https://tettris.nhmc.uoc.gr/. The long-term sustainability and availability of the courses is guaranteed by their inclusion into the CETAF Distributed European School of Taxonomy (DEST) https://cetaf.org/dest/. Next to more classical taxonomic topics, the authors identified that transferable skills, including digital skills, are an essential part of the curricula. These include understanding what data standards are, how they work and are maintained, and how they can be used in various applications. This presentation will show examples of courses in the domain of Taxonomy and Biodiversity Information and discuss the opportunity to revive the TDWG Interest group on the Biodiversity Informatics Curriculum https://www.tdwg.org/community/curriculum/."
+      },
+      "actual": {
+        "start_timestamp": "03:09:04",
+        "end_timestamp": "03:25:44",
+        "duration_seconds": 1000,
+        "speakers": [
+          {
+            "name": "Patricia Mergen",
+            "affiliation": ""
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "The chair invites 'Patricia'; content matches the abstract (TETTRIs, 'Name it to save it', the curriculum interest group). TETTRIs and TETTRIs Next Level are rendered 'TETRIS/TETRIXX' by ASR.",
+        "transcript_quality": "medium"
+      },
+      "summary": "Mergen described how taxonomy and biodiversity informatics are under-represented in education. Taxonomy content is being hidden from course titles, fieldwork is becoming optional, and dedicated biodiversity informatics degrees are rare or have disappeared. She presented outcomes of the EU TETTRIs project (an MoU among six partners and pilot courses) and its successor, TETTRIs Next Level (started this September, running to 2030), which plans a training academy and European certification. She called for reviving TDWG's dormant Biodiversity Informatics Curriculum interest group to inventory training, safeguard materials and describe courses, possibly reusing schema.org Course markup.",
+      "one_line_takeaway": "Taxonomy and biodiversity informatics need to be visible, modern parts of curricula, and TDWG should revive its curriculum interest group to secure training and knowledge transfer.",
+      "why_it_matters": "Standards and infrastructures depend on people trained to use and maintain them. Losing courses and retiring experts risks breaking knowledge transfer just as AI makes structured data more important.",
+      "key_points": [
+        "The public and even biology students often cannot name common local species; Mergen cited UK and German studies (figures partly garbled by ASR).",
+        "Identification apps are useful but create dependence on technology.",
+        "TETTRIs found taxonomy and nomenclature often remain in courses but are hidden from titles and descriptions to avoid deterring students. Fieldwork is increasingly optional.",
+        "TETTRIs produced an MoU signed by six partners on taxonomic and biodiversity informatics training. TETTRIs Next Level (started this September, runs to 2030) aims for an academy, European certification, 'taxonomists for the future' pilots and science-policy training.",
+        "Biodiversity informatics is rarely a degree topic; the Sorbonne/MNHN master (Régine Vignes Lebbe, Elie Saliba) disappeared after staff moved on. Most practitioners trained on the job.",
+        "Relations between morphological taxonomy and molecular communities have improved through voucher linking, barcoding, eDNA and TDWG standards.",
+        "AI master's programmes are proliferating; biodiversity informatics can use AI to gain curriculum space and funding, since TDWG standards make data AI-ready.",
+        "The proposal is to revive the TDWG Biodiversity Informatics Curriculum interest group to inventory formal and informal training, archive materials, support mentoring and knowledge transfer, and define curriculum advice, reusing schema.org Course/CourseInstance via Bioschemas collaborations."
+      ],
+      "content_type": [
+        "community/project",
+        "policy/governance"
+      ],
+      "audience_level": "general",
+      "themes_raw": [
+        "taxonomic education",
+        "biodiversity informatics curricula",
+        "taxonomic impediment",
+        "knowledge transfer between generations",
+        "training metadata standards",
+        "TDWG interest groups"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "TETTRIs",
+          "type": "project"
+        },
+        {
+          "name": "TETTRIs Next Level",
+          "type": "project"
+        },
+        {
+          "name": "TDWG Biodiversity Informatics Curriculum Interest Group",
+          "type": "organisation"
+        },
+        {
+          "name": "schema.org",
+          "type": "standard"
+        },
+        {
+          "name": "Bioschemas",
+          "type": "standard"
+        },
+        {
+          "name": "iNaturalist",
+          "type": "software"
+        },
+        {
+          "name": "Sorbonne University",
+          "type": "organisation"
+        },
+        {
+          "name": "GBIF",
+          "type": "infrastructure"
+        }
+      ],
+      "standards": [
+        "schema.org Course / CourseInstance",
+        "Bioschemas"
+      ],
+      "software_tools": [
+        "iNaturalist"
+      ],
+      "datasets": [],
+      "methods": [],
+      "questions": [
+        "How can identification courses be made relevant to students who rely on apps?"
+      ],
+      "notable_claims": [
+        {
+          "claim": "Taxonomy and nomenclature often remain in university courses but have disappeared from course titles and descriptions because they deter students.",
+          "timestamp": "03:12:41",
+          "confidence": "high"
+        },
+        {
+          "claim": "The biodiversity informatics master at Sorbonne University/MNHN disappeared when its teachers retired or moved.",
+          "timestamp": "03:15:49",
+          "confidence": "high"
+        },
+        {
+          "claim": "TETTRIs Next Level started this September and will run until 2030.",
+          "timestamp": "03:14:28",
+          "confidence": "high"
+        },
+        {
+          "claim": "A German study found more than 80% of university students recognised fewer than 3 of 32 common plants.",
+          "timestamp": "03:11:36",
+          "confidence": "medium"
+        }
+      ],
+      "recommendations": [
+        "Revive the TDWG Biodiversity Informatics Curriculum interest group.",
+        "Reuse schema.org Course metadata rather than reinventing it.",
+        "Teach critical use of identification apps alongside classical skills."
+      ],
+      "results_findings": [],
+      "limitations": [],
+      "future_work": [
+        "Inventory existing formal and informal biodiversity informatics training.",
+        "TETTRIs Next Level academy and certification."
+      ],
+      "examples_case_studies": [
+        "TETTRIs pilot courses",
+        "Citizen-science course using iNaturalist with specialists teaching critical use"
+      ],
+      "q_and_a": [
+        {
+          "question": "Ecology students find classical identification classes boring because of phone apps and want up-to-date content; how to engage them?",
+          "answer_summary": "TETTRIs Next Level and cascade-funded training aim to make courses appealing by combining modern tools with specialists who teach critical use of apps. Students learn that apps cannot identify everything (look-alike or tiny species, lab or molecular work) and should be able to identify to family level.",
+          "timestamp": "03:23:03"
+        }
+      ],
+      "representative_excerpt": {
+        "timestamp": "03:21:54",
+        "text": "And one of his main outcomes is that we taxonomists and naturalists are mammals that never left their exploring and play phase and remain lifelong curious children."
+      },
+      "notable_moments": [
+        {
+          "timestamp": "03:12:41",
+          "type": "key_point",
+          "description": "Taxonomy is being hidden in course titles."
+        },
+        {
+          "timestamp": "03:15:28",
+          "type": "key_point",
+          "description": "Loss of biodiversity informatics degree programmes."
+        },
+        {
+          "timestamp": "03:19:39",
+          "type": "key_point",
+          "description": "Proposal to revive the TDWG curriculum interest group."
+        },
+        {
+          "timestamp": "03:23:03",
+          "type": "question",
+          "description": "How to engage app-native students."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "03:09:04",
+          "end_timestamp": "03:25:44"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Matched to event-347 as scheduled."
+      }
+    },
+    {
+      "id": "salb-2026-09-25-08",
+      "type": "talk",
+      "programme_id": "event-348",
+      "title": "Enabling machine-readable access to biodiversity data through federated semantic querying",
+      "programme": {
+        "title": "Enabling machine-readable access to biodiversity data through federated semantic querying",
+        "speakers": [
+          {
+            "name": "El-Amine Mimouni",
+            "affiliation": ""
+          }
+        ],
+        "session": "SYM36 Designing Institutional Knowledge Data Science Centres for Biodiversity",
+        "scheduled_start": "11:00 AM",
+        "scheduled_end": "11:15 AM",
+        "abstract": "Biodiversity data are frequently published as distributed Darwin Core archives hosted across institutional repositories, creating major challenges for integrative ecological analyses. Existing approaches generally require either centralising datasets into large aggregators or querying heterogeneous provider-specific APIs. We present a framework that enables federated querying of distributed biodiversity datasets while leaving data in place. The approach combines Darwin Core semantics, ontology-based data access (OBDA), and virtual knowledge graphs to expose remote biodiversity datasets through a unified SPARQL endpoint.\n\nThe system performs spatiotemporal dataset discovery using dataset-level metadata annotations. Relevant datasets are dynamically assembled into a combined dataset by referencing remote Parquet assets stored in object storage. By combining semantic web standards with virtualised data access, the framework enables interoperable querying across independently managed biodiversity resources while preserving dataset autonomy and reducing data duplication.\n\nThis supports flexible cross-dataset discovery and analysis using shared biodiversity semantics. By integrating linked data principles with modern analytical database technologies, the framework demonstrates a scalable approach to federated biodiversity data access. The project, developped at the Quebec Centre for Biodiversity Science (QCBS), illustrates how semantic web technologies, virtual databases, and cloud-native analytical workflows can support reusable biodiversity research infrastructures aligned with FAIR data principles."
+      },
+      "actual": {
+        "start_timestamp": "03:26:10",
+        "end_timestamp": "03:35:43",
+        "duration_seconds": 573,
+        "speakers": [
+          {
+            "name": "El-Amine Mimouni",
+            "affiliation": "Quebec Centre for Biodiversity Science (QCBS)"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Pre-recorded virtual talk. The transcript starts mid-sentence, so the speaker's self-introduction is missing. The chair later refers to 'El-Amin' being online, and the content (a QCBS-hosted Semantic Data Cloud) matches the abstract.",
+        "transcript_quality": "high"
+      },
+      "summary": "Mimouni presented the Semantic Data Cloud, a containerised application that exposes distributed Darwin Core Data Package datasets through a single SPARQL endpoint without copying them into a triple store. Datasets are published as cloud-hosted Parquet files with an EML JSON-LD catalogue entry. The system selects relevant datasets by spatial, temporal, licence or maintenance filters, then rewrites SPARQL to SQL through an OWL 2 QL ontology with OBDA mappings based on the Darwin Core conceptual model, and executes it with DuckDB over HTTP. A live instance at data.qcbs.ca holds over 50 GBIF datasets and exposes an MCP server for LLM agents.",
+      "one_line_takeaway": "Distribute the data, not the infrastructure: cloud Parquet plus OBDA query rewriting gives a virtual Darwin Core knowledge graph without duplicating data into RDF.",
+      "why_it_matters": "It offers a practical route to semantic, cross-dataset querying of the new Darwin Core Data Package without imposing a full RDF stack on data providers, and it is usable directly by LLM agents.",
+      "key_points": [
+        "The ratified Darwin Core Data Package solves DwC-A's conflation of several entities in one table, but its semantics are implicit in table joins and it is hard to expose online.",
+        "The Darwin Core conceptual model defines relationships in natural language rather than in a formal ontology. An OWL ontology makes the semantics explicit and lets data be seen as a graph (e.g., a material entity evidencing an occurrence during an event).",
+        "Conventional RDF publication costs data duplication, fragile federated queries, a heavy RDF/ETL burden on providers, and schema drift.",
+        "Core principle: 'the data should be distributed, not the infrastructure'. Tables are exploded Parquet files on object storage instead of zipped CSVs.",
+        "An EML JSON-LD file per dataset carries asset hrefs pointing to the Parquet files (as in STAC catalogues) and supports dataset discovery with filters.",
+        "SPARQL is translated to SQL using an OWL 2 QL ontology and OBDA mappings, which guarantees rewritability while remaining a good fit for vocabularies like Darwin Core. DuckDB executes the SQL on remote Parquet over HTTP, so the virtual knowledge graph exists only for the query's duration.",
+        "The layers are separate: storage (Parquet), discovery (metadata catalogue), execution (DuckDB remote SQL), and planning/reasoning (SPARQL plus OWL).",
+        "The SPARQL endpoint is described via the Model Context Protocol so LLMs can write and run queries. A live instance at data.qcbs.ca holds over 50 GBIF datasets mapped to the DwC Data Package, and the code is on GitHub."
+      ],
+      "content_type": [
+        "infrastructure",
+        "software/tool",
+        "standard"
+      ],
+      "audience_level": "specialist",
+      "themes_raw": [
+        "federated querying",
+        "virtual knowledge graphs",
+        "ontology-based data access",
+        "Darwin Core Data Package",
+        "cloud-native data",
+        "LLM agent access to biodiversity data"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "Semantic Data Cloud",
+          "type": "software"
+        },
+        {
+          "name": "Quebec Centre for Biodiversity Science (QCBS)",
+          "type": "organisation"
+        },
+        {
+          "name": "Darwin Core Data Package",
+          "type": "standard"
+        },
+        {
+          "name": "Darwin Core Conceptual Model",
+          "type": "standard"
+        },
+        {
+          "name": "DuckDB",
+          "type": "software"
+        },
+        {
+          "name": "GBIF",
+          "type": "infrastructure"
+        },
+        {
+          "name": "Model Context Protocol",
+          "type": "standard"
+        }
+      ],
+      "standards": [
+        "Darwin Core",
+        "Darwin Core Data Package",
+        "Darwin Core Archive",
+        "EML",
+        "JSON-LD",
+        "OWL 2 QL",
+        "SPARQL",
+        "SQL",
+        "Model Context Protocol (MCP)",
+        "STAC"
+      ],
+      "software_tools": [
+        "Semantic Data Cloud",
+        "DuckDB",
+        "Apache Parquet",
+        "MCP server"
+      ],
+      "datasets": [
+        "Over 50 GBIF datasets mapped to the Darwin Core Data Package at data.qcbs.ca"
+      ],
+      "methods": [
+        "ontology-based data access (OBDA)",
+        "SPARQL-to-SQL query rewriting",
+        "virtual knowledge graphs",
+        "metadata-driven dataset discovery"
+      ],
+      "questions": [],
+      "notable_claims": [
+        {
+          "claim": "Using an OWL 2 QL ontology guarantees translation from a SPARQL query to an SQL query.",
+          "timestamp": "03:33:35",
+          "confidence": "high"
+        },
+        {
+          "claim": "The live instance at data.qcbs.ca contains over 50 real GBIF datasets mapped onto the Darwin Core Data Package format.",
+          "timestamp": "03:35:27",
+          "confidence": "high"
+        },
+        {
+          "claim": "The query runs against a virtual knowledge graph that exists only for the duration of the query.",
+          "timestamp": "03:34:15",
+          "confidence": "high"
+        }
+      ],
+      "recommendations": [
+        "Publish Darwin Core Data Package tables as cloud-hosted Parquet with a JSON-LD metadata catalogue."
+      ],
+      "results_findings": [],
+      "limitations": [
+        "OWL 2 QL is less expressive than other OWL profiles."
+      ],
+      "future_work": [],
+      "examples_case_studies": [
+        "Antarctic lanternfish specimen data example",
+        "Live deployment at data.qcbs.ca"
+      ],
+      "q_and_a": [],
+      "representative_excerpt": {
+        "timestamp": "03:30:52",
+        "text": "Its core principle is based on the fact that it is the data that should be distributed and not the infrastructure."
+      },
+      "notable_moments": [
+        {
+          "timestamp": "03:29:48",
+          "type": "key_point",
+          "description": "Costs of conventional RDF publication."
+        },
+        {
+          "timestamp": "03:30:34",
+          "type": "key_point",
+          "description": "The Semantic Data Cloud architecture."
+        },
+        {
+          "timestamp": "03:34:51",
+          "type": "key_point",
+          "description": "MCP description enables agentic use of the SPARQL endpoint."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "03:26:10",
+          "end_timestamp": "03:35:43"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Matched to event-348; pre-recorded virtual presentation with no live Q&A (the chair later noted the speaker could take questions via the conference app)."
+      }
+    },
+    {
+      "id": "salb-2026-09-25-09",
+      "type": "talk",
+      "programme_id": "event-349",
+      "title": "Prototype: The Semantic Units Framework and Rosetta Statements for Knowledge Graph Construction Workflows",
+      "programme": {
+        "title": "Prototype: The Semantic Units Framework and Rosetta Statements for Knowledge Graph Construction Workflows",
+        "speakers": [
+          {
+            "name": "Tarek Al Mustafa",
+            "affiliation": ""
+          }
+        ],
+        "session": "SYM36 Designing Institutional Knowledge Data Science Centres for Biodiversity",
+        "scheduled_start": "11:15 AM",
+        "scheduled_end": "11:30 AM",
+        "abstract": "LIB’s Open Knowledge Space proposes the implementation of the Semantic Units Framework and Rosetta statements as novel methods for FAIR (Findable, Accessible, Interoperable, Reusable), CLEAR (Cognitively interoperable, semantically Linked, contextually Explorable, easily Accessible, and human-Readable and -interpretable), and AI-ready research data. As both methods are formalized as technology-agnostic, we investigate their inclusion in end-to-end Knowledge Graph construction workflows and present our first prototype: A pipeline that leverages a novel user-facing input layer for knowledge graph mappings based on formalized natural language input according to Rosetta Statements and a series of modules to compile this input into executable knowledge graph mappings and SHACL shapes for validation. We propose a reusable and easily extensible template library. Templates define Rosetta statement input slots and both structural and semantic specifications to create and validate instances of Semantic Unit classes. This enables simplified mapping authoring and enables further graph and application extensions, such as natural language descriptions of Semantic Unit content that support cognitive interoperability for users and can be leveraged as features for retrieval systems. We present case-study results from the German Centre for Integrative Biodiversity Research (iDiv), in which the iAnswer and PhenObs projects collaborated to transform research data about phenological plant observations in botanical gardens into a Semantic Units Knowledge Graph using our pipeline. Therefore, this prototype is the first step towards mobilizing the wealth of iDiv research data into an institutional infrastructure providing machine actionable and human interpretable research data."
+      },
+      "actual": {
+        "start_timestamp": "03:36:25",
+        "end_timestamp": "03:47:31",
+        "duration_seconds": 666,
+        "speakers": [
+          {
+            "name": "Tarek Al Mustafa",
+            "affiliation": "iDiv / Leipzig-Jena (PhD student)"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Speaker introduces himself as Tarek, a PhD student in Leipzig/Jena working mostly at iDiv; content matches the abstract. PhenObs is rendered 'Phenops' by ASR.",
+        "transcript_quality": "high"
+      },
+      "summary": "Al Mustafa presented a prototype pipeline that puts Rosetta statements and semantic units into practice for knowledge-graph construction. Using the PhenObs botanical-garden phenology dataset, users fill YAML templates structured by Rosetta statement slots. A compiler then produces executable RML mappings and SHACL shapes, yielding a knowledge graph with layered statement units, compound units and dynamic human-readable labels. Mappings were about four times shorter than conventional ones, but graph size more than doubled.",
+      "one_line_takeaway": "Rosetta-statement templates compiled into RML and SHACL make semantic-unit knowledge graphs much easier to author, at the cost of larger graphs.",
+      "why_it_matters": "The prototype shows that the semantic units and Rosetta statement ideas can be implemented with less mapping effort, which matters for bringing institutional research data (e.g., at iDiv) into FAIR, human-readable knowledge graphs.",
+      "key_points": [
+        "Going from a spreadsheet row (plant, growing season length) to an RDF knowledge graph is harder than it looks.",
+        "Rosetta statements are formalised natural-language statements with syntactic positions and semantic roles (subject, quality, value and unit), with required or optional slots.",
+        "Semantic units give identifiers to collections of triples so that they can be treated as units of meaning with a class, metadata and layers of abstraction.",
+        "A Rosetta statement template library (geo-indexing, time, scientific observations and more) feeds a compiler that outputs valid RML mappings and SHACL shapes for validation.",
+        "Templates cover five dimensions: statement slots, semantic-unit structure, RDF output pattern (akin to ontology design patterns), validation constraints and dynamic labels.",
+        "Users fill a YAML representation instead of RML/R2RML; for PhenObs this cut mapping code from about 4,000 to about 1,000 lines.",
+        "The resulting graph layers statement units over the base data graph, then compound units (flowering, fruiting and senescence traits; vegetative versus reproductive) and time-series units, each separately queryable.",
+        "Graph size more than doubles, and the impact on querying remains to be assessed."
+      ],
+      "content_type": [
+        "software/tool",
+        "workflow/method",
+        "case study"
+      ],
+      "audience_level": "specialist",
+      "themes_raw": [
+        "knowledge graph construction",
+        "semantic units",
+        "Rosetta statements",
+        "mapping languages",
+        "dynamic labels",
+        "plant phenology data"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "iDiv (German Centre for Integrative Biodiversity Research)",
+          "type": "organisation"
+        },
+        {
+          "name": "PhenObs",
+          "type": "project/dataset"
+        },
+        {
+          "name": "Semantic Units Framework",
+          "type": "method"
+        },
+        {
+          "name": "Rosetta Statements",
+          "type": "method"
+        },
+        {
+          "name": "LIB",
+          "type": "organisation"
+        }
+      ],
+      "standards": [
+        "RDF",
+        "RML",
+        "R2RML",
+        "SHACL",
+        "YAML"
+      ],
+      "software_tools": [
+        "Rosetta statement template compiler (prototype)"
+      ],
+      "datasets": [
+        "PhenObs botanical garden phenology observations"
+      ],
+      "methods": [
+        "template-based mapping generation",
+        "SHACL validation",
+        "semantic unit layering"
+      ],
+      "questions": [
+        "How does the doubling of graph size affect query performance?",
+        "How do LLM-based RAG systems use dynamic labels compared with traditional graph schemas?"
+      ],
+      "notable_claims": [
+        {
+          "claim": "The YAML mapping representation is four times shorter than conventional mappings, reducing PhenObs mappings from about 4,000 to about 1,000 lines.",
+          "timestamp": "03:44:10",
+          "confidence": "high"
+        },
+        {
+          "claim": "Adding semantic units more than doubles graph size.",
+          "timestamp": "03:46:01",
+          "confidence": "high"
+        }
+      ],
+      "recommendations": [],
+      "results_findings": [
+        "Mapping authoring reduced about four-fold.",
+        "Graph size more than doubles."
+      ],
+      "limitations": [
+        "Larger graphs may affect querying."
+      ],
+      "future_work": [
+        "First release of the pipeline.",
+        "Extend it to other use cases with user-authored reusable templates.",
+        "Study the impact of semantic units and dynamic labels on downstream tasks such as RAG retrieval."
+      ],
+      "examples_case_studies": [
+        "PhenObs phenology observations in botanical gardens (iDiv)"
+      ],
+      "q_and_a": [],
+      "representative_excerpt": null,
+      "notable_moments": [
+        {
+          "timestamp": "03:42:38",
+          "type": "key_point",
+          "description": "Compiler producing RML mappings and SHACL shapes from templates."
+        },
+        {
+          "timestamp": "03:44:10",
+          "type": "result",
+          "description": "Mappings four times shorter."
+        },
+        {
+          "timestamp": "03:46:01",
+          "type": "result",
+          "description": "Graph size more than doubles."
+        },
+        {
+          "timestamp": "03:46:28",
+          "type": "conclusion",
+          "description": "Future work."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "03:36:25",
+          "end_timestamp": "03:47:31"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Matched to event-349 as scheduled. Matt Yoder deferred his question so that his own talk had more time."
+      }
+    },
+    {
+      "id": "salb-2026-09-25-10",
+      "type": "talk",
+      "programme_id": "event-350",
+      "title": "What is the Role of \"AI\" in the Centers for Biodiversity Informatics of the Future?",
+      "programme": {
+        "title": "What is the Role of \"AI\" in the Centers for Biodiversity Informatics of the Future?",
+        "speakers": [
+          {
+            "name": "Matthew Yoder",
+            "affiliation": ""
+          }
+        ],
+        "session": "SYM36 Designing Institutional Knowledge Data Science Centres for Biodiversity",
+        "scheduled_start": "11:30 AM",
+        "scheduled_end": "11:45 AM",
+        "abstract": "The Species File Group (SFG), now endowment funded for almost two decades, is an active center for biodiversity informatics. It therefore represents a use-case for exploring the impact of \"AI\" (generative or otherwise) within such organizations. AI has impacted our infrastructure (human and technical, costs), administration, software, development practices, services, teaching, and planning for the future. In the interests of collectively and collaboratively strengthening fellow centers we highlight examples spanning these areas, subjectively grouping them into positive, negative or neutral outcomes. We further place them along an axis of certainty, i.e. how strongly we feel about the longer-term reality of the issue. As an organization who manages most aspects of its infrastructure AI has impacted how we think about risk management. Empowering individuals, particularly with respect to enabling them to replicate core tooling and data locally is emerging as one priority. Architecting a balance between the management of the complex tools required to create rich networks of biodiversity data and creating a framework that distributes capacity, and risk, particularly one that persists over long periods of time, is a problem that is not unique to biodiversity informatics. AI is both pushing us to address this balance and introducing new considerations."
+      },
+      "actual": {
+        "start_timestamp": "03:48:59",
+        "end_timestamp": "04:03:06",
+        "duration_seconds": 847,
+        "speakers": [
+          {
+            "name": "Matthew Yoder",
+            "affiliation": "Species File Group"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Chair introduces 'Matt'; the speaker presents from the Species File Group and the content matches the abstract.",
+        "transcript_quality": "high"
+      },
+      "summary": "Yoder reflected on the sociocultural impact of AI on a biodiversity informatics centre, drawing on the experience of the endowed Species File Group (about 10 staff and about 100 collaborative projects), which is considering growing from a group into an alliance. He set out ten observations: storage rather than compute is the bottleneck; standards matter more than ever; centres must spot and harden community-built AI tools; administrators, the public and researchers are ambivalent about AI; data protection walls are both necessary and futile; AI noise makes 'open' costly to maintain; and risk should be spread across networks of people. He concluded that centres are long-term havens for people who use technology, and that AI should serve life.",
+      "one_line_takeaway": "Biodiversity informatics centres are about people. AI raises the importance of standards, storage, openness and distributed risk, and centres should fuel researchers' curiosity rather than be driven by the technology.",
+      "why_it_matters": "The talk offers a practical, non-technical view of how AI affects the running, funding, security and mission of long-lived informatics centres.",
+      "key_points": [
+        "The Species File Group has been endowed for about 15 years, has about 10 full-time staff and about 100 collaborative projects, and is exploring a move from group to alliance to share risks and benefits.",
+        "Mathematics, where AI output can be verified with the Lean system, shows that principles proposed for organisations in response to AI are largely just good principles for any centre.",
+        "The biggest bottleneck is storage, not compute. Aggregating data into commercial clouds enables AI models that communities may resent, so the community needs shared or 'infinite' storage.",
+        "Standards are more important than ever: to parse data with AI you still need a standard to parse into. Standards are 'a sea of stability' in the AI wave.",
+        "Citizen scientists and taxonomists now build long-needed tools with LLMs; centres must notice them and harden them for the long term.",
+        "Administrators are enthusiastic but visionary rather than practical; social media and some colleagues (e.g., journal editors) are hostile, and corporate partnerships are contested.",
+        "Walls and silos are inevitable, required and pointless: data leak eventually, so hiding protected-species locations is futile, yet Cloudflare-style walls are now ubiquitous.",
+        "Open science is not open-ended: LLM-generated pull requests and AI noise raise the cost of staying open.",
+        "Amid uncertainty (outages, hacks, collection closures, politics), risk should be spread by getting data back out to individuals and networks.",
+        "Centres are long-term havens for people who use technology, and the role of AI is to serve life and fuel researchers' curiosity."
+      ],
+      "content_type": [
+        "policy/governance",
+        "conceptual",
+        "community/project"
+      ],
+      "audience_level": "general",
+      "themes_raw": [
+        "AI impact on institutions",
+        "sustainability of biodiversity informatics centres",
+        "data storage",
+        "open science under AI pressure",
+        "risk distribution",
+        "people-centred infrastructure"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "Species File Group",
+          "type": "organisation"
+        },
+        {
+          "name": "iNaturalist",
+          "type": "organisation"
+        },
+        {
+          "name": "Amazon",
+          "type": "organisation"
+        },
+        {
+          "name": "Cloudflare",
+          "type": "organisation"
+        },
+        {
+          "name": "GitHub",
+          "type": "platform"
+        },
+        {
+          "name": "Encyclopedia of Life",
+          "type": "project"
+        },
+        {
+          "name": "Lean",
+          "type": "software"
+        }
+      ],
+      "standards": [],
+      "software_tools": [
+        "Cloudflare",
+        "GitHub"
+      ],
+      "datasets": [],
+      "methods": [],
+      "questions": [
+        "Can AI help centres maintain openness?",
+        "How should centres use AI to build the silos and walls that serve their work?"
+      ],
+      "notable_claims": [
+        {
+          "claim": "The biggest bottleneck for the centre is storage, not compute.",
+          "timestamp": "03:53:00",
+          "confidence": "high"
+        },
+        {
+          "claim": "Every biodiversity informatics centre the speaker knows of is using Cloudflare for protection.",
+          "timestamp": "03:58:25",
+          "confidence": "high"
+        },
+        {
+          "claim": "Standards are more important than ever in the age of AI.",
+          "timestamp": "03:53:51",
+          "confidence": "high"
+        },
+        {
+          "claim": "Protected data put online will eventually get out, since even banks and the FBI are hacked.",
+          "timestamp": "03:57:14",
+          "confidence": "medium"
+        }
+      ],
+      "recommendations": [
+        "Pursue federated or shared storage at scale.",
+        "Invest in educating centres and communities on AI nuances.",
+        "Distribute data and risk across networks of people."
+      ],
+      "results_findings": [],
+      "limitations": [],
+      "future_work": [],
+      "examples_case_studies": [
+        "Species File Group experience",
+        "Researcher reducing micro-CT annotation from months to hours with AI"
+      ],
+      "q_and_a": [],
+      "representative_excerpt": {
+        "timestamp": "04:01:13",
+        "text": "So biodiversity centers are long-term havens for people who use technology, not technology serviced by people. And the role of AI is to serve life, is the take home for our centers."
+      },
+      "notable_moments": [
+        {
+          "timestamp": "03:53:00",
+          "type": "key_point",
+          "description": "Storage, not compute, is the bottleneck."
+        },
+        {
+          "timestamp": "03:53:51",
+          "type": "key_point",
+          "description": "Standards are more important than ever."
+        },
+        {
+          "timestamp": "03:56:58",
+          "type": "key_point",
+          "description": "Walls and silos are inevitable, required and pointless."
+        },
+        {
+          "timestamp": "04:01:13",
+          "type": "conclusion",
+          "description": "Take-home: centres serve people, and AI serves life."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "03:48:59",
+          "end_timestamp": "04:03:06"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Matched to event-350 as scheduled."
+      }
+    },
+    {
+      "id": "salb-2026-09-25-11",
+      "type": "discussion",
+      "programme_id": "event-351",
+      "title": "Discussion: designing institutional biodiversity knowledge and data science centres",
+      "programme": {
+        "title": "Discussion",
+        "speakers": [
+          {
+            "name": "Peter Grobe",
+            "affiliation": ""
+          }
+        ],
+        "session": "SYM36 Designing Institutional Knowledge Data Science Centres for Biodiversity",
+        "scheduled_start": "11:45 AM",
+        "scheduled_end": "12:00 PM",
+        "abstract": ""
+      },
+      "actual": {
+        "start_timestamp": "04:04:57",
+        "end_timestamp": "04:25:14",
+        "duration_seconds": 1217,
+        "speakers": [
+          {
+            "name": "Session chair (not named in transcript; programme lists Peter Grobe for the discussion)",
+            "affiliation": ""
+          },
+          {
+            "name": "Lars Vogt",
+            "affiliation": "LIB"
+          },
+          {
+            "name": "Tarek Al Mustafa",
+            "affiliation": "iDiv"
+          },
+          {
+            "name": "Matthew Yoder",
+            "affiliation": "Species File Group"
+          },
+          {
+            "name": "Deb Paul",
+            "affiliation": ""
+          },
+          {
+            "name": "Patricia Mergen",
+            "affiliation": ""
+          },
+          {
+            "name": "Tim (audience member, from Canada)",
+            "affiliation": ""
+          },
+          {
+            "name": "Nikki (audience member)",
+            "affiliation": ""
+          },
+          {
+            "name": "Sharon (audience member)",
+            "affiliation": "Field Museum"
+          },
+          {
+            "name": "Noah (audience member)",
+            "affiliation": ""
+          }
+        ],
+        "identification_confidence": "medium",
+        "identification_notes": "Structured discussion led by the chair with four prepared questions. Participants are identified only by first names used by the chair or by themselves, so full identities of audience members (e.g., 'Nikki', 'Tim', 'Sharon', 'Noah') are uncertain. The Canadian participant is taken to be Tim because he later says 'I won't go on another anarchist rant'.",
+        "transcript_quality": "medium"
+      },
+      "summary": "After summarising the session's talks, the chair asked four questions. What belongs in an institutional centre and what in shared federated infrastructure? What is the biggest obstacle? What should change because of AI? What must institutions agree on to interoperate in 5-7 years? Answers ranged from data-owner-controlled federation, with institutions stewarding shared semantic artefacts, to calls for radical sharing of compute, tools and data against corporate interests. Others raised access inequalities, Indigenous data governance, researcher incentives and journal enforcement, tools that hide semantics, scouting community innovation, embracing messiness, US-Europe differences in AI policy, investing in people, and archival format portability.",
+      "one_line_takeaway": "Interoperable institutional knowledge spaces depend less on technology than on people, shared storage and semantics, incentives and governance.",
+      "why_it_matters": "The discussion gives a cross-institutional view of priorities and tensions (openness versus governance, European versus US AI policy, incentives) for anyone planning biodiversity knowledge centres.",
+      "key_points": [
+        "Vogt: hosting depends on data owners. Some want full control via federated nodes that define allowed queries; others need institutes to host for them. Semantic artefacts (ontologies, schemata) and core services should sit with institutions for long-term sustainability. The chair compared this to GBIF nodes.",
+        "An audience member noted that skills (not only data) should be shared, and that recognition of data and software skills is patchy across countries.",
+        "Tim argued for radical sharing of compute, tools and resources, since large AI companies and big publishers benefit from secrecy and concentration.",
+        "Deb Paul noted access inequalities and her institution's experience that many researchers had never tried AI. She proposed Carpentries-style 'day three' support and alliances to handle staff turnover.",
+        "Sharon (Field Museum) urged bringing Indigenous data governance and traditional knowledge into 'make everything open'. A Brazilian participant disputed a claim about smartphone access in Brazil.",
+        "Obstacles: Tarek said researchers lack incentives and skills to semantify data, so institutions and computer scientists must build supporting workflows. Another participant said researchers know how but take shortcuts, so journals should require standardised data. Matt said to build tools that hide the semantic layer, and that federated storage is the biggest obstacle. A further point was that reviewers should flag messy data.",
+        "On AI: Matt called for small teams trained to spot community innovations and bring them into standards. Tim suggested embracing authentic messiness (citing Journal of Open Source Software practice). Noah flagged a gap between European institutions restricting big-tech AI and widespread US academic use.",
+        "The one thing to agree on first: storage, 'invest in your people' (Nikki), and changing management culture to keep staff histories and ensure archival format portability (Pat)."
+      ],
+      "content_type": [
+        "discussion"
+      ],
+      "audience_level": "general",
+      "themes_raw": [
+        "institutional versus federated infrastructure",
+        "radical openness",
+        "Indigenous data governance",
+        "researcher incentives for data standards",
+        "AI adoption gaps",
+        "investing in people",
+        "federated storage",
+        "archival format migration"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "GBIF",
+          "type": "infrastructure"
+        },
+        {
+          "name": "The Carpentries",
+          "type": "organisation"
+        },
+        {
+          "name": "Journal of Open Source Software",
+          "type": "organisation"
+        },
+        {
+          "name": "Field Museum",
+          "type": "organisation"
+        },
+        {
+          "name": "OpenAI",
+          "type": "organisation"
+        },
+        {
+          "name": "Anthropic",
+          "type": "organisation"
+        },
+        {
+          "name": "Google",
+          "type": "organisation"
+        },
+        {
+          "name": "Species File Group",
+          "type": "organisation"
+        },
+        {
+          "name": "LIB",
+          "type": "organisation"
+        }
+      ],
+      "standards": [],
+      "software_tools": [],
+      "datasets": [],
+      "methods": [],
+      "questions": [
+        "What belongs in an institutional biodiversity knowledge centre and what in shared federated infrastructure?",
+        "What is currently the biggest obstacle: technology, semantic skills, governance or sustainability?",
+        "What should we start doing now because of AI that we would not have considered five years ago?",
+        "If institutions want their knowledge spaces to interoperate in 5-7 years, what must they agree on or build first?"
+      ],
+      "notable_claims": [
+        {
+          "claim": "Institutions should hold the interoperability stack (semantic artefacts, ontologies, schemata) and some operational services for long-term sustainability.",
+          "timestamp": "04:08:44",
+          "confidence": "medium"
+        },
+        {
+          "claim": "Federated storage is the biggest obstacle.",
+          "timestamp": "04:19:13",
+          "confidence": "medium"
+        },
+        {
+          "claim": "European institutions more often restrict big-tech AI use than US academia, which creates a gap for collaboration.",
+          "timestamp": "04:22:41",
+          "confidence": "medium"
+        }
+      ],
+      "recommendations": [
+        "Share skills and curricula as well as data.",
+        "Pair open data with Indigenous data governance.",
+        "Require standardised data via journals and peer review.",
+        "Build tools that hide semantic complexity from researchers.",
+        "Invest in people and in archival format portability."
+      ],
+      "results_findings": [],
+      "limitations": [],
+      "future_work": [],
+      "examples_case_studies": [],
+      "q_and_a": [],
+      "representative_excerpt": null,
+      "notable_moments": [
+        {
+          "timestamp": "04:06:07",
+          "type": "question",
+          "description": "Chair's first question: institutional versus federated infrastructure."
+        },
+        {
+          "timestamp": "04:09:32",
+          "type": "key_point",
+          "description": "Call for radical sharing against corporate AI interests."
+        },
+        {
+          "timestamp": "04:13:35",
+          "type": "key_point",
+          "description": "Indigenous data governance raised."
+        },
+        {
+          "timestamp": "04:14:55",
+          "type": "question",
+          "description": "Biggest obstacle."
+        },
+        {
+          "timestamp": "04:19:38",
+          "type": "question",
+          "description": "What changes because of AI."
+        },
+        {
+          "timestamp": "04:23:14",
+          "type": "question",
+          "description": "One thing to agree on for interoperability in 5-7 years."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "04:04:57",
+          "end_timestamp": "04:25:14"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Matched to the scheduled Discussion (event-351). The talks finished early, leaving extended discussion time."
+      }
+    }
+  ],
+  "unassigned": [
+    {
+      "start_timestamp": "00:50:04",
+      "end_timestamp": "00:52:10",
+      "type": "introduction",
+      "description": "Pre-session setup (note that the first talks were 'merged'), welcome to SYM32 'May the Data Be Structured' by moderator Adeline Kerner, co-moderator/timekeeper Wouter Koch, thanks to sponsors, and announcement that Elie Saliba starts the first talk."
+    },
+    {
+      "start_timestamp": "01:28:54",
+      "end_timestamp": "01:29:23",
+      "type": "introduction",
+      "description": "Chair introduces the virtual talk by Agathe Puissant by its title and plays the recording."
+    },
+    {
+      "start_timestamp": "01:40:59",
+      "end_timestamp": "01:41:44",
+      "type": "introduction",
+      "description": "Chair notes the session is running late, that Agathe may not be online but Régine is, and moves to the next virtual talk. Includes a garbled fragment repeating Régine's opening words (repeated audio)."
+    },
+    {
+      "start_timestamp": "02:15:38",
+      "end_timestamp": "02:15:55",
+      "type": "announcement",
+      "description": "Chair closes SYM32 and announces the coffee break; no separate general discussion took place."
+    },
+    {
+      "start_timestamp": "02:15:55",
+      "end_timestamp": "02:51:35",
+      "type": "break",
+      "description": "Coffee break between sessions; no transcribed speech."
+    },
+    {
+      "start_timestamp": "02:51:35",
+      "end_timestamp": "02:53:17",
+      "type": "room_chatter",
+      "description": "Brief German-language room chatter before the second session."
+    },
+    {
+      "start_timestamp": "02:53:17",
+      "end_timestamp": "02:53:43",
+      "type": "introduction",
+      "description": "Chair opens SYM36 'Designing Institutional Knowledge Data Science Centres for Biodiversity' and introduces Lars Vogt."
+    },
+    {
+      "start_timestamp": "03:08:22",
+      "end_timestamp": "03:09:04",
+      "type": "introduction",
+      "description": "Chair calls for short questions for Lars Vogt (none) and introduces Patricia Mergen's talk."
+    },
+    {
+      "start_timestamp": "03:25:44",
+      "end_timestamp": "03:26:10",
+      "type": "introduction",
+      "description": "Chair locates the mouse and starts the pre-recorded virtual talk by El-Amine Mimouni."
+    },
+    {
+      "start_timestamp": "03:35:52",
+      "end_timestamp": "03:36:25",
+      "type": "announcement",
+      "description": "Chair notes the virtual speaker is not present for questions, explains how online viewers can submit questions, and invites Tarek to the stage."
+    },
+    {
+      "start_timestamp": "03:47:41",
+      "end_timestamp": "03:48:59",
+      "type": "technical_issue",
+      "description": "Chair thanks Tarek; Matt defers his question; slide file setup for Matt Yoder's talk (opening the PDF in a browser)."
+    },
+    {
+      "start_timestamp": "04:03:14",
+      "end_timestamp": "04:04:57",
+      "type": "announcement",
+      "description": "Chair asks for questions for Matt (none), struggles with Windows to show the prepared discussion slides, and announces that El-Amine is online in the conference app for questions."
+    },
+    {
+      "start_timestamp": "04:25:18",
+      "end_timestamp": "04:25:39",
+      "type": "announcement",
+      "description": "Chair closes the session, thanks the speakers including El-Amine online, and announces lunch; someone adds an invitation to the Unconference."
+    }
+  ],
+  "programme_status": [
+    {
+      "programme_id": "event-314",
+      "title": "Ctrl+Alt+SDD: A Historical Review Toward a Standard Reboot",
+      "status": "presented",
+      "content_item_id": "salb-2026-09-25-01",
+      "notes": "Presented jointly by Elie Saliba and Adeline Kerner."
+    },
+    {
+      "programme_id": "event-315",
+      "title": "Structured identification keys complementing AI: closing the corpus bottleneck with AI-assisted digitisation",
+      "status": "presented",
+      "content_item_id": "salb-2026-09-25-02",
+      "notes": "Presented by Wouter Koch as scheduled."
+    },
+    {
+      "programme_id": "event-316",
+      "title": "Beyond traditional identification keys: an example of hybrid identification method using deep learning and Xper3 keys for insect identification",
+      "status": "presented",
+      "content_item_id": "salb-2026-09-25-03",
+      "notes": "Pre-recorded virtual talk by Agathe Puissant."
+    },
+    {
+      "programme_id": "event-317",
+      "title": "Needs for data standards about sharing and analyzing identification tools usage",
+      "status": "presented",
+      "content_item_id": "salb-2026-09-25-04",
+      "notes": "Virtual talk by Régine Vignes Lebbe; no questions."
+    },
+    {
+      "programme_id": "event-318",
+      "title": "The Iterative Signal-Based System (ISBS): Structuring Bioacoustic Data for Interpretable Identification",
+      "status": "presented",
+      "content_item_id": "salb-2026-09-25-05",
+      "notes": "Presented by Cyprien Pankowski with extended Q&A."
+    },
+    {
+      "programme_id": "event-319",
+      "title": "Discussion",
+      "status": "not_presented",
+      "content_item_id": null,
+      "notes": "No separate general discussion was held; the scheduled discussion time was used for Q&A after the ISBS talk, then the chair closed the session for the coffee break at 02:15:55."
+    },
+    {
+      "programme_id": "event-346",
+      "title": "The LIB Open Knowledge Space: A semantic architecture for FAIR, CLEAR, and AI-ready biodiversity knowledge",
+      "status": "presented",
+      "content_item_id": "salb-2026-09-25-06",
+      "notes": "Presented by Lars Vogt (the programme lists no speaker)."
+    },
+    {
+      "programme_id": "event-347",
+      "title": "Strengthening Taxonomic capacity and Biodiversity Information in Education",
+      "status": "presented",
+      "content_item_id": "salb-2026-09-25-07",
+      "notes": "Presented by Patricia Mergen as scheduled."
+    },
+    {
+      "programme_id": "event-348",
+      "title": "Enabling machine-readable access to biodiversity data through federated semantic querying",
+      "status": "presented",
+      "content_item_id": "salb-2026-09-25-08",
+      "notes": "Pre-recorded virtual talk by El-Amine Mimouni."
+    },
+    {
+      "programme_id": "event-349",
+      "title": "Prototype: The Semantic Units Framework and Rosetta Statements for Knowledge Graph Construction Workflows",
+      "status": "presented",
+      "content_item_id": "salb-2026-09-25-09",
+      "notes": "Presented by Tarek Al Mustafa as scheduled."
+    },
+    {
+      "programme_id": "event-350",
+      "title": "What is the Role of \"AI\" in the Centers for Biodiversity Informatics of the Future?",
+      "status": "presented",
+      "content_item_id": "salb-2026-09-25-10",
+      "notes": "Presented by Matt Yoder as scheduled."
+    },
+    {
+      "programme_id": "event-351",
+      "title": "Discussion",
+      "status": "presented",
+      "content_item_id": "salb-2026-09-25-11",
+      "notes": "Chair-led discussion with prepared questions."
+    },
+    {
+      "programme_id": "event-363",
+      "title": "UNC - TDWG 2026 Unconference break out",
+      "status": "uncertain",
+      "content_item_id": null,
+      "notes": "Scheduled 1:00-3:00 PM, outside this recording, which ends at 04:25:39 (around 12:05 PM) with the SYM36 session close. The closing remark 'come to the Unconference' is not evidence either way about whether a breakout took place in SAL B."
+    }
+  ]
+}
