@@ -1,0 +1,191 @@
+You have a set of JSON files produced from all TDWG 2026 room/day recordings in output/.&#x20;
+
+
+
+Each file contains `content_items` representing talks and substantive discussions, plus recording/programme metadata. These have already been segmented and summarised from the transcripts. Do not redo the transcript extraction.
+
+I want you to turn these room/day outputs into a clean conference-wide dataset for an interactive TDWG 2026 exploration site.
+
+## Main tasks
+
+### 1. Collect and validate all content items
+
+Read every room/day JSON file and collect all objects from `content_items`.
+
+Check for obvious structural problems such as:
+
+- duplicate IDs
+- missing IDs
+- malformed timestamps
+- duplicate talks caused by recording overlap
+- content items whose timestamps are outside their recording
+- obvious accidental truncation
+- inconsistent field types
+- missing required fields
+
+Do not silently discard questionable records. Record issues separately.
+
+Preserve the original programme metadata and transcript-derived content.
+
+### 2. Normalise themes across the conference
+
+Each content item contains `themes_raw`.
+
+Create a useful conference-wide theme vocabulary.
+
+The aim is not to create an ontology or force everything into a tiny set of broad categories. The themes should remain specific enough to be useful for exploration.
+
+For example, variants such as:
+
+- AI specimen digitisation
+- AI-assisted digitization
+- machine learning for specimen digitisation
+
+may reasonably map to a canonical theme such as:
+
+- AI-assisted digitisation
+
+But do not merge concepts merely because they are related. For example:
+
+- data quality
+- data validation
+- taxonomic name resolution
+
+may be connected, but they are not necessarily the same theme.
+
+Prefer terminology actually used within the TDWG/biodiversity informatics community.
+
+Avoid themes so broad that they add little value, such as:
+
+- biodiversity
+- data
+- technology
+- science
+
+Also avoid turning named systems such as GBIF, Darwin Core, DiSSCo or iNaturalist into themes unless the system itself really is the subject of the talk. Named systems can remain in the existing entity/standard/software fields.
+
+For every content item:
+
+- preserve `themes_raw` unchanged
+- populate `themes_normalized`
+- normally assign around 3–7 useful normalized themes
+
+### 3. Create a conference-wide theme catalogue
+
+Create one record for every normalized theme containing:
+
+- stable ID / slug
+- display name
+- short description
+- aliases/raw theme variants mapped to it
+- number of content items
+- content item IDs
+- number of talks
+- number of discussions
+- related themes
+
+For `related_themes`, base the relationship primarily on meaningful co-occurrence across talks/discussions rather than simply lexical similarity.
+
+Do not generate a giant list of relationships. A handful of useful related themes per theme is enough.
+
+### 4. Create useful conference-wide metadata
+
+For every content item, retain the existing fields and add enough recording context that it can stand alone in the combined dataset:
+
+- conference date
+- room
+- recording/video URL if available
+- session
+- programme ID
+- content item ID
+
+Do not rewrite good summaries or takeaways unless there is an obvious error.
+
+Do not try to make summaries stylistically identical at the cost of changing meaning.
+
+### 5. Quality review
+
+Review the combined data for obvious LLM extraction artefacts.
+
+Pay particular attention to:
+
+- claims whose timestamps fall outside the content item's source segment
+- weak `representative_excerpt` values
+- limitations/future work that appear to have been invented rather than stated
+- speaker-name ASR errors
+- talks marked missing despite apparently being present
+- unprogrammed talks
+- substantive discussions incorrectly left out of `content_items`
+
+Do not make uncertain corrections silently. Put uncertain cases in the validation report.
+
+## Outputs
+
+Create these files:
+
+### `content_items.json`
+
+A flat conference-wide array of all talks and substantive discussions.
+
+Each record should retain the full useful metadata from the room/day extraction and have populated `themes_normalized`.
+
+### `themes.json`
+
+A conference-wide theme catalogue, for example:
+
+{
+"id": "semantic-interoperability",
+"name": "Semantic interoperability",
+"description": "...",
+"aliases": [
+"semantic integration",
+"semantic interoperability"
+],
+"content\_item\_ids": [],
+"talk\_count": 0,
+"discussion\_count": 0,
+"related\_themes": [
+"data-standards",
+"knowledge-graphs"
+]
+}
+
+### `recordings.json`
+
+A compact list of recording/day/room metadata and video URLs, keyed so that content items can reference their source recording.
+
+### `validation_report.json`
+
+Record anything that deserves human review, including:
+
+- record/content item ID
+- issue type
+- description
+- severity
+- suggested correction if there is an obvious one
+
+Do not include harmless stylistic differences.
+
+### `theme_mapping.json`
+
+An explicit mapping from every raw theme string encountered to its normalized theme ID.
+
+This should make the normalisation reproducible and easy to edit manually later.
+
+## Important constraints
+
+The transcript-derived content is the source of truth for what happened at the conference.
+
+Do not replace it with wording from programme abstracts.
+
+Do not add external factual information.
+
+Do not generate embeddings or map coordinates yet.
+
+Do not split transcripts into semantic-search chunks yet.
+
+Do not build the website yet.
+
+Do not overwrite the original room/day JSON files.
+
+Produce the combined derived files separately.
