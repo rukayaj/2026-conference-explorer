@@ -1,0 +1,1025 @@
+{
+  "generated": "2026-09-28",
+  "scope": "Conference-wide validation of output/*.json (15 room/day recordings) and of the derived files in derived/. Source files were not modified; corrections marked correction_applied=true were made only in derived/content_items.json and are also listed in each item's corrections array.",
+  "summary": {
+    "recordings": 15,
+    "content_items": 255,
+    "talks": 240,
+    "discussions": 15,
+    "raw_theme_strings": 1388,
+    "normalised_themes": 123,
+    "issues_by_severity": {
+      "medium": 10,
+      "low": 36,
+      "info": 12
+    },
+    "issues_by_type": {
+      "missing_video_url": 1,
+      "programme_status_inferred": 1,
+      "speaker_name_uncertain": 16,
+      "truncated_source_content": 1,
+      "annotation_in_name_field": 1,
+      "excerpt_timestamp_misaligned": 6,
+      "extraction_note_in_content": 1,
+      "low_transcript_quality": 1,
+      "misplaced_limitation": 4,
+      "possible_substantive_unassigned": 2,
+      "programme_status_review": 1,
+      "questionable_discussion_item": 2,
+      "speaker_name_asr_error": 2,
+      "weak_representative_excerpt": 7,
+      "inconsistent_time_format": 8,
+      "programme_status_resolved_across_recordings": 1,
+      "programme_status_uncertain": 1,
+      "replacement_speaker": 1,
+      "unprogrammed_content": 1
+    },
+    "corrections_applied_in_derived": 24
+  },
+  "severity_scale": {
+    "high": "Structural error that breaks references or integrity",
+    "medium": "Likely factual/identification error; needs human review before publication",
+    "low": "Minor extraction artefact or quality issue",
+    "info": "Documented discrepancy; no action strictly required"
+  },
+  "checks_performed": [
+    {
+      "check": "All 15 source files parse as JSON and share the recording/content_items/unassigned/programme_status structure",
+      "result": "pass"
+    },
+    {
+      "check": "Content item ids present and unique across the conference",
+      "result": "pass",
+      "detail": "255 items, 0 missing, 0 duplicate"
+    },
+    {
+      "check": "Required fields and field types match json-template.json",
+      "result": "pass"
+    },
+    {
+      "check": "Enumerated values (type, content_type, audience_level, confidence, programme_match, programme_status, unassigned.type)",
+      "result": "pass"
+    },
+    {
+      "check": "Timestamps are HH:MM:SS, source segments have start < end and lie within the transcript length",
+      "result": "pass"
+    },
+    {
+      "check": "Every claim, Q&A, notable-moment and excerpt timestamp falls inside the item's source_segments",
+      "result": "pass",
+      "detail": "1907 timestamps checked"
+    },
+    {
+      "check": "representative_excerpt text located verbatim in the SRT transcript near its timestamp",
+      "result": "pass with corrections",
+      "detail": "all excerpts found; 6 timestamps re-aligned (>10 s off)"
+    },
+    {
+      "check": "duration_seconds consistent with actual start/end",
+      "result": "pass"
+    },
+    {
+      "check": "programme_id values exist in program-data.js; no programme item linked from more than one content item (duplicate talks from recording overlap)",
+      "result": "pass"
+    },
+    {
+      "check": "programme_status references valid content items; every programme item for each recorded room/day has a status",
+      "result": "pass"
+    },
+    {
+      "check": "Near-duplicate titles across recordings",
+      "result": "pass",
+      "detail": "no duplicates; similar titles are distinct talks"
+    },
+    {
+      "check": "Summary/takeaway truncation (missing terminal punctuation, very short text)",
+      "result": "pass"
+    },
+    {
+      "check": "Speaker names vs programme speakers and across items",
+      "result": "issues",
+      "detail": "see speaker_name_* issues"
+    },
+    {
+      "check": "Lexical support of limitations/future_work/recommendations/results in the item transcript segments",
+      "result": "no invented items found",
+      "detail": "The low-overlap entries were spot-checked against the transcript and all were supported. Only entries describing the presentation itself are flagged."
+    },
+    {
+      "check": "Unassigned segments >= 2 min mentioning discussion/questions reviewed for omitted substantive discussion",
+      "result": "issues",
+      "detail": "two borderline introductions flagged"
+    }
+  ],
+  "issues": [
+    {
+      "issue_id": "VR-001",
+      "record_ids": [
+        "2026-09-21-aula-plenary-1",
+        "2026-09-21-aula-plenary-2",
+        "2026-09-21-aula-taster-talks",
+        "2026-09-22-odin",
+        "2026-09-22-sal-a",
+        "2026-09-22-sal-b",
+        "2026-09-22-sal-c",
+        "2026-09-24-forum",
+        "2026-09-24-sal-a",
+        "2026-09-24-sal-b",
+        "2026-09-24-sal-c",
+        "2026-09-25-forum",
+        "2026-09-25-sal-a",
+        "2026-09-25-sal-b",
+        "2026-09-25-sal-c"
+      ],
+      "issue_type": "missing_video_url",
+      "severity": "medium",
+      "field": "video_url",
+      "description": "None of the 15 recordings has a video_url (empty in every source recording object; program-data.js has no video links). video_url is null throughout the derived files.",
+      "suggested_correction": "Add published video URLs to derived/recordings.json and content_items.json once available.",
+      "correction_applied": false,
+      "source_files": []
+    },
+    {
+      "issue_id": "VR-002",
+      "record_ids": [
+        "event-330"
+      ],
+      "issue_type": "programme_status_inferred",
+      "severity": "medium",
+      "field": "programme_status",
+      "description": "FORUM 25 Sep: Pranav Jha's talk is marked not_presented because the chair said an unnamed speaker was sick and the talk does not appear in the recording. The identity of the absent speaker is inferred.",
+      "suggested_correction": null,
+      "correction_applied": false,
+      "source_files": []
+    },
+    {
+      "issue_id": "VR-003",
+      "record_ids": [
+        "aula-taster-04-gbif-dwc-dp"
+      ],
+      "issue_type": "speaker_name_uncertain",
+      "severity": "medium",
+      "field": "actual.speakers",
+      "description": "Second co-presenter recorded as 'Nikolaj (surname unclear; ASR 'Raibek')'; the programme lists Mikhail Podolskiy. Either a replacement presenter or a severe ASR error.",
+      "suggested_correction": "Confirm the co-presenter with GBIF; if it was Mikhail Podolskiy, use the programme name.",
+      "correction_applied": false,
+      "source_files": [
+        "output/Aula_taster_talks.json"
+      ]
+    },
+    {
+      "issue_id": "VR-004",
+      "record_ids": [
+        "forum-2026-09-24-08"
+      ],
+      "issue_type": "speaker_name_uncertain",
+      "severity": "medium",
+      "field": "actual.speakers",
+      "description": "Replacement presenter recorded as 'Fathani Ramwaja (name as transcribed; SANBI co-author)'; spelling is from ASR and uncertain.",
+      "suggested_correction": "Check the SANBI co-author list for the correct name.",
+      "correction_applied": false,
+      "source_files": [
+        "output/TDWG 2026-09-24 Forum.json"
+      ]
+    },
+    {
+      "issue_id": "VR-005",
+      "record_ids": [
+        "forum-2026-09-24-19"
+      ],
+      "issue_type": "speaker_name_uncertain",
+      "severity": "medium",
+      "field": "actual.speakers",
+      "description": "Speaker is not named in the recording (introduction cut); a later remark refers to 'Patrick'. The speaker list relies on programme context.",
+      "suggested_correction": "Confirm the presenter against the programme.",
+      "correction_applied": false,
+      "source_files": [
+        "output/TDWG 2026-09-24 Forum.json"
+      ]
+    },
+    {
+      "issue_id": "VR-006",
+      "record_ids": [
+        "sala-2026-09-24-04",
+        "sala-2026-09-24-07"
+      ],
+      "issue_type": "speaker_name_uncertain",
+      "severity": "medium",
+      "field": "actual.speakers",
+      "description": "Replacement presenter for Jessica Bird recorded as 'Cailin Meyer (name as transcribed...)'; the ASR also gives 'Kaelin'/'Kaelyn'.",
+      "suggested_correction": "Confirm the Smithsonian colleague's name.",
+      "correction_applied": false,
+      "source_files": [
+        "output/TDWG 2026-09-24 SAL A.json"
+      ]
+    },
+    {
+      "issue_id": "VR-007",
+      "record_ids": [
+        "sala-2026-09-25-17"
+      ],
+      "issue_type": "speaker_name_uncertain",
+      "severity": "medium",
+      "field": "actual.speakers",
+      "description": "Business-meeting speakers are partly inferred: the chair is only 'Dave' and 'Patricia Mergen' is inferred from her role.",
+      "suggested_correction": "Confirm speakers from the TDWG business meeting minutes.",
+      "correction_applied": false,
+      "source_files": [
+        "output/TDWG 2026-09-25 SAL A.json"
+      ]
+    },
+    {
+      "issue_id": "VR-008",
+      "record_ids": [
+        "salb-2026-09-22-08"
+      ],
+      "issue_type": "speaker_name_uncertain",
+      "severity": "medium",
+      "field": "actual.speakers",
+      "description": "Panel speaker 'Morten Aronson' ('also Sweden, a colleague of Johan') is probably an ASR rendering of Mora Aronsson (the programme speaker for odin-2026-09-22-12).",
+      "suggested_correction": "Probably Mora Aronsson; confirm before changing.",
+      "correction_applied": false,
+      "source_files": [
+        "output/TDWG 2026-09-22 SAL B.json"
+      ]
+    },
+    {
+      "issue_id": "VR-009",
+      "record_ids": [
+        "salb-2026-09-22-08"
+      ],
+      "issue_type": "speaker_name_uncertain",
+      "severity": "medium",
+      "field": "actual.speakers",
+      "description": "Panel speaker 'Niels Graas' from Naturalis is probably an ASR rendering of Niels Raes (Naturalis; presenter of aula-taster-08-raes-bmd-ai-monitoring).",
+      "suggested_correction": "Probably Niels Raes; confirm before changing.",
+      "correction_applied": false,
+      "source_files": [
+        "output/TDWG 2026-09-22 SAL B.json"
+      ]
+    },
+    {
+      "issue_id": "VR-010",
+      "record_ids": [
+        "salb-2026-09-22-01"
+      ],
+      "issue_type": "truncated_source_content",
+      "severity": "medium",
+      "field": "summary",
+      "description": "The recording has no sound for the first ~17 minutes of SYM23 (as the programme itself notes). The transcript breaks off at 00:08:31, partway through this talk, so the record covers only its first part.",
+      "suggested_correction": null,
+      "correction_applied": false,
+      "source_files": [
+        "output/TDWG 2026-09-22 SAL B.json"
+      ]
+    },
+    {
+      "issue_id": "VR-011",
+      "record_ids": [
+        "aula-taster-04-gbif-dwc-dp",
+        "forum-2026-09-24-08",
+        "forum-2026-09-24-18",
+        "forum-2026-09-24-24",
+        "odin-2026-09-22-02",
+        "odin-2026-09-22-08",
+        "sala-2026-09-24-04",
+        "sala-2026-09-24-07",
+        "sala-2026-09-24-11",
+        "sala-2026-09-25-17",
+        "salb-2026-09-22-08",
+        "salb-2026-09-22-29",
+        "salb-2026-09-24-08",
+        "salb-2026-09-24-23",
+        "salb-2026-09-25-11",
+        "salc-2026-09-24-14",
+        "salc-2026-09-24-21"
+      ],
+      "issue_type": "annotation_in_name_field",
+      "severity": "low",
+      "field": "actual.speakers.name",
+      "description": "Some actual.speakers[].name values contain notes, e.g. '(surname not given)', '(audience member)' or ASR remarks. This works for display but makes names harder to match or deduplicate.",
+      "suggested_correction": "Move the notes into identification_notes, or add a separate note field, and keep only the name in name.",
+      "correction_applied": false,
+      "source_files": [
+        "output/Aula_taster_talks.json",
+        "output/TDWG 2026-09-22 ODIN.json",
+        "output/TDWG 2026-09-22 SAL B.json",
+        "output/TDWG 2026-09-24 Forum.json",
+        "output/TDWG 2026-09-24 SAL A.json",
+        "output/TDWG 2026-09-24 SAL B.json",
+        "output/TDWG 2026-09-24 SAL C.json",
+        "output/TDWG 2026-09-25 SAL A.json",
+        "output/TDWG 2026-09-25 SAL B.json"
+      ]
+    },
+    {
+      "issue_id": "VR-012",
+      "record_ids": [
+        "aula-taster-08-raes-bmd-ai-monitoring"
+      ],
+      "issue_type": "excerpt_timestamp_misaligned",
+      "severity": "low",
+      "field": "representative_excerpt.timestamp",
+      "description": "representative_excerpt timestamp 02:06:27 does not point at the quoted passage; the passage starts at 02:06:40 in the transcript",
+      "suggested_correction": "02:06:40",
+      "correction_applied": true,
+      "source_files": [
+        "output/Aula_taster_talks.json"
+      ]
+    },
+    {
+      "issue_id": "VR-013",
+      "record_ids": [
+        "salb-2026-09-24-08"
+      ],
+      "issue_type": "excerpt_timestamp_misaligned",
+      "severity": "low",
+      "field": "representative_excerpt.timestamp",
+      "description": "representative_excerpt timestamp 02:24:20 does not point at the quoted passage; the passage starts at 02:23:42 in the transcript",
+      "suggested_correction": "02:23:42",
+      "correction_applied": true,
+      "source_files": [
+        "output/TDWG 2026-09-24 SAL B.json"
+      ]
+    },
+    {
+      "issue_id": "VR-014",
+      "record_ids": [
+        "salb-2026-09-24-12"
+      ],
+      "issue_type": "excerpt_timestamp_misaligned",
+      "severity": "low",
+      "field": "representative_excerpt.timestamp",
+      "description": "representative_excerpt timestamp 03:42:52 does not point at the quoted passage; the passage starts at 03:42:39 in the transcript",
+      "suggested_correction": "03:42:39",
+      "correction_applied": true,
+      "source_files": [
+        "output/TDWG 2026-09-24 SAL B.json"
+      ]
+    },
+    {
+      "issue_id": "VR-015",
+      "record_ids": [
+        "salb-2026-09-25-02"
+      ],
+      "issue_type": "excerpt_timestamp_misaligned",
+      "severity": "low",
+      "field": "representative_excerpt.timestamp",
+      "description": "representative_excerpt timestamp 01:21:22 does not point at the quoted passage; the passage starts at 01:21:39 in the transcript",
+      "suggested_correction": "01:21:39",
+      "correction_applied": true,
+      "source_files": [
+        "output/TDWG 2026-09-25 SAL B.json"
+      ]
+    },
+    {
+      "issue_id": "VR-016",
+      "record_ids": [
+        "salb-2026-09-25-07"
+      ],
+      "issue_type": "excerpt_timestamp_misaligned",
+      "severity": "low",
+      "field": "representative_excerpt.timestamp",
+      "description": "representative_excerpt timestamp 03:21:54 does not point at the quoted passage; the passage starts at 03:22:24 in the transcript",
+      "suggested_correction": "03:22:24",
+      "correction_applied": true,
+      "source_files": [
+        "output/TDWG 2026-09-25 SAL B.json"
+      ]
+    },
+    {
+      "issue_id": "VR-017",
+      "record_ids": [
+        "salc-2026-09-25-01"
+      ],
+      "issue_type": "excerpt_timestamp_misaligned",
+      "severity": "low",
+      "field": "representative_excerpt.timestamp",
+      "description": "representative_excerpt timestamp 01:03:37 does not point at the quoted passage; the passage starts at 01:04:38 in the transcript",
+      "suggested_correction": "01:04:38",
+      "correction_applied": true,
+      "source_files": [
+        "output/TDWG 2026-09-25 SAL C.json"
+      ]
+    },
+    {
+      "issue_id": "VR-018",
+      "record_ids": [
+        "aula-plenary-1-01-tdwg-chair-address"
+      ],
+      "issue_type": "extraction_note_in_content",
+      "severity": "low",
+      "field": "future_work",
+      "description": "future_work entry carries an ASR note inline: \"...TDWG awaits an EU decision on a recent grant submission (ASR: 'Bicycle AI').\" The grant name is unresolved.",
+      "suggested_correction": "Resolve the grant/project name, or move the ASR note to identification_notes.",
+      "correction_applied": false,
+      "source_files": [
+        "output/Aula_Plenary_1.json"
+      ]
+    },
+    {
+      "issue_id": "VR-019",
+      "record_ids": [
+        "salb-2026-09-22-19"
+      ],
+      "issue_type": "low_transcript_quality",
+      "severity": "low",
+      "field": "actual.transcript_quality",
+      "description": "transcript_quality is 'low', and the speaker's name is uncertain in the ASR ('Shih-Hsen Li'). Treat details in the summary and claims with care.",
+      "suggested_correction": null,
+      "correction_applied": false,
+      "source_files": [
+        "output/TDWG 2026-09-22 SAL B.json"
+      ]
+    },
+    {
+      "issue_id": "VR-020",
+      "record_ids": [
+        "sala-2026-09-24-20"
+      ],
+      "issue_type": "misplaced_limitation",
+      "severity": "low",
+      "field": "limitations",
+      "description": "limitations entry describes the presentation or recording rather than a limitation of the work: \"Specimen counts in the recording are unclear (figures such as 800, 1,640 and 840 are mentioned) due to audio/ASR quality.\"",
+      "suggested_correction": "Move it to actual.identification_notes (or drop it from limitations).",
+      "correction_applied": false,
+      "source_files": [
+        "output/TDWG 2026-09-24 SAL A.json"
+      ]
+    },
+    {
+      "issue_id": "VR-021",
+      "record_ids": [
+        "sala-2026-09-25-04"
+      ],
+      "issue_type": "misplaced_limitation",
+      "severity": "low",
+      "field": "limitations",
+      "description": "limitations entry describes the presentation or recording rather than a limitation of the work: \"Talk was compressed and later slides skipped.\"",
+      "suggested_correction": "Move it to actual.identification_notes (or drop it from limitations).",
+      "correction_applied": false,
+      "source_files": [
+        "output/TDWG 2026-09-25 SAL A.json"
+      ]
+    },
+    {
+      "issue_id": "VR-022",
+      "record_ids": [
+        "sala-2026-09-25-09"
+      ],
+      "issue_type": "misplaced_limitation",
+      "severity": "low",
+      "field": "limitations",
+      "description": "limitations entry describes the presentation or recording rather than a limitation of the work: \"Demo hampered by screen-sharing issues.\"",
+      "suggested_correction": "Move it to actual.identification_notes (or drop it from limitations).",
+      "correction_applied": false,
+      "source_files": [
+        "output/TDWG 2026-09-25 SAL A.json"
+      ]
+    },
+    {
+      "issue_id": "VR-023",
+      "record_ids": [
+        "sala-2026-09-25-10"
+      ],
+      "issue_type": "misplaced_limitation",
+      "severity": "low",
+      "field": "limitations",
+      "description": "limitations entry describes the presentation or recording rather than a limitation of the work: \"New work not ready; talk rehashes earlier material.\"",
+      "suggested_correction": "Move it to actual.identification_notes (or drop it from limitations).",
+      "correction_applied": false,
+      "source_files": [
+        "output/TDWG 2026-09-25 SAL A.json"
+      ]
+    },
+    {
+      "issue_id": "VR-024",
+      "record_ids": [
+        "2026-09-22-odin"
+      ],
+      "issue_type": "possible_substantive_unassigned",
+      "severity": "low",
+      "field": "unassigned",
+      "description": "Unassigned 00:00:18-00:07:59 (SYM18 opening) contains substantive framing of resilience threats (funding cuts, AI crawlers, political decommissioning of datasets) as well as logistics.",
+      "suggested_correction": "Consider a short content item for the session framing.",
+      "correction_applied": false,
+      "source_files": []
+    },
+    {
+      "issue_id": "VR-025",
+      "record_ids": [
+        "2026-09-24-sal-c"
+      ],
+      "issue_type": "possible_substantive_unassigned",
+      "severity": "low",
+      "field": "unassigned",
+      "description": "Unassigned 03:20:07-03:24:02 (Hilmar Lapp's SYM25A introduction) sets out why biodiversity data are often not AI-ready. It is short but substantive.",
+      "suggested_correction": null,
+      "correction_applied": false,
+      "source_files": []
+    },
+    {
+      "issue_id": "VR-026",
+      "record_ids": [
+        "event-049"
+      ],
+      "issue_type": "programme_status_review",
+      "severity": "low",
+      "field": "programme_status",
+      "description": "SAL C 22 Sep: Ben Norton's programmed talk on geologic units is marked not_presented. He arrived late and spoke only in the discussion slot (salc-2026-09-22-08), where the host said his talk was not actually part of the session.",
+      "suggested_correction": null,
+      "correction_applied": false,
+      "source_files": []
+    },
+    {
+      "issue_id": "VR-027",
+      "record_ids": [
+        "sala-2026-09-22-19"
+      ],
+      "issue_type": "questionable_discussion_item",
+      "severity": "low",
+      "field": "type",
+      "description": "Closing discussion with medium identification confidence: essentially one extended audience comment. Most of the session's discussion is attached to Joe Miller's talk.",
+      "suggested_correction": null,
+      "correction_applied": false,
+      "source_files": [
+        "output/TDWG 2026-09-22 SAL A.json"
+      ]
+    },
+    {
+      "issue_id": "VR-028",
+      "record_ids": [
+        "salc-2026-09-22-08"
+      ],
+      "issue_type": "questionable_discussion_item",
+      "severity": "low",
+      "field": "type",
+      "description": "Stored as a discussion, but its own notes say the slot contained brief acknowledgements, a mineralogy-extension update and a call to join standards review rather than extended debate.",
+      "suggested_correction": "Keep it, or reclassify it as a short talk/announcement, after review.",
+      "correction_applied": false,
+      "source_files": [
+        "output/TDWG 2026-09-22 SAL C.json"
+      ]
+    },
+    {
+      "issue_id": "VR-029",
+      "record_ids": [
+        "sala-2026-09-24-22"
+      ],
+      "issue_type": "speaker_name_asr_error",
+      "severity": "low",
+      "field": "actual.speakers",
+      "description": "actual speaker 'Erika Krimmel' differs only in spelling from programme speaker 'Erica Krimmel'",
+      "suggested_correction": "Erica Krimmel",
+      "correction_applied": true,
+      "source_files": [
+        "output/TDWG 2026-09-24 SAL A.json"
+      ]
+    },
+    {
+      "issue_id": "VR-030",
+      "record_ids": [
+        "sala-2026-09-24-23"
+      ],
+      "issue_type": "speaker_name_asr_error",
+      "severity": "low",
+      "field": "actual.speakers",
+      "description": "actual speaker 'Erika Krimmel' differs only in spelling from programme speaker 'Erica Krimmel'",
+      "suggested_correction": "Erica Krimmel",
+      "correction_applied": true,
+      "source_files": [
+        "output/TDWG 2026-09-24 SAL A.json"
+      ]
+    },
+    {
+      "issue_id": "VR-031",
+      "record_ids": [
+        "forum-2026-09-24-09"
+      ],
+      "issue_type": "speaker_name_uncertain",
+      "severity": "low",
+      "field": "actual.speakers",
+      "description": "Speaker 'Andre Zerger' is spelled 'André Zerger' in salb-2026-09-22-08.",
+      "suggested_correction": "Use one spelling (André Zerger) across items.",
+      "correction_applied": false,
+      "source_files": [
+        "output/TDWG 2026-09-24 Forum.json"
+      ]
+    },
+    {
+      "issue_id": "VR-032",
+      "record_ids": [
+        "forum-2026-09-24-18"
+      ],
+      "issue_type": "speaker_name_uncertain",
+      "severity": "low",
+      "field": "actual.speakers",
+      "description": "Presenter recorded only as 'Laurence (surname not given in recording)'; the programme lists Donat Agosti, who announced a programme error.",
+      "suggested_correction": "Look up the Plazi presenter named Laurence.",
+      "correction_applied": false,
+      "source_files": [
+        "output/TDWG 2026-09-24 Forum.json"
+      ]
+    },
+    {
+      "issue_id": "VR-033",
+      "record_ids": [
+        "odin-2026-09-22-02"
+      ],
+      "issue_type": "speaker_name_uncertain",
+      "severity": "low",
+      "field": "actual.speakers",
+      "description": "Co-presenter 'Jose (surname not stated)'.",
+      "suggested_correction": null,
+      "correction_applied": false,
+      "source_files": [
+        "output/TDWG 2026-09-22 ODIN.json"
+      ]
+    },
+    {
+      "issue_id": "VR-034",
+      "record_ids": [
+        "sala-2026-09-24-11"
+      ],
+      "issue_type": "speaker_name_uncertain",
+      "severity": "low",
+      "field": "actual.speakers",
+      "description": "Co-presenter 'Jasper (surname unclear in ASR)', introduced as 'Jasper Funk Smid'.",
+      "suggested_correction": null,
+      "correction_applied": false,
+      "source_files": [
+        "output/TDWG 2026-09-24 SAL A.json"
+      ]
+    },
+    {
+      "issue_id": "VR-035",
+      "record_ids": [
+        "salb-2026-09-22-29"
+      ],
+      "issue_type": "speaker_name_uncertain",
+      "severity": "low",
+      "field": "actual.speakers",
+      "description": "Respondent on hallucinations recorded as 'Tanya Berger-Wolf (inferred; answering for Jenna Kline)'; only 'Tanya' is said.",
+      "suggested_correction": null,
+      "correction_applied": false,
+      "source_files": [
+        "output/TDWG 2026-09-22 SAL B.json"
+      ]
+    },
+    {
+      "issue_id": "VR-036",
+      "record_ids": [
+        "salb-2026-09-24-16"
+      ],
+      "issue_type": "speaker_name_uncertain",
+      "severity": "low",
+      "field": "actual.speakers",
+      "description": "Co-presenter 'Geraldine Mertens' (InfraFADA manager) is not in the programme; identification notes say the surname spelling is uncertain.",
+      "suggested_correction": null,
+      "correction_applied": false,
+      "source_files": [
+        "output/TDWG 2026-09-24 SAL B.json"
+      ]
+    },
+    {
+      "issue_id": "VR-037",
+      "record_ids": [
+        "salb-2026-09-24-21"
+      ],
+      "issue_type": "speaker_name_uncertain",
+      "severity": "low",
+      "field": "actual.speakers",
+      "description": "Speaker 'Yuri Roskov' is spelled 'Yury Roskov' in the programme and in salc-2026-09-22-09.",
+      "suggested_correction": "Yury Roskov",
+      "correction_applied": false,
+      "source_files": [
+        "output/TDWG 2026-09-24 SAL B.json"
+      ]
+    },
+    {
+      "issue_id": "VR-038",
+      "record_ids": [
+        "salb-2026-09-24-23"
+      ],
+      "issue_type": "speaker_name_uncertain",
+      "severity": "low",
+      "field": "actual.speakers",
+      "description": "Co-presenter 'Natalie (surname not given)'.",
+      "suggested_correction": null,
+      "correction_applied": false,
+      "source_files": [
+        "output/TDWG 2026-09-24 SAL B.json"
+      ]
+    },
+    {
+      "issue_id": "VR-039",
+      "record_ids": [
+        "salc-2026-09-24-14"
+      ],
+      "issue_type": "speaker_name_uncertain",
+      "severity": "low",
+      "field": "actual.speakers",
+      "description": "Co-presenter recorded as an unnamed IT project manager at NHM London.",
+      "suggested_correction": null,
+      "correction_applied": false,
+      "source_files": [
+        "output/TDWG 2026-09-24 SAL C.json"
+      ]
+    },
+    {
+      "issue_id": "VR-040",
+      "record_ids": [
+        "odin-2026-09-22-09"
+      ],
+      "issue_type": "weak_representative_excerpt",
+      "severity": "low",
+      "field": "representative_excerpt",
+      "description": "representative_excerpt starts mid-sentence (\"and I think one of the key take home messages...\").",
+      "suggested_correction": "Start the excerpt at a sentence boundary in the transcript, or set it to null if no self-contained passage exists.",
+      "correction_applied": false,
+      "source_files": [
+        "output/TDWG 2026-09-22 ODIN.json"
+      ]
+    },
+    {
+      "issue_id": "VR-041",
+      "record_ids": [
+        "odin-2026-09-22-10"
+      ],
+      "issue_type": "weak_representative_excerpt",
+      "severity": "low",
+      "field": "representative_excerpt",
+      "description": "representative_excerpt starts mid-sentence and relies on the preceding slide (\"this is not a native species range\").",
+      "suggested_correction": "Start the excerpt at a sentence boundary in the transcript, or set it to null if no self-contained passage exists.",
+      "correction_applied": false,
+      "source_files": [
+        "output/TDWG 2026-09-22 ODIN.json"
+      ]
+    },
+    {
+      "issue_id": "VR-042",
+      "record_ids": [
+        "odin-2026-09-22-25"
+      ],
+      "issue_type": "weak_representative_excerpt",
+      "severity": "low",
+      "field": "representative_excerpt",
+      "description": "representative_excerpt starts mid-sentence (\"having observation surplus...\").",
+      "suggested_correction": "Start the excerpt at a sentence boundary in the transcript, or set it to null if no self-contained passage exists.",
+      "correction_applied": false,
+      "source_files": [
+        "output/TDWG 2026-09-22 ODIN.json"
+      ]
+    },
+    {
+      "issue_id": "VR-043",
+      "record_ids": [
+        "sala-2026-09-22-15"
+      ],
+      "issue_type": "weak_representative_excerpt",
+      "severity": "low",
+      "field": "representative_excerpt",
+      "description": "representative_excerpt starts mid-sentence (\"the vision was that GBIF...\").",
+      "suggested_correction": "Start the excerpt at a sentence boundary in the transcript, or set it to null if no self-contained passage exists.",
+      "correction_applied": false,
+      "source_files": [
+        "output/TDWG 2026-09-22 SAL A.json"
+      ]
+    },
+    {
+      "issue_id": "VR-044",
+      "record_ids": [
+        "sala-2026-09-22-18"
+      ],
+      "issue_type": "weak_representative_excerpt",
+      "severity": "low",
+      "field": "representative_excerpt",
+      "description": "representative_excerpt starts mid-sentence (\"if we let user communities...\").",
+      "suggested_correction": "Start the excerpt at a sentence boundary in the transcript, or set it to null if no self-contained passage exists.",
+      "correction_applied": false,
+      "source_files": [
+        "output/TDWG 2026-09-22 SAL A.json"
+      ]
+    },
+    {
+      "issue_id": "VR-045",
+      "record_ids": [
+        "salb-2026-09-22-19"
+      ],
+      "issue_type": "weak_representative_excerpt",
+      "severity": "low",
+      "field": "representative_excerpt",
+      "description": "representative_excerpt starts mid-sentence (\"want to say that an untranscribed image...\").",
+      "suggested_correction": "Start the excerpt at a sentence boundary in the transcript, or set it to null if no self-contained passage exists.",
+      "correction_applied": false,
+      "source_files": [
+        "output/TDWG 2026-09-22 SAL B.json"
+      ]
+    },
+    {
+      "issue_id": "VR-046",
+      "record_ids": [
+        "salc-2026-09-25-10"
+      ],
+      "issue_type": "weak_representative_excerpt",
+      "severity": "low",
+      "field": "representative_excerpt",
+      "description": "representative_excerpt fragmentary and context-dependent (\"hard disks are exploding. So we think...\").",
+      "suggested_correction": "Start the excerpt at a sentence boundary in the transcript, or set it to null if no self-contained passage exists.",
+      "correction_applied": false,
+      "source_files": [
+        "output/TDWG 2026-09-25 SAL C.json"
+      ]
+    },
+    {
+      "issue_id": "VR-047",
+      "record_ids": [
+        "aula-taster-01-kearney-bhl"
+      ],
+      "issue_type": "inconsistent_time_format",
+      "severity": "info",
+      "field": "programme.scheduled_start",
+      "description": "programme.scheduled_start/end carry a date prefix unlike every other recording",
+      "suggested_correction": "strip the date prefix",
+      "correction_applied": true,
+      "source_files": [
+        "output/Aula_taster_talks.json"
+      ]
+    },
+    {
+      "issue_id": "VR-048",
+      "record_ids": [
+        "aula-taster-02-groom-timeliness"
+      ],
+      "issue_type": "inconsistent_time_format",
+      "severity": "info",
+      "field": "programme.scheduled_start",
+      "description": "programme.scheduled_start/end carry a date prefix unlike every other recording",
+      "suggested_correction": "strip the date prefix",
+      "correction_applied": true,
+      "source_files": [
+        "output/Aula_taster_talks.json"
+      ]
+    },
+    {
+      "issue_id": "VR-049",
+      "record_ids": [
+        "aula-taster-03-slatyer-taxonomic-backbone"
+      ],
+      "issue_type": "inconsistent_time_format",
+      "severity": "info",
+      "field": "programme.scheduled_start",
+      "description": "programme.scheduled_start/end carry a date prefix unlike every other recording",
+      "suggested_correction": "strip the date prefix",
+      "correction_applied": true,
+      "source_files": [
+        "output/Aula_taster_talks.json"
+      ]
+    },
+    {
+      "issue_id": "VR-050",
+      "record_ids": [
+        "aula-taster-04-gbif-dwc-dp"
+      ],
+      "issue_type": "inconsistent_time_format",
+      "severity": "info",
+      "field": "programme.scheduled_start",
+      "description": "programme.scheduled_start/end carry a date prefix unlike every other recording",
+      "suggested_correction": "strip the date prefix",
+      "correction_applied": true,
+      "source_files": [
+        "output/Aula_taster_talks.json"
+      ]
+    },
+    {
+      "issue_id": "VR-051",
+      "record_ids": [
+        "aula-taster-05-botha-sanparks-bims"
+      ],
+      "issue_type": "inconsistent_time_format",
+      "severity": "info",
+      "field": "programme.scheduled_start",
+      "description": "programme.scheduled_start/end carry a date prefix unlike every other recording",
+      "suggested_correction": "strip the date prefix",
+      "correction_applied": true,
+      "source_files": [
+        "output/Aula_taster_talks.json"
+      ]
+    },
+    {
+      "issue_id": "VR-052",
+      "record_ids": [
+        "aula-taster-06-baringo-sociobiodiversity"
+      ],
+      "issue_type": "inconsistent_time_format",
+      "severity": "info",
+      "field": "programme.scheduled_start",
+      "description": "programme.scheduled_start/end carry a date prefix unlike every other recording",
+      "suggested_correction": "strip the date prefix",
+      "correction_applied": true,
+      "source_files": [
+        "output/Aula_taster_talks.json"
+      ]
+    },
+    {
+      "issue_id": "VR-053",
+      "record_ids": [
+        "aula-taster-07-lewers-information-ecosystems"
+      ],
+      "issue_type": "inconsistent_time_format",
+      "severity": "info",
+      "field": "programme.scheduled_start",
+      "description": "programme.scheduled_start/end carry a date prefix unlike every other recording",
+      "suggested_correction": "strip the date prefix",
+      "correction_applied": true,
+      "source_files": [
+        "output/Aula_taster_talks.json"
+      ]
+    },
+    {
+      "issue_id": "VR-054",
+      "record_ids": [
+        "aula-taster-08-raes-bmd-ai-monitoring"
+      ],
+      "issue_type": "inconsistent_time_format",
+      "severity": "info",
+      "field": "programme.scheduled_start",
+      "description": "programme.scheduled_start/end carry a date prefix unlike every other recording",
+      "suggested_correction": "strip the date prefix",
+      "correction_applied": true,
+      "source_files": [
+        "output/Aula_taster_talks.json"
+      ]
+    },
+    {
+      "issue_id": "VR-055",
+      "record_ids": [
+        "event-003",
+        "event-004",
+        "event-006",
+        "event-007",
+        "event-010",
+        "event-011",
+        "event-012",
+        "event-013",
+        "event-014",
+        "event-015",
+        "event-016",
+        "event-017"
+      ],
+      "issue_type": "programme_status_resolved_across_recordings",
+      "severity": "info",
+      "field": "programme_status",
+      "description": "These Monday plenary items are marked \"uncertain\" in the Aula recordings that do not contain them, and \"presented\" in the Aula recording that does. Conference-wide, all are presented; the per-recording \"uncertain\" entries only mean \"not in this recording\".",
+      "suggested_correction": "When building a conference-wide programme status, treat these as presented and link the content item from the recording that contains them.",
+      "correction_applied": false,
+      "source_files": []
+    },
+    {
+      "issue_id": "VR-056",
+      "record_ids": [
+        "event-363",
+        "event-364"
+      ],
+      "issue_type": "programme_status_uncertain",
+      "severity": "info",
+      "field": "programme_status",
+      "description": "The Friday afternoon Unconference breakouts in SAL B and SAL C fall after those recordings end, so whether they took place cannot be determined from the recordings.",
+      "suggested_correction": null,
+      "correction_applied": false,
+      "source_files": []
+    },
+    {
+      "issue_id": "VR-057",
+      "record_ids": [
+        "forum-2026-09-24-08",
+        "forum-2026-09-24-18"
+      ],
+      "issue_type": "replacement_speaker",
+      "severity": "info",
+      "field": "programme_match",
+      "description": "Talks given by someone other than the programmed speaker (programme_match.status = replacement). Titles and content match the programme.",
+      "suggested_correction": null,
+      "correction_applied": false,
+      "source_files": [
+        "output/TDWG 2026-09-24 Forum.json"
+      ]
+    },
+    {
+      "issue_id": "VR-058",
+      "record_ids": [
+        "sala-2026-09-25-16",
+        "sala-2026-09-25-17"
+      ],
+      "issue_type": "unprogrammed_content",
+      "severity": "info",
+      "field": "programme_id",
+      "description": "The TDWG Treasurer's report and the business meeting (joint closing session after the Unconference in SAL A) are not in program-data.js. They are kept as unprogrammed talks with programme_id and session set to null.",
+      "suggested_correction": "Link them to a closing/business-meeting programme entry if one is added.",
+      "correction_applied": false,
+      "source_files": [
+        "output/TDWG 2026-09-25 SAL A.json"
+      ]
+    }
+  ]
+}
