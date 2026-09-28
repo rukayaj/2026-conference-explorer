@@ -5,7 +5,7 @@ import { env, pipeline } from '@huggingface/transformers';
 
 const root = path.resolve(import.meta.dirname, '..');
 env.cacheDir = process.env.MODEL_CACHE_DIR || path.join(root, 'model-cache');
-const dataDir = path.join(root, 'public', 'data');
+const dataDir = process.env.DATA_DIR || path.join(root, 'public', 'data');
 const chunks = JSON.parse(fs.readFileSync(path.join(dataDir, 'chunks.json')));
 const items = JSON.parse(fs.readFileSync(path.join(dataDir, 'items.json')));
 const manifest = JSON.parse(fs.readFileSync(path.join(dataDir, 'manifest.json')));

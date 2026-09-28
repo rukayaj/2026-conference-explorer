@@ -30,12 +30,12 @@ The machine-produced summaries and transcripts may contain errors. Result pages 
 
 One Docker image serves both the built site and the search API on NIRD, so there is no CORS or separate static host. It holds no secrets: the image contains only the public data in `public/data`, the built pages and the embedding model.
 
-Commit your changes, then run:
+GitHub Actions (`.github/workflows/image.yml`) builds `gbifnorway/tdwg2026:<short sha>` on every push to `main` that touches the app, and pushes it to Docker Hub. It needs the repository secrets `DOCKERHUB_USERNAME` and `DOCKERHUB_TOKEN` (a Docker Hub access token with push rights to `gbifnorway`). After pushing, run:
 
 ```sh
 ./scripts/deploy.sh
 ```
 
-It builds `gbifnorway/tdwg2026` for linux/amd64, pushes it to Docker Hub, pins the tag in `../gitops/apps/tdwg2026/templates/deployment.yaml`, commits and pushes gitops, and applies the manifests to `gbif-no-ns8095k` on `nird-lmd`. Use `--skip-apply` or `--skip-gitops-commit` for partial runs. The ingress (`tdwg2026.svc.gbif.no`) follows the annotater pattern: nginx, with TLS from cert-manager.
+It waits for the image for the current commit, pins the tag in `../gitops/apps/tdwg2026/templates/deployment.yaml`, commits and pushes gitops, and applies the manifests to `gbif-no-ns8095k` on `nird-lmd`. `--build-local` builds and pushes from your machine instead; `--tag`, `--skip-gitops-commit` and `--skip-apply` cover partial runs. The ingress (`tdwg2026.svc.gbif.no`) follows the annotater pattern: nginx, with TLS from cert-manager.
 
-To try the image locally: `docker build -t tdwg2026 . && docker run -p 8787:8787 tdwg2026`, then open http://localhost:8787.
+Every Node step in the Dockerfile runs on the build machine's own platform and the final stage only copies files, so a local amd64 build on Apple Silicon needs no emulation.
