@@ -1,0 +1,22 @@
+---
+import Base from '../layouts/Base.astro';
+import { href } from '../lib/site.js';
+import themes from '../../public/data/themes.json';
+const featuredIds = ['ai-ready-data', 'specimen-digitisation', 'persistent-identifiers', 'data-provenance', 'knowledge-graphs', 'data-quality', 'standards-development-and-governance', 'literature-mining'];
+const featured = featuredIds.map((id) => themes.find((theme) => theme.id === id)).filter(Boolean);
+const alphabetical = [...themes].sort((a, b) => a.name.localeCompare(b.name));
+---
+<Base title="Explore themes · TDWG 2026">
+  <section class="container page-heading"><div class="eyebrow">Ideas across the conference</div><h1 class="display">Follow a theme.</h1><p>Start with a broad idea or find something specific. Each theme connects talks from across rooms and sessions.</p></section>
+  <section class="container"><div class="section-heading"><h2>Starting points</h2></div><div class="card-grid">{featured.map((theme) => <a class="card theme-card" href={href(`theme/${theme.id}/`)}><span class="small-meta">{theme.content_item_count} connected items</span><h3>{theme.name}</h3><p>{theme.description}</p></a>)}</div></section>
+  <section class="container directory"><div class="section-heading"><div><div class="eyebrow">The full directory</div><h2>All {themes.length} themes.</h2></div></div><input id="theme-filter" class="filter-input" placeholder="Filter themes…" aria-label="Filter themes" /><div class="theme-list" id="theme-list">{alphabetical.map((theme) => <a data-theme-name={`${theme.name} ${theme.aliases.join(' ')}`.toLowerCase()} href={href(`theme/${theme.id}/`)}><span>{theme.name}</span><span>{theme.content_item_count} talks & discussions ↗</span></a>)}</div><p class="empty-theme" id="empty-theme" hidden>No themes match that filter.</p></section>
+</Base>
+<script>
+  const filter = document.querySelector('#theme-filter');
+  const links = [...document.querySelectorAll('#theme-list a')];
+  const empty = document.querySelector('#empty-theme');
+  filter?.addEventListener('input', () => { const query = filter.value.trim().toLowerCase(); let visible = 0; links.forEach((link) => { const matches = link.dataset.themeName.includes(query); link.hidden = !matches; if (matches) visible++; }); empty.hidden = visible > 0; });
+</script>
+<style>
+.directory{padding-top:90px}.filter-input{width:min(520px,100%);border-radius:100px;padding:14px 20px;background:#fff;border:1px solid #b7cdc1;outline-color:#6b9d77;font-size:.95rem;margin-bottom:28px}.theme-list{display:grid;grid-template-columns:1fr 1fr;column-gap:35px}.theme-list a{border-bottom:1px solid #dae5d7;display:flex;align-items:center;justify-content:space-between;gap:15px;padding:15px 0;font-weight:700;font-size:.88rem}.theme-list a:hover{color:#37816b}.theme-list a span:last-child{white-space:nowrap;color:#7a9989;font-size:.72rem;font-weight:700}.theme-list a[hidden]{display:none}.empty-theme{color:#67847b}@media(max-width:800px){.theme-list{grid-template-columns:1fr}}@media(max-width:500px){.theme-list a span:last-child{font-size:.65rem}}
+</style>

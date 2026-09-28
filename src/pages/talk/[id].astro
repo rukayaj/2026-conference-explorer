@@ -1,0 +1,73 @@
+---
+import Base from '../../layouts/Base.astro';
+import { href, playerLink, stampSeconds, timeLabel, videoLink } from '../../lib/site.js';
+import items from '../../../public/data/items.json';
+import themes from '../../../public/data/themes.json';
+import related from '../../../public/data/related.json';
+
+export function getStaticPaths() { return items.map((item) => ({ params: { id: item.id }, props: { item } })); }
+const { item } = Astro.props;
+const byId = new Map(items.map((entry) => [entry.id, entry]));
+const themeById = new Map(themes.map((theme) => [theme.id, theme]));
+const relatedItems = (related[item.id] || []).slice(0, 4).map((id) => byId.get(id)).filter(Boolean);
+const moments = item.moments.filter((moment) => moment.timestamp && moment.description).slice(0, 8);
+const speakers = item.speakers?.join(', ') || 'Conference discussion';
+---
+<Base title={`${item.title} · TDWG 2026`} description={item.summary}>
+  <div class="container talk-layout">
+    <div class="talk-main">
+      <div class="breadcrumbs"><a href={href('')}>Home</a> <span>/</span> <a href={href('search/')}>Talks</a> <span>/</span> {item.room}</div>
+      <header class="talk-heading"><div class="eyebrow">{item.type} · {item.day} · {item.room}</div><h1 class="display">{item.title}</h1><p class="speaker-line">{speakers}{item.session ? ` · ${item.session}` : ''}</p></header>
+      <div class="video-wrap" id="video"><iframe id="vimeo-player" src={playerLink(item.videoUrl, item.start)} data-video-url={item.videoUrl} title={`Video of ${item.title}`} allow="autoplay; fullscreen; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
+      <div class="video-tools"><span>Recording time {timeLabel(item.start)}–{timeLabel(item.end)}</span><a href={videoLink(item.videoUrl, item.start)} target="_blank" rel="noopener">Open on Vimeo ↗</a></div>
+      <p class="takeaway"><span>The short version</span>{item.takeaway}</p>
+      <section class="article-section"><div class="eyebrow">Overview</div><h2>What this was about</h2><p>{item.summary}</p>{item.whyItMatters && <p class="why"><strong>Why it matters.</strong> {item.whyItMatters}</p>}</section>
+      {item.keyPoints.length > 0 && <section class="article-section"><div class="eyebrow">Key ideas</div><h2>In the room</h2><ul class="key-points">{item.keyPoints.slice(0, 7).map((point) => <li>{point}</li>)}</ul></section>}
+      {moments.length > 0 && <section class="article-section"><div class="eyebrow">Jump in</div><h2>Notable moments</h2><div class="moment-list">{moments.map((moment) => <button class="moment-row" data-seek={stampSeconds(moment.timestamp)}><span class="moment-time">▶ {moment.timestamp}</span><span>{moment.description}</span></button>)}</div></section>}
+      <section class="article-section transcript-section"><div class="eyebrow">In their words</div><h2>Transcript</h2><p class="transcript-note">Automatically generated captions can contain mistakes, especially in names and technical terms. Times are relative to the room recording.</p><details id="transcript" data-url={href(`data/cues/${item.id}.json`)}><summary>Read the transcript <span>↓</span></summary><div class="transcript-lines" id="transcript-lines">Loading transcript…</div></details></section>
+    </div>
+    <aside class="talk-side"><div class="side-panel"><div class="eyebrow">At a glance</div><dl><dt>Speaker{item.speakers.length === 1 ? '' : 's'}</dt><dd>{speakers}</dd><dt>Session</dt><dd>{item.session || '—'}</dd><dt>When & where</dt><dd>{item.day}<br />{item.room}</dd></dl>{['low', 'medium'].includes(item.speakerConfidence) && <p class="caution">Speaker identification may be uncertain in the source transcript.</p>}</div><div class="side-panel"><div class="eyebrow">Connected themes</div><div class="side-tags">{item.themes.map((id) => themeById.get(id)).filter(Boolean).map((theme) => <a href={href(`theme/${theme.id}/`)}>{theme.name} ↗</a>)}</div></div></aside>
+  </div>
+  {relatedItems.length > 0 && <section class="container related-section"><div class="section-heading"><div><div class="eyebrow">Keep exploring</div><h2>Related talks.</h2></div><a class="text-link" href={href('map/')}>See the map ↗</a></div><div class="card-grid">{relatedItems.slice(0, 3).map((entry) => <a class="card talk-card" href={href(`talk/${entry.id}/`)}><span class="small-meta">{entry.room} · {entry.day}</span><h3>{entry.title}</h3><p>{entry.takeaway}</p><div class="card-bottom"><span>{entry.speakers.slice(0, 2).join(', ')}</span><span class="link-arrow">↗</span></div></a>)}</div></section>}
+</Base>
+
+<script>
+  const frame = document.querySelector('#vimeo-player');
+  const videoUrl = frame?.dataset.videoUrl;
+  function playerUrl(seconds) {
+    const parsed = new URL(videoUrl);
+    const [id, hash] = parsed.pathname.split('/').filter(Boolean);
+    const player = new URL(`https://player.vimeo.com/video/${id}`);
+    if (hash) player.searchParams.set('h', hash);
+    player.hash = `t=${Math.max(0, Math.floor(seconds))}s`;
+    return player.toString();
+  }
+  function seek(seconds) {
+    if (!frame) return;
+    frame.src = playerUrl(seconds);
+    document.querySelector('#video')?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    history.replaceState(null, '', `?t=${Math.floor(seconds)}#video`);
+  }
+  const requestedTime = Number(new URLSearchParams(location.search).get('t'));
+  if (requestedTime > 0 && frame) frame.src = playerUrl(requestedTime);
+  document.querySelectorAll('[data-seek]').forEach((button) => button.addEventListener('click', () => seek(Number(button.dataset.seek))));
+  const transcript = document.querySelector('#transcript');
+  transcript?.addEventListener('toggle', async () => {
+    if (!transcript.open || transcript.dataset.loaded) return;
+    transcript.dataset.loaded = 'true';
+    const destination = document.querySelector('#transcript-lines');
+    try {
+      const response = await fetch(transcript.dataset.url);
+      if (!response.ok) throw new Error('Transcript unavailable');
+      const cues = await response.json();
+      const escapeHtml = (value) => String(value).replace(/[&<>"']/g, (character) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[character]);
+      const timeLabel = (value) => { const s = Math.floor(value), h = Math.floor(s / 3600), m = Math.floor(s % 3600 / 60); return `${h}:${String(m).padStart(2,'0')}:${String(s % 60).padStart(2,'0')}`; };
+      destination.innerHTML = cues.map((cue) => `<div class="cue"><button data-cue-time="${cue.start}">${timeLabel(cue.start)}</button><span>${escapeHtml(cue.text)}</span></div>`).join('');
+      destination.querySelectorAll('[data-cue-time]').forEach((button) => button.addEventListener('click', () => seek(Number(button.dataset.cueTime))));
+    } catch { destination.textContent = 'The transcript could not be loaded.'; }
+  });
+</script>
+
+<style>
+.talk-layout{display:grid;grid-template-columns:minmax(0,1fr) 285px;gap:55px;padding-top:31px}.breadcrumbs{font-size:.76rem;color:#6b8982;font-weight:750}.breadcrumbs span{margin:0 9px;color:#a4b8ad}.breadcrumbs a:hover{text-decoration:underline}.talk-heading{margin:44px 0 28px}.talk-heading h1{font-size:clamp(2.8rem,5.7vw,5rem);margin:12px 0 15px}.speaker-line{font-size:.95rem;color:#5c7a72;line-height:1.5}.video-wrap{aspect-ratio:16/9;background:#09282b;border-radius:16px;overflow:hidden;scroll-margin-top:20px}.video-wrap iframe{width:100%;height:100%;border:0}.video-tools{display:flex;justify-content:space-between;gap:12px;color:#68847d;font-size:.8rem;padding-top:10px}.video-tools a{text-decoration:underline}.takeaway{background:#dcebc9;border-radius:15px;padding:25px 28px;font:400 1.35rem/1.45 Georgia,serif;letter-spacing:-.01em;margin:42px 0}.takeaway span{display:block;text-transform:uppercase;font:800 .7rem system-ui,sans-serif;letter-spacing:.12em;color:#52755e;margin-bottom:10px}.article-section{border-top:1px solid #d7e1d4;padding:38px 0}.article-section h2{font:400 2.5rem/1.1 Georgia,serif;letter-spacing:-.045em;margin:8px 0 20px}.article-section p{line-height:1.75;color:#3e635b}.why{background:#edf2e7;border-radius:9px;padding:15px 18px}.key-points{padding-left:22px;display:grid;gap:14px;line-height:1.58;color:#3e635b}.key-points li::marker{color:#79a064}.moment-list{border-top:1px solid #d9e4d7}.moment-row{width:100%;border:0;border-bottom:1px solid #d9e4d7;background:transparent;display:grid;grid-template-columns:105px 1fr;text-align:left;gap:12px;padding:16px 0;line-height:1.48;color:#29534a}.moment-row:hover{background:#edf3e9}.moment-time{color:#347b69;font-weight:800;font-size:.85rem}.transcript-note{font-size:.86rem}.transcript-section details{border:1px solid #cbdcca;border-radius:10px;background:#fff}.transcript-section summary{padding:17px 20px;cursor:pointer;font-weight:800;display:flex;justify-content:space-between}.transcript-lines{max-height:490px;overflow:auto;padding:0 20px 18px}.talk-side{padding-top:113px}.side-panel{background:#edf2e8;border-radius:14px;padding:24px;margin-bottom:15px}.side-panel dl{margin:15px 0 0}.side-panel dt{font-size:.72rem;text-transform:uppercase;letter-spacing:.1em;color:#779185;font-weight:800;margin-top:21px}.side-panel dd{margin:6px 0 0;line-height:1.45;font-size:.89rem}.caution{font-size:.79rem;line-height:1.5;color:#6c6953}.side-tags{display:flex;flex-direction:column;gap:11px;margin-top:18px;font-size:.88rem;font-weight:700}.side-tags a:hover{text-decoration:underline}.related-section{margin-top:54px}.cue{display:grid;grid-template-columns:75px 1fr;gap:8px;padding:8px 0;border-bottom:1px solid #e8eee4;line-height:1.5;font-size:.86rem}.cue button{background:transparent;border:0;color:#34806b;padding:0;text-align:left;font-weight:800;align-self:start}@media(max-width:900px){.talk-layout{grid-template-columns:1fr}.talk-side{padding-top:0;display:grid;grid-template-columns:1fr 1fr;gap:16px}.side-panel{margin:0}}@media(max-width:600px){.talk-layout{gap:20px}.talk-side{grid-template-columns:1fr}.moment-row{grid-template-columns:1fr;gap:4px}.talk-heading{margin-top:30px}.article-section h2{font-size:2.1rem}.takeaway{font-size:1.18rem}}
+</style>

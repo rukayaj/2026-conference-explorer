@@ -1,0 +1,20 @@
+---
+import Base from '../../layouts/Base.astro';
+import { href } from '../../lib/site.js';
+import items from '../../../public/data/items.json';
+import themes from '../../../public/data/themes.json';
+
+export function getStaticPaths() { return themes.map((theme) => ({ params: { id: theme.id }, props: { theme } })); }
+const { theme } = Astro.props;
+const itemById = new Map(items.map((item) => [item.id, item]));
+const themeById = new Map(themes.map((entry) => [entry.id, entry]));
+const connected = theme.content_item_ids.map((id) => itemById.get(id)).filter(Boolean).sort((a, b) => a.date.localeCompare(b.date) || a.title.localeCompare(b.title));
+const related = theme.related_themes.map((id) => themeById.get(id)).filter(Boolean).slice(0, 6);
+---
+<Base title={`${theme.name} · TDWG 2026`} description={theme.description}>
+  <section class="theme-hero"><div class="container"><div class="breadcrumbs"><a href={href('themes/')}>All themes</a> / {theme.name}</div><div class="eyebrow">A conference theme</div><h1 class="display">{theme.name}</h1><p>{theme.description}</p><span class="theme-count">{connected.length} talks & discussions</span></div></section>
+  <section class="container theme-content"><div class="theme-primary"><div class="section-heading"><div><div class="eyebrow">Across rooms and sessions</div><h2>Explore the conversation.</h2></div></div><div class="theme-items">{connected.map((item) => <a class="theme-item" href={href(`talk/${item.id}/`)}><span class="item-type">{item.type} · {item.day} · {item.room}</span><h3>{item.title}</h3><p>{item.takeaway || item.summary}</p><span class="item-speakers">{item.speakers.slice(0, 3).join(', ') || 'Conference discussion'} <span>↗</span></span></a>)}</div></div><aside><div class="related-box"><div class="eyebrow">Keep exploring</div><h2>Related themes</h2><div>{related.map((entry) => <a href={href(`theme/${entry.id}/`)}>{entry.name} <span>↗</span></a>)}</div></div></aside></section>
+</Base>
+<style>
+.theme-hero{background:#dcead5;padding:25px 0 65px}.breadcrumbs{font-size:.78rem;color:#5d8172;margin-bottom:70px}.breadcrumbs a{text-decoration:underline;text-underline-offset:3px}.theme-hero h1{font-size:clamp(3rem,6.5vw,6rem);max-width:930px;margin:12px 0 18px}.theme-hero p{max-width:700px;color:#416b5d;line-height:1.6;font-size:1.14rem}.theme-count{display:inline-block;font-size:.77rem;font-weight:800;color:#436b58;letter-spacing:.1em;text-transform:uppercase;margin-top:20px}.theme-content{display:grid;grid-template-columns:minmax(0,1fr) 275px;gap:60px;padding-top:70px}.theme-items{border-top:1px solid #d7e3d4}.theme-item{display:block;padding:23px 0;border-bottom:1px solid #d7e3d4}.theme-item:hover h3{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:4px}.item-type{font-size:.73rem;color:#5d8275;text-transform:uppercase;font-weight:800;letter-spacing:.1em}.theme-item h3{font:400 1.65rem/1.2 Georgia,serif;letter-spacing:-.03em;margin:8px 0 10px}.theme-item p{line-height:1.55;color:#608077;max-width:660px;font-size:.89rem}.item-speakers{font-size:.79rem;font-weight:800;color:#427c69}.item-speakers span{margin-left:5px}.related-box{background:#edf2e8;padding:25px;border-radius:14px}.related-box h2{font:400 1.85rem Georgia,serif;margin:14px 0}.related-box a{padding:12px 0;border-top:1px solid #d2e1cf;display:flex;justify-content:space-between;gap:12px;font-size:.85rem;font-weight:700}.related-box a:hover{text-decoration:underline}@media(max-width:850px){.theme-content{grid-template-columns:1fr}.breadcrumbs{margin-bottom:42px}}
+</style>

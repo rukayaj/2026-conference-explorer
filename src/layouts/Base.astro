@@ -1,0 +1,33 @@
+---
+import '../styles/global.css';
+import { href } from '../lib/site.js';
+const { title = 'TDWG 2026 · Explore the conversation', description = 'Explore talks, themes and moments from TDWG 2026.' } = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#071e20" />
+    <meta name="description" content={description} />
+    <title>{title}</title>
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <a class="brand" href={href('')} aria-label="TDWG 2026 home"><span class="brand-mark">✳</span><span>TDWG<span class="brand-year">2026</span></span></a>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href={href('search/')}>Search</a>
+          <a href={href('themes/')}>Themes</a>
+          <a href={href('map/')}>Map</a>
+          <a class="nav-surprise" href={href('surprise/')}>Surprise me <span>↗</span></a>
+        </nav>
+      </header>
+      <main><slot /></main>
+      <footer class="site-footer">
+        <div><strong>TDWG 2026, revisited.</strong><p>A playful guide to the conference, built from recordings and machine-produced transcripts. Check the video when precision matters.</p></div>
+        <div class="footer-links"><a href={href('search/')}>Find a moment</a><a href={href('themes/')}>Browse themes</a><a href={href('map/')}>Explore the map</a></div>
+      </footer>
+    </div>
+  </body>
+</html>
