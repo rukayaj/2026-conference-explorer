@@ -1,0 +1,1755 @@
+{
+  "recording": {
+    "conference": "TDWG 2026",
+    "date": "2026-09-21",
+    "room": "Aula",
+    "video_url": "",
+    "transcript_source": "Aula_taster_talks.srt",
+    "language": "en",
+    "notes": "Monday afternoon 'Taste of TDWG' block of the Monday plenary (session monday-plenary), University of Oslo Aula, about 2h10m. Opens with announcements from the TDWG chair, then convener Ellie Wallace introduces eight speakers in seven 15-minute talks (event-010 to event-017), all given in programme order. Ends with a BISS extended-abstract plug and directions to the City Hall reception with the mayor. The morning items (event-003, 004, 006, 007) are in Aula_Plenary_1 and Aula_Plenary_2. ASR often renders TDWG as 'TADWIG'."
+  },
+  "content_items": [
+    {
+      "id": "aula-taster-01-kearney-bhl",
+      "type": "talk",
+      "programme_id": "event-010",
+      "title": "Building a New Foundation for the Biodiversity Heritage Library",
+      "programme": {
+        "title": "Building a New Foundation for the Biodiversity Heritage Library",
+        "speakers": [
+          {
+            "name": "Nicole Kearney",
+            "affiliation": "Biodiversity Heritage Library"
+          }
+        ],
+        "session": "Monday plenary programme (Taste of TDWG)",
+        "scheduled_start": "2026-09-21 2:00 PM",
+        "scheduled_end": "2026-09-21 2:15 PM",
+        "abstract": "In 2025, the Biodiversity Heritage Library (BHL), one of the world’s most critical resources of biodiversity knowledge, was placed at risk when its long-term host, the Smithsonian Institution, announced it would cease to host BHL's administrative and technical operations. This triggered a rapid, international response and a transition to a distributed, autonomous, community-supported global consortium.\n\nIn 2026, BHL is celebrating both its 20th anniversary and its first year operating independently. This presentation provides an overview of that transition, highlighting new governance and funding approaches, diversified technical and institutional support, and the role of transparent, community-driven communication in maintaining trust and engagement during a period of significant uncertainty.\n\nWith this new foundation in place, BHL is now well positioned to advance its role within the biodiversity informatics ecosystem as core infrastructure linking literature with taxa, specimens, institutions, and datasets across centuries. This creates new opportunities to enhance the accessibility, discoverability, and interoperability of biodiversity knowledge, supporting large-scale text and image mining, knowledge graph development, persistent identifier integration, and emerging AI-driven applications.\n\nWhile BHL’s long-term sustainability is not yet fully secured, it is rapidly filling with opportunities. As the opening presentation for this symposium, this talk sets the stage for the presentations that follow, framing BHL’s evolution and the possibilities ahead, and inviting participants to engage with how biodiversity literature can be transformed into data, connections, and new forms of knowledge."
+      },
+      "actual": {
+        "start_timestamp": "00:04:46",
+        "end_timestamp": "00:18:49",
+        "speakers": [
+          {
+            "name": "Nicole Kearney",
+            "affiliation": "Biodiversity Heritage Library"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Introduced by convener Ellie Wallace as Nicole Carney (ASR spelling of Kearney) speaking about the Biodiversity Heritage Library; first talk of the Taste of TDWG session, as scheduled. Offered a question slot but none was asked.",
+        "transcript_quality": "high",
+        "duration_seconds": 843
+      },
+      "summary": "Nicole Kearney told the story of how the Biodiversity Heritage Library (BHL) survived the Smithsonian's 2025 decision to stop hosting it from 1 January 2026. BHL moved its financial and legal home to the Council on Library and Information Resources (CLIR), the Field Museum took over web and technical hosting, and new members supplied technical support. Public fundraising now matters for the first time. She said BHL is only secure through 2027, described the platform modernisation now under way, and asked the community for partnerships and funding.",
+      "one_line_takeaway": "BHL has survived losing its Smithsonian home by becoming an independent, globally governed consortium, but its future is still not secure and it needs community support.",
+      "why_it_matters": "BHL is a core infrastructure for taxonomy and biodiversity knowledge, and its near-collapse shows how fragile long-running community infrastructures are when they depend on one institutional host.",
+      "key_points": [
+        "BHL is a consortium of 684 contributing organisations with more than 64 million freely accessible pages, full-text search and taxonomic name recognition.",
+        "BHL has added article data to scholarly articles and assigned DOIs to more than 80,000 of them, including retrospective DOIs for historic species descriptions.",
+        "In April 2025 the Smithsonian said it would stop hosting BHL (secretariat staff, technical team, seven servers and the website) from 1 January 2026.",
+        "BHL moved to CLIR as its financial and legal home, which lets it accept donations, apply for grants and manage staff contracts on its own.",
+        "New members stepped in: University of South Florida Libraries (three years of support for BHL's metadata collection workflow system), Vanderbilt University (an associate cloud engineer) and a third organisation (ASR 'Zenberg Nature Support', probably Senckenberg). The Field Museum now hosts the website and infrastructure; the move from Washington DC to Chicago finished at the end of June.",
+        "BHL's July user survey put enhanced text search first, then image search and a better page viewer. These drive a platform modernisation towards a cloud-based, machine-actionable, linked-data platform with better APIs and persistent identifiers.",
+        "Public fundraising: the Give BHL Wings campaign reached US$50,000 on New Year's Eve, a Guardian feature brought in more than US$10,000 in one day, and online donations have passed US$100,000 from more than 1,750 donors in 48 countries.",
+        "BHL is secure only through 2027. Kearney said the community must stop taking BHL for granted."
+      ],
+      "content_type": [
+        "infrastructure",
+        "community/project",
+        "policy/governance"
+      ],
+      "audience_level": "general",
+      "themes_raw": [
+        "biodiversity literature",
+        "infrastructure sustainability",
+        "institutional hosting risk",
+        "community fundraising",
+        "platform modernisation",
+        "persistent identifiers for literature",
+        "20th anniversary of BHL"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "Biodiversity Heritage Library",
+          "type": "infrastructure"
+        },
+        {
+          "name": "Smithsonian Institution",
+          "type": "organisation"
+        },
+        {
+          "name": "Council on Library and Information Resources",
+          "type": "organisation"
+        },
+        {
+          "name": "Field Museum",
+          "type": "organisation"
+        },
+        {
+          "name": "University of South Florida Libraries",
+          "type": "organisation"
+        },
+        {
+          "name": "Vanderbilt University",
+          "type": "organisation"
+        },
+        {
+          "name": "Natural History Museum, London",
+          "type": "organisation"
+        },
+        {
+          "name": "The Guardian",
+          "type": "organisation"
+        },
+        {
+          "name": "Rod Page",
+          "type": "person"
+        }
+      ],
+      "standards": [
+        "DOI"
+      ],
+      "software_tools": [
+        "BHL website/platform",
+        "Discourse community forum"
+      ],
+      "datasets": [
+        "Biodiversity Heritage Library corpus"
+      ],
+      "methods": [
+        "taxonomic name recognition",
+        "retrospective DOI assignment",
+        "user survey"
+      ],
+      "questions": [],
+      "notable_claims": [
+        {
+          "claim": "BHL is a global consortium of 684 contributing organisations and libraries that have made more than 64 million pages of biodiversity knowledge freely accessible.",
+          "timestamp": "00:06:05",
+          "confidence": "high"
+        },
+        {
+          "claim": "The Smithsonian Institution, BHL's administrative and technical home, would stop hosting BHL on 1 January 2026.",
+          "timestamp": "00:07:39",
+          "confidence": "high"
+        },
+        {
+          "claim": "The support BHL received gives it stability for one to two years; BHL is secure only through 2027.",
+          "timestamp": "00:10:41",
+          "confidence": "high"
+        },
+        {
+          "claim": "Online public donations passed US$100,000 from more than 1,750 individual donations in 48 countries.",
+          "timestamp": "00:15:35",
+          "confidence": "high"
+        }
+      ],
+      "recommendations": [
+        "Organisations with expertise, resources, funding or connections that could strengthen BHL should get in touch.",
+        "Individuals can join the BHL Sustainer programme for recurring donations."
+      ],
+      "results_findings": [
+        "In the July user survey, enhanced text search was users' top priority, followed by image search and a better page viewer.",
+        "All existing staff positions were secured (announced February 2026)."
+      ],
+      "limitations": [],
+      "future_work": [
+        "Replace BHL's legacy infrastructure with a modern cloud-based platform with better search, APIs, linked data and persistent identifiers.",
+        "NHM London-led project to unlock biodiversity literature at scale (data scientist being recruited).",
+        "BHL symposium and hands-on workshop later in the conference."
+      ],
+      "examples_case_studies": [
+        "Rod Page's map of latitude/longitude pairs found in BHL articles",
+        "Community treasure series for BHL's 20th anniversary"
+      ],
+      "q_and_a": [],
+      "representative_excerpt": {
+        "timestamp": "00:17:15",
+        "text": "But I cannot stand here in front of you and say that BHL's future is secure. It isn't. We need to stop taking BHL for granted."
+      },
+      "notable_moments": [
+        {
+          "timestamp": "00:07:28",
+          "type": "key_point",
+          "description": "The Smithsonian's decision to stop hosting BHL puts it at risk"
+        },
+        {
+          "timestamp": "00:10:41",
+          "type": "key_point",
+          "description": "BHL is secure only through 2027"
+        },
+        {
+          "timestamp": "00:13:04",
+          "type": "result",
+          "description": "User survey priorities and the platform modernisation project"
+        },
+        {
+          "timestamp": "00:17:15",
+          "type": "conclusion",
+          "description": "Call to stop taking BHL for granted"
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "00:04:46",
+          "end_timestamp": "00:18:49"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Title and speaker match event-010; talk ran about 14 minutes."
+      }
+    },
+    {
+      "id": "aula-taster-02-groom-timeliness",
+      "type": "talk",
+      "programme_id": "event-011",
+      "title": "Reducing the lag from observation to action",
+      "programme": {
+        "title": "Reducing the lag from observation to action",
+        "speakers": [
+          {
+            "name": "Quentin Groom",
+            "affiliation": ""
+          }
+        ],
+        "session": "Monday plenary programme (Taste of TDWG)",
+        "scheduled_start": "2026-09-21 2:15 PM",
+        "scheduled_end": "2026-09-21 2:30 PM",
+        "abstract": "Early detection and rapid response are among the most effective strategies for reducing the impacts of invasive alien species (IAS). Yet there is often a substantial lag between observing a species in the field and that information becoming actionable.\n\nThese delays arise throughout the biodiversity data lifecycle. Observations may remain in notebooks, local databases or disconnected systems. Identification can take time, particularly for difficult taxa. Data often require manual cleaning, standardisation and validation before publication. Even after publication, fragmented infrastructures and limited interoperability can slow the translation of biodiversity data into decision-ready information.\n\nThis presentation explores the concept of “lag” in biodiversity information systems and its implications for IAS management. Using examples from IAS monitoring and alert workflows, we discuss how delays propagate from field observation to policy uptake, and how these delays weaken early-warning capacity and reduce opportunities for rapid intervention.\n\nAddressing these problems requires action on many fronts. Shared data standards, FAIR data mobilisation, interoperable infrastructures and automated publication workflows can shorten the path from detection to visibility. At the same time, progress also depends on strengthening taxonomic capacity, improving feedback, supporting near-real-time data publication, and creating incentives that reward timely sharing rather than delayed release.\n\nReducing lag is not only a technical challenge, but also an institutional and cultural one. Accelerating the movement of biodiversity observations into shared and reusable systems may be one of the most practical ways biodiversity informatics can support more responsive environmental governance."
+      },
+      "actual": {
+        "start_timestamp": "00:19:29",
+        "end_timestamp": "00:35:32",
+        "speakers": [
+          {
+            "name": "Quentin Groom",
+            "affiliation": ""
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Introduced by name by the convener; topic matches event-011.",
+        "transcript_quality": "high",
+        "duration_seconds": 963
+      },
+      "summary": "Quentin Groom looked at the delay between a biodiversity observation and the moment someone can act on it, with a focus on early detection of invasive species. He showed that recent GBIF monthly observation counts drop because data has not yet been mobilised, and used iNaturalist data to show that identifications can take months to become stable. He separated unavoidable lags from operational choices such as embargoes, unconnected systems and waiting for a dataset to be 'finished'. He then proposed a new 'Wangari Maathai shortfall' for timeliness, to add to the known biodiversity knowledge shortfalls. Q&A covered publishing data directly instead of through papers, and data valuation mechanisms.",
+      "one_line_takeaway": "Timeliness is a missing biodiversity knowledge shortfall: publish soon, publish often, and improve continuously.",
+      "why_it_matters": "For invasive species, pests and conservation action, data that arrives years late loses much of its value. As automated sensors take over from human observers, alert systems are needed so that unexpected species are noticed at all.",
+      "key_points": [
+        "GBIF monthly observation counts fall off over the last two years because observations have not been mobilised yet, not because people stopped observing. The lag goes back further and covers tens of millions of records.",
+        "For invasive species, delays let a species establish and spread, raising the cost of eradication until it is no longer feasible.",
+        "Informal networks (emailing someone you know) work locally but do not scale.",
+        "Within about five years, data from eDNA, camera traps, acoustic sensors and automated imaging may outnumber human observations. Without a human in the loop, invasive species that are not specifically looked for will go unseen.",
+        "Lag builds up across observation, identification, digitisation, standardisation, validation, publication, aggregation, analysis, alerting and action.",
+        "In iNaturalist, bird identifications are right on day one about 50% of the time, but plants only about 10%. Identifications can take months to years to stabilise.",
+        "Some lags are real difficulties (remote fieldwork, taxonomic uncertainty). Others are operational choices (embargoes, unconnected systems, waiting for a dataset to be finished).",
+        "Groom argued for a publish, improve, update cycle instead of collect, clean, validate, analyse, then publish.",
+        "The OneSTOP project is building an open-source GBIF alert system (by Nico, of Binary Forest) for customised invasive species alerts by species and area. A Norwegian implementation exists but is not yet public.",
+        "He proposed a 'Wangari Maathai shortfall': the delay between an observation being made and the information becoming accessible for action. It would sit alongside the seven shortfalls of Hortal et al."
+      ],
+      "content_type": [
+        "conceptual",
+        "workflow/method",
+        "software/tool"
+      ],
+      "audience_level": "general",
+      "themes_raw": [
+        "data latency",
+        "timeliness of biodiversity data",
+        "invasive alien species early detection",
+        "biodiversity shortfalls",
+        "continuous data publication",
+        "automated alerting",
+        "identification lag",
+        "data mobilisation"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "GBIF",
+          "type": "infrastructure"
+        },
+        {
+          "name": "iNaturalist",
+          "type": "platform"
+        },
+        {
+          "name": "OneSTOP",
+          "type": "project"
+        },
+        {
+          "name": "Binary Forest",
+          "type": "organisation"
+        },
+        {
+          "name": "B-Cubed (B³)",
+          "type": "project"
+        },
+        {
+          "name": "Biodiversity Meets Data",
+          "type": "project"
+        },
+        {
+          "name": "MAMBO",
+          "type": "project"
+        },
+        {
+          "name": "GuARDIAN",
+          "type": "project"
+        },
+        {
+          "name": "AURORA",
+          "type": "project"
+        },
+        {
+          "name": "Wangari Maathai",
+          "type": "person"
+        },
+        {
+          "name": "NEON",
+          "type": "infrastructure"
+        }
+      ],
+      "standards": [],
+      "software_tools": [
+        "GBIF alert system (OneSTOP)"
+      ],
+      "datasets": [
+        "GBIF occurrence data",
+        "iNaturalist identification histories"
+      ],
+      "methods": [
+        "early detection and rapid response",
+        "extrapolating the growth curve to estimate publication lag",
+        "analysing time to stable identification"
+      ],
+      "questions": [],
+      "notable_claims": [
+        {
+          "claim": "Recent GBIF observation counts drop off because people have not yet mobilised their data, and this lag accounts for tens of millions of observations.",
+          "timestamp": "00:20:01",
+          "confidence": "high"
+        },
+        {
+          "claim": "Within perhaps five years, observations from eDNA, camera traps, acoustic sensors and automated imaging will outnumber human-made observations.",
+          "timestamp": "00:22:15",
+          "confidence": "medium"
+        },
+        {
+          "claim": "In iNaturalist, only about 10% of plant observations get the correct identification on day one, compared with about 50% for birds.",
+          "timestamp": "00:24:48",
+          "confidence": "high"
+        },
+        {
+          "claim": "The widely cited biodiversity shortfalls framework does not define a distinct shortfall for timeliness.",
+          "timestamp": "00:27:57",
+          "confidence": "high"
+        }
+      ],
+      "recommendations": [
+        "Publish soon, publish often, and improve continuously.",
+        "Name and work on a timeliness shortfall so that it can be measured and reduced.",
+        "Treat data collection as a discipline of its own, somewhat separate from individual research questions."
+      ],
+      "results_findings": [
+        "Time to stable identification in iNaturalist varies by taxon: birds are quickest, then mammals, then insects, with plants slowest."
+      ],
+      "limitations": [
+        "There are few ways yet to tell users whether published data is raw, improving or checked."
+      ],
+      "future_work": [],
+      "examples_case_studies": [
+        "Reporting a grey squirrel in Brussels through informal networks",
+        "A Norwegian GBIF alert system built by Walter Kock"
+      ],
+      "q_and_a": [
+        {
+          "question": "Ramona Walls: would getting rid of scientific publications and publishing data directly speed up data discovery?",
+          "answer_summary": "Groom said it is a big question: PhD students need careers and are wary of releasing data. He suggested separating data collection from specific research questions, with data collection as a discipline of its own.",
+          "timestamp": "00:31:16"
+        },
+        {
+          "question": "Could data-valuation mechanisms (attribution, impact, financial contributions to data sources) speed up access to data?",
+          "answer_summary": "Groom pointed to short grant cycles and the lack of long-term funding for data-collecting infrastructures (for example NEON, and European efforts). He argued for better-focused indicators, while humans remain vital for the 'unknown unknowns' that AI tends to ignore.",
+          "timestamp": "00:32:58"
+        }
+      ],
+      "representative_excerpt": {
+        "timestamp": "00:28:17",
+        "text": "So I would define that as a delay between the biodiversity observation being made and that information becoming accessible to be able to act on it."
+      },
+      "notable_moments": [
+        {
+          "timestamp": "00:19:51",
+          "type": "key_point",
+          "description": "GBIF monthly observation curve and the publication lag"
+        },
+        {
+          "timestamp": "00:24:11",
+          "type": "result",
+          "description": "iNaturalist analysis of time to stable identification by taxon"
+        },
+        {
+          "timestamp": "00:26:37",
+          "type": "demonstration",
+          "description": "OneSTOP GBIF invasive species alert system"
+        },
+        {
+          "timestamp": "00:27:33",
+          "type": "key_point",
+          "description": "Proposal of a timeliness shortfall named after Wangari Maathai"
+        },
+        {
+          "timestamp": "00:31:16",
+          "type": "question",
+          "description": "Ramona Walls asks about publishing data directly instead of papers"
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "00:19:29",
+          "end_timestamp": "00:35:32"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Matches event-011. ASR renders Hortal et al. as 'Hortet et al.' and gives the programmer's name as 'Nico Nooy'."
+      }
+    },
+    {
+      "id": "aula-taster-03-slatyer-taxonomic-backbone",
+      "type": "talk",
+      "programme_id": "event-012",
+      "title": "Keeping Colliders in Physics: Rebuilding the ALA taxonomic backbone",
+      "programme": {
+        "title": "Keeping Colliders in Physics: Rethinking the Construction of Taxonomic Backbones and Names- matching in Large Data Aggregators",
+        "speakers": [
+          {
+            "name": "Cameron Slatyer",
+            "affiliation": "Atlas of Living Australia"
+          }
+        ],
+        "session": "Monday plenary programme (Taste of TDWG)",
+        "scheduled_start": "2026-09-21 2:30 PM",
+        "scheduled_end": "2026-09-21 2:45 PM",
+        "abstract": "A taxonomic backbone is essential to any biodiversity database displaying data in a systematic way for users. Perversely, one of the biggest challenges facing biodiversity databases is constructing, matching and displaying data using a taxonomic backbone. The Atlas of Living Australia (ALA) is a collaborative, digital, open infrastructure that pulls together biodiversity data from multiple sources. As with many countries, the taxonomy widely used in Australia is not always consistent with global views. This requires a national view of species names that government, researchers and industry can recognise. For many years, the ALA has constructed its taxonomic backbone using a process colloquially known as the \"Large Taxon Collider\" (LTC) that automatically combines taxonomic checklists from different sources. For the past 2 years, the ALA has done an overhaul of its taxonomic backbone, seeking to remove erroneous combinations, repetitions and align with nationally recognised taxonomic checklists centred upon the Australian Biological Resources' National Species List. This reduced the number of \"accepted names\" (not including synonyms) from over 500,000 to 233,000 and introduced governance. We found the LTC was valuable in combining different sources yet automation caused structural issues partly caused by the contributing taxonomic checklists themselves. This enabled us to disentangle these from issues arising from matching data to the taxonomic backbone using names-matching. The Catalogue of Life's ChecklistBank is now an essential part of our process, as are matching metrics. We have re-considered our approach to taxonomy, names, matching homonyms and how we measure success. We will discuss these issues, responses the ALA has developed so far, as well as next steps."
+      },
+      "actual": {
+        "start_timestamp": "00:36:25",
+        "end_timestamp": "00:51:44",
+        "speakers": [
+          {
+            "name": "Cameron Slatyer",
+            "affiliation": "Atlas of Living Australia"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Introduced as 'Pam Cameron Sluiter' and addressed as 'Cam' (ASR errors for Cameron Slatyer). Topic (large taxon collider, ALA taxonomic backbone) matches event-012. Mentions co-author Simon.",
+        "transcript_quality": "high",
+        "duration_seconds": 919
+      },
+      "summary": "Cameron Slatyer explained how the Atlas of Living Australia (ALA) rebuilt its taxonomic backbone. It had been assembled by an automated 'large taxon collider' that merged the ABRS National Species List with the Catalogue of Life, the New Zealand Organism Register and ad hoc sources. He argued that a backbone for matching data is different from a taxonomic checklist, and that a fully automated, human-free backbone is a fiction. ALA stopped the colliding: it now adds sources one at a time around the NSL, with metric checks and feedback loops through ChecklistBank and data matching. This sharply cut duplicates and unmatched records.",
+      "one_line_takeaway": "Taxonomic checklists are not backbones: data aggregators need a curated single hierarchy with quality-control feedback loops, not automated merging of checklists.",
+      "why_it_matters": "Names matching decides whether millions of occurrence records can be found and used, including for threatened species assessments, sensitive data handling and AI. ALA's metrics-driven approach is a practical model for other aggregators.",
+      "key_points": [
+        "ALA holds more than 184 million records. Its backbone is built on the ABRS National Species List because of endemism, Australia-specific taxonomy, undescribed phrase-name species, names fixed in legislation, invasive species risk and traditional ecological knowledge.",
+        "The large taxon collider merged checklists automatically. It relied on consistent hierarchies and complete name combinations; any variance produced errors and duplicates.",
+        "Example: records of the endangered common bent-wing bat, long misidentified as Miniopterus schreibersii, did not connect to the endemic species because the misidentification was not a synonym in the NSL.",
+        "Listing a misapplied name both under the taxon it was misapplied to and in its correct place, which is common in checklists, is a disaster for data matching.",
+        "The old backbone had jumbled concepts and duplicates. More than 10 million records (10% of holdings) matched nothing, and one name had 78 variants.",
+        "A backbone needs a single hierarchy, not necessarily a fully scientifically valid one. It needs names inserted (prioritising legislated species), concepts removed or moved to avoid mis-routing records, and sometimes a commonly accepted name used over the best current name.",
+        "ChecklistBank metrics (duplicates, orphan taxa) plus data matching (higher matches and no matches) guide curation. The team extracted all 2.06 million names-match parameter combinations.",
+        "The collider code is still used, but sources are now added one at a time around the NSL core, bottom up, with feedback loops at every step."
+      ],
+      "content_type": [
+        "infrastructure",
+        "workflow/method",
+        "case study"
+      ],
+      "audience_level": "intermediate",
+      "themes_raw": [
+        "taxonomic backbone construction",
+        "names matching",
+        "checklists vs backbones",
+        "data aggregator quality control",
+        "feedback loops and metrics",
+        "threatened species name matching",
+        "data gap analysis"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "Atlas of Living Australia",
+          "type": "infrastructure"
+        },
+        {
+          "name": "Australian Biological Resources Study",
+          "type": "organisation"
+        },
+        {
+          "name": "National Species List",
+          "type": "dataset"
+        },
+        {
+          "name": "Catalogue of Life",
+          "type": "infrastructure"
+        },
+        {
+          "name": "New Zealand Organisms Register",
+          "type": "dataset"
+        },
+        {
+          "name": "ChecklistBank",
+          "type": "software"
+        },
+        {
+          "name": "Bob Mesibov",
+          "type": "person"
+        }
+      ],
+      "standards": [],
+      "software_tools": [
+        "Large taxon collider",
+        "ChecklistBank",
+        "ALA names matching"
+      ],
+      "datasets": [
+        "ABRS National Species List",
+        "Catalogue of Life",
+        "New Zealand Organisms Register",
+        "ALA occurrence records"
+      ],
+      "methods": [
+        "iterative backbone building",
+        "metric checking and feedback loops",
+        "analysis of higher matches and no matches",
+        "bottom-up source integration"
+      ],
+      "questions": [],
+      "notable_claims": [
+        {
+          "claim": "Automatically building an error-free, human-free taxonomic backbone is a fiction.",
+          "timestamp": "00:41:58",
+          "confidence": "high"
+        },
+        {
+          "claim": "In the earlier backbone, more than 10 million records (10% of ALA data holdings) did not match anything, and one scientific name had 78 variations.",
+          "timestamp": "00:42:48",
+          "confidence": "high"
+        },
+        {
+          "claim": "Accepted taxonomic units fell from 380,000 to 233,000 over three years, close to the number of named species in Australia.",
+          "timestamp": "00:47:48",
+          "confidence": "high"
+        },
+        {
+          "claim": "More than 99% of species on Australian government lists now match current scientific names correctly.",
+          "timestamp": "00:48:19",
+          "confidence": "high"
+        }
+      ],
+      "recommendations": [
+        "Treat backbones as separate from taxonomic checklists and curate them for data matching.",
+        "Use metric checks and feedback loops against real data to guide backbone improvements.",
+        "Feed data-quality issues back to checklist providers such as ABRS."
+      ],
+      "results_findings": [
+        "Fewer than 1.5% of records are now affected by names matching issues.",
+        "More than 10,000 species that previously had no data now have enough data to be publicly available.",
+        "For the first time, reliable metrics on taxonomic and spatial data gaps now feed ALA's data mobilisation and digitisation priorities."
+      ],
+      "limitations": [
+        "At least a third of the remaining 1.5% of unmatched data should match, and the cause is not yet known.",
+        "There is no good solution yet for pro parte synonyms; records end up under only one synonym.",
+        "Homonyms are still a persistent problem.",
+        "Handling of genetic data and of populations (groups below taxonomic resolution) on government lists needs work."
+      ],
+      "future_work": [
+        "Solve pro parte synonyms, homonyms, genetic data and population-level names."
+      ],
+      "examples_case_studies": [
+        "Common bent-wing bat (Miniopterus schreibersii misidentification vs endemic Miniopterus orianae)"
+      ],
+      "q_and_a": [
+        {
+          "question": "Quentin Groom: if you could change one thing in the nomenclatural codes, what would it be?",
+          "answer_summary": "Slatyer asked for time to think; the convener said he would answer later in the conference.",
+          "timestamp": "00:51:13"
+        }
+      ],
+      "representative_excerpt": {
+        "timestamp": "00:44:00",
+        "text": "At a high level, our core realization is, as I've already kind of indicated, and which seems really obvious in hindsight, that taxonomic checklists are not the same as taxonomic backbones. A backbone is there to display data against the best available name, not to correctly reflect all the taxonomic decisions and pathways that have led to that best available name."
+      },
+      "notable_moments": [
+        {
+          "timestamp": "00:40:22",
+          "type": "example",
+          "description": "Bent-wing bat example of a missing misidentification link"
+        },
+        {
+          "timestamp": "00:42:28",
+          "type": "key_point",
+          "description": "State of the old backbone: 10 million unmatched records, 78 variants of one name"
+        },
+        {
+          "timestamp": "00:46:12",
+          "type": "key_point",
+          "description": "Metric checking and feedback loops with ChecklistBank"
+        },
+        {
+          "timestamp": "00:47:44",
+          "type": "result",
+          "description": "Results: 380,000 to 233,000 accepted taxa, under 1.5% of records affected"
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "00:36:25",
+          "end_timestamp": "00:51:44"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Matches event-012; speaker name badly transcribed ('Pam Cameron Sluiter', 'Cam'). The bat's endemic species name is transcribed as 'Miniopterus aereonoe' (probably M. orianae)."
+      }
+    },
+    {
+      "id": "aula-taster-04-gbif-dwc-dp",
+      "type": "talk",
+      "programme_id": "event-013",
+      "title": "DwC-DP Integration at GBIF",
+      "programme": {
+        "title": "DwC-DP Integration at GBIF",
+        "speakers": [
+          {
+            "name": "Federico Mendez",
+            "affiliation": "GBIF Secretariat"
+          },
+          {
+            "name": "Mikhail Podolskiy",
+            "affiliation": "GBIF Secretariat"
+          }
+        ],
+        "session": "Monday plenary programme (Taste of TDWG)",
+        "scheduled_start": "2026-09-21 2:45 PM",
+        "scheduled_end": "2026-09-21 3:00 PM",
+        "abstract": "Following the public review of the Darwin Core Data Package (DwC-DP) standard, the GBIF Secretariat has committed to integrating DwC-DP into its existing data publishing infrastructure and ingestion pipeline. This talk presents recent engineering progress across four key areas:\n\nIPT Extensions: The Integrated Publishing Toolkit (IPT) is being extended to handle data packages, enabling publishers to map and publish DwC-DP datasets through a familiar interface.\n\nData Validation: GBIF's validation services are being expanded to support DwC-DP, offering publishers meaningful quality metrics, including column population statistics, primary key uniqueness checks, referential integrity validation across schemas, and data type conformance reporting.\n\nRegistry and Metadata Synchronization: The GBIF Registry will automatically synchronize dataset metadata from Data Package descriptors, ensuring records remain accurate and up to date without manual intervention.\n\nIngestion Pipeline: The core ingestion pipelines are being updated to index occurrence and sampling-event records, together with their related extensions, published via DwC-DP. This work lays the foundation for broader community adoption of DwC-DP.\n\nTogether, these developments mark a significant step toward full DwC-DP support across the GBIF data publishing lifecycle, from authoring and validation to registration and indexing."
+      },
+      "actual": {
+        "start_timestamp": "00:52:57",
+        "end_timestamp": "01:08:49",
+        "speakers": [
+          {
+            "name": "Federico Mendez",
+            "affiliation": "GBIF Secretariat"
+          },
+          {
+            "name": "Nikolaj (surname unclear; ASR 'Raibek')",
+            "affiliation": "GBIF Secretariat"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Talk content matches event-013. Federico Mendez ('Fede', 'Freddy') presented the first and last parts. The second presenter was introduced as 'Nicola'/'Nicola Raibek' and called 'Nikolaj', not Mikhail Podolskiy as listed in the programme. This may be a replacement co-presenter or a severe ASR error; the name is uncertain.",
+        "transcript_quality": "medium",
+        "duration_seconds": 952
+      },
+      "summary": "Federico Mendez and a GBIF colleague (introduced as Nikolaj) described how GBIF is integrating the Darwin Core Data Package (DwC-DP) into its publishing and ingestion infrastructure. Mendez stressed that Darwin Core Archives are not going away. He explained that DwC-DP adds a Frictionless-style datapackage.json with typed fields, constraints and referential integrity, and that the IPT will support mapping and publishing DwC-DP. Nikolaj covered the stricter validation, metadata synchronisation to the registry, and a new ingestion that maps DwC-DP into GBIF's internal model, with examples from the Nice Botanic Garden herbarium. Everything is currently only in GBIF's test environment.",
+      "one_line_takeaway": "GBIF is close to supporting Darwin Core Data Packages end to end, with typed and stricter validation, while keeping Darwin Core Archives fully supported.",
+      "why_it_matters": "DwC-DP is the biggest change to the Darwin Core publishing model in years. How GBIF validates, ingests and displays it will decide how data publishers can express richer, relational biodiversity data.",
+      "key_points": [
+        "Darwin Core Archives (core plus extensions, meta.xml and EML) will stay supported. Publishers who are happy with them can keep using them.",
+        "GBIF's 20-year review found that publishing around central entities (occurrences, events, taxa) was not enough for existing data or for engaging new communities.",
+        "The DwC-DP conceptual model was ratified in May 2026. The final review's no-dissent period ended on 15 September, and ratification and release by the TDWG Executive is expected soon.",
+        "A DwC-DP has data files, the same EML, and a new datapackage.json (from the Frictionless Data specification) that describes tables, fields, constraints, data types and relationships between tables.",
+        "The IPT will support mapping, metadata editing, validation and publishing of DwC-DP, but only in the test environment for now.",
+        "Validation checks the datapackage.json against its schema and against the standardised TDWG definitions, then checks unique and primary-key constraints and referential integrity, and reports statistics such as unique and populated values per column.",
+        "Metadata synchronisation mainly uses EML, falling back to datapackage.json where needed.",
+        "The new ingestion maps DwC-DP into GBIF's internal structure so it can be shown on gbif.org next to DwC-A data without loss. Richer views will follow. Examples used the Nice Botanic Garden herbarium, including material, media and usage-policy links that were not possible before.",
+        "Authenticated publishers will be able to see validation results, and simplified navigable table views of the raw published data are planned."
+      ],
+      "content_type": [
+        "standard",
+        "infrastructure",
+        "software/tool"
+      ],
+      "audience_level": "intermediate",
+      "themes_raw": [
+        "Darwin Core Data Package adoption",
+        "data publishing pipeline",
+        "data validation and referential integrity",
+        "typed data schemas",
+        "GBIF ingestion",
+        "standards versioning",
+        "backwards compatibility with DwC-A"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "GBIF",
+          "type": "infrastructure"
+        },
+        {
+          "name": "TDWG",
+          "type": "organisation"
+        },
+        {
+          "name": "Living Atlases",
+          "type": "community"
+        },
+        {
+          "name": "Nice Botanic Garden herbarium",
+          "type": "dataset"
+        },
+        {
+          "name": "Frictionless Data",
+          "type": "standard"
+        }
+      ],
+      "standards": [
+        "Darwin Core",
+        "Darwin Core Data Package (DwC-DP)",
+        "Darwin Core Archive",
+        "EML",
+        "Frictionless Data Package",
+        "Camtrap DP",
+        "ABCD"
+      ],
+      "software_tools": [
+        "Integrated Publishing Toolkit (IPT)",
+        "GBIF data ingestion pipelines",
+        "GBIF Registry",
+        "GBIF API",
+        "gbif.org"
+      ],
+      "datasets": [
+        "Nice Botanic Garden herbarium (converted to DwC-DP)"
+      ],
+      "methods": [
+        "schema validation",
+        "primary key and uniqueness checks",
+        "referential integrity validation",
+        "column population statistics",
+        "metadata synchronisation"
+      ],
+      "questions": [],
+      "notable_claims": [
+        {
+          "claim": "Darwin Core Archives are not going anywhere; GBIF will continue to support them.",
+          "timestamp": "00:53:58",
+          "confidence": "high"
+        },
+        {
+          "claim": "The DwC-DP conceptual model was ratified in May as part of the Darwin Core standard, and the no-dissent period after the final review ended on 15 September.",
+          "timestamp": "00:54:41",
+          "confidence": "high"
+        },
+        {
+          "claim": "DwC-DP validation includes referential integrity: anything that points to another resource must actually exist, or validation fails.",
+          "timestamp": "01:00:35",
+          "confidence": "high"
+        },
+        {
+          "claim": "DwC-DP publishing and ingestion are currently enabled only in GBIF's test environment.",
+          "timestamp": "00:57:24",
+          "confidence": "high"
+        }
+      ],
+      "recommendations": [],
+      "results_findings": [
+        "Test datasets, including the Nice Botanic Garden herbarium, have been converted to DwC-DP and ingested, with relations between occurrence, event, material and media shown."
+      ],
+      "limitations": [
+        "For now, DwC-DP is squeezed into GBIF's existing, less rich internal and API formats.",
+        "GBIF needs an engineering solution for supporting several DwC-DP versions as the maintenance group releases updates."
+      ],
+      "future_work": [
+        "Align software with the official DwC-DP release.",
+        "Open ingestion and IPT publishing of DwC-DP in the test environment, invite user feedback, then decide when to move to production.",
+        "From next year, develop new data services for richer data.",
+        "An aspirational integrated view and dashboards across richer data types (explicitly not a commitment)."
+      ],
+      "examples_case_studies": [
+        "Nice Botanic Garden herbarium converted to DwC-DP"
+      ],
+      "q_and_a": [],
+      "representative_excerpt": {
+        "timestamp": "00:53:58",
+        "text": "The first message that I want to make with you is that Darwin Core Archives are not going anywhere. We're going to continue supporting Darwin Core Archives. So if that data publishing mechanism is sufficient for your needs, just keep using it, okay?"
+      },
+      "notable_moments": [
+        {
+          "timestamp": "00:53:58",
+          "type": "key_point",
+          "description": "Darwin Core Archives will stay supported"
+        },
+        {
+          "timestamp": "00:55:25",
+          "type": "explanation",
+          "description": "Anatomy of a DwC-DP and datapackage.json with data types"
+        },
+        {
+          "timestamp": "00:59:32",
+          "type": "explanation",
+          "description": "Validation steps for DwC-DP"
+        },
+        {
+          "timestamp": "01:02:32",
+          "type": "demonstration",
+          "description": "Ingestion examples from the Nice Botanic Garden herbarium"
+        },
+        {
+          "timestamp": "01:06:10",
+          "type": "conclusion",
+          "description": "Roadmap and the versioning challenge"
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "00:52:57",
+          "end_timestamp": "01:08:49"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Matches event-013. The second co-presenter's name does not match the programme's Mikhail Podolskiy: the transcript has 'Nicola Raibek'/'Nikolaj'. No questions because time ran out; Mendez closed by mentioning GBIF's 25th anniversary."
+      }
+    },
+    {
+      "id": "aula-taster-05-botha-sanparks-bims",
+      "type": "talk",
+      "programme_id": "event-014",
+      "title": "Using automation to consolidate biodiversity occurrence data in South African National Parks",
+      "programme": {
+        "title": "Using automation to consolidate biodiversity occurrence data from multiple sources to assist conservation decision making in South African National Parks.",
+        "speakers": [
+          {
+            "name": "Judith Botha",
+            "affiliation": "South African National Parks (SANParks)"
+          }
+        ],
+        "session": "Monday plenary programme (Taste of TDWG)",
+        "scheduled_start": "2026-09-21 3:00 PM",
+        "scheduled_end": "2026-09-21 3:15 PM",
+        "abstract": "South African National Parks manages 21 National Parks within South Africa that includes more than 4 million hectares spanning both the Marine and Terrestrial environments. To support evidence-based decision making at park level data from multiple sources need to be consolidated allowing users and park managers to easily access this consolidated data through dashboards. Automation and AI allows consolidation of open access data from sources outside of the organisation, as well as open access data from parks like collection data and sensitive park specific data to be viewed and used together by decision makers. APIs allow automated harvests of data from platforms like GBIF as well as information around conservation statuses of species from IUCN sites which is required for managing species at park level. Additional features allow integration of the data using selection features like selecting a certain park/area, taxonomic group, time frame or conservation status without any prior knowledge of GIS or data integration needed. Further features allow a user to download climate data for a particular area, create species lists and obtain additional information and graphs on the conservation status of taxonomic groups in these areas and how these have changed over time. This presentation will showcase this system and highlight how it uses AI and automation to generate easily accessible evidence."
+      },
+      "actual": {
+        "start_timestamp": "01:09:28",
+        "end_timestamp": "01:24:45",
+        "speakers": [
+          {
+            "name": "Judith Botha",
+            "affiliation": "South African National Parks (SANParks)"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Introduced by name; content matches event-014.",
+        "transcript_quality": "high",
+        "duration_seconds": 917
+      },
+      "summary": "Judith Botha presented the SANParks Biodiversity Information Management System (BIMS), built with the Freshwater Research Centre and technical partner Kartoza. It brings together GBIF occurrence data, SANParks monitoring data and data captured from literature for South Africa's 21 national parks. The system produces annotated species checklists (needed for five-yearly park management plans), summary dashboards, Red List status and Red List Index trends, and climate station dashboards. Harvesting, taxonomic checks against the GBIF backbone, value assignment and dashboard generation are all automated.",
+      "one_line_takeaway": "Automating the harvest, integration and summary of biodiversity data lets park staff get evidence-based species lists and dashboards without laborious manual compilation.",
+      "why_it_matters": "This shows aggregated biodiversity data and standards reaching conservation managers and rangers as practical decision-support tools, and replacing the manual work behind statutory species lists.",
+      "key_points": [
+        "SANParks manages 21 national parks (about 4.4 million ha terrestrial plus about 370,000 ha of marine protected areas). Kruger National Park is about 2 million ha and turned 100 this year.",
+        "South Africa has about 67,000 animal species, many poorly known and highly endemic.",
+        "Park management plans every five years need updated species lists, which used to be compiled by hand from literature.",
+        "BIMS harvests species and occurrence data from GBIF (occurrences for each reserve plus a buffer and catchment) and adds unpublished literature, databases, books, reports and theses captured by dedicated staff.",
+        "The GBIF taxonomic backbone keeps names to accepted names.",
+        "Users filter by taxon, space, time, Red List status, origin and endemism, and download annotated checklists (Excel, PDF, CSV). The checklists include coordinate uncertainty and precision, record counts, most recent record date, and an include/exclude flag for known misidentifications.",
+        "The dashboards show endemism, origin and conservation status. A Red List view uses SANBI's Red List Index by taxonomic group, and a climate dashboard summarises station data by time period.",
+        "Partner data has access restrictions but is available to SANParks staff."
+      ],
+      "content_type": [
+        "software/tool",
+        "case study",
+        "workflow/method"
+      ],
+      "audience_level": "general",
+      "themes_raw": [
+        "protected area management",
+        "species checklist automation",
+        "conservation decision support",
+        "data integration dashboards",
+        "Red List Index tracking",
+        "climate and species data integration",
+        "GBIF data reuse"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "South African National Parks (SANParks)",
+          "type": "organisation"
+        },
+        {
+          "name": "Kruger National Park",
+          "type": "place"
+        },
+        {
+          "name": "Freshwater Research Centre",
+          "type": "organisation"
+        },
+        {
+          "name": "Kartoza",
+          "type": "organisation"
+        },
+        {
+          "name": "GBIF",
+          "type": "infrastructure"
+        },
+        {
+          "name": "SANBI",
+          "type": "organisation"
+        },
+        {
+          "name": "JRS Biodiversity Foundation",
+          "type": "organisation"
+        },
+        {
+          "name": "Agence Française de Développement (AFD)",
+          "type": "organisation"
+        },
+        {
+          "name": "Department of Science, Technology and Innovation (South Africa)",
+          "type": "organisation"
+        },
+        {
+          "name": "Natural Science Collections Facility",
+          "type": "organisation"
+        },
+        {
+          "name": "CITES",
+          "type": "policy"
+        }
+      ],
+      "standards": [],
+      "software_tools": [
+        "SANParks Biodiversity Information Management System (BIMS)",
+        "GBIF taxonomic backbone"
+      ],
+      "datasets": [
+        "GBIF occurrence data",
+        "SANParks monitoring data",
+        "SANParks herbarium datasets",
+        "SANBI Red List Index"
+      ],
+      "methods": [
+        "automated data harvesting",
+        "automated checklist annotation",
+        "dashboard generation",
+        "taxonomic verification against a backbone"
+      ],
+      "questions": [],
+      "notable_claims": [
+        {
+          "claim": "SANParks manages about 4.4 million hectares of terrestrial national parks and around 370,000 hectares of marine protected areas.",
+          "timestamp": "01:10:13",
+          "confidence": "high"
+        },
+        {
+          "claim": "Each park must have a management plan every five years that includes updated species lists, which used to be compiled manually.",
+          "timestamp": "01:12:46",
+          "confidence": "high"
+        },
+        {
+          "claim": "Automation and AI have played a large role in integrating large datasets and improving evidence-based decision making in SANParks.",
+          "timestamp": "01:22:29",
+          "confidence": "high"
+        }
+      ],
+      "recommendations": [],
+      "results_findings": [
+        "Park staff can generate annotated checklists (for example a Kruger bird checklist) and dashboards on demand."
+      ],
+      "limitations": [
+        "There are no monitoring platforms yet for many lesser-known groups (fungi, algae, invertebrates), so data has to come from other sources.",
+        "Some partner data is access-restricted."
+      ],
+      "future_work": [],
+      "examples_case_studies": [
+        "Kruger National Park bird checklist",
+        "Red List Index by taxonomic group for Kruger",
+        "Climate station dashboard"
+      ],
+      "q_and_a": [
+        {
+          "question": "Do you publish your field data back to GBIF?",
+          "answer_summary": "Yes. Sensitive data is protected, but SANParks publishes data including all its herbarium collection datasets (four or five large datasets) to GBIF, while also using BIMS as its repository.",
+          "timestamp": "01:23:54"
+        }
+      ],
+      "representative_excerpt": {
+        "timestamp": "01:12:57",
+        "text": "So in the past, this was very laborious and very manual, so people went, you looked for all the literature, you took out all the species data, and then you then consolidated this and produced an annotated checklist."
+      },
+      "notable_moments": [
+        {
+          "timestamp": "01:13:10",
+          "type": "key_point",
+          "description": "Introduction of the SANParks BIMS and its partners"
+        },
+        {
+          "timestamp": "01:15:49",
+          "type": "demonstration",
+          "description": "Generating and downloading an annotated Kruger bird checklist"
+        },
+        {
+          "timestamp": "01:18:11",
+          "type": "demonstration",
+          "description": "Red List Index dashboard"
+        },
+        {
+          "timestamp": "01:20:24",
+          "type": "key_point",
+          "description": "Where automation and AI are used in the system"
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "01:09:28",
+          "end_timestamp": "01:24:45"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Matches event-014. ASR renders Kartoza as 'CartoSA'/'Cartoza', the JRS Biodiversity Foundation as 'Jaris', and CITES as 'citers'."
+      }
+    },
+    {
+      "id": "aula-taster-06-baringo-sociobiodiversity",
+      "type": "talk",
+      "programme_id": "event-015",
+      "title": "Extending Darwin Core to Represent Sociobiodiversity and Traditional Knowledge",
+      "programme": {
+        "title": "Extending Darwin Core to Represent Sociobiodiversity and Traditional Knowledge",
+        "speakers": [
+          {
+            "name": "Clara Baringo Fonseca",
+            "affiliation": "Brazilian Biodiversity Information System (SiBBr)"
+          }
+        ],
+        "session": "Monday plenary programme (Taste of TDWG)",
+        "scheduled_start": "2026-09-21 3:15 PM",
+        "scheduled_end": "2026-09-21 3:30 PM",
+        "abstract": "Biodiversity data standards increasingly support automation, artificial intelligence, and large-scale interoperability. However, current standards still provide limited mechanisms to represent sociobiodiversity data, particularly traditional ecological knowledge, species uses, and the communities that generate and maintain this knowledge. As a result, much community-based biodiversity knowledge remains difficult to integrate into interoperable and machine-actionable infrastructures.\n\nThis contribution presents the ongoing development of a Darwin Core (DwC) extension for sociobiodiversity data, coordinated by the Brazilian Biodiversity Information System (SiBBr) and collaborators. The proposed extension aims to improve the semantic representation of biocultural information associated with species uses and traditional knowledge systems. Proposed terms include species use categories, plant parts used, preparation methods, medicinal and cultural applications, associated communities, territorial context, and provenance information.\n\nThe initiative recognizes that sociobiodiversity data are often generated through participatory and ethnobiological practices that require ethical and inclusive governance approaches. The work aligns not only with FAIR principles, but also with concerns regarding data sovereignty, attribution, and responsible reuse of traditional knowledge.\n\nThe proposal is being developed collaboratively through open discussions, use-case analyses, and iterative vocabulary design. Initial case studies involve ethnobotanical and historical datasets related to medicinal plants and traditional ecological knowledge from Brazilian coastal restingas and other socioecological contexts in the Global South."
+      },
+      "actual": {
+        "start_timestamp": "01:25:18",
+        "end_timestamp": "01:33:52",
+        "speakers": [
+          {
+            "name": "Clara Baringo Fonseca",
+            "affiliation": "Brazilian Biodiversity Information System (SiBBr)"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Introduced as 'Clara Barango Fonseca'. She says she is from the 'Brazilian Information System', probably SiBBr. Content matches event-015.",
+        "transcript_quality": "medium",
+        "duration_seconds": 514
+      },
+      "summary": "Clara Baringo Fonseca described Brazil's work on a Darwin Core extension for sociobiodiversity data: the relationships between biodiversity and sociocultural diversity, including traditional uses, practices and knowledge of Indigenous peoples, local communities and family farmers. A 2024 project with Colombia and Argentina produced draft terms (such as use-to, use-form, used-by holder) that were tested in three case studies. The case studies exposed missing fields, ambiguous terms and questions about who should be the data publisher. She also covered the new Entre Ciências intercultural project and templates for registering associated traditional knowledge under Brazil's biodiversity law.",
+      "one_line_takeaway": "Representing traditional knowledge in biodiversity standards needs new terms, knowledge-centred (not species-centred) models, and careful governance of who holds and publishes the data.",
+      "why_it_matters": "It extends Darwin Core towards Indigenous and local knowledge in a way that respects community data ownership and consent, and links to benefit-sharing law, data sovereignty and Darwin Core Data Package work.",
+      "key_points": [
+        "Sociobiodiversity data is defined (Brazilian National Sociobiodiversity Plan) as data on the interrelationship between biodiversity and sociocultural diversity: resources, traditional practices, uses and knowledge.",
+        "Communities and territories are the main source and are knowledge holders and data owners. Data should be shared only with their consent and under their governance.",
+        "Other sources include scientific articles, collections (often in occurrence remarks), 17th–19th century naturalists' works, market inventories and films. These are produced in different contexts and make it hard to identify the knowledge holder.",
+        "A 2024 project with Brazil, Colombia and Argentina produced draft extension terms, with controlled vocabularies (use-to, used-by type, source type) and free text (used-by holder, use-form, use-to description), kept on GitHub.",
+        "Three case studies: translating a 17th-century book, working directly with a community on the Rio de Janeiro coast, and a living collection of medicinal plants at the Rio de Janeiro Botanical Garden.",
+        "Findings: missing used-by holder and used-where data, ambiguous interpretation of use-to, and debate over whether the researcher or the community is the publisher, which matters for GBIF citation tracking.",
+        "The GEF-funded Entre Ciências project (started two months ago, three years) works with eight territories, six in the Amazon and two in the Cerrado, on data sovereignty, governance and locally chosen monitoring.",
+        "Under Brazil's biodiversity law, research on genetic heritage and associated traditional knowledge must be registered for benefit sharing. The team built templates, based on Colombia's, that put the knowledge rather than the species at the centre."
+      ],
+      "content_type": [
+        "standard",
+        "community/project",
+        "policy/governance"
+      ],
+      "audience_level": "intermediate",
+      "themes_raw": [
+        "sociobiodiversity data",
+        "traditional knowledge representation",
+        "Indigenous data sovereignty",
+        "Darwin Core extensions",
+        "data publisher attribution",
+        "benefit sharing",
+        "knowledge-centred data models"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "Brazilian Biodiversity Information System (SiBBr)",
+          "type": "infrastructure"
+        },
+        {
+          "name": "Entre Ciências",
+          "type": "project"
+        },
+        {
+          "name": "GEF",
+          "type": "organisation"
+        },
+        {
+          "name": "GBIF",
+          "type": "infrastructure"
+        },
+        {
+          "name": "Atlas of Living Australia",
+          "type": "infrastructure"
+        },
+        {
+          "name": "Living Atlases",
+          "type": "community"
+        },
+        {
+          "name": "Rio de Janeiro Botanical Garden",
+          "type": "organisation"
+        },
+        {
+          "name": "SisGen (national system for management of genetic heritage and associated traditional knowledge)",
+          "type": "infrastructure"
+        }
+      ],
+      "standards": [
+        "Darwin Core",
+        "sociobiodiversity Darwin Core extension (draft)",
+        "Darwin Core Data Package"
+      ],
+      "software_tools": [],
+      "datasets": [
+        "17th-century book translation data",
+        "community-documented uses from the Rio de Janeiro coast",
+        "Rio de Janeiro Botanical Garden medicinal plant living collection"
+      ],
+      "methods": [
+        "participatory workshops and webinars",
+        "case-study validation of extension terms",
+        "traditional knowledge templates"
+      ],
+      "questions": [],
+      "notable_claims": [
+        {
+          "claim": "Indigenous people and local communities are knowledge holders and data owners, and this information should only be shared according to their consent and governance decisions.",
+          "timestamp": "01:26:31",
+          "confidence": "high"
+        },
+        {
+          "claim": "The draft extension was validated through three case studies: a 17th-century book, a community on the Rio de Janeiro coast, and a medicinal plant living collection.",
+          "timestamp": "01:28:37",
+          "confidence": "high"
+        }
+      ],
+      "recommendations": [],
+      "results_findings": [
+        "Historical sources lacked used-by holder and used-where information, and the term use-to was interpreted ambiguously.",
+        "Community-sourced data filled almost all fields but raised the question of who the data publisher should be.",
+        "Knowledge is often better placed at the centre of the data model than the species, because one product or practice can involve several species."
+      ],
+      "limitations": [],
+      "future_work": [
+        "Align the controlled vocabularies and terms with existing standards.",
+        "Keep collaborating with the Atlas of Living Australia / Living Atlases, the sensitive species data interest group and the GBIF Indigenous governance task group.",
+        "Engage more with TDWG and the Darwin Core Data Package."
+      ],
+      "examples_case_studies": [
+        "Translation of a 17th-century book",
+        "Community on the Rio de Janeiro coast",
+        "Rio de Janeiro Botanical Garden medicinal plants living collection",
+        "Entre Ciências territories in the Amazon and Cerrado"
+      ],
+      "q_and_a": [],
+      "representative_excerpt": null,
+      "notable_moments": [
+        {
+          "timestamp": "01:25:44",
+          "type": "explanation",
+          "description": "Definition of sociobiodiversity data"
+        },
+        {
+          "timestamp": "01:28:04",
+          "type": "key_point",
+          "description": "Draft extension terms and controlled vocabularies"
+        },
+        {
+          "timestamp": "01:29:14",
+          "type": "result",
+          "description": "Case study results and the publisher question"
+        },
+        {
+          "timestamp": "01:32:09",
+          "type": "key_point",
+          "description": "Knowledge-centred rather than species-centred templates"
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "01:25:18",
+          "end_timestamp": "01:33:52"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Matches event-015. Transcript quality is medium: extension term names and 'Nedwig' (TDWG) are ASR-garbled. No questions."
+      }
+    },
+    {
+      "id": "aula-taster-07-lewers-information-ecosystems",
+      "type": "talk",
+      "programme_id": "event-016",
+      "title": "What if biodiversity data systems were designed to behave like ecosystems?",
+      "programme": {
+        "title": "What if biodiversity data systems were designed to behave like ecosystems?",
+        "speakers": [
+          {
+            "name": "Kit Lewers",
+            "affiliation": "University of Colorado Boulder; NASA Goddard Space Flight Center"
+          }
+        ],
+        "session": "Monday plenary programme (Taste of TDWG)",
+        "scheduled_start": "2026-09-21 3:30 PM",
+        "scheduled_end": "2026-09-21 3:45 PM",
+        "abstract": "Despite advances in global infrastructures such as the GlobalBiodiversity Information Facility (GBIF), a major gap remains between remote sensing data and biodiversity records. Most satellite and airborne observations begin as raw digital numbers and move through rigid, fragmented pipelines that rarely translate cleanly into interoperable, GBIF-ready data.\n\nThis talk reframes that problem through a systems lens inspired by ecological cascades. In ecosystems, small changes propagate through interconnected components, reshaping behavior, and structure over time. I argue that biodiversity data should function similarly and not as static products, but as events that trigger downstream processing and integration.\n\nBuilding on this idea, I will introduce an event-driven, microservices-based approach to biodiversity data pipelines. Modular services handle key transformations (from radiance to reflectance, to derived products, to biodiversity integration) while responding dynamically to new data. This enables a continuous, traceable pathway from sensor-level measurements (L0/L1) to analysis-ready outputs (L2/L3) and ultimately to GBIF-ready records.\n\nBy shifting from static workflows to adaptive systems, this approach better supports reproducibility, interoperability, and cross-institutional collaboration. Rather than reducing complexity, it embraces it by designing biodiversity infrastructures that can evolve, respond, and scale alongside the ecosystems they represent."
+      },
+      "actual": {
+        "start_timestamp": "01:34:31",
+        "end_timestamp": "01:48:37",
+        "speakers": [
+          {
+            "name": "Kit Lewers",
+            "affiliation": "University of Colorado Boulder; NASA Goddard Space Flight Center"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Introduced by name; self-identifies as a PhD candidate at CU Boulder and a NASA fellow/researcher at Goddard. Content matches event-016.",
+        "transcript_quality": "high",
+        "duration_seconds": 846
+      },
+      "summary": "Kit Lewers used the 1995 reintroduction of wolves to Yellowstone and the trophic cascades that followed as an analogy for biodiversity information infrastructure. The argument was that system-level behaviour emerges from interactions between loosely coupled components, not from any single blueprint. Lewers proposed event-driven, modular, microservices-style architectures in which new data arriving triggers workflows and updates that cascade through the system. They framed Darwin Core as an existing 'data contract' that already lets diverse institutions interoperate, and suggested making that implicit modularity explicit. NASA remote sensing processing levels were given as an example of adding data without changing the whole paradigm.",
+      "one_line_takeaway": "Biodiversity information systems should be designed like ecosystems: loosely coupled, event-driven components linked by shared standards, able to reorganise as conditions change.",
+      "why_it_matters": "It offers a conceptual design pattern for bringing new data types (such as remote sensing) into biodiversity infrastructure without monolithic redesign, and treats standards like Darwin Core as connective infrastructure.",
+      "key_points": [
+        "Molly Beattie (US Fish and Wildlife Service director from 1993) oversaw the 1995 reintroduction of 14 wolves to Yellowstone, with 17 more the next year, despite opposition and uncertainty.",
+        "Trophic cascades are nonlinear, spatially uneven and still debated. Change came from networks of interactions, not simple chains.",
+        "An ecosystem can be seen as information unfolding in real time. Biodiversity information systems are likewise interdependent, loosely coupled, heterogeneous and only partly coordinated information ecosystems.",
+        "Data gains value through interaction: a new dataset arriving is an event that triggers workflows, updates products and recalibrates models, and the outputs become new events.",
+        "Lewers proposed event-driven modular systems based on microservices, where ingestion, processing, analysis, transformation and dissemination run independently through well-defined interfaces.",
+        "Loosely coupled does not mean structureless. Shared standards and governance let components understand each other.",
+        "Darwin Core already works as a data contract that lets museums, the NEON Biorepository, iNaturalist and NASA contribute without the same internal systems. Making this explicit prompts questions about translation, embedded assumptions, provenance and who maintains interfaces.",
+        "NASA data passes through L0 (raw), L1 (calibrated radiance) and L2 (reflectance) before derived products. Darwin Core would represent biodiversity observations derived from imagery, not the imagery itself.",
+        "The goal is not to eliminate complexity or 'solve' the information ecosystem, but to create conditions in which it can keep evolving."
+      ],
+      "content_type": [
+        "conceptual",
+        "infrastructure"
+      ],
+      "audience_level": "general",
+      "themes_raw": [
+        "information ecosystems",
+        "event-driven architecture",
+        "microservices for biodiversity data",
+        "trophic cascade analogy",
+        "standards as data contracts",
+        "remote sensing integration",
+        "sociotechnical infrastructure design"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "Yellowstone National Park",
+          "type": "place"
+        },
+        {
+          "name": "US Fish and Wildlife Service",
+          "type": "organisation"
+        },
+        {
+          "name": "Molly Beattie",
+          "type": "person"
+        },
+        {
+          "name": "NASA Goddard Space Flight Center",
+          "type": "organisation"
+        },
+        {
+          "name": "University of Colorado Boulder",
+          "type": "organisation"
+        },
+        {
+          "name": "GBIF",
+          "type": "infrastructure"
+        },
+        {
+          "name": "NEON Biorepository",
+          "type": "infrastructure"
+        },
+        {
+          "name": "iNaturalist",
+          "type": "platform"
+        }
+      ],
+      "standards": [
+        "Darwin Core"
+      ],
+      "software_tools": [],
+      "datasets": [],
+      "methods": [
+        "event-driven architecture",
+        "microservices architecture",
+        "remote sensing processing levels (L0/L1/L2)"
+      ],
+      "questions": [
+        "What would it mean to build information systems that can cascade and reorganise like ecosystems do after a restored interaction?"
+      ],
+      "notable_claims": [
+        {
+          "claim": "In January 1995, 14 wolves from Canada were released into Yellowstone, with 17 following the next year.",
+          "timestamp": "01:37:13",
+          "confidence": "high"
+        },
+        {
+          "claim": "Darwin Core already provides something like a data contract, letting institutions map locally managed information into a shared vocabulary without changing their internal systems.",
+          "timestamp": "01:43:47",
+          "confidence": "high"
+        },
+        {
+          "claim": "Remote sensing would enter GBIF not as satellite imagery via Darwin Core but as biodiversity observations derived from that imagery.",
+          "timestamp": "01:45:43",
+          "confidence": "high"
+        }
+      ],
+      "recommendations": [
+        "Design biodiversity information systems as loosely coupled, event-driven components linked by shared standards and governance.",
+        "Treat standards like Darwin Core explicitly as connective infrastructure, and ask where translation happens, what assumptions and provenance are kept, and who maintains interfaces."
+      ],
+      "results_findings": [],
+      "limitations": [],
+      "future_work": [],
+      "examples_case_studies": [
+        "1995 Yellowstone wolf reintroduction",
+        "NASA remote sensing data processing levels"
+      ],
+      "q_and_a": [],
+      "representative_excerpt": {
+        "timestamp": "01:41:05",
+        "text": "Similarly, data does not become valuable simply because it exists in a repository or an aggregator. Its greater value emerges through interaction."
+      },
+      "notable_moments": [
+        {
+          "timestamp": "01:35:20",
+          "type": "key_point",
+          "description": "Central question: design information systems like ecosystems respond to disruption"
+        },
+        {
+          "timestamp": "01:41:13",
+          "type": "explanation",
+          "description": "Data arrival as an event that cascades through the system"
+        },
+        {
+          "timestamp": "01:43:14",
+          "type": "key_point",
+          "description": "Darwin Core as an existing data contract enabling modularity"
+        },
+        {
+          "timestamp": "01:47:41",
+          "type": "conclusion",
+          "description": "Restoring infrastructural relationships can change what a system can do"
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "01:34:31",
+          "end_timestamp": "01:48:37"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Matches event-016. ASR renders the Fish and Wildlife director's name as 'Molly Beatty' (Mollie Beattie). No questions."
+      }
+    },
+    {
+      "id": "aula-taster-08-raes-bmd-ai-monitoring",
+      "type": "talk",
+      "programme_id": "event-017",
+      "title": "Mainstreaming high-throughput biodiversity monitoring using AI",
+      "programme": {
+        "title": "Mainstreaming high-throughput biodiversity monitoring using AI",
+        "speakers": [
+          {
+            "name": "Niels Raes",
+            "affiliation": "Naturalis Biodiversity Center"
+          }
+        ],
+        "session": "Monday plenary programme (Taste of TDWG)",
+        "scheduled_start": "2026-09-21 3:45 PM",
+        "scheduled_end": "2026-09-21 4:00 PM",
+        "abstract": "The rapid development of AI image and sound recognition technology in combination with reduced costs of camera traps and passive acoustic monitoring (PAM) devices opens opportunities to mainstream data driven species monitoring. Several user portals have been developed over the past years that bring these AI technologies to new user communities like ecologists and managers of natural resources. ARISE is the acronym for “Authoritative and Rapid Identification System for Essential biodiversity information” and is one such initiative that was launched in November 2025. ARISE provides end-users with a data management system for camera-trap, insect camera and PAM monitoring data and a library with different AI algorithms that can be used to analyse the data. At present 10 AI algorithms are available ranging from MegaDetector to remove images with humans or vehicles to SpeciesNet, DeepFaune and Trapper AI for camera-trap images and AvesEcho-v1 for PAM sound recordings. The number of available AIs is rapidly increasing.\n\nThe ‘Biodiversity Meets Data’ or BMD project aims to make these technologies available to monitor the state of conservation of species and habitats that are protected under the EU Nature Directives that are implemented in the Natura 2000 and Emerald Networks, together covering more than 30,000 protected sites across Europe. The managers of natural resources are BMD’s main stakeholder community that are provided with these new technologies. Directing our focus to the feasibility of wider adoption, we discuss the performance metrics of these automated pipelines alongside an assessment of their financial and computational costs-including model training and cloud operation -providing an example for scalable, economically viable AI-driven nature conservation."
+      },
+      "actual": {
+        "start_timestamp": "01:49:11",
+        "end_timestamp": "02:07:44",
+        "speakers": [
+          {
+            "name": "Niels Raes",
+            "affiliation": "Naturalis Biodiversity Center"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Introduced as 'Niels Reyes' (ASR); coordinator of the Biodiversity Meets Data project, describing Naturalis's ARISE platform. Matches event-017.",
+        "transcript_quality": "high",
+        "duration_seconds": 1113
+      },
+      "summary": "Niels Raes, coordinator of the Horizon Europe project Biodiversity Meets Data (BMD), described how the project is scaling AI-based high-throughput monitoring (camera traps, audio and eDNA) to site managers across Natura 2000 and Emerald Network sites. He showed Naturalis's ARISE platform: 4G sensor upload, data management, a library of image and audio AI models, overnight processing on supercomputers, and export as Camtrap DP for publication to GBIF matched to the Catalogue of Life. He also gave compute and cost figures for inference and for training Naturalis's multi-source model. Q&A covered invertebrate monitoring, the cost of deployment on devices, and human-in-the-loop verification.",
+      "one_line_takeaway": "AI identification platforms like ARISE can take sensor data automatically to GBIF-published, standardised data for protected-area managers, but training costs are high and human verification still matters.",
+      "why_it_matters": "It shows a working, continental-scale pipeline from automated sensors to standardised GBIF data and management tools, with rarely shared figures on the compute cost of the AI involved.",
+      "key_points": [
+        "BMD is a Horizon Europe innovation action that mainstreams existing technology to new stakeholders. The primary audience is natural resource site managers, then policymakers, with academia last.",
+        "Scope: better implementation of the EU nature directives across about 27,000 Natura 2000 sites, extended to the Emerald Network (UK, Norway, Switzerland, Ukraine), about 30,000 potential sites, as a pilot. The project is in month 19.",
+        "'Virtual research environments' were renamed 'biodiversity analysis tools' because the term did not resonate with stakeholders. The tools are co-designed with stakeholders, for example a biodiversity status tool showing which directive-listed species were observed.",
+        "The target workflow is 4G-connected sensors with solar or battery power, automated upload, remote status control, archiving, AI identification and publication to GBIF.",
+        "ARISE (Authoritative and Rapid Identification System for Essential biodiversity information, Naturalis) offers audio models developed under MAMBO (birds, bats, frogs, insects, cicadas/crickets) and image models (MegaDetector, SpeciesNet, and Naturalis's multi-source model).",
+        "MegaDetector runs first to remove humans and licence plates for GDPR. Processing is batched overnight on supercomputers because on-the-fly processing is costly.",
+        "Results are exported as Camtrap DP, mapped to Darwin Core, published to GBIF and matched to the Catalogue of Life, then feed analysis tools such as species distribution models of climate change effects.",
+        "Image recognition takes about 0.03 s per image on GPU (0.06 s on CPU); training takes about 8 s per image. The multi-source model covers about 44,000 taxa, was trained on 42 million labelled images, combines 39 models, serves 100 million requests a year, and takes five months to train plus one month of validation each year, costing roughly €93,000–130,000 on Snellius."
+      ],
+      "content_type": [
+        "infrastructure",
+        "software/tool",
+        "community/project"
+      ],
+      "audience_level": "intermediate",
+      "themes_raw": [
+        "AI species identification",
+        "high-throughput biodiversity monitoring",
+        "camera traps and passive acoustics",
+        "Natura 2000 monitoring",
+        "compute cost of AI",
+        "human-in-the-loop validation",
+        "sensor-to-GBIF pipeline",
+        "co-design with site managers"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "Biodiversity Meets Data (BMD)",
+          "type": "project"
+        },
+        {
+          "name": "Horizon Europe",
+          "type": "programme"
+        },
+        {
+          "name": "Naturalis Biodiversity Center",
+          "type": "organisation"
+        },
+        {
+          "name": "ARISE",
+          "type": "platform"
+        },
+        {
+          "name": "MAMBO",
+          "type": "project"
+        },
+        {
+          "name": "GBIF",
+          "type": "infrastructure"
+        },
+        {
+          "name": "Catalogue of Life",
+          "type": "infrastructure"
+        },
+        {
+          "name": "Natura 2000",
+          "type": "policy"
+        },
+        {
+          "name": "Emerald Network",
+          "type": "policy"
+        },
+        {
+          "name": "Snellius",
+          "type": "infrastructure"
+        },
+        {
+          "name": "Google",
+          "type": "organisation"
+        }
+      ],
+      "standards": [
+        "Camtrap DP",
+        "Darwin Core"
+      ],
+      "software_tools": [
+        "ARISE",
+        "MegaDetector",
+        "SpeciesNet",
+        "Naturalis multi-source model",
+        "BMD biodiversity analysis tools"
+      ],
+      "datasets": [
+        "42 million labelled images used to train the multi-source model"
+      ],
+      "methods": [
+        "automated species identification",
+        "hierarchical classification",
+        "overnight batch processing on supercomputers",
+        "species distribution modelling",
+        "GDPR filtering of people and licence plates"
+      ],
+      "questions": [],
+      "notable_claims": [
+        {
+          "claim": "The EU nature directives are implemented in about 27,000 Natura 2000 areas; with the Emerald Network, the project covers about 30,000 potential areas.",
+          "timestamp": "01:50:35",
+          "confidence": "high"
+        },
+        {
+          "claim": "Image recognition takes about 0.03 seconds per image on a GPU and 0.06 seconds on a CPU.",
+          "timestamp": "01:59:09",
+          "confidence": "high"
+        },
+        {
+          "claim": "Naturalis's multi-source model was trained on 42 million labelled images, combines 39 models and serves 100 million requests per year.",
+          "timestamp": "02:01:03",
+          "confidence": "high"
+        },
+        {
+          "claim": "Training the model takes five months plus one month of validation, and is repeated yearly.",
+          "timestamp": "02:01:52",
+          "confidence": "high"
+        }
+      ],
+      "recommendations": [
+        "Filter or manually review low-confidence AI predictions before publishing.",
+        "Publish data openly so that errors can be found and corrected.",
+        "Share code between projects (for example with SANParks) to avoid duplicated effort."
+      ],
+      "results_findings": [
+        "Training the multi-source model costs roughly €93,000–130,000 on Snellius, or about 26,000–38,000 on another facility."
+      ],
+      "limitations": [
+        "The multi-source model works less well on infrared (night) camera trap images.",
+        "BMD covers only camera traps, audio and eDNA; invertebrate camera monitoring is out of scope.",
+        "Raes did not have figures for the cost of distillation, deployment or energy use on devices.",
+        "A fully automated workflow without human review may not be realistic."
+      ],
+      "future_work": [
+        "Roll out the BMD infrastructure and analysis tools across Europe with stakeholders.",
+        "Green AI development with the Naturalis AI team.",
+        "Release all code behind the biodiversity analysis tools as open source."
+      ],
+      "examples_case_studies": [
+        "Camera trap image identified as a hare via MegaDetector and SpeciesNet",
+        "One-minute audio recording with 10 bird vocalisations (great tit)"
+      ],
+      "q_and_a": [
+        {
+          "question": "Tanya Berger-Wolf: invertebrates are missing; are you tracking the costs of distillation, on-device deployment, energy and compute trade-offs, not just training?",
+          "answer_summary": "Raes did not have those figures. The Naturalis AI team is looking at green AI. Invertebrates are mostly monitored with eDNA; MAMBO has tested light-trap and flat-screen cameras for night- and day-flying insects, but BMD is limited to camera traps, audio and eDNA.",
+          "timestamp": "02:03:36"
+        },
+        {
+          "question": "Without a human in the loop, won't AI predictions flood GBIF with unreliable identifications, especially for invertebrates?",
+          "answer_summary": "ARISE reports prediction accuracy and has filtering options. Low-confidence predictions should be reviewed by the data owner, who is responsible for publishing. Publishing openly lets others find errors, and corrections are possible. All code will be open source.",
+          "timestamp": "02:05:52"
+        }
+      ],
+      "representative_excerpt": {
+        "timestamp": "02:06:27",
+        "text": "Although we want to have a fully automated workflow, I'm not sure whether that's really realistic. But then the ones with the lower prediction, you would like to have either the user look at it."
+      },
+      "notable_moments": [
+        {
+          "timestamp": "01:54:51",
+          "type": "demonstration",
+          "description": "The ARISE platform and its library of AI models"
+        },
+        {
+          "timestamp": "01:57:07",
+          "type": "example",
+          "description": "MegaDetector plus SpeciesNet identification and GDPR filtering"
+        },
+        {
+          "timestamp": "01:57:42",
+          "type": "key_point",
+          "description": "Export as Camtrap DP to GBIF and the Catalogue of Life"
+        },
+        {
+          "timestamp": "02:00:02",
+          "type": "result",
+          "description": "Compute and cost figures for training the multi-source model"
+        },
+        {
+          "timestamp": "02:05:52",
+          "type": "question",
+          "description": "Human-in-the-loop verification before publishing AI identifications"
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "01:49:11",
+          "end_timestamp": "02:07:44"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Matches event-017. ASR renders the speaker's name as 'Niels Reyes', Quentin as 'Quinten', and SANParks as 'sand parks'. Raes described the SBU unit as the 'Stony Brook University' quantity, a claim not verified here."
+      }
+    }
+  ],
+  "unassigned": [
+    {
+      "start_timestamp": "00:00:02",
+      "end_timestamp": "00:02:52",
+      "type": "announcement",
+      "description": "Opening announcements from the TDWG chair: remembrance of Henry Engledow (time in the business meeting, condolence book at registration), the City Hall reception at end of day, the move to the Oslo Congress Centre from tomorrow, Whova support via the conference organisers' email, and thanks to the Oslo hosts (Norwegian Biodiversity Information Centre, University of Oslo, Natural History Museum, GBIF Norway) and volunteers."
+    },
+    {
+      "start_timestamp": "00:02:54",
+      "end_timestamp": "00:04:34",
+      "type": "introduction",
+      "description": "Chair hands over to convener Ellie Wallace, who introduces the Taste of TDWG session (15-minute talks chosen to sample conference themes around research- and robot-ready biodiversity data standards) and the first speaker."
+    },
+    {
+      "start_timestamp": "00:18:56",
+      "end_timestamp": "00:19:23",
+      "type": "introduction",
+      "description": "Convener's link from BHL to Quentin Groom's talk."
+    },
+    {
+      "start_timestamp": "00:35:40",
+      "end_timestamp": "00:36:09",
+      "type": "introduction",
+      "description": "Convener's introduction of Cameron Slatyer on rebuilding a national taxonomic backbone."
+    },
+    {
+      "start_timestamp": "00:51:54",
+      "end_timestamp": "00:52:43",
+      "type": "introduction",
+      "description": "Convener's introduction of Darwin Core Data Package integration at GBIF."
+    },
+    {
+      "start_timestamp": "01:08:49",
+      "end_timestamp": "01:09:18",
+      "type": "introduction",
+      "description": "Convener's introduction of Judith Botha."
+    },
+    {
+      "start_timestamp": "01:24:45",
+      "end_timestamp": "01:25:14",
+      "type": "introduction",
+      "description": "Convener's introduction of Clara Baringo Fonseca on traditional knowledge in Darwin Core."
+    },
+    {
+      "start_timestamp": "01:33:52",
+      "end_timestamp": "01:34:20",
+      "type": "introduction",
+      "description": "Convener's introduction of Kit Lewers."
+    },
+    {
+      "start_timestamp": "01:48:40",
+      "end_timestamp": "01:49:09",
+      "type": "introduction",
+      "description": "Convener's comment on Kit's talk and introduction of Niels Raes."
+    },
+    {
+      "start_timestamp": "02:07:44",
+      "end_timestamp": "02:08:10",
+      "type": "announcement",
+      "description": "Convener's wrap-up of the session and thanks to the eight speakers."
+    },
+    {
+      "start_timestamp": "02:08:23",
+      "end_timestamp": "02:09:47",
+      "type": "announcement",
+      "description": "Plug from the BISS editor for submitting extended abstracts via Pensoft's ARPHA platform, and directions to the City Hall reception with the mayor at 17:00."
+    }
+  ],
+  "programme_status": [
+    {
+      "programme_id": "event-003",
+      "title": "Address from TDWG Chair",
+      "status": "uncertain",
+      "content_item_id": null,
+      "notes": "Morning plenary item; not in this recording, which covers only the afternoon Taste of TDWG block. Presented in Aula_Plenary_1."
+    },
+    {
+      "programme_id": "event-004",
+      "title": "AI for Nature at Large Scale and High Resolution",
+      "status": "uncertain",
+      "content_item_id": null,
+      "notes": "Morning keynote; not in this recording, which covers only the afternoon Taste of TDWG block. Presented in Aula_Plenary_1."
+    },
+    {
+      "programme_id": "event-006",
+      "title": "Sámi perspectives on biodiversity Data Governance and more inclusive Data Standards",
+      "status": "uncertain",
+      "content_item_id": null,
+      "notes": "Late-morning keynote; not in this recording, which covers only the afternoon Taste of TDWG block. Presented in Aula_Plenary_2. The convener refers to Máret having spoken earlier today (01:25:03)."
+    },
+    {
+      "programme_id": "event-007",
+      "title": "From biodiversity data to knowledge in the age of AI: Where do ontologies and standards fit?",
+      "status": "uncertain",
+      "content_item_id": null,
+      "notes": "Late-morning keynote; not in this recording, which covers only the afternoon Taste of TDWG block. Presented in Aula_Plenary_2. Ramona Walls asks a question during Groom's Q&A."
+    },
+    {
+      "programme_id": "event-010",
+      "title": "Building a New Foundation for the Biodiversity Heritage Library",
+      "status": "presented",
+      "content_item_id": "aula-taster-01-kearney-bhl",
+      "notes": "Presented first, as scheduled."
+    },
+    {
+      "programme_id": "event-011",
+      "title": "Reducing the lag from observation to action",
+      "status": "presented",
+      "content_item_id": "aula-taster-02-groom-timeliness",
+      "notes": "Presented second, with Q&A."
+    },
+    {
+      "programme_id": "event-012",
+      "title": "Keeping Colliders in Physics: Rethinking the Construction of Taxonomic Backbones and Names- matching in Large Data Aggregators",
+      "status": "presented",
+      "content_item_id": "aula-taster-03-slatyer-taxonomic-backbone",
+      "notes": "Presented third; speaker name garbled by ASR."
+    },
+    {
+      "programme_id": "event-013",
+      "title": "DwC-DP Integration at GBIF",
+      "status": "presented",
+      "content_item_id": "aula-taster-04-gbif-dwc-dp",
+      "notes": "Presented fourth; second co-presenter introduced as Nikolaj/Nicola rather than the programme's Mikhail Podolskiy. No Q&A."
+    },
+    {
+      "programme_id": "event-014",
+      "title": "Using automation to consolidate biodiversity occurrence data from multiple sources to assist conservation decision making in South African National Parks.",
+      "status": "presented",
+      "content_item_id": "aula-taster-05-botha-sanparks-bims",
+      "notes": "Presented fifth, with one question."
+    },
+    {
+      "programme_id": "event-015",
+      "title": "Extending Darwin Core to Represent Sociobiodiversity and Traditional Knowledge",
+      "status": "presented",
+      "content_item_id": "aula-taster-06-baringo-sociobiodiversity",
+      "notes": "Presented sixth; no questions."
+    },
+    {
+      "programme_id": "event-016",
+      "title": "What if biodiversity data systems were designed to behave like ecosystems?",
+      "status": "presented",
+      "content_item_id": "aula-taster-07-lewers-information-ecosystems",
+      "notes": "Presented seventh; no questions."
+    },
+    {
+      "programme_id": "event-017",
+      "title": "Mainstreaming high-throughput biodiversity monitoring using AI",
+      "status": "presented",
+      "content_item_id": "aula-taster-08-raes-bmd-ai-monitoring",
+      "notes": "Presented eighth (last), with two questions."
+    }
+  ]
+}
