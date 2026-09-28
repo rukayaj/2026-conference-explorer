@@ -1,0 +1,2296 @@
+{
+  "recording": {
+    "conference": "TDWG 2026",
+    "date": "2026-09-25",
+    "room": "SAL C",
+    "video_url": "",
+    "transcript_source": "TDWG 2026-09-25 SAL C.srt",
+    "language": "en",
+    "notes": "Continuous recording covering SYM07 'Publishing and Communications Promoting Biodiversity, Natural History Collections, People, Data and Data Standards' (8:30-10:00 AM; speech from 00:51:19) and, after a break gap (02:25:48-02:51:09), SYM28 'From Standards to Implementation: Connecting Observation Data in Asia to GBIF Infrastructure' (10:30 AM-12:00 PM; opened at 02:51:55, closed at 04:09:47). The afternoon Unconference breakout (event-364) is not covered. All eleven programmed talks were given in scheduled order. Schigel's talk was a pre-recorded video and Winchester's a virtual recording; Ko's talk, listed as virtual, appears to have been given in person. SYM28 questions were deferred to the end but no general discussion was held. ASR errors include 'Binomia' for Bionomia, 'Tetrix/TETRIS' for TETTRIX/TETTRIs, 'Taipei/TypeBIF' for TaiBIF, 'Deposita' for depositar, 'CamtrapDB' for Camtrap DP, 'humbled' for Humboldt, 'Orfo/Arpha' for ORPHO/ARPHA, 'TadWIG/TWICs/TEDx/Tadig/Chadwick' for TDWG, and garbled speaker names (Fischmuller, Zhujun Jiang, Yixian, Chizhenko, Christian Ellam)."
+  },
+  "content_items": [
+    {
+      "id": "salc-2026-09-25-01",
+      "type": "talk",
+      "programme_id": "event-321",
+      "title": "Approaches to the Automated Tracking of Taxonomic Research Activities",
+      "programme": {
+        "title": "Approaches to the Automated Tracking of Taxonomic Research Activities",
+        "speakers": [
+          {
+            "name": "David Fichtmueller",
+            "affiliation": ""
+          }
+        ],
+        "session": "SYM07 Publishing and Communications Promoting Biodiversity, Natural History Collections, People, Data and Data Standards",
+        "scheduled_start": "8:30 AM",
+        "scheduled_end": "8:45 AM",
+        "abstract": "Modern taxonomy is a dynamic field of research, with activities from individual scientists working on their field of special expertise to large-scale multi-national research projects. However, no dedicated and extensive overview exists that tracks the current state of and trends in taxonomic research. The systematic aggregation of data about the present taxonomic research landscape could be used to identify gaps and help policy makers, funders or research leaders to strategically address them.\n\nAs part of the European TETTRIs project (Transforming European Taxonomy through Training, Research and Innovations) we previously assessed the taxonomic expertise of researchers in Europe based on taxonomic publications (De Nolf et al, 2023) and specimen data (Fichtmueller et al, 2025). In the follow-up project TETTRIX (TETTRIs neXt level for the taxonomy of tomorrow) we will build on this experience by automatically tracking taxonomic research activities from multiple sources and aggregating them into an open platform. This will enable the compilation of landscape reports that provide a consolidated overview of active research areas as well as highlight gaps, e.g. in taxonomic or geographic coverage. The resulting insights can inform prioritization of research agendas and strategic decision-making in taxonomy, both on national and international levels.\n\nThis presentation differs from conventional talks in that the project is still in its early stages. Rather than presenting a final product or workflow, we will outline our current conceptual framework, planned data sources, and methodologies. We want to devote the second part of our time slot to engaging with the community: we welcome early feedback on our approach and encourage suggestions for additional data sources or methods."
+      },
+      "actual": {
+        "start_timestamp": "00:51:36",
+        "end_timestamp": "01:06:29",
+        "duration_seconds": 893,
+        "speakers": [
+          {
+            "name": "David Fichtmueller",
+            "affiliation": "Botanic Garden and Botanical Museum Berlin"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Chair introduces 'David Fischmuller' (ASR for Fichtmueller). ASR renders the projects TETTRIs/TETTRIX as 'TETRIS'/'Tetrix', Pensoft as 'Pensoff' and TDWG Slack as 'TEDx Slack'. Content matches the abstract; the second half of the slot was used for audience feedback, as the abstract proposed.",
+        "transcript_quality": "medium"
+      },
+      "summary": "David Fichtmueller introduced work package 1 of the newly started EU project TETTRIX, which will automatically gather ongoing taxonomic research activities from many sources into a central database (TaxoTrack), align them with taxonomic backbones and identifiers, and produce outputs such as maps, gap analyses, dashboards and policy briefs. He described how it builds on TETTRIs expertise assessments from publications (OpenAlex, Meise) and GBIF specimen data (Berlin), laid out the partner-led source streams, and asked the audience how their research could be detected. Feedback stressed ORCIDs on publications, registering nomenclatural acts, and institutional evaluation reports as sources.",
+      "one_line_takeaway": "TETTRIX aims to build a machine-run, regularly updated picture of who is doing taxonomy on what and where, and is asking the community which sources it is missing.",
+      "why_it_matters": "A systematic, repeatable overview of taxonomic research activity could expose understudied taxa and regions and inform funders and policy makers, but it depends on the research being machine-detectable through identifiers such as ORCID.",
+      "key_points": [
+        "TETTRIX (successor of TETTRIs) started in September 2026; work package 1 will automatically gather ongoing taxonomic research activities, store them centrally and align them with taxonomic backbones.",
+        "Earlier TETTRIs work assessed expertise from publications filtered in OpenAlex (Meise) and from GBIF specimen data (Berlin); the specimen approach was harder because person data in GBIF are ambiguous and rarely carry identifiers.",
+        "Planned source streams: taxonomic publication databases incl. sub-article data (Pensoft: BLR, Biodiversity PMC, OpenBiodiv), funding records and project registries (UFZ Leipzig), taxonomic data networks and name registries (Berlin, Meise, Prague with a Central/Eastern European focus), 'dark' pre-naming activity via DNA barcodes, BINs and species hypotheses (NTNU), and expertise/service marketplaces.",
+        "All sources feed a central database, TaxoTrack, aligned with identifiers such as Wikidata, ROR and ORCID, to generate maps, taxonomic coverage evaluations, policy briefs and dashboards.",
+        "The team does not expect researchers to change workflows; it wants machine-accessible sources so the analysis can be re-run every few weeks or months.",
+        "A survey was launched targeting funding agencies and project registries, with an open section for other source ideas."
+      ],
+      "content_type": [
+        "infrastructure",
+        "community/project",
+        "workflow/method"
+      ],
+      "audience_level": "intermediate",
+      "themes_raw": [
+        "tracking taxonomic research activity",
+        "taxonomic expertise mapping",
+        "research landscape analysis",
+        "taxonomic gaps",
+        "person identifiers for taxonomists",
+        "funding landscape"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "TETTRIX",
+          "type": "project"
+        },
+        {
+          "name": "TETTRIs",
+          "type": "project"
+        },
+        {
+          "name": "TaxoTrack",
+          "type": "database"
+        },
+        {
+          "name": "Pensoft",
+          "type": "organisation"
+        },
+        {
+          "name": "Meise Botanic Garden",
+          "type": "organisation"
+        },
+        {
+          "name": "Botanic Garden Berlin",
+          "type": "organisation"
+        },
+        {
+          "name": "UFZ Leipzig",
+          "type": "organisation"
+        },
+        {
+          "name": "Institute of Botany, Czech Academy of Sciences",
+          "type": "organisation"
+        },
+        {
+          "name": "NTNU",
+          "type": "organisation"
+        },
+        {
+          "name": "OpenAlex",
+          "type": "platform"
+        },
+        {
+          "name": "GBIF",
+          "type": "infrastructure"
+        },
+        {
+          "name": "Biodiversity Literature Repository",
+          "type": "platform"
+        },
+        {
+          "name": "OpenBiodiv",
+          "type": "platform"
+        },
+        {
+          "name": "BiCIKL",
+          "type": "project"
+        },
+        {
+          "name": "ORCID",
+          "type": "identifier system"
+        },
+        {
+          "name": "Wikidata",
+          "type": "platform"
+        },
+        {
+          "name": "ROR",
+          "type": "identifier system"
+        },
+        {
+          "name": "ZooBank",
+          "type": "registry"
+        },
+        {
+          "name": "TaxonWorks",
+          "type": "software"
+        },
+        {
+          "name": "CETAF",
+          "type": "organisation"
+        }
+      ],
+      "standards": [],
+      "software_tools": [
+        "TaxoTrack",
+        "OpenAlex"
+      ],
+      "datasets": [
+        "GBIF specimen occurrence data",
+        "Biodiversity Literature Repository",
+        "Biodiversity PMC",
+        "OpenBiodiv"
+      ],
+      "methods": [
+        "keyword-based filtering of taxonomic publications",
+        "alignment with taxonomic backbones",
+        "DNA barcode BINs and species hypotheses as signals of pre-naming activity"
+      ],
+      "questions": [
+        "How would a given taxonomist's research show up in the sources being tracked, and what channels are being missed?",
+        "Which funding agencies actually fund taxonomic work in each country?"
+      ],
+      "notable_claims": [
+        {
+          "claim": "Person data coming from GBIF were ambiguous with very few identifiers, making the specimen-based expertise approach harder than the publication-based one.",
+          "timestamp": "00:55:12",
+          "confidence": "high"
+        },
+        {
+          "claim": "The simplest thing that would help such analyses is taxonomists providing ORCIDs on their publications, which are still often missing.",
+          "timestamp": "01:05:13",
+          "confidence": "high"
+        }
+      ],
+      "recommendations": [
+        "Taxonomists should include ORCIDs in their publications.",
+        "Register nomenclatural acts in the relevant registries (e.g. ZooBank)."
+      ],
+      "results_findings": [],
+      "limitations": [],
+      "future_work": [
+        "Kick-off meeting two weeks after the conference; prioritisation of publishers and databases to ingest first.",
+        "Continued discussion at the Unconference and via the survey."
+      ],
+      "examples_case_studies": [
+        "TETTRIs expertise assessment based on publications (De Nolf et al.) and specimens (Fichtmueller et al.)"
+      ],
+      "q_and_a": [
+        {
+          "question": "Deb Paul (Species File Group / TaxonWorks) asked what publishers and nomenclature tools could do in their publications to make research trackable.",
+          "answer_summary": "The project does not want to require workflow changes; it will first gather and align existing sources and only later see if some activity is untrackable. A second audience member (from the project team) said the simplest help is ORCIDs on publications and registering nomenclatural acts in ZooBank and similar databases.",
+          "timestamp": "01:02:44"
+        },
+        {
+          "question": "An audience member suggested institutional evaluation reports, where institutions report numbers of species described, as a data source.",
+          "answer_summary": "Fichtmueller agreed it was something they should have thought of.",
+          "timestamp": "01:05:55"
+        }
+      ],
+      "representative_excerpt": {
+        "timestamp": "01:03:37",
+        "text": "Ideally, everything should be machine accessible so we can run this analysis every couple of weeks or months. But we don't expect other people to change their publication methods to align with our projects."
+      },
+      "notable_moments": [
+        {
+          "timestamp": "00:54:10",
+          "type": "key_point",
+          "description": "Previous TETTRIs expertise work based on publications and GBIF specimens."
+        },
+        {
+          "timestamp": "00:56:20",
+          "type": "key_point",
+          "description": "Overview of the TaxoTrack central database and planned outputs."
+        },
+        {
+          "timestamp": "01:00:21",
+          "type": "question",
+          "description": "Speaker asks the audience how their taxonomic research could be detected."
+        },
+        {
+          "timestamp": "01:05:07",
+          "type": "recommendation",
+          "description": "Audience point: ORCIDs on publications and registering nomenclatural acts."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "00:51:36",
+          "end_timestamp": "01:06:29"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Speaker, title and content match; presented in person as scheduled."
+      }
+    },
+    {
+      "id": "salc-2026-09-25-02",
+      "type": "talk",
+      "programme_id": "event-322",
+      "title": "Empowering and Expanding Communities from Knowledge to Best Practices in Data Mobilization: The TaiBIF Collaborator Training System",
+      "programme": {
+        "title": "Empowering and Expanding Communities from Knowledge to Best Practices in Data Mobilization: The TaiBIF Collaborator Training System",
+        "speakers": [],
+        "session": "SYM07 Publishing and Communications Promoting Biodiversity, Natural History Collections, People, Data and Data Standards",
+        "scheduled_start": "8:45 AM",
+        "scheduled_end": "9:00 AM",
+        "abstract": "Taiwan Biodiversity Information Facility (TaiBIF), like many GBIF nodes, has long promoted biodiversity data mobilization through training, technical support, and community engagement. However, the growing demand for data publishing and support from local communities increasingly exceeds the capacity of small node teams. To address this challenge, TaiBIF established a training system (\"TaiBIFer\") that can offer paid collaboration opportunities inspired by the GBIF volunteer community model.\n\nThe TaiBIFer system cultivates translators, ambassadors, data mobilizers, and species name checkers through structured training courses connected to TaiBIF capacity-building activities. The system aims not only to certify collaborators who can support communication and technical assistance between TaiBIF and local communities, but also to strengthen a more sustainable national biodiversity information collaboration network and enhance the attractiveness of biodiversity informatics as a career pathway.\n\nSince late 2022, TaiBIF has trained 11 translators, 21 ambassadors, 11 data mobilizers, and 19 species name checkers. These collaborators have contributed to translation projects, workshops, biodiversity data publishing, and taxonomic validation work for the Catalogue of Life in Taiwan (TaiCOL). Through this expanding network, TaiBIF has been able to extend its outreach and support capacity beyond the limitations of a small core team.\n\nAs biodiversity data publishing needs continue to grow in Asia, the TaiBIFer training system demonstrates how community-based collaboration and capacity building can help create a more resilient and sustainable biodiversity informatics network."
+      },
+      "actual": {
+        "start_timestamp": "01:06:43",
+        "end_timestamp": "01:20:36",
+        "duration_seconds": 833,
+        "speakers": [
+          {
+            "name": "Melissa Chin-Yi Lu",
+            "affiliation": "Taiwan Biodiversity Information Facility (TaiBIF)"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "The programme lists no speaker; the chair introduces 'Melissa Chin-Yi Lu', who presents as Melissa from TaiBIF. ASR renders TaiBIF as 'Taipei'/'TaipeiF'/'TypeBIF' and TaiBIFer as 'TaipeiFIRST'/'TypeBIFR', and TaiCOL as 'Taicol'. Figures (11 translators, 21 ambassadors, 11 data mobilizers, 19 name checkers) match the abstract exactly.",
+        "transcript_quality": "medium"
+      },
+      "summary": "Melissa Chin-Yi Lu described TaiBIFer, TaiBIF's structured training and certification system that turns workshop participants into paid collaborators to extend the capacity of a small GBIF node team. Participants take a core workshop, complete scored assignments (Darwin Core mapping, sampling-event structuring, test IPT publishing, OpenRefine cleaning, GBIF searching) and a role-specific practical assessment for one of four roles: translator, ambassador, data mobilizer or species name checker. Since late 2022 62 collaborators have been certified; challenges are case management, retention and continuous funding, which TaiBIF supplements with AI and toolkit tools.",
+      "one_line_takeaway": "A tiered, role-based certification pathway linked to paid assignments lets a small GBIF node multiply its support capacity.",
+      "why_it_matters": "Many GBIF nodes face demand beyond their staff capacity; TaiBIFer offers a concrete, replicable model for building a certified, paid community of practice and a career pathway in biodiversity informatics.",
+      "key_points": [
+        "Demand for publishing support, data cleaning, translation and taxonomic validation outgrew TaiBIF's small team.",
+        "TaiBIFer, inspired by the GBIF volunteer community model, creates a path from learning to practice: workshop, scored assignments, advanced certificate, role-specific assessment, then eligibility for paid collaboration.",
+        "Four roles: translators (localising GBIF resources into Traditional Chinese), ambassadors (workshop mentors, potential trainers), data mobilizers (helping institutions clean and publish datasets), and species name checkers (contributing to TaiCOL).",
+        "Separating roles lets people contribute through their strongest skills and lets TaiBIF set role-relevant criteria.",
+        "Since late 2022: 11 translators, 21 ambassadors, 11 data mobilizers and 19 name checkers (62 in total); data mobilizer attracts the most applicants but has the hardest qualification bar.",
+        "Paid assignments recognise that the services require time, responsibility and expertise, and create a feedback loop into future training.",
+        "Human capacity is complemented by 'Digital TaiBIFer', a 24/7 AI helper, and the TaiBIF Open Data Toolkit for dataset templating, validation and cleaning."
+      ],
+      "content_type": [
+        "community/project",
+        "workflow/method",
+        "case study"
+      ],
+      "audience_level": "general",
+      "themes_raw": [
+        "capacity building",
+        "GBIF node operations",
+        "certification of data mobilizers",
+        "paid community collaborators",
+        "localisation and translation",
+        "AI assistants for data publishing support"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "TaiBIF",
+          "type": "organisation"
+        },
+        {
+          "name": "GBIF",
+          "type": "infrastructure"
+        },
+        {
+          "name": "TaiCOL (Catalogue of Life in Taiwan)",
+          "type": "database"
+        },
+        {
+          "name": "GBIF volunteer community",
+          "type": "community"
+        },
+        {
+          "name": "IPT",
+          "type": "software"
+        },
+        {
+          "name": "OpenRefine",
+          "type": "software"
+        },
+        {
+          "name": "Digital TaiBIFer",
+          "type": "software"
+        },
+        {
+          "name": "TaiBIF Open Data Toolkit",
+          "type": "software"
+        }
+      ],
+      "standards": [
+        "Darwin Core"
+      ],
+      "software_tools": [
+        "IPT",
+        "OpenRefine",
+        "Digital TaiBIFer (AI helper)",
+        "TaiBIF Open Data Toolkit"
+      ],
+      "datasets": [],
+      "methods": [
+        "rubric-scored training assignments",
+        "role-specific practical assessments"
+      ],
+      "questions": [
+        "How can a node sustain the overhead of managing a paid collaborator community?"
+      ],
+      "notable_claims": [
+        {
+          "claim": "Since late 2022 TaiBIF has trained 11 translators, 21 ambassadors, 11 data mobilizers and 19 species name checkers, 62 collaborators in total.",
+          "timestamp": "01:13:08",
+          "confidence": "high"
+        },
+        {
+          "claim": "The data mobilizer role has the most applicants but its assessment qualifications are hard to meet.",
+          "timestamp": "01:13:40",
+          "confidence": "high"
+        },
+        {
+          "claim": "The Digital TaiBIFer AI helper answered about 90% of workshop test questions correctly, according to the speaker.",
+          "timestamp": "01:19:02",
+          "confidence": "medium"
+        }
+      ],
+      "recommendations": [],
+      "results_findings": [
+        "Four certified collaborator roles now support translation, workshops, customised data publishing and TaiCOL content."
+      ],
+      "limitations": [
+        "Case management and matching of publishers with collaborators needs additional capacity.",
+        "Retaining collaborators requires incentives.",
+        "The system depends on continuous funding, especially for translators and ambassadors."
+      ],
+      "future_work": [
+        "Possibly adding a role for collaborators co-developing new Traditional Chinese training courses (e.g. on new data models, Darwin Core Data Package, Humboldt Extension)."
+      ],
+      "examples_case_studies": [
+        "TaiBIFer training system in Taiwan"
+      ],
+      "q_and_a": [
+        {
+          "question": "If you added one or two more roles, which topics would you cover next?",
+          "answer_summary": "She would consider letting trainers co-develop new courses in Traditional Chinese with the team, since new concepts such as the new data model, data packages and the Humboldt Extension need training material; capacity to manage more is a concern.",
+          "timestamp": "01:17:23"
+        },
+        {
+          "question": "Esteban Marentes asked whether the 24/7 AI helper has had problems with hallucinations.",
+          "answer_summary": "It was tested in workshop exercises and matched about 90% of expected answers; it previously won a GBIF challenge (ASR 'GBIF App Nielsen challenge', likely the Ebbe Nielsen Challenge) and is trained on GBIF resources, so it works well so far.",
+          "timestamp": "01:18:31"
+        },
+        {
+          "question": "Deb Paul asked what workshop or exchange between node models could help with the overhead of sustaining such a community.",
+          "answer_summary": "The speaker agreed this is future work she needs to think about and shares the concern about capacity.",
+          "timestamp": "01:19:38"
+        }
+      ],
+      "representative_excerpt": {
+        "timestamp": "01:15:01",
+        "text": "Paid assignments recognize that these services require time, responsibility, and expertise."
+      },
+      "notable_moments": [
+        {
+          "timestamp": "01:08:47",
+          "type": "key_point",
+          "description": "Overview of the TaiBIFer pathway from workshop to paid collaboration."
+        },
+        {
+          "timestamp": "01:13:08",
+          "type": "result",
+          "description": "Numbers of certified collaborators per role since 2022."
+        },
+        {
+          "timestamp": "01:15:13",
+          "type": "limitation",
+          "description": "Challenges: case management, retention and funding."
+        },
+        {
+          "timestamp": "01:16:13",
+          "type": "key_point",
+          "description": "AI helper and Open Data Toolkit used to fill human capacity gaps."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "01:06:43",
+          "end_timestamp": "01:20:36"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Title and content match; programme has no named speaker, presented by Melissa Chin-Yi Lu of TaiBIF."
+      }
+    },
+    {
+      "id": "salc-2026-09-25-03",
+      "type": "talk",
+      "programme_id": "event-323",
+      "title": "Bionomia, Scholia, Wikidata and Zenodo: broadcasting biodiversity data contributions",
+      "programme": {
+        "title": "Bionomia, Scholia, Wikidata and Zenodo : broadcasting biodiversity data contributions",
+        "speakers": [
+          {
+            "name": "Siobhan Leachman",
+            "affiliation": ""
+          }
+        ],
+        "session": "SYM07 Publishing and Communications Promoting Biodiversity, Natural History Collections, People, Data and Data Standards",
+        "scheduled_start": "9:00 AM",
+        "scheduled_end": "9:15 AM",
+        "abstract": "Promoting biodiversity data, the people and institutions that provide that data, as well as the data standards that empower the sharing and reuse of that data, is a challenge. This presentation will discuss several tools, techniques and workflows that can be used by researchers, natural history collections, and institutions to increase the visibility and impact of their contributions to biodiversity knowledge.\n\nThe tools covered will include the use of Wikidata, and its associated scholarly profile tool Scholia, to highlight researcher and institutional impact, Bionomia to assist with the showcasing of expertise in collecting, determining and attributing natural history specimens, and the platforms Wikidata, Zenodo and Wikimedia Commons as alternative repositories for research data, workflows, and best practice documentation empowering both individuals and communities to access and reuse biodiversity focused contributions."
+      },
+      "actual": {
+        "start_timestamp": "01:20:40",
+        "end_timestamp": "01:37:02",
+        "duration_seconds": 982,
+        "speakers": [
+          {
+            "name": "Siobhan Leachman",
+            "affiliation": "Wikimedian, data curator and community scientist, New Zealand"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Introduced by name and self-introduces. ASR renders Bionomia as 'Binomia' and the name as 'Chauvan' in the chair's thanks. Q&A includes Dmitry Schigel and Deb Paul (on WoRMS authorship identifiers).",
+        "transcript_quality": "high"
+      },
+      "summary": "Siobhan Leachman argued that Wikidata is 'the one ring to rule them all' for increasing the visibility of biodiversity data and the people and institutions behind it, because it is open (CC0), multilingual, linked and a hub for over 7,500 external identifiers. She showed how Bionomia attributes GBIF specimens to collectors and determiners and auto-archives their records to Zenodo with DataCite DOIs linked to ORCID, how Scholia visualises scholarly profiles and citation links (including to collections via 'uses'/'acknowledges' statements), and how Expeditia maps research expeditions. Zenodo communities were presented as a way to collate outreach and project outputs. Q&A covered privacy and researcher digital traces, and extending attribution to other roles such as conservators and taxon-name authors.",
+      "one_line_takeaway": "Linking people, specimens, publications, datasets and collections through Wikidata and associated tools (Bionomia, Scholia, Expeditia, Zenodo) makes biodiversity contributions findable and creditable.",
+      "why_it_matters": "It offers practical, free routes for individuals and institutions to document the impact of collecting, identifying, publishing and collection use, which traditional metrics miss.",
+      "key_points": [
+        "Wikidata is a CC0, multilingual, human- and machine-readable knowledge base that anyone can edit and that search engines, AI applications and collection systems reuse.",
+        "As an identifier hub Wikidata links to over 7,500 other websites, catalogues and databases, enabling round-tripping (e.g. BHL and the CETAF botany pilot pull people data from Wikidata).",
+        "Bionomia links GBIF specimen records to Wikidata items (deceased) or ORCIDs (living) of collectors and determiners, generating profiles with maps, co-collector networks and citing literature, and its IDs are added back to Wikidata.",
+        "Bionomia can automatically deposit versioned archives of a user's attributed specimens in Zenodo with a DataCite DOI, which can flow into ORCID profiles.",
+        "Bionomia dataset profiles give institutions frictionless data packages to round-trip identifiers, spot data errors and find publications using their data.",
+        "Scholia visualises Wikidata-sourced scholarly profiles; linking publications to collections or datasets via 'uses' or 'acknowledges' statements credits collections.",
+        "Expeditia visualises research expeditions using Wikidata, GBIF, Bionomia and georeference data.",
+        "Zenodo communities collate related uploads, e.g. outreach material from the International Botanical Congress 2024."
+      ],
+      "content_type": [
+        "software/tool",
+        "infrastructure",
+        "workflow/method"
+      ],
+      "audience_level": "general",
+      "themes_raw": [
+        "attribution and credit for collectors",
+        "Wikidata as identifier hub",
+        "scholarly profiles",
+        "linked open data",
+        "collection impact",
+        "open repositories for outputs",
+        "privacy of researcher data"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "Wikidata",
+          "type": "platform"
+        },
+        {
+          "name": "Bionomia",
+          "type": "platform"
+        },
+        {
+          "name": "Scholia",
+          "type": "software"
+        },
+        {
+          "name": "Expeditia",
+          "type": "software"
+        },
+        {
+          "name": "Zenodo",
+          "type": "repository"
+        },
+        {
+          "name": "GBIF",
+          "type": "infrastructure"
+        },
+        {
+          "name": "ORCID",
+          "type": "identifier system"
+        },
+        {
+          "name": "DataCite",
+          "type": "organisation"
+        },
+        {
+          "name": "Biodiversity Heritage Library",
+          "type": "platform"
+        },
+        {
+          "name": "CETAF",
+          "type": "organisation"
+        },
+        {
+          "name": "Te Papa",
+          "type": "organisation"
+        },
+        {
+          "name": "Bioeconomy Science Institute",
+          "type": "organisation"
+        },
+        {
+          "name": "Wikimedia Commons",
+          "type": "platform"
+        },
+        {
+          "name": "WoRMS",
+          "type": "database"
+        },
+        {
+          "name": "International Botanical Congress 2024",
+          "type": "event"
+        }
+      ],
+      "standards": [
+        "Frictionless Data Package"
+      ],
+      "software_tools": [
+        "Wikidata",
+        "Bionomia",
+        "Scholia",
+        "Expeditia",
+        "Zenodo"
+      ],
+      "datasets": [
+        "GBIF occurrence data",
+        "Te Papa herbarium dataset"
+      ],
+      "methods": [
+        "attribution of specimens to person identifiers",
+        "identifier round-tripping",
+        "linking publications to collections via Wikidata statements"
+      ],
+      "questions": [
+        "How can non-collecting roles in collections (conservation, cataloguing, repair) be attributed?",
+        "How should privacy and legal pressures (Nagoya, DSI) be handled when researcher traces become transparent?"
+      ],
+      "notable_claims": [
+        {
+          "claim": "Wikidata links to over 7,500 other websites, catalogues and databases.",
+          "timestamp": "01:23:04",
+          "confidence": "high"
+        },
+        {
+          "claim": "If a Bionomia user trusts DataCite in ORCID, their auto-deposited Zenodo dataset is added to their ORCID automatically.",
+          "timestamp": "01:26:16",
+          "confidence": "high"
+        },
+        {
+          "claim": "Bionomia only uses Wikidata for deceased people and only uses specimen data already published in GBIF.",
+          "timestamp": "01:35:27",
+          "confidence": "high"
+        }
+      ],
+      "recommendations": [
+        "Add biodiversity contributions and contributors to Wikidata to raise findability and impact.",
+        "Collectors and determiners should create Bionomia profiles via ORCID.",
+        "Link scholarly article items to the collections and datasets they used via 'uses' or 'acknowledges' statements."
+      ],
+      "results_findings": [],
+      "limitations": [
+        "Bionomia does not cover non-collecting/non-identifying roles such as collection care or cataloguing."
+      ],
+      "future_work": [],
+      "examples_case_studies": [
+        "Bionomia profile of the speaker",
+        "Te Papa herbarium dataset profile in Bionomia",
+        "Zenodo community for International Botanical Congress 2024 outreach",
+        "Documentation produced during her Wikimedian-in-residence role at the Bioeconomy Science Institute"
+      ],
+      "q_and_a": [
+        {
+          "question": "Dmitry Schigel proposed that each researcher leaves a single 'thread' of specimens, identifications, expeditions and notes that could be connected into one digital trace, and asked about privacy concerns.",
+          "answer_summary": "Leachman said Wikidata needs citable sources and privacy-aware editors; for living people she adds only what is publicly released, e.g. via ORCID. Schigel clarified he meant professional pressures such as DSI and the Nagoya Protocol; she replied Bionomia uses Wikidata only for deceased people and only published GBIF data.",
+          "timestamp": "01:32:29"
+        },
+        {
+          "question": "Could Wikidata or Bionomia track people who work with collections in roles other than collecting, such as repairs and cataloguing?",
+          "answer_summary": "Not covered by Bionomia. Deb Paul noted a WoRMS project adding Wikidata Q numbers and ORCIDs to taxon-name authors, and Leachman invited collaborators to a related Wikidata project.",
+          "timestamp": "01:35:53"
+        }
+      ],
+      "representative_excerpt": {
+        "timestamp": "01:24:10",
+        "text": "And this type of reuse, again, helps raise the visibility of biodiversity data, be it about people, publications, institutions, locations, taxa, and so on."
+      },
+      "notable_moments": [
+        {
+          "timestamp": "01:21:03",
+          "type": "key_point",
+          "description": "Wikidata as 'the one ring to rule them all'."
+        },
+        {
+          "timestamp": "01:24:45",
+          "type": "demonstration",
+          "description": "Bionomia profiles and attribution of specimens."
+        },
+        {
+          "timestamp": "01:25:53",
+          "type": "key_point",
+          "description": "Automated Zenodo deposits with DataCite DOIs linked to ORCID."
+        },
+        {
+          "timestamp": "01:30:01",
+          "type": "demonstration",
+          "description": "Expeditia expedition visualisations."
+        },
+        {
+          "timestamp": "01:32:29",
+          "type": "question",
+          "description": "Discussion of researcher digital traces and privacy."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "01:20:40",
+          "end_timestamp": "01:37:02"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Speaker, title and content match; presented in person."
+      }
+    },
+    {
+      "id": "salc-2026-09-25-04",
+      "type": "talk",
+      "programme_id": "event-324",
+      "title": "Handling evidence: a cross-disciplinary perspective",
+      "programme": {
+        "title": "Handling evidence: a cross-disciplinary perspective",
+        "speakers": [
+          {
+            "name": "Dmitry Schigel",
+            "affiliation": ""
+          }
+        ],
+        "session": "SYM07 Publishing and Communications Promoting Biodiversity, Natural History Collections, People, Data and Data Standards",
+        "scheduled_start": "9:15 AM",
+        "scheduled_end": "9:30 AM",
+        "abstract": "In documenting biodiversity, empirical evidence dominates over intellectual evidence, and direct evidence co-exists with circumstantial evidence: for example, a wasp sitting on a tree is an example of direct evidence, while a wasp’s nest on a tree is circumstantial evidence. In the same example, however, these two situations bear different signals for biological interpretation: a standalone observation of an adult wasp on a tree supports a broad range of inferences from an occasional migrant to an established resident, but an observation of a wasp nest infers presence of a breeding family and of a population.\n\nWhile historically cross-disciplinary roots of TDWG are shared with at least library science, the present times show symptoms of professional encapsulation with little interaction with sister communities such as GSC or ISO. In my presentation I will invite the audience to combine the in-depth field specific approaches to standards perfection with a broader outlook and seeking inspiration from other disciplines with long tradition of figuring out evidence handing - from the resource science and history as well as from criminal evidence and forensic science.\n\nMoreover, we witness inflation of biodiversity evidence, and a number of reasons can be blamed for the trend - one is the technology-driven acceleration of evidence production, another is the Popperian scientific paradigm, where scientific evidence is needed merely to support or counter hypotheses or theories and is disrespected for its extrinsic value. The increasing popularity of AI may lead to a more balanced co-existence of analytical research with syntheses, and we may expect higher demand and also new pressures to handing biodiversity evidence through standards."
+      },
+      "actual": {
+        "start_timestamp": "01:37:07",
+        "end_timestamp": "01:52:12",
+        "duration_seconds": 905,
+        "speakers": [
+          {
+            "name": "Dmitry Schigel",
+            "affiliation": "GBIF Secretariat"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Pre-recorded video played in the room with the speaker present (he says so at 01:37:08). ASR renders the name as 'Dmitri Shigal', MIxS as 'mixes' and TDWG as 'TWICs'. Only a brief comment followed ('we can talk confidence levels and TaxonWorks') before the next talk.",
+        "transcript_quality": "medium"
+      },
+      "summary": "Dmitry Schigel argued that TDWG standards treat the registration of biodiversity evidence as a flat layer that mixes primary detections with interpretations. Using examples from direct versus circumstantial evidence and a grammatical-tense analogy (living organism, shed skin, eDNA, eRNA), he showed that different evidence supports different inferences, and noted that specimens and samples span a wide range of evidence types. He surveyed how forensic science (Locard's principle, chain of custody), archaeology (context recorded before interpretation, Harris Matrix) and medicine (evidence pyramids, GRADE) separate what was recorded from what was concluded, and proposed that standards evolve to separate detection terms from interpretation terms and carry explicit confidence for identifications.",
+      "one_line_takeaway": "Biodiversity standards should stop treating what was recorded and what was concluded as the same kind of fact, borrowing evidence-handling practice from forensics, archaeology and medicine.",
+      "why_it_matters": "As sensors, eDNA and AI inflate the volume of evidence, explicitly separating detections from versioned, attributable interpretations and grading evidence quality would make data more trustworthy for policy decisions such as Red List assessments.",
+      "key_points": [
+        "Biodiversity recording involves detection, interpretation and registration; TDWG standards register both neutrally in one flat layer.",
+        "Direct evidence varies: an observed organism (present tense), exuvium (past), dry eDNA (present perfect) and eRNA (currently functioning) support different inferences about presence.",
+        "In Darwin Core, instrument readings such as coordinates sit alongside interpretive annotations such as scientificName and identifiedBy with equal status; an occurrence is a detection event plus a taxonomic decision.",
+        "The flat format was a deliberate, successful historical choice (billions of records), but pressure now grows for richer models such as the Darwin Core Data Package and the Humboldt Extension.",
+        "Specimens and samples range from single individuals to tissue, bulk and 'blind' eDNA samples; sequence data inherit evidence from physical samples.",
+        "TDWG shares roots with library science but now has little exchange with GSC or ISO, risking professional encapsulation.",
+        "Forensics logs every evidence transfer; archaeology records context before interpretation and keeps field records, reports and interpretations as separate citable layers; medicine's GRADE separates evidence quality from recommendation strength.",
+        "Proposal: separate detection terms from interpretation terms, make interpretations versioned and attributable, and add terms quantifying confidence in identifications for humans as well as machines."
+      ],
+      "content_type": [
+        "conceptual",
+        "standard"
+      ],
+      "audience_level": "specialist",
+      "themes_raw": [
+        "evidence types in biodiversity data",
+        "separating detection from interpretation",
+        "identification confidence",
+        "cross-disciplinary learning",
+        "data provenance",
+        "evidence quality grading"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "GBIF",
+          "type": "infrastructure"
+        },
+        {
+          "name": "TDWG",
+          "type": "organisation"
+        },
+        {
+          "name": "Genomic Standards Consortium (GSC)",
+          "type": "organisation"
+        },
+        {
+          "name": "ISO",
+          "type": "organisation"
+        },
+        {
+          "name": "GGBN",
+          "type": "organisation"
+        },
+        {
+          "name": "IUCN",
+          "type": "organisation"
+        },
+        {
+          "name": "IPBES",
+          "type": "organisation"
+        }
+      ],
+      "standards": [
+        "Darwin Core",
+        "Darwin Core Data Package",
+        "Humboldt Extension",
+        "MIxS",
+        "GGBN Data Standard",
+        "GRADE framework",
+        "Harris Matrix"
+      ],
+      "software_tools": [],
+      "datasets": [],
+      "methods": [
+        "Locard exchange principle",
+        "chain of custody",
+        "GRADE evidence rating",
+        "Harris Matrix",
+        "levels-of-evidence pyramid"
+      ],
+      "questions": [
+        "What tier of evidence is a record and what inference can it responsibly support?",
+        "Can data models carry as much evidentiary nuance as grammar?"
+      ],
+      "notable_claims": [
+        {
+          "claim": "Darwin Core scientificName and identifiedBy are interpretive layers that sit as equal-status fields beside instrument-derived coordinates in occurrence records.",
+          "timestamp": "01:39:51",
+          "confidence": "high"
+        },
+        {
+          "claim": "Comparatively little exchange happens today between TDWG and neighbouring communities such as GSC or ISO, risking professional encapsulation.",
+          "timestamp": "01:45:02",
+          "confidence": "high"
+        },
+        {
+          "claim": "What is missing is not technical building blocks but the habit of treating interpretations and detections separately.",
+          "timestamp": "01:49:46",
+          "confidence": "high"
+        }
+      ],
+      "recommendations": [
+        "Separate detection and interpretation terms into two groups in future standards.",
+        "Add terms quantifying confidence in identifications, for humans as well as machines.",
+        "Engage with forensic science, archaeology and library science at future TDWG meetings.",
+        "Datasets could carry an explicit evidence-quality grade independent of decisions built on them."
+      ],
+      "results_findings": [],
+      "limitations": [
+        "The speaker notes he did only light research into other disciplines' practices."
+      ],
+      "future_work": [],
+      "examples_case_studies": [
+        "Wasp individuals versus a wasp nest as direct and circumstantial evidence",
+        "Forensic, archaeological and medical evidence handling"
+      ],
+      "q_and_a": [],
+      "representative_excerpt": {
+        "timestamp": "01:51:07",
+        "text": "We could have better interactions and dialogue with forensic science, archaeology, library science in the future TWICs, and we could perhaps stop treating recorded and concluded as the same kind of fact."
+      },
+      "notable_moments": [
+        {
+          "timestamp": "01:38:48",
+          "type": "key_point",
+          "description": "Detection, interpretation and registration as three steps."
+        },
+        {
+          "timestamp": "01:38:54",
+          "type": "key_point",
+          "description": "Grammar tenses as a lens on different kinds of direct evidence."
+        },
+        {
+          "timestamp": "01:45:31",
+          "type": "key_point",
+          "description": "Forensic evidence handling and Locard's principle."
+        },
+        {
+          "timestamp": "01:47:59",
+          "type": "key_point",
+          "description": "Medicine's GRADE framework separating evidence quality from recommendation strength."
+        },
+        {
+          "timestamp": "01:50:00",
+          "type": "recommendation",
+          "description": "Proposal to separate detection from interpretation terms and add identification confidence."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "01:37:07",
+          "end_timestamp": "01:52:12"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Speaker and content match the abstract; delivered as a pre-recorded video with the speaker in the room."
+      }
+    },
+    {
+      "id": "salc-2026-09-25-05",
+      "type": "talk",
+      "programme_id": "event-325",
+      "title": "A Network That Is Social: A Community-Based Model and Plan for Sustaining MorphoSource, a Scholarly 3D Data Repository",
+      "programme": {
+        "title": "A Network That Is Social: A Community-Based Model and Plan for Sustaining MorphoSource, a Scholarly 3D Data Repository",
+        "speakers": [
+          {
+            "name": "Julie Winchester",
+            "affiliation": ""
+          }
+        ],
+        "session": "SYM07 Publishing and Communications Promoting Biodiversity, Natural History Collections, People, Data and Data Standards",
+        "scheduled_start": "9:30 AM",
+        "scheduled_end": "9:45 AM",
+        "abstract": "MorphoSource (https://www.morphosource.org) is a public web repository specializing in 3D images representing physical objects of scholarly importance, containing almost a quarter of a million datasets contributed by over 2,800 scholars and with >250 museum organizational units (from 90+ institutions) actively engaged in long-term management of contributed data. Data in the repository facilitates over 268 unique NSF awards and other funded grants, and the repository has been cited for data access or deposit in ~3,500 scholarly publications. As a data resource, MorphoSource is unique in that stakeholders from research, education, publishing, collections, and imaging communities interactively contribute, manage, and access reposited 3D data representing natural history and cultural heritage objects. The design model for this infrastructure is explicitly community-based, with an emphasis on empowering groups and resources from different domains to maximize efficiency (e.g., linking to specimen databases and aggregators for object records, improving researcher data contribution workflows, providing publications with transparent persistent identifiers, enabling museum collections staff to exercise long-term data management where appropriate, etc.). Similarly, long term support for this resource must also involve the communities that find it most useful. MorphoSource is currently transitioning to a community support model engaging different stakeholders in different ways. After considering many approaches, this model was created specifically to help sustain MorphoSource without compromising its core mission of democratizing access to data. We will discuss this model and our progress in implementing it, focusing on how we have involved our user communities in the process."
+      },
+      "actual": {
+        "start_timestamp": "01:52:15",
+        "end_timestamp": "02:07:05",
+        "duration_seconds": 890,
+        "speakers": [
+          {
+            "name": "Julie Winchester",
+            "affiliation": "MorphoSource, Duke University"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Virtual talk as programmed; played as a recording. Chair confirms Julie Winchester; the speaker mentions co-director Doug Boyer. There is a silent gap in the transcript between 01:54:08 and 01:54:48. The chair adds a closing remark about the end of 'free' infrastructure.",
+        "transcript_quality": "high"
+      },
+      "summary": "Julie Winchester presented MorphoSource, a Duke-hosted repository for 3D, 2D and AV media of scholarly objects, and its plan to move from NSF grant funding to a community-supported model. She summarised its scale (over a quarter of a million datasets, 96,000 specimens, 2,900 contributors, 32,000 users, about 3,000 citing articles) and running costs (about $400k/year staff plus $25k storage). The model combines voluntary user pledge drives, scholarly society sponsorships, tiered museum subscriptions for organisation-level management features (with a free tier), journal subscriptions and deposit fees, backstopped by Duke, with longer-term plans for shared infrastructure with the KU Biodiversity Institute.",
+      "one_line_takeaway": "MorphoSource will sustain open access to 3D data by charging museums, journals, societies and depositors, never downloaders, as NSF funding ends.",
+      "why_it_matters": "It is a concrete, costed example of how a widely used community data infrastructure can shift to community funding without closing access, relevant to many biodiversity data services facing the end of grant funding.",
+      "key_points": [
+        "MorphoSource supports 3D meshes, point clouds, CT volumes, photogrammetry series, histology and video, with IIIF-based interactive previews and annotation tools.",
+        "Launched in 2013 at Duke, supported by NSF grants since 2017; current funding runway ends toward the end of next year.",
+        "Scale: over 250,000 datasets, 96,000 specimens from almost 2,000 collection organisations, 2,900 contributors, 32,000 registered users, over 25,000 taxa.",
+        "Impact: over a million media downloaded since 2013, broad non-research use (schools, public, artists), at least 3,000 citing articles (about 640 in 2025), over 100 NSF abstracts mentioning it.",
+        "In a survey of 750 respondents, MorphoSource was named as often as aggregated NCBI repositories as a data source.",
+        "Costs: four FTE at about $400k/year plus $25k storage, rising $2,500/year; a steady state could run on about $300k.",
+        "Revenue model: quarterly voluntary pledge drives (first in October), sponsorship from about 12 scholarly societies, four paid museum subscription tiers plus a free tier, journal subscriptions, and deposit fees; never charging for access or registration.",
+        "Museums not subscribing lose management tools in early 2027; Duke provides a backstop; long-term aims include a node network and shared governance with KU."
+      ],
+      "content_type": [
+        "infrastructure",
+        "policy/governance",
+        "case study"
+      ],
+      "audience_level": "general",
+      "themes_raw": [
+        "repository sustainability",
+        "3D digitisation data",
+        "community funding models",
+        "open access infrastructure",
+        "museum data management",
+        "research infrastructure costs"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "MorphoSource",
+          "type": "platform"
+        },
+        {
+          "name": "Duke University",
+          "type": "organisation"
+        },
+        {
+          "name": "US National Science Foundation",
+          "type": "funder"
+        },
+        {
+          "name": "KU Biodiversity Institute and Natural History Museum",
+          "type": "organisation"
+        },
+        {
+          "name": "NCBI GenBank/SRA",
+          "type": "repository"
+        },
+        {
+          "name": "IIIF",
+          "type": "standard"
+        }
+      ],
+      "standards": [
+        "IIIF"
+      ],
+      "software_tools": [
+        "MorphoSource"
+      ],
+      "datasets": [],
+      "methods": [
+        "tiered subscription pricing",
+        "pledge drives",
+        "deposit fees"
+      ],
+      "questions": [],
+      "notable_claims": [
+        {
+          "claim": "MorphoSource is, to their knowledge, the largest scholarly repository for 3D imagery, with more than a quarter of a million datasets.",
+          "timestamp": "01:55:27",
+          "confidence": "high"
+        },
+        {
+          "claim": "At least 3,000 articles have cited MorphoSource through 2025, about 640 of them in 2025.",
+          "timestamp": "01:58:00",
+          "confidence": "high"
+        },
+        {
+          "claim": "Running the service costs about $400,000 a year for four full-time staff plus about $25,000 for storage.",
+          "timestamp": "01:59:09",
+          "confidence": "high"
+        },
+        {
+          "claim": "Charging for registration or data access would go against the mission of democratising access to data.",
+          "timestamp": "02:01:21",
+          "confidence": "high"
+        }
+      ],
+      "recommendations": [],
+      "results_findings": [
+        "Communications with the community about the paid model have mostly been positively received; one scholarly society has already committed funds."
+      ],
+      "limitations": [
+        "Journal subscriptions are expected to take longer to establish.",
+        "Subsidised deposits will decline over time."
+      ],
+      "future_work": [
+        "First user donation drive in October 2026",
+        "Explore node network and shared infrastructure with KU",
+        "Endowments and donor opportunities",
+        "Aim for a stable revenue portfolio within five years"
+      ],
+      "examples_case_studies": [
+        "MorphoSource sustainability plan"
+      ],
+      "q_and_a": [],
+      "representative_excerpt": {
+        "timestamp": "02:01:21",
+        "text": "As an open access repository where media are owned by data contributors and museums, it goes against our mission of democratizing access to data to ever charge for registration or data access."
+      },
+      "notable_moments": [
+        {
+          "timestamp": "01:55:27",
+          "type": "key_point",
+          "description": "Scale of MorphoSource holdings and users."
+        },
+        {
+          "timestamp": "01:59:09",
+          "type": "key_point",
+          "description": "Annual operating costs."
+        },
+        {
+          "timestamp": "02:00:43",
+          "type": "key_point",
+          "description": "The community-based sustainability model and its revenue streams."
+        },
+        {
+          "timestamp": "02:06:47",
+          "type": "key_point",
+          "description": "Chair comment: the era of infrastructure being provided free is ending."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "01:52:15",
+          "end_timestamp": "02:07:05"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Virtual/pre-recorded talk as programmed."
+      }
+    },
+    {
+      "id": "salc-2026-09-25-06",
+      "type": "talk",
+      "programme_id": "event-326",
+      "title": "Hit or miss? Creative promotion of biodiversity data and standards for success and recognition",
+      "programme": {
+        "title": "Hit or miss? Creative promotion of biodiversity data and standards for success and recognition",
+        "speakers": [
+          {
+            "name": "Shelley James",
+            "affiliation": ""
+          }
+        ],
+        "session": "SYM07 Publishing and Communications Promoting Biodiversity, Natural History Collections, People, Data and Data Standards",
+        "scheduled_start": "9:45 AM",
+        "scheduled_end": "10:00 AM",
+        "abstract": "Let’s think outside the box as to how biodiversity data, standards, collections, and their human creators can be better promoted and recognized through forms of publication. What are the journals, data aggregators, or other formats in which you publish information, and what audiences do they reach (or not)? Are they local, national or international in scope? If you contribute as a reviewer or editor, tell us about your experiences. Do they effectively link information or use standards in their publishing? Did you know there are article types that could be more effectively used, including standards, guidelines, case studies, collection descriptions, data papers, and methods? When considering authorship, who gets included or excluded? Does your leadership value non-formal publication, and if it does, what models have been successful? It’s also important to share our disappointments in order to strategize how to move forward. . Please share what skills, knowledge or tools do you feel you are lacking to pitch your work. Might collaboration be the answer? While time is often a limiting resource, what else is preventing you from getting creative, gaining more experience and promoting your work for success? What tools, for example, AI and APIs, could help? What might improve our ways to track success more effectively? Let’s ensure the works we publish, or the materials we develop, make a strategic impact on people, departments, organizations and funders. This introductory and interactive presentation encourages everyone to bring experiences and ideas to share."
+      },
+      "actual": {
+        "start_timestamp": "02:07:08",
+        "end_timestamp": "02:25:45",
+        "duration_seconds": 1117,
+        "speakers": [
+          {
+            "name": "Shelley James",
+            "affiliation": "Western Australian Herbarium"
+          },
+          {
+            "name": "Deborah Paul",
+            "affiliation": "Species File Group"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Presented jointly by Shelley James and Deb Paul as 'the Shelley and Deb show', with Julia Percy-Powell (ASR spelling uncertain) online and Ellie Wallace moderating online participation. Interactive format with multiple audience contributions (David Fichtmueller, 'Peter', 'Arthur' and Dmitry Schigel among them). ASR renders ORPHO/ARPHA as 'Orfo'/'Arpha'/'Afo' and TDWG as 'TadWIG'.",
+        "transcript_quality": "medium"
+      },
+      "summary": "Shelley James and Deb Paul led an interactive session asking what counts as a publication, whether institutions credit software and datasets, and which audiences the community fails to reach. Audience members described getting credit via Zenodo DOIs and funder CV sections, the long-term impact of taxonomy not captured by short-term metrics, the gap between formal evaluation boxes and informal profiles, and the need to reach the private sector. The presenters promoted the diamond open access journal they edit and BISS at Pensoft, the new ORPHO authoring tool, cheap engaging swag, digitising hidden collections, publishing protocols and creative outputs (art auctions, animated talk illustrations) on Zenodo with DOIs, and registering names in nomenclatural registries.",
+      "one_line_takeaway": "The community should broaden what it counts and publishes as outputs, and deliberately reach new audiences with creative, citable formats.",
+      "why_it_matters": "Recognition of datasets, software, protocols and outreach shapes careers and funding in biodiversity informatics, and the discussion surfaced both practical tactics and structural barriers in evaluation systems.",
+      "key_points": [
+        "Publications can include software, tutorials, datasets, blog posts, grey literature and even collection tours.",
+        "Institutions often recognise only formal peer-reviewed outputs, unlike individuals' broader view.",
+        "Audience: dataset and software DOIs (e.g. via Zenodo) and funder forms such as Horizon Europe or NSF 'other outputs' sections are routes to credit.",
+        "Taxonomic publications may have impact over a century, unlike fast-cycle fields, which short-term metrics miss.",
+        "Formal evaluations (tenure, docentship, Academy of Finland) have fixed boxes; 'digital recognition' matters only if that 'market' accepts it.",
+        "Deb Paul warned that early-career researchers in the US have faced negative reactions from colleagues for using AI-generated images.",
+        "CETAF's strategy emphasises engaging the private sector, a heavy but under-recognised user of GBIF data (e.g. banking).",
+        "Tactics: publish in the Pensoft diamond open access journal and BISS, use Pensoft's ORPHO authoring tool, make inexpensive memorable swag, digitise hidden collections, and put protocols, art and animated talk illustrations on Zenodo with DOIs."
+      ],
+      "content_type": [
+        "community/project",
+        "policy/governance",
+        "discussion"
+      ],
+      "audience_level": "general",
+      "themes_raw": [
+        "research credit and recognition",
+        "non-traditional outputs",
+        "science communication",
+        "audience reach",
+        "open access publishing",
+        "private sector engagement",
+        "hidden collections"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "Pensoft",
+          "type": "organisation"
+        },
+        {
+          "name": "Biodiversity Information Science and Standards (BISS)",
+          "type": "journal"
+        },
+        {
+          "name": "ORPHO",
+          "type": "software"
+        },
+        {
+          "name": "ARPHA",
+          "type": "software"
+        },
+        {
+          "name": "Zenodo",
+          "type": "repository"
+        },
+        {
+          "name": "Western Australian Herbarium",
+          "type": "organisation"
+        },
+        {
+          "name": "Species File Group",
+          "type": "organisation"
+        },
+        {
+          "name": "University of Cambridge Herbarium",
+          "type": "organisation"
+        },
+        {
+          "name": "CETAF",
+          "type": "organisation"
+        },
+        {
+          "name": "Horizon Europe",
+          "type": "funder"
+        },
+        {
+          "name": "National Science Foundation",
+          "type": "funder"
+        },
+        {
+          "name": "Academy of Finland",
+          "type": "funder"
+        },
+        {
+          "name": "ZooBank",
+          "type": "registry"
+        },
+        {
+          "name": "MycoBank",
+          "type": "registry"
+        },
+        {
+          "name": "IPNI",
+          "type": "registry"
+        },
+        {
+          "name": "GBIF",
+          "type": "infrastructure"
+        }
+      ],
+      "standards": [],
+      "software_tools": [
+        "ORPHO",
+        "ARPHA",
+        "Zenodo"
+      ],
+      "datasets": [],
+      "methods": [],
+      "questions": [
+        "What does your institution consider a publication?",
+        "Which audiences do you wish you were reaching?",
+        "What would make datasets easier to create, publish and use?"
+      ],
+      "notable_claims": [
+        {
+          "claim": "Shelley James has digitised about 15,000 Australian specimens at the University of Cambridge Herbarium in her own holiday time, bringing them into research use.",
+          "timestamp": "02:22:21",
+          "confidence": "high"
+        },
+        {
+          "claim": "An art-donation fundraiser raised $4,000, used to bring students to conferences, and its model is published on Zenodo.",
+          "timestamp": "02:23:29",
+          "confidence": "high"
+        },
+        {
+          "claim": "Animated talk illustrations from a workshop on collections and pathogen preparedness are on Zenodo with DOIs and have been downloaded thousands of times.",
+          "timestamp": "02:24:22",
+          "confidence": "medium"
+        }
+      ],
+      "recommendations": [
+        "Deposit software, protocols and creative outputs on Zenodo to obtain DOIs.",
+        "Submit extended abstracts and papers to BISS and the Pensoft diamond open access journal; volunteer as editors.",
+        "Use inexpensive, story-telling swag to reach new audiences.",
+        "Use the social platforms where audiences actually are (Instagram, TikTok) rather than Facebook."
+      ],
+      "results_findings": [],
+      "limitations": [
+        "Institutional recognition of non-traditional outputs varies and is outside individuals' control."
+      ],
+      "future_work": [
+        "Continue the discussion at the break and at the Unconference."
+      ],
+      "examples_case_studies": [
+        "Digitisation of Australian specimens at the University of Cambridge Herbarium",
+        "Art donation fundraiser for student travel",
+        "Animated talks from a natural history collections and pathogen preparedness workshop"
+      ],
+      "q_and_a": [
+        {
+          "question": "How do you get credit for software?",
+          "answer_summary": "Peter said his team deposits software on Zenodo for DOIs and is credited through its known role in collaborative projects; David Fichtmueller noted dataset publications with DOIs count as research outcomes in his group.",
+          "timestamp": "02:10:37"
+        },
+        {
+          "question": "Audience comment (Arthur) on recognition by funders.",
+          "answer_summary": "In Brazil, funders led by physicists valued fast high-impact publications, while taxonomic work may only become important after 100 years, so its long-term impact is not recognised.",
+          "timestamp": "02:11:45"
+        },
+        {
+          "question": "Which audiences are not being reached?",
+          "answer_summary": "Dmitry Schigel contrasted informal self-promotion with rigid formal evaluation templates, arguing digital recognition only matters if evaluators accept it; a CETAF vice president said the private sector is the key unreached audience.",
+          "timestamp": "02:13:45"
+        }
+      ],
+      "representative_excerpt": {
+        "timestamp": "02:21:40",
+        "text": "There's really inexpensive ways to pitch your ideas and your products and your publications and your work to others. And when someone says, \"Oh, that's a cool sticker,\" you can tell the story, and it's fabulous."
+      },
+      "notable_moments": [
+        {
+          "timestamp": "02:09:04",
+          "type": "question",
+          "description": "What do you consider a publication or product?"
+        },
+        {
+          "timestamp": "02:14:37",
+          "type": "key_point",
+          "description": "Schigel on formal evaluation systems and the 'market' for digital recognition."
+        },
+        {
+          "timestamp": "02:16:21",
+          "type": "key_point",
+          "description": "Deb Paul on early-career researchers penalised for using AI-generated images."
+        },
+        {
+          "timestamp": "02:17:40",
+          "type": "key_point",
+          "description": "Private sector as an unreached audience (CETAF strategy)."
+        },
+        {
+          "timestamp": "02:23:29",
+          "type": "example",
+          "description": "Art auction fundraiser and animated talks on Zenodo."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "02:07:08",
+          "end_timestamp": "02:25:45"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Title and content match; Shelley James co-presented with Deb Paul."
+      }
+    },
+    {
+      "id": "salc-2026-09-25-07",
+      "type": "talk",
+      "programme_id": "event-354",
+      "title": "Building a Living Publication Workflow for Long-Term Social-Ecological Monitoring Data: The Taiwan LTSER Experience",
+      "programme": {
+        "title": "Building a Living Publication Workflow for Long-Term Social-Ecological Monitoring Data: The Taiwan LTSER Experience",
+        "speakers": [
+          {
+            "name": "Jhu-Jyun Jhang",
+            "affiliation": ""
+          }
+        ],
+        "session": "SYM28 From Standards to Implementation: Connecting Observation Data in Asia to GBIF Infrastructure",
+        "scheduled_start": "10:40 AM",
+        "scheduled_end": "10:55 AM",
+        "abstract": "Long-term social-ecological monitoring data are growing, continuously updated resources that require living publication workflows rather than one-time releases. In long-term social-ecological research networks, biodiversity observations are often collected with environmental, social, and site-based monitoring data. This makes it challenging to extract biodiversity relevant records and routinely transform, validate, and publish them through GBIF compatible infrastructures.\n\nTaiwan LTSER is developing a semi-automated workflow to help continuously updated monitoring datasets move toward Darwin Core alignment. The workflow uses depositar, a research data repository for managing and sharing datasets with metadata, to bridge local data management practices and downstream biodiversity data publication infrastructures.\n\nFrom this repository-based entry point, scheduled checks detect dataset updates and evaluate whether records can be aligned with Darwin Core. In this approach, biodiversity data standards are implemented as workflow checkpoints rather than tasks left to individual researchers. Datasets that require revision can be returned to project contacts for correction, while datasets that meet the requirements are first presented on the LTSER portal and then prepared for further publication through TaiBIF IPT and GBIF.\n\nThe Taiwan LTSER experience shows how a living publication workflow can reduce manual work, lower technical barriers, and connect distributed long-term monitoring data to global biodiversity infrastructures. It demonstrates that the key implementation challenge is not only adopting data standards, but embedding them into practical, repeatable workflows that fit real research settings."
+      },
+      "actual": {
+        "start_timestamp": "02:55:00",
+        "end_timestamp": "03:02:43",
+        "duration_seconds": 463,
+        "speakers": [
+          {
+            "name": "Jhu-Jyun Jhang",
+            "affiliation": "TaiBIF"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Chair introduces 'Zhujun Jiang' (ASR for Jhu-Jyun Jhang); the co-moderator later says 'Jizhon Jiang'. ASR renders depositar as 'Deposita', TaiBIF as 'TBR'/'Type If' and the portal as 'LT Portals'. The speaker says he is a developer from a GBIF node in Taiwan; the next Taiwanese speaker says he is 'also from TaiBIF as the first speaker'. Questions were deferred to the end of the session but no general discussion followed.",
+        "transcript_quality": "medium"
+      },
+      "summary": "Jhu-Jyun Jhang presented a semi-automated 'living' publication workflow for Taiwan's Long-Term Social-Ecological Research (LTSER) network, which collects ecological, environmental and social data. Research teams fill a co-designed data template and upload to the depositar repository; a robot polls the depositar API daily, validates updated datasets against the template, emails contacts on failure, loads valid data into the LTSER portal, maps them to Darwin Core, syncs to the TaiBIF IPT and publishes to GBIF and TBIA. Four datasets have been published this way so far.",
+      "one_line_takeaway": "Embedding Darwin Core alignment as automated checkpoints in a repository-based pipeline keeps continuously updated monitoring data flowing to GBIF.",
+      "why_it_matters": "Long-term monitoring data are rarely republished after updates; an automated pipeline lowers the burden on researchers and keeps GBIF copies current.",
+      "key_points": [
+        "Taiwan LTSER is a site-based monitoring project combining ecological, environmental and social data to understand climate change and human impacts.",
+        "Continuously growing datasets make one-time publication inadequate; repeated extraction and Darwin Core alignment is costly, so data risk never reaching biodiversity infrastructures.",
+        "The workflow has three phases: research teams preparing data, an automated robot/script phase, and publication to GBIF and TBIA.",
+        "An LTSER data template co-designed with each team specifies field name, definition, data type, controlled values, examples and requirement status, easing later Darwin Core mapping.",
+        "depositar provides public data/metadata APIs, multiple formats and persistent ARK identifiers.",
+        "A robot checks depositar daily at 3 a.m.; updated datasets are validated, invalid ones trigger an email to the team contact, valid ones go to the LTSER portal, are mapped to Darwin Core and synced to the TaiBIF IPT.",
+        "Four datasets have been published through the workflow."
+      ],
+      "content_type": [
+        "workflow/method",
+        "infrastructure",
+        "case study"
+      ],
+      "audience_level": "intermediate",
+      "themes_raw": [
+        "living data publication",
+        "long-term monitoring data",
+        "automated Darwin Core mapping",
+        "repository-to-GBIF pipelines",
+        "data templates"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "Taiwan LTSER",
+          "type": "project"
+        },
+        {
+          "name": "depositar",
+          "type": "repository"
+        },
+        {
+          "name": "TaiBIF",
+          "type": "organisation"
+        },
+        {
+          "name": "GBIF",
+          "type": "infrastructure"
+        },
+        {
+          "name": "TBIA (Taiwan Biodiversity Information Alliance)",
+          "type": "platform"
+        },
+        {
+          "name": "IPT",
+          "type": "software"
+        },
+        {
+          "name": "ARK",
+          "type": "identifier system"
+        }
+      ],
+      "standards": [
+        "Darwin Core",
+        "ARK identifiers"
+      ],
+      "software_tools": [
+        "depositar",
+        "IPT",
+        "LTSER portal"
+      ],
+      "datasets": [
+        "Taiwan LTSER monitoring datasets"
+      ],
+      "methods": [
+        "scheduled API polling and validation",
+        "automated Darwin Core mapping",
+        "co-designed data templates"
+      ],
+      "questions": [],
+      "notable_claims": [
+        {
+          "claim": "For long-term monitoring data a one-time publication is simply not enough.",
+          "timestamp": "02:56:56",
+          "confidence": "high"
+        },
+        {
+          "claim": "A robot checks the depositar API every day at 3:00 a.m. for dataset updates, which trigger the whole workflow.",
+          "timestamp": "02:59:48",
+          "confidence": "high"
+        },
+        {
+          "claim": "Four datasets have been published through the workflow so far.",
+          "timestamp": "03:01:23",
+          "confidence": "high"
+        }
+      ],
+      "recommendations": [],
+      "results_findings": [
+        "Four LTSER datasets published to GBIF/TBIA through the semi-automated workflow."
+      ],
+      "limitations": [],
+      "future_work": [],
+      "examples_case_studies": [
+        "Taiwan LTSER network"
+      ],
+      "q_and_a": [],
+      "representative_excerpt": {
+        "timestamp": "03:01:36",
+        "text": "So finally, I would like to address that the goal of this workflow is not a one-time publication. We are trying to make the entire workflow living."
+      },
+      "notable_moments": [
+        {
+          "timestamp": "02:57:16",
+          "type": "key_point",
+          "description": "Overview of the three-phase semi-automated workflow."
+        },
+        {
+          "timestamp": "02:58:59",
+          "type": "key_point",
+          "description": "depositar as repository hub with APIs and ARK identifiers."
+        },
+        {
+          "timestamp": "02:59:43",
+          "type": "demonstration",
+          "description": "The automated validation, portal load and Darwin Core mapping steps."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "02:55:00",
+          "end_timestamp": "03:02:43"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Title and content match; speaker name garbled by ASR."
+      }
+    },
+    {
+      "id": "salc-2026-09-25-08",
+      "type": "talk",
+      "programme_id": "event-355",
+      "title": "Snapshot Japan: A Community-Driven Network for Large-Scale Wildlife Biodiversity Monitoring Using Camera Traps",
+      "programme": {
+        "title": "Snapshot Japan: A Community-Driven Network for Large-Scale Wildlife Biodiversity Monitoring Using Camera Traps",
+        "speakers": [
+          {
+            "name": "Kumiko Totsu",
+            "affiliation": ""
+          },
+          {
+            "name": "Kana Terayama",
+            "affiliation": ""
+          }
+        ],
+        "session": "SYM28 From Standards to Implementation: Connecting Observation Data in Asia to GBIF Infrastructure",
+        "scheduled_start": "10:55 AM",
+        "scheduled_end": "11:10 AM",
+        "abstract": "To understand global biodiversity change, standardized data and common monitoring methods are increasingly important. This presentation introduces Snapshot Japan, a Japan-based network inspired by Snapshot Global. Since 2023, annual surveys have been conducted during September-October with participation from researchers, citizen groups, museums, schools, and private companies. Camera trap images are managed on Wildlife Insights and cross-checked prior to data paper publication.\n\nParticipation has been promoted through mailing lists, a dedicated website, camera trap lending, online orientation sessions, manuals, and email/chat support. Participant feedback is incorporated into annual operational improvements. Snapshot Japan has also developed a web application for visualizing Wildlife Insights data and calculating Relative Abundance Index (RAI).\n\nThe number of survey sites increased from 9 in 2023 to 65 in 2025. Participation from high schools and private companies notably increased in 2025, partly reflecting growing interest in Nature Positive activities. The network has facilitated collaboration among academic, citizen science, educational, and private-sector communities.\n\nTo promote international data reuse, datasets are published through GBIF in Camtrap DP format, an international standard for camera trap data. These data are also available through Wild Album. In addition, an R package for converting Wildlife Insights data into Camtrap DP has been developed, and a non-R application is under development. Although participation from Asian countries in Snapshot Global remains limited, Snapshot Japan could provide a practical model for expanding standardized camera trap monitoring networks across Asia."
+      },
+      "actual": {
+        "start_timestamp": "03:02:45",
+        "end_timestamp": "03:16:53",
+        "duration_seconds": 848,
+        "speakers": [
+          {
+            "name": "Kumiko Totsu",
+            "affiliation": "National Institute for Environmental Studies, Japan"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Introduced by the co-moderator as 'Kumiko Tutsu'. Totsu presented on behalf of the Snapshot Japan management team (of which she is not a member) because colleagues could not attend. ASR renders Camtrap DP as 'CamtrapDB' and Wild Album as 'Wildlife Album'.",
+        "transcript_quality": "medium"
+      },
+      "summary": "Kumiko Totsu presented Snapshot Japan, the only Asian regional initiative of Snapshot Global, which runs a standardised annual September-October camera-trap survey with researchers, citizen groups, schools, NPOs and companies. She described the protocol (at least eight unbaited cameras per site, 200 m-5 km apart, site selection by disturbance level and habitat), participant support (websites, help desk, webinars, camera lending, a participant-only Shiny visualisation app), and the data flow from Wildlife Insights through expert-checked identifications to Camtrap DP conversion with an R tool, publication as data papers in Biodiversity Data Journal and on GBIF. Sites grew from 9 in 2023 to 32 in 2024 and 65 in 2025.",
+      "one_line_takeaway": "Community support plus a simple standard protocol and Camtrap DP publishing let Snapshot Japan scale camera-trap monitoring from 9 to 65 sites in three years.",
+      "why_it_matters": "It is a practical model for extending standardised camera-trap monitoring and GBIF publication into Asia, where Snapshot Global coverage is thin.",
+      "key_points": [
+        "Long-term citizen monitoring needs community maintenance, quality control of identification and protocols, and internationally standardised data formats.",
+        "Snapshot Japan was established in 2023 with eight principal investigators; a five-person management team runs it.",
+        "Annual cycle: QC and publication of the previous year's data, participant feedback, recruitment, deployment in September-October, tutorials, and uploading by a deadline.",
+        "Protocol: at least eight cameras per site, 200 m to 5 km apart, no bait or lures, site selection by combinations of disturbance level and habitat type.",
+        "Data are uploaded and tagged in Wildlife Insights, checked by the management team with taxonomic experts, converted to Camtrap DP with an R tool on GitHub, and published as data papers and GBIF datasets; a beginner-friendly converter is being developed.",
+        "Sites increased from 9 (2023) to 32 (2024) to 65 (2025), covering Hokkaido to Okinawa, with growing participation from NPOs, companies and high schools.",
+        "Participants joined mainly out of interest, for camera lending, and through recommendations within research networks.",
+        "Data are viewable in Wild Album, a GBIF-hosted portal, and via a participant-only Shiny app."
+      ],
+      "content_type": [
+        "community/project",
+        "workflow/method",
+        "dataset",
+        "case study"
+      ],
+      "audience_level": "general",
+      "themes_raw": [
+        "camera trap monitoring",
+        "citizen science networks",
+        "standardised survey protocols",
+        "Camtrap DP publishing",
+        "monitoring in Asia",
+        "participant support and retention"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "Snapshot Japan",
+          "type": "project"
+        },
+        {
+          "name": "Snapshot Global",
+          "type": "project"
+        },
+        {
+          "name": "National Institute for Environmental Studies (NIES)",
+          "type": "organisation"
+        },
+        {
+          "name": "Wildlife Insights",
+          "type": "platform"
+        },
+        {
+          "name": "GBIF",
+          "type": "infrastructure"
+        },
+        {
+          "name": "Biodiversity Data Journal",
+          "type": "journal"
+        },
+        {
+          "name": "Wild Album",
+          "type": "platform"
+        },
+        {
+          "name": "Shiny",
+          "type": "software"
+        }
+      ],
+      "standards": [
+        "Camtrap DP"
+      ],
+      "software_tools": [
+        "Wildlife Insights",
+        "R conversion tool from Wildlife Insights to Camtrap DP",
+        "Shiny visualisation app",
+        "Wild Album"
+      ],
+      "datasets": [
+        "Snapshot Japan camera trap datasets 2023-2025"
+      ],
+      "methods": [
+        "standardised camera-trap survey protocol",
+        "expert review of species identifications",
+        "relative abundance index (RAI) visualisation"
+      ],
+      "questions": [],
+      "notable_claims": [
+        {
+          "claim": "Japan is currently the only Snapshot regional initiative in Asia.",
+          "timestamp": "03:06:08",
+          "confidence": "high"
+        },
+        {
+          "claim": "Survey sites grew from 9 in 2023 to 32 in 2024 and 65 in 2025.",
+          "timestamp": "03:12:01",
+          "confidence": "high"
+        },
+        {
+          "claim": "The most common reasons for joining were interest in the project, access to camera lending, and recommendations through research networks.",
+          "timestamp": "03:12:54",
+          "confidence": "high"
+        }
+      ],
+      "recommendations": [
+        "Practical support and connections within the community are important for growing a monitoring network."
+      ],
+      "results_findings": [
+        "Rapid growth in sites and participant diversity; annual data papers and GBIF datasets in Camtrap DP."
+      ],
+      "limitations": [],
+      "future_work": [
+        "A non-R converter for beginners is under development.",
+        "Encourage more Asian groups to join Snapshot Global."
+      ],
+      "examples_case_studies": [
+        "Snapshot Japan 2023-2025 surveys"
+      ],
+      "q_and_a": [
+        {
+          "question": "Dmitry Schigel encouraged a Camtrap DP guide for insects and suggested using Japan's camera traps (e.g. near fruiting shrubs in Kanazawa) to capture species interactions such as frugivory, a known gap in Darwin Core.",
+          "answer_summary": "Totsu said they may expand methods in future but currently follow the simple standard protocol to integrate with global data.",
+          "timestamp": "03:15:15"
+        }
+      ],
+      "representative_excerpt": {
+        "timestamp": "03:13:25",
+        "text": "So it's really important to have a practical support, something like community building as well as connection between the people inside a community to grow this network."
+      },
+      "notable_moments": [
+        {
+          "timestamp": "03:08:40",
+          "type": "key_point",
+          "description": "Standard survey protocol."
+        },
+        {
+          "timestamp": "03:10:26",
+          "type": "key_point",
+          "description": "Data workflow from Wildlife Insights to Camtrap DP and GBIF."
+        },
+        {
+          "timestamp": "03:11:48",
+          "type": "result",
+          "description": "Growth from 9 to 65 sites."
+        },
+        {
+          "timestamp": "03:15:15",
+          "type": "question",
+          "description": "Suggestion to capture species interactions with camera traps."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "03:02:45",
+          "end_timestamp": "03:16:53"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Presented by Kumiko Totsu (listed first) on behalf of the management team; co-author Kana Terayama not present."
+      }
+    },
+    {
+      "id": "salc-2026-09-25-09",
+      "type": "talk",
+      "programme_id": "event-356",
+      "title": "Reporting structure and sampling-bias correction in citizen-science bird data across Asian cities",
+      "programme": {
+        "title": "Reporting structure and sampling-bias correction in citizen-science bird data across Asian cities",
+        "speakers": [
+          {
+            "name": "Yeshan Qiu",
+            "affiliation": ""
+          }
+        ],
+        "session": "SYM28 From Standards to Implementation: Connecting Observation Data in Asia to GBIF Infrastructure",
+        "scheduled_start": "11:10 AM",
+        "scheduled_end": "11:25 AM",
+        "abstract": "Citizen-science bird records are widely reused in urban biodiversity research through GBIF. Their value depends not only on record volume, but also on whether sampling effort, observer identity, checklist type, and observation locations are documented. Because these reporting features vary among cities, common bias-adjustment methods, including complete-checklist filtering, effort or observer covariates, occupancy models, spatial thinning, and accessibility-related corrections, may not be equally feasible.\n\nWe examine how reporting structure affects the diagnosis and correction of sampling bias in urban bird data. Using GBIF-mediated bird occurrence records from 2021 across 14 cities in Southeast, East, and South Asia, we compare record volume, checklist availability, observer participation, temporal continuity, and spatial concentration. We ask whether these reporting differences correspond to spatial bias patterns, and how biodiversity estimates and biodiversity-environment relationships change under different bias-adjustment choices.\n\nFor each city, we summarise reporting structure using record and checklist counts, unique-observer counts, observer dominance, temporal continuity, and spatial concentration. We explore spatial bias by modelling observation intensity against variables representing accessibility, repeated-site use, observer activity, and environmental-gradient coverage. We then compare biodiversity models fitted with effort covariates, observation-process proxies, and combined approaches.\n\nThe study identifies where standard correction strategies are feasible, where proxy-based approaches are needed, and where data should be limited to descriptive use. It links citizen-science data reuse to reporting standards and fitness-for-use discussions."
+      },
+      "actual": {
+        "start_timestamp": "03:16:58",
+        "end_timestamp": "03:33:47",
+        "duration_seconds": 1009,
+        "speakers": [
+          {
+            "name": "Yeshan Qiu",
+            "affiliation": "Singapore-ETH Centre, Comparative Ecology of Cities project"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Introduced as 'Yixian Qiu' and thanked as 'Yexin' (ASR for Yeshan Qiu). The talk describes 2024 GBIF data for 13 cities whereas the abstract states 2021 and 14 cities. 'Dakar' in the city list is likely ASR for Dhaka. One figure did not display during the talk.",
+        "transcript_quality": "medium"
+      },
+      "summary": "Yeshan Qiu, from the user side, examined how citizen-science reporting structure shapes what GBIF bird data can support in urban biodiversity analysis. Using about 2.6 million cleaned 2024 GBIF bird records across 13 Asian cities on 2 km grids, she characterised spatial support, environmental representation, inventory/observer support and effects on ecological inference. Reporting was uneven across and within cities, concentrated in accessible places (dense roads, near parks and water) and increasingly compressed in larger cities; standardising to 10 reporting events per grid shrank the apparent richness gap between high- and low-reporting grids from 2.9x to 1.6x and changed urban pattern-biodiversity relationships (road density effect from about -0.2 to -0.4).",
+      "one_line_takeaway": "Abundant citizen-science records do not guarantee inference support; reporting structure can distort richness hotspots and urban-biodiversity relationships unless it is diagnosed and controlled.",
+      "why_it_matters": "Cross-city urban ecology increasingly relies on GBIF and eBird data; this work shows when conclusions are safe and argues for richer sampling-event metadata and fitness-for-use frameworks.",
+      "key_points": [
+        "Observed occurrence patterns combine the ecological process and an observation/reporting process driven by where people go and report.",
+        "Framework of four gaps: spatial reporting support, environmental representation, inventory and observer support, and effect on ecological inference.",
+        "Data: GBIF bird occurrences from 2024 across 13 Asian cities, about 2.6 million records after cleaning, about 2 million within 2 km analysis grids; predictors cover accessibility, built form, vegetation, water and city-level descriptors.",
+        "Hong Kong, Mumbai, Seoul and Singapore cover nearly the entire city; Beijing, Dhaka and Shanghai are thin in space and time; within-city structure varies (diffuse, single core, multiple hotspots).",
+        "Sampled grids have denser roads and buildings and are closer to parks; this selectivity strengthens with city size, compressing reporting into a smaller footprint.",
+        "Parks are associated with more records, more observers and broader temporal coverage.",
+        "Standardising to 10 reporting events per grid reduced the apparent richness advantage of high-reporting grids from about 2.9x to about 1.6x.",
+        "Under standardisation, the negative association of road density with bird richness strengthened from about -0.2 to -0.4."
+      ],
+      "content_type": [
+        "research"
+      ],
+      "audience_level": "specialist",
+      "themes_raw": [
+        "sampling bias in citizen science",
+        "urban bird biodiversity",
+        "fitness for use",
+        "reporting structure",
+        "cross-city comparison",
+        "sampling effort metadata"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "Singapore-ETH Centre",
+          "type": "organisation"
+        },
+        {
+          "name": "Future Cities Lab",
+          "type": "project"
+        },
+        {
+          "name": "Comparative Ecology of Cities project",
+          "type": "project"
+        },
+        {
+          "name": "GBIF",
+          "type": "infrastructure"
+        },
+        {
+          "name": "eBird",
+          "type": "platform"
+        }
+      ],
+      "standards": [],
+      "software_tools": [],
+      "datasets": [
+        "GBIF-mediated bird occurrence records for 13 Asian cities (2024)"
+      ],
+      "methods": [
+        "generalised additive models (GAMs)",
+        "richness standardisation to equal reporting events",
+        "spatial bias modelling against accessibility and environmental covariates"
+      ],
+      "questions": [
+        "Are the ecological claims being made actually supported by the data?"
+      ],
+      "notable_claims": [
+        {
+          "claim": "Before standardisation, high-reporting grids appeared about 2.9 times richer; after standardising to 10 reporting events the gap narrowed to about 1.6 times.",
+          "timestamp": "03:27:01",
+          "confidence": "high"
+        },
+        {
+          "claim": "As city size grows, reporting occupies a progressively smaller effective spatial footprint.",
+          "timestamp": "03:25:43",
+          "confidence": "medium"
+        },
+        {
+          "claim": "Data abundance does not necessarily mean inference support.",
+          "timestamp": "03:30:08",
+          "confidence": "high"
+        }
+      ],
+      "recommendations": [
+        "Build a systematic framework for research users of opportunistic biodiversity data rather than only more sophisticated bias correction.",
+        "Integrate better sampling-event metadata."
+      ],
+      "results_findings": [
+        "Reporting coverage differs substantially among cities and is not just a function of record volume.",
+        "Reporting density amplifies apparent richness gradients and shifts identified hotspots.",
+        "Bias control changes the estimated urban pattern-biodiversity relationships."
+      ],
+      "limitations": [
+        "Ground-truth data at large scales are hard to obtain."
+      ],
+      "future_work": [
+        "Exploring how such data could support ecological digital twins of urban biodiversity."
+      ],
+      "examples_case_studies": [
+        "13 Asian cities including Hong Kong, Mumbai, Seoul, Singapore, Beijing, Shanghai, Tokyo, Taipei"
+      ],
+      "q_and_a": [
+        {
+          "question": "What is the most difficult data to find when working with secondary data?",
+          "answer_summary": "Finding data is not hard; cleaning, processing and especially handling sampling bias are. Ground-truth data are scarce, so they combine sampling-effort, spatial autocorrelation and spatial-structure covariates in modelling.",
+          "timestamp": "03:32:01"
+        }
+      ],
+      "representative_excerpt": {
+        "timestamp": "03:30:19",
+        "text": "So for researchers, the key question is whether the ecological claims we are making is safe and can actually supported by the data we have."
+      },
+      "notable_moments": [
+        {
+          "timestamp": "03:20:35",
+          "type": "key_point",
+          "description": "Framework linking ecological process, reporting process and inference."
+        },
+        {
+          "timestamp": "03:24:04",
+          "type": "result",
+          "description": "Differences in reporting structure among cities."
+        },
+        {
+          "timestamp": "03:27:01",
+          "type": "result",
+          "description": "Richness gap shrinks from 2.9x to 1.6x after standardisation."
+        },
+        {
+          "timestamp": "03:29:03",
+          "type": "result",
+          "description": "Standardisation changes urban pattern-biodiversity relationships."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "03:16:58",
+          "end_timestamp": "03:33:47"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Title and topic match; year and number of cities differ from the abstract (2024 and 13 cities in the talk)."
+      }
+    },
+    {
+      "id": "salc-2026-09-25-10",
+      "type": "talk",
+      "programme_id": "event-357",
+      "title": "From sampling-event datasets to the Humboldt Extension: a TaiBIF assessment and pilots for long-term monitoring in Taiwan",
+      "programme": {
+        "title": "From sampling-event datasets to the Humboldt Extension: a TaiBIF assessment and pilots for long- term monitoring in Taiwan",
+        "speakers": [
+          {
+            "name": "Jerome Chie-Jen Ko",
+            "affiliation": ""
+          }
+        ],
+        "session": "SYM28 From Standards to Implementation: Connecting Observation Data in Asia to GBIF Infrastructure",
+        "scheduled_start": "11:25 AM",
+        "scheduled_end": "11:40 AM",
+        "abstract": "Long-term monitoring data are key for tracking species trends and supporting policy, but global biodiversity infrastructures mostly hold single occurrence records. The Humboldt Extension offers a way to make monitoring data more interoperable. A practical way to scale adoption is to start with what is already published, and ask which datasets can be restructured into this format.\n\nThis talk reports an assessment by the Taiwan Biodiversity Information Facility (TaiBIF) of sampling-event datasets published from Taiwan to GBIF. Early checks suggest Taiwan holds a higher share of sampling-event datasets than most publishing countries. We describe these datasets by taxonomic scope, time coverage, sampling design, and repeat-visit structure, and ask which parts are ready to be mapped to the Humboldt Extension.\n\nWe then present two pilot cases chosen to cover different monitoring modes. The first is the Taiwan Breeding Bird Survey, a citizen-science program with structured repeat visits. The second is passive acoustic monitoring from ongoing research projects, which adds sensor-based and effort-rich data. For each pilot we show the current schema, the gap to Humboldt Extension terms, and a mapping workflow that provides restricted-access options for sensitive datasets.\n\nWe close by previewing a feedback service we are developing: site-level trend and data-quality plots returned to providers once they share data. We see restructuring and this feedback service together as a way to encourage future monitoring data to be published directly in the Humboldt format. We invite discussion on reuse across Asia and on how node-led work can shape community guidance for Humboldt Extension adoption."
+      },
+      "actual": {
+        "start_timestamp": "03:33:54",
+        "end_timestamp": "03:54:00",
+        "duration_seconds": 1206,
+        "speakers": [
+          {
+            "name": "Jerome Chie-Jen Ko",
+            "affiliation": "TaiBIF"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Introduced as 'Jerome Chizhenko' (ASR). The programme marks this talk as virtual, but the speaker appears to present in the room (walks up after introduction, takes live questions). ASR renders TaiBIF as 'Taipei Bif', Humboldt as 'humbled' and 'sampling event core' as 'assembly event core'.",
+        "transcript_quality": "medium"
+      },
+      "summary": "Jerome Chie-Jen Ko argued that monitoring-data standards will be adopted when they return value to data providers, and proposed a 'trend-ready minimum' as a step between sampling-event data and the full Humboldt Extension. Of 140 Taiwanese GBIF datasets, 52 are sampling-event datasets; screening for comparable sites, comparable effort and at least three years of replication identified 15 strong candidates spanning 3-17 years, mostly birds. Pilots are the Taiwan Breeding Bird Survey and passive acoustic monitoring sites, each needing just three Humboldt terms on target taxonomic scope, excluded scope and whether the scope was fully reported, with a planned feedback service returning site-level trends and reliability indices to providers.",
+      "one_line_takeaway": "Giving monitoring-data providers immediate site-level trend feedback, based on a minimal set of Humboldt terms, can motivate adoption better than asking for the full extension.",
+      "why_it_matters": "It offers a pragmatic adoption path for the Humboldt Extension and a way to rescue long-term monitoring data held by individuals and citizen-science groups.",
+      "key_points": [
+        "Each step from occurrence to event to Humboldt data asks more of providers, and they need to see new value in return.",
+        "Occurrence data sharing in Taiwan took off once providers saw their dots on a map; the analogue for monitoring data would be trend information returned on sharing.",
+        "A lightweight trend service needs one comparable site, comparable effort, temporal replication, a defined taxonomic scope and observation state; even a single long-monitored site is valuable.",
+        "For datasets already published as sampling events, three Humboldt terms matter most: target taxonomic scope, excluded taxonomic scope, and whether the taxonomic scope is fully reported.",
+        "Taiwan has nearly 25 million GBIF occurrences and 140 datasets, 52 of them sampling-event datasets; 15 datasets meet trend-readiness criteria, covering 3-17 years, mostly birds but also plants, crabs, fishes and insects.",
+        "Pilot 1: the Taiwan Breeding Bird Survey (target Aves, excluding Strigiformes, which the method does not detect reliably).",
+        "Pilot 2: passive acoustic monitoring sites, using reproducible segmentation of scheduled audio to get comparable effort and declaring the classifier's target list and unreliable species.",
+        "Much monitoring data sits in personal spreadsheets with ageing owners, so motivation for mobilisation is urgent."
+      ],
+      "content_type": [
+        "standard",
+        "workflow/method",
+        "case study"
+      ],
+      "audience_level": "specialist",
+      "themes_raw": [
+        "Humboldt Extension adoption",
+        "long-term monitoring data",
+        "trend feedback to data providers",
+        "sampling-event datasets",
+        "passive acoustic monitoring",
+        "incentives for data sharing"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "TaiBIF",
+          "type": "organisation"
+        },
+        {
+          "name": "GBIF",
+          "type": "infrastructure"
+        },
+        {
+          "name": "Taiwan Breeding Bird Survey",
+          "type": "project"
+        },
+        {
+          "name": "iNaturalist",
+          "type": "platform"
+        }
+      ],
+      "standards": [
+        "Humboldt Extension",
+        "Darwin Core",
+        "Darwin Core sampling event"
+      ],
+      "software_tools": [],
+      "datasets": [
+        "Taiwan Breeding Bird Survey dataset",
+        "Taiwanese sampling-event datasets on GBIF",
+        "passive acoustic monitoring datasets"
+      ],
+      "methods": [
+        "screening datasets for comparable sites, effort and temporal replication",
+        "audio segmentation for comparable effort",
+        "site-level trend and reliability indices"
+      ],
+      "questions": [
+        "How can declaring a taxonomic target help engage data providers?",
+        "Is there a field app for recording structured survey data that publishes directly to GBIF?"
+      ],
+      "notable_claims": [
+        {
+          "claim": "52 of the 140 datasets published to GBIF from Taiwan are sampling-event datasets, over 30%.",
+          "timestamp": "03:40:31",
+          "confidence": "high"
+        },
+        {
+          "claim": "15 of the 52 sampling-event datasets were identified as strong candidates for trend analysis, covering 3 to 17 years and mostly birds.",
+          "timestamp": "03:43:05",
+          "confidence": "high"
+        },
+        {
+          "claim": "Moving already-published event datasets toward the Humboldt Extension for monitoring needs just three additional terms.",
+          "timestamp": "03:38:28",
+          "confidence": "medium"
+        }
+      ],
+      "recommendations": [
+        "Focus on a specific use case (long-term monitoring) to reduce required terms and build lightweight feedback tools.",
+        "Return trend information to data providers as soon as they share data."
+      ],
+      "results_findings": [
+        "Taiwan publishes a relatively high share of sampling-event datasets compared with most countries (behind Brazil, UK and Portugal by their comparison)."
+      ],
+      "limitations": [
+        "Sampling-event datasets are not automatically monitoring-ready.",
+        "Some taxa (e.g. owls in the breeding bird survey) are not reliably recorded by the methods."
+      ],
+      "future_work": [
+        "Pilot the Breeding Bird Survey and PAM mappings to Humboldt terms.",
+        "Develop a feedback service with site-level trend and data-quality plots."
+      ],
+      "examples_case_studies": [
+        "Taiwan Breeding Bird Survey",
+        "Passive acoustic monitoring sites in Taiwan"
+      ],
+      "q_and_a": [
+        {
+          "question": "Dmitry Schigel noted GBIF's Kate Ingenloff is doing similar work globally and asked how a declared taxonomic target helps engagement when providers see extensions as extra burden.",
+          "answer_summary": "Long-term monitoring in Taiwan is mostly done by citizen-science groups and individuals who care about specific species but cannot easily see results; immediate feedback would motivate them.",
+          "timestamp": "03:48:45"
+        },
+        {
+          "question": "An audience member who spent weeks manually converting their data asked whether there is an iNaturalist-like app for recording survey data in the field.",
+          "answer_summary": "There is currently no tool showing immediate value from Humboldt-structured data; his approach is to focus on one use case (long-term monitoring), reduce the required terms and build a lightweight feedback tool rather than a general one.",
+          "timestamp": "03:51:17"
+        }
+      ],
+      "representative_excerpt": {
+        "timestamp": "03:47:38",
+        "text": "hard disks are exploding. So we think it's something important to give them more motivations to really put their efforts into data mobilization."
+      },
+      "notable_moments": [
+        {
+          "timestamp": "03:36:31",
+          "type": "key_point",
+          "description": "Vision: return trend information to providers once they share monitoring data."
+        },
+        {
+          "timestamp": "03:39:14",
+          "type": "key_point",
+          "description": "The three key Humboldt Extension terms for monitoring data."
+        },
+        {
+          "timestamp": "03:43:05",
+          "type": "result",
+          "description": "15 trend-ready candidate datasets identified in Taiwan."
+        },
+        {
+          "timestamp": "03:46:23",
+          "type": "demonstration",
+          "description": "Prototype of site-level feedback to providers."
+        },
+        {
+          "timestamp": "03:48:45",
+          "type": "question",
+          "description": "How declared taxonomic targets help engagement."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "03:33:54",
+          "end_timestamp": "03:54:00"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Title and content match; programme lists the talk as virtual but it appears to have been given in person."
+      }
+    },
+    {
+      "id": "salc-2026-09-25-11",
+      "type": "talk",
+      "programme_id": "event-358",
+      "title": "ASEAN Biodiversity Dashboard as a data sharing platform to monitor biodiversity trends and species occurrences in the ASEAN Region",
+      "programme": {
+        "title": "ASEAN Biodiversity Dashboard as a data sharing platform to monitor biodiversity trends and species occurrences in the ASEAN Region",
+        "speakers": [
+          {
+            "name": "Christian Elloran",
+            "affiliation": ""
+          }
+        ],
+        "session": "SYM28 From Standards to Implementation: Connecting Observation Data in Asia to GBIF Infrastructure",
+        "scheduled_start": "11:40 AM",
+        "scheduled_end": "11:55 AM",
+        "abstract": "The effective management of ASEAN Heritage Parks (AHPs) and protected areas across the ASEAN region is essential for conserving biodiversity, maintaining ecosystem integrity, and sustaining the ecosystem services that support livelihoods and human well-being. In response to the increasing need for accessible, integrated, and evidence-based biodiversity information, the ASEAN Biodiversity Dashboard was developed as a regional, open-access platform designed to monitor biodiversity trends, species occurrences, and conservation indicators across Southeast Asia.\n\nThe Dashboard demonstrates how digital technologies and data-driven approaches can strengthen protected area management by enabling biodiversity data integration, spatial analysis, and informed conservation planning. By consolidating information from ASEAN Member States alongside global biodiversity datasets and partners, the platform promotes harmonized, policy-relevant information that supports evidence-based decision-making and regional collaboration.\n\nAs part of its backend mechanisms, the Dashboard is supported by a GBIF-hosted portal that facilitates biodiversity data publishing, access, and interoperability with global biodiversity information systems. This infrastructure enables the integration of occurrence records, species observations, and other biodiversity datasets while ensuring alignment with international data standards and promoting open access to biodiversity information. The GBIF-hosted portal strengthens the technical foundation of the Dashboard by improving data discoverability, sustainability, and long-term accessibility."
+      },
+      "actual": {
+        "start_timestamp": "03:54:02",
+        "end_timestamp": "04:09:26",
+        "duration_seconds": 924,
+        "speakers": [
+          {
+            "name": "Christian Elloran",
+            "affiliation": "ASEAN Centre for Biodiversity"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Introduced as 'Christian Ellam' (ASR for Elloran) and thanked as 'Kit'. The speaker says ACB headquarters is in Indonesia and later that data are managed at headquarters in the Philippines; ACB is based in the Philippines, so the first is likely a misstatement or ASR error. ASR renders TSCC for Technical Support and Coordination Centre and 'Tadig' for TDWG. No questions were asked.",
+        "transcript_quality": "medium"
+      },
+      "summary": "Christian Elloran presented the ASEAN Biodiversity Dashboard, a GBIF-hosted portal maintained by the ASEAN Centre for Biodiversity (ACB) that combines species occurrences with protected areas, ASEAN Heritage Parks, habitat and land-cover change and carbon data. He described ACB's mandate across 11 member states, its infrastructure (own servers hosting an IPT and the dashboard; publishing to GBIF and OBIS) and a value chain from mobilisation and Darwin Core standardisation through integration, analysis (species distribution models, trends, gaps, indicators) to visualisation for KMGBF reporting and conservation planning. Customised dashboards are generated for member states' country reports; over 80% of data are birds.",
+      "one_line_takeaway": "Interoperable, GBIF-hosted regional infrastructure lets ACB turn occurrence data into indicators and dashboards for ASEAN policy reporting.",
+      "why_it_matters": "It shows how a regional intergovernmental body uses GBIF infrastructure to link data mobilisation directly to CBD/KMGBF reporting and protected-area management in a highly biodiverse region.",
+      "key_points": [
+        "ACB was established in 2005 by ASEAN member states; Timor-Leste joined in October 2025, making 11 members.",
+        "Challenge in ASEAN is not lack of data but making dispersed data discoverable, interoperable and reusable.",
+        "ACB runs its own servers hosting an IPT and the dashboard and publishes member-state data to GBIF and OBIS.",
+        "Five-layer infrastructure: data providers, ingestion, in-house cleaning, central biodiversity infrastructure, and knowledge products (dashboard, ASEAN Clearing-House Mechanism, thematic portals).",
+        "The dashboard overlays occurrences with protected areas, ASEAN Heritage Parks, habitats, land-cover change and carbon to identify gaps and species representation.",
+        "Over 80% of records are birds.",
+        "Outputs support KMGBF and CBD reporting, NBSAPs, restoration planning and ACB's role as a CBD Technical Support and Coordination Centre.",
+        "Users include policymakers, IGOs/NGOs, the corporate sector and research bodies."
+      ],
+      "content_type": [
+        "infrastructure",
+        "policy/governance",
+        "case study"
+      ],
+      "audience_level": "general",
+      "themes_raw": [
+        "regional biodiversity dashboards",
+        "GBIF hosted portals",
+        "policy reporting",
+        "protected area monitoring",
+        "Southeast Asia biodiversity data",
+        "KMGBF indicators"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "ASEAN Centre for Biodiversity (ACB)",
+          "type": "organisation"
+        },
+        {
+          "name": "ASEAN Biodiversity Dashboard",
+          "type": "platform"
+        },
+        {
+          "name": "GBIF",
+          "type": "infrastructure"
+        },
+        {
+          "name": "OBIS",
+          "type": "infrastructure"
+        },
+        {
+          "name": "ASEAN Clearing-House Mechanism",
+          "type": "platform"
+        },
+        {
+          "name": "ASEAN Heritage Parks",
+          "type": "programme"
+        },
+        {
+          "name": "Convention on Biological Diversity",
+          "type": "policy"
+        },
+        {
+          "name": "Kunming-Montreal Global Biodiversity Framework",
+          "type": "policy"
+        },
+        {
+          "name": "IPT",
+          "type": "software"
+        }
+      ],
+      "standards": [
+        "Darwin Core"
+      ],
+      "software_tools": [
+        "ASEAN Biodiversity Dashboard",
+        "IPT",
+        "GBIF hosted portal"
+      ],
+      "datasets": [],
+      "methods": [
+        "species distribution modelling",
+        "biodiversity indicators",
+        "spatial overlay analysis"
+      ],
+      "questions": [],
+      "notable_claims": [
+        {
+          "claim": "More than 80% of the dashboard's datasets are bird data.",
+          "timestamp": "04:02:51",
+          "confidence": "medium"
+        },
+        {
+          "claim": "The value comes not from any single dataset but from relationships between datasets.",
+          "timestamp": "04:05:50",
+          "confidence": "high"
+        },
+        {
+          "claim": "The future of biodiversity monitoring is not simply having more data but connecting, making interoperable, analysing and turning them into evidence-based information.",
+          "timestamp": "04:08:44",
+          "confidence": "high"
+        }
+      ],
+      "recommendations": [],
+      "results_findings": [],
+      "limitations": [
+        "Data are strongly skewed towards birds."
+      ],
+      "future_work": [
+        "Mobilise more data, improve interoperability, strengthen analytics, develop indicators and visualisations.",
+        "ASEAN biodiversity science forum in Malaysia the following week."
+      ],
+      "examples_case_studies": [
+        "ASEAN Heritage Parks",
+        "Customised country-report dashboards for member states"
+      ],
+      "q_and_a": [],
+      "representative_excerpt": {
+        "timestamp": "04:08:44",
+        "text": "So the future of biodiversity data monitoring is therefore not simply about having more data. It is about connecting data, making them interoperable, analyzing them appropriately, and turning them into evidence-based and action-based information."
+      },
+      "notable_moments": [
+        {
+          "timestamp": "03:58:44",
+          "type": "key_point",
+          "description": "ACB's biodiversity informatics infrastructure layers."
+        },
+        {
+          "timestamp": "04:01:32",
+          "type": "key_point",
+          "description": "Biodiversity information as a value chain."
+        },
+        {
+          "timestamp": "04:05:00",
+          "type": "demonstration",
+          "description": "Overlaying occurrences with protected areas and ASEAN Heritage Parks."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "03:54:02",
+          "end_timestamp": "04:09:26"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Speaker and content match the abstract."
+      }
+    }
+  ],
+  "unassigned": [
+    {
+      "start_timestamp": "00:51:19",
+      "end_timestamp": "00:51:36",
+      "type": "introduction",
+      "description": "Chair welcomes attendees to SYM07 on publishing and communications and introduces the first speaker, David Fichtmueller."
+    },
+    {
+      "start_timestamp": "01:06:36",
+      "end_timestamp": "01:06:43",
+      "type": "introduction",
+      "description": "Thanks to Fichtmueller and introduction of Melissa Chin-Yi Lu."
+    },
+    {
+      "start_timestamp": "02:25:48",
+      "end_timestamp": "02:51:09",
+      "type": "break",
+      "description": "Chair thanks all SYM07 speakers; morning break. No transcript segments between 02:25:48 and 02:51:09."
+    },
+    {
+      "start_timestamp": "02:51:09",
+      "end_timestamp": "02:54:54",
+      "type": "introduction",
+      "description": "Kumiko Totsu opens SYM28 'From Standards to Implementation': co-moderators Kate and Melissa, sponsor acknowledgement, timing and Whova question logistics, and a brief framing of the symposium as sharing Asian case studies for small, resource-limited teams."
+    },
+    {
+      "start_timestamp": "04:09:31",
+      "end_timestamp": "04:09:47",
+      "type": "announcement",
+      "description": "Session closed; speakers asked to come to the front for an official photo, thanks to presenters and online participants."
+    }
+  ],
+  "programme_status": [
+    {
+      "programme_id": "event-321",
+      "title": "Approaches to the Automated Tracking of Taxonomic Research Activities",
+      "status": "presented",
+      "content_item_id": "salc-2026-09-25-01",
+      "notes": "Presented in person by David Fichtmueller with audience feedback."
+    },
+    {
+      "programme_id": "event-322",
+      "title": "Empowering and Expanding Communities from Knowledge to Best Practices in Data Mobilization: The TaiBIF Collaborator Training System",
+      "status": "presented",
+      "content_item_id": "salc-2026-09-25-02",
+      "notes": "Presented by Melissa Chin-Yi Lu (programme lists no speaker)."
+    },
+    {
+      "programme_id": "event-323",
+      "title": "Bionomia, Scholia, Wikidata and Zenodo : broadcasting biodiversity data contributions",
+      "status": "presented",
+      "content_item_id": "salc-2026-09-25-03",
+      "notes": "Presented by Siobhan Leachman as scheduled."
+    },
+    {
+      "programme_id": "event-324",
+      "title": "Handling evidence: a cross-disciplinary perspective",
+      "status": "presented",
+      "content_item_id": "salc-2026-09-25-04",
+      "notes": "Pre-recorded video by Dmitry Schigel, played with him in the room."
+    },
+    {
+      "programme_id": "event-325",
+      "title": "A Network That Is Social: A Community-Based Model and Plan for Sustaining MorphoSource, a Scholarly 3D Data Repository",
+      "status": "presented",
+      "content_item_id": "salc-2026-09-25-05",
+      "notes": "Pre-recorded virtual talk by Julie Winchester."
+    },
+    {
+      "programme_id": "event-326",
+      "title": "Hit or miss? Creative promotion of biodiversity data and standards for success and recognition",
+      "status": "presented",
+      "content_item_id": "salc-2026-09-25-06",
+      "notes": "Interactive talk by Shelley James and Deb Paul."
+    },
+    {
+      "programme_id": "event-353",
+      "title": "Introduction",
+      "status": "presented",
+      "content_item_id": null,
+      "notes": "Brief moderator introduction by Kumiko Totsu (02:51:55-02:54:54), recorded in unassigned as an introduction without substantive content."
+    },
+    {
+      "programme_id": "event-354",
+      "title": "Building a Living Publication Workflow for Long-Term Social-Ecological Monitoring Data: The Taiwan LTSER Experience",
+      "status": "presented",
+      "content_item_id": "salc-2026-09-25-07",
+      "notes": "Presented by Jhu-Jyun Jhang; questions deferred and no later general discussion took place."
+    },
+    {
+      "programme_id": "event-355",
+      "title": "Snapshot Japan: A Community-Driven Network for Large-Scale Wildlife Biodiversity Monitoring Using Camera Traps",
+      "status": "presented",
+      "content_item_id": "salc-2026-09-25-08",
+      "notes": "Presented by Kumiko Totsu on behalf of the Snapshot Japan management team."
+    },
+    {
+      "programme_id": "event-356",
+      "title": "Reporting structure and sampling-bias correction in citizen-science bird data across Asian cities",
+      "status": "presented",
+      "content_item_id": "salc-2026-09-25-09",
+      "notes": "Presented by Yeshan Qiu; data year and city count differ from the abstract."
+    },
+    {
+      "programme_id": "event-357",
+      "title": "From sampling-event datasets to the Humboldt Extension: a TaiBIF assessment and pilots for long- term monitoring in Taiwan",
+      "status": "presented",
+      "content_item_id": "salc-2026-09-25-10",
+      "notes": "Presented by Jerome Chie-Jen Ko, apparently in person although listed as virtual."
+    },
+    {
+      "programme_id": "event-358",
+      "title": "ASEAN Biodiversity Dashboard as a data sharing platform to monitor biodiversity trends and species occurrences in the ASEAN Region",
+      "status": "presented",
+      "content_item_id": "salc-2026-09-25-11",
+      "notes": "Presented by Christian Elloran; no questions."
+    },
+    {
+      "programme_id": "event-359",
+      "title": "Closing remarks",
+      "status": "presented",
+      "content_item_id": null,
+      "notes": "Very brief closing by the moderator (04:09:31-04:09:47): thanks and a request for a group photo; recorded in unassigned."
+    },
+    {
+      "programme_id": "event-364",
+      "title": "UNC - TDWG 2026 Unconference break out",
+      "status": "uncertain",
+      "content_item_id": null,
+      "notes": "Scheduled 1:00-3:00 PM, outside this recording, which ends at 04:09:47 (around 11:50 AM) with the SYM28 close. Speakers in the morning session invited people to continue discussions at the Unconference, but the recording gives no evidence whether the SAL C breakout took place."
+    }
+  ]
+}
