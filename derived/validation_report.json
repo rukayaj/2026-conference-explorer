@@ -36,12 +36,12 @@
     },
     "corrections_applied_in_derived": 24,
     "review_status_counts": {
-      "needs_review": 16,
-      "resolved": 38,
+      "resolved": 39,
+      "needs_review": 15,
       "informational": 4
     },
     "open_issues_by_severity": {
-      "medium": 6,
+      "medium": 5,
       "low": 10
     }
   },
@@ -145,9 +145,28 @@
       "field": "video_url",
       "description": "None of the 15 recordings has a video_url (empty in every source recording object; program-data.js has no video links). video_url is null throughout the derived files.",
       "suggested_correction": "Add published video URLs to derived/recordings.json and content_items.json once available.",
-      "correction_applied": false,
-      "source_files": [],
-      "review_status": "needs_review"
+      "correction_applied": true,
+      "source_files": [
+        "output/Aula_Plenary_1.json",
+        "output/Aula_Plenary_2.json",
+        "output/Aula_taster_talks.json",
+        "output/TDWG 2026-09-22 ODIN.json",
+        "output/TDWG 2026-09-22 SAL A.json",
+        "output/TDWG 2026-09-22 SAL B.json",
+        "output/TDWG 2026-09-22 SAL C.json",
+        "output/TDWG 2026-09-24 Forum.json",
+        "output/TDWG 2026-09-24 SAL A.json",
+        "output/TDWG 2026-09-24 SAL B.json",
+        "output/TDWG 2026-09-24 SAL C.json",
+        "output/TDWG 2026-09-25 Forum.json",
+        "output/TDWG 2026-09-25 SAL A.json",
+        "output/TDWG 2026-09-25 SAL B.json",
+        "output/TDWG 2026-09-25 SAL C.json",
+        "derived/recordings.json",
+        "derived/content_items.json"
+      ],
+      "review_status": "resolved",
+      "resolution": "Added the 15 matching Vimeo team-library share links to source recording metadata, derived recordings, and all content items. Each title matches a room/day recording; the Vimeo library identifies the links as Unlisted and anyone with the link can view."
     },
     {
       "issue_id": "VR-002",
@@ -1122,5 +1141,6 @@
       "review_status": "informational"
     }
   ],
-  "speaker_name_policy": "For a talk with a close programme-title match, use the programme spelling for scheduled presenters when the recording gives only an uncertain ASR name. Preserve explicitly identified replacement presenters and additional co-presenters; do not add listed coauthors who are not heard presenting. Document any transcript/programme conflict in identification_notes."
+  "speaker_name_policy": "For a talk with a close programme-title match, use the programme spelling for scheduled presenters when the recording gives only an uncertain ASR name. Preserve explicitly identified replacement presenters and additional co-presenters; do not add listed coauthors who are not heard presenting. Document any transcript/programme conflict in identification_notes.",
+  "recording_link_provenance": "Matched titles in the user’s Vimeo team library to the 15 transcript source recordings; confirmed share URL format in Vimeo’s Share dialog. Vimeo marked links Unlisted (anyone with the link can view)."
 }
