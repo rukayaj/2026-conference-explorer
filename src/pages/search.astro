@@ -5,14 +5,13 @@ const apiUrl = import.meta.env.PUBLIC_SEARCH_API_URL || '';
 ---
 <Base title="Search the conference · TDWG 2026" description="Find timestamped moments from the TDWG 2026 recordings.">
   <section class="container page-heading">
-    <div class="eyebrow">Across every room and day</div>
-    <h1 class="display">Find the moment.</h1>
-    <p>Search what was said, then jump straight into the recording. These are matching passages, not generated answers.</p>
+    <div class="eyebrow">Oslo, 21 - 25 September 2026</div>
+    <h1 class="display">Ask TDWG.</h1>
     <form class="search-box" id="search-form" data-base={href('')} data-api={apiUrl}>
       <input id="query" name="q" aria-label="Search transcripts" placeholder="Try “AI-ready biodiversity data”" autocomplete="off" required />
       <button type="submit">Search ↗</button>
     </form>
-    <div class="prompt-chips"><span>Try a question:</span><button data-query="What is changing in Darwin Core?">Darwin Core</button><button data-query="How can specimens become AI ready?">AI-ready specimens</button><button data-query="Persistent identifiers and provenance">Identifiers & provenance</button></div>
+    <div class="prompt-chips"><span>For example:</span><button data-query="What is changing in Darwin Core?">What is changing in Darwin Core</button><button data-query="How can specimens become AI ready?">How can specimens become AI ready?</button><button data-query="Persistent identifiers and provenance">What did TDWG 2026 say about persistent identifiers and provenance?</button></div>
   </section>
   <section class="container result-section" aria-live="polite"><p class="result-status" id="status">Enter a topic or question to explore the recordings.</p><div class="result-list" id="results"></div></section>
 </Base>
