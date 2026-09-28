@@ -1,0 +1,614 @@
+{
+  "recording": {
+    "conference": "TDWG 2026",
+    "date": "2026-09-21",
+    "room": "Aula",
+    "video_url": "",
+    "transcript_source": "Aula_Plenary_2.srt",
+    "language": "en",
+    "notes": "Monday plenary (monday-plenary), late-morning block between the coffee break and lunch: two keynote talks (Heatta, event-006; Walls, event-007). This is not the afternoon session; the chair's closing remarks refer to the afternoon 'Taste of TDWG' session. Timestamps are relative to the start of this file (HH:MM:SS)."
+  },
+  "content_items": [
+    {
+      "id": "aula-2026-09-21-plenary2-heatta",
+      "type": "talk",
+      "programme_id": "event-006",
+      "title": "Sámi perspectives on biodiversity data governance: when biodiversity data travel, does their governance travel with them?",
+      "programme": {
+        "title": "Sámi perspectives on biodiversity Data Governance and more inclusive Data Standards",
+        "speakers": [
+          {
+            "name": "Máret J. Heatta",
+            "affiliation": "Tromsø (Assistant Professor)"
+          }
+        ],
+        "session": "Monday plenary programme (monday-plenary)",
+        "scheduled_start": "11:00 AM",
+        "scheduled_end": "11:45 AM",
+        "abstract": "As more biodiversity data become available through global platforms such as GBIF, there is a growing need to consider how Indigenous rights, traditional knowledge, and community interests are reflected in these systems. For Sámi communities, biodiversity data are often closely connected to Sámi knowledge, traditional land use, livelihoods, and relationships with nature. This presentation introduces ideas behind a proposed Sámi-hosted biodiversity data portal and discusses how Local Contexts tags and labels might be used to make Sámi interests and connections to data more visible. Could these tools help provide information about provenance, cultural significance, appropriate use, and community expectations when or whether data are shared and reused?\n\nThe presentation will explore whether the CARE Data Maturity Model can provide a useful framework for assessing and guiding Sámi biodiversity data governance. Do their indicators related to collective benefit, control, ownership, and ethics reflect Sámi realities, or is there a need for additional approaches? We apply the most updated and transdisciplinary Sámi ethical guidelines as guiding principles for the project.\n\nFinally, the presentation will discuss data rematriation and the importance of building Sámi-controlled archives, repositories, and data infrastructures. Returning data to communities is not only about access, but also about creating the capacity and governance needed to manage and use data in ways that benefit Saami communities.\n\nThe aim is to start a conversation about how these tools can support Sámi data governance in practice."
+      },
+      "actual": {
+        "start_timestamp": "00:01:59",
+        "end_timestamp": "00:45:33",
+        "duration_seconds": 2614,
+        "speakers": [
+          {
+            "name": "Máret J. Heatta",
+            "affiliation": "Tromsø (Assistant Professor; introduced as part of the CARE task group)"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Introduced by Dag (ASR: 'Dag Andersen', likely Dag Endresen, GBIF Norway) as 'Marit Hetta' from Tromsø; the chair later calls her 'Mara'. Topic (Sámi biodiversity data governance, CARE, GBIF Indigenous data governance task group) matches event-006. The talk centred on a lichen monitoring case study, UNDRIP, CARE/FAIR, GIDA Sápmi, SODA and the CARE Data Maturity Model; the Sámi-hosted portal from the abstract was not described and Local Contexts labels and data rematriation were only touched on briefly. No Q&A due to time.",
+        "transcript_quality": "high"
+      },
+      "summary": "Máret Heatta, a Sámi biologist, uses lichen monitoring data she helped collect on NINA permanent plots on the Finnmark Plateau in 2005 as a thought experiment for Indigenous data governance. She shows how an apparently simple lichen occurrence record is also information about Sámi reindeer winter grazing lands, and how a report finding of increased lichen cover became a newspaper headline of 'better grazing' without reindeer herders' knowledge of snow, ice and access. She grounds Indigenous data sovereignty in UNDRIP and self-determination, contrasts FAIR with CARE, and surveys Sámi and international initiatives (GIDA Sápmi, the 2023 Tromsø conference, SODA, Finnish Sámi research ethics guidelines, IEEE 2890-2025, the GBIF Indigenous data governance task group, Māori data infrastructure), closing with questions for biodiversity infrastructures about existing, reused and newly collected data.",
+      "one_line_takeaway": "Biodiversity data about lands, ecosystems and species can be Indigenous data, so infrastructures must ask whether context, authority and responsibilities travel with the data as FAIR makes them easier to reuse.",
+      "why_it_matters": "For GBIF and TDWG, the talk challenges the assumption that species occurrence data are neutral and 'not about people', and sets out concrete questions (recognising the significance of existing data, keeping context attached on reuse, building CARE in at collection) that the GBIF Indigenous data governance task group and standards such as Local Contexts labels and IEEE 2890 are starting to address.",
+      "key_points": [
+        "The same lichen occurrence record is an occurrence for an infrastructure, ecological evidence for a researcher, land-use evidence for a planning authority, and pasture information for a reindeer herder.",
+        "Indigenous data include data about individuals, about collectives, and about non-human relations (land, water, ecosystems, plants, animals); biodiversity data need not mention a Sámi person to be relevant to Indigenous data governance.",
+        "Indigenous data sovereignty begins with rights and self-determination (UNDRIP, especially Articles 11-13), not with data; Indigenous data governance is putting that authority into practice.",
+        "Two dimensions: data for governance (access to data for own decision-making) and governance of data (authority over how data are governed).",
+        "FAIR assessment can largely be a technical exercise, whereas CARE requires engagement with people across the whole data lifecycle; technically reusable is not the same as appropriate or ethical reuse.",
+        "The NINA report's measured increase in lichen cover and thickness was communicated publicly as 'better grazing', although grazing conditions for herders also depend on snow, ice, access and reindeer land use; more lichen does not by itself mean better grazing.",
+        "Sámi historical experience of being researched, including racial biology and the extraction of remains and objects, explains caution towards data sharing; trust must be earned, not requested.",
+        "Sámi and international developments are moving from principles to practice: GIDA Sápmi (2021), the 2023 Tromsø conference on Sámi research data governance, the 2024 Finnish Sámi research ethics guidelines, the Sámi Council's SODA principles, IEEE 2890-2025 on provenance of Indigenous peoples' data, the GBIF Indigenous data governance task group (2025), guidelines for Indigenous data in scholarly publishing, and Māori-controlled data storage.",
+        "The CARE Data Maturity Model is presented as an iterative way to operationalise CARE rather than something done at the end of a project.",
+        "For infrastructures such as GBIF there are three situations: existing data that may have Sámi significance, reuse of those data after aggregation, and new data collection where CARE can be designed in from the start."
+      ],
+      "content_type": [
+        "policy/governance",
+        "case study",
+        "conceptual"
+      ],
+      "audience_level": "general",
+      "themes_raw": [
+        "Indigenous data sovereignty",
+        "Indigenous data governance",
+        "Sámi data governance",
+        "CARE principles",
+        "FAIR and CARE complementarity",
+        "biodiversity data as Indigenous data",
+        "reindeer grazing lands",
+        "research ethics",
+        "provenance of Indigenous data",
+        "trust in research",
+        "context loss during data reuse",
+        "Local Contexts labels"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "NINA (Norwegian Institute for Nature Research)",
+          "type": "organisation"
+        },
+        {
+          "name": "GBIF",
+          "type": "infrastructure"
+        },
+        {
+          "name": "GBIF Indigenous data governance task group",
+          "type": "project"
+        },
+        {
+          "name": "Global Indigenous Data Alliance (GIDA)",
+          "type": "organisation"
+        },
+        {
+          "name": "GIDA Sápmi",
+          "type": "organisation"
+        },
+        {
+          "name": "Sámi Council",
+          "type": "organisation"
+        },
+        {
+          "name": "Sámi Parliament",
+          "type": "organisation"
+        },
+        {
+          "name": "Expert Ethical Committee for Sámi Health Research",
+          "type": "organisation"
+        },
+        {
+          "name": "Acta Borealia",
+          "type": "journal"
+        },
+        {
+          "name": "Local Contexts",
+          "type": "project"
+        },
+        {
+          "name": "United Nations Declaration on the Rights of Indigenous Peoples (UNDRIP)",
+          "type": "policy"
+        },
+        {
+          "name": "Finnmark Plateau (Finnmarksvidda)",
+          "type": "place"
+        }
+      ],
+      "standards": [
+        "CARE Principles for Indigenous Data Governance",
+        "FAIR principles",
+        "IEEE 2890-2025 (provenance of Indigenous peoples' data)",
+        "Sámi Ownership and Data Access (SODA) principles",
+        "Local Contexts Labels and Notices",
+        "Ethical guidelines for research involving the Sámi people in Finland (2024)"
+      ],
+      "software_tools": [],
+      "datasets": [
+        "NINA permanent monitoring plots in reindeer winter grazing areas, Finnmark Plateau (1998, 2005)"
+      ],
+      "methods": [
+        "CARE Data Maturity Model",
+        "permanent vegetation monitoring plots",
+        "satellite vegetation monitoring"
+      ],
+      "questions": [
+        "Where does biodiversity data end and Indigenous data begin?",
+        "How do we recognise when apparently ordinary biodiversity data already in GBIF have particular significance for Sámi communities?",
+        "Can relevant context, provenance and governance information remain connected to data as they are aggregated, downloaded and reused?",
+        "Whose knowledge is included in interpreting data, and who gets to define what findings mean?",
+        "When biodiversity data travel, does their governance travel with them?"
+      ],
+      "notable_claims": [
+        {
+          "claim": "Across the monitoring plots, average lichen cover increased from about 18% in 1998 to 28% in 2005 and average lichen thickness from 22 to 28 mm, with considerable differences between areas.",
+          "timestamp": "00:05:02",
+          "confidence": "high"
+        },
+        {
+          "claim": "Biodiversity data do not have to contain information about a Sámi person to be relevant for Indigenous data governance; this is the most important point for biodiversity infrastructures.",
+          "timestamp": "00:16:32",
+          "confidence": "high"
+        },
+        {
+          "claim": "Public communication turned measured lichen increases into 'better grazing', but lichen amount alone cannot determine grazing conditions, which depend on snow, ice, access and herders' knowledge.",
+          "timestamp": "00:21:45",
+          "confidence": "high"
+        },
+        {
+          "claim": "Assessing FAIR can largely be a technical exercise, but CARE cannot be addressed by looking only at the dataset; it requires engagement with people throughout the data lifecycle.",
+          "timestamp": "00:25:17",
+          "confidence": "high"
+        },
+        {
+          "claim": "In 2025 GBIF established an Indigenous data governance task group examining how CARE can be supported in the GBIF network, including Local Contexts labels and notices; the work is ongoing.",
+          "timestamp": "00:31:47",
+          "confidence": "high"
+        }
+      ],
+      "recommendations": [
+        "Consider CARE throughout the data lifecycle, from the research question and data collection to sharing and future reuse, rather than only at publication.",
+        "Build trust through meaningful participation, transparency, relationships, accountability and a say in what happens to data after collection.",
+        "For new data collection, decide on participation, governance arrangements, data management plans and access/reuse protocols at the design stage.",
+        "For existing data, recognise and reconnect Indigenous context, potentially using mechanisms such as Local Contexts labels."
+      ],
+      "results_findings": [],
+      "limitations": [],
+      "future_work": [
+        "The GBIF Indigenous data governance task group's work on Local Contexts labels/notices and keeping Indigenous context connected to biodiversity data is ongoing."
+      ],
+      "examples_case_studies": [
+        "Lichen monitoring on NINA permanent plots in Sámi reindeer winter grazing areas on the Finnmark Plateau (1998 and 2005)",
+        "Newspaper headline 'Better grazing on Finnmarksvidda' derived from the NINA report",
+        "First international conference on Sámi research data governance, Tromsø, January 2023",
+        "Māori-owned data storage network in Aotearoa New Zealand"
+      ],
+      "q_and_a": [],
+      "representative_excerpt": {
+        "timestamp": "00:25:57",
+        "text": "So making data technically reusable is not the same thing as making their reuse appropriate or ethical."
+      },
+      "notable_moments": [
+        {
+          "timestamp": "00:07:00",
+          "type": "key_point",
+          "description": "One lichen record viewed from four perspectives: infrastructure, researcher, planning authority, reindeer herder."
+        },
+        {
+          "timestamp": "00:15:08",
+          "type": "explanation",
+          "description": "What counts as Indigenous data: individuals, collectives and non-human relations."
+        },
+        {
+          "timestamp": "00:21:23",
+          "type": "example",
+          "description": "How 'more lichen' became the headline 'better grazing' and the knowledge gap this reveals."
+        },
+        {
+          "timestamp": "00:41:08",
+          "type": "key_point",
+          "description": "Three situations for GBIF-type infrastructures: existing data, reused data, new data collection."
+        },
+        {
+          "timestamp": "00:45:19",
+          "type": "conclusion",
+          "description": "Closing question: when biodiversity data travel, does their governance travel with them?"
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "00:01:59",
+          "end_timestamp": "00:45:33"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Speaker name rendered as 'Marit Hetta' and 'Mara'; content matches event-006. Presented in the scheduled late-morning slot (first talk after the coffee break). Q&A skipped because the session was running behind."
+      }
+    },
+    {
+      "id": "aula-2026-09-21-plenary2-walls",
+      "type": "talk",
+      "programme_id": "event-007",
+      "title": "From biodiversity data to knowledge in the age of AI: where do ontologies and standards fit?",
+      "programme": {
+        "title": "From biodiversity data to knowledge in the age of AI: Where do ontologies and standards fit?",
+        "speakers": [
+          {
+            "name": "Ramona Walls",
+            "affiliation": "Critical Path Institute (C-Path)"
+          }
+        ],
+        "session": "Monday plenary programme (monday-plenary)",
+        "scheduled_start": "11:46 AM",
+        "scheduled_end": "12:30 PM",
+        "abstract": "Data - specimens and collections, human-and sensor-mediated observations, images, sequences, traits, and environmental measurements - provide the raw material for biodiversity informatics and broader life sciences, yet they come with questions: What do our data mean? Which concepts are equivalent, related, or distinct? How do we represent context, provenance, uncertainty, and evidence? As new computational systems are applied to biodiversity data, a new question becomes increasingly visible and urgent: How do we support discovery and reuse without allowing fluent answers or plausible connections to obscure ambiguity, erase complexity, or reinforce errors? For four decades, TDWG has helped build the standards, ontologies, identifiers, metadata practices, and community agreements that make biodiversity data valuable. These are the same tools we need to create AI-ready biodiversity data.\n\nWorking across plant science, ontology development, and biomedical data management has reinforced one enduring lesson: the hardest data problems are rarely technical. They are problems of meaning, context, trust, and governance. AI does not eliminate these challenges-it magnifies them. Ontologies, standards, and community governance provide the shared semantic foundation that enables both people and machines to interpret data responsibly, transparently, and at scale. In an era when machines can generate answers faster than we can evaluate them, our greatest opportunity is not simply to build smarter AI, but to build richer, more trustworthy knowledge. The future of biodiversity informatics will depend not only on the intelligence of our algorithms, but on the quality of the shared knowledge infrastructure we create."
+      },
+      "actual": {
+        "start_timestamp": "00:49:56",
+        "end_timestamp": "01:22:15",
+        "duration_seconds": 1939,
+        "speakers": [
+          {
+            "name": "Ramona Walls",
+            "affiliation": "Data Collaboration Center, Critical Path Institute (C-Path), Tucson, Arizona"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Introduced by name by the chair (Javier); title and content match event-007. ASR renders TDWG as 'TADWIG'/'TABB' and C-Path as 'CPATH'/'Seapath'; 'RDS resource description format' is RDF; 'SSLM' is an unclear standard name the speaker could not recall. Started a few minutes late after a slide-video playback problem; no Q&A due to time.",
+        "transcript_quality": "high"
+      },
+      "summary": "Ramona Walls, now leading the Data Collaboration Center at C-Path in the biomedical regulatory world, argues that the path from observation to data to evidence to knowledge depends on meaning, trust (provenance, context) and relevance ('context of use'). Using the Information Artifact Ontology's definition of data, examples such as a feather versus a paw print as evidence, and DNA analysis of 'Yeti' specimens, she asks whether AI generates data and knowledge, concluding that it generates data and candidate knowledge that only becomes knowledge when supported by trusted evidence. She stresses the roles of standards bodies, governance ('good governance makes altruism possible') and ontologies (Plant Phenology Ontology, BCO), and offers biomedical models (OMOP CDM and vocabulary, FHIR, European Health Data Space, a C-Path knowledge graph) as potential lessons for biodiversity, concluding that TDWG builds the infrastructure that turns data into evidence.",
+      "one_line_takeaway": "AI can generate data and candidate knowledge, but only standards, ontologies, provenance and governance let data become trusted evidence and therefore knowledge, which is why TDWG matters more than ever.",
+      "why_it_matters": "It reframes TDWG's standards and ontology work as infrastructure for evidence generation in an AI era, and brings an outside perspective from biomedical regulation, where independent, long-lived standards bodies and portable governance determine what regulators will trust.",
+      "key_points": [
+        "Data are the result of an observation or measurement, almost always a sample, and are intended to represent the truth; this aligns with the Information Artifact Ontology definition of a data entity as a subclass of information content entity.",
+        "The knowledge pyramid places information above data, the opposite of IAO's hierarchy, illustrating that how terms are defined determines how entities are understood within a worldview.",
+        "Transforming data into knowledge requires meaning, trust (provenance, context) and relevance (context of use), which together produce evidence.",
+        "Different kinds of data carry different strengths of evidence (a feather versus a paw print).",
+        "AI generates data (text, images, synthetic data, predictions, classifications, inferred values) but not new empirical observations; it reproduces knowledge and creates candidate knowledge, which becomes knowledge only when supported by trusted evidence.",
+        "Secondary reuse of data is the only way to scale inquiry, so collectors' minimal notes are insufficient without standards and context.",
+        "Regulators such as the FDA trust international, independent, long-lived standards organisations rather than individual academic ontology projects; TDWG (since 1985) plays that role for biodiversity.",
+        "Governance controls access and use; C-Path's strong, flexible governance lets partners share data they would share with nobody else, and portable governance travelling with data may be feasible in three to five years.",
+        "Standards and controlled vocabularies improve interoperability but have loose semantics; ontologies are human- and machine-readable artifacts that encode domain semantics.",
+        "Biomedical models (OMOP Common Data Model and vocabulary, FHIR, European Health Data Space) and C-Path's ontology-annotated knowledge graph enabling cross-dataset queries are offered as possible models for biodiversity data."
+      ],
+      "content_type": [
+        "conceptual",
+        "standard",
+        "infrastructure"
+      ],
+      "audience_level": "intermediate",
+      "themes_raw": [
+        "data to knowledge",
+        "evidence generation",
+        "AI and knowledge creation",
+        "ontologies and semantics",
+        "provenance and trust",
+        "context of use",
+        "role of standards bodies",
+        "data governance enabling sharing",
+        "lessons from biomedical data standards",
+        "knowledge graphs",
+        "secondary data reuse"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "Critical Path Institute (C-Path)",
+          "type": "organisation"
+        },
+        {
+          "name": "TDWG",
+          "type": "organisation"
+        },
+        {
+          "name": "GBIF",
+          "type": "infrastructure"
+        },
+        {
+          "name": "FDA",
+          "type": "organisation"
+        },
+        {
+          "name": "iNaturalist",
+          "type": "platform"
+        },
+        {
+          "name": "USA National Phenology Network",
+          "type": "infrastructure"
+        },
+        {
+          "name": "NEON",
+          "type": "infrastructure"
+        },
+        {
+          "name": "Observational Medical Outcomes Partnership (OMOP)",
+          "type": "project"
+        },
+        {
+          "name": "European Health Data Space",
+          "type": "policy"
+        },
+        {
+          "name": "data.world",
+          "type": "platform"
+        },
+        {
+          "name": "CDISC",
+          "type": "organisation"
+        }
+      ],
+      "standards": [
+        "Information Artifact Ontology (IAO)",
+        "Plant Phenology Ontology",
+        "Plant Ontology",
+        "Plant Trait Ontology",
+        "Biological Collections Ontology (BCO)",
+        "Population and Community Ontology (PCO)",
+        "OMOP Common Data Model",
+        "OMOP vocabulary",
+        "SNOMED",
+        "FHIR (Fast Healthcare Interoperability Resources)",
+        "CDISC SDTM",
+        "RDF",
+        "FAIR principles"
+      ],
+      "software_tools": [
+        "data.world"
+      ],
+      "datasets": [],
+      "methods": [
+        "ontology-based data integration",
+        "automated ontology annotation pipeline",
+        "knowledge graph for cross-dataset queries",
+        "DNA sequencing of museum specimens"
+      ],
+      "questions": [
+        "Does AI generate data, and does it create knowledge?",
+        "If a model predicts the trait distribution within a species, is that evidence?",
+        "Can governance be made portable so that it travels with the data?"
+      ],
+      "notable_claims": [
+        {
+          "claim": "Data are intended to represent the truth, which distinguishes data from arbitrary information.",
+          "timestamp": "00:57:00",
+          "confidence": "high"
+        },
+        {
+          "claim": "Sequencing of purported Yeti specimens showed they belonged to bears and one dog, while yielding new knowledge of the evolutionary history of Himalayan bears.",
+          "timestamp": "01:04:35",
+          "confidence": "high"
+        },
+        {
+          "claim": "AI generates data but not new empirical observations of the world, at least not yet.",
+          "timestamp": "01:06:03",
+          "confidence": "high"
+        },
+        {
+          "claim": "AI discoveries only become knowledge if there is reason to believe they are true, which requires provenance and context of use.",
+          "timestamp": "01:07:34",
+          "confidence": "high"
+        },
+        {
+          "claim": "Regulators do not trust a single academic-funded ontology project; they want an international, independent standards organisation that will exist in 10-20 years.",
+          "timestamp": "01:09:55",
+          "confidence": "high"
+        },
+        {
+          "claim": "Good governance makes altruism possible: when data owners can control who sees data, the common excuse for not sharing disappears.",
+          "timestamp": "01:12:02",
+          "confidence": "high"
+        },
+        {
+          "claim": "The Plant Phenology Ontology has been valuable for integrating phenology data from iNaturalist, the National Phenology Network, NEON and others into a global analysis.",
+          "timestamp": "01:14:29",
+          "confidence": "high"
+        }
+      ],
+      "recommendations": [
+        "Observe accurately, preserve meaning, establish trust, and only then generate knowledge.",
+        "Keep building standards, semantics and ontologies so data can become evidence: TDWG should keep doing this work.",
+        "Look at biomedical models such as OMOP and FHIR as potential models for biodiversity data."
+      ],
+      "results_findings": [],
+      "limitations": [
+        "Standards and controlled vocabularies have only loose semantics; ontologies cannot yet capture all the nuances of human understanding."
+      ],
+      "future_work": [
+        "The speaker expects structures that make governance portable along with data to be feasible within three to five years."
+      ],
+      "examples_case_studies": [
+        "Barbara McClintock's maize work discovering transposons",
+        "Gila monster metabolism research leading to GLP-1 drugs",
+        "Feather versus raccoon paw print as evidence of different strength",
+        "DNA analysis of Yeti specimens",
+        "Plant Phenology Ontology used in a global phenology analysis (to be presented by Rob Guralnick on Thursday)",
+        "C-Path knowledge graph query for depression/anxiety phenotypes across ALS datasets"
+      ],
+      "q_and_a": [],
+      "representative_excerpt": {
+        "timestamp": "01:21:26",
+        "text": "The future of biodiversity science depends not just on having more data, though we certainly need that, but on preserving enough meaning and context for those data to become evidence."
+      },
+      "notable_moments": [
+        {
+          "timestamp": "00:57:29",
+          "type": "explanation",
+          "description": "Information Artifact Ontology definition of data."
+        },
+        {
+          "timestamp": "01:00:47",
+          "type": "key_point",
+          "description": "Data-to-knowledge chain: meaning, trust, relevance (context of use), evidence."
+        },
+        {
+          "timestamp": "01:03:52",
+          "type": "example",
+          "description": "Yeti specimens sequenced: bears and a dog, plus new bear evolutionary history."
+        },
+        {
+          "timestamp": "01:05:20",
+          "type": "key_point",
+          "description": "Does AI generate data? Does AI create knowledge?"
+        },
+        {
+          "timestamp": "01:09:16",
+          "type": "argument",
+          "description": "Why independent standards bodies like TDWG matter, seen from the biomedical regulatory world."
+        },
+        {
+          "timestamp": "01:20:07",
+          "type": "conclusion",
+          "description": "Summary: AI raises the stakes; TDWG builds infrastructure for evidence generation."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "00:49:56",
+          "end_timestamp": "01:22:15"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Presented as scheduled keynote event-007, starting a few minutes behind schedule."
+      }
+    }
+  ],
+  "unassigned": [
+    {
+      "start_timestamp": "00:00:00",
+      "end_timestamp": "00:01:10",
+      "type": "announcement",
+      "description": "Chair welcomes audience back after coffee, announces two speakers before lunch, and names the conference troll 'Gimimir Standardsson'."
+    },
+    {
+      "start_timestamp": "00:01:10",
+      "end_timestamp": "00:01:59",
+      "type": "introduction",
+      "description": "Dag (GBIF Norway, local host) introduces Máret Heatta, assistant professor in Tromsø and member of the CARE task group."
+    },
+    {
+      "start_timestamp": "00:45:33",
+      "end_timestamp": "00:46:21",
+      "type": "announcement",
+      "description": "Chair notes the session is running behind; questions for Heatta to be taken at lunch; hands over to Javier."
+    },
+    {
+      "start_timestamp": "00:46:21",
+      "end_timestamp": "00:47:24",
+      "type": "announcement",
+      "description": "Javier's announcement about photo consent and sharing photos via the conference hashtag and the Whova 'Share Your Moments' feature."
+    },
+    {
+      "start_timestamp": "00:47:24",
+      "end_timestamp": "00:49:56",
+      "type": "introduction",
+      "description": "Javier introduces Ramona Walls (C-Path; former fashion designer; ontology-based data integration; University of Arizona, NYBG, Stony Brook, Penn State)."
+    },
+    {
+      "start_timestamp": "01:22:15",
+      "end_timestamp": "01:23:33",
+      "type": "announcement",
+      "description": "Thanks to speakers, no time for questions; lunch break; return at 14:00 sharp; Taste of TDWG presenters to arrive 15 minutes early; no food or drink in the room."
+    }
+  ],
+  "programme_status": [
+    {
+      "programme_id": "event-003",
+      "title": "Address from TDWG Chair",
+      "status": "uncertain",
+      "content_item_id": null,
+      "notes": "Not covered by this recording (Aula_Plenary_2 spans only the late-morning block from after the coffee break to lunch); earlier morning item, expected in Aula_Plenary_1."
+    },
+    {
+      "programme_id": "event-004",
+      "title": "AI for Nature at Large Scale and High Resolution",
+      "status": "uncertain",
+      "content_item_id": null,
+      "notes": "Not covered by this recording (Aula_Plenary_2 spans only the late-morning block from after the coffee break to lunch); earlier morning item, expected in Aula_Plenary_1."
+    },
+    {
+      "programme_id": "event-006",
+      "title": "Sámi perspectives on biodiversity Data Governance and more inclusive Data Standards",
+      "status": "presented",
+      "content_item_id": "aula-2026-09-21-plenary2-heatta",
+      "notes": "Presented in this recording; no Q&A due to time."
+    },
+    {
+      "programme_id": "event-007",
+      "title": "From biodiversity data to knowledge in the age of AI: Where do ontologies and standards fit?",
+      "status": "presented",
+      "content_item_id": "aula-2026-09-21-plenary2-walls",
+      "notes": "Presented in this recording; no Q&A due to time."
+    },
+    {
+      "programme_id": "event-010",
+      "title": "Building a New Foundation for the Biodiversity Heritage Library",
+      "status": "uncertain",
+      "content_item_id": null,
+      "notes": "Not covered by this recording (Aula_Plenary_2 spans only the late-morning block from after the coffee break to lunch); afternoon item after lunch, expected in another Aula recording (e.g. Aula_taster_talks)."
+    },
+    {
+      "programme_id": "event-011",
+      "title": "Reducing the lag from observation to action",
+      "status": "uncertain",
+      "content_item_id": null,
+      "notes": "Not covered by this recording (Aula_Plenary_2 spans only the late-morning block from after the coffee break to lunch); afternoon item after lunch, expected in another Aula recording (e.g. Aula_taster_talks)."
+    },
+    {
+      "programme_id": "event-012",
+      "title": "Keeping Colliders in Physics: Rethinking the Construction of Taxonomic Backbones and Names- matching in Large Data Aggregators",
+      "status": "uncertain",
+      "content_item_id": null,
+      "notes": "Not covered by this recording (Aula_Plenary_2 spans only the late-morning block from after the coffee break to lunch); afternoon item after lunch, expected in another Aula recording (e.g. Aula_taster_talks)."
+    },
+    {
+      "programme_id": "event-013",
+      "title": "DwC-DP Integration at GBIF",
+      "status": "uncertain",
+      "content_item_id": null,
+      "notes": "Not covered by this recording (Aula_Plenary_2 spans only the late-morning block from after the coffee break to lunch); afternoon item after lunch, expected in another Aula recording (e.g. Aula_taster_talks)."
+    },
+    {
+      "programme_id": "event-014",
+      "title": "Using automation to consolidate biodiversity occurrence data from multiple sources to assist conservation decision making in South African National Parks.",
+      "status": "uncertain",
+      "content_item_id": null,
+      "notes": "Not covered by this recording (Aula_Plenary_2 spans only the late-morning block from after the coffee break to lunch); afternoon item after lunch, expected in another Aula recording (e.g. Aula_taster_talks)."
+    },
+    {
+      "programme_id": "event-015",
+      "title": "Extending Darwin Core to Represent Sociobiodiversity and Traditional Knowledge",
+      "status": "uncertain",
+      "content_item_id": null,
+      "notes": "Not covered by this recording (Aula_Plenary_2 spans only the late-morning block from after the coffee break to lunch); afternoon item after lunch, expected in another Aula recording (e.g. Aula_taster_talks)."
+    },
+    {
+      "programme_id": "event-016",
+      "title": "What if biodiversity data systems were designed to behave like ecosystems?",
+      "status": "uncertain",
+      "content_item_id": null,
+      "notes": "Not covered by this recording (Aula_Plenary_2 spans only the late-morning block from after the coffee break to lunch); afternoon item after lunch, expected in another Aula recording (e.g. Aula_taster_talks)."
+    },
+    {
+      "programme_id": "event-017",
+      "title": "Mainstreaming high-throughput biodiversity monitoring using AI",
+      "status": "uncertain",
+      "content_item_id": null,
+      "notes": "Not covered by this recording (Aula_Plenary_2 spans only the late-morning block from after the coffee break to lunch); afternoon item after lunch, expected in another Aula recording (e.g. Aula_taster_talks)."
+    }
+  ]
+}

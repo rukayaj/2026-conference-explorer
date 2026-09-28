@@ -1,0 +1,682 @@
+{
+  "recording": {
+    "conference": "TDWG 2026",
+    "date": "2026-09-21",
+    "room": "Aula",
+    "video_url": "",
+    "transcript_source": "Aula_Plenary_1.srt",
+    "language": "en",
+    "notes": "Morning part of the Monday plenary (session monday-plenary), University of Oslo Aula, about 1h36m. Covers the opening, local welcome (Hugo de Boer), housekeeping, the TDWG Chair's address (David Bloom) and the first keynote (Tanya Berger-Wolf) with Q&A, ending at the coffee break (restart announced for 11:05). The programme ran about 30 minutes behind schedule. ASR regularly renders TDWG as 'TADWIG'/'TIDWEG'/'ADWIC' and Imageomics as 'Image Genomics'."
+  },
+  "content_items": [
+    {
+      "id": "aula-plenary-1-01-tdwg-chair-address",
+      "type": "talk",
+      "programme_id": "event-003",
+      "title": "Address from the TDWG Chair: highlights of the year and TDWG at a crossroads",
+      "programme": {
+        "title": "Address from TDWG Chair",
+        "speakers": [
+          {
+            "name": "David Bloom",
+            "affiliation": ""
+          }
+        ],
+        "session": "Monday plenary programme (monday-plenary)",
+        "scheduled_start": "9:30 AM",
+        "scheduled_end": "9:45 AM",
+        "abstract": ""
+      },
+      "actual": {
+        "start_timestamp": "00:26:12",
+        "end_timestamp": "00:43:08",
+        "duration_seconds": 1016,
+        "speakers": [
+          {
+            "name": "David Bloom",
+            "affiliation": "TDWG Chair"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Speaker introduces himself as 'Dave Bloom ... the chair of TADWIG' (ASR renders TDWG as 'TADWIG'/'TIDWEG'). Preceded by a short announcement about game night and thanking volunteer 'Stan' (placed in unassigned). Talk ended at roughly 10:13 local time against a 9:45 scheduled end because the welcome and housekeeping ran first.",
+        "transcript_quality": "high"
+      },
+      "summary": "TDWG chair David Bloom reviewed the past year's highlights: ratification of the Darwin Core Data Package, progress of the Biodiversity Data Quality and MIDS standards toward public review, a completed Darwin Core public review affecting the Humboldt and new mineralogy extensions, a new Image Quality and AI Readiness task group, Community Support Fund awards, Living Data 2025 in Bogotá, and a new editor-in-chief for the BISS journal. He then traced TDWG's history from a taxonomy-focused group in the 1980s, through the occurrence-data and portal era, to a new focus on linked open data. He set out current challenges (documentation and archives, participation, volunteer succession, sustainable standards maintenance, finances, and AI) and appealed to attendees to get involved.",
+      "one_line_takeaway": "TDWG has had a productive year, but a growing, more diverse community and the rise of AI put it at a crossroads that needs more volunteers, better documentation and more sustainable maintenance and funding.",
+      "why_it_matters": "It is the organisation's own view of where its standards work stands and what it needs next. It flags upcoming public reviews, new groups and elections that community members can join, and names the structural risks: volunteer burnout, maintenance load and documentation debt.",
+      "key_points": [
+        "The Darwin Core Data Package (DwC-DP) has been ratified after a multi-year effort led largely by the Darwin Core Maintenance Group.",
+        "The Biodiversity Data Quality Interest Group's standard is heading toward public review, and the Minimum Information about a Digital Specimen (MIDS) standard is about to enter public review.",
+        "The second Darwin Core public review of the year passed all proposals, leading to significant changes to the Humboldt extension and a new mineralogy extension (pending Executive Committee approval).",
+        "A new Image Quality and AI Readiness task group has formed. The TDWG Community Support Fund made four awards totalling just over US$15,000 (mineralogy, sensitive species, invasive species in environmental samples, eDNA).",
+        "Living Data 2025 in Bogotá had more than 900 participants, over 700 of them in person.",
+        "BISS (Biodiversity Information Science and Standards, hosted by Pensoft) has a new editor-in-chief and will expand to peer-reviewed papers. Discounted fees for TDWG members are being considered.",
+        "TDWG's focus has moved from taxonomy/names (1980s) to primary occurrence data and portals such as GBIF and VertNet (2000s, both marking 25 years), and now to linked open data and data packages.",
+        "Challenges named: archival and online documentation (a new task group will review documentation tools and processes), participation (Executive Committee elections, subcommittees, working groups), succession in an all-volunteer organisation, a maintenance load that now needs four or five people per standard, finances (a new donate button), and AI.",
+        "Bloom argued that the use of AI makes TDWG's work even more important."
+      ],
+      "content_type": [
+        "community/project",
+        "policy/governance",
+        "standard"
+      ],
+      "audience_level": "general",
+      "themes_raw": [
+        "TDWG organisational update",
+        "standards ratification and public review",
+        "history of biodiversity informatics",
+        "linked open data",
+        "volunteer participation and succession",
+        "sustainability of standards maintenance",
+        "documentation and archives",
+        "AI and standards bodies"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "TDWG (Biodiversity Information Standards)",
+          "type": "organisation"
+        },
+        {
+          "name": "Darwin Core Maintenance Group",
+          "type": "working group"
+        },
+        {
+          "name": "Biodiversity Data Quality Interest Group",
+          "type": "working group"
+        },
+        {
+          "name": "Image Quality and AI Readiness Task Group",
+          "type": "working group"
+        },
+        {
+          "name": "TDWG Community Support Fund",
+          "type": "programme"
+        },
+        {
+          "name": "Living Data 2025",
+          "type": "event"
+        },
+        {
+          "name": "Humboldt Institute (Instituto Humboldt)",
+          "type": "organisation"
+        },
+        {
+          "name": "GBIF",
+          "type": "infrastructure"
+        },
+        {
+          "name": "OBIS",
+          "type": "infrastructure"
+        },
+        {
+          "name": "GEO BON",
+          "type": "organisation"
+        },
+        {
+          "name": "VertNet (ASR: 'Vertebrate Networks')",
+          "type": "infrastructure"
+        },
+        {
+          "name": "DiSSCo (ASR: 'Disco')",
+          "type": "infrastructure"
+        },
+        {
+          "name": "Biodiversity Information Science and Standards (BISS)",
+          "type": "journal"
+        },
+        {
+          "name": "Pensoft",
+          "type": "organisation"
+        }
+      ],
+      "standards": [
+        "Darwin Core Data Package (DwC-DP)",
+        "Darwin Core",
+        "Humboldt extension",
+        "Darwin Core mineralogy extension",
+        "Minimum Information about a Digital Specimen (MIDS)",
+        "Biodiversity Data Quality standard",
+        "ABCD",
+        "Camtrap DP"
+      ],
+      "software_tools": [],
+      "datasets": [],
+      "methods": [],
+      "questions": [
+        "How should TDWG handle archival documents and the online documentation of standards so they reach a wider audience?",
+        "How can standards be maintained more equitably and sustainably together with partners such as GBIF and OBIS?",
+        "What does AI mean for TDWG's community and how quickly will it change how the community works?"
+      ],
+      "notable_claims": [
+        {
+          "claim": "The Darwin Core Data Package has been ratified.",
+          "timestamp": "00:27:10",
+          "confidence": "high"
+        },
+        {
+          "claim": "All proposals in the second Darwin Core public review of the year passed, leading to significant changes to the Humboldt extension and a new mineralogy extension.",
+          "timestamp": "00:28:41",
+          "confidence": "high"
+        },
+        {
+          "claim": "The TDWG Community Support Fund made four awards this year totalling a little more than US$15,000.",
+          "timestamp": "00:29:37",
+          "confidence": "high"
+        },
+        {
+          "claim": "Living Data 2025 in Bogotá hosted more than 900 participants, including more than 700 in person.",
+          "timestamp": "00:29:58",
+          "confidence": "high"
+        },
+        {
+          "claim": "Maintaining standards that once needed one or two people now needs four or five.",
+          "timestamp": "00:40:42",
+          "confidence": "high"
+        },
+        {
+          "claim": "The use of AI makes the work of TDWG even more important.",
+          "timestamp": "00:42:25",
+          "confidence": "high"
+        }
+      ],
+      "recommendations": [
+        "Stand for the TDWG Executive Committee, join a subcommittee, or join a maintenance, interest or task group.",
+        "Talk to Executive Committee members, subcommittee chairs and group conveners during the week to find a role.",
+        "Consider BISS for peer-reviewed papers. Volunteer as co-editor for this year's collection of extended abstracts.",
+        "Use the week to think about how AI affects your own work and your institutions."
+      ],
+      "results_findings": [],
+      "limitations": [],
+      "future_work": [
+        "A new task group will soon launch to review TDWG's documentation tools and processes.",
+        "MIDS and the Biodiversity Data Quality standard are to enter public review.",
+        "DiSSCo has a GBIF capacity enhancement grant to plan mapping its data to DwC-DP. TDWG awaits an EU decision on a recent grant submission (ASR: 'Bicycle AI').",
+        "More news on the Living Data series is expected later in the week.",
+        "TDWG will explore broader financial support through partnerships and giving."
+      ],
+      "examples_case_studies": [],
+      "q_and_a": [],
+      "representative_excerpt": {
+        "timestamp": "00:42:25",
+        "text": "One thing is certain, the use of AI makes the work of TDWG even more important."
+      },
+      "notable_moments": [
+        {
+          "timestamp": "00:27:10",
+          "type": "key_point",
+          "description": "Announcement that the Darwin Core Data Package has been ratified."
+        },
+        {
+          "timestamp": "00:32:52",
+          "type": "explanation",
+          "description": "History of TDWG from 1980s taxonomy through the occurrence-data era to linked open data."
+        },
+        {
+          "timestamp": "00:36:38",
+          "type": "key_point",
+          "description": "Start of the challenges: documentation, participation, volunteer succession, maintenance and funding."
+        },
+        {
+          "timestamp": "00:42:02",
+          "type": "key_point",
+          "description": "AI described as 'a disturbance in the Force' and a challenge for the community."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "00:26:12",
+          "end_timestamp": "00:43:08"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Scheduled 9:30-9:45 AM. In practice it followed a welcome from Hugo de Boer and housekeeping from the deputy chair, so it started about 25 minutes into the recording."
+      }
+    },
+    {
+      "id": "aula-plenary-1-02-berger-wolf-keynote",
+      "type": "talk",
+      "programme_id": "event-004",
+      "title": "AI for Nature at Large Scale and High Resolution",
+      "programme": {
+        "title": "AI for Nature at Large Scale and High Resolution",
+        "speakers": [
+          {
+            "name": "Tanya Berger-Wolf",
+            "affiliation": ""
+          }
+        ],
+        "session": "Monday plenary programme (monday-plenary)",
+        "scheduled_start": "9:45 AM",
+        "scheduled_end": "10:30 AM",
+        "abstract": "Computation has fundamentally changed the way we study nature. New data collection technologies, such as GPS, high-definition cameras, autonomous vehicles under water, on the ground, and in the air, genotyping, acoustic sensors, and crowdsourcing, are generating data about life on the planet that are orders of magnitude richer than any previously collected. Yet, our ability to extract insight from these data lags substantially behind our ability to collect it.\n\nThe talk will discuss both recent advances and potential opportunities in AI that can turn these data into high resolution information source about living organisms, enabling scientific inquiry, conservation, and policy decisions. We will also address the challenges in scaling biodiversity research and action with AI, particularly in AI-ready cyber-and data infrastructures, as well as complex multimodal, multi-sensor, multi-scale data analysis, modeling, and visualizations."
+      },
+      "actual": {
+        "start_timestamp": "00:44:33",
+        "end_timestamp": "01:35:34",
+        "duration_seconds": 3061,
+        "speakers": [
+          {
+            "name": "Tanya Berger-Wolf",
+            "affiliation": "The Ohio State University (Translational Data Analytics Institute; Imageomics Institute; AI and Biodiversity Change (ABC) Global Center)"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Introduced by David Bloom as Dr. Tanya Berger-Wolf; the content matches the keynote abstract. ASR errors include 'Image Genomics' for Imageomics, 'Hilmar Labbé' for Hilmar Lapp, 'Yasin Bakkies' for Yasin Bakiş and 'ADWIC' for TDWG. The keynote ran about 44 minutes plus about 7 minutes of Q&A, ending around 01:35 in the recording; the break was moved to 11:05.",
+        "transcript_quality": "high"
+      },
+      "summary": "Berger-Wolf argued that computation does not change the scientific method but lets scientists 'look at more things, more carefully', at larger scale and higher resolution. Biodiversity data, however, are heavily biased toward where wealthy people are, and AI methods tuned to benchmarks tend to learn more about what we already know. She presented Imageomics work that builds biological knowledge into machine learning. The examples were BioCLIP (a foundation model trained on 214 million images of about a million species captioned with full taxonomy), biologically meaningful interpretability with attention and sparse autoencoders, automated trait measurement of NEON ground beetles, and drone-based behaviour data. She then showed that AI agents fail mainly at finding and preparing data rather than at analysis. She ended on data readiness: the FAIR for AI checklist and agent, sovereign data supply chains, and infrastructure that returns value to primary data collectors.",
+      "one_line_takeaway": "AI can help fill biodiversity knowledge shortfalls only if biological knowledge is built into the models and the data infrastructure is FAIR for AI and returns value to primary data collectors, because 'there is no AI without data'.",
+      "why_it_matters": "The keynote connects state-of-the-art machine learning to TDWG's core business. Its evidence that AI agents fail mostly at data discovery, API construction and data preparation, rather than at analysis, argues that standards, metadata and provenance are the bottleneck for AI in biodiversity science. It also calls for provenance and attribution to flow back from ML-derived products to the original data providers.",
+      "key_points": [
+        "Following Poincaré's Science and Method, computation lets scientists look at more things more carefully, but data remain strongly skewed geographically, taxonomically and by wealth. Observations track where rich people are, not where biodiversity is.",
+        "Estimated species numbers have risen to roughly 30-50 million while only about two million (perhaps 1.5 million unique) are named, so the Linnean shortfall is growing. A recent prospective paper maps each biodiversity shortfall to AI research that could help fill it.",
+        "'AI' here means mostly (about 99%) machine learning, not LLMs. Benchmark-driven ML improves performance on the data-rich bulk of skewed distributions rather than the long tail where discovery lies.",
+        "BioCLIP was trained on about 214 million images of about a million species (sources include EOL, GBIF, iNaturalist, FathomNet and BIOSCAN), simply captioned with full taxonomic strings. It learns taxonomy implicitly and can classify at any rank.",
+        "BioCLIP's embedding space holds biology it was never given: clusters for life stage, sex and disease, a Darwin's finch axis aligned with beak size, and a freshwater versus marine split in fish. Similarity search surfaces diseased plants and pollinator interactions.",
+        "Biologically meaningful interpretability: attention-based part highlighting, and sparse autoencoders that manipulate features to show what about a trait (for example the shape of a house sparrow's beak) distinguishes a species. This supports trait discovery, dichotomous keys and separating mimic species.",
+        "An imaging pipeline for NEON ground-beetle bycatch segments specimens and measures landmark distances more accurately than calipers. The traits are being tested as predictors of drought and soil moisture.",
+        "Drone-based systems collect population-level behaviour and movement data. This work motivates FAIR-for-AI drone data standards.",
+        "In a benchmark of about 300 data-driven ecological questions split into four stages (find data, extract/API, organise, analyse), AI agents failed badly at building the right API and preparing data. With data and method given they reached about 60% accuracy at a cost of thousands of dollars in tokens.",
+        "'AI-ready' is question-specific. FAIR for AI is the general layer between FAIR and task-specific readiness. A community-built FAIR for AI checklist (90+ criteria) is assessed by an agent that gives constructive feedback.",
+        "Data flow one way toward aggregators. ML-derived improvements (bounding boxes, deduplication, updated taxonomy, provenance) should flow back to primary data providers through lightweight AI-ready infrastructure layered on existing repositories."
+      ],
+      "content_type": [
+        "research",
+        "infrastructure",
+        "conceptual"
+      ],
+      "audience_level": "intermediate",
+      "themes_raw": [
+        "AI for biodiversity science",
+        "imageomics",
+        "foundation models for organismal biology",
+        "biodiversity knowledge shortfalls",
+        "data bias in biodiversity observations",
+        "interpretable machine learning",
+        "trait extraction from images",
+        "AI-ready and FAIR for AI data",
+        "AI agents for scientific data analysis",
+        "data provenance and value return to primary data collectors",
+        "multi-scale, multi-modal sensor data",
+        "biologically relevant ML benchmarks"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "Imageomics Institute",
+          "type": "project"
+        },
+        {
+          "name": "AI and Biodiversity Change (ABC) Global Center",
+          "type": "project"
+        },
+        {
+          "name": "ICICLE (NSF AI Institute for Intelligent Cyberinfrastructure with Computational Learning in the Environment)",
+          "type": "project"
+        },
+        {
+          "name": "The Ohio State University",
+          "type": "organisation"
+        },
+        {
+          "name": "GBIF",
+          "type": "infrastructure"
+        },
+        {
+          "name": "iNaturalist",
+          "type": "platform"
+        },
+        {
+          "name": "eBird",
+          "type": "platform"
+        },
+        {
+          "name": "Encyclopedia of Life",
+          "type": "platform"
+        },
+        {
+          "name": "FathomNet",
+          "type": "dataset"
+        },
+        {
+          "name": "BIOSCAN",
+          "type": "project"
+        },
+        {
+          "name": "National Ecological Observatory Network (NEON)",
+          "type": "infrastructure"
+        },
+        {
+          "name": "Montreal Insectarium",
+          "type": "organisation"
+        },
+        {
+          "name": "Max Planck Institute of Animal Behavior",
+          "type": "organisation"
+        },
+        {
+          "name": "WILDLABS",
+          "type": "community"
+        },
+        {
+          "name": "NatureServe",
+          "type": "organisation"
+        },
+        {
+          "name": "The Wilds (Ohio)",
+          "type": "site"
+        },
+        {
+          "name": "CyVerse",
+          "type": "infrastructure"
+        }
+      ],
+      "standards": [
+        "FAIR for AI (FAIR4AI) checklist",
+        "FAIR4ML",
+        "Croissant (mentioned in Q&A)",
+        "FAIR principles",
+        "model cards",
+        "Model Context Protocol"
+      ],
+      "software_tools": [
+        "BioCLIP / BioCLIP 2",
+        "LeafMachine",
+        "INQUIRE",
+        "FAIR for AI assessment agent",
+        "sparse autoencoders"
+      ],
+      "datasets": [
+        "BioCLIP training data (about 214 million images, about 1 million species)",
+        "Fish-AIR dataset",
+        "NEON ground beetle collections",
+        "Imageomics biologically relevant benchmarks",
+        "Benchmark of about 300 data-driven ecological questions",
+        "OpenForest (ASR: 'OpenForis') multi-scale forest dataset"
+      ],
+      "methods": [
+        "taxonomic-string captioning for contrastive foundation-model training",
+        "embedding-space exploration and similarity search",
+        "attention-based interpretability",
+        "sparse autoencoders for semantic features",
+        "image segmentation and landmark-based trait measurement",
+        "drone-based behaviour data collection",
+        "AI agent evaluation across a staged scientific workflow"
+      ],
+      "questions": [
+        "How do we build data infrastructure and standards that link multi-scale, multi-modal data and send ML-derived value back to primary data sources?",
+        "Should the implicit knowledge that AI agents currently cannot access be made machine-accessible?",
+        "How can ML benchmarks be redesigned so the ML community works on biologically meaningful problems and the long tail?"
+      ],
+      "notable_claims": [
+        {
+          "claim": "Biodiversity observations correlate with average income per unit area: we have data where rich humans are, not where nature is.",
+          "timestamp": "00:51:03",
+          "confidence": "high"
+        },
+        {
+          "claim": "Estimated species numbers have jumped to about 30-50 million while only about two million are named, so the Linnean shortfall is growing.",
+          "timestamp": "00:53:12",
+          "confidence": "high"
+        },
+        {
+          "claim": "BioCLIP 2 was trained on about 214 million images of about a million species, roughly half of all named species.",
+          "timestamp": "00:58:32",
+          "confidence": "high"
+        },
+        {
+          "claim": "Within BioCLIP's representation space, Darwin's finches align along a dimension corresponding to beak size, although no beak-size information was given to the model.",
+          "timestamp": "01:00:41",
+          "confidence": "high"
+        },
+        {
+          "claim": "Image-based landmark measurement of ground beetles is more accurate than measuring with calipers.",
+          "timestamp": "01:10:28",
+          "confidence": "high"
+        },
+        {
+          "claim": "AI agents failed badly at constructing the right API to get data. This reflects data readiness rather than agent ability.",
+          "timestamp": "01:18:52",
+          "confidence": "high"
+        },
+        {
+          "claim": "Given the data and analysis method, AI agents answered to about 60% accuracy at a cost of thousands of dollars in tokens.",
+          "timestamp": "01:19:43",
+          "confidence": "high"
+        },
+        {
+          "claim": "The FAIR for AI checklist now has more than 90 categories/criteria, so an agent was built to perform the assessment.",
+          "timestamp": "01:24:27",
+          "confidence": "high"
+        }
+      ],
+      "recommendations": [
+        "Publish ground-truthed datasets with well-defined, biologically relevant benchmark tasks to engage the ML community.",
+        "Make aggregators such as GBIF, NEON and iNaturalist FAIR for AI, with annotations attached to the original datasets.",
+        "Return ML-derived products (bounding boxes, deduplication flags, updated names, provenance) to primary data providers.",
+        "Read the Latin American and Caribbean white paper on sovereign data supply chains."
+      ],
+      "results_findings": [
+        "BioCLIP learns taxonomy implicitly and supports classification at any taxonomic level without being trained for classification.",
+        "BioCLIP embeddings separate life stages, sexes and disease states, and encode traits such as finch beak size and fish habitat type.",
+        "Sparse-autoencoder feature manipulation showed that a house sparrow's distinctiveness lies in a thicker, larger, wider beak.",
+        "Image-based beetle trait measurements beat calipers for accuracy.",
+        "AI agents' pass rate rises with token spend, but they fail mainly at API construction and data preparation."
+      ],
+      "limitations": [
+        "AI agent benchmarking used state-of-the-art agents from about four months earlier; the state of the art has since changed.",
+        "Much implicit knowledge and metadata needed to prepare data is not accessible to AI agents.",
+        "ML-ready datasets published in ML venues often lose their connection to, and attribution of, the primary data.",
+        "Definitions of FAIR for AI and related standards are still being debated."
+      ],
+      "future_work": [
+        "Re-running beetle-community drought prediction with precise trait measurements to test soil-moisture hypotheses.",
+        "Expanding FAIR for AI drone data standards.",
+        "Integrating provenance and name-reconciliation links built on GBIF data into GBIF and sending them back to data providers.",
+        "Adapting BioCLIP-like approaches to paleontological collections, which need multimodal (3D, DNA, chemical) models."
+      ],
+      "examples_case_studies": [
+        "Flagging new moth species with BioCLIP (David Rolnick, McGill, with the Montreal Insectarium)",
+        "INQUIRE: finding trophic interactions in iNaturalist data (Sara Beery)",
+        "NEON ground-beetle bycatch trait pipeline",
+        "Drone behaviour studies in Kenya (Jenna Kline)",
+        "Multi-sensor instrumentation experiment at The Wilds, Ohio",
+        "Diseased milkweed and moth-pollinator similarity searches"
+      ],
+      "q_and_a": [
+        {
+          "question": "Could the BioCLIP approach be extended to paleontological collections?",
+          "answer_summary": "Probably yes; GBIF already holds some bone and skeletal material, but data are needed. Paleo is strongly multimodal (often 3D images, DNA, chemistry, single teeth), so its models differ somewhat, though a connection is possible.",
+          "timestamp": "01:29:24"
+        },
+        {
+          "question": "Where should curated, AI-ready biodiversity datasets be deployed (for example Kaggle or OpenML, with Croissant and provenance metadata) so they do not degrade among low-quality data?",
+          "answer_summary": "She distinguished FAIR for AI (a property of the source dataset, with annotations kept on the original) from FAIR4ML/model-ready copies, which lose provenance and attribution. The goal is not new repositories but a lightweight AI-ready layer over existing infrastructure such as GBIF that keeps provenance chains and returns derived products (bounding boxes, deduplication, updated names) to primary providers.",
+          "timestamp": "01:30:40"
+        }
+      ],
+      "representative_excerpt": {
+        "timestamp": "01:35:11",
+        "text": "So the goal is not to create new repositories of any kind, but to create a data infrastructure that amends existing one and create kind of a relatively lightweight AI-enabled and AI-ready infrastructure on top of it that brings value all the way up and down the data chain."
+      },
+      "notable_moments": [
+        {
+          "timestamp": "00:46:48",
+          "type": "key_point",
+          "description": "Poincaré's Science and Method: computation lets scientists look at more things, more carefully."
+        },
+        {
+          "timestamp": "00:49:26",
+          "type": "key_point",
+          "description": "Geographic and income bias in GBIF, iNaturalist and eBird data."
+        },
+        {
+          "timestamp": "00:58:05",
+          "type": "explanation",
+          "description": "How BioCLIP was built by captioning images with full taxonomy."
+        },
+        {
+          "timestamp": "01:00:16",
+          "type": "result",
+          "description": "Emergent biological structure in BioCLIP's embedding space (life stages, sex, disease, finch beak size)."
+        },
+        {
+          "timestamp": "01:06:36",
+          "type": "demonstration",
+          "description": "Sparse autoencoders showing what about a house sparrow's beak makes it distinctive."
+        },
+        {
+          "timestamp": "01:16:02",
+          "type": "result",
+          "description": "AI agent benchmark: agents fail at data discovery and preparation, not at analysis."
+        },
+        {
+          "timestamp": "01:20:22",
+          "type": "key_point",
+          "description": "'There is no AI without data': FAIR for AI and returning value to primary data collectors."
+        },
+        {
+          "timestamp": "01:30:40",
+          "type": "question",
+          "description": "Q&A on where AI-ready datasets should live and how to keep provenance."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "00:44:33",
+          "end_timestamp": "01:35:34"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Scheduled 9:45-10:30 AM. It actually started about 10:15 and ran to about 11:05 including Q&A, so the coffee break was pushed back and the next session announced for 11:05."
+      }
+    }
+  ],
+  "unassigned": [
+    {
+      "start_timestamp": "00:00:00",
+      "end_timestamp": "00:03:04",
+      "type": "introduction",
+      "description": "David Bloom (TDWG Chair) opens TDWG 2026 in Oslo: thanks sponsors, gives the day's agenda (welcome, housekeeping, chair's address, keynotes by Tanya Berger-Wolf, Máret Heatta and Ramona Walls, afternoon taster session), polls the audience (Norway/abroad, 10+ meetings, first-timers) and introduces Hugo de Boer."
+    },
+    {
+      "start_timestamp": "00:03:37",
+      "end_timestamp": "00:13:14",
+      "type": "introduction",
+      "description": "Welcome to Oslo from Hugo de Boer (Director of Science, Natural History Museum, University of Oslo; head of delegation for GBIF Norway). Covers Munch's Aula paintings and The Scream, the troll logo as a metaphor for giving biodiversity a shared language through standards, the Botanical Garden and Tøyen Manor, Wednesday excursions and the iNaturalist BioBlitz, the social at the Munch Museum, the Oslo Pass discount and the Akerselva torch-lit event on Thursday."
+    },
+    {
+      "start_timestamp": "00:13:29",
+      "end_timestamp": "00:24:24",
+      "type": "announcement",
+      "description": "Housekeeping from the TDWG deputy chair (ASR: 'Elie/Ellie Saliba'): thanks to the conference committee, local team, volunteers and sponsors (GBIF, Atlas of Living Australia, Pensoft and others); registration desk, code of conduct and photo consent, Wi-Fi, uploading presentations, the Whova app and posters, emergency numbers, lunch venues, newcomer table, accessibility, the mayor's reception at City Hall, the Munch Museum social, game night, the Friday unconference, the BioBlitzes and the business meeting."
+    },
+    {
+      "start_timestamp": "00:24:38",
+      "end_timestamp": "00:26:07",
+      "type": "announcement",
+      "description": "Bloom clarifies that game night is open to everyone and thanks volunteer 'Stan' as this year's meeting 'superhero'."
+    },
+    {
+      "start_timestamp": "00:43:09",
+      "end_timestamp": "00:44:25",
+      "type": "introduction",
+      "description": "Bloom introduces keynote speaker Tanya Berger-Wolf (Ohio State University; Imageomics Institute; AI and Biodiversity Change Global Center)."
+    },
+    {
+      "start_timestamp": "01:35:36",
+      "end_timestamp": "01:36:03",
+      "type": "break",
+      "description": "Session chair closes Q&A and announces the break, restarting at 11:05."
+    }
+  ],
+  "programme_status": [
+    {
+      "programme_id": "event-003",
+      "title": "Address from TDWG Chair",
+      "status": "presented",
+      "content_item_id": "aula-plenary-1-01-tdwg-chair-address",
+      "notes": "Presented by David Bloom after the local welcome and housekeeping, starting about 25 minutes into the recording (00:26:12)."
+    },
+    {
+      "programme_id": "event-004",
+      "title": "AI for Nature at Large Scale and High Resolution",
+      "status": "presented",
+      "content_item_id": "aula-plenary-1-02-berger-wolf-keynote",
+      "notes": "Keynote plus two Q&A questions, running later than scheduled. The break moved to 11:05."
+    },
+    {
+      "programme_id": "event-006",
+      "title": "Sámi perspectives on biodiversity Data Governance and more inclusive Data Standards",
+      "status": "uncertain",
+      "content_item_id": null,
+      "notes": "Scheduled after the morning break; not in this recording, which ends at the break. Bloom's opening agenda mentions Máret, and Ramona as later keynotes. Probably in another Aula recording (e.g. Aula_Plenary_2.srt)."
+    },
+    {
+      "programme_id": "event-007",
+      "title": "From biodiversity data to knowledge in the age of AI: Where do ontologies and standards fit?",
+      "status": "uncertain",
+      "content_item_id": null,
+      "notes": "Scheduled after the morning break; not in this recording, which ends at the break. Bloom's opening agenda mentions Máret, and Ramona as later keynotes. Probably in another Aula recording (e.g. Aula_Plenary_2.srt)."
+    },
+    {
+      "programme_id": "event-010",
+      "title": "Building a New Foundation for the Biodiversity Heritage Library",
+      "status": "uncertain",
+      "content_item_id": null,
+      "notes": "Afternoon 'taste of TDWG' session item; not in this recording, which ends at the morning break. Probably in Aula_taster_talks.srt."
+    },
+    {
+      "programme_id": "event-011",
+      "title": "Reducing the lag from observation to action",
+      "status": "uncertain",
+      "content_item_id": null,
+      "notes": "Afternoon 'taste of TDWG' session item; not in this recording, which ends at the morning break. Probably in Aula_taster_talks.srt."
+    },
+    {
+      "programme_id": "event-012",
+      "title": "Keeping Colliders in Physics: Rethinking the Construction of Taxonomic Backbones and Names- matching in Large Data Aggregators",
+      "status": "uncertain",
+      "content_item_id": null,
+      "notes": "Afternoon 'taste of TDWG' session item; not in this recording, which ends at the morning break. Probably in Aula_taster_talks.srt."
+    },
+    {
+      "programme_id": "event-013",
+      "title": "DwC-DP Integration at GBIF",
+      "status": "uncertain",
+      "content_item_id": null,
+      "notes": "Afternoon 'taste of TDWG' session item; not in this recording, which ends at the morning break. Probably in Aula_taster_talks.srt."
+    },
+    {
+      "programme_id": "event-014",
+      "title": "Using automation to consolidate biodiversity occurrence data from multiple sources to assist conservation decision making in South African National Parks.",
+      "status": "uncertain",
+      "content_item_id": null,
+      "notes": "Afternoon 'taste of TDWG' session item; not in this recording, which ends at the morning break. Probably in Aula_taster_talks.srt."
+    },
+    {
+      "programme_id": "event-015",
+      "title": "Extending Darwin Core to Represent Sociobiodiversity and Traditional Knowledge",
+      "status": "uncertain",
+      "content_item_id": null,
+      "notes": "Afternoon 'taste of TDWG' session item; not in this recording, which ends at the morning break. Probably in Aula_taster_talks.srt."
+    },
+    {
+      "programme_id": "event-016",
+      "title": "What if biodiversity data systems were designed to behave like ecosystems?",
+      "status": "uncertain",
+      "content_item_id": null,
+      "notes": "Afternoon 'taste of TDWG' session item; not in this recording, which ends at the morning break. Probably in Aula_taster_talks.srt."
+    },
+    {
+      "programme_id": "event-017",
+      "title": "Mainstreaming high-throughput biodiversity monitoring using AI",
+      "status": "uncertain",
+      "content_item_id": null,
+      "notes": "Afternoon 'taste of TDWG' session item; not in this recording, which ends at the morning break. Probably in Aula_taster_talks.srt."
+    }
+  ]
+}
