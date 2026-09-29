@@ -18,7 +18,7 @@ function seconds(timestamp) {
 }
 
 function parseSrt(filename) {
-  const raw = fs.readFileSync(path.join(root, filename), 'utf8').replace(/\r/g, '');
+  const raw = fs.readFileSync(path.join(root, 'source', filename), 'utf8').replace(/\r/g, '');
   return raw.split(/\n\s*\n/).flatMap((block) => {
     const lines = block.trim().split('\n');
     const timeIndex = lines.findIndex((line) => line.includes('-->'));

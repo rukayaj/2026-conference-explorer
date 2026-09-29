@@ -6,13 +6,12 @@ import { UMAP } from 'umap-js';
 const root = path.resolve(import.meta.dirname, '..');
 env.cacheDir = process.env.MODEL_CACHE_DIR || path.join(root, 'model-cache');
 const dataDir = path.join(root, 'public', 'data');
-const chunks = JSON.parse(fs.readFileSync(path.join(dataDir, 'chunks.json')));
 const items = JSON.parse(fs.readFileSync(path.join(dataDir, 'items.json')));
 const themes = JSON.parse(fs.readFileSync(path.join(dataDir, 'themes.json')));
 const themeNames = new Map(themes.map((theme) => [theme.id, theme.name]));
 const model = process.env.EMBED_MODEL || 'Xenova/bge-small-en-v1.5';
 const revision = 'ea104dacec62c0de699686887e3f920caeb4f3e3';
-// BGE is trained with CLS pooling; the search service reads this from the manifest.
+// BGE is trained with CLS pooling.
 const pooling = 'cls';
 const extractor = await pipeline('feature-extraction', model, { dtype: 'q8', revision });
 
@@ -28,18 +27,6 @@ async function embed(texts, batchSize = 16) {
   return vectors;
 }
 
-function saveVectors(filename, vectors) {
-  const dimensions = vectors[0].length;
-  const all = new Float32Array(vectors.length * dimensions);
-  vectors.forEach((vector, i) => all.set(vector, i * dimensions));
-  fs.writeFileSync(path.join(dataDir, filename), Buffer.from(all.buffer));
-  return dimensions;
-}
-
-const passageTexts = chunks.map((chunk) => chunk.text);
-const passageVectors = await embed(passageTexts);
-const dimensions = saveVectors('passages.f32', passageVectors);
-
 const itemTexts = items.map((item) => [
   item.title,
   item.summary,
@@ -47,7 +34,6 @@ const itemTexts = items.map((item) => [
   item.keyPoints.slice(0, 3).join(' '),
 ].filter(Boolean).join('. ').slice(0, 1800));
 const itemVectors = await embed(itemTexts);
-saveVectors('items.f32', itemVectors);
 
 function similarity(a, b) {
   let score = 0;
@@ -96,5 +82,4 @@ const varied = connections.filter((connection) => {
   return true;
 }).slice(0, 80);
 fs.writeFileSync(path.join(dataDir, 'connections.json'), JSON.stringify(varied));
-fs.writeFileSync(path.join(dataDir, 'manifest.json'), JSON.stringify({ model, revision, pooling, dimensions, chunks: chunks.length, items: items.length }));
-console.log(`Saved ${chunks.length} passage vectors, ${items.length} item vectors, ${varied.length} connections.`);
+console.log(`Saved related talks, map positions and ${varied.length} connections for ${items.length} items.`);

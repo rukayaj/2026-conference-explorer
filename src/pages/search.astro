@@ -1,7 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
 import { href } from "../lib/site.js";
-const apiUrl = import.meta.env.PUBLIC_SEARCH_API_URL || "";
 ---
 
 <Base
@@ -19,7 +18,6 @@ const apiUrl = import.meta.env.PUBLIC_SEARCH_API_URL || "";
       class="search-box"
       id="search-form"
       data-base={href("")}
-      data-api={apiUrl}
     >
       <input
         id="query"
@@ -86,15 +84,12 @@ const apiUrl = import.meta.env.PUBLIC_SEARCH_API_URL || "";
     shortDate,
     videoLink,
   } from "../lib/format.js";
-  import { loadLocalSearch } from "../lib/local-search.js";
+  import { loadSearch } from "../lib/search.js";
   const form = document.querySelector("#search-form");
   const input = document.querySelector("#query");
   const status = document.querySelector("#status");
   const results = document.querySelector("#results");
   const base = form.dataset.base;
-  // An API base of "/" means the search service shares the site's origin.
-  const api = form.dataset.api.replace(/\/$/, "");
-  const hasApi = Boolean(form.dataset.api);
   const stillHref = (id) => `${base}stills/${encodeURIComponent(id)}.webp`;
   const talkHref = (id, time) =>
     `${base}talk/${encodeURIComponent(id)}/?t=${Math.floor(time)}#video`;
@@ -114,22 +109,20 @@ const apiUrl = import.meta.env.PUBLIC_SEARCH_API_URL || "";
     const end = Math.min(text.length, start + 480);
     return `${start ? "…" : ""}${text.slice(start, end).trim()}${end < text.length ? "…" : ""}`;
   }
-  let localIndexPromise;
-  async function localSearch(query) {
-    localIndexPromise ||= loadLocalSearch(base).catch((error) => {
-      localIndexPromise = undefined;
+  let searchPromise;
+  async function search(query) {
+    searchPromise ||= loadSearch(base).catch((error) => {
+      searchPromise = undefined;
       throw error;
     });
-    return (await localIndexPromise)(query);
+    return (await searchPromise)(query);
   }
-  function render(data, mode, query, unmatchedTerms = [], weak = false) {
+  function render(data, query, unmatchedTerms) {
     status.textContent = data.length
-      ? `${data.length} talks and discussions to explore${mode === "local" ? " · keyword matches" : ""}`
+      ? `${data.length} talks and discussions to explore`
       : "No matching passages found. Try a broader topic or another term.";
-    if (weak)
-      status.textContent = `No clear match for “${unmatchedTerms.slice(0, 2).join("”, “")}” · these passages may be loosely related`;
-    else if (unmatchedTerms.length)
-      status.textContent = `No direct mention of “${unmatchedTerms.slice(0, 2).join("”, “")}” · showing the closest moments`;
+    if (data.length && unmatchedTerms.length)
+      status.textContent = `No mention of “${unmatchedTerms.slice(0, 2).join("”, “")}” · showing matches for the rest of your search`;
     results.innerHTML = data
       .map((result, index) => {
         const [best, ...more] = result.moments;
@@ -147,10 +140,8 @@ const apiUrl = import.meta.env.PUBLIC_SEARCH_API_URL || "";
       .join("");
   }
   let searchVersion = 0;
-  let activeRequest;
   async function performSearch(query) {
     const version = ++searchVersion;
-    activeRequest?.abort();
     input.value = query;
     results.innerHTML = "";
     const hasQuery = Boolean(query.trim());
@@ -164,49 +155,14 @@ const apiUrl = import.meta.env.PUBLIC_SEARCH_API_URL || "";
       return;
     }
     status.textContent = "Looking through the conference…";
-    const controller = new AbortController();
-    activeRequest = controller;
-    let timeout;
     try {
-      if (hasApi) {
-        timeout = setTimeout(() => controller.abort(), 12000);
-        const response = await fetch(
-          `${api}/api/search?q=${encodeURIComponent(query)}`,
-          { signal: controller.signal },
-        );
-        if (!response.ok)
-          throw new Error(`Search service returned ${response.status}`);
-        const data = await response.json();
-        if (version === searchVersion)
-          render(
-            data.results || [],
-            "hybrid",
-            query,
-            data.unmatchedTerms || [],
-            data.weak,
-          );
-      } else {
-        const data = await localSearch(query);
-        if (version === searchVersion) render(data, "local", query);
-      }
-    } catch (error) {
-      if (version !== searchVersion) return;
-      try {
-        status.textContent = "Loading keyword search…";
-        const data = await localSearch(query);
-        if (version === searchVersion) {
-          render(data, "local", query);
-          if (hasApi)
-            status.textContent +=
-              " · semantic search is temporarily unavailable";
-        }
-      } catch {
-        if (version === searchVersion)
-          status.textContent =
-            "Search could not load. Try again, or browse the talks using the link above.";
-      }
+      const { results: data, unmatchedTerms } = await search(query);
+      if (version === searchVersion) render(data, query, unmatchedTerms);
+    } catch {
+      if (version === searchVersion)
+        status.textContent =
+          "Search could not load. Try again, or browse the talks using the link above.";
     } finally {
-      clearTimeout(timeout);
       if (version === searchVersion) results.setAttribute("aria-busy", "false");
     }
   }

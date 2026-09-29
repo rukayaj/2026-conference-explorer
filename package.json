@@ -8,14 +8,11 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "search": "node server/index.mjs",
     "verify": "node scripts/verify-data.mjs",
     "test": "node --test tests/*.test.mjs"
   },
-  "dependencies": {
-    "@huggingface/transformers": "4.3.0"
-  },
   "devDependencies": {
+    "@huggingface/transformers": "4.3.0",
     "astro": "7.3.5",
     "umap-js": "1.4.0"
   },

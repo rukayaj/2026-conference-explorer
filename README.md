@@ -1,6 +1,6 @@
 # TDWG 2026 explorer
 
-A playful, evidence-linked guide to the conference, live at https://tdwg2026.svc.gbif.no. Talk and theme pages are static. Visitors can browse all talks by title, speaker, day and room. Search uses a small CPU service for hybrid keyword and semantic retrieval, with keyword search in the browser as a fallback. Video stays on Vimeo.
+A playful, evidence-linked guide to the conference. It's a fully static site. Visitors can browse all talks by title, speaker, day and room, and explore them by theme, on a map, or at random. Search runs in the browser: it's keyword search over the transcripts, and it downloads its index on the first query. Video stays on Vimeo.
 
 ## Local setup
 
@@ -8,37 +8,22 @@ Requires Node 24 or newer.
 
 ```sh
 npm ci
-npm run data
-npm run embed
 npm run dev
 ```
 
-Open the Astro URL printed by `npm run dev`. To use hybrid search locally, start `npm run search` in another terminal and set `PUBLIC_SEARCH_API_URL=http://localhost:8787` in `.env` before starting Astro. Without the API setting, search uses the browser keyword index. `PUBLIC_SEARCH_API_URL=/ npm run build && npm run search` serves the built site and search API at http://localhost:8787, as in production.
-
-`npm test && npm run verify && npm run build` checks search behavior, generated data and static pages. The image workflow runs the tests and data check before building the container.
-
-The first `npm run embed` downloads a quantized BGE small model. Later runs reuse `model-cache/`. It generates transcript passage vectors, item vectors, related talks, the UMAP layout, and explainable cross-session connections in `public/data/`. Commit regenerated assets when the source data changes.
+`npm test && npm run verify && npm run build` checks search behavior, generated data and static pages. The generated data in `public/data/` is committed, so only rebuild it when the source data changes (see below).
 
 ## Data flow
 
-1. `derived/content_items.json`, `derived/themes.json`, `derived/recordings.json`, and the SRT files are the source data.
-2. `npm run data` parses SRT cues and chunks each `source_segments` interval independently. It writes `public/data/chunks.json`, public item/theme metadata, and one cue file per talk.
-3. `npm run embed` embeds chunks and item summaries with the same model used by the search service, saves normalized float32 vectors, computes nearest talks in the original embedding space, projects the items to 2D with UMAP, and selects cross-session connections with a shared specific theme.
-4. `node scripts/stills.mjs` saves one video still per talk to `public/stills/`, taken 45 seconds in through the Vimeo player stream. It needs `yt-dlp`, `ffmpeg` and `cwebp` (`brew install ffmpeg yt-dlp`) and skips stills that already exist. Set a better frame time for a talk in `curation/still-times.json`, then rerun with `--force <talk id>`.
-5. Astro builds the static pages. The search service loads the generated assets into memory and uses BM25 plus dense similarity with reciprocal rank fusion. The browser fallback shares the keyword normalization and ranking rules in `shared/search.mjs`. It needs no database.
+1. `source/` holds the original inputs: the SRT transcripts, the programme (`program-data.js`), and the per-recording extraction output with the prompts and schema that produced it.
+2. `derived/` holds the conference-wide dataset built from them (`content_items.json`, `themes.json`, `recordings.json`). `curation/` holds hand-picked surprise moments and still times.
+3. `npm run data` parses the SRT cues and chunks each `source_segments` interval independently. It writes `public/data/chunks.json`, public item/theme metadata, and one cue file per talk.
+4. `npm run embed` embeds each talk's title, summary, themes and key points with a quantized BGE small model. It writes the nearest talks, the UMAP map layout, and cross-session connections that share a specific theme. The first run downloads the model to `model-cache/`.
+5. `node scripts/stills.mjs` saves one video still per talk to `public/stills/`, taken 45 seconds in through the Vimeo player stream. It needs `yt-dlp`, `ffmpeg` and `cwebp` (`brew install ffmpeg yt-dlp`) and skips stills that already exist. Set a better frame time for a talk in `curation/still-times.json`, then rerun with `--force <talk id>`.
+6. Astro builds the static pages. The search page loads `items.json` and `chunks.json` and ranks passages with BM25 (`src/lib/search.js`). It uses light stemming for British spellings and plurals, and expands acronyms such as DwC and DiSSCo.
 
 The machine-produced summaries and transcripts may contain errors. Result pages show transcript passages and video times so visitors can check the source. The map is a discovery view; related talks come from the original embeddings, not 2D distances.
 
 ## Deployment
 
-One Docker image serves both the built site and the search API on NIRD, so there is no CORS or separate static host. It holds no secrets: the image contains only the public data in `public/data`, the built pages and the embedding model.
-
-GitHub Actions (`.github/workflows/image.yml`) builds `gbifnorway/tdwg2026:<short sha>` on every push to `main` that touches the app, and pushes it to Docker Hub. It needs the repository secrets `DOCKERHUB_USERNAME` and `DOCKERHUB_TOKEN` (a Docker Hub access token with push rights to `gbifnorway`). After pushing, run:
-
-```sh
-./scripts/deploy.sh
-```
-
-It waits for the image for the current commit, pins the tag in `../gitops/apps/tdwg2026/templates/deployment.yaml`, commits and pushes gitops, and applies the manifests to `gbif-no-ns8095k` on `nird-lmd`. `--build-local` builds and pushes from your machine instead; `--tag`, `--skip-gitops-commit` and `--skip-apply` cover partial runs. The ingress (`tdwg2026.svc.gbif.no`) follows the annotater pattern: nginx, with TLS from cert-manager.
-
-Every Node step in the Dockerfile runs on the build machine's own platform and the final stage only copies files, so a local amd64 build on Apple Silicon needs no emulation.
+`.github/workflows/pages.yml` runs the tests and data check, builds the site, and publishes it to GitHub Pages on every push to `main`. The site URL and base path come from the repository's Pages settings, so a custom domain needs no code change.

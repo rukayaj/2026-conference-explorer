@@ -24,16 +24,9 @@ for (const item of items) {
   if (!item.videoUrl) errors.push(`Missing video: ${item.id}`);
   if (!fs.existsSync(path.join(root, 'public', 'stills', `${item.id}.webp`))) errors.push(`Missing still (run node scripts/stills.mjs): ${item.id}`);
 }
-if (fs.existsSync(path.join(dataDir, 'manifest.json'))) {
-  const manifest = JSON.parse(fs.readFileSync(path.join(dataDir, 'manifest.json')));
-  if (manifest.chunks !== chunks.length || manifest.items !== items.length) errors.push('Embedding manifest is stale');
-  for (const [file, count] of [['passages.f32', chunks.length], ['items.f32', items.length]]) {
-    const size = fs.statSync(path.join(dataDir, file)).size;
-    if (size !== count * manifest.dimensions * 4) errors.push(`Wrong vector size: ${file}`);
-  }
-  for (const [file, count] of [['map.json', items.length]]) {
-    if (JSON.parse(fs.readFileSync(path.join(dataDir, file))).length !== count) errors.push(`Wrong entry count: ${file}`);
-  }
-}
+const mapPoints = JSON.parse(fs.readFileSync(path.join(dataDir, 'map.json')));
+if (mapPoints.length !== items.length) errors.push('Map is stale (run npm run embed)');
+const related = JSON.parse(fs.readFileSync(path.join(dataDir, 'related.json')));
+if (items.some((item) => !related[item.id])) errors.push('Related talks are stale (run npm run embed)');
 if (errors.length) { console.error(errors.slice(0, 30).join('\n')); process.exit(1); }
-console.log(`Verified ${items.length} items, ${themes.length} themes, and ${chunks.length} chunks${fs.existsSync(path.join(dataDir, 'manifest.json')) ? ' with embeddings' : ''}.`);
+console.log(`Verified ${items.length} items, ${themes.length} themes, and ${chunks.length} chunks.`);

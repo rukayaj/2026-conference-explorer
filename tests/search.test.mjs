@@ -5,8 +5,8 @@ import {
   queryTerms,
   tokens,
   matchedAliases,
-} from "../shared/search.mjs";
-import { createLocalSearch } from "../src/lib/local-search.js";
+  createSearch,
+} from "../src/lib/search.js";
 import {
   timeLabel,
   stampSeconds,
@@ -56,7 +56,7 @@ test("rare specific words rank ahead of repeated generic words", () => {
   );
 });
 
-test("fallback groups at most 18 talks and deduplicates overlapping moments", () => {
+test("search groups at most 18 talks and deduplicates overlapping moments", () => {
   const items = Array.from({ length: 25 }, (_, index) => ({
     id: `talk-${index}`,
     start: 0,
@@ -69,7 +69,7 @@ test("fallback groups at most 18 talks and deduplicates overlapping moments", ()
       text: "Artificial intelligence and specimens.",
     })),
   );
-  const results = createLocalSearch(items, chunks)("AI");
+  const { results } = createSearch(items, chunks)("AI");
   assert.equal(results.length, 18);
   for (const result of results) {
     assert.equal(result.moments.length, 3);
@@ -78,6 +78,18 @@ test("fallback groups at most 18 talks and deduplicates overlapping moments", ()
       [40, 100, 160],
     );
   }
+});
+
+test("search reports query words that no transcript contains", () => {
+  const search = createSearch(
+    [{ id: "talk", start: 0 }],
+    [{ itemId: "talk", start: 60, end: 90, text: "Darwin Core in Oslo." }],
+  );
+  assert.deepEqual(search("Darwin Core unfindablexyz").unmatchedTerms, [
+    "unfindablexyz",
+  ]);
+  assert.deepEqual(search("DwC").unmatchedTerms, []);
+  assert.equal(search("Darwin Core unfindablexyz").results.length, 1);
 });
 
 test("timestamp formatting rejects non-finite values and preserves zero", () => {
