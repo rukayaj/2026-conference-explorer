@@ -13,6 +13,7 @@ COPY public/data/manifest.json ./public/data/
 RUN MODEL_CACHE_DIR=/build/model-cache node scripts/warm-model.mjs
 COPY astro.config.mjs ./
 COPY src ./src
+COPY shared ./shared
 COPY public ./public
 # "/" makes the pages call the search API on their own origin.
 ENV PUBLIC_SEARCH_API_URL=/
@@ -37,6 +38,7 @@ COPY package.json ./
 COPY --from=deps /deps/node_modules ./node_modules
 COPY --from=build /build/model-cache ./model-cache
 COPY server ./server
+COPY shared ./shared
 COPY --from=build /build/dist ./dist
 USER node
 EXPOSE 8787

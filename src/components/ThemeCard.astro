@@ -1,0 +1,10 @@
+---
+import { href } from "../lib/site.js";
+const { theme } = Astro.props;
+---
+
+<a class="card theme-card" href={href(`theme/${theme.id}/`)}>
+  <span class="small-meta">{theme.content_item_count} talks & discussions</span>
+  <h3>{theme.name}</h3>
+  <p>{theme.description}</p>
+</a>

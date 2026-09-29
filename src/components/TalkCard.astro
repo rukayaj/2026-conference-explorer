@@ -1,0 +1,28 @@
+---
+import { href, stillSrc, shortDate } from "../lib/site.js";
+const { item } = Astro.props;
+---
+
+<a class="card talk-card" href={href(`talk/${item.id}/`)}>
+  <img
+    class="still"
+    src={stillSrc(item.id)}
+    alt=""
+    width="640"
+    height="360"
+    loading="lazy"
+  />
+  <span class="small-meta">
+    {item.type} · {shortDate(item.date)} · {item.room}
+  </span>
+  <h3>{item.title}</h3>
+  <p>{item.takeaway || item.summary}</p>
+  <div class="card-bottom">
+    <span>
+      {item.speakers.slice(0, 2).join(", ") || "Conference discussion"}
+    </span>
+    <span class="link-arrow" aria-hidden="true">
+      ↗
+    </span>
+  </div>
+</a>

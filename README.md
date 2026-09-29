@@ -1,6 +1,6 @@
 # TDWG 2026 explorer
 
-A playful, evidence-linked guide to the conference, live at https://tdwg2026.svc.gbif.no. Talk and theme pages are static. Search uses a small CPU service for hybrid keyword and semantic retrieval, with keyword-only search as a browser fallback. Video stays on Vimeo.
+A playful, evidence-linked guide to the conference, live at https://tdwg2026.svc.gbif.no. Talk and theme pages are static. Visitors can browse all talks by title, speaker, day and room. Search uses a small CPU service for hybrid keyword and semantic retrieval, with keyword search in the browser as a fallback. Video stays on Vimeo.
 
 ## Local setup
 
@@ -13,7 +13,9 @@ npm run embed
 npm run dev
 ```
 
-Open the Astro URL printed by `npm run dev`. To use hybrid search locally, start `npm run search` in another terminal and set `PUBLIC_SEARCH_API_URL=http://localhost:8787` in `.env` before starting Astro. Without the API setting, search uses the static keyword fallback. `npm run build && npm run search` also serves the built site at http://localhost:8787, as in production.
+Open the Astro URL printed by `npm run dev`. To use hybrid search locally, start `npm run search` in another terminal and set `PUBLIC_SEARCH_API_URL=http://localhost:8787` in `.env` before starting Astro. Without the API setting, search uses the browser keyword index. `PUBLIC_SEARCH_API_URL=/ npm run build && npm run search` serves the built site and search API at http://localhost:8787, as in production.
+
+`npm test && npm run verify && npm run build` checks search behavior, generated data and static pages. The image workflow runs the tests and data check before building the container.
 
 The first `npm run embed` downloads a quantized BGE small model. Later runs reuse `model-cache/`. It generates transcript passage vectors, item vectors, related talks, the UMAP layout, and explainable cross-session connections in `public/data/`. Commit regenerated assets when the source data changes.
 
@@ -23,7 +25,7 @@ The first `npm run embed` downloads a quantized BGE small model. Later runs reus
 2. `npm run data` parses SRT cues and chunks each `source_segments` interval independently. It writes `public/data/chunks.json`, public item/theme metadata, and one cue file per talk.
 3. `npm run embed` embeds chunks and item summaries with the same model used by the search service, saves normalized float32 vectors, computes nearest talks in the original embedding space, projects the items to 2D with UMAP, and selects cross-session connections with a shared specific theme.
 4. `node scripts/stills.mjs` saves one video still per talk to `public/stills/`, taken 45 seconds in through the Vimeo player stream. It needs `yt-dlp`, `ffmpeg` and `cwebp` (`brew install ffmpeg yt-dlp`) and skips stills that already exist. Set a better frame time for a talk in `curation/still-times.json`, then rerun with `--force <talk id>`.
-5. Astro builds the static pages. The search service loads the generated assets into memory and uses BM25 plus dense similarity with reciprocal rank fusion. It needs no database.
+5. Astro builds the static pages. The search service loads the generated assets into memory and uses BM25 plus dense similarity with reciprocal rank fusion. The browser fallback shares the keyword normalization and ranking rules in `shared/search.mjs`. It needs no database.
 
 The machine-produced summaries and transcripts may contain errors. Result pages show transcript passages and video times so visitors can check the source. The map is a discovery view; related talks come from the original embeddings, not 2D distances.
 

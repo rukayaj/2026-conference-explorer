@@ -1,108 +1,434 @@
 ---
-import Base from '../layouts/Base.astro';
-import { href } from '../lib/site.js';
-const apiUrl = import.meta.env.PUBLIC_SEARCH_API_URL || '';
+import Base from "../layouts/Base.astro";
+import { href } from "../lib/site.js";
+const apiUrl = import.meta.env.PUBLIC_SEARCH_API_URL || "";
 ---
-<Base title="Search the conference · TDWG 2026" description="Find timestamped moments from the TDWG 2026 recordings.">
+
+<Base
+  title="Search the conference · TDWG 2026"
+  description="Find timestamped moments from the TDWG 2026 recordings."
+>
   <section class="container page-heading">
     <div class="eyebrow">Oslo, 21 - 25 September 2026</div>
     <h1 class="display">Ask TDWG.</h1>
-    <form class="search-box" id="search-form" data-base={href('')} data-api={apiUrl}>
-      <input id="query" name="q" aria-label="Search transcripts" placeholder="Try “AI-ready biodiversity data”" autocomplete="off" required />
+    <p>
+      Search for an idea, phrase or question. Find the passage, then hear it in
+      the speaker’s own words.
+    </p>
+    <form
+      class="search-box"
+      id="search-form"
+      data-base={href("")}
+      data-api={apiUrl}
+    >
+      <input
+        id="query"
+        name="q"
+        aria-label="Search transcripts"
+        placeholder="Try “AI-ready biodiversity data”"
+        type="search"
+        autocomplete="off"
+        minlength="2"
+        maxlength="240"
+        aria-describedby="search-help"
+        required
+      />
       <button type="submit">Search ↗</button>
     </form>
-    <div class="prompt-chips"><span>For example:</span><button data-query="What is changing in Darwin Core?">What is changing in Darwin Core</button><button data-query="How can specimens become AI ready?">How can specimens become AI ready?</button><button data-query="Persistent identifiers and provenance">What did TDWG 2026 say about persistent identifiers and provenance?</button></div>
+    <p class="search-help" id="search-help">
+      Searching the recordings for a topic? Start here. For a title or speaker,{" "}
+      <a href={href("talks/")}>browse all talks ↗</a>
+    </p>
+    <div class="prompt-chips">
+      <span>For example:</span>
+      <button data-query="What is changing in Darwin Core?">Darwin Core</button>
+      <button data-query="How can specimens become AI ready?">
+        AI-ready specimens
+      </button>
+      <button data-query="Persistent identifiers and provenance">
+        Identifiers & provenance
+      </button>
+    </div>
   </section>
-  <section class="container result-section" aria-live="polite"><p class="result-status" id="status">Enter a topic or question to explore the recordings.</p><div class="result-list" id="results"></div></section>
+  <section class="container result-section">
+    <p class="result-status" id="status" role="status">
+      Enter a topic or question to explore the recordings.
+    </p>
+    <div class="result-list" id="results" aria-busy="false"></div>
+    <div class="search-start" id="search-start">
+      <span class="eyebrow">Every result leads back to the source</span>
+      <h2>A question is a good place to start.</h2>
+      <p>
+        Try a standard, a research method, or a challenge you’re working on.
+        Results include transcript passages and a link to the exact point in the
+        recording.
+      </p>
+      <a class="text-link" href={href("themes/")}>
+        Or find inspiration in the themes ↗
+      </a>
+    </div>
+    <noscript>
+      <p class="notice">
+        Transcript search needs JavaScript. You can still{" "}
+        <a class="text-link" href={href("talks/")}>
+          browse every talk
+        </a>
+        .
+      </p>
+    </noscript>
+  </section>
 </Base>
 
 <script>
-  const form = document.querySelector('#search-form');
-  const input = document.querySelector('#query');
-  const status = document.querySelector('#status');
-  const results = document.querySelector('#results');
+  import {
+    escapeHtml,
+    timeLabel,
+    shortDate,
+    videoLink,
+  } from "../lib/format.js";
+  import { loadLocalSearch } from "../lib/local-search.js";
+  const form = document.querySelector("#search-form");
+  const input = document.querySelector("#query");
+  const status = document.querySelector("#status");
+  const results = document.querySelector("#results");
   const base = form.dataset.base;
   // An API base of "/" means the search service shares the site's origin.
-  const api = form.dataset.api.replace(/\/$/, '');
+  const api = form.dataset.api.replace(/\/$/, "");
   const hasApi = Boolean(form.dataset.api);
-  const escapeHtml = (value) => String(value ?? '').replace(/[&<>"']/g, (character) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[character]);
-  const timeLabel = (value) => { const seconds = Math.floor(value); const h = Math.floor(seconds / 3600), m = Math.floor(seconds % 3600 / 60), s = seconds % 60; return h ? `${h}:${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}` : `${m}:${String(s).padStart(2,'0')}`; };
   const stillHref = (id) => `${base}stills/${encodeURIComponent(id)}.webp`;
-  const talkHref = (id, time) => `${base}talk/${encodeURIComponent(id)}/?t=${Math.floor(time)}#video`;
-  const videoHref = (url, time) => `${url}#t=${Math.floor(time)}s`;
+  const talkHref = (id, time) =>
+    `${base}talk/${encodeURIComponent(id)}/?t=${Math.floor(time)}#video`;
+  const videoHref = (url, time) => escapeHtml(videoLink(url, time));
   function snippet(text, query) {
     if (text.length <= 510) return text;
     const lower = text.toLowerCase();
-    const terms = (query.toLowerCase().match(/[\p{L}\p{N}]+/gu) || []).filter((term) => term.length > 3);
-    const found = terms.map((term) => lower.indexOf(term)).filter((index) => index >= 0).sort((a, b) => a - b)[0];
+    const terms = (query.toLowerCase().match(/[\p{L}\p{N}]+/gu) || []).filter(
+      (term) => term.length > 3,
+    );
+    const found = terms
+      .map((term) => lower.indexOf(term))
+      .filter((index) => index >= 0)
+      .sort((a, b) => a - b)[0];
     let start = found === undefined ? 0 : Math.max(0, found - 125);
-    if (start > 0) start = Math.max(start, text.indexOf(' ', start));
+    if (start > 0) start = Math.max(start, text.indexOf(" ", start));
     const end = Math.min(text.length, start + 480);
-    return `${start ? '…' : ''}${text.slice(start, end).trim()}${end < text.length ? '…' : ''}`;
+    return `${start ? "…" : ""}${text.slice(start, end).trim()}${end < text.length ? "…" : ""}`;
   }
-  let localIndex;
+  let localIndexPromise;
   async function localSearch(query) {
-    if (!localIndex) {
-      const [items, chunks] = await Promise.all([fetch(`${base}data/items.json`).then((response) => response.json()), fetch(`${base}data/chunks.json`).then((response) => response.json())]);
-      localIndex = { items: new Map(items.map((item) => [item.id, item])), chunks };
-    }
-    // The captions use American spelling, so match "digitis…" against "digitiz…".
-    const terms = [...new Set((query.toLowerCase().match(/[\p{L}\p{N}]+/gu) || []).filter((term) => term.length > 2).map((term) => term.replace(/([iy])s(ation|e|ed|es|ing)$/, '$1z')))];
-    const scored = localIndex.chunks.map((chunk) => {
-      const item = localIndex.items.get(chunk.itemId);
-      const text = chunk.text.toLowerCase();
-      const matches = terms.reduce((sum, term) => sum + (text.includes(term) ? 1 : 0), 0);
-      const score = matches * (chunk.start < item.start + 35 ? 0.85 : 1);
-      return { chunk, score, item };
-    }).filter((entry) => entry.score).sort((a, b) => b.score - a.score);
-    const groups = new Map();
-    for (const { chunk, item } of scored) {
-      if (!groups.has(item.id)) groups.set(item.id, { id: item.id, title: item.title, speakers: item.speakers, session: item.session, room: item.room, date: item.date, videoUrl: item.videoUrl, moments: [] });
-      const group = groups.get(item.id);
-      if (group.moments.length < 3 && !group.moments.some((moment) => Math.abs(moment.start - chunk.start) < 45)) group.moments.push({ start: chunk.start, end: chunk.end, text: chunk.text });
-      if (groups.size >= 18 && group.moments.length >= 3) break;
-    }
-    return [...groups.values()].slice(0, 18);
+    localIndexPromise ||= loadLocalSearch(base).catch((error) => {
+      localIndexPromise = undefined;
+      throw error;
+    });
+    return (await localIndexPromise)(query);
   }
-  function render(data, mode, unmatchedTerms = [], weak = false) {
-    status.textContent = data.length ? `${data.length} talks and discussions to explore${mode === 'local' ? ' · keyword matches' : ''}` : 'No matching passages found. Try a broader topic or another term.';
-    if (weak) status.textContent = `TDWG doesn’t seem to have covered “${unmatchedTerms.slice(0, 2).join('”, “')}” · these are loose matches at best`;
-    else if (unmatchedTerms.length) status.textContent = `No direct mention of “${unmatchedTerms.slice(0, 2).join('”, “')}” · showing the closest moments`;
-    results.innerHTML = data.map((result, index) => {
-      const [best, ...more] = result.moments;
-      if (!best) return '';
-      return `<article class="result-card">
-        <div class="result-index">${String(index + 1).padStart(2, '0')}</div>
+  function render(data, mode, query, unmatchedTerms = [], weak = false) {
+    status.textContent = data.length
+      ? `${data.length} talks and discussions to explore${mode === "local" ? " · keyword matches" : ""}`
+      : "No matching passages found. Try a broader topic or another term.";
+    if (weak)
+      status.textContent = `No clear match for “${unmatchedTerms.slice(0, 2).join("”, “")}” · these passages may be loosely related`;
+    else if (unmatchedTerms.length)
+      status.textContent = `No direct mention of “${unmatchedTerms.slice(0, 2).join("”, “")}” · showing the closest moments`;
+    results.innerHTML = data
+      .map((result, index) => {
+        const [best, ...more] = result.moments;
+        if (!best) return "";
+        return `<article class="result-card">
+        <div class="result-index">${String(index + 1).padStart(2, "0")}</div>
         <a class="result-still" href="${talkHref(result.id, best.start)}" tabindex="-1" aria-hidden="true"><img class="still" src="${stillHref(result.id)}" alt="" width="640" height="360" loading="lazy"></a>
-        <div class="result-body"><div class="result-meta">${escapeHtml(result.room)} · ${escapeHtml(result.date)} · ${escapeHtml(result.speakers?.slice(0, 2).join(', ') || 'Discussion')}</div>
+        <div class="result-body"><div class="result-meta">${escapeHtml(result.room)} · ${shortDate(result.date)} · ${escapeHtml(result.speakers?.slice(0, 2).join(", ") || "Discussion")}</div>
           <h2><a href="${talkHref(result.id, best.start)}">${escapeHtml(result.title)}</a></h2>
-          <p class="result-excerpt">${escapeHtml(snippet(best.text, input.value))}</p>
+          <p class="result-excerpt">${escapeHtml(snippet(best.text, query))}</p>
           <div class="result-actions"><a class="moment-link" href="${talkHref(result.id, best.start)}">▶ Watch from ${timeLabel(best.start)}</a><a class="subtle-link" href="${videoHref(result.videoUrl, best.start)}" target="_blank" rel="noopener">Open on Vimeo ↗</a></div>
-          ${more.length ? `<details class="more-moments"><summary>${more.length} more moment${more.length === 1 ? '' : 's'} in this talk</summary>${more.map((moment) => `<div class="extra-moment"><a href="${talkHref(result.id, moment.start)}">▶ ${timeLabel(moment.start)}</a><p>${escapeHtml(snippet(moment.text, input.value))}</p></div>`).join('')}</details>` : ''}
+          ${more.length ? `<details class="more-moments"><summary>${more.length} more moment${more.length === 1 ? "" : "s"} in this talk</summary>${more.map((moment) => `<div class="extra-moment"><a href="${talkHref(result.id, moment.start)}">▶ ${timeLabel(moment.start)}</a><p>${escapeHtml(snippet(moment.text, query))}</p></div>`).join("")}</details>` : ""}
         </div></article>`;
-    }).join('');
+      })
+      .join("");
   }
+  let searchVersion = 0;
+  let activeRequest;
   async function performSearch(query) {
+    const version = ++searchVersion;
+    activeRequest?.abort();
     input.value = query;
-    if (!query.trim()) { status.textContent = 'Enter a topic or question to explore the recordings.'; results.innerHTML = ''; return; }
-    status.textContent = 'Looking through the conference…'; results.innerHTML = '';
+    results.innerHTML = "";
+    const hasQuery = Boolean(query.trim());
+    document.querySelector("#search-start").hidden = hasQuery;
+    results.setAttribute("aria-busy", String(hasQuery));
+    if (query.trim().length < 2) {
+      status.textContent = hasQuery
+        ? "Enter at least two characters to search."
+        : "Enter a topic or question to explore the recordings.";
+      results.setAttribute("aria-busy", "false");
+      return;
+    }
+    status.textContent = "Looking through the conference…";
+    const controller = new AbortController();
+    activeRequest = controller;
+    let timeout;
     try {
       if (hasApi) {
-        const response = await fetch(`${api}/api/search?q=${encodeURIComponent(query)}`);
-        if (!response.ok) throw new Error(`Search service returned ${response.status}`);
-        const data = await response.json(); render(data.results || [], 'hybrid', data.unmatchedTerms || [], data.weak);
-      } else render(await localSearch(query), 'local');
+        timeout = setTimeout(() => controller.abort(), 12000);
+        const response = await fetch(
+          `${api}/api/search?q=${encodeURIComponent(query)}`,
+          { signal: controller.signal },
+        );
+        if (!response.ok)
+          throw new Error(`Search service returned ${response.status}`);
+        const data = await response.json();
+        if (version === searchVersion)
+          render(
+            data.results || [],
+            "hybrid",
+            query,
+            data.unmatchedTerms || [],
+            data.weak,
+          );
+      } else {
+        const data = await localSearch(query);
+        if (version === searchVersion) render(data, "local", query);
+      }
     } catch (error) {
-      console.warn(error);
-      try { render(await localSearch(query), 'local'); status.textContent += ' · search service unavailable'; }
-      catch { status.textContent = 'Search is temporarily unavailable. Please try again.'; }
+      if (version !== searchVersion) return;
+      try {
+        status.textContent = "Loading keyword search…";
+        const data = await localSearch(query);
+        if (version === searchVersion) {
+          render(data, "local", query);
+          if (hasApi)
+            status.textContent +=
+              " · semantic search is temporarily unavailable";
+        }
+      } catch {
+        if (version === searchVersion)
+          status.textContent =
+            "Search could not load. Try again, or browse the talks using the link above.";
+      }
+    } finally {
+      clearTimeout(timeout);
+      if (version === searchVersion) results.setAttribute("aria-busy", "false");
     }
   }
-  form.addEventListener('submit', (event) => { event.preventDefault(); const query = input.value.trim(); history.replaceState(null, '', `?q=${encodeURIComponent(query)}`); performSearch(query); });
-  document.querySelectorAll('[data-query]').forEach((button) => button.addEventListener('click', () => { const query = button.dataset.query; history.replaceState(null, '', `?q=${encodeURIComponent(query)}`); performSearch(query); }));
-  const initial = new URLSearchParams(location.search).get('q'); if (initial) performSearch(initial);
+  function submitQuery(query) {
+    query = query.trim().slice(0, 240);
+    const url = new URL(location.href);
+    query ? url.searchParams.set("q", query) : url.searchParams.delete("q");
+    if (url.href !== location.href) history.pushState(null, "", url);
+    performSearch(query);
+  }
+  form.addEventListener("submit", (event) => {
+    event.preventDefault();
+    submitQuery(input.value);
+  });
+  input.addEventListener("input", () => {
+    if (!input.value) submitQuery("");
+  });
+  document
+    .querySelectorAll("[data-query]")
+    .forEach((button) =>
+      button.addEventListener("click", () => submitQuery(button.dataset.query)),
+    );
+  window.addEventListener("popstate", () =>
+    performSearch(new URLSearchParams(location.search).get("q") || ""),
+  );
+  const initial = new URLSearchParams(location.search).get("q");
+  if (initial) performSearch(initial.slice(0, 240));
 </script>
 
 <style is:global>
-.page-heading{padding-bottom:34px}.prompt-chips{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:22px;color:#6b837d;font-size:.84rem}.prompt-chips button{background:#e5eee2;border:0;border-radius:100px;padding:8px 12px;color:#315a51;font-weight:750}.prompt-chips button:hover{background:#d1e5c9}.result-section{min-height:350px}.result-status{font-size:.84rem;font-weight:800;text-transform:uppercase;letter-spacing:.1em;color:#53756e;border-bottom:1px solid #dce5d8;padding-bottom:18px}.result-list{max-width:950px}.result-card{display:grid;grid-template-columns:50px 1fr;gap:15px;padding:27px 0;border-bottom:1px solid #dce5d8}.result-card .result-still{grid-column:2;grid-row:1;max-width:340px}.result-card .result-still img{border-radius:10px}.result-card .result-body{grid-column:2}@media(min-width:801px){.result-card{grid-template-columns:50px minmax(0,1fr) 230px;gap:15px 28px}.result-card .result-still{grid-column:3;margin-top:28px}}.result-index{color:#8ca99e;font:400 2.1rem Georgia,serif}.result-meta{font-size:.75rem;text-transform:uppercase;letter-spacing:.1em;color:#6c8b81;font-weight:800}.result-body h2{font:400 clamp(1.5rem,3vw,2.1rem)/1.15 Georgia,serif;letter-spacing:-.035em;margin:10px 0 16px}.result-body h2 a:hover{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:4px}.result-excerpt{line-height:1.7;color:#3f625d;max-width:760px}.result-actions{display:flex;align-items:center;gap:24px;flex-wrap:wrap;margin-top:18px}.moment-link{display:inline-flex;background:#dfeec9;border-radius:100px;padding:10px 15px;font-size:.84rem;font-weight:800}.moment-link:hover{background:#cce77e}.subtle-link{font-size:.82rem;color:#54746a;text-decoration:underline;text-underline-offset:3px}.more-moments{margin-top:20px;color:#4b7067}.more-moments summary{font-weight:750;font-size:.84rem;cursor:pointer}.extra-moment{border-left:2px solid #c6dcba;padding:10px 0 10px 15px;margin:10px 0}.extra-moment a{font-weight:800;font-size:.84rem}.extra-moment p{line-height:1.55;font-size:.87rem;margin:6px 0}@media(max-width:600px){.result-card{grid-template-columns:1fr}.result-card .result-still,.result-card .result-body{grid-column:auto;grid-row:auto}.result-index{font-size:1.1rem}.result-actions{gap:13px}}
+  .page-heading {
+    padding-bottom: 34px;
+  }
+  .page-heading .search-help {
+    font-size: 0.84rem;
+    line-height: 1.6;
+    margin: 16px 0;
+    color: #506e65;
+  }
+  .search-help a {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+  .search-start {
+    max-width: 700px;
+    padding: 35px 0 25px;
+  }
+  .search-start h2 {
+    font:
+      400 2.3rem/1.15 Georgia,
+      serif;
+    letter-spacing: -0.035em;
+  }
+  .search-start p {
+    line-height: 1.7;
+    color: #506e65;
+    margin-bottom: 25px;
+  }
+  .result-list[aria-busy="true"] {
+    min-height: 160px;
+    background:
+      linear-gradient(#e8eee4, #e8eee4) left 20px top 20px / 60% 20px no-repeat,
+      linear-gradient(#edf1e8, #edf1e8) left 20px top 60px / 85% 60px no-repeat;
+    border-radius: 12px;
+  }
+  .prompt-chips {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 22px;
+    color: #6b837d;
+    font-size: 0.84rem;
+  }
+  .prompt-chips button {
+    background: #e5eee2;
+    border: 0;
+    border-radius: 100px;
+    padding: 8px 12px;
+    color: #315a51;
+    font-weight: 750;
+  }
+  .prompt-chips button:hover {
+    background: #d1e5c9;
+  }
+  .result-section {
+    min-height: 350px;
+  }
+  .result-status {
+    font-size: 0.9rem;
+    font-weight: 650;
+    line-height: 1.6;
+    color: #53756e;
+    border-bottom: 1px solid #dce5d8;
+    padding-bottom: 18px;
+  }
+  .result-list {
+    max-width: 1100px;
+  }
+  .result-card {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    gap: 15px;
+    padding: 27px 0;
+    border-bottom: 1px solid #dce5d8;
+  }
+  .result-card .result-still {
+    grid-column: 2;
+    grid-row: 1;
+    max-width: 340px;
+  }
+  .result-card .result-still img {
+    border-radius: 10px;
+  }
+  .result-card .result-body {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  @media (min-width: 801px) {
+    .result-card {
+      grid-template-columns: 50px minmax(0, 1fr) 230px;
+      gap: 15px 28px;
+    }
+    .result-card .result-still {
+      grid-column: 3;
+      margin-top: 28px;
+    }
+    .result-card .result-body {
+      grid-row: 1;
+    }
+  }
+  .result-index {
+    color: #8ca99e;
+    font:
+      400 2.1rem Georgia,
+      serif;
+  }
+  .result-meta {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #6c8b81;
+    font-weight: 800;
+  }
+  .result-body h2 {
+    font:
+      400 clamp(1.5rem, 3vw, 2.1rem)/1.15 Georgia,
+      serif;
+    letter-spacing: -0.035em;
+    margin: 10px 0 16px;
+  }
+  .result-body h2 a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
+  }
+  .result-excerpt {
+    line-height: 1.7;
+    color: #3f625d;
+    max-width: 760px;
+  }
+  .result-actions {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+    margin-top: 18px;
+  }
+  .moment-link {
+    display: inline-flex;
+    background: #dfeec9;
+    border-radius: 100px;
+    padding: 10px 15px;
+    font-size: 0.84rem;
+    font-weight: 800;
+  }
+  .moment-link:hover {
+    background: #cce77e;
+  }
+  .subtle-link {
+    font-size: 0.82rem;
+    color: #54746a;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+  .more-moments {
+    margin-top: 20px;
+    color: #4b7067;
+  }
+  .more-moments summary {
+    font-weight: 750;
+    font-size: 0.84rem;
+    cursor: pointer;
+  }
+  .extra-moment {
+    border-left: 2px solid #c6dcba;
+    padding: 10px 0 10px 15px;
+    margin: 10px 0;
+  }
+  .extra-moment a {
+    font-weight: 800;
+    font-size: 0.84rem;
+  }
+  .extra-moment p {
+    line-height: 1.55;
+    font-size: 0.87rem;
+    margin: 6px 0;
+  }
+  @media (max-width: 600px) {
+    .result-card {
+      grid-template-columns: 1fr;
+    }
+    .result-card .result-still,
+    .result-card .result-body {
+      grid-column: auto;
+      grid-row: auto;
+    }
+    .result-index {
+      font-size: 1.1rem;
+    }
+    .result-actions {
+      gap: 13px;
+    }
+  }
 </style>

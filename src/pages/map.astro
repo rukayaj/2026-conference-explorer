@@ -1,68 +1,628 @@
 ---
-import Base from '../layouts/Base.astro';
-import { href } from '../lib/site.js';
-import themes from '../../public/data/themes.json';
+import Base from "../layouts/Base.astro";
+import { href } from "../lib/site.js";
+import themes from "../../public/data/themes.json";
 const sortedThemes = [...themes].sort((a, b) => a.name.localeCompare(b.name));
 ---
+
 <Base title="The conversation map · TDWG 2026">
-  <section class="container page-heading"><div class="eyebrow">A different view of the conference</div><h1 class="display">A map of ideas.</h1><p>Every dot is a talk or discussion. Nearby dots often cover related ideas, even when they happened in different rooms. Wander around and see what catches your eye.</p></section>
-  <section class="container map-section" id="map-app" data-base={href('')}>
-    <div class="map-toolbar"><div class="map-key"><span><i class="key-ai"></i> AI & methods</span><span><i class="key-collections"></i> Collections</span><span><i class="key-standards"></i> Standards</span><span><i class="key-data"></i> Data & infrastructure</span><span><i class="key-other"></i> Other</span></div><div class="map-controls"><select id="theme-select" aria-label="Filter by theme"><option value="">All themes</option>{sortedThemes.map((theme) => <option value={theme.id}>{theme.name}</option>)}</select><button id="reset-map">Reset view</button></div></div>
-    <div class="map-layout"><div class="map-canvas"><svg id="semantic-map" viewBox="0 0 1000 650" role="img" aria-label="Interactive map of conference talks and discussions"><g id="map-points"></g></svg><div class="map-hint">Scroll to zoom · drag to move · click a dot to explore</div></div><aside class="map-detail" id="map-detail"><div class="detail-empty"><span>✳</span><h2>Pick a dot.</h2><p>See where an idea might lead.</p></div></aside></div>
-    <p class="map-note">The layout is an approximate picture of similarity. “Related talks” are chosen from the original embeddings, not the distance between dots on this map.</p>
+  <section class="container page-heading">
+    <div class="eyebrow">A different view of the conference</div>
+    <h1 class="display">A map of ideas.</h1>
+    <p>
+      Every dot is a talk or discussion. Nearby dots often cover related ideas,
+      even when they happened in different rooms. Wander around and see what
+      catches your eye.
+    </p>
+  </section>
+  <section class="container map-section" id="map-app" data-base={href("")}>
+    <div class="map-toolbar">
+      <div class="map-key">
+        <span>
+          <i class="key-ai"></i> AI & methods
+        </span>
+        <span>
+          <i class="key-collections"></i> Collections
+        </span>
+        <span>
+          <i class="key-standards"></i> Standards
+        </span>
+        <span>
+          <i class="key-data"></i> Data & infrastructure
+        </span>
+        <span>
+          <i class="key-other"></i> Other
+        </span>
+      </div>
+      <div class="map-controls">
+        <select id="theme-select" aria-label="Filter by theme">
+          <option value="">All themes</option>
+          {sortedThemes.map((theme) => (
+            <option value={theme.id}>{theme.name}</option>
+          ))}
+        </select>
+        <button id="reset-map">Reset view</button>
+      </div>
+    </div>
+    <div class="map-picker">
+      <label for="talk-select">Jump to a talk</label>
+      <select id="talk-select">
+        <option value="">Choose a talk to explore…</option>
+      </select>
+      <span id="map-count" role="status">
+        Loading talks…
+      </span>
+    </div>
+    <div class="map-layout">
+      <div class="map-canvas">
+        <svg
+          id="semantic-map"
+          viewBox="0 0 1000 650"
+          role="group"
+          aria-label="Conference talks. Use arrow keys to move between dots, then Enter to select."
+        >
+          <g id="map-points"></g>
+        </svg>
+        <div class="map-zoom">
+          <button id="zoom-in" aria-label="Zoom in">
+            +
+          </button>
+          <button id="zoom-out" aria-label="Zoom out">
+            −
+          </button>
+        </div>
+        <div class="map-hint">Drag to move · select a dot to explore</div>
+      </div>
+      <aside class="map-detail" id="map-detail">
+        <div class="detail-empty">
+          <span aria-hidden="true">✳</span>
+          <h2>Pick a dot.</h2>
+          <p>Or choose a talk from the list above.</p>
+        </div>
+      </aside>
+    </div>
+    <p class="map-note">
+      <a href={href("talks/")}>Prefer a list? Browse all talks ↗</a> Positions
+      give an approximate view of similarity. Related talks are chosen by
+      comparing their content.
+    </p>
   </section>
 </Base>
 
 <script>
-  const app = document.querySelector('#map-app');
+  import { escapeHtml } from "../lib/format.js";
+  const app = document.querySelector("#map-app");
   const base = app.dataset.base;
-  const svg = document.querySelector('#semantic-map');
-  const group = document.querySelector('#map-points');
-  const detail = document.querySelector('#map-detail');
-  const filter = document.querySelector('#theme-select');
-  const escapeHtml = (value) => String(value ?? '').replace(/[&<>"']/g, (character) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[character]);
+  const svg = document.querySelector("#semantic-map");
+  const group = document.querySelector("#map-points");
+  const detail = document.querySelector("#map-detail");
+  const filter = document.querySelector("#theme-select");
+  const picker = document.querySelector("#talk-select");
   let items, themes, related, points;
   const categories = [
-    { name: 'AI & methods', color: '#cde879', ids: ['ai-ready-data', 'llm-information-extraction', 'ai-species-identification'] },
-    { name: 'Collections', color: '#edb98b', ids: ['specimen-digitisation', 'collection-management-systems'] },
-    { name: 'Standards', color: '#94d2b4', ids: ['standards-development-and-governance', 'persistent-identifiers', 'darwin-core-mapping'] },
-    { name: 'Data & infrastructure', color: '#a9b7e5', ids: ['data-provenance', 'data-quality', 'research-infrastructure-landscape'] },
+    {
+      name: "AI & methods",
+      color: "#cde879",
+      ids: [
+        "ai-ready-data",
+        "llm-information-extraction",
+        "ai-species-identification",
+      ],
+    },
+    {
+      name: "Collections",
+      color: "#edb98b",
+      ids: ["specimen-digitisation", "collection-management-systems"],
+    },
+    {
+      name: "Standards",
+      color: "#94d2b4",
+      ids: [
+        "standards-development-and-governance",
+        "persistent-identifiers",
+        "darwin-core-mapping",
+      ],
+    },
+    {
+      name: "Data & infrastructure",
+      color: "#a9b7e5",
+      ids: [
+        "data-provenance",
+        "data-quality",
+        "research-infrastructure-landscape",
+      ],
+    },
   ];
-  const colorFor = (item) => categories.find((category) => item.themes.some((id) => category.ids.includes(id)))?.color || '#84b8ad';
+  const colorFor = (item) =>
+    categories.find((category) =>
+      item.themes.some((id) => category.ids.includes(id)),
+    )?.color || "#84b8ad";
   const state = { x: 0, y: 0, w: 1000, h: 650 };
-  function updateView() { svg.setAttribute('viewBox', `${state.x} ${state.y} ${state.w} ${state.h}`); }
-  function resetView() { Object.assign(state, { x: 0, y: 0, w: 1000, h: 650 }); updateView(); }
-  function showItem(item) {
-    group.querySelectorAll('circle').forEach((circle) => circle.classList.toggle('selected', circle.dataset.id === item.id));
-    const themeNames = item.themes.slice(0, 3).map((id) => themes.get(id)?.name).filter(Boolean);
-    const neighbors = (related[item.id] || []).slice(0, 3).map((id) => items.get(id)).filter(Boolean);
-    detail.innerHTML = `<a href="${base}talk/${encodeURIComponent(item.id)}/" tabindex="-1" aria-hidden="true"><img class="still detail-still" src="${base}stills/${encodeURIComponent(item.id)}.webp" alt="" width="640" height="360"></a><div class="eyebrow">${escapeHtml(item.type)} · ${escapeHtml(item.room)}</div><h2>${escapeHtml(item.title)}</h2><p class="detail-speaker">${escapeHtml(item.speakers.slice(0, 2).join(', ') || 'Conference discussion')}</p><p>${escapeHtml(item.takeaway || item.summary)}</p><a class="button" href="${base}talk/${encodeURIComponent(item.id)}/">Open talk ↗</a><div class="detail-tags">${themeNames.map((name) => `<span>${escapeHtml(name)}</span>`).join('')}</div>${neighbors.length ? `<div class="neighbor-list"><h3>Nearby ideas</h3>${neighbors.map((neighbor) => `<a href="${base}talk/${encodeURIComponent(neighbor.id)}/">${escapeHtml(neighbor.title)} ↗</a>`).join('')}</div>` : ''}`;
+  function updateView() {
+    svg.setAttribute("viewBox", `${state.x} ${state.y} ${state.w} ${state.h}`);
   }
-  Promise.all(['map.json', 'items.json', 'themes.json', 'related.json'].map((name) => fetch(`${base}data/${name}`).then((response) => { if (!response.ok) throw new Error(name); return response.json(); }))).then(([mapData, itemData, themeData, relatedData]) => {
-    items = new Map(itemData.map((item) => [item.id, item])); themes = new Map(themeData.map((theme) => [theme.id, theme])); related = relatedData; points = mapData;
-    for (const point of points) {
-      const item = items.get(point.id);
-      if (!item) continue;
-      const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
-      circle.setAttribute('cx', String(45 + point.x * 910)); circle.setAttribute('cy', String(45 + point.y * 560)); circle.setAttribute('r', '6'); circle.setAttribute('fill', colorFor(item));
-      circle.setAttribute('tabindex', '0'); circle.setAttribute('role', 'button'); circle.setAttribute('aria-label', item.title); circle.dataset.id = item.id;
-      const title = document.createElementNS('http://www.w3.org/2000/svg', 'title'); title.textContent = item.title; circle.append(title);
-      circle.addEventListener('click', () => showItem(item)); circle.addEventListener('keydown', (event) => { if (event.key === 'Enter') showItem(item); }); group.append(circle);
-    }
-    filter.addEventListener('change', () => group.querySelectorAll('circle').forEach((circle) => circle.classList.toggle('faded', Boolean(filter.value) && !items.get(circle.dataset.id).themes.includes(filter.value))));
-  }).catch(() => { detail.innerHTML = '<p>The map could not be loaded right now.</p>'; });
-  document.querySelector('#reset-map').addEventListener('click', resetView);
-  svg.addEventListener('wheel', (event) => {
-    event.preventDefault(); const factor = event.deltaY < 0 ? 0.86 : 1.16; const nextW = Math.max(170, Math.min(1000, state.w * factor)); const nextH = nextW * .65;
-    const rect = svg.getBoundingClientRect(); const px = (event.clientX - rect.left) / rect.width, py = (event.clientY - rect.top) / rect.height;
-    state.x += (state.w - nextW) * px; state.y += (state.h - nextH) * py; state.w = nextW; state.h = nextH; updateView();
-  }, { passive: false });
+  function resetView() {
+    Object.assign(state, { x: 0, y: 0, w: 1000, h: 650 });
+    updateView();
+  }
+  function showItem(item) {
+    picker.value = item.id;
+    group.querySelectorAll("circle").forEach((circle) => {
+      const selected = circle.dataset.id === item.id;
+      circle.classList.toggle("selected", selected);
+      circle.setAttribute("aria-pressed", String(selected));
+      circle.setAttribute("tabindex", selected ? "0" : "-1");
+    });
+    const themeNames = item.themes
+      .slice(0, 3)
+      .map((id) => themes.get(id)?.name)
+      .filter(Boolean);
+    const neighbors = (related[item.id] || [])
+      .slice(0, 3)
+      .map((id) => items.get(id))
+      .filter(Boolean);
+    detail.innerHTML = `<a href="${base}talk/${encodeURIComponent(item.id)}/" tabindex="-1" aria-hidden="true"><img class="still detail-still" src="${base}stills/${encodeURIComponent(item.id)}.webp" alt="" width="640" height="360"></a><div class="eyebrow">${escapeHtml(item.type)} · ${escapeHtml(item.room)}</div><h2>${escapeHtml(item.title)}</h2><p class="detail-speaker">${escapeHtml(item.speakers.slice(0, 2).join(", ") || "Conference discussion")}</p><p>${escapeHtml(item.takeaway || item.summary)}</p><a class="button" href="${base}talk/${encodeURIComponent(item.id)}/">Open talk ↗</a><div class="detail-tags">${themeNames.map((name) => `<span>${escapeHtml(name)}</span>`).join("")}</div>${neighbors.length ? `<div class="neighbor-list"><h3>Nearby ideas</h3>${neighbors.map((neighbor) => `<a href="${base}talk/${encodeURIComponent(neighbor.id)}/">${escapeHtml(neighbor.title)} ↗</a>`).join("")}</div>` : ""}`;
+  }
+  Promise.all(
+    ["map.json", "items.json", "themes.json", "related.json"].map((name) =>
+      fetch(`${base}data/${name}`).then((response) => {
+        if (!response.ok) throw new Error(name);
+        return response.json();
+      }),
+    ),
+  )
+    .then(([mapData, itemData, themeData, relatedData]) => {
+      items = new Map(itemData.map((item) => [item.id, item]));
+      themes = new Map(themeData.map((theme) => [theme.id, theme]));
+      related = relatedData;
+      points = mapData;
+      for (const point of points) {
+        const item = items.get(point.id);
+        if (!item) continue;
+        const circle = document.createElementNS(
+          "http://www.w3.org/2000/svg",
+          "circle",
+        );
+        circle.setAttribute("cx", String(45 + point.x * 910));
+        circle.setAttribute("cy", String(45 + point.y * 560));
+        circle.setAttribute("r", "6");
+        circle.setAttribute("fill", colorFor(item));
+        circle.setAttribute(
+          "tabindex",
+          group.childElementCount === 0 ? "0" : "-1",
+        );
+        circle.setAttribute("aria-pressed", "false");
+        circle.setAttribute("role", "button");
+        circle.setAttribute("aria-label", item.title);
+        circle.dataset.id = item.id;
+        const title = document.createElementNS(
+          "http://www.w3.org/2000/svg",
+          "title",
+        );
+        title.textContent = item.title;
+        circle.append(title);
+        circle.addEventListener("click", () => showItem(item));
+        circle.addEventListener("keydown", (event) => {
+          if (event.key === "Enter" || event.key === " ") {
+            event.preventDefault();
+            showItem(item);
+          }
+          const directions = {
+            ArrowRight: 1,
+            ArrowDown: 1,
+            ArrowLeft: -1,
+            ArrowUp: -1,
+          };
+          if (directions[event.key]) {
+            event.preventDefault();
+            const visible = [...group.querySelectorAll("circle:not(.faded)")];
+            const next =
+              visible[
+                (visible.indexOf(circle) +
+                  directions[event.key] +
+                  visible.length) %
+                  visible.length
+              ];
+            if (next) {
+              circle.setAttribute("tabindex", "-1");
+              next.setAttribute("tabindex", "0");
+              next.focus();
+            }
+          }
+        });
+        group.append(circle);
+      }
+      function filterItems() {
+        const visible = [...items.values()]
+          .filter((item) => !filter.value || item.themes.includes(filter.value))
+          .sort((a, b) => a.title.localeCompare(b.title));
+        const selected = picker.value;
+        picker.replaceChildren(
+          new Option("Choose a talk to explore…", ""),
+          ...visible.map((item) => new Option(item.title, item.id)),
+        );
+        picker.value = visible.some((item) => item.id === selected)
+          ? selected
+          : "";
+        document.querySelector("#map-count").textContent =
+          `${visible.length} talks & discussions`;
+        let focusAssigned = false;
+        group.querySelectorAll("circle").forEach((circle) => {
+          const matches =
+            !filter.value ||
+            items.get(circle.dataset.id).themes.includes(filter.value);
+          circle.classList.toggle("faded", !matches);
+          circle.setAttribute("aria-hidden", String(!matches));
+          circle.setAttribute(
+            "tabindex",
+            matches && !focusAssigned ? "0" : "-1",
+          );
+          if (matches) focusAssigned = true;
+        });
+        if (!picker.value) {
+          group.querySelectorAll(".selected").forEach((circle) => {
+            circle.classList.remove("selected");
+            circle.setAttribute("aria-pressed", "false");
+          });
+          detail.innerHTML =
+            '<div class="detail-empty"><span aria-hidden="true">✳</span><h2>Pick a dot.</h2><p>Or choose a talk from the list above.</p></div>';
+        }
+      }
+      filter.addEventListener("change", filterItems);
+      picker.addEventListener("change", () => {
+        const item = items.get(picker.value);
+        if (item) showItem(item);
+      });
+      filterItems();
+    })
+    .catch(() => {
+      document.querySelector("#map-count").textContent = "Map unavailable";
+      detail.innerHTML = `<p>The map could not be loaded right now. <a class="text-link" href="${base}talks/">Browse the talks instead ↗</a></p>`;
+    });
+  document.querySelector("#reset-map").addEventListener("click", resetView);
+  function zoom(factor, x = state.x + state.w / 2, y = state.y + state.h / 2) {
+    const nextW = Math.max(170, Math.min(1000, state.w * factor));
+    const ratio = nextW / state.w;
+    state.x = x - (x - state.x) * ratio;
+    state.y = y - (y - state.y) * ratio;
+    state.w = nextW;
+    state.h = nextW * 0.65;
+    updateView();
+  }
+  function mapPosition(event) {
+    const point = svg.createSVGPoint();
+    point.x = event.clientX;
+    point.y = event.clientY;
+    return point.matrixTransform(svg.getScreenCTM().inverse());
+  }
+  document.querySelector("#zoom-in").addEventListener("click", () => zoom(0.8));
+  document
+    .querySelector("#zoom-out")
+    .addEventListener("click", () => zoom(1.25));
+  svg.addEventListener(
+    "wheel",
+    (event) => {
+      // Leave ordinary page scrolling alone, especially on small screens.
+      if (!event.ctrlKey && !event.metaKey) return;
+      event.preventDefault();
+      const point = mapPosition(event);
+      zoom(event.deltaY < 0 ? 0.86 : 1.16, point.x, point.y);
+    },
+    { passive: false },
+  );
   let drag;
-  svg.addEventListener('pointerdown', (event) => { if (event.target.tagName === 'circle') return; drag = { x: event.clientX, y: event.clientY, sx: state.x, sy: state.y }; svg.setPointerCapture(event.pointerId); });
-  svg.addEventListener('pointermove', (event) => { if (!drag) return; const rect = svg.getBoundingClientRect(); state.x = drag.sx - (event.clientX - drag.x) * state.w / rect.width; state.y = drag.sy - (event.clientY - drag.y) * state.h / rect.height; updateView(); });
-  svg.addEventListener('pointerup', () => { drag = null; });
+  svg.addEventListener("pointerdown", (event) => {
+    if (event.target.tagName === "circle" || event.button !== 0) return;
+    drag = mapPosition(event);
+    svg.setPointerCapture(event.pointerId);
+  });
+  svg.addEventListener("pointermove", (event) => {
+    if (!drag) return;
+    const point = mapPosition(event);
+    state.x += drag.x - point.x;
+    state.y += drag.y - point.y;
+    updateView();
+  });
+  for (const event of ["pointerup", "pointercancel", "lostpointercapture"])
+    svg.addEventListener(event, () => {
+      drag = null;
+    });
 </script>
 
 <style>
-.map-section{padding-bottom:20px}.map-toolbar{display:flex;align-items:center;justify-content:space-between;gap:20px;margin-bottom:17px}.map-key{display:flex;flex-wrap:wrap;gap:14px;font-size:.74rem;color:#5a7c72;font-weight:700}.map-key span{display:flex;align-items:center;gap:5px}.map-key i{width:11px;height:11px;border-radius:50%;display:inline-block}.key-ai{background:#cde879}.key-collections{background:#edb98b}.key-standards{background:#94d2b4}.key-data{background:#a9b7e5}.key-other{background:#84b8ad}.map-controls{display:flex;gap:8px}.map-controls select,.map-controls button{border:1px solid #cad8cb;border-radius:100px;background:#fff;color:#2d5a52;font-size:.78rem;font-weight:700;padding:9px 12px}.map-controls select{max-width:200px}.map-layout{display:grid;grid-template-columns:minmax(0,1fr) 310px;gap:0;border:1px solid #d4e0d4;border-radius:18px;overflow:hidden;background:#e4eee5;min-height:580px}.map-canvas{position:relative;background:radial-gradient(circle at 40% 35%,#eaf2e5,#cfdfd9);overflow:hidden}.map-canvas svg{width:100%;height:100%;min-height:580px;display:block;touch-action:none;cursor:grab}.map-canvas svg:active{cursor:grabbing}.map-canvas :global(circle){stroke:#f8f9ef;stroke-width:1.5;cursor:pointer;transition:opacity .2s,r .2s}.map-canvas :global(circle:hover),.map-canvas :global(circle.selected){r:10;stroke:#143c3b;stroke-width:2.5}.map-canvas :global(circle.faded){opacity:.12}.map-hint{position:absolute;bottom:16px;left:20px;color:#5a7f76;font-size:.7rem;font-weight:700;background:#f8fbf2ba;padding:7px 10px;border-radius:100px}.map-detail{background:#fbfcf7;padding:27px;border-left:1px solid #d4e0d4;overflow:auto;max-height:650px}.detail-empty{display:grid;place-content:center;min-height:450px;text-align:center;color:#6e9082}.detail-empty span{font-size:4rem;color:#91bd92}.detail-empty h2{font:400 2rem Georgia,serif;margin:12px 0 0}.map-detail :global(.detail-still){border-radius:10px;margin-bottom:18px}.map-detail :global(h2){font:400 1.75rem/1.17 Georgia,serif;letter-spacing:-.03em;margin:13px 0}.map-detail :global(p){font-size:.86rem;color:#59796e;line-height:1.58}.map-detail :global(.detail-speaker){font-size:.76rem;font-weight:800;color:#67937d}.map-detail :global(.button){font-size:.82rem;margin:14px 0}.map-detail :global(.detail-tags){display:flex;gap:6px;flex-wrap:wrap;margin:15px 0}.map-detail :global(.detail-tags span){background:#e6efe3;border-radius:100px;padding:5px 8px;font-size:.68rem;color:#4d7163}.map-detail :global(.neighbor-list){border-top:1px solid #d9e5d7;margin-top:25px;padding-top:14px}.map-detail :global(.neighbor-list h3){font:400 1.3rem Georgia,serif}.map-detail :global(.neighbor-list a){display:block;padding:9px 0;border-top:1px solid #e0e9dc;font-size:.78rem;font-weight:700}.map-note{color:#6f8981;font-size:.76rem;line-height:1.5;margin-top:13px}@media(max-width:960px){.map-layout{grid-template-columns:1fr}.map-detail{border-left:0;border-top:1px solid #d4e0d4;max-height:none}.detail-empty{min-height:150px}.map-toolbar{align-items:flex-start;flex-direction:column}}@media(max-width:600px){.map-canvas svg{min-height:400px}.map-hint{font-size:.64rem}.map-controls{width:100%}.map-controls select{flex:1}}
+  .map-picker {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+    font-size: 0.8rem;
+  }
+  .map-picker label {
+    font-weight: 750;
+    white-space: nowrap;
+  }
+  .map-picker select {
+    min-width: 0;
+    max-width: 570px;
+    flex: 1;
+    background: #fff;
+    border: 1px solid #b7cbc0;
+    border-radius: 8px;
+    padding: 12px;
+    color: #153b3c;
+  }
+  .map-picker span {
+    color: #506e65;
+  }
+  .map-zoom {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    display: flex;
+    gap: 6px;
+  }
+  .map-zoom button {
+    width: 44px;
+    height: 44px;
+    background: #fbfcf7;
+    border: 1px solid #aec6b4;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    color: #153b3c;
+  }
+  .map-section {
+    padding-bottom: 20px;
+  }
+  .map-toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 17px;
+  }
+  .map-key {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    font-size: 0.74rem;
+    color: #5a7c72;
+    font-weight: 700;
+  }
+  .map-key span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .map-key i {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .key-ai {
+    background: #cde879;
+  }
+  .key-collections {
+    background: #edb98b;
+  }
+  .key-standards {
+    background: #94d2b4;
+  }
+  .key-data {
+    background: #a9b7e5;
+  }
+  .key-other {
+    background: #84b8ad;
+  }
+  .map-controls {
+    display: flex;
+    gap: 8px;
+  }
+  .map-controls select,
+  .map-controls button {
+    border: 1px solid #cad8cb;
+    border-radius: 100px;
+    background: #fff;
+    color: #2d5a52;
+    font-size: 0.78rem;
+    font-weight: 700;
+    padding: 9px 12px;
+  }
+  .map-controls select {
+    max-width: 200px;
+  }
+  .map-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 310px;
+    gap: 0;
+    border: 1px solid #d4e0d4;
+    border-radius: 18px;
+    overflow: hidden;
+    background: #e4eee5;
+    min-height: 580px;
+  }
+  .map-canvas {
+    position: relative;
+    background: radial-gradient(circle at 40% 35%, #eaf2e5, #cfdfd9);
+    overflow: hidden;
+  }
+  .map-canvas svg {
+    width: 100%;
+    height: 100%;
+    min-height: 580px;
+    display: block;
+    touch-action: none;
+    cursor: grab;
+  }
+  .map-canvas svg:active {
+    cursor: grabbing;
+  }
+  .map-canvas :global(circle) {
+    stroke: #f8f9ef;
+    stroke-width: 1.5;
+    cursor: pointer;
+    transition:
+      opacity 0.2s,
+      r 0.2s;
+  }
+  .map-canvas :global(circle:hover),
+  .map-canvas :global(circle.selected) {
+    r: 10;
+    stroke: #143c3b;
+    stroke-width: 2.5;
+  }
+  .map-canvas :global(circle.faded) {
+    opacity: 0.12;
+    pointer-events: none;
+  }
+  .map-canvas :global(circle:focus-visible) {
+    r: 10;
+    stroke: #153b3c;
+    stroke-width: 3;
+    outline: none;
+  }
+  .map-hint {
+    position: absolute;
+    bottom: 16px;
+    left: 20px;
+    color: #5a7f76;
+    font-size: 0.7rem;
+    font-weight: 700;
+    background: #f8fbf2ba;
+    padding: 7px 10px;
+    border-radius: 100px;
+  }
+  .map-detail {
+    background: #fbfcf7;
+    padding: 27px;
+    border-left: 1px solid #d4e0d4;
+    overflow: auto;
+    max-height: 650px;
+  }
+  .detail-empty {
+    display: grid;
+    place-content: center;
+    min-height: 450px;
+    text-align: center;
+    color: #6e9082;
+  }
+  .detail-empty span {
+    font-size: 4rem;
+    color: #91bd92;
+  }
+  .detail-empty h2 {
+    font:
+      400 2rem Georgia,
+      serif;
+    margin: 12px 0 0;
+  }
+  .map-detail :global(.detail-still) {
+    border-radius: 10px;
+    margin-bottom: 18px;
+  }
+  .map-detail :global(h2) {
+    font:
+      400 1.75rem/1.17 Georgia,
+      serif;
+    letter-spacing: -0.03em;
+    margin: 13px 0;
+  }
+  .map-detail :global(p) {
+    font-size: 0.86rem;
+    color: #59796e;
+    line-height: 1.58;
+  }
+  .map-detail :global(.detail-speaker) {
+    font-size: 0.76rem;
+    font-weight: 800;
+    color: #67937d;
+  }
+  .map-detail :global(.button) {
+    font-size: 0.82rem;
+    margin: 14px 0;
+  }
+  .map-detail :global(.detail-tags) {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin: 15px 0;
+  }
+  .map-detail :global(.detail-tags span) {
+    background: #e6efe3;
+    border-radius: 100px;
+    padding: 5px 8px;
+    font-size: 0.68rem;
+    color: #4d7163;
+  }
+  .map-detail :global(.neighbor-list) {
+    border-top: 1px solid #d9e5d7;
+    margin-top: 25px;
+    padding-top: 14px;
+  }
+  .map-detail :global(.neighbor-list h3) {
+    font:
+      400 1.3rem Georgia,
+      serif;
+  }
+  .map-detail :global(.neighbor-list a) {
+    display: block;
+    padding: 9px 0;
+    border-top: 1px solid #e0e9dc;
+    font-size: 0.78rem;
+    font-weight: 700;
+  }
+  .map-note a {
+    font-weight: 750;
+    text-decoration: underline;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .map-note {
+    color: #6f8981;
+    font-size: 0.76rem;
+    line-height: 1.5;
+    margin-top: 13px;
+  }
+  @media (max-width: 960px) {
+    .map-layout {
+      grid-template-columns: 1fr;
+    }
+    .map-detail {
+      border-left: 0;
+      border-top: 1px solid #d4e0d4;
+      max-height: none;
+    }
+    .detail-empty {
+      min-height: 150px;
+    }
+    .map-toolbar {
+      align-items: flex-start;
+      flex-direction: column;
+    }
+  }
+  @media (max-width: 600px) {
+    .map-canvas svg {
+      min-height: 340px;
+      height: 340px;
+    }
+    .map-picker {
+      flex-wrap: wrap;
+    }
+    .map-picker select {
+      flex-basis: 100%;
+      order: 3;
+    }
+    .map-picker span {
+      margin-left: auto;
+    }
+    .map-hint {
+      font-size: 0.64rem;
+    }
+    .map-controls {
+      width: 100%;
+    }
+    .map-controls select {
+      flex: 1;
+    }
+  }
 </style>

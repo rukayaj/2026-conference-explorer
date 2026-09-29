@@ -1,0 +1,277 @@
+---
+import Base from "../layouts/Base.astro";
+import TalkCard from "../components/TalkCard.astro";
+import { href } from "../lib/site.js";
+import items from "../../public/data/items.json";
+const sorted = [...items].sort(
+  (a, b) =>
+    a.date.localeCompare(b.date) ||
+    a.room.localeCompare(b.room) ||
+    a.title.localeCompare(b.title),
+);
+const days = [...new Map(sorted.map((item) => [item.date, item.day]))];
+const rooms = [...new Set(items.map((item) => item.room))].sort();
+---
+
+<Base
+  title="Browse talks & discussions · TDWG 2026"
+  description="Browse all TDWG 2026 talks and discussions by speaker, day and room."
+>
+  <section class="container page-heading">
+    <div class="eyebrow">The conference, at your own pace</div>
+    <h1 class="display">Find your next talk.</h1>
+    <p>
+      Revisit a session or discover a new voice. Browse all {items.length} talks
+      and discussions, with summaries, transcripts and recordings.
+    </p>
+    <a class="text-link" href={href("search/")}>
+      Looking for something someone said? Search the transcripts ↗
+    </a>
+  </section>
+  <section class="container" aria-label="Talk directory">
+    <form
+      id="browse-filters"
+      class="browse-filters"
+      role="search"
+      aria-label="Filter talks"
+    >
+      <label class="browse-query">
+        Title or speaker
+        <input
+          name="q"
+          type="search"
+          placeholder="e.g. Darwin Core or Tanya Berger-Wolf"
+        />
+      </label>
+      <label>
+        Day
+        <select name="day">
+          <option value="">All days</option>
+          {days.map(([date, day]) => (
+            <option value={date}>{day}</option>
+          ))}
+        </select>
+      </label>
+      <label>
+        Room
+        <select name="room">
+          <option value="">All rooms</option>
+          {rooms.map((room) => (
+            <option value={room}>{room}</option>
+          ))}
+        </select>
+      </label>
+      <button class="filter-clear" type="reset">
+        Clear filters
+      </button>
+    </form>
+    <div class="browse-summary">
+      <p id="browse-count" role="status">
+        {items.length} talks & discussions
+      </p>
+      <span>By day, room & title</span>
+    </div>
+    <div class="card-grid" id="talk-directory">
+      {sorted.map((item) => (
+        <div
+          class="directory-entry"
+          data-search={`${item.title} ${item.speakers.join(" ")} ${item.session}`}
+          data-day={item.date}
+          data-room={item.room}
+        >
+          <TalkCard item={item} />
+        </div>
+      ))}
+    </div>
+    <div class="browse-more">
+      <button class="button button-dark" id="show-more" hidden>
+        Show more talks ↓
+      </button>
+    </div>
+    <div class="empty-state" id="browse-empty" hidden>
+      <h2>No talks match these filters.</h2>
+      <p>
+        Try a different name, choose another day, or clear the filters. You can
+        also{" "}
+        <a class="text-link" href={href("search/")}>
+          search the transcripts
+        </a>{" "}
+        for a topic.
+      </p>
+    </div>
+    <noscript>
+      <p class="notice">
+        All talks are listed above. Enable JavaScript to use the filters.
+      </p>
+    </noscript>
+  </section>
+</Base>
+<script>
+  const form = document.querySelector("#browse-filters");
+  const entries = [...document.querySelectorAll(".directory-entry")];
+  const normalize = (text) =>
+    text.normalize("NFD").replace(/\p{M}/gu, "").toLowerCase();
+  const searchable = entries.map((entry) => normalize(entry.dataset.search));
+  const more = document.querySelector("#show-more");
+  let limit = 24;
+  let matching = [];
+  function showEntries() {
+    entries.forEach((entry) => {
+      entry.hidden = true;
+    });
+    matching.slice(0, limit).forEach((entry) => {
+      entry.hidden = false;
+    });
+    more.hidden = matching.length <= limit;
+    document.querySelector("#browse-count").textContent =
+      `Showing ${Math.min(limit, matching.length)} of ${matching.length} talks & discussions`;
+  }
+  function applyFilters(updateUrl = true) {
+    const data = new FormData(form);
+    const query = normalize(String(data.get("q")).trim());
+    const terms = query.split(/\s+/).filter(Boolean);
+    const day = data.get("day"),
+      room = data.get("room");
+    limit = 24;
+    matching = entries.filter(
+      (entry, index) =>
+        terms.every((term) => searchable[index].includes(term)) &&
+        (!day || entry.dataset.day === day) &&
+        (!room || entry.dataset.room === room),
+    );
+    showEntries();
+    document.querySelector("#browse-empty").hidden = matching.length > 0;
+    if (updateUrl) {
+      const url = new URL(location.href);
+      for (const [key, value] of data)
+        value
+          ? url.searchParams.set(key, String(value))
+          : url.searchParams.delete(key);
+      history.replaceState(null, "", url);
+    }
+  }
+  function restoreFilters() {
+    const params = new URLSearchParams(location.search);
+    for (const name of ["q", "day", "room"])
+      form.elements.namedItem(name).value = params.get(name) || "";
+    applyFilters(false);
+  }
+  more.addEventListener("click", () => {
+    const next = matching[limit];
+    limit += 24;
+    showEntries();
+    next?.querySelector("a")?.focus();
+  });
+  form.addEventListener("submit", (event) => event.preventDefault());
+  form.addEventListener("input", () => applyFilters());
+  form.addEventListener("reset", (event) => {
+    event.preventDefault();
+    for (const name of ["q", "day", "room"]) form.elements.namedItem(name).value = "";
+    applyFilters();
+  });
+  window.addEventListener("popstate", restoreFilters);
+  restoreFilters();
+</script>
+<style>
+  .browse-filters {
+    display: flex;
+    align-items: end;
+    gap: 16px;
+    padding: 24px;
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    background: var(--surface);
+  }
+  .browse-filters label {
+    display: grid;
+    gap: 9px;
+    font-size: 0.78rem;
+    font-weight: 750;
+    min-width: 0;
+  }
+  .browse-query {
+    flex: 1;
+  }
+  .browse-filters input,
+  .browse-filters select {
+    width: 100%;
+    min-height: 46px;
+    border: 1px solid #b7cbc0;
+    border-radius: 8px;
+    background: #fff;
+    color: var(--ink);
+    padding: 10px 12px;
+    font-size: 0.9rem;
+  }
+  .filter-clear {
+    border: 0;
+    background: transparent;
+    color: var(--ink);
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    min-height: 46px;
+    font-size: 0.8rem;
+    white-space: nowrap;
+  }
+  .browse-summary {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    align-items: center;
+    margin: 20px 0;
+    font-size: 0.8rem;
+    color: var(--muted);
+  }
+  .browse-summary p {
+    font-weight: 750;
+  }
+  .browse-more {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+  }
+  .directory-entry :global(.talk-card p) {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .directory-entry {
+    min-width: 0;
+  }
+  .directory-entry :global(.talk-card) {
+    height: 100%;
+  }
+  #browse-empty h2 {
+    margin-top: 0;
+    font:
+      400 1.8rem Georgia,
+      serif;
+  }
+  @media (max-width: 900px) {
+    .browse-filters {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    .browse-query {
+      grid-column: 1 / -1;
+    }
+    .filter-clear {
+      justify-self: start;
+    }
+  }
+  @media (max-width: 480px) {
+    .browse-filters {
+      padding: 18px;
+      grid-template-columns: minmax(0, 1fr);
+    }
+    .browse-query {
+      grid-column: auto;
+    }
+    .browse-summary {
+      align-items: start;
+      flex-direction: column;
+      gap: 0;
+    }
+  }
+</style>

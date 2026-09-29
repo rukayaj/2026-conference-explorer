@@ -1,0 +1,23 @@
+---
+import Base from "../layouts/Base.astro";
+import { href } from "../lib/site.js";
+---
+
+<Base title="Page not found · TDWG 2026">
+  <section class="container page-heading">
+    <div class="eyebrow">404 · A small detour</div>
+    <h1 class="display">This trail ends here.</h1>
+    <p>
+      We couldn’t find that page. There are plenty of other conversations to
+      explore.
+    </p>
+    <div class="tag-list">
+      <a class="button button-dark" href={href("talks/")}>
+        Browse the talks ↗
+      </a>
+      <a class="button" href={href("search/")}>
+        Search the conference ↗
+      </a>
+    </div>
+  </section>
+</Base>
