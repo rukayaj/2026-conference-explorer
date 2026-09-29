@@ -4,7 +4,7 @@
 set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-GITOPS_DIR="${GITOPS_DIR:-$ROOT_DIR/../gitops}"
+GITOPS_DIR="${GITOPS_DIR:-$([ -d "$ROOT_DIR/../gitops" ] && echo "$ROOT_DIR/../gitops" || echo "$HOME/Projects/gitops")}"
 MANIFEST_DIR="${MANIFEST_DIR:-$GITOPS_DIR/apps/tdwg2026/templates}"
 KUBE_CONTEXT="${KUBE_CONTEXT:-nird-lmd}"
 KUBE_NAMESPACE="${KUBE_NAMESPACE:-gbif-no-ns8095k}"
