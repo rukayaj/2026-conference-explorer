@@ -22,7 +22,8 @@ The first `npm run embed` downloads a quantized BGE small model. Later runs reus
 1. `derived/content_items.json`, `derived/themes.json`, `derived/recordings.json`, and the SRT files are the source data.
 2. `npm run data` parses SRT cues and chunks each `source_segments` interval independently. It writes `public/data/chunks.json`, public item/theme metadata, and one cue file per talk.
 3. `npm run embed` embeds chunks and item summaries with the same model used by the search service, saves normalized float32 vectors, computes nearest talks in the original embedding space, projects the items to 2D with UMAP, and selects cross-session connections with a shared specific theme.
-4. Astro builds the static pages. The search service loads the generated assets into memory and uses BM25 plus dense similarity with reciprocal rank fusion. It needs no database.
+4. `node scripts/stills.mjs` saves one video still per talk to `public/stills/`, taken 45 seconds in through the Vimeo player stream. It needs `yt-dlp`, `ffmpeg` and `cwebp` (`brew install ffmpeg yt-dlp`) and skips stills that already exist. Set a better frame time for a talk in `curation/still-times.json`, then rerun with `--force <talk id>`.
+5. Astro builds the static pages. The search service loads the generated assets into memory and uses BM25 plus dense similarity with reciprocal rank fusion. It needs no database.
 
 The machine-produced summaries and transcripts may contain errors. Result pages show transcript passages and video times so visitors can check the source. The map is a discovery view; related talks come from the original embeddings, not 2D distances.
 

@@ -22,6 +22,7 @@ for (const chunk of chunks) {
 for (const item of items) {
   if (!fs.existsSync(path.join(dataDir, 'cues', `${item.id}.json`))) errors.push(`Missing transcript: ${item.id}`);
   if (!item.videoUrl) errors.push(`Missing video: ${item.id}`);
+  if (!fs.existsSync(path.join(root, 'public', 'stills', `${item.id}.webp`))) errors.push(`Missing still (run node scripts/stills.mjs): ${item.id}`);
 }
 if (fs.existsSync(path.join(dataDir, 'manifest.json'))) {
   const manifest = JSON.parse(fs.readFileSync(path.join(dataDir, 'manifest.json')));

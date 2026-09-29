@@ -10,12 +10,13 @@ const { title = 'TDWG 2026 · Explore the conversation', description = 'Explore 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#071e20" />
     <meta name="description" content={description} />
+    <link rel="icon" type="image/png" href={href('favicon.png')} />
     <title>{title}</title>
   </head>
   <body>
     <div class="site-shell">
       <header class="site-header">
-        <a class="brand" href={href('')} aria-label="TDWG 2026 home"><span class="brand-mark">✳</span><span>TDWG<span class="brand-year">2026</span></span></a>
+        <a class="brand" href={href('')} aria-label="TDWG 2026 home"><img class="brand-mark" src={href('brand/troll.png')} alt="" width="44" height="44" /><span>TDWG<span class="brand-year">2026</span></span></a>
         <nav class="main-nav" aria-label="Main navigation">
           <a href={href('search/')}>Search</a>
           <a href={href('themes/')}>Themes</a>
@@ -25,7 +26,7 @@ const { title = 'TDWG 2026 · Explore the conversation', description = 'Explore 
       </header>
       <main><slot /></main>
       <footer class="site-footer">
-        <div><strong>TDWG 2026, revisited.</strong><p>A playful guide to the conference, built from recordings and machine-produced transcripts. Check the video when precision matters.</p></div>
+        <div class="footer-brand"><img src={href('brand/tdwg-2026-badge.png')} alt="TDWG 2026 Oslo, Norway logo featuring the troll mascot Gymimir Standardsen" width="96" height="96" loading="lazy" /><div><strong>TDWG 2026, revisited.</strong><p>A playful guide to the conference, built from recordings and machine-produced transcripts. Check the video when precision matters.</p></div></div>
         <div class="footer-links"><a href={href('search/')}>Find a moment</a><a href={href('themes/')}>Browse themes</a><a href={href('map/')}>Explore the map</a></div>
       </footer>
     </div>

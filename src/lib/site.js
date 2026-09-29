@@ -1,5 +1,6 @@
 export const base = import.meta.env.BASE_URL;
 export const href = (path = '') => `${base}${path.replace(/^\//, '')}`;
+export const stillSrc = (id) => href(`stills/${id}.webp`);
 
 export function timeLabel(seconds) {
   const value = Math.max(0, Math.floor(Number(seconds) || 0));
@@ -17,14 +18,4 @@ export function stampSeconds(timestamp) {
 
 export function videoLink(videoUrl, seconds = 0) {
   return `${videoUrl}#t=${Math.floor(seconds)}s`;
-}
-
-export function playerLink(videoUrl, seconds = 0) {
-  if (!videoUrl) return '';
-  const parsed = new URL(videoUrl);
-  const [id, privacyHash] = parsed.pathname.split('/').filter(Boolean);
-  const player = new URL(`https://player.vimeo.com/video/${id}`);
-  if (privacyHash) player.searchParams.set('h', privacyHash);
-  if (seconds) player.hash = `t=${Math.floor(seconds)}s`;
-  return player.toString();
 }
