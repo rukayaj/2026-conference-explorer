@@ -88,7 +88,8 @@ export function createLexicalIndex(chunks) {
   return { rank, has: (term) => postings.has(term) };
 }
 
-export function createSearch(items, chunks) {
+// Session openings are searched as their own results, linked from the session's first talk.
+export function createSearch(items, chunks, openings = {}) {
   const byId = new Map(items.map((item) => [item.id, item]));
   const index = createLexicalIndex(chunks);
   return (query) => {
@@ -106,20 +107,32 @@ export function createSearch(items, chunks) {
       .map(({ index, score }) => {
         const chunk = chunks[index],
           item = byId.get(chunk.itemId);
-        return {
-          chunk,
-          item,
-          score: score * (chunk.start < item.start + 35 ? 0.85 : 1),
-        };
+        const introduction = !chunk.openingId && chunk.start < item.start + 35;
+        return { chunk, item, score: score * (introduction ? 0.85 : 1) };
       })
       .sort((a, b) => b.score - a.score);
     const groups = new Map();
     for (const { chunk, item } of ranked) {
-      if (!groups.has(item.id)) {
+      const opening = openings[chunk.openingId];
+      const key = opening ? chunk.openingId : item.id;
+      if (!groups.has(key)) {
         if (groups.size >= 18) continue;
-        groups.set(item.id, { ...item, moments: [] });
+        groups.set(
+          key,
+          opening
+            ? {
+                ...item,
+                title: opening.title,
+                speakers: opening.speakers,
+                scheduledStart: "",
+                scheduledEnd: "",
+                opening: true,
+                moments: [],
+              }
+            : { ...item, moments: [] },
+        );
       }
-      const group = groups.get(item.id);
+      const group = groups.get(key);
       if (
         group.moments.length < 3 &&
         !group.moments.some(
@@ -140,10 +153,10 @@ export function createSearch(items, chunks) {
 // Share in-flight downloads, but allow a failed download to be retried.
 export function loadSearch(base) {
   return Promise.all(
-    ["items.json", "chunks.json"].map(async (name) => {
+    ["items.json", "chunks.json", "openings.json"].map(async (name) => {
       const response = await fetch(`${base}data/${name}`);
       if (!response.ok) throw new Error(`Could not load ${name}`);
       return response.json();
     }),
-  ).then(([items, chunks]) => createSearch(items, chunks));
+  ).then(([items, chunks, openings]) => createSearch(items, chunks, openings));
 }

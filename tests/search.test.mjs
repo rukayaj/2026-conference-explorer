@@ -111,3 +111,32 @@ test("transcript content is escaped before rendering as HTML", () => {
     "&lt;img src=x onerror=&quot;alert(1)&quot;&gt; &amp; &#39;text&#39;",
   );
 });
+
+test("session openings are separate results linked to their first talk", () => {
+  const search = createSearch(
+    [{ id: "talk", title: "Talk", speakers: ["Speaker"], start: 300 }],
+    [
+      { itemId: "talk", start: 400, end: 430, text: "Provenance in the talk." },
+      {
+        itemId: "talk",
+        openingId: "talk-opening",
+        start: 20,
+        end: 60,
+        text: "Provenance chains are often broken.",
+      },
+    ],
+    {
+      "talk-opening": { itemId: "talk", title: "Session", speakers: ["Chair"] },
+    },
+  );
+  const { results } = search("provenance");
+  assert.equal(results.length, 2);
+  const opening = results.find((result) => result.opening);
+  assert.equal(opening.id, "talk");
+  assert.equal(opening.title, "Session");
+  assert.deepEqual(opening.speakers, ["Chair"]);
+  assert.deepEqual(
+    opening.moments.map((moment) => moment.start),
+    [20],
+  );
+});

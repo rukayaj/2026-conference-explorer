@@ -1,0 +1,98 @@
+[
+  {
+    "itemId": "aula-plenary-1-01-tdwg-chair-address",
+    "start": "00:00:00",
+    "end": "00:13:14",
+    "title": "Opening of TDWG 2026 and welcome to Oslo",
+    "speakers": ["David Bloom", "Hugo de Boer"],
+    "description": "David Bloom opens the conference and polls the room. Hugo de Boer then welcomes everyone to Oslo, from Munch's paintings in the Aula and the troll logo to the week's excursions and evening events."
+  },
+  {
+    "itemId": "aula-taster-01-kearney-bhl",
+    "start": "00:02:54",
+    "end": "00:04:34",
+    "title": "Taste of TDWG",
+    "speakers": ["Ellie Wallace"],
+    "description": "Ellie Wallace explains how the taster talks were chosen to sample the themes that emerged around research- and robot-ready data standards."
+  },
+  {
+    "itemId": "odin-2026-09-22-01",
+    "start": "00:00:18",
+    "end": "00:07:59",
+    "speakers": ["Giuditta Parolini", "Eva Alonso"],
+    "description": "The co-chairs set out why resilience matters now: funding cuts, AI crawlers putting portals under pressure, and datasets decommissioned for political reasons.",
+    "searchable": true
+  },
+  {
+    "itemId": "odin-2026-09-22-09",
+    "start": "02:28:23",
+    "end": "02:34:23",
+    "speakers": ["Lee Belbin"],
+    "description": "Lee Belbin gives a status update on the Biodiversity Data Quality standard: expert review is done, public review is next, and it will bring TDWG's first ontology.",
+    "searchable": true
+  },
+  {
+    "itemId": "sala-2026-09-22-20",
+    "start": "07:32:05",
+    "end": "07:36:52",
+    "speakers": ["David Iggulden", "Nicole Kearney"],
+    "description": "David Iggulden and Nicole Kearney recap the first BHL session and introduce the talks on data extraction, semantic navigation and future interfaces."
+  },
+  {
+    "itemId": "salc-2026-09-22-01",
+    "start": "00:00:27",
+    "end": "00:03:37",
+    "speakers": ["Adam Mansur"],
+    "description": "Standing in for Ben Norton, Adam Mansur presents the strategy for bringing geological collections into TDWG, from GeoSpecify to the mineralogy extension and the GeoSpecimens portal."
+  },
+  {
+    "itemId": "forum-2026-09-24-22",
+    "start": "07:47:07",
+    "end": "07:49:10",
+    "speakers": ["Paco Pando"],
+    "description": "Paco Pando explains why the plant-only geographical scheme (WGSRPD) is being replaced by one that covers land and sea for every taxon."
+  },
+  {
+    "itemId": "sala-2026-09-24-01",
+    "start": "00:55:28",
+    "end": "00:59:35",
+    "speakers": ["Nora Lentge-Maaß"],
+    "description": "Nora Lentge-Maaß introduces the Berlin organisers and the symposium's aim: learning how institutions connect physical collections with digital data workflows, and who is responsible for what."
+  },
+  {
+    "itemId": "sala-2026-09-24-13",
+    "start": "06:23:16",
+    "end": "06:26:12",
+    "speakers": ["James Macklin"],
+    "description": "James Macklin explains the focus on research: helping researchers manage their own data to standards so it can be integrated with other data."
+  },
+  {
+    "itemId": "salb-2026-09-24-16",
+    "start": "05:54:52",
+    "end": "05:57:22",
+    "speakers": ["Astrid Schmidt-Kloiber"],
+    "description": "Astrid Schmidt-Kloiber introduces the co-organisers and the freshwater paradox: tiny in area but rich in biodiversity, with data that deserve special attention."
+  },
+  {
+    "itemId": "salc-2026-09-24-10",
+    "start": "03:20:07",
+    "end": "03:24:02",
+    "speakers": ["Hilmar Lapp"],
+    "description": "Hilmar Lapp lists why biodiversity data are often not AI-ready: buried knowledge, inconsistent documentation, weak interoperability, hard-to-judge fitness for use, broken provenance and unclear terms of use.",
+    "searchable": true
+  },
+  {
+    "itemId": "sala-2026-09-25-01",
+    "start": "00:55:29",
+    "end": "00:58:27",
+    "speakers": ["Yasin Bakış"],
+    "description": "Yasin Bakış frames the session's questions: can LLMs extract biodiversity information reliably, with provenance, uncertainty and links to standards, and where do humans stay involved?"
+  },
+  {
+    "itemId": "salc-2026-09-25-07",
+    "start": "02:51:09",
+    "end": "02:54:54",
+    "speakers": ["Kumiko Totsu"],
+    "description": "Kumiko Totsu introduces case studies from Asia on managing and publishing observation data, aimed at small teams with limited resources."
+  }
+]

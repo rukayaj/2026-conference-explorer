@@ -14,6 +14,7 @@ import items from "../../../public/data/items.json";
 import themes from "../../../public/data/themes.json";
 import related from "../../../public/data/related.json";
 import abstracts from "../../../public/data/abstracts.json";
+import openings from "../../../public/data/openings.json";
 
 export function getStaticPaths() {
   return items.map((item) => ({ params: { id: item.id }, props: { item } }));
@@ -29,6 +30,7 @@ const moments = item.moments
   .filter((moment) => moment.timestamp && moment.description)
   .slice(0, 8);
 const abstract = abstracts[item.id];
+const opening = openings[item.openingId];
 const time = scheduleTime(item);
 ---
 
@@ -85,6 +87,16 @@ const time = scheduleTime(item);
           Open on Vimeo ↗
         </a>
       </div>
+      {opening && (
+        <button class="opening" type="button" data-seek={opening.start}>
+          <span class="opening-label">▶ Watch the session opening</span>
+          <span class="opening-meta">
+            {opening.speakers.join(", ")} ·{" "}
+            {Math.max(1, Math.round((opening.end - opening.start) / 60))} min
+          </span>
+          <span class="opening-text">{opening.description}</span>
+        </button>
+      )}
       <p class="summary-note">
         Summaries and key moments are machine-produced. Check the recording for
         the speaker’s exact words.
@@ -457,6 +469,36 @@ const time = scheduleTime(item);
   }
   .video-tools a {
     text-decoration: underline;
+  }
+  .opening {
+    display: block;
+    width: 100%;
+    margin-top: 18px;
+    padding: 16px 20px;
+    border: 0;
+    border-radius: 12px;
+    background: #edf2e8;
+    color: #29534a;
+    text-align: left;
+    line-height: 1.55;
+  }
+  .opening:hover {
+    background: #e2ecdb;
+  }
+  .opening-label {
+    color: #347b69;
+    font-weight: 800;
+    font-size: 0.88rem;
+    margin-right: 10px;
+  }
+  .opening-meta {
+    color: #68847d;
+    font-size: 0.8rem;
+  }
+  .opening-text {
+    display: block;
+    margin-top: 6px;
+    font-size: 0.9rem;
   }
   .summary-note {
     font-size: 0.78rem;

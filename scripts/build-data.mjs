@@ -124,6 +124,74 @@ function makeChunks(item, cues, segmentIndex, offset) {
   return result;
 }
 
+function cuesBetween(recordingId, from, to) {
+  return srtByRecording
+    .get(recordingId)
+    .filter(
+      (cue) => cue.end >= from && cue.start <= to && cue.start >= from - 0.5,
+    );
+}
+
+// Hand-picked session openings worth hearing. Each is keyed by the session's first talk and
+// is linked from every talk it introduces, up to the next opening in the same recording.
+const itemById = new Map(items.map((item) => [item.id, item]));
+const openings = {};
+const openingByItem = new Map();
+const curatedOpenings = JSON.parse(
+  fs.readFileSync(path.join(root, "curation", "session-openings.json")),
+).map((entry) => {
+  const first = itemById.get(entry.itemId);
+  if (!first) throw new Error(`Missing item for opening: ${entry.itemId}`);
+  const start = seconds(entry.start);
+  const end = seconds(entry.end);
+  if (!(start < end && end <= seconds(first.actual.start_timestamp)))
+    throw new Error(`Opening must end before its first talk: ${entry.itemId}`);
+  const overlapping = items.find(
+    (item) =>
+      item.recording_id === first.recording_id &&
+      item.source_segments.some(
+        (segment) =>
+          seconds(segment.start_timestamp) < end &&
+          seconds(segment.end_timestamp) > start,
+      ),
+  );
+  if (overlapping)
+    throw new Error(
+      `Opening before ${entry.itemId} overlaps ${overlapping.id}`,
+    );
+  return { ...entry, id: `${entry.itemId}-opening`, first, start, end };
+});
+for (const opening of curatedOpenings) {
+  const { first } = opening;
+  const nextStart = Math.min(
+    ...curatedOpenings
+      .filter(
+        (other) =>
+          other.first.recording_id === first.recording_id &&
+          other.start > opening.start,
+      )
+      .map((other) => other.start),
+  );
+  for (const item of items) {
+    const start = seconds(item.actual.start_timestamp);
+    if (
+      item.recording_id === first.recording_id &&
+      item.session?.id === first.session?.id &&
+      start >= opening.end &&
+      start < nextStart
+    )
+      openingByItem.set(item.id, opening.id);
+  }
+  openings[opening.id] = {
+    itemId: first.id,
+    title: opening.title || first.session?.title || "Session opening",
+    speakers: opening.speakers,
+    description: opening.description,
+    start: opening.start,
+    end: opening.end,
+  };
+}
+
 const chunks = [];
 const publicItems = [];
 // Abstracts are kept out of items.json because the search, map and surprise pages download it.
@@ -131,13 +199,12 @@ const abstracts = {};
 for (const item of items) {
   const recording = recordingById.get(item.recording_id);
   if (!recording) throw new Error(`Missing recording for ${item.id}`);
-  const sourceCues = srtByRecording.get(item.recording_id);
   const itemCues = [];
   item.source_segments.forEach((segment, segmentIndex) => {
-    const from = seconds(segment.start_timestamp);
-    const to = seconds(segment.end_timestamp);
-    const segmentCues = sourceCues.filter(
-      (cue) => cue.end >= from && cue.start <= to && cue.start >= from - 0.5,
+    const segmentCues = cuesBetween(
+      item.recording_id,
+      seconds(segment.start_timestamp),
+      seconds(segment.end_timestamp),
     );
     itemCues.push(...segmentCues);
     chunks.push(...makeChunks(item, segmentCues, segmentIndex, chunks.length));
@@ -173,7 +240,21 @@ for (const item of items) {
     videoUrl: item.video_url,
     start: seconds(item.actual.start_timestamp),
     end: seconds(item.actual.end_timestamp),
+    openingId: openingByItem.get(item.id),
   });
+}
+// Searchable openings get their own chunks, found under the first talk's page.
+for (const opening of curatedOpenings.filter((entry) => entry.searchable)) {
+  const cues = cuesBetween(
+    opening.first.recording_id,
+    opening.start,
+    opening.end,
+  );
+  chunks.push(
+    ...makeChunks(opening.first, cues, "opening", chunks.length).map(
+      (chunk) => ({ ...chunk, openingId: opening.id }),
+    ),
+  );
 }
 
 fs.writeFileSync(path.join(dataDir, "items.json"), JSON.stringify(publicItems));
@@ -182,13 +263,14 @@ fs.writeFileSync(
   JSON.stringify(abstracts),
 );
 fs.writeFileSync(path.join(dataDir, "themes.json"), JSON.stringify(themes));
+fs.writeFileSync(path.join(dataDir, "openings.json"), JSON.stringify(openings));
 fs.writeFileSync(path.join(dataDir, "chunks.json"), JSON.stringify(chunks));
 const curated = JSON.parse(
   fs.readFileSync(path.join(root, "curation", "surprise-moments.json")),
 );
-const itemById = new Map(publicItems.map((item) => [item.id, item]));
+const publicItemById = new Map(publicItems.map((item) => [item.id, item]));
 const featuredMoments = curated.map(([itemId, timestamp]) => {
-  const item = itemById.get(itemId);
+  const item = publicItemById.get(itemId);
   const moment = item?.moments.find((entry) => entry.timestamp === timestamp);
   if (!moment)
     throw new Error(`Missing curated moment: ${itemId} at ${timestamp}`);
@@ -199,5 +281,5 @@ fs.writeFileSync(
   JSON.stringify(featuredMoments),
 );
 console.log(
-  `Prepared ${publicItems.length} items, ${chunks.length} transcript chunks, and ${themes.length} themes.`,
+  `Prepared ${publicItems.length} items, ${chunks.length} transcript chunks, ${themes.length} themes, and ${curatedOpenings.length} session openings.`,
 );

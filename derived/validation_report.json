@@ -36,13 +36,13 @@
     },
     "corrections_applied_in_derived": 24,
     "review_status_counts": {
-      "resolved": 39,
-      "needs_review": 15,
+      "resolved": 41,
+      "needs_review": 13,
       "informational": 4
     },
     "open_issues_by_severity": {
       "medium": 5,
-      "low": 10
+      "low": 8
     }
   },
   "severity_scale": {
@@ -576,7 +576,8 @@
       "suggested_correction": "Consider a short content item for the session framing.",
       "correction_applied": false,
       "source_files": [],
-      "review_status": "needs_review"
+      "review_status": "resolved",
+      "resolution": "Added to curation/session-openings.json. The opening is linked from every SYM18 talk page and is searchable as its own result. The derived dataset is unchanged."
     },
     {
       "issue_id": "VR-025",
@@ -590,7 +591,8 @@
       "suggested_correction": null,
       "correction_applied": false,
       "source_files": [],
-      "review_status": "needs_review"
+      "review_status": "resolved",
+      "resolution": "Added to curation/session-openings.json. The opening is linked from every SYM25A talk page and is searchable as its own result. The derived dataset is unchanged."
     },
     {
       "issue_id": "VR-026",
