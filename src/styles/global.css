@@ -130,7 +130,7 @@ button {
 .container {
   max-width: 1240px;
   margin: auto;
-  padding: 0 28px;
+  padding-inline: 28px;
 }
 .eyebrow {
   text-transform: uppercase;
@@ -395,7 +395,7 @@ button {
     flex-direction: column;
   }
   .container {
-    padding: 0 21px;
+    padding-inline: 21px;
   }
 }
 @media (max-width: 560px) {

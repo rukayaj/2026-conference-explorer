@@ -199,7 +199,7 @@ const speakers = item.speakers?.join(", ") || "Conference discussion";
 </Base>
 
 <script>
-  import { escapeHtml, timeLabel } from "../../lib/format.js";
+  import { escapeHtml, timeLabel, videoLink } from "../../lib/format.js";
   const wrap = document.querySelector("#video");
   const videoUrl = wrap?.dataset.videoUrl;
   function playerUrl(seconds) {
@@ -222,8 +222,7 @@ const speakers = item.speakers?.join(", ") || "Conference discussion";
       wrap.replaceChildren(frame);
     }
     frame.src = playerUrl(seconds);
-    document.querySelector("#vimeo-link").href =
-      `${videoUrl}#t=${Math.floor(seconds)}s`;
+    document.querySelector("#vimeo-link").href = videoLink(videoUrl, seconds);
   }
   function seek(seconds) {
     if (!wrap) return;
@@ -248,8 +247,7 @@ const speakers = item.speakers?.join(", ") || "Conference discussion";
       : Number(wrap?.dataset.start) || 0;
   document.querySelector("#play-label").textContent =
     `Play from ${timeLabel(startTime)}`;
-  document.querySelector("#vimeo-link").href =
-    `${videoUrl}#t=${Math.floor(startTime)}s`;
+  document.querySelector("#vimeo-link").href = videoLink(videoUrl, startTime);
   wrap
     ?.querySelector(".video-poster")
     ?.addEventListener("click", () => play(startTime));

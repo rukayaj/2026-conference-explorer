@@ -38,9 +38,15 @@ const lexicalIndex = createLexicalIndex(chunks);
 // Calibrated by eye for bge-small with CLS pooling: on-topic queries score ~0.71-0.89, off-topic ones ≤0.66.
 const weakMatchScore = 0.7;
 let modelReady = false;
+// onnxruntime sizes its thread pool from the host's cores (hundreds on NIRD), which thrashes under a 1-CPU limit.
+const sessionOptions = {
+  intraOpNumThreads: Number(process.env.ORT_THREADS || 1),
+  interOpNumThreads: 1,
+};
 const modelPromise = pipeline("feature-extraction", manifest.model, {
   dtype: "q8",
   revision: manifest.revision,
+  session_options: sessionOptions,
 }).then((model) => {
   modelReady = true;
   return model;
@@ -97,6 +103,7 @@ async function search(query) {
       return [index, score * (chunk.start < item.start + 35 ? 0.85 : 1)];
     })
     .sort((a, b) => b[1] - a[1]);
+  // Ranked is sorted, so each talk's first chunk carries its best score.
   for (const [index, score] of ranked) {
     const chunk = chunks[index];
     if (!byItem.has(chunk.itemId))
@@ -116,7 +123,6 @@ async function search(query) {
       end: chunk.end,
       text: chunk.text,
     });
-    group.score = Math.max(group.score, score);
   }
   return {
     unmatchedTerms,
