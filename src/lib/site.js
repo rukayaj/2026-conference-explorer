@@ -9,4 +9,5 @@ export {
   scheduleTime,
   whenWhere,
 } from "./format.js";
-export const speakerSearch = (name) => href(`talks/?q=${encodeURIComponent(name)}`);
+export const speakerSearch = (name) =>
+  href(`talks/?q=${encodeURIComponent(name)}`);

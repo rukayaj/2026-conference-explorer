@@ -167,7 +167,8 @@ const rooms = [...new Set(items.map((item) => item.room))].sort();
   form.addEventListener("input", () => applyFilters());
   form.addEventListener("reset", (event) => {
     event.preventDefault();
-    for (const name of ["q", "day", "room"]) form.elements.namedItem(name).value = "";
+    for (const name of ["q", "day", "room"])
+      form.elements.namedItem(name).value = "";
     applyFilters();
   });
   window.addEventListener("popstate", restoreFilters);

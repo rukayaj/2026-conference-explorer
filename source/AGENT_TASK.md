@@ -2,7 +2,7 @@
 
 You are processing ONE transcript file (named in your launch prompt).
 
-1. Read `prompt.txt` in full: it is the task specification. Follow it exactly.
+1. Read `transcript-prompt.txt` in full: it is the task specification. Follow it exactly.
 2. Read `json-template.json`: the output schema.
 3. Programme data: `program-data.js` (sets `window.TDWG_2026_PROGRAMME`; `sessions[]` each have `day`, `room`, `items[]`).
    Load it with: `node -e 'global.window={};require("./program-data.js");...'` and filter to your room/day.
