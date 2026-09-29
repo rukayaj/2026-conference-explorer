@@ -224,6 +224,10 @@ for (const item of items) {
     day: item.day,
     room: item.room,
     session: item.session?.title || "",
+    // Only programme codes like SYM25A, LT16 or CO3; the plenary has no code worth searching.
+    sessionCode: /^(SYM|LT|CO)\d/.test(item.session?.code || "")
+      ? item.session.code
+      : undefined,
     scheduledStart: clock(event?.start),
     scheduledEnd: clock(event?.end),
     track: trackName(event?.track),

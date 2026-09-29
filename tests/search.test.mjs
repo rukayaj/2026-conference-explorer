@@ -6,6 +6,7 @@ import {
   tokens,
   matchedAliases,
   createSearch,
+  matchesSessionCode,
 } from "../src/lib/search.js";
 import {
   timeLabel,
@@ -139,4 +140,45 @@ test("session openings are separate results linked to their first talk", () => {
     opening.moments.map((moment) => moment.start),
     [20],
   );
+});
+
+test("session codes match with or without a leading zero or part letter", () => {
+  assert.ok(matchesSessionCode("SYM25A", "SYM25A"));
+  assert.ok(matchesSessionCode("sym25", "SYM25B"));
+  assert.ok(matchesSessionCode("SYM8", "SYM08A"));
+  assert.ok(matchesSessionCode("SYM 08 b", "SYM08B"));
+  assert.ok(!matchesSessionCode("SYM25A", "SYM25B"));
+  assert.ok(!matchesSessionCode("SYM2", "SYM25A"));
+  assert.ok(!matchesSessionCode("LT16", "CO16"));
+  assert.ok(!matchesSessionCode("symbiosis", "SYM25A"));
+});
+
+test("a session code lists the session's talks in order, led by its opening", () => {
+  const items = [
+    { id: "b", date: "2026-09-24", start: 900, sessionCode: "SYM25A" },
+    {
+      id: "a",
+      date: "2026-09-24",
+      start: 300,
+      sessionCode: "SYM25A",
+      openingId: "a-opening",
+    },
+    { id: "c", date: "2026-09-24", start: 5000, sessionCode: "SYM25B" },
+  ];
+  const openings = {
+    "a-opening": { itemId: "a", title: "Opening", speakers: [], start: 60 },
+  };
+  const search = createSearch(items, [], openings);
+  const { results, sessionCodes } = search("sym25a");
+  assert.deepEqual(
+    results.map((result) => [result.id, Boolean(result.opening)]),
+    [
+      ["a", true],
+      ["a", false],
+      ["b", false],
+    ],
+  );
+  assert.deepEqual(sessionCodes, ["SYM25A"]);
+  assert.deepEqual(search("SYM25").sessionCodes, ["SYM25A", "SYM25B"]);
+  assert.equal(search("SYM99").sessionCodes, undefined);
 });

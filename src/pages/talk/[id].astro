@@ -169,7 +169,10 @@ const time = scheduleTime(item);
             <SpeakerLinks names={item.speakers} />
           </dd>
           <dt>Session</dt>
-          <dd>{item.session || "—"}</dd>
+          <dd>
+            {[item.sessionCode, item.session].filter(Boolean).join(" · ") ||
+              "—"}
+          </dd>
           {item.track && (
             <>
               <dt>Conference track</dt>

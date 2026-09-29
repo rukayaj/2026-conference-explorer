@@ -49,6 +49,64 @@ export function queryTerms(query) {
   return [...new Set(terms)];
 }
 
+// "SYM8", "sym08" and "SYM 08" all find SYM08A and SYM08B; "SYM08A" finds only part A.
+export function parseSessionCode(text = "") {
+  const match = text.trim().match(/^(sym|lt|co)\s*0*(\d+)\s*([a-z]?)$/i);
+  return (
+    match && {
+      prefix: match[1].toLowerCase(),
+      number: Number(match[2]),
+      part: match[3].toLowerCase(),
+    }
+  );
+}
+export function matchesSessionCode(query, code) {
+  const wanted = parseSessionCode(query);
+  const actual = parseSessionCode(code);
+  return Boolean(
+    wanted &&
+    actual &&
+    wanted.prefix === actual.prefix &&
+    wanted.number === actual.number &&
+    (!wanted.part || wanted.part === actual.part),
+  );
+}
+
+// A session code lists the session's talks in running order, led by its opening.
+function sessionResults(items, openings, query) {
+  const matching = items
+    .filter((item) => matchesSessionCode(query, item.sessionCode))
+    .sort((a, b) => a.date.localeCompare(b.date) || a.start - b.start);
+  const openingIds = new Set(matching.map((item) => item.openingId));
+  return matching.flatMap((item) => {
+    const results = [];
+    const opening = openings[item.openingId];
+    if (opening?.itemId === item.id && openingIds.has(item.openingId))
+      results.push({
+        ...item,
+        title: opening.title,
+        speakers: opening.speakers,
+        scheduledStart: "",
+        scheduledEnd: "",
+        opening: true,
+        moments: [
+          { start: opening.start, end: opening.end, text: opening.description },
+        ],
+      });
+    results.push({
+      ...item,
+      moments: [
+        {
+          start: item.start,
+          end: item.end,
+          text: item.takeaway || item.summary,
+        },
+      ],
+    });
+    return results;
+  });
+}
+
 export function createLexicalIndex(chunks) {
   const postings = new Map();
   const lengths = [];
@@ -93,6 +151,13 @@ export function createSearch(items, chunks, openings = {}) {
   const byId = new Map(items.map((item) => [item.id, item]));
   const index = createLexicalIndex(chunks);
   return (query) => {
+    const session = sessionResults(items, openings, query);
+    if (session.length)
+      return {
+        results: session,
+        unmatchedTerms: [],
+        sessionCodes: [...new Set(session.map((item) => item.sessionCode))],
+      };
     // Words nobody said, so the results only match the rest of the query.
     const aliasWords = new Set(matchedAliases(query).flatMap(words));
     const unmatchedTerms = words(query).filter(

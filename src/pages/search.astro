@@ -113,11 +113,14 @@ import { href } from "../lib/site.js";
     });
     return (await searchPromise)(query);
   }
-  function render(data, query, unmatchedTerms) {
+  function render(data, query, unmatchedTerms, sessionCodes) {
     status.textContent = data.length
       ? `${data.length} talks and discussions to explore`
       : "No matching passages found. Try a broader topic or another term.";
-    if (data.length && unmatchedTerms.length)
+    if (sessionCodes?.length) {
+      const talks = data.filter((result) => !result.opening).length;
+      status.textContent = `${talks} talk${talks === 1 ? "" : "s"} and discussion${talks === 1 ? "" : "s"} in ${sessionCodes.join(" and ")}, in running order`;
+    } else if (data.length && unmatchedTerms.length)
       status.textContent = `No mention of “${unmatchedTerms.slice(0, 2).join("”, “")}” · showing matches for the rest of your search`;
     results.innerHTML = data
       .map((result, index) => {
@@ -152,8 +155,13 @@ import { href } from "../lib/site.js";
     }
     status.textContent = "Looking through the conference…";
     try {
-      const { results: data, unmatchedTerms } = await search(query);
-      if (version === searchVersion) render(data, query, unmatchedTerms);
+      const {
+        results: data,
+        unmatchedTerms,
+        sessionCodes,
+      } = await search(query);
+      if (version === searchVersion)
+        render(data, query, unmatchedTerms, sessionCodes);
     } catch {
       if (version === searchVersion)
         status.textContent =
