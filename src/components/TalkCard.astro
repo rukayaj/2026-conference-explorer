@@ -1,5 +1,5 @@
 ---
-import { href, stillSrc, shortDate } from "../lib/site.js";
+import { href, stillSrc, whenWhere } from "../lib/site.js";
 const { item } = Astro.props;
 ---
 
@@ -13,7 +13,7 @@ const { item } = Astro.props;
     loading="lazy"
   />
   <span class="small-meta">
-    {item.type} · {shortDate(item.date)} · {item.room}
+    {item.type} · {whenWhere(item)}
   </span>
   <h3>{item.title}</h3>
   <p>{item.takeaway || item.summary}</p>

@@ -7,6 +7,7 @@ const sorted = [...items].sort(
   (a, b) =>
     a.date.localeCompare(b.date) ||
     a.room.localeCompare(b.room) ||
+    (a.scheduledStart || "99").localeCompare(b.scheduledStart || "99") ||
     a.title.localeCompare(b.title),
 );
 const days = [...new Map(sorted.map((item) => [item.date, item.day]))];
@@ -69,7 +70,7 @@ const rooms = [...new Set(items.map((item) => item.room))].sort();
       <p id="browse-count" role="status">
         {items.length} talks & discussions
       </p>
-      <span>By day, room & title</span>
+      <span>By day, room & time</span>
     </div>
     <div class="card-grid" id="talk-directory">
       {sorted.map((item) => (

@@ -1,0 +1,15 @@
+---
+import { speakerSearch } from "../lib/site.js";
+const { names = [] } = Astro.props;
+---
+
+{names.length
+  ? names.map((name, index) => (
+      <>
+        {index > 0 && ", "}
+        <a class="speaker-link" href={speakerSearch(name)}>
+          {name}
+        </a>
+      </>
+    ))
+  : "Conference discussion"}

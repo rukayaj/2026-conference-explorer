@@ -27,6 +27,12 @@ const alphabetical = [...themes].sort((a, b) => a.name.localeCompare(b.name));
       Start with a broad idea or find something specific. Each theme connects
       talks from across rooms and sessions.
     </p>
+    <p class="theme-origin">
+      These themes are AI-derived: a model tagged each talk from its
+      transcript, and the tags were then merged into one shared set. They are
+      separate from the organisers’ conference tracks, which are listed on
+      each talk’s page.
+    </p>
   </section>
   <section class="container">
     <div class="section-heading">
@@ -83,6 +89,11 @@ const alphabetical = [...themes].sort((a, b) => a.name.localeCompare(b.name));
   });
 </script>
 <style>
+  .page-heading .theme-origin {
+    font-size: 0.86rem;
+    line-height: 1.6;
+    color: var(--muted);
+  }
   .directory {
     padding-top: 90px;
   }

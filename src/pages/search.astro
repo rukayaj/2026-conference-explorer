@@ -81,7 +81,7 @@ import { href } from "../lib/site.js";
   import {
     escapeHtml,
     timeLabel,
-    shortDate,
+    whenWhere,
     videoLink,
   } from "../lib/format.js";
   import { loadSearch } from "../lib/search.js";
@@ -130,7 +130,7 @@ import { href } from "../lib/site.js";
         return `<article class="result-card">
         <div class="result-index">${String(index + 1).padStart(2, "0")}</div>
         <a class="result-still" href="${talkHref(result.id, best.start)}" tabindex="-1" aria-hidden="true"><img class="still" src="${stillHref(result.id)}" alt="" width="640" height="360" loading="lazy"></a>
-        <div class="result-body"><div class="result-meta">${escapeHtml(result.room)} · ${shortDate(result.date)} · ${escapeHtml(result.speakers?.slice(0, 2).join(", ") || "Discussion")}</div>
+        <div class="result-body"><div class="result-meta">${escapeHtml(whenWhere(result))} · ${escapeHtml(result.speakers?.slice(0, 2).join(", ") || "Discussion")}</div>
           <h2><a href="${talkHref(result.id, best.start)}">${escapeHtml(result.title)}</a></h2>
           <p class="result-excerpt">${escapeHtml(snippet(best.text, query))}</p>
           <div class="result-actions"><a class="moment-link" href="${talkHref(result.id, best.start)}">▶ Watch from ${timeLabel(best.start)}</a><a class="subtle-link" href="${videoHref(result.videoUrl, best.start)}" target="_blank" rel="noopener">Open on Vimeo ↗</a></div>

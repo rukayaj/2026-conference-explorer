@@ -1,8 +1,10 @@
 ---
 import Base from "../../layouts/Base.astro";
 import TalkCard from "../../components/TalkCard.astro";
+import SpeakerLinks from "../../components/SpeakerLinks.astro";
 import {
   href,
+  scheduleTime,
   stampSeconds,
   stillSrc,
   timeLabel,
@@ -11,6 +13,7 @@ import {
 import items from "../../../public/data/items.json";
 import themes from "../../../public/data/themes.json";
 import related from "../../../public/data/related.json";
+import abstracts from "../../../public/data/abstracts.json";
 
 export function getStaticPaths() {
   return items.map((item) => ({ params: { id: item.id }, props: { item } }));
@@ -25,7 +28,8 @@ const relatedItems = (related[item.id] || [])
 const moments = item.moments
   .filter((moment) => moment.timestamp && moment.description)
   .slice(0, 8);
-const speakers = item.speakers?.join(", ") || "Conference discussion";
+const abstract = abstracts[item.id];
+const time = scheduleTime(item);
 ---
 
 <Base title={`${item.title} · TDWG 2026`} description={item.summary}>
@@ -37,11 +41,11 @@ const speakers = item.speakers?.join(", ") || "Conference discussion";
       </div>
       <header class="talk-heading">
         <div class="eyebrow">
-          {item.type} · {item.day} · {item.room}
+          {[item.type, item.day, time, item.room].filter(Boolean).join(" · ")}
         </div>
         <h1 class="display">{item.title}</h1>
         <p class="speaker-line">
-          {speakers}
+          <SpeakerLinks names={item.speakers} />
           {item.session ? ` · ${item.session}` : ""}
         </p>
       </header>
@@ -149,14 +153,22 @@ const speakers = item.speakers?.join(", ") || "Conference discussion";
         <div class="eyebrow">At a glance</div>
         <dl>
           <dt>Speaker{item.speakers.length === 1 ? "" : "s"}</dt>
-          <dd>{speakers}</dd>
+          <dd>
+            <SpeakerLinks names={item.speakers} />
+          </dd>
           <dt>Session</dt>
           <dd>{item.session || "—"}</dd>
+          {item.track && (
+            <>
+              <dt>Conference track</dt>
+              <dd>{item.track}</dd>
+            </>
+          )}
           <dt>When & where</dt>
           <dd>
             {item.day}
             <br />
-            {item.room}
+            {[time, item.room].filter(Boolean).join(" · ")}
           </dd>
         </dl>
         {["low", "medium"].includes(item.speakerConfidence) && (
@@ -165,6 +177,11 @@ const speakers = item.speakers?.join(", ") || "Conference discussion";
           </p>
         )}
       </div>
+      {abstract && (
+        <button class="button button-dark abstract-open" type="button">
+          Read the abstract
+        </button>
+      )}
       <div class="side-panel">
         <div class="eyebrow">Connected themes</div>
         <div class="side-tags">
@@ -196,10 +213,47 @@ const speakers = item.speakers?.join(", ") || "Conference discussion";
       </div>
     </section>
   )}
+  {abstract && (
+    <dialog class="abstract-dialog" id="abstract" aria-labelledby="abstract-title">
+      <div class="abstract-inner">
+        <div class="abstract-top">
+          <div class="eyebrow">Programme abstract</div>
+          <button class="abstract-close" type="button" aria-label="Close">
+            ✕
+          </button>
+        </div>
+        <h2 id="abstract-title">{abstract.title}</h2>
+        {item.speakers.length > 0 && (
+          <p class="abstract-speakers">{item.speakers.join(", ")}</p>
+        )}
+        {abstract.text
+          .split(/\n\s*\n/)
+          .filter((paragraph) => paragraph.trim())
+          .map((paragraph) => (
+            <p>{paragraph.trim()}</p>
+          ))}
+        <p class="abstract-note">
+          Submitted to the conference programme before the talk, so the talk
+          itself may differ.
+        </p>
+      </div>
+    </dialog>
+  )}
 </Base>
 
 <script>
   import { escapeHtml, timeLabel, videoLink } from "../../lib/format.js";
+  const abstractDialog = document.querySelector("#abstract");
+  document
+    .querySelector(".abstract-open")
+    ?.addEventListener("click", () => abstractDialog.showModal());
+  abstractDialog
+    ?.querySelector(".abstract-close")
+    .addEventListener("click", () => abstractDialog.close());
+  // Clicks on the backdrop land on the dialog itself; the content sits in .abstract-inner.
+  abstractDialog?.addEventListener("click", (event) => {
+    if (event.target === abstractDialog) abstractDialog.close();
+  });
   const wrap = document.querySelector("#video");
   const videoUrl = wrap?.dataset.videoUrl;
   function playerUrl(seconds) {
@@ -546,6 +600,83 @@ const speakers = item.speakers?.join(", ") || "Conference discussion";
   .related-section {
     margin-top: 54px;
   }
+  .speaker-link {
+    text-decoration: underline;
+    text-decoration-color: #b3c8bb;
+    text-underline-offset: 3px;
+  }
+  .speaker-link:hover {
+    color: #2f7462;
+    text-decoration-color: currentColor;
+  }
+  .abstract-open {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .abstract-dialog {
+    width: min(680px, calc(100% - 32px));
+    max-height: min(85vh, 900px);
+    padding: 0;
+    border: 0;
+    border-radius: 16px;
+    background: var(--paper);
+    color: var(--ink);
+    box-shadow: 0 24px 80px rgba(7, 30, 32, 0.35);
+  }
+  .abstract-dialog::backdrop {
+    background: rgba(7, 30, 32, 0.55);
+  }
+  :global(body:has(.abstract-dialog[open])) {
+    overflow: hidden;
+  }
+  .abstract-inner {
+    padding: 28px 32px 30px;
+  }
+  .abstract-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+  }
+  .abstract-close {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    border: 0;
+    border-radius: 50%;
+    background: #e3ebdd;
+    color: var(--ink);
+    font-size: 0.95rem;
+  }
+  .abstract-close:hover {
+    background: #d3e1cb;
+  }
+  .abstract-dialog h2 {
+    font:
+      400 2rem/1.15 Georgia,
+      serif;
+    letter-spacing: -0.03em;
+    margin: 14px 0 10px;
+  }
+  .abstract-speakers {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #5c7a72;
+    margin: 0 0 22px;
+  }
+  .abstract-inner > p:not([class]) {
+    line-height: 1.72;
+    color: #3e635b;
+    overflow-wrap: anywhere;
+  }
+  .abstract-note {
+    border-top: 1px solid #d7e1d4;
+    padding-top: 16px;
+    margin: 24px 0 0;
+    font-size: 0.78rem;
+    line-height: 1.6;
+    color: #59776c;
+  }
   .transcript-lines :global(.cue) {
     display: grid;
     grid-template-columns: 75px 1fr;
@@ -577,6 +708,11 @@ const speakers = item.speakers?.join(", ") || "Conference discussion";
     .side-panel {
       margin: 0;
     }
+    .abstract-open {
+      grid-column: 1 / -1;
+      order: 1;
+      margin: 0;
+    }
   }
   @media (max-width: 600px) {
     .talk-layout {
@@ -603,6 +739,12 @@ const speakers = item.speakers?.join(", ") || "Conference discussion";
     }
     .takeaway {
       font-size: 1.18rem;
+    }
+    .abstract-inner {
+      padding: 22px 20px 24px;
+    }
+    .abstract-dialog h2 {
+      font-size: 1.6rem;
     }
   }
 </style>

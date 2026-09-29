@@ -90,7 +90,7 @@ const sortedThemes = [...themes].sort((a, b) => a.name.localeCompare(b.name));
 </Base>
 
 <script>
-  import { escapeHtml } from "../lib/format.js";
+  import { escapeHtml, whenWhere } from "../lib/format.js";
   const app = document.querySelector("#map-app");
   const base = app.dataset.base;
   const svg = document.querySelector("#semantic-map");
@@ -161,7 +161,7 @@ const sortedThemes = [...themes].sort((a, b) => a.name.localeCompare(b.name));
       .slice(0, 3)
       .map((id) => items.get(id))
       .filter(Boolean);
-    detail.innerHTML = `<a href="${base}talk/${encodeURIComponent(item.id)}/" tabindex="-1" aria-hidden="true"><img class="still detail-still" src="${base}stills/${encodeURIComponent(item.id)}.webp" alt="" width="640" height="360"></a><div class="eyebrow">${escapeHtml(item.type)} · ${escapeHtml(item.room)}</div><h2>${escapeHtml(item.title)}</h2><p class="detail-speaker">${escapeHtml(item.speakers.slice(0, 2).join(", ") || "Conference discussion")}</p><p>${escapeHtml(item.takeaway || item.summary)}</p><a class="button" href="${base}talk/${encodeURIComponent(item.id)}/">Open talk ↗</a><div class="detail-tags">${themeNames.map((name) => `<span>${escapeHtml(name)}</span>`).join("")}</div>${neighbors.length ? `<div class="neighbor-list"><h3>Nearby ideas</h3>${neighbors.map((neighbor) => `<a href="${base}talk/${encodeURIComponent(neighbor.id)}/">${escapeHtml(neighbor.title)} ↗</a>`).join("")}</div>` : ""}`;
+    detail.innerHTML = `<a href="${base}talk/${encodeURIComponent(item.id)}/" tabindex="-1" aria-hidden="true"><img class="still detail-still" src="${base}stills/${encodeURIComponent(item.id)}.webp" alt="" width="640" height="360"></a><div class="eyebrow">${escapeHtml(item.type)} · ${escapeHtml(whenWhere(item))}</div><h2>${escapeHtml(item.title)}</h2><p class="detail-speaker">${escapeHtml(item.speakers.slice(0, 2).join(", ") || "Conference discussion")}</p><p>${escapeHtml(item.takeaway || item.summary)}</p><a class="button" href="${base}talk/${encodeURIComponent(item.id)}/">Open talk ↗</a><div class="detail-tags">${themeNames.map((name) => `<span>${escapeHtml(name)}</span>`).join("")}</div>${neighbors.length ? `<div class="neighbor-list"><h3>Nearby ideas</h3>${neighbors.map((neighbor) => `<a href="${base}talk/${encodeURIComponent(neighbor.id)}/">${escapeHtml(neighbor.title)} ↗</a>`).join("")}</div>` : ""}`;
   }
   Promise.all(
     ["map.json", "items.json", "themes.json", "related.json"].map((name) =>

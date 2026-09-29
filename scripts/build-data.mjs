@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import vm from 'node:vm';
 
 const root = path.resolve(import.meta.dirname, '..');
 const dataDir = path.join(root, 'public', 'data');
@@ -11,6 +12,26 @@ const items = readJson('content_items.json');
 const themes = readJson('themes.json');
 const recordings = readJson('recordings.json');
 const recordingById = new Map(recordings.map((recording) => [recording.id, recording]));
+const programme = { window: {} };
+vm.runInNewContext(fs.readFileSync(path.join(root, 'source', 'program-data.js'), 'utf8'), programme);
+const programmeEvents = new Map(programme.window.TDWG_2026_PROGRAMME.sessions.flatMap((session) => session.items).map((event) => [event.id, event]));
+
+// The programme writes tracks in capitals, e.g. "AI AND ROBOT READY".
+function trackName(track = '') {
+  return track.toLowerCase().replace(/\S+/g, (word, index) => {
+    if (word === 'ai') return 'AI';
+    if (index > 0 && ['and', 'of', '&'].includes(word)) return word;
+    return word[0].toUpperCase() + word.slice(1);
+  });
+}
+
+// "9:05 AM" -> "09:05", to match the 24-hour clock used in Oslo.
+function clock(time = '') {
+  const match = time.match(/^(\d+):(\d\d)\s*(AM|PM)$/i);
+  if (!match) return '';
+  const hours = (Number(match[1]) % 12) + (match[3].toUpperCase() === 'PM' ? 12 : 0);
+  return `${String(hours).padStart(2, '0')}:${match[2]}`;
+}
 
 function seconds(timestamp) {
   const [hours, minutes, rest] = timestamp.replace(',', '.').split(':');
@@ -74,6 +95,8 @@ function makeChunks(item, cues, segmentIndex, offset) {
 
 const chunks = [];
 const publicItems = [];
+// Abstracts are kept out of items.json because the search, map and surprise pages download it.
+const abstracts = {};
 for (const item of items) {
   const recording = recordingById.get(item.recording_id);
   if (!recording) throw new Error(`Missing recording for ${item.id}`);
@@ -91,9 +114,13 @@ for (const item of items) {
     chunks.push(...makeChunks(item, segmentCues, segmentIndex, chunks.length));
   });
   fs.writeFileSync(path.join(cueDir, `${item.id}.json`), JSON.stringify(itemCues));
+  const event = programmeEvents.get(item.programme_id);
+  if (event?.abstract) abstracts[item.id] = { title: event.title, text: event.abstract };
   publicItems.push({
     id: item.id, type: item.type, title: item.title, date: item.conference_date,
     day: item.day, room: item.room, session: item.session?.title || '',
+    scheduledStart: clock(event?.start), scheduledEnd: clock(event?.end),
+    track: trackName(event?.track),
     speakers: (item.actual?.speakers || item.programme?.speakers || []).map((speaker) => speaker.name).filter(Boolean),
     speakerConfidence: item.actual?.identification_confidence || '',
     transcriptQuality: item.actual?.transcript_quality || '',
@@ -106,6 +133,7 @@ for (const item of items) {
 }
 
 fs.writeFileSync(path.join(dataDir, 'items.json'), JSON.stringify(publicItems));
+fs.writeFileSync(path.join(dataDir, 'abstracts.json'), JSON.stringify(abstracts));
 fs.writeFileSync(path.join(dataDir, 'themes.json'), JSON.stringify(themes));
 fs.writeFileSync(path.join(dataDir, 'chunks.json'), JSON.stringify(chunks));
 const curated = JSON.parse(fs.readFileSync(path.join(root, 'curation', 'surprise-moments.json')));

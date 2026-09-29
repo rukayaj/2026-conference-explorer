@@ -46,3 +46,17 @@ export function shortDate(date) {
     timeZone: "UTC",
   }).format(new Date(`${date}T12:00:00Z`));
 }
+
+export function scheduleTime(item) {
+  if (!item.scheduledStart) return "";
+  // The word joiner stops a narrow screen breaking the range after the dash.
+  return item.scheduledEnd
+    ? `${item.scheduledStart}–\u2060${item.scheduledEnd}`
+    : item.scheduledStart;
+}
+
+export function whenWhere(item) {
+  return [shortDate(item.date), scheduleTime(item), item.room]
+    .filter(Boolean)
+    .join(" · ");
+}
