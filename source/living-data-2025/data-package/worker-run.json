@@ -1,0 +1,101 @@
+{
+  "model": "claude-opus-5-5",
+  "tools": [
+    "Read",
+    "Write"
+  ],
+  "status": "success",
+  "checked_at_utc": "2026-10-08T11:27:30.063896+00:00",
+  "read_coverage": [
+    {
+      "file": "part-1.transcript.txt",
+      "start_line": 1,
+      "lines_returned": 400,
+      "total_lines_reported": 1813
+    },
+    {
+      "file": "part-1.transcript.txt",
+      "start_line": 401,
+      "lines_returned": 400,
+      "total_lines_reported": 1813
+    },
+    {
+      "file": "part-1.transcript.txt",
+      "start_line": 801,
+      "lines_returned": 400,
+      "total_lines_reported": 1813
+    },
+    {
+      "file": "part-1.transcript.txt",
+      "start_line": 1601,
+      "lines_returned": 213,
+      "total_lines_reported": 1813
+    },
+    {
+      "file": "part-1.transcript.txt",
+      "start_line": 1201,
+      "lines_returned": 400,
+      "total_lines_reported": 1813
+    },
+    {
+      "file": "part-2.transcript.txt",
+      "start_line": 1,
+      "lines_returned": 400,
+      "total_lines_reported": 1958
+    },
+    {
+      "file": "part-2.transcript.txt",
+      "start_line": 401,
+      "lines_returned": 400,
+      "total_lines_reported": 1958
+    },
+    {
+      "file": "part-2.transcript.txt",
+      "start_line": 801,
+      "lines_returned": 400,
+      "total_lines_reported": 1958
+    },
+    {
+      "file": "part-2.transcript.txt",
+      "start_line": 1201,
+      "lines_returned": 400,
+      "total_lines_reported": 1958
+    },
+    {
+      "file": "part-2.transcript.txt",
+      "start_line": 1601,
+      "lines_returned": 358,
+      "total_lines_reported": 1958
+    }
+  ],
+  "output_files": [
+    "part-1.json",
+    "part-2.json",
+    "review-notes.md"
+  ],
+  "tool_errors": [],
+  "is_error": false,
+  "completion_summary": "I've written all three files: `output/part-1.json`, `output/part-2.json` and `output/review-notes.md`. I read every line of both transcripts before writing, and the line ranges are in the review notes. I couldn't run a JSON or schema check, so your validation pass will be the first one.\n\n**Item counts**\n\n| | Part 1 | Part 2 |\n|---|---|---|\n| Content items | 7 (introduction, 5 talks, discussion) | 7 (6 talks, discussion) |\n| Unassigned entries | 11 | 13 |\n| Programme items, all presented | 7 | 7 |\n\n**Main findings and uncertainties**\n\n- **No talks moved between parts.** In both recordings the talks run in exactly the programme.json order and part. I didn't read the YouTube descriptions, so I couldn't check the disagreement you mentioned; the transcripts back the programme's split.\n- **Recorded talks:**\n  - Holly Little (the chair cites the US government shutdown) and Sam Leeflang (couldn't travel) were scheduled in person or presented remotely and gave recordings.\n  - Cecilie Svenningsen and Steve Baskauf were scheduled as virtual and also gave recordings.\n  - Every talk was given by its named presenter; there were no stand-ins.\n- **Holly Little's opening appears twice in the captions** (00:54:15–00:54:37). I marked the first run as `repeated_content` and started the talk at the second, complete run.\n- **Federico Méndez's talk has two segments.** The question asked after Mikhail Podolskiy's talk was addressed to Federico, so I attached it to Federico's item. Its start/end therefore enclose Mikhail's talk, and `duration_seconds` (613) is the sum of the two segments rather than end minus start. Your validator may flag this.\n- **Many Q&A answers aren't attributed in the captions.** Tim Robertson introduces himself; answers I credited to John Wieczorek (and some to Tim) are inferred from what they say.\n- **Some names are uncertain and need checking:**\n  - Online questioners as captioned: \"Matias Dylan\", \"Urit Pulen\" (possibly Jorrit Poelen), \"KT Pearson\" (possibly Katie Pearson) and \"Kapia Molina\"/\"Javier\".\n  - First names only: Deb, Nikki, Lynn and Walter.\n- **Unresolved caption terms:** Yi-Ming Gan's portal name, \"Sigma Beacon\", \"OBC USA\", \"BPO\" and \"variable optimization\".\n- **Weakest captions:** Yi-Ming Gan's and Federico Méndez's talks are the least reliable.\n- **Classification calls you may want to reverse:**\n  - Part 1's introduction is a content item rather than unassigned, because it explains the model and the diagram conventions.\n  - In Part 2, questions related to Steve Baskauf's and Mikhail Podolskiy's talks stay in the general discussion, because the panel took them in that slot.\n\nI didn't touch Git, the app or any other files.",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "inputTokens": 14,
+      "outputTokens": 125056,
+      "cacheReadInputTokens": 771511,
+      "cacheCreationInputTokens": 273271,
+      "webSearchRequests": 0,
+      "costUSD": 4.8416462000000005,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 50084,
+      "canonicalModel": "claude-opus-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "duration_ms": 1479178,
+  "full_caption_read_coverage_confirmed": {
+    "part-1.transcript.txt": true,
+    "part-2.transcript.txt": true
+  },
+  "parent_validation_passed": true
+}

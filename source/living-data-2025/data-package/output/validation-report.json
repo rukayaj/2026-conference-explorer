@@ -1,0 +1,24 @@
+{
+  "valid": true,
+  "checks": [
+    {
+      "recording_id": "livingdata-2025-data-package-part-1",
+      "talks": 6,
+      "discussions": 1,
+      "caption_cues": 1812,
+      "covered_caption_cues": 1812,
+      "timestamped_evidence": 76
+    },
+    {
+      "recording_id": "livingdata-2025-data-package-part-2",
+      "talks": 6,
+      "discussions": 1,
+      "caption_cues": 1957,
+      "covered_caption_cues": 1957,
+      "timestamped_evidence": 81
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "scope": "Structural, timestamp, caption-excerpt and programme-reference checks. This does not establish semantic accuracy or cross-year progress."
+}

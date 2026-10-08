@@ -24,6 +24,21 @@ npm run dev
 
 The machine-produced summaries and transcripts may contain errors. Result pages show transcript passages and video times so visitors can check the source. The map is a discovery view; related talks come from the original embeddings, not 2D distances.
 
+## Living Data 2025 pilot
+
+Selected 2026 talk pages include a “Go back to 2025” panel with reviewed Data
+Package comparisons, timestamped video links and the caption passages from
+both years. Continuing work, open questions and related examples have distinct
+labels. The 2026 play buttons seek the existing player; 2025 links open YouTube.
+The panel works as a native disclosure, including without JavaScript.
+
+`src/components/TimeTravel.astro` reads the reviewed comparisons directly from
+`derived/living-data-2025/data-package/comparison_links.json` at build time.
+Only caption-checked comparisons are displayed; candidate suggestions are not
+used. The pilot remains separate from the 2026 search and theme datasets.
+See `source/living-data-2025/data-package/README.md` for provenance and the
+comparison build/validation commands.
+
 ## Deployment
 
 `.github/workflows/pages.yml` runs the formatting check, tests and data check, builds the site, and publishes it to GitHub Pages on every push to `main`. The site URL and base path come from the repository's Pages settings, so a custom domain needs no code change.

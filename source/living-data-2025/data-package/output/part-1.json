@@ -1,0 +1,1616 @@
+{
+  "recording": {
+    "conference": "Living Data 2025",
+    "year": 2025,
+    "date": "2025-10-21",
+    "room": "Ballroom A",
+    "video_url": "https://www.youtube.com/watch?v=RH05GIF0xWk",
+    "video_provider": "youtube",
+    "video_id": "RH05GIF0xWk",
+    "caption_kind": "automatic",
+    "recording_id": "livingdata-2025-data-package-part-1",
+    "session_id": "6798937-1",
+    "transcript_source": "part-1.srt",
+    "language": "en",
+    "notes": "Symposium 'Darwin Core Data Package: an updated model and format for exchanging biodiversity data (Part 1)'. Conference date is from the official programme, not the January 2026 YouTube upload date. Extraction is based only on YouTube automatic captions (not manually corrected); names and terms have been corrected from programme context where recognisable, and ASR renderings are documented in identification notes. The first caption is at 00:09:26.959; the lead-in before that has no captions. The actual presentation order matches the programme.json order for Part 1 exactly; no talks scheduled for this part were moved to Part 2 or vice versa. The session ran about 15 minutes ahead of schedule according to the chair, and all questions were held for a combined Q&A at the end. Holly Little's talk was a pre-recorded video because the speaker could not travel (the chair cites the US government shutdown); its opening sentences appear twice in the captions."
+  },
+  "content_items": [
+    {
+      "id": "livingdata-2025-dp-p1-01-introduction",
+      "type": "talk",
+      "programme_id": "6798937-1-introduction",
+      "title": "Session introduction: what the Darwin Core Data Package is and how to read its publishing models",
+      "programme": {
+        "title": "Introduction",
+        "speakers": [],
+        "session": "Darwin Core Data Package: an updated model and format for exchanging biodiversity data (Part 1)",
+        "scheduled_start": "2025-10-21T14:00:00",
+        "scheduled_end": "2025-10-21T14:10:00",
+        "abstract": ""
+      },
+      "actual": {
+        "start_timestamp": "00:09:26.959",
+        "end_timestamp": "00:16:49.040",
+        "duration_seconds": 442,
+        "speakers": [
+          {
+            "name": "Kate Ingenloff",
+            "affiliation": ""
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "The session chair is addressed as 'Kate' by later speakers and is listed as a session organiser (Kate Ingenloff) in the programme; no affiliation is stated in the captions. The introduction includes substantive explanatory content (DwC-DP vs DwC-A, the components of the publishing-model diagrams), so it is recorded as a content item rather than unassigned. It ends with the chair inviting Carrie Seltzer (ASR: 'Karen Seltzer') to present a use case from iNaturalist (ASR: 'my naturalist').",
+        "transcript_quality": "medium"
+      },
+      "summary": "The chair opened the double symposium by explaining that the Darwin Core Data Package (DwC-DP) is a publishing model for sharing richer biodiversity data than Darwin Core Archives allow. It mostly uses Darwin Core terms, plus some terms governed outside TDWG. Both formats share a guide, EML dataset metadata and CSV/TSV data files, but DwC-DP is not limited to cores, extensions and the star schema. The chair set out the agenda for both parts and explained the visual vocabulary used in the use-case diagrams: events, entities, agents, join tables, arrows and predicates. A simple example showed how information that would go in an extended Measurement or Fact (eMoF) extension in a DwC-A becomes an occurrence assertion in DwC-DP.",
+      "one_line_takeaway": "DwC-DP keeps the familiar ingredients of Darwin Core Archives (terms, EML, CSV) but removes the star-schema limit so that richer, related data can be shared.",
+      "why_it_matters": "It gives a non-specialist audience the vocabulary needed to follow the use-case diagrams, and frames DwC-DP as an evolution of, rather than a break from, existing Darwin Core Archive practice.",
+      "key_points": [
+        "DwC-DP is described as a publishing model enabling richer biodiversity data sharing than Darwin Core Archives.",
+        "DwC-DP mostly uses Darwin Core terms but also includes terms governed by organisations outside TDWG.",
+        "Shared with DwC-A: an associated guide, EML.xml dataset metadata, and data as CSV or TSV.",
+        "DwC-A is confined by cores, extensions and the star schema; DwC-DP is not, enabling e.g. organism interactions and identifications involving multiple taxa.",
+        "Publishing-model diagrams use six components: events, entities, agents, join tables, arrows (directionality) and predicates (relationship labels).",
+        "An occurrence assertion in DwC-DP plays the role that the eMoF extension plays in a DwC-A.",
+        "Part 1 presents five use cases with questions held until the end; Part 2 covers background, ABCD, GBIF implementation status, publishing tools and the public review."
+      ],
+      "content_type": [
+        "conceptual",
+        "standard"
+      ],
+      "audience_level": "general",
+      "themes_raw": [
+        "introduction to Darwin Core Data Package",
+        "Darwin Core Archive star schema limitations",
+        "reading publishing model diagrams",
+        "assertions replacing extended measurement or fact",
+        "symposium agenda"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "Darwin Core Data Package (DwC-DP)",
+          "type": "standard"
+        },
+        {
+          "name": "Darwin Core Archive (DwC-A)",
+          "type": "standard"
+        },
+        {
+          "name": "Darwin Core",
+          "type": "standard"
+        },
+        {
+          "name": "TDWG",
+          "type": "organisation"
+        },
+        {
+          "name": "GBIF",
+          "type": "organisation"
+        },
+        {
+          "name": "Ecological Metadata Language (EML)",
+          "type": "standard"
+        },
+        {
+          "name": "Extended Measurement or Fact (eMoF) extension",
+          "type": "standard"
+        }
+      ],
+      "standards": [
+        "Darwin Core",
+        "Darwin Core Archive",
+        "Darwin Core Data Package",
+        "EML",
+        "Extended Measurement or Fact extension"
+      ],
+      "software_tools": [],
+      "datasets": [],
+      "methods": [
+        "publishing model diagrams (events, entities, agents, join tables, arrows, predicates)"
+      ],
+      "questions": [],
+      "notable_claims": [
+        {
+          "claim": "The Darwin Core Data Package mostly uses Darwin Core terms but also includes terms governed by organisations outside TDWG.",
+          "timestamp": "00:10:50.320",
+          "confidence": "high"
+        },
+        {
+          "claim": "Both DwC-A and DwC-DP have an associated guide, EML dataset metadata and data shared as CSV or TSV.",
+          "timestamp": "00:11:29.200",
+          "confidence": "high"
+        },
+        {
+          "claim": "Unlike DwC-A, DwC-DP is not limited by cores, extensions and the star schema, and can support data such as organism interactions and identifications involving multiple taxa.",
+          "timestamp": "00:11:40.240",
+          "confidence": "high"
+        },
+        {
+          "claim": "In DwC-DP an occurrence assertion carries the equivalent information that would be attached with an eMoF extension in a DwC-A.",
+          "timestamp": "00:16:10.880",
+          "confidence": "high"
+        }
+      ],
+      "recommendations": [],
+      "results_findings": [],
+      "limitations": [],
+      "future_work": [],
+      "examples_case_studies": [
+        "An occurrence with extra information lacking specific Darwin Core terms: occurrence core plus eMoF in DwC-A vs. event, occurrence and occurrence assertion in DwC-DP."
+      ],
+      "q_and_a": [],
+      "representative_excerpt": {
+        "timestamp": "00:10:42.800",
+        "text": "the Darwin core data package is a publishing model that enables publishers to share richer biodiversity data than what is currently possible with the with the Darwin core archives."
+      },
+      "notable_moments": [
+        {
+          "timestamp": "00:11:40.240",
+          "type": "explanation",
+          "description": "Comparison of what DwC-A and DwC-DP have in common and how the star schema limits DwC-A."
+        },
+        {
+          "timestamp": "00:13:55.279",
+          "type": "explanation",
+          "description": "Walk-through of the six components used in the publishing-model diagrams shown in later talks."
+        },
+        {
+          "timestamp": "00:15:31.279",
+          "type": "explanation",
+          "description": "Simple example mapping an occurrence plus eMoF to an event, occurrence and occurrence assertion."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "00:09:26.959",
+          "end_timestamp": "00:16:49.040"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Scheduled 14:00 introduction for Part 1; delivered as the opening of this recording. Video time differs from scheduled time."
+      }
+    },
+    {
+      "id": "livingdata-2025-dp-p1-02-inaturalist",
+      "type": "talk",
+      "programme_id": "7020785",
+      "title": "From Observations to Interactions: iNaturalist and the Expanding Landscape of Biodiversity Data Sharing with DwC-DP",
+      "programme": {
+        "title": "From Observations to Interactions: iNaturalist and the Expanding Landscape of Biodiversity Data Sharing with DwC-DP",
+        "speakers": [
+          {
+            "name": "Carrie Seltzer",
+            "affiliation": "iNaturalist"
+          }
+        ],
+        "session": "Darwin Core Data Package: an updated model and format for exchanging biodiversity data (Part 1)",
+        "scheduled_start": "2025-10-21T14:10:00",
+        "scheduled_end": "2025-10-21T14:30:00",
+        "abstract": "iNaturalist now hosts over 250 million biodiversity occurrence records representing more than 500,000 unique taxa—making it one of the largest platforms for community-contributed biodiversity data. Since 2012, iNaturalist has used the Darwin Core Archive (DwC-A) format to share its research-grade observations with GBIF and other partners. While effective for basic occurrence sharing, DwC-A has not supported richer connections—especially organism interactions—found in the platform’s underlying data.The Darwin Core Data Package (DwC-DP) offers a new opportunity. This flexible and extensible format allows iNaturalist to represent not just Occurrences and their associated Media (images, sounds), but also relationships between those Occurrences—OrganismInteractions—such as predation, pollination, parasitism, and other vital ecological connections. This illustration uses community-generated Observation Fields that capture interactions even though these are not currently controlled fields in the core iNaturalist data model.This presentation will highlight how iNaturalist’s data maps to DwC-DP, illustrating both continuity and advancement over DwC-A. While Occurrence remains a foundational element, DwC-DP brings structure to a richer ecosystem of data, enabling iNaturalist to capture and communicate ecological knowledge that was previously invisible in shared datasets.Attendees will see a concrete comparison between the two Darwin Core formats through the lens of iNaturalist’s experience, showing how the transition enhances what can be shared without disrupting what already works. This case sets the stage for subsequent talks by establishing core concepts—Occurrences and Media—while introducing Interactions as an example of what DwC-DP newly enables. It demonstrates how the new standard supports both incremental improvements and novel capabilities for data providers and consumers alike."
+      },
+      "actual": {
+        "start_timestamp": "00:16:49.040",
+        "end_timestamp": "00:26:03.880",
+        "duration_seconds": 555,
+        "speakers": [
+          {
+            "name": "Carrie Seltzer",
+            "affiliation": "iNaturalist (Head of Engagement)"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Speaker self-identifies as Carrie Seltzer, head of engagement for iNaturalist (ASR: 'I Naturalist', 'INAT'). The chair's introduction is rendered 'Karen Seltzer' by ASR. Co-author John Wieczorek did not present but is thanked for help with the mapping and for preparing the example dataset. 'GBIFF', 'JBIFF' and 'GBF' are ASR renderings of GBIF.",
+        "transcript_quality": "high"
+      },
+      "summary": "Carrie Seltzer explained how iNaturalist's crowdsourced, photo-based observations map to the Darwin Core Data Package. The diagram was built up step by step: the observer as agent, the event, the occurrence, media, identifications made by the observer or others, occurrence assertions for annotations such as life stage and plant phenology, Creative Commons usage policies, provenance, join tables, and finally organism interactions. The current weekly Darwin Core Archive export to GBIF passes only the first species-level identifier, can only represent interactions through the generic ResourceRelationship, and puts annotations into dynamicProperties. The talk ended with new possibilities, such as representing projects through provenance and treating the community-ID algorithm as an agent, and with implementation costs: complexity, processing time and file size.",
+      "one_line_takeaway": "Most iNaturalist data map cleanly to DwC-DP, which can also carry all identifiers, structured annotations and organism interactions that the current DwC-A export cannot represent well.",
+      "why_it_matters": "iNaturalist is a very large contributor to GBIF; showing that its existing records fit DwC-DP while gaining interactions, multiple identifications and provenance is a strong test of whether the new model works for citizen-science data at scale.",
+      "key_points": [
+        "iNaturalist crowdsources observations and identifications; the community can confirm, refine or correct identifications.",
+        "Since 2020, more than half of species in GBIF have more than half of their data from iNaturalist, according to the speaker.",
+        "Current DwC-A export passes only the first identifier who reached species level, not all identifiers.",
+        "Interactions are not part of iNaturalist's core data model and can only be squeezed into ResourceRelationship in DwC-A.",
+        "Annotations such as life stage and plant phenology currently end up in dynamicProperties.",
+        "In DwC-DP the observer is an agent who conducted an event; the occurrence, media, identifications, assertions, usage policy and provenance link through join tables.",
+        "Organism interactions can be added with media about the interaction and links to the occurrences involved.",
+        "A small subset of iNaturalist data with plant–animal interaction information was used to build an example dataset (prepared by John Wieczorek).",
+        "New options include representing projects via provenance and modelling the community-ID algorithm as an agent.",
+        "Implementation costs include complexity, processing time and file sizes; the weekly DwC-A already takes about a week to produce."
+      ],
+      "content_type": [
+        "case study",
+        "workflow/method"
+      ],
+      "audience_level": "intermediate",
+      "themes_raw": [
+        "citizen science data mapping",
+        "community identifications and multiple identifiers",
+        "organism interactions",
+        "observation annotations and phenology",
+        "media licensing and usage policy",
+        "provenance and projects",
+        "algorithm as agent",
+        "export scale and processing cost"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "iNaturalist",
+          "type": "platform"
+        },
+        {
+          "name": "GBIF",
+          "type": "organisation"
+        },
+        {
+          "name": "Darwin Core Data Package",
+          "type": "standard"
+        },
+        {
+          "name": "Darwin Core Archive",
+          "type": "standard"
+        },
+        {
+          "name": "Creative Commons licences",
+          "type": "standard"
+        },
+        {
+          "name": "ResourceRelationship",
+          "type": "standard term"
+        },
+        {
+          "name": "dynamicProperties",
+          "type": "standard term"
+        },
+        {
+          "name": "John Wieczorek",
+          "type": "person"
+        }
+      ],
+      "standards": [
+        "Darwin Core Data Package",
+        "Darwin Core Archive",
+        "Darwin Core ResourceRelationship",
+        "Creative Commons licences"
+      ],
+      "software_tools": [
+        "iNaturalist"
+      ],
+      "datasets": [
+        "iNaturalist research-grade observations shared with GBIF",
+        "Example DwC-DP dataset from a small subset of iNaturalist observations with plant–animal interaction information"
+      ],
+      "methods": [
+        "mapping iNaturalist observation data to DwC-DP tables",
+        "community ID (at least two-thirds agreement at species level for research grade)"
+      ],
+      "questions": [
+        "What will DwC-DP cost in complexity, processing time and file size for an export the size of iNaturalist's?"
+      ],
+      "notable_claims": [
+        {
+          "claim": "Looking at data since 2020, more than half of species have more than half of their data from iNaturalist.",
+          "timestamp": "00:18:05.039",
+          "confidence": "medium"
+        },
+        {
+          "claim": "The current DwC-A export passes only the first person to provide a species-level identification, not all identifiers who contributed.",
+          "timestamp": "00:19:16.320",
+          "confidence": "high"
+        },
+        {
+          "claim": "Interactions are occasionally captured in iNaturalist but are not part of its core data model; in DwC-A they can be mapped only through the non-specific ResourceRelationship.",
+          "timestamp": "00:19:32.559",
+          "confidence": "high"
+        },
+        {
+          "claim": "Annotations such as life stage and plant phenology are currently mapped to dynamicProperties because DwC-A lacks a more structured place for them.",
+          "timestamp": "00:20:10.559",
+          "confidence": "high"
+        },
+        {
+          "claim": "Generating the weekly Darwin Core Archive currently takes about a week, so it is a continuous process.",
+          "timestamp": "00:25:41.200",
+          "confidence": "high"
+        }
+      ],
+      "recommendations": [],
+      "results_findings": [
+        "Most of the iNaturalist data currently shared via DwC-A would map to DwC-DP using agents, events, occurrences, media, identifications, occurrence assertions, usage policy and provenance.",
+        "Organism interactions recorded in iNaturalist observation data can be represented explicitly in DwC-DP."
+      ],
+      "limitations": [
+        "Implementation will involve costs in complexity, processing time and resulting file sizes."
+      ],
+      "future_work": [
+        "Possible representation of iNaturalist projects through provenance.",
+        "Possible modelling of the community-ID algorithm as an agent."
+      ],
+      "examples_case_studies": [
+        "A dragonfly photo observation used to explain the iNaturalist observation and identification flow.",
+        "Subset of iNaturalist observations with plant–animal interaction information mapped to DwC-DP."
+      ],
+      "q_and_a": [],
+      "representative_excerpt": {
+        "timestamp": "00:18:02.320",
+        "text": "if you look at data since 2020 um more than half of species have more than half of their data from I naturalist."
+      },
+      "notable_moments": [
+        {
+          "timestamp": "00:19:16.320",
+          "type": "key_point",
+          "description": "Limitations of the current DwC-A export: single identifier, interactions in ResourceRelationship, annotations in dynamicProperties."
+        },
+        {
+          "timestamp": "00:20:23.840",
+          "type": "explanation",
+          "description": "Start of the step-by-step mapping, beginning with the observer as agent."
+        },
+        {
+          "timestamp": "00:22:58.159",
+          "type": "explanation",
+          "description": "Organism interactions added to the iNaturalist publishing model."
+        },
+        {
+          "timestamp": "00:24:17.440",
+          "type": "key_point",
+          "description": "New possibilities: projects via provenance and the community-ID algorithm as an agent."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "00:16:49.040",
+          "end_timestamp": "00:26:03.880"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Scheduled first talk of Part 1 and presented first in this recording; no cross-part move. Questions were deferred to the combined Part 1 discussion (livingdata-2025-dp-p1-07-discussion), where an online question about representing interactions in DwC-A relates to this talk."
+      }
+    },
+    {
+      "id": "livingdata-2025-dp-p1-03-bgbm-collections",
+      "type": "talk",
+      "programme_id": "7009288",
+      "title": "From Flat to Structured: Enhancing Natural History Collection Datasets in GBIF Using Darwin Core Data Packages",
+      "programme": {
+        "title": "From Flat to Structured: Enhancing Natural History Collection Datasets in GBIF Using Darwin Core Data Packages",
+        "speakers": [
+          {
+            "name": "Jörg Holetschek",
+            "affiliation": "Botanic Garden & Botanical Museum Berlin"
+          }
+        ],
+        "session": "Darwin Core Data Package: an updated model and format for exchanging biodiversity data (Part 1)",
+        "scheduled_start": "2025-10-21T14:30:00",
+        "scheduled_end": "2025-10-21T14:42:00",
+        "abstract": "With a collection of currently about 4 million specimens, the Botanic Garden & Botanical Museum Berlin (BGBM) houses the largest herbarium in Germany. Complementary to this main collection, the seed bank, the DNA bank and the living collection in the botanical garden with more than 32,000 documented accessions are important components of the institution (BGBM Press 2022). The herbarium is partly digitized with high-resolution voucher images, sporadically accompanied by photographs of the respective living organism. Herbarium specimens and their images are published to the Global Biodiversity Information Facility (GBIF), digital records of tissues and DNA samples to the Global Genome Biodiversity Network (GGBN, Dröge et al. 2016), and extracted sequences to the International Nucleotide Sequence Database Collaboration (INSDC, Karsch-Mizrachi et al. 2025).Until recently, GBIF was centered around the concept of occurrences using Darwin Core (Wieczorek et al. 2012) or ABCD (Access to Biological Collections Data, Holetschek et al. 2012). Although it was possible to publish material samples, their relation to the original specimen was lost. In order to overcome this limitation and to be able to model complex relationships between entities, GBIF has introduced Darwin Core Data Packages. They are based on Frictionless Data, a toolkit for transparent FAIR (findable, accessible, interoperable, reusable; Wilkinson et al. 2016) data sharing. Darwin Core Data Packages will enable publishing structured biodiversity data about organisms, observations, specimens, material samples, media objects, sequences, biotic interactions – and, above all, all their complex relationships.We will discuss the results of a pilot study in which the diverse collection data of the BGBM were published to GBIF with this new approach. Darwin Core Data Packages allowed to include tissue and DNA samples and their lineage from specimens, the images of organisms before being collected, and DNA sequences – information previously not shared with GBIF."
+      },
+      "actual": {
+        "start_timestamp": "00:26:32.320",
+        "end_timestamp": "00:33:32.919",
+        "duration_seconds": 421,
+        "speakers": [
+          {
+            "name": "Jörg Holetschek",
+            "affiliation": "Botanic Garden & Botanical Museum Berlin"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "ASR renders the self-introduction as 'Daniel Kchek from Bhutanic Museum in Berlin' and the chair's introduction as 'Yolichek'; programme context identifies Jörg Holetschek, Botanic Garden & Botanical Museum Berlin (BGBM). The speaker mentions working at the centre for biodiversity informatics and collection data integration. 'GIF' is ASR for GBIF; 'IoT' (in 'break uh a CSV and the IoT') is probably the IPT, but this is uncertain.",
+        "transcript_quality": "medium"
+      },
+      "summary": "Jörg Holetschek described publishing the Berlin herbarium's collection data (BGBM) to GBIF as a Darwin Core Data Package. Previously only specimens and specimen images went to GBIF, while tissue and DNA samples went to GGBN and sequences to ENA/NCBI. The DwC-DP model links the gathering event, occurrence, specimen, tissue sample and DNA sample in a chain of derivation. It also handles exceptions, such as tissues taken directly from living garden plants with no specimen, along with resolvable identifiers, assertions and media of both specimens and living organisms. The lessons were that much more data could be shared, but this exposed data-quality issues such as control characters that break CSV files, and required extensive SQL work to flatten a highly normalised database.",
+      "one_line_takeaway": "DwC-DP let the Berlin herbarium publish specimens, tissues, DNA samples, sequences and images, with their derivation links, to GBIF for the first time, at the cost of significant data cleaning and transformation work.",
+      "why_it_matters": "It shows DwC-DP can carry the material-sample lineage that collections previously had to split across GBIF and GGBN, keeping specimen–tissue–DNA relationships intact in one dataset.",
+      "key_points": [
+        "BGBM's herbarium is the largest in Germany, at about 4 million specimens, and grows by about 30,000 specimens a year, mainly through donations and collecting.",
+        "About 10% of specimens are digitised as high-resolution images; about 30,000 images show organisms before collection, often in their habitat.",
+        "BGBM holds about 30,000 tissue samples and 50,000 DNA samples; sequences go to ENA and NCBI with nightly updates.",
+        "Before DwC-DP only specimens and specimen images were sent to GBIF; tissue and material samples went to GGBN, which can show associations between objects.",
+        "The DwC-DP model links event, occurrence, specimen, tissue sample and DNA sample in a derivation chain.",
+        "Exception: tissues taken directly from living plants in the garden have no specimen and derive from the organism; identifications are then based on the organism.",
+        "Globally unique, resolvable identifiers return JSON metadata for scripts and a landing page for humans.",
+        "Images of specimens are shared as material media and images of living organisms as occurrence media."
+      ],
+      "content_type": [
+        "case study",
+        "workflow/method"
+      ],
+      "audience_level": "intermediate",
+      "themes_raw": [
+        "herbarium collection data publishing",
+        "material sample derivation chains",
+        "tissue and DNA bank linkage",
+        "specimen and living organism media",
+        "resolvable persistent identifiers",
+        "data cleaning for CSV export",
+        "denormalising relational collection databases"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "Botanic Garden & Botanical Museum Berlin (BGBM)",
+          "type": "organisation"
+        },
+        {
+          "name": "GBIF",
+          "type": "organisation"
+        },
+        {
+          "name": "Global Genome Biodiversity Network (GGBN)",
+          "type": "infrastructure"
+        },
+        {
+          "name": "ENA",
+          "type": "infrastructure"
+        },
+        {
+          "name": "NCBI",
+          "type": "infrastructure"
+        },
+        {
+          "name": "Darwin Core Data Package",
+          "type": "standard"
+        },
+        {
+          "name": "Integrated Publishing Toolkit (IPT)",
+          "type": "software"
+        }
+      ],
+      "standards": [
+        "Darwin Core Data Package",
+        "Darwin Core"
+      ],
+      "software_tools": [
+        "SQL (database export queries)",
+        "GBIF IPT (inferred from ASR 'IoT'; uncertain)"
+      ],
+      "datasets": [
+        "BGBM herbarium specimens, specimen images, tissue samples, DNA samples and sequences"
+      ],
+      "methods": [
+        "modelling specimen → tissue → DNA derivation as related materials",
+        "SQL concatenation of normalised database tables for DwC-DP export",
+        "cleaning control and special characters from CSV output"
+      ],
+      "questions": [],
+      "notable_claims": [
+        {
+          "claim": "The Berlin herbarium is the largest in Germany with about 4 million specimens, growing by about 30,000 specimens per year.",
+          "timestamp": "00:27:12.640",
+          "confidence": "high"
+        },
+        {
+          "claim": "About 10% of the specimens are digitised as high-resolution images.",
+          "timestamp": "00:27:53.600",
+          "confidence": "high"
+        },
+        {
+          "claim": "BGBM holds about 30,000 tissue samples and 50,000 DNA samples in its DNA repository.",
+          "timestamp": "00:28:34.880",
+          "confidence": "high"
+        },
+        {
+          "claim": "Before DwC-DP, only specimens and specimen images were provided to GBIF; tissues and material samples were shared with GGBN.",
+          "timestamp": "00:28:52.480",
+          "confidence": "high"
+        },
+        {
+          "claim": "With DwC-DP they could provide much more data than before, which also exposed more data issues, including control characters that break CSV output.",
+          "timestamp": "00:32:21.519",
+          "confidence": "high"
+        }
+      ],
+      "recommendations": [],
+      "results_findings": [
+        "Publishing as DwC-DP allowed substantially more data to be shared with GBIF than before.",
+        "Everything eventually fitted the model, though special cases required workarounds."
+      ],
+      "limitations": [
+        "Almost every kind of special or control character was found in the data and had to be cleaned.",
+        "The highly normalised source database required concatenating many tables with many SQL statements.",
+        "Objects that do not follow the regular schema (e.g. tissue without specimen) needed workarounds."
+      ],
+      "future_work": [],
+      "examples_case_studies": [
+        "Tissue samples taken directly from living plants in the botanic garden, without a herbarium specimen.",
+        "GGBN navigation from DNA sample to tissue sample to specimen."
+      ],
+      "q_and_a": [],
+      "representative_excerpt": {
+        "timestamp": "00:33:19.840",
+        "text": "So together it was a lot of juggling but in the end everything fit in and we were able to write more more data than before."
+      },
+      "notable_moments": [
+        {
+          "timestamp": "00:28:52.480",
+          "type": "key_point",
+          "description": "What was previously shared where: GBIF, GGBN and ENA/NCBI."
+        },
+        {
+          "timestamp": "00:29:38.320",
+          "type": "explanation",
+          "description": "Publishing model showing event, specimen, tissue and DNA derivation chain, plus the garden-tissue exception."
+        },
+        {
+          "timestamp": "00:32:21.519",
+          "type": "conclusion",
+          "description": "Lessons learned on data issues, control characters and database flattening."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "00:26:32.320",
+          "end_timestamp": "00:33:32.919"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Scheduled second talk of Part 1; presented second in this recording. No cross-part move. No talk-specific Q&A (questions held to the end)."
+      }
+    },
+    {
+      "id": "livingdata-2025-dp-p1-04-broke-west-marine",
+      "type": "talk",
+      "programme_id": "7009182",
+      "title": "Modeling Complex Marine Survey Data Using the Darwin Core Data Package",
+      "programme": {
+        "title": "Modeling Complex Marine Survey Data Using the Darwin Core Data Package",
+        "speakers": [
+          {
+            "name": "Yi-Ming Gan",
+            "affiliation": "Royal Belgian Institute of Natural Sciences"
+          }
+        ],
+        "session": "Darwin Core Data Package: an updated model and format for exchanging biodiversity data (Part 1)",
+        "scheduled_start": "2025-10-21T14:42:00",
+        "scheduled_end": "2025-10-21T14:54:00",
+        "abstract": "The BROKE-West fish dataset originates from a pelagic survey conducted in the Southern Ocean during the 2006 BROKE-West voyage. Since its initial publication in 2008 as a flat Darwin Core Archive (DwCA) occurrence table, the dataset has undergone significant evolution. Although rich in associated data, the original version included only species occurrence records. In 2016, it was used to test the extended MeasurementOrFact (eMoF) extension developed by OBIS, which enabled the inclusion of environmental and biological measurements. In 2023, survey design and sampling context were incorporated through the Humboldt Extension. Today, the dataset has been fully restructured using the proposed Darwin Core Data Package (DwC-DP), a model that overcomes the structural limitations of the DwCA star schema. DwC-DP enables the expression of previously unpublished ancillary information and allows for the clear linkage of survey design, sampling events, occurrences, materials, community-level measurements, individual measurements, environmental measurements, and material relationships (e.g., prey items derived from stomach samples). This transformation offers a test case for evaluating how DwC-DP addresses long-standing challenges in representing complex biodiversity survey data.From the perspective of a GBIF and OBIS node, adopting this new model presents significant opportunities. DwC-DP offers a richer structure that represents the complexity of biodiversity data. However, these benefits come with challenges. DwC-DP is more complex to implement and contains more identifiers, requiring more effort in transforming and maintaining the data. This may require shifts in data modeling, tooling, and workflows. Addressing these issues through capacity building, guidance, and tooling will be important to realise DwC-DP’s full potential."
+      },
+      "actual": {
+        "start_timestamp": "00:34:15.839",
+        "end_timestamp": "00:45:15.720",
+        "duration_seconds": 660,
+        "speakers": [
+          {
+            "name": "Yi-Ming Gan",
+            "affiliation": "Royal Belgian Institute of Natural Sciences (programme); introduced as from the [SCAR Antarctic] Biodiversity Portal, a GBIF and OBIS node"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Chair introduces 'Ying Ming Gan' (ASR) and thanks 'Ming'. The self-introduction 'I'm from Scott and biodiversity portal which is also a dri and obus node' is ASR; programme context suggests the (SCAR) Antarctic Biodiversity Portal, a GBIF and OBIS node — treat the portal name as uncertain. Other ASR: 'bird west' = BROKE-West; 'humble extension' / 'ho extension' = Humboldt Extension; 'D core' / 'ding core' / 'dial data package' = Darwin Core (Data Package); 'fish line' = fish length; 'info detections' = probably 'infer non-detections'; 'pluragama antarctic' = Pleuragramma antarctica (Antarctic silverfish); 'OBS'/'Obus' = OBIS; 'J BF' = GBIF. 'OBC USA data set' and the funder 'BPO' could not be confidently resolved (BPO may be BELSPO — unverified). Captions in this talk are substantially garbled in places.",
+        "transcript_quality": "low"
+      },
+      "summary": "Yi-Ming Gan restructured the BROKE-West fish dataset (a 2006 Southern Ocean pelagic survey, published in 2008 as a single table) as a Darwin Core Data Package of 23 tables. The model covers routine and target midwater trawl events, survey targets with taxon, life stage and body size, event assertions for net and trawl measurements, and occurrences linked to survey targets. It also covers identifications, individually preserved and photographed fish as materials with weight, length and energy-content assertions, and stomach-content prey items as derived materials with degree-of-digestion assertions. A thought experiment showed most of this could be forced into a DwC-A with Humboldt, eMoF and other extensions, but with losses: less freedom in survey targets, awkward occurrence IDs for individual fish, and media without licence metadata. The talk then demonstrated using the data: inferring non-detections from survey targets, plotting a fish-length frequency distribution (an Essential Ocean Variables sub-variable), and deriving the diet composition of Antarctic silverfish.",
+      "one_line_takeaway": "DwC-DP can represent a complex legacy marine survey closer to reality and makes new derived products possible, but splitting tables and maintaining many identifiers is hard without tooling.",
+      "why_it_matters": "It is a demanding stress-test of DwC-DP from a GBIF/OBIS node, showing both what is gained (survey design, materials, prey relationships, derived analyses) and the operational burden that tools must address.",
+      "key_points": [
+        "The BROKE-West fish survey ran January–March 2006 in the Southern Ocean to provide a biodiversity baseline; first published in 2008 as a single table.",
+        "Events are routine (rectangular midwater trawl) or targeted samplings; survey targets record target taxon, life stage and body size.",
+        "Trawl measurements such as depth, net size, trawl distance, speed and filtered volume are event assertions.",
+        "Individual fish were preserved as materials, with dry and wet weight, standard length and energy content as material assertions, and were photographed.",
+        "Stomach-content prey items are recorded as materials, with degree of digestion as a material assertion.",
+        "The full mapping uses 23 tables.",
+        "A DwC-A version could hold most content via event core, Humboldt, occurrence and eMoF extensions, but with losses in survey-target expressiveness, identifier semantics and media metadata.",
+        "Lessons: tools to split joined tables into multiple DwC-DP tables would help; maintaining identifiers across updates of 23 tables would be extremely difficult.",
+        "Use cases: inferring non-detections from survey targets, fish-length frequency distributions for Essential Ocean Variables, and diet composition of Pleuragramma antarctica.",
+        "Aggregators need to account for the same variable (e.g. fish length) appearing as an occurrence assertion or a material assertion.",
+        "The mapping contributes to the OBIS data coordination group, which is open to everyone."
+      ],
+      "content_type": [
+        "case study",
+        "dataset",
+        "workflow/method"
+      ],
+      "audience_level": "specialist",
+      "themes_raw": [
+        "marine survey data modelling",
+        "survey targets and inferred non-detections",
+        "Humboldt Extension vs DwC-DP",
+        "material assertions for individual specimens",
+        "stomach content and prey relationships",
+        "identifier maintenance burden",
+        "table-splitting tooling",
+        "Essential Ocean Variables data products",
+        "legacy dataset enrichment",
+        "GBIF and OBIS node perspective"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "BROKE-West",
+          "type": "project"
+        },
+        {
+          "name": "OBIS",
+          "type": "infrastructure"
+        },
+        {
+          "name": "GBIF",
+          "type": "organisation"
+        },
+        {
+          "name": "Humboldt Extension",
+          "type": "standard"
+        },
+        {
+          "name": "Extended Measurement or Fact (eMoF) extension",
+          "type": "standard"
+        },
+        {
+          "name": "Essential Ocean Variables",
+          "type": "concept"
+        },
+        {
+          "name": "OBIS data coordination group",
+          "type": "working group"
+        },
+        {
+          "name": "Pleuragramma antarctica",
+          "type": "taxon"
+        },
+        {
+          "name": "Royal Belgian Institute of Natural Sciences",
+          "type": "organisation"
+        }
+      ],
+      "standards": [
+        "Darwin Core Data Package",
+        "Darwin Core Archive",
+        "Humboldt Extension",
+        "Extended Measurement or Fact extension"
+      ],
+      "software_tools": [],
+      "datasets": [
+        "BROKE-West fish dataset (Southern Ocean pelagic survey, 2006)"
+      ],
+      "methods": [
+        "mapping survey design, events, occurrences, materials and assertions to DwC-DP",
+        "thought-exercise mapping of the same data to DwC-A",
+        "inferring non-detections from survey target scope",
+        "fish length frequency distribution from material assertions",
+        "diet composition analysis from prey materials"
+      ],
+      "questions": [
+        "How will aggregators handle the same variable expressed in different assertion classes (e.g. occurrence vs material assertion)?"
+      ],
+      "notable_claims": [
+        {
+          "claim": "The full DwC-DP mapping of the BROKE-West fish dataset uses 23 tables.",
+          "timestamp": "00:37:57.359",
+          "confidence": "high"
+        },
+        {
+          "claim": "Most of the content could be mapped to a DwC-A using event core, Humboldt, occurrence and eMoF extensions, but with reduced freedom in specifying survey targets and awkward occurrence identifiers for individual fish.",
+          "timestamp": "00:38:09.040",
+          "confidence": "medium"
+        },
+        {
+          "claim": "Tools for splitting tables into multiple DwC-DP tables would be very helpful.",
+          "timestamp": "00:40:15.359",
+          "confidence": "high"
+        },
+        {
+          "claim": "Maintaining identifiers when updating the dataset would be extremely difficult with 23 tables.",
+          "timestamp": "00:40:20.160",
+          "confidence": "high"
+        },
+        {
+          "claim": "A fish length frequency distribution can be plotted from the DwC-DP version of the dataset.",
+          "timestamp": "00:43:04.000",
+          "confidence": "high"
+        },
+        {
+          "claim": "Diet composition analysis was not possible before because the stomach-content data were unpublished.",
+          "timestamp": "00:43:55.440",
+          "confidence": "medium"
+        }
+      ],
+      "recommendations": [
+        "Develop tools for splitting tables into multiple DwC-DP tables.",
+        "Aggregators should take into account that variables such as fish length may come from multiple classes.",
+        "Join the OBIS data coordination group to take part in the GBIF/OBIS conversation."
+      ],
+      "results_findings": [
+        "DwC-DP preserves the meaning of identifiers and represents the data closer to reality.",
+        "Non-detections can be inferred from survey targets and reported occurrences.",
+        "Fish length frequency distributions and diet composition can be derived from the DwC-DP dataset."
+      ],
+      "limitations": [
+        "Joining tables to obtain foreign keys before splitting into DwC-DP tables is laborious.",
+        "Maintaining many identifiers across dataset updates is very difficult.",
+        "The legacy dataset contains mistakes and incomplete parts; the mapping was done by a data manager rather than an ecologist."
+      ],
+      "future_work": [],
+      "examples_case_studies": [
+        "BROKE-West fish dataset restructured as DwC-DP.",
+        "Diver-estimated fish length from another dataset as an example of fish length as an occurrence assertion (dataset name unclear in ASR: 'OBC USA')."
+      ],
+      "q_and_a": [],
+      "representative_excerpt": {
+        "timestamp": "00:40:20.160",
+        "text": "Secondly, we think that it would be extremely difficult to maintain the identifiers upon updating the data set. There are 23 tables and there are a lot of identifiers to maintain."
+      },
+      "notable_moments": [
+        {
+          "timestamp": "00:38:09.040",
+          "type": "explanation",
+          "description": "Thought exercise: what the same dataset would look like as a DwC-A and where it falls short."
+        },
+        {
+          "timestamp": "00:40:09.599",
+          "type": "key_point",
+          "description": "Lessons learned: table-splitting tools and identifier maintenance."
+        },
+        {
+          "timestamp": "00:41:02.000",
+          "type": "demonstration",
+          "description": "Using survey targets to infer non-detections across events."
+        },
+        {
+          "timestamp": "00:43:55.440",
+          "type": "result",
+          "description": "Diet composition of Antarctic silverfish derived from the data package."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "00:34:15.839",
+          "end_timestamp": "00:45:15.720"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Scheduled third talk of Part 1; presented third. No cross-part move. No talk-specific Q&A."
+      }
+    },
+    {
+      "id": "livingdata-2025-dp-p1-05-insektmobilen",
+      "type": "talk",
+      "programme_id": "7020632",
+      "title": "From A To DP - DwC-DP Captures The Full Story Of A Citizen Science And DNA Metabarcoding Survey",
+      "programme": {
+        "title": "From A To DP - DwC-DP Captures The Full Story Of A Citizen Science And DNA Metabarcoding Survey",
+        "speakers": [
+          {
+            "name": "Cecilie Svenningsen",
+            "affiliation": "Global Biodiversity Information Facility (GBIF)"
+          }
+        ],
+        "session": "Darwin Core Data Package: an updated model and format for exchanging biodiversity data (Part 1)",
+        "scheduled_start": "2025-10-21T14:54:00",
+        "scheduled_end": "2025-10-21T15:06:00",
+        "abstract": "‘Insektmobilen’ was a nationwide Danish research initiative (2017–2020) that combined citizen science insect surveys with DNA metabarcoding, while also contributing to the entomological collections of the Natural History Museum of Denmark (Svenningsen & Tøttrup, 2024). The resulting dataset is currently published as a Darwin Core Archive (DwC-A) Occurrence core with extensions for extended Measurements or Facts, Multimedia, Event, and DNA-derived data.However, the limitations inherent in the DwC-A’s star schema arrangement restrict the integration of multiple identification types (morphological and DNA-based) and prevent proper linkage between multimedia, DNA data, and their respective sampling events.Re-publishing the dataset using the proposed Darwin Core Data Package (DwC-DP) framework overcomes these limitations. DwC-DP allows for multiple identification records per sample, connects multimedia and DNA data directly to events, supports detailed referencing of collection materials, and recognises the contributions of all agents, including citizen scientists. The dataset also leverages Humboldt Extension terms (TDWG Humboldt Extension Task Group, 2024) to describe surveys and sampling targets, capturing the methodological richness of the project.While mapping to DwC-DP enables a more comprehensive and flexible representation of the data, it also introduces challenges, especially for nested sampling designs. Publishers must carefully choose the level of detail to include to ensure usability and clarity for data consumers. We will present our data mapping and share the lessons we learnt along the way.ReferencesSvenningsen C, P. Tøttrup A (2024). Insektmobilen - National citizen science and DNA metabarcoding survey of flying insects in June 2018 and 2019. Version 1.11. Natural History Museum of Denmark. Occurrence dataset https:||doi.org|10.15468|m48e3e accessed via GBIF.org on 2025-05-15. TDWG Humboldt Extension Task Group. 2024. Humboldt Extension Vocabulary List of Terms. Biodiversity Information Standards (TDWG). http:||rs.tdwg.org|dwc|doc|eco|2024-03-26"
+      },
+      "actual": {
+        "start_timestamp": "00:46:00.560",
+        "end_timestamp": "00:52:03.800",
+        "duration_seconds": 363,
+        "speakers": [
+          {
+            "name": "Cecilie Svenningsen",
+            "affiliation": "Global Biodiversity Information Facility (GBIF)"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Virtual (pre-recorded) presentation, as scheduled ('Oral virtual'). The chair introduces 'Cecil Cecilia Swenson' (ASR); the captions begin mid-sentence with 'Spinning and I will present', apparently the end of the speaker's self-introduction, so the name is not cleanly captured. Affiliation is from the programme (not stated in captions). ASR: 'insect mob' = Insektmobilen; 'Davinc code' / 'Davenco' / 'Davenport' / 'Diamond Core' / 'diving court' = Darwin Core; 'growth beetle' probably 'ground beetle'; 'DNA meding' = DNA metabarcoding; 'Sigma Beacon' is unresolved (it may refer to where the examples repository is hosted).",
+        "transcript_quality": "medium"
+      },
+      "summary": "Cecilie Svenningsen presented the mapping of Insektmobilen, a Danish national citizen-science and DNA metabarcoding survey of flying insects, from a Darwin Core Archive to a Darwin Core Data Package. In the archive, the single-core, one-layer star schema forced sampling-event data into an occurrence core so that the DNA-derived data extension could be used. As a result, media, event information, eMoF and DNA data were repeated for every occurrence; for example, a beetle occurrence showed images of the whole bulk sample. In DwC-DP, citizen scientists are agents conducting surveys with land-cover and taxon targets. Bulk samples are materials with biomass and DNA-concentration assertions, nucleotide analyses use three primer pairs, and occurrences are inferred from both morphological and DNA-based identifications. The data went from one core with four extensions to 12 DwC-DP tables.",
+      "one_line_takeaway": "DwC-DP lets a metabarcoding survey link media, DNA analyses and identifications to the right events and materials instead of copying them onto every occurrence.",
+      "why_it_matters": "Metabarcoding surveys are a fast-growing data type that fits the star schema badly; this case shows a concrete DwC-DP structure for them and the tools that helped build it.",
+      "key_points": [
+        "Insektmobilen: volunteers drove pre-assigned 5 km routes with large nets on car roofs; samples went to the Natural History Museum of Denmark for identification.",
+        "The survey covered flying insect diversity across five land covers.",
+        "DwC-A allows one core (event, occurrence or taxon) and one layer of extensions, so sampling-event data had to be shared as occurrence core to include DNA-derived data.",
+        "This caused media, event information, eMoF and DNA-derived data to be repeated per occurrence; bulk-sample images were attached to individual species occurrences.",
+        "In DwC-DP: agents conduct surveys with land-cover and taxon targets, follow protocols, and carry out sampling events that collect bulk insect material.",
+        "Dry-weight biomass of size fractions and DNA concentration are material assertions; nucleotide analysis used three primer pairs, with sequences from one pair matched against a reference database.",
+        "Identifications are based on both morphology and DNA sequences; the preferred identification is flagged with the isAcceptedIdentification term.",
+        "partOf and derivedFrom terms in the materials table describe processing of materials.",
+        "The quick reference guide and relationship explorer helped decide the order in which to prepare tables to obtain linking identifiers.",
+        "Result: from a core with four extensions to 12 DwC-DP tables; the example is in the DwC-DP examples repository under the survey folder."
+      ],
+      "content_type": [
+        "case study",
+        "workflow/method"
+      ],
+      "audience_level": "intermediate",
+      "themes_raw": [
+        "DNA metabarcoding survey data",
+        "citizen science sampling",
+        "star schema data repetition",
+        "bulk sample materials and media",
+        "morphological vs DNA-based identifications",
+        "survey targets and land cover",
+        "material derivation terms",
+        "table preparation order and identifiers"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "Insektmobilen",
+          "type": "project"
+        },
+        {
+          "name": "Natural History Museum of Denmark",
+          "type": "organisation"
+        },
+        {
+          "name": "GBIF",
+          "type": "organisation"
+        },
+        {
+          "name": "DNA-derived data extension",
+          "type": "standard"
+        },
+        {
+          "name": "Humboldt Extension",
+          "type": "standard"
+        },
+        {
+          "name": "Darwin Core quick reference guide",
+          "type": "documentation"
+        },
+        {
+          "name": "DwC-DP relationship explorer",
+          "type": "software"
+        },
+        {
+          "name": "DwC-DP examples repository",
+          "type": "dataset"
+        }
+      ],
+      "standards": [
+        "Darwin Core Data Package",
+        "Darwin Core Archive",
+        "DNA-derived data extension",
+        "Extended Measurement or Fact extension"
+      ],
+      "software_tools": [
+        "DwC-DP relationship explorer",
+        "Darwin Core quick reference guide"
+      ],
+      "datasets": [
+        "Insektmobilen — national citizen science and DNA metabarcoding survey of flying insects (Natural History Museum of Denmark)"
+      ],
+      "methods": [
+        "DNA metabarcoding with three primer pairs",
+        "morphological identification of selected taxonomic groups",
+        "size-fractionation and dry-weight biomass of bulk samples",
+        "mapping citizen science survey data to 12 DwC-DP tables"
+      ],
+      "questions": [],
+      "notable_claims": [
+        {
+          "claim": "In a Darwin Core Archive only one core file and one layer of extensions are allowed, so the sampling-event data had to be shared as an occurrence core to include the DNA-derived data extension.",
+          "timestamp": "00:47:46.079",
+          "confidence": "high"
+        },
+        {
+          "claim": "As a result, an occurrence record of a single beetle in GBIF shows an image of the whole bulk sample rather than the individual.",
+          "timestamp": "00:48:16.319",
+          "confidence": "high"
+        },
+        {
+          "claim": "The data were mapped to 12 tables in the Darwin Core Data Package.",
+          "timestamp": "00:50:38.559",
+          "confidence": "high"
+        },
+        {
+          "claim": "The quick reference guide and relationship explorer helped determine which tables to prepare first to obtain the identifiers needed for linking.",
+          "timestamp": "00:51:01.839",
+          "confidence": "high"
+        },
+        {
+          "claim": "DwC-DP enabled the right links between the project data and the sharing of more information than in the Darwin Core Archive.",
+          "timestamp": "00:51:39.440",
+          "confidence": "high"
+        }
+      ],
+      "recommendations": [],
+      "results_findings": [
+        "Moving from DwC-A (one core with four extensions) to DwC-DP (12 tables) allowed correct linkage of media, DNA data and events.",
+        "DwC-DP is described as a good fit for DNA metabarcoding survey data."
+      ],
+      "limitations": [],
+      "future_work": [],
+      "examples_case_studies": [
+        "Car-roof net sampling along 5 km routes by volunteers.",
+        "Beetle occurrence record carrying bulk-sample images in the DwC-A version."
+      ],
+      "q_and_a": [],
+      "representative_excerpt": {
+        "timestamp": "00:51:39.440",
+        "text": "We found the Davenco data package enabled us to establish the right links between the data from the project and share even more information that what was previously been shared in a Davenco archive."
+      },
+      "notable_moments": [
+        {
+          "timestamp": "00:47:57.119",
+          "type": "key_point",
+          "description": "Why the DwC-A star schema forced event data into an occurrence core, inflating media."
+        },
+        {
+          "timestamp": "00:49:07.200",
+          "type": "explanation",
+          "description": "Walk-through of the DwC-DP tables: agents, surveys, protocols, events, materials, nucleotide analyses, identifications and occurrences."
+        },
+        {
+          "timestamp": "00:51:15.359",
+          "type": "conclusion",
+          "description": "From one core with four extensions to 12 DwC-DP tables."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "00:46:00.560",
+          "end_timestamp": "00:52:03.800"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Scheduled fourth talk of Part 1 (virtual); presented fourth as a recorded video. No cross-part move. No talk-specific Q&A."
+      }
+    },
+    {
+      "id": "livingdata-2025-dp-p1-06-paleo-specimens",
+      "type": "talk",
+      "programme_id": "7018835",
+      "title": "Characterizing paleontological specimens for maximal alignment with global data practices",
+      "programme": {
+        "title": "Characterizing paleontological specimens for maximal alignment with global data practices",
+        "speakers": [
+          {
+            "name": "Holly Little",
+            "affiliation": "Smithsonian Institution National Museum of Natural History"
+          }
+        ],
+        "session": "Darwin Core Data Package: an updated model and format for exchanging biodiversity data (Part 1)",
+        "scheduled_start": "2025-10-21T15:06:00",
+        "scheduled_end": "2025-10-21T15:18:00",
+        "abstract": "Paleontological specimens can vary widely from the smallest single cell protist or pollen grain, to trays of molluscs or fossil samples from cores, slabs like preserved tree canopies or trackways, and, of course, to the largest dinosaurs. Each of these examples has inherent characteristics requiring careful consideration of how to best represent that specimen in a digital record affecting discoverability and fitness-for-use of the data. Previous work (Little 2018, Little et al. 2021) has shown that there are known challenges in mapping paleontological specimen data to existing data standards. While most biological and paleontological specimens share similar fundamental data (evidence of a taxon at a place and time collected by a person), the addition of geological context adds multidimensional complexity, and variations in the preservation of paleontological materials can impact data requirements for documenting what is present. Assessing the nuances of the data across heterogeneous paleontological specimens will help to make comprehensive recommendations for communicating their inherent complexity.Through coordination with the paleontology collections community, we are conducting an assessment to characterize the various types of paleontological specimens in our collections to document the data requirements for clearly describing them and their associated information. Our aim is to ensure consistency and discoverability in what is represented in the data and to enable better alignment with existing or developing global data practices. This effort will result in a resource consisting of example records, use cases for testing new data formats, highlights of key data classes, and implementation guidelines for standards like Darwin Core. Importantly, these results can be used to evaluate new developments like the Darwin Core Data Package to ensure paleontological specimen data can be mobilized, discovered, and used interoperably. Here we share an overview of this process and initial results.Little 2018, https:||doi.org|10.3897|biss.2.25437Little et al. 2021, https:||doi.org|10.3897|biss.5.75646"
+      },
+      "actual": {
+        "start_timestamp": "00:54:37.119",
+        "end_timestamp": "01:06:39.079",
+        "duration_seconds": 722,
+        "speakers": [
+          {
+            "name": "Holly Little",
+            "affiliation": "Department of Paleobiology, Smithsonian National Museum of Natural History"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Pre-recorded presentation. The chair states that Holly Little could not attend in person as planned because of the US government shutdown and submitted a virtual presentation; co-authors were said to be online for questions (the speaker names Erica and Alex, i.e. co-authors Erica Krimmel and Alex Lawrence per programme). The opening self-introduction appears twice in the captions: first at 00:54:15.440 (ASR 'Hi, I'm Paul informatics manager in the department of biology'), then again from 00:54:37.119. The first occurrence is recorded as repeated_content in unassigned and the talk is taken from the complete second run. ASR: 'Darcore'/'Dharmaore'/'DARO' = Darwin Core; 'GPIF'/'GBIFF' = GBIF; 'TY meetings' probably TDWG meetings.",
+        "transcript_quality": "high"
+      },
+      "summary": "Holly Little presented a Darwin Core Data Package use case for fossil specimens, developed with the Paleo Data Working Group. Fossil specimens range from single microfossils and pollen slides to slabs, drill cores and composite skeletons. The group sorted them into three data groups: standalone records; relationships, either material (2a) or biological (2b); and complex stratigraphy such as cores. This work also produces values for a materialEntityType vocabulary. DwC-DP's shift to material as the primary class, greater emphasis on events, linking geological context to either the event or the material, the identification-taxon table, and material relationships address long-standing paleo problems, such as not knowing whether a record represents insects on a slab or in amber. The speaker warned that implementation will take work: test datasets were built by hand, most collection management systems lack the needed fields and tools, and the community cannot yet meet DwC-DP's identifier requirements.",
+      "one_line_takeaway": "DwC-DP can represent the diversity of fossil specimens better than previous models, using multiple mapping profiles, but paleo collections need tools, identifiers and guidance to implement it.",
+      "why_it_matters": "Paleontological collections combine biological, material and geological complexity; showing DwC-DP can describe what a fossil record physically represents improves discoverability and interoperability for a whole collection domain.",
+      "key_points": [
+        "Fossil data points include material, taxonomic occurrences, media and especially geological context, collecting events and locations, plus biological interactions and material associations.",
+        "Specimen types vary from single forams to jars of them, pollen slides, stratigraphic samples, slabs up to treetop size, drill cores and full or composite skeletons.",
+        "With the Paleo Data Working Group, specimens were categorised into three data groups: standalone records, relationships (material 2a, biological 2b) and complex stratigraphy.",
+        "The work informs values for a controlled vocabulary for the newer Darwin Core term materialEntityType.",
+        "With DwC-A, events and localities have limited discoverability, and it is hard to know what a record documents (e.g. insects on a slab vs. in amber).",
+        "DwC-DP makes material the primary class for collection specimen data, increases the focus on events, and expands agent tables.",
+        "Geological context can link to either the event or the material directly; location is embedded in event.",
+        "The identification-taxon table helps align fossil taxonomy with shared backbones such as the Catalogue of Life.",
+        "For complex stratigraphy, a single core from one event and locality can have multiple geological contexts and subsamples.",
+        "Two test datasets used about 11 tables across the three mapping profiles; the datasets were created manually, record by record."
+      ],
+      "content_type": [
+        "case study",
+        "research",
+        "community/project"
+      ],
+      "audience_level": "intermediate",
+      "themes_raw": [
+        "paleontological collections data",
+        "fossil specimen categorisation",
+        "geological context",
+        "material as primary class",
+        "material and biological relationships in fossils",
+        "complex stratigraphy and cores",
+        "materialEntityType vocabulary",
+        "fossil taxonomy alignment",
+        "collection management system readiness",
+        "implementation guidance for paleo collections"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "Smithsonian National Museum of Natural History",
+          "type": "organisation"
+        },
+        {
+          "name": "Paleo Data Working Group",
+          "type": "working group"
+        },
+        {
+          "name": "Paleo Data Knowledge Hub",
+          "type": "project"
+        },
+        {
+          "name": "Catalogue of Life",
+          "type": "infrastructure"
+        },
+        {
+          "name": "GBIF",
+          "type": "organisation"
+        },
+        {
+          "name": "materialEntityType",
+          "type": "standard term"
+        },
+        {
+          "name": "Darwin Core Data Package",
+          "type": "standard"
+        }
+      ],
+      "standards": [
+        "Darwin Core Data Package",
+        "Darwin Core Archive",
+        "Darwin Core materialEntityType"
+      ],
+      "software_tools": [],
+      "datasets": [
+        "Two manually created paleontological DwC-DP test datasets"
+      ],
+      "methods": [
+        "categorising fossil specimen types into data groups with the paleo community",
+        "multiple mapping profiles for DwC-DP",
+        "manual record-by-record construction of test datasets"
+      ],
+      "questions": [],
+      "notable_claims": [
+        {
+          "claim": "Categorisation with the paleo community resulted in three primary data groups: standalone record, relationships, and complex stratigraphy.",
+          "timestamp": "00:57:25.599",
+          "confidence": "high"
+        },
+        {
+          "claim": "The categorisation work helps develop values for a vocabulary for the Darwin Core term materialEntityType.",
+          "timestamp": "00:58:08.720",
+          "confidence": "high"
+        },
+        {
+          "claim": "In previously published DwC-A data it is difficult to know exactly what a fossil record documents, e.g. insects on a slab or in amber.",
+          "timestamp": "00:58:44.240",
+          "confidence": "high"
+        },
+        {
+          "claim": "A major shift in DwC-DP is the use of material as the primary class for collection specimen data.",
+          "timestamp": "01:00:08.160",
+          "confidence": "high"
+        },
+        {
+          "claim": "Most collections management systems do not have the fields or tools to store or generate some of the data DwC-DP needs, especially identifiers.",
+          "timestamp": "01:05:04.480",
+          "confidence": "high"
+        }
+      ],
+      "recommendations": [
+        "Use multiple mapping profiles to leverage DwC-DP fully for fossils from paleo collections."
+      ],
+      "results_findings": [
+        "Two test datasets were developed using the three mapping profiles, using about 11 tables in total.",
+        "DwC-DP enables better representation of fossil specimen complexity than previous publishing models."
+      ],
+      "limitations": [
+        "Test datasets were created manually, record by record and term by term, and are still being refined.",
+        "More data groups may be defined.",
+        "Most collections management systems lack the fields and tools needed; the extensive use of identifiers is beyond current community capacity.",
+        "Resources and expertise to adapt vary widely across institutions."
+      ],
+      "future_work": [
+        "Integrate additional tables as testing continues.",
+        "Develop the Paleo Data Knowledge Hub with the Paleo Data Working Group.",
+        "Create a Darwin Core implementation guide specific to fossils that addresses DwC-DP once finalised.",
+        "Create example records for fossil types and data groups to illustrate the full data mobilisation pipeline."
+      ],
+      "examples_case_studies": [
+        "Fossil insects on a single slab versus in amber.",
+        "Insect damage on a plant, encrusting organisms, and fish preserved within another organism as biological relationships.",
+        "Core samples crossing multiple stratigraphic layers with foram subsample slides."
+      ],
+      "q_and_a": [],
+      "representative_excerpt": {
+        "timestamp": "01:04:51.680",
+        "text": "Ultimately, the Darcore data package does enable better representation of that complexity than previous publishing models. While that is true, it will take work to implement."
+      },
+      "notable_moments": [
+        {
+          "timestamp": "00:57:25.599",
+          "type": "key_point",
+          "description": "Three data groups for fossil specimens."
+        },
+        {
+          "timestamp": "00:58:44.240",
+          "type": "explanation",
+          "description": "Slab vs amber example of ambiguity in existing DwC-A fossil records."
+        },
+        {
+          "timestamp": "01:01:42.319",
+          "type": "explanation",
+          "description": "Geological context linked to event or material, and identification-taxon table for fossil taxonomy."
+        },
+        {
+          "timestamp": "01:04:59.760",
+          "type": "conclusion",
+          "description": "Implementation challenges: manual mapping, collection management systems and identifiers."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "00:54:37.119",
+          "end_timestamp": "01:06:39.079"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Scheduled fifth talk of Part 1 (virtual); presented fifth as a recorded video because the speaker could not travel. Scheduled and actual speaker are the same person; the in-person plan was replaced by a recording. No cross-part move."
+      }
+    },
+    {
+      "id": "livingdata-2025-dp-p1-07-discussion",
+      "type": "discussion",
+      "programme_id": "6798937-1-discussion",
+      "title": "Part 1 Q&A: effort, identifiers, complexity for users, Indigenous data, interactions, EML and extended specimens",
+      "programme": {
+        "title": "Discussion",
+        "speakers": [],
+        "session": "Darwin Core Data Package: an updated model and format for exchanging biodiversity data (Part 1)",
+        "scheduled_start": "2025-10-21T15:18:00",
+        "scheduled_end": "2025-10-21T15:28:00",
+        "abstract": ""
+      },
+      "actual": {
+        "start_timestamp": "01:07:53.440",
+        "end_timestamp": "01:32:00.080",
+        "duration_seconds": 1447,
+        "speakers": [
+          {
+            "name": "Tim Robertson",
+            "affiliation": "GBIF (deputy director and head of informatics)"
+          },
+          {
+            "name": "John Wieczorek",
+            "affiliation": "Rauthiflor LLC"
+          },
+          {
+            "name": "Kate Ingenloff",
+            "affiliation": ""
+          },
+          {
+            "name": "Eduardo Klein",
+            "affiliation": "Integrated Marine Observing System (IMOS), Australia"
+          },
+          {
+            "name": "Jane Anderson",
+            "affiliation": "Local Contexts"
+          },
+          {
+            "name": "Shandra (ASR spelling; uncertain)",
+            "affiliation": "National Ecological Observatory Network (NEON), USA"
+          },
+          {
+            "name": "Deb (surname not stated)",
+            "affiliation": ""
+          },
+          {
+            "name": "Unnamed participant",
+            "affiliation": "Biodiversity observation network in Quebec, Canada"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Combined Q&A for all Part 1 use cases, matching the scheduled Discussion slot; it started early because the session was about 15 minutes ahead of schedule (the chair says it is 3:05 with 25 minutes for questions). Tim Robertson introduces himself at 01:14:35.920; John Wieczorek follows (ASR 'John Vurik'). Many answers are not attributed in the captions: attributions to John Wieczorek (first effort question, complexity question, Indigenous data, interactions, workshops) and to Tim Robertson (EML, extended specimen) are inferred from content and context, and should be checked. Online question names are ASR and unverified: 'Matias Dylan'; 'Urit Pulen' (possibly Jorrit Poelen — unverified); 'KT Pearson' (possibly Katie Pearson — unverified); 'Kapia Molina', addressed by the answerer as 'Javier'. 'Edardo Klein' corrected to Eduardo Klein from the stated IMOS affiliation (medium confidence). The NEON participant's name is rendered 'Shandra'/'Aandra'.",
+        "transcript_quality": "medium"
+      },
+      "summary": "The Part 1 discussion covered whether DwC-DP is worth the extra effort. Panellists answered that DwC-DP is for those who need more than a DwC-A and have the resources, that DwC-A will remain supported, and that DwC-DP is \"only as complex as you need it to be\": only a fraction of the roughly 77 tables need be used. Tim Robertson explained that migration will require identifiers for entities such as materials, and predicted two classes of identifiers: persistent ones and ones that only join data within a dataset. Work so far has focused on publishers, and aggregators like GBIF would probably offer simplified views such as occurrences, material catalogues and interaction catalogues. Further questions covered Indigenous data and CARE principles (not yet addressed by a use case), why interactions are better in DwC-DP than via ResourceRelationship, why EML is kept rather than JSON metadata, training workshops, and how the model relates to extended specimen infrastructure (DiSSCo's openDS mapped easily).",
+      "one_line_takeaway": "Panellists positioned DwC-DP as optional, use-only-what-you-need richness, while acknowledging that identifiers, user-side simplification, Indigenous data governance and tooling are still open problems.",
+      "why_it_matters": "The questions capture the community's main concerns at the launch of the public review: standardisation effort, identifier management, consumer complexity and data governance. The answers set out how GBIF and the model authors plan to address them.",
+      "key_points": [
+        "Concern that standardising unstructured partner data into DwC-DP will require much more unbudgeted effort than DwC-A; answer: DwC-DP serves those who need more and have resources, and both formats will continue to be supported.",
+        "An audience member asked whether others use an LLM to interpret the formally described DwC-DP JSON schemas when mapping complex databases; no direct answer was captured.",
+        "Identifiers: moving to DwC-DP requires uniquely identifying entities (e.g. materials currently flattened into occurrences); tools such as the IPT will need to help; two classes of identifiers are expected.",
+        "User-side complexity: DwC-DP is only as complex as needed; use cases used from about six to over 20 of the roughly 77 tables; DwC-A is a good stepping stone and remains fine for many.",
+        "GBIF's focus so far has been publishers; the next stage is to consider aggregator needs and simplified views (occurrences, material catalogue with relationships, evidence for occurrences, organism interaction catalogue).",
+        "Indigenous data: no proper use case has been done yet; TDWG groups (e.g. sensitive data) and the Darwin Core Maintenance Group aim to carry solutions into DwC-DP, including CARE principles in usage policy.",
+        "Organism interactions were possible in DwC-A via ResourceRelationship, but only as a community workaround lacking semantic rigour; DwC-DP gives them a standards-based place.",
+        "EML is retained to avoid changing everything at once; the Catalogue of Life data package uses Markdown metadata with conversion to EML.",
+        "No further DwC-DP workshops at the conference; it had been part of the global nodes training (later clarified in Part 2 as an internal GBIF nodes event).",
+        "Extended specimen: DiSSCo's openDS was mapped faithfully and fairly easily to DwC-DP because the structures were already aligned (presented in Part 2).",
+        "Closing comment: richer data and new user interfaces showing associations will lead to richer visualisations."
+      ],
+      "content_type": [
+        "discussion"
+      ],
+      "audience_level": "intermediate",
+      "themes_raw": [
+        "standardisation effort and resourcing",
+        "LLM-assisted mapping",
+        "identifier minting and persistence",
+        "complexity for data users",
+        "aggregator simplified views",
+        "Indigenous data and CARE principles",
+        "organism interactions in DwC-A vs DwC-DP",
+        "EML vs JSON metadata",
+        "training and capacity building",
+        "extended specimen alignment",
+        "visualising richer data"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "GBIF",
+          "type": "organisation"
+        },
+        {
+          "name": "Integrated Publishing Toolkit (IPT)",
+          "type": "software"
+        },
+        {
+          "name": "Local Contexts",
+          "type": "organisation"
+        },
+        {
+          "name": "CARE principles",
+          "type": "standard"
+        },
+        {
+          "name": "Darwin Core Maintenance Group",
+          "type": "working group"
+        },
+        {
+          "name": "TDWG",
+          "type": "organisation"
+        },
+        {
+          "name": "Ecological Metadata Language (EML)",
+          "type": "standard"
+        },
+        {
+          "name": "Catalogue of Life Data Package",
+          "type": "standard"
+        },
+        {
+          "name": "DiSSCo",
+          "type": "infrastructure"
+        },
+        {
+          "name": "openDS",
+          "type": "standard"
+        },
+        {
+          "name": "Extended specimen",
+          "type": "concept"
+        },
+        {
+          "name": "National Ecological Observatory Network (NEON)",
+          "type": "organisation"
+        },
+        {
+          "name": "Integrated Marine Observing System (IMOS)",
+          "type": "organisation"
+        },
+        {
+          "name": "OBIS",
+          "type": "infrastructure"
+        }
+      ],
+      "standards": [
+        "Darwin Core Data Package",
+        "Darwin Core Archive",
+        "EML",
+        "Extended Measurement or Fact extension",
+        "Darwin Core ResourceRelationship",
+        "CARE principles",
+        "Catalogue of Life Data Package",
+        "openDS"
+      ],
+      "software_tools": [
+        "GBIF IPT",
+        "Large language models (raised by an audience member)"
+      ],
+      "datasets": [],
+      "methods": [],
+      "questions": [
+        "How can partners afford the extra effort of standardising unstructured data into DwC-DP?",
+        "What should publishers do with existing occurrenceIDs, how many new identifiers must be minted, and how stable must they be?",
+        "Will non-expert data users accept the more complex schema?",
+        "How will DwC-DP accommodate Indigenous data and interests?",
+        "Why switch to DwC-DP when interactions and phenology can already be shared via ResourceRelationship and eMoF?",
+        "Why is DwC-DP not using JSON for dataset metadata instead of EML XML?",
+        "Will there be DwC-DP introduction workshops?",
+        "How does DwC-DP relate to extended specimen infrastructure?",
+        "What simplified views should aggregators like GBIF provide on top of the richer model?"
+      ],
+      "notable_claims": [
+        {
+          "claim": "Both Darwin Core Archives and Darwin Core Data Packages will continue to be supported.",
+          "timestamp": "01:10:41.760",
+          "confidence": "medium"
+        },
+        {
+          "claim": "Some DwC-DP identifiers will be persistent (e.g. specimen IDs) while others may be valid only within one version of a dataset, leading to two classes of identifiers.",
+          "timestamp": "01:14:16.800",
+          "confidence": "high"
+        },
+        {
+          "claim": "The use cases used only some of the roughly 77 available tables; the model includes them all because each solved some use case, but publishers need only what they need.",
+          "timestamp": "01:16:16.239",
+          "confidence": "high"
+        },
+        {
+          "claim": "GBIF currently has no material catalogue and cannot represent relationships across material; simplified views on top of DwC-DP could provide these.",
+          "timestamp": "01:19:27.840",
+          "confidence": "high"
+        },
+        {
+          "claim": "The access/use-case exercise for consuming integrated DwC-DP data has not yet been done thoroughly.",
+          "timestamp": "01:21:17.520",
+          "confidence": "high"
+        },
+        {
+          "claim": "The usage policy as it stands in DwC-DP does not solve issues around Indigenous data, but needs to.",
+          "timestamp": "01:23:51.600",
+          "confidence": "medium"
+        },
+        {
+          "claim": "Sharing organism interactions in DwC-A via ResourceRelationship works but is not semantically rigorous; DwC-DP provides a standards-based place for them.",
+          "timestamp": "01:25:55.360",
+          "confidence": "high"
+        },
+        {
+          "claim": "EML was retained to avoid changing everything at once, as it has been used in the GBIF community for 15 or more years.",
+          "timestamp": "01:27:00.560",
+          "confidence": "high"
+        },
+        {
+          "claim": "DiSSCo's openDS mapped faithfully and fairly easily to DwC-DP because the target entities already existed.",
+          "timestamp": "01:30:10.719",
+          "confidence": "high"
+        }
+      ],
+      "recommendations": [
+        "Decide whether DwC-DP's additional capabilities are relevant before adopting it; staying with DwC-A is fine for many.",
+        "Think about access use cases and what aggregators should simplify (invitation to the community)."
+      ],
+      "results_findings": [],
+      "limitations": [
+        "No proper use case has yet addressed Indigenous data in DwC-DP.",
+        "Tools for managing identifiers are still needed.",
+        "Consumer/access use cases have not been worked through."
+      ],
+      "future_work": [
+        "GBIF to move into considering what aggregators need to do with DwC-DP data.",
+        "Integrate solutions from TDWG sensitive data work and CARE principles into DwC-DP usage policy."
+      ],
+      "examples_case_studies": [
+        "Global nodes meeting exercise mapping an artificial use case to DwC-DP.",
+        "Catalogue of Life data package using Markdown metadata translated to EML."
+      ],
+      "q_and_a": [
+        {
+          "question": "A participant from a biodiversity observation network in Quebec, Canada asked how to fund and approach standardising very unstructured partner data (Excel files) when DwC-DP may require exponentially more effort than DwC-A.",
+          "answer_summary": "An unattributed panellist (probably John Wieczorek) said the answer is complex: resources are already a problem for DwC-A, and DwC-DP enables those who need more and have the resources; publishers can choose either format, and both will continue to be supported.",
+          "timestamp": "01:07:53.440"
+        },
+        {
+          "question": "An audience member asked whether others load the formally described DwC-DP JSON into an LLM to be talked through mapping a complex SQL database.",
+          "answer_summary": "No panel answer captured; the questioner remarks 'not just me', apparently responding to audience reaction.",
+          "timestamp": "01:11:03.600"
+        },
+        {
+          "question": "Online question (ASR name 'Matias Dylan'): more tables mean more identifiers — what to do with existing occurrenceIDs, how many identifiers to mint, and how stable should they be?",
+          "answer_summary": "Tim Robertson: moving to DwC-DP is about expressing more relationships, which requires uniquely identifying entities such as materials; tools such as the IPT will need to help; some identifiers will persist (e.g. specimen IDs) while others only join data within one dataset version.",
+          "timestamp": "01:12:12.159"
+        },
+        {
+          "question": "Eduardo Klein (IMOS, Australia): DwC-DP solves the star schema's inflexibility for providers but is extremely complex for non-expert users; how will it be accepted?",
+          "answer_summary": "Probably John Wieczorek: it is only as complex as you need; most users need few tables and DwC-A remains a stepping stone. Tim Robertson: work has focused on publishers; aggregators will need to produce simplified views (occurrences, material catalogues, interaction catalogues), and access use cases still need to be worked out with the community.",
+          "timestamp": "01:14:52.880"
+        },
+        {
+          "question": "Jane Anderson (Local Contexts): how have the use cases dealt with Indigenous data, and how might DwC-DP open space for Indigenous interests?",
+          "answer_summary": "Unattributed (probably John Wieczorek): no proper use case yet; TDWG groups such as sensitive data and the Darwin Core Maintenance Group are working on it, including CARE principles in usage policy; the current usage policy does not solve these issues but needs to, and the standard is meant to evolve.",
+          "timestamp": "01:22:30.639"
+        },
+        {
+          "question": "Online question (ASR 'Urit Pulen', with support from 'KT Pearson'): interactions are already possible in DwC-A through ResourceRelationship/associatedOrganisms and phenology through eMoF — why switch?",
+          "answer_summary": "Unattributed: yes, interactions have been shared via DwC-A, but as a community trick that is not semantically rigorous and cannot distinguish an organism interaction from a material relationship; DwC-DP provides a standards-based place for interactions.",
+          "timestamp": "01:24:21.760"
+        },
+        {
+          "question": "Online question (ASR 'Kapia Molina'; addressed as Javier): why does DwC-DP not use JSON for metadata instead of EML XML?",
+          "answer_summary": "Unattributed (possibly Tim Robertson): to avoid changing everything at once; EML is established and used in the GBIF community for 15+ years; the Catalogue of Life data package uses Markdown with translation to EML; dataset metadata was not the focus.",
+          "timestamp": "01:26:38.960"
+        },
+        {
+          "question": "Online question: will there be DwC-DP introduction workshops?",
+          "answer_summary": "Unattributed: one was part of the global nodes training; none during the rest of the conference unless people find the speaker informally. (In Part 2, Tim Robertson clarifies that the nodes training was internal and the chair notes the materials are freely available.)",
+          "timestamp": "01:28:19.199"
+        },
+        {
+          "question": "Participant from NEON (ASR 'Shandra'): how was DwC-DP designed in relation to extended specimen infrastructure, from the model or front-end point of view?",
+          "answer_summary": "Probably Tim Robertson: extended specimen people collaborated throughout; Sam Leeflang's recorded Part 2 talk shows DiSSCo's openDS mapped faithfully and easily onto DwC-DP because the structures were already aligned.",
+          "timestamp": "01:28:52.639"
+        },
+        {
+          "question": "Deb (comment): collection management software is only beginning to get richer data out via extensions; how will extended data be seen?",
+          "answer_summary": "Comment rather than question: GBIF's interface now shows extensions, and new interfaces displaying biological associations point to much richer visualisations of these data.",
+          "timestamp": "01:30:46.719"
+        }
+      ],
+      "representative_excerpt": {
+        "timestamp": "01:14:16.800",
+        "text": "And I think we'll probably end up in the situation that we've got two classes of identifiers. Some that you can rely on and others that are really just joining data within one data set."
+      },
+      "notable_moments": [
+        {
+          "timestamp": "01:07:53.440",
+          "type": "question",
+          "description": "Opening question on the standardisation effort and lack of funding."
+        },
+        {
+          "timestamp": "01:12:38.159",
+          "type": "explanation",
+          "description": "Tim Robertson on identifiers and the expected two classes of identifiers."
+        },
+        {
+          "timestamp": "01:16:04.640",
+          "type": "key_point",
+          "description": "'It's complex' — only as complex as you need; most use cases use few of the ~77 tables."
+        },
+        {
+          "timestamp": "01:18:15.520",
+          "type": "key_point",
+          "description": "Tim Robertson on aggregator simplified views and the next stage of work."
+        },
+        {
+          "timestamp": "01:22:30.639",
+          "type": "question",
+          "description": "Jane Anderson's question on Indigenous data and the keynote."
+        },
+        {
+          "timestamp": "01:28:52.639",
+          "type": "question",
+          "description": "Question on extended specimen infrastructure, answered with reference to DiSSCo's openDS mapping in Part 2."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "01:07:53.440",
+          "end_timestamp": "01:32:00.080"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Matched to the scheduled Part 1 Discussion slot. All Part 1 questions were held until this combined session, so talk-specific Q&A could not be separated from general discussion; questions here are general rather than tied to one talk (the interactions question relates loosely to the iNaturalist talk)."
+      }
+    }
+  ],
+  "unassigned": [
+    {
+      "start_timestamp": "00:00:00.000",
+      "end_timestamp": "00:09:26.959",
+      "type": "unidentifiable",
+      "description": "Recording lead-in before the first caption; no captions available."
+    },
+    {
+      "start_timestamp": "00:26:12.000",
+      "end_timestamp": "00:26:29.320",
+      "type": "introduction",
+      "description": "Chair thanks Carrie Seltzer and introduces the next speaker (ASR 'Yolichek' = Jörg Holetschek) and the natural history collection use case."
+    },
+    {
+      "start_timestamp": "00:33:40.799",
+      "end_timestamp": "00:34:12.040",
+      "type": "introduction",
+      "description": "Chair introduces Yi-Ming Gan (ASR 'Ying Ming Gan') and the marine survey use case; notes the session is ahead of schedule and asks the audience to keep holding questions."
+    },
+    {
+      "start_timestamp": "00:45:23.839",
+      "end_timestamp": "00:46:00.560",
+      "type": "introduction",
+      "description": "Chair checks in with the audience and introduces the two remaining virtual presentations, starting with Cecilie Svenningsen's citizen science and DNA metabarcoding use case."
+    },
+    {
+      "start_timestamp": "00:52:12.480",
+      "end_timestamp": "00:52:41.800",
+      "type": "announcement",
+      "description": "Chair explains that Holly Little could not attend in person, citing the US government shutdown, and will present by recording; colleagues are online to answer questions at the end."
+    },
+    {
+      "start_timestamp": "00:52:41.800",
+      "end_timestamp": "00:53:09.680",
+      "type": "unidentifiable",
+      "description": "Caption gap before the recorded paleontology presentation; no captions available."
+    },
+    {
+      "start_timestamp": "00:53:09.680",
+      "end_timestamp": "00:53:13.000",
+      "type": "room_chatter",
+      "description": "Brief 'Just a moment.' while the recorded presentation is prepared."
+    },
+    {
+      "start_timestamp": "00:53:13.000",
+      "end_timestamp": "00:54:15.440",
+      "type": "unidentifiable",
+      "description": "Caption gap of about one minute before the recorded presentation begins; no captions available."
+    },
+    {
+      "start_timestamp": "00:54:15.440",
+      "end_timestamp": "00:54:37.119",
+      "type": "repeated_content",
+      "description": "First run of Holly Little's recorded opening (ASR 'Hi, I'm Paul informatics manager...'); the same introductory sentences are repeated in full from 00:54:37.119, so this partial first run is treated as repeated content."
+    },
+    {
+      "start_timestamp": "01:06:47.039",
+      "end_timestamp": "01:07:42.160",
+      "type": "introduction",
+      "description": "Chair closes the use-case part of the symposium, thanks speakers, notes the session is 15 minutes ahead of schedule (stating it is 3:05 with 25 minutes for questions) and opens the floor."
+    },
+    {
+      "start_timestamp": "01:32:00.080",
+      "end_timestamp": "01:32:16.960",
+      "type": "announcement",
+      "description": "Chair closes Part 1, announces the coffee break and asks for applause for the presenters."
+    }
+  ],
+  "programme_status": [
+    {
+      "programme_id": "6798937-1-introduction",
+      "title": "Introduction",
+      "status": "presented",
+      "content_item_id": "livingdata-2025-dp-p1-01-introduction",
+      "notes": "Delivered by the session chair (Kate) at the start of this recording."
+    },
+    {
+      "programme_id": "7020785",
+      "title": "From Observations to Interactions: iNaturalist and the Expanding Landscape of Biodiversity Data Sharing with DwC-DP",
+      "status": "presented",
+      "content_item_id": "livingdata-2025-dp-p1-02-inaturalist",
+      "notes": "Presented in person by Carrie Seltzer in scheduled order."
+    },
+    {
+      "programme_id": "7009288",
+      "title": "From Flat to Structured: Enhancing Natural History Collection Datasets in GBIF Using Darwin Core Data Packages",
+      "status": "presented",
+      "content_item_id": "livingdata-2025-dp-p1-03-bgbm-collections",
+      "notes": "Presented in person by Jörg Holetschek in scheduled order."
+    },
+    {
+      "programme_id": "7009182",
+      "title": "Modeling Complex Marine Survey Data Using the Darwin Core Data Package",
+      "status": "presented",
+      "content_item_id": "livingdata-2025-dp-p1-04-broke-west-marine",
+      "notes": "Presented in person by Yi-Ming Gan in scheduled order."
+    },
+    {
+      "programme_id": "7020632",
+      "title": "From A To DP - DwC-DP Captures The Full Story Of A Citizen Science And DNA Metabarcoding Survey",
+      "status": "presented",
+      "content_item_id": "livingdata-2025-dp-p1-05-insektmobilen",
+      "notes": "Presented as a recorded virtual talk by Cecilie Svenningsen, as scheduled."
+    },
+    {
+      "programme_id": "7018835",
+      "title": "Characterizing paleontological specimens for maximal alignment with global data practices",
+      "status": "presented",
+      "content_item_id": "livingdata-2025-dp-p1-06-paleo-specimens",
+      "notes": "Presented as a recording by Holly Little, who could not attend in person; co-authors were reported to be online for questions. Opening sentences repeated in captions."
+    },
+    {
+      "programme_id": "6798937-1-discussion",
+      "title": "Discussion",
+      "status": "presented",
+      "content_item_id": "livingdata-2025-dp-p1-07-discussion",
+      "notes": "Extended combined Q&A (about 24 minutes) because the session ran ahead of schedule."
+    }
+  ]
+}

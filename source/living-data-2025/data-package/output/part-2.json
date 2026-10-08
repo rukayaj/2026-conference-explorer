@@ -1,0 +1,1672 @@
+{
+  "recording": {
+    "conference": "Living Data 2025",
+    "year": 2025,
+    "date": "2025-10-21",
+    "room": "Ballroom A",
+    "video_url": "https://www.youtube.com/watch?v=sPsR0X69PsM",
+    "video_provider": "youtube",
+    "video_id": "sPsR0X69PsM",
+    "caption_kind": "automatic",
+    "recording_id": "livingdata-2025-data-package-part-2",
+    "session_id": "6798937-2",
+    "transcript_source": "part-2.srt",
+    "language": "en",
+    "notes": "Symposium 'Darwin Core Data Package: an updated model and format for exchanging biodiversity data (Part 2)'. Conference date is from the official programme, not the January 2026 YouTube upload date. Extraction is based only on YouTube automatic captions (not manually corrected); names and terms have been corrected from programme context where recognisable, and ASR renderings are documented in identification notes. The first caption is at 00:01:06.799; the lead-in before that has no captions. The actual presentation order matches the programme.json order for Part 2 exactly; no talks were moved to or from Part 1. In this part the chair took one or two questions after each talk, followed by a general Q&A. The question taken after Mikhail Podolskiy's talk was addressed to Federico Méndez and is kept with Federico's talk as a second source segment. Sam Leeflang's and Steve Baskauf's talks were pre-recorded. After the session closes (01:30:30.040) the caption track contains only [Music] markers and isolated ASR fragments until 01:35:05.880, then no captions to the end of the video."
+  },
+  "content_items": [
+    {
+      "id": "livingdata-2025-dp-p2-01-dwc-dp-overview",
+      "type": "talk",
+      "programme_id": "7020859",
+      "title": "Darwin Core Data Package: A Practical Evolution to Support Richer, Deeper, and New Biodiversity Data Sharing",
+      "programme": {
+        "title": "Darwin Core Data Package: A Practical Evolution to Support Richer, Deeper, and New Biodiversity Data Sharing",
+        "speakers": [
+          {
+            "name": "John Wieczorek",
+            "affiliation": "Rauthiflor LLC"
+          }
+        ],
+        "session": "Darwin Core Data Package: an updated model and format for exchanging biodiversity data (Part 2)",
+        "scheduled_start": "2025-10-21T16:00:00",
+        "scheduled_end": "2025-10-21T16:20:00",
+        "abstract": "After nearly two decades of success with Darwin Core and the Darwin Core Archive (DwC-A), the biodiversity informatics community faces the need to share data that are both richer in detail and deeper in structure than existing formats support. The Darwin Core Data Package (DwC-DP) emerges as a direct response to this need—not as a replacement, but as a natural, practical evolution of a trusted standard. This presentation introduces DwC-DP as the result of six years of iterative, use case–driven development and testing, designed to extend the capabilities of Darwin Core without discarding its simplicity or adoption base.The journey began with the Unified Model—a comprehensive conceptual design proven to meet complex use cases, but too burdensome for everyday use. DwC-DP captures the “sweet spot” of that design: flexible enough to support emerging data types (e.g., Nucleotide Analyses, Organism Interactions, Survey Targets, Phylogenetic Trees), while retaining usability for current data publishers.Key features include modular schemas, a clearly event-based structure, and reusable extension patterns for concepts like Agent Roles, Media, Assertions, Protocols, and References. DwC-DP supports both flattened and nested forms, empowering users to adopt the level of complexity appropriate to their data.This talk will demystify DwC-DP for audiences ranging from cautious data providers to advanced integrators, highlighting its role as a community-informed technical foundation—supported by GBIF, governed by TDWG, and shaped by global feedback. Attendees will leave with a clearer sense of how DwC-DP enables more science and better decision-making without requiring a disruptive shift for those already using Darwin Core."
+      },
+      "actual": {
+        "start_timestamp": "00:02:04.479",
+        "end_timestamp": "00:22:56.039",
+        "duration_seconds": 1252,
+        "speakers": [
+          {
+            "name": "John Wieczorek",
+            "affiliation": "Rauthiflor LLC"
+          },
+          {
+            "name": "Walter (surname not stated)",
+            "affiliation": ""
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Chair introduces 'John McCor' (ASR) for the overview; the speaker refers to himself as John ('when John has time to do it'), and programme context identifies John Wieczorek (affiliation from programme; not stated in captions). Includes talk-specific Q&A (00:20:18.160–00:22:56.039) with a follow-up comment from 'Walter' (ASR 'Valter'); the surname is not stated — possibly Walter G. Berendsohn, but unverified. 'Humbult Core' = Humboldt (Extension); 'frictions data packages' = Frictionless Data Packages; 'JBIFF' = GBIF.",
+        "transcript_quality": "medium"
+      },
+      "summary": "John Wieczorek set out the place of the Darwin Core Data Package within Darwin Core. Proposed additions under review include a conceptual model (described as a first semantic layer for Darwin Core), new and changed terms, and a DwC-DP guide that mirrors the Darwin Core text guide behind Darwin Core Archives. Archives allow only one layer of connection and suit spreadsheets, whereas data packages allow arbitrary depth and suit relational databases; both rely on EML and CSV/TSV. New capabilities include separating occurrence events from collecting events, nesting of material, events and media, open-ended survey targets, user-defined agent roles, explicit organism interactions, assertions on anything, nucleotide analyses and declared controlled vocabularies. A bee-monitoring example contrasted a DwC-A \"detective short story\" with a DwC-DP \"epic novel\", stressing that publishers use only what they need. The talk ended with review timelines, commitments and resources, followed by Q&A on extended and digital specimens.",
+      "one_line_takeaway": "DwC-DP is an additive, relational evolution of Darwin Core that keeps DwC-A working while allowing as much depth as a publisher needs.",
+      "why_it_matters": "It frames the governance and design rationale for the whole symposium: why a new format rather than extending DwC-A, what is under public review, and what GBIF and TDWG commit to during the transition.",
+      "key_points": [
+        "Darwin Core consists of documents and vocabularies (classes, properties and recommended controlled vocabularies).",
+        "Under review: a conceptual model as a semantic layer for Darwin Core, new terms, changes to existing terms, and a DwC-DP guide analogous to the Darwin Core text guide.",
+        "The quick reference guide is a Darwin Core offering but not part of the standard.",
+        "DwC-A cannot go more than one layer of connection deep; DwC-DP can go as deep as needed (spreadsheet vs database analogy).",
+        "Both formats rely on EML for dataset metadata and on CSV or tab-delimited files.",
+        "New capabilities: occurrence events distinct from collecting events (e.g. paleo), nesting, open survey targets, user-defined agent roles, explicit organism interactions, assertions about anything, nucleotide analyses, declaring controlled vocabularies.",
+        "Why something new: changing DwC-A would break current practice, and DwC-A uses a home-grown technology, whereas Frictionless Data Packages align with the wider world.",
+        "Bee-monitoring example: field identification, specimen, DNA sequence — three identifications that may disagree — plus assertions, media, bibliographic references and agents.",
+        "Public review began mid-September 2025 and runs at least until mid-December, possibly longer depending on consensus.",
+        "Commitments: continued support and training for DwC-A; augmented support for DwC-DP; IPT and the Metabarcoding Data Toolkit already publish DwC-DP in testing; a data mapping guide; example datasets; a community-produced user guide in progress.",
+        "After ratification, schemas go to the Darwin Core Maintenance Group, with hoped-for quarterly releases from 2026."
+      ],
+      "content_type": [
+        "standard",
+        "conceptual",
+        "policy/governance"
+      ],
+      "audience_level": "general",
+      "themes_raw": [
+        "Darwin Core standard structure",
+        "Darwin Core conceptual model",
+        "relational vs flat data packaging",
+        "Frictionless Data Packages",
+        "occurrence event vs collecting event",
+        "agent roles",
+        "assertions on any entity",
+        "declared controlled vocabularies",
+        "backwards compatibility with Darwin Core Archives",
+        "public review timeline",
+        "schema maintenance and release cadence",
+        "extended and digital specimen alignment"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "Darwin Core",
+          "type": "standard"
+        },
+        {
+          "name": "Darwin Core conceptual model",
+          "type": "standard"
+        },
+        {
+          "name": "Darwin Core Data Package guide",
+          "type": "standard"
+        },
+        {
+          "name": "Darwin Core text guide",
+          "type": "standard"
+        },
+        {
+          "name": "Darwin Core quick reference guide",
+          "type": "documentation"
+        },
+        {
+          "name": "Frictionless Data Packages",
+          "type": "standard"
+        },
+        {
+          "name": "Ecological Metadata Language (EML)",
+          "type": "standard"
+        },
+        {
+          "name": "Humboldt Extension",
+          "type": "standard"
+        },
+        {
+          "name": "GBIF Integrated Publishing Toolkit (IPT)",
+          "type": "software"
+        },
+        {
+          "name": "Metabarcoding Data Toolkit (MDT)",
+          "type": "software"
+        },
+        {
+          "name": "Darwin Core Maintenance Group",
+          "type": "working group"
+        },
+        {
+          "name": "Digital/extended specimen (openDS)",
+          "type": "standard"
+        }
+      ],
+      "standards": [
+        "Darwin Core",
+        "Darwin Core Archive",
+        "Darwin Core Data Package",
+        "Darwin Core conceptual model",
+        "Darwin Core text guide",
+        "Frictionless Data Packages",
+        "EML",
+        "Humboldt Extension"
+      ],
+      "software_tools": [
+        "GBIF Integrated Publishing Toolkit (IPT)",
+        "Metabarcoding Data Toolkit (MDT)"
+      ],
+      "datasets": [
+        "Use-case example datasets mapped to DwC-DP (repositories referenced)"
+      ],
+      "methods": [
+        "data mapping guide (ordered process for converting data to DwC-DP)"
+      ],
+      "questions": [],
+      "notable_claims": [
+        {
+          "claim": "The conceptual model is for the first time an attempt to provide a semantic layer for Darwin Core.",
+          "timestamp": "00:04:14.720",
+          "confidence": "high"
+        },
+        {
+          "claim": "Darwin Core Archives cannot go more than one layer of connection deep, whereas DwC-DP allows arbitrary depth.",
+          "timestamp": "00:07:40.160",
+          "confidence": "high"
+        },
+        {
+          "claim": "DwC-DP allows an occurrence event to be distinguished from a collecting event, which matters for paleontology.",
+          "timestamp": "00:09:11.360",
+          "confidence": "high"
+        },
+        {
+          "claim": "DwC-A is based on a technology designed for this community before Frictionless Data Packages existed and does not work with what the rest of the world is doing.",
+          "timestamp": "00:12:33.279",
+          "confidence": "high"
+        },
+        {
+          "claim": "The public review began in mid-September and will run at least until mid-December.",
+          "timestamp": "00:17:34.880",
+          "confidence": "high"
+        },
+        {
+          "claim": "There will be continued support, including training, for Darwin Core Archives.",
+          "timestamp": "00:18:02.160",
+          "confidence": "high"
+        },
+        {
+          "claim": "The GBIF IPT and the Metabarcoding Data Toolkit already publish Darwin Core Data Packages in testing.",
+          "timestamp": "00:18:19.280",
+          "confidence": "high"
+        },
+        {
+          "claim": "The hope is for scheduled quarterly releases beginning in 2026.",
+          "timestamp": "00:19:43.200",
+          "confidence": "high"
+        }
+      ],
+      "recommendations": [
+        "Use only the parts of the model your data need."
+      ],
+      "results_findings": [],
+      "limitations": [],
+      "future_work": [
+        "Community-produced DwC-DP user guide with recipes for specific problems.",
+        "Transfer of schemas to Darwin Core Maintenance Group maintenance after ratification, with quarterly releases from 2026."
+      ],
+      "examples_case_studies": [
+        "Bee-monitoring survey with a bee landing on a flower, specimen capture, leg removal, DNA extract and sequence, illustrating DwC-A 'detective short story' vs DwC-DP 'epic novel'."
+      ],
+      "q_and_a": [
+        {
+          "question": "An audience member said the model sounds like the extended specimen concept and asked how it is similar or different.",
+          "answer_summary": "John Wieczorek: the digital specimen effort has done the mapping and found it easier than most would because their structures were already very similar; DwC-DP is not a replacement but covers all kinds of biodiversity use cases, not just material, overlapping in part.",
+          "timestamp": "00:20:34.480"
+        },
+        {
+          "question": "Follow-up comment from Walter on the digital specimen data model.",
+          "answer_summary": "The digital specimen data model was developed in the same time frame with a lot of communication to align concepts; the open data model (openDS, presented the next day) is roughly a subset because it is specimen-specific, whereas DwC-DP also captures other events.",
+          "timestamp": "00:22:02.720"
+        }
+      ],
+      "representative_excerpt": {
+        "timestamp": "00:16:08.000",
+        "text": "Now, do you have to do all that? No, not at all. You only need to use what you need to use and you decide that, not me."
+      },
+      "notable_moments": [
+        {
+          "timestamp": "00:04:14.720",
+          "type": "key_point",
+          "description": "Conceptual model introduced as the first semantic layer for Darwin Core."
+        },
+        {
+          "timestamp": "00:09:04.000",
+          "type": "explanation",
+          "description": "What DwC-DP can do that DwC-A cannot."
+        },
+        {
+          "timestamp": "00:12:55.120",
+          "type": "demonstration",
+          "description": "Bee example: DwC-A 'detective short story' versus DwC-DP 'epic novel'."
+        },
+        {
+          "timestamp": "00:17:20.799",
+          "type": "key_point",
+          "description": "Public review timeline and commitments to DwC-A and DwC-DP."
+        },
+        {
+          "timestamp": "00:20:34.480",
+          "type": "question",
+          "description": "Question on the relationship to the extended specimen concept."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "00:02:04.479",
+          "end_timestamp": "00:22:56.039"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Scheduled first talk of Part 2 and presented first in this recording. No cross-part move. Talk-specific Q&A included."
+      }
+    },
+    {
+      "id": "livingdata-2025-dp-p2-02-abcd",
+      "type": "talk",
+      "programme_id": "7015382",
+      "title": "Two Decades of ABCD: Advancing Structured Biodiversity Data Sharing",
+      "programme": {
+        "title": "Two Decades of ABCD: Advancing Structured Biodiversity Data Sharing",
+        "speakers": [
+          {
+            "name": "Anton Güntsch",
+            "affiliation": "Freie Universität Berlin, Botanic Garden and Botanical Museum Berlin"
+          }
+        ],
+        "session": "Darwin Core Data Package: an updated model and format for exchanging biodiversity data (Part 2)",
+        "scheduled_start": "2025-10-21T16:20:00",
+        "scheduled_end": "2025-10-21T16:32:00",
+        "abstract": "ABCD (Access to Biological Collection Data, https:||abcd.tdwg.org|) is a TDWG (Biodiversity Information Standards) standard that was developed by a broad international collaboration to create a structured framework for capturing and exchanging biodiversity data.ABCD was implemented as a hierarchical XML schema, allowing it to interoperate seamlessly with standardized software components. This design enables diverse applications such as data publication, harvesting and aggregation, quality control, and access through data portals. By facilitating harmonized exchange and integration of primary biodiversity data, ABCD supports robust scientific workflows and analyses (Holetschek et al. 2012, https:||doi.org|10.1080|11263504.2012.740085).Over the past two decades, ABCD has undergone continuous refinement to align with the evolving needs of the biodiversity informatics community. In parallel with the widely used Darwin Core standard (Wieczorek et al. 2012, https:||doi.org|10.1371|journal.pone.0029715), ABCD plays a vital role in promoting the harmonization, mobilization, and dissemination of biodiversity data across both national and international infrastructures. Domain-specific extensions for ABCD play a central role for special-interest networks, like the Global Genome Biodiversity Network (GGBN, Droege et al. 2016, https:||doi.org|10.1093|database|baw125). An important example of the use of ABCD at the national level is the establishment of standardized data flows between domain data centers and central aggregation and data analysis platforms in NFDI4Biodiversity in Germany (Glöckner et al. 2020, https:||doi.org|10.5281|zenodo.3943645).The latest iteration of the standard, ABCD version 3.0, introduces a significant architectural enhancement: the semantic definitions of data elements are now decoupled from their structural representation in XML. This modularization promotes greater flexibility in how the standard can be applied and reused, facilitating integration into emerging data ecosystems and enhancing interoperability (Fichtmueller et al. 2019, https:||doi.org|10.3897|biss.3.37214). In particular, ABCD contributes to the emerging \"Darwin Core Data Package\" a new initiative aimed at enabling the global exchange and reuse of structured collection and observational data based on Frictionless Data technology (https:||frictionlessdata.io|)."
+      },
+      "actual": {
+        "start_timestamp": "00:23:20.559",
+        "end_timestamp": "00:31:54.360",
+        "duration_seconds": 514,
+        "speakers": [
+          {
+            "name": "Anton Güntsch",
+            "affiliation": "Freie Universität Berlin, Botanic Garden and Botanical Museum Berlin"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Chair introduces 'Anon Gch' (ASR) to talk about ABCD; programme identifies Anton Güntsch (affiliation from programme). ASR: 'Walter Bansson' = Walter Berendsohn; 'set 3950' = Z39.50; 'bioase' = BioCASe; 'NFT for biodiversity' = NFDI4Biodiversity; 'Daring Cove'/'DAC' = Darwin Core; 'Tedwick' = TDWG. 'variable optimization' is likely 'variable atomisation' and 'bioank community' may be 'DNA bank' community — both uncertain. No question was taken afterwards (see unassigned).",
+        "transcript_quality": "medium"
+      },
+      "summary": "Anton Güntsch traced the history of biodiversity data models. About 30 years ago, comprehensive relational reference models (e.g. Walter Berendsohn's model for collections and surveys) were used mainly for local databases, while early networks such as the Species Analyst (Z39.50) and the European natural history specimen information network used much simpler models. XML was then agreed as the right balance of comprehensibility and expressiveness. That led to ABCD, developed between 2001 and 2006: comprehensive, highly hierarchical, with extension slots for networks such as GGBN, and now about 100 provider installations, more than 10 special-interest networks, integration into GBIF, and use in NFDI4Biodiversity. ABCD 3.0 made it a semantic standard. Güntsch argued that DwC-DP's relational structure realises the original relational vision. The ABCD/BioCASe community will help develop and maintain DwC-DP, build templates, and extend the BioCASe help desk to complex DwC-DP data.",
+      "one_line_takeaway": "For the ABCD/BioCASe community, DwC-DP fulfils the long-held aim of exchanging relational biodiversity data, and they will actively support it.",
+      "why_it_matters": "It places DwC-DP in a 30-year lineage of biodiversity data models and commits a major existing standard community and its help desk to supporting the transition rather than competing with it.",
+      "key_points": [
+        "Around 30 years ago the community built comprehensive relational reference models for collections and surveys, used mainly for isolated local databases.",
+        "Early network pilots used simplified models: the Species Analyst (Z39.50) and the European natural history specimen information network (HTTP, XML with a common DTD).",
+        "These pilots led to agreement that XML offered the right balance of comprehensibility and expressiveness, the basis for ABCD.",
+        "ABCD was developed 2001–2006 by an international team; it is comprehensive, highly hierarchical, has few controlled vocabularies, has extension slots for networks like GGBN, and supports structured annotations.",
+        "The version history is described as messy; the main versions are ABCD 2.06 (most widely used), 2.1 and 3.0 (semantic).",
+        "Infrastructure includes provider software, harvesting and indexing tools, portal software and monitoring components.",
+        "About 100 ABCD provider installations worldwide, over 10 special-interest networks, integration into GBIF and use within NFDI4Biodiversity; a BioCASe help desk supports providers.",
+        "ABCD serves as a container for other standards: geosciences, DNA and anthropological extensions.",
+        "DwC-DP's relational structure closely resembles the early relational models.",
+        "The ABCD/BioCASe initiative will contribute to DwC-DP development and maintenance, develop templates for typical usage scenarios, and extend the help desk to DwC-DP."
+      ],
+      "content_type": [
+        "standard",
+        "community/project"
+      ],
+      "audience_level": "intermediate",
+      "themes_raw": [
+        "history of biodiversity data models",
+        "relational vs hierarchical data models",
+        "ABCD standard evolution",
+        "XML-based data exchange networks",
+        "special interest networks",
+        "national infrastructure data flows",
+        "community support and help desks",
+        "convergence of ABCD and DwC-DP"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "ABCD (Access to Biological Collection Data)",
+          "type": "standard"
+        },
+        {
+          "name": "BioCASe",
+          "type": "infrastructure"
+        },
+        {
+          "name": "BioCASe help desk",
+          "type": "service"
+        },
+        {
+          "name": "GGBN",
+          "type": "infrastructure"
+        },
+        {
+          "name": "NFDI4Biodiversity",
+          "type": "infrastructure"
+        },
+        {
+          "name": "GBIF",
+          "type": "organisation"
+        },
+        {
+          "name": "Species Analyst",
+          "type": "project"
+        },
+        {
+          "name": "European natural history specimen information network",
+          "type": "project"
+        },
+        {
+          "name": "Z39.50",
+          "type": "standard"
+        },
+        {
+          "name": "TDWG",
+          "type": "organisation"
+        },
+        {
+          "name": "Walter Berendsohn",
+          "type": "person"
+        }
+      ],
+      "standards": [
+        "ABCD 2.06",
+        "ABCD 2.1",
+        "ABCD 3.0",
+        "Darwin Core Data Package",
+        "Z39.50",
+        "XML"
+      ],
+      "software_tools": [
+        "BioCASe provider software",
+        "ABCD harvesting and indexing tools",
+        "ABCD portal software"
+      ],
+      "datasets": [],
+      "methods": [],
+      "questions": [],
+      "notable_claims": [
+        {
+          "claim": "About 30 years ago the community developed relational reference models for observational and specimen data, used mainly for implementing local databases rather than for networks.",
+          "timestamp": "00:23:54.080",
+          "confidence": "high"
+        },
+        {
+          "claim": "ABCD was developed between 2001 and 2006 by an international team of experts.",
+          "timestamp": "00:27:02.640",
+          "confidence": "high"
+        },
+        {
+          "claim": "ABCD 2.06 is the most widely used version, and ABCD 3.0 turned ABCD into a semantic standard.",
+          "timestamp": "00:28:26.480",
+          "confidence": "high"
+        },
+        {
+          "claim": "There are presently about 100 installations of ABCD providers worldwide across more than 10 special interest networks, and ABCD is integrated into the GBIF data corpus.",
+          "timestamp": "00:29:11.200",
+          "confidence": "high"
+        },
+        {
+          "claim": "The BioCASe help desk will continue and will extend its focus to highly structured data using DwC-DP.",
+          "timestamp": "00:31:08.799",
+          "confidence": "high"
+        }
+      ],
+      "recommendations": [],
+      "results_findings": [],
+      "limitations": [
+        "The early network pilot had limited scientific use because only six or seven data sources were connected.",
+        "A concept in ABCD (ASR 'variable optimization') is described by the speaker as a mistake."
+      ],
+      "future_work": [
+        "Contribute to development and maintenance of the DwC-DP standard.",
+        "Develop templates for typical DwC-DP usage scenarios.",
+        "Integrate DwC-DP structures into the BioCASe help desk."
+      ],
+      "examples_case_studies": [
+        "NFDI4Biodiversity use of ABCD for data exchange between components in Germany."
+      ],
+      "q_and_a": [],
+      "representative_excerpt": {
+        "timestamp": "00:30:25.600",
+        "text": "So for us it's really for the ABCD and bioase community it's really a relief to see that now the original idea of relational data representation and transmitting relational structures over the internet uh finally comes true."
+      },
+      "notable_moments": [
+        {
+          "timestamp": "00:23:49.919",
+          "type": "explanation",
+          "description": "History of biodiversity data models from 30 years ago."
+        },
+        {
+          "timestamp": "00:29:11.200",
+          "type": "key_point",
+          "description": "Current scale of ABCD use."
+        },
+        {
+          "timestamp": "00:30:13.919",
+          "type": "conclusion",
+          "description": "Why DwC-DP is not off topic: relational structures realised, and the ABCD/BioCASe commitment to support it."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "00:23:20.559",
+          "end_timestamp": "00:31:54.360"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Scheduled second talk of Part 2; presented second. No cross-part move. The chair invited one question but none was captured."
+      }
+    },
+    {
+      "id": "livingdata-2025-dp-p2-03-dissco-opends",
+      "type": "talk",
+      "programme_id": "7019768",
+      "title": "Seamless Integration: How DiSSCo's openDS Facilitates Data Interoperability with the Darwin Core Data Package",
+      "programme": {
+        "title": "Seamless Integration: How DiSSCo's openDS Facilitates Data Interoperability with the Darwin Core Data Package",
+        "speakers": [
+          {
+            "name": "Sam Leeflang",
+            "affiliation": "Naturalis Biodiversity Center"
+          }
+        ],
+        "session": "Darwin Core Data Package: an updated model and format for exchanging biodiversity data (Part 2)",
+        "scheduled_start": "2025-10-21T16:32:00",
+        "scheduled_end": "2025-10-21T16:44:00",
+        "abstract": "The Distributed System for Scientific Collection (DiSSCo) has been following the developments of the Darwin Core Conceptual Model and the Darwin Core Data Package (DwC-DP) with great interest. DiSSCo is an emerging European Research Infrastructure Consortium (ERIC) aimed at accelerating the digitisation of Europe's Natural History Collections. Vital to this acceleration is the exchange of knowledge, ideas, and tools, which can be done through the DiSSCo infrastructure. Essential for the infrastructure is a collective language in the form of data standards, which we call open Digital Specimen (openDS).The development of openDS has been done in parallel to the development of the Darwin Core Conceptual Model. OpenDS has reached production maturity after it has gone through a public review in 2024. OpenDS is a document focussed specification optimized for data curation, where each document represents a Fair Digital Object (FDO). This means that openDS is broader than the specimen information but also contains models to capture annotations and provenance. As the openDS Digital Specimen and Digital Media models are developed on top of existing TDWG standards and the work on the Darwin Core Conceptual Model, they can be seen as an implementation of the conceptual model. Translations between openDS and DwC-DP, both implementations of the conceptual model, can therefore be made without any loss in data.During the session, DiSSCo will share their experience with implementing both the conceptual model in the form of openDS and the translation from openDS to the DwC-DP. DiSSCo will be able to create DwC-DP for any of their data, showing how specimen from Natural History Collections can be mapped to DwC-DP."
+      },
+      "actual": {
+        "start_timestamp": "00:32:53.440",
+        "end_timestamp": "00:43:31.000",
+        "duration_seconds": 638,
+        "speakers": [
+          {
+            "name": "Sam Leeflang",
+            "affiliation": "DiSSCo (programme affiliation: Naturalis Biodiversity Center)"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Pre-recorded virtual presentation as scheduled; the chair says Sam Leeflang (ASR 'Sam Lupang'; self-introduction ASR 'Sam Leang') could not attend in person and was online to answer questions in the chat. ASR: 'Disco' = DiSSCo; 'open DS'/'opens' = openDS; 'FDOS' = FDOs (FAIR Digital Objects); 'John Courage' = John Wieczorek; 'GBF unified model' = GBIF Unified Model; 'civilization structure' = serialisation structure; 'nuclide' = nucleotide; 'Dharma habitat' = probably the Darwin Core term habitat. In Part 1, Tim Robertson previewed this talk when answering a question on extended specimens (see livingdata-2025-dp-p1-07-discussion).",
+        "transcript_quality": "medium"
+      },
+      "summary": "Sam Leeflang explained that DiSSCo aims to create FAIR Digital Objects as digital extended specimens. In 2022, rather than invent yet another standard, DiSSCo chose to align its open Digital Specimen (openDS) specification with the GBIF Unified Model, and later with the Darwin Core conceptual model. openDS went through public review and is now in production. It is described as a separate, specimen-specific implementation of the conceptual model: document-oriented, denormalised JSON optimised for mutating single specimens. DwC-DP, in contrast, is a full, normalised tabular reference implementation. DiSSCo mapped almost all openDS terms to about 23 DwC-DP schemas, and any dataset in its acceptance environment can now be downloaded as a DwC-A or DwC-DP (the largest about 750,000 records). Identifiers implicit in nested documents had to be created with MD5 hashes and temporary tables.",
+      "one_line_takeaway": "Because openDS was built on the same conceptual model, DiSSCo can transform specimen data to DwC-DP with almost no loss, needing only generated identifiers.",
+      "why_it_matters": "It shows that two different serialisations of the Darwin Core conceptual model — document-oriented for curation and tabular for transport — can interoperate nearly losslessly, supporting the case that the conceptual model works as a common language.",
+      "key_points": [
+        "DiSSCo (Distributed System of Scientific Collections) aims to accelerate digitisation of European specimen data as rich FAIR Digital Objects (digital extended specimens).",
+        "In 2022 there was no standard to reuse; to avoid adding another competing standard, DiSSCo aligned with the GBIF Unified Model presented by John Wieczorek and Tim Robertson.",
+        "openDS moved through public review last year and is used in production.",
+        "openDS is considered a separate, specimen-specific implementation of the Darwin Core conceptual model; DwC-DP is seen as a full reference implementation.",
+        "openDS does not implement all classes (e.g. no nucleotide analysis or sequence) and uses a document-oriented JSON structure that denormalises and duplicates information per specimen, because DiSSCo expects many mutations on single specimens.",
+        "Expected benefits of alignment: a common data and human language, leveraging TDWG community work, and lossless transfer from openDS to DwC-DP as a transport model.",
+        "Implementation: about 23 schemas, almost all openDS terms mapped in the acceptance environment; any dataset downloadable as DwC-A or DwC-DP; largest DwC-DP about 750,000 records.",
+        "Material is at the centre of both the openDS model and the DwC-DP implementation.",
+        "Lesson: interoperability is good with little data loss, but relationships implicit in nested documents required generated identifiers (MD5 hash of the object), temporary tables and CSV dumps.",
+        "After ratification, DiSSCo will move DwC-DP export to production and move future openDS iterations closer to the conceptual model, including collaboration on controlled vocabularies."
+      ],
+      "content_type": [
+        "infrastructure",
+        "standard",
+        "case study"
+      ],
+      "audience_level": "intermediate",
+      "themes_raw": [
+        "digital extended specimens",
+        "FAIR Digital Objects",
+        "avoiding standards proliferation",
+        "document-oriented vs normalised tabular models",
+        "conceptual model implementations",
+        "lossless data transformation",
+        "generated identifiers via hashing",
+        "European research infrastructure"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "DiSSCo (Distributed System of Scientific Collections)",
+          "type": "infrastructure"
+        },
+        {
+          "name": "openDS (open Digital Specimen)",
+          "type": "standard"
+        },
+        {
+          "name": "FAIR Digital Objects",
+          "type": "concept"
+        },
+        {
+          "name": "GBIF Unified Model",
+          "type": "standard"
+        },
+        {
+          "name": "Darwin Core conceptual model",
+          "type": "standard"
+        },
+        {
+          "name": "Naturalis Biodiversity Center",
+          "type": "organisation"
+        },
+        {
+          "name": "TDWG",
+          "type": "organisation"
+        }
+      ],
+      "standards": [
+        "openDS",
+        "Darwin Core conceptual model",
+        "Darwin Core Data Package",
+        "Darwin Core Archive",
+        "GBIF Unified Model",
+        "JSON"
+      ],
+      "software_tools": [
+        "DiSSCo acceptance environment export (DwC-A and DwC-DP downloads)"
+      ],
+      "datasets": [
+        "DiSSCo specimen datasets exportable as DwC-DP (largest about 750,000 records)"
+      ],
+      "methods": [
+        "mapping openDS terms to DwC-DP schemas",
+        "MD5 hashing of objects to generate identifiers",
+        "temporary database tables dumped to CSV"
+      ],
+      "questions": [],
+      "notable_claims": [
+        {
+          "claim": "Rather than creating another data standard and worsening a fragmented landscape, DiSSCo chose to reuse and align with the GBIF Unified Model.",
+          "timestamp": "00:35:24.079",
+          "confidence": "high"
+        },
+        {
+          "claim": "openDS went through public review last year and is now used in production.",
+          "timestamp": "00:36:05.119",
+          "confidence": "high"
+        },
+        {
+          "claim": "DiSSCo views openDS as a separate, specimen-specific implementation of the Darwin Core conceptual model, and DwC-DP as a full reference implementation of it.",
+          "timestamp": "00:36:39.119",
+          "confidence": "high"
+        },
+        {
+          "claim": "openDS denormalises information into one document per specimen because DiSSCo expects many mutations on single specimens rather than bulk aggregations.",
+          "timestamp": "00:38:13.280",
+          "confidence": "high"
+        },
+        {
+          "claim": "DiSSCo implemented about 23 schemas and mapped almost all openDS terms; any dataset can be downloaded as DwC-A or DwC-DP in the acceptance environment.",
+          "timestamp": "00:40:09.520",
+          "confidence": "high"
+        },
+        {
+          "claim": "The largest dataset available as a DwC-DP is about 750,000 records.",
+          "timestamp": "00:40:36.960",
+          "confidence": "high"
+        },
+        {
+          "claim": "Identifiers for nested objects were generated with an MD5 hash of the object.",
+          "timestamp": "00:42:01.040",
+          "confidence": "high"
+        }
+      ],
+      "recommendations": [
+        "Participate in the DwC-DP public review."
+      ],
+      "results_findings": [
+        "Interoperability between openDS and DwC-DP is good, with little data loss.",
+        "Almost all openDS terms could be mapped to DwC-DP."
+      ],
+      "limitations": [
+        "Relationships implicit in nested openDS documents lack identifiers, requiring generated hash identifiers and duplication via temporary tables."
+      ],
+      "future_work": [
+        "Move DwC-DP export to the DiSSCo production environment after ratification.",
+        "Move future openDS iterations closer to the conceptual model and align classes and terms.",
+        "Collaborate further on controlled vocabularies."
+      ],
+      "examples_case_studies": [
+        "DiSSCo acceptance environment offering DwC-A and DwC-DP downloads for any dataset."
+      ],
+      "q_and_a": [],
+      "representative_excerpt": {
+        "timestamp": "00:41:34.240",
+        "text": "Well, the interoperability is is is good. We we don't lose a lot of data in the transformation."
+      },
+      "notable_moments": [
+        {
+          "timestamp": "00:35:24.079",
+          "type": "key_point",
+          "description": "Decision to align with the GBIF Unified Model rather than create a new standard."
+        },
+        {
+          "timestamp": "00:37:13.520",
+          "type": "explanation",
+          "description": "DwC-DP as normalised tabular reference implementation vs openDS as document-oriented JSON."
+        },
+        {
+          "timestamp": "00:40:09.520",
+          "type": "result",
+          "description": "Implementation status: ~23 schemas, DwC-A and DwC-DP downloads, ~750,000-record dataset."
+        },
+        {
+          "timestamp": "00:41:30.560",
+          "type": "conclusion",
+          "description": "Lessons learned: near-lossless transfer, generated MD5 identifiers."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "00:32:53.440",
+          "end_timestamp": "00:43:31.000"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Scheduled third talk of Part 2 (virtual); presented third as a recording. No cross-part move. The chair offered Q&A (speaker in chat; Walter able to answer in the room) but no question was asked."
+      }
+    },
+    {
+      "id": "livingdata-2025-dp-p2-04-gbif-implementation",
+      "type": "talk",
+      "programme_id": "7019798",
+      "title": "Implementation Status of the Darwin Core Data Package (DwC DP) at GBIF",
+      "programme": {
+        "title": "Implementation Status of the Darwin Core Data Package (DwC DP) at GBIF",
+        "speakers": [
+          {
+            "name": "Federico Méndez",
+            "affiliation": "GBIF Secretariat"
+          }
+        ],
+        "session": "Darwin Core Data Package: an updated model and format for exchanging biodiversity data (Part 2)",
+        "scheduled_start": "2025-10-21T16:44:00",
+        "scheduled_end": "2025-10-21T16:56:00",
+        "abstract": "The implementation of the Darwin Core Data Package (DwC-DP) goes beyond enabling publishing mechanisms,i t also benefits from data services that support search, discovery, and exploration. GBIF.org currently offers a robust data indexing platform, including an API and data portal. A large proportion of the available data has been published using the existing Darwin Core Archive (DwC-A) standard. While DwC-A’s simplicity has enabled effective aggregation within a centralized infrastructure, the richer modeling capabilities of the new DwC-DP introduce both opportunities and challenges for future data services.To address this, the GBIF Secretariat is developing a phased roadmap for data ingestion and discovery services based on the new DwC-DP. The roadmap includes: enabling the publishing and registration of DwC-DP datasets; extending dataset catalogs to support discovery; facilitating exploration of dataset structures and schemas; and, in the near future, implementing global data services for cross-dataset querying and downloads, comparable to those currently available on GBIF.org.This presentation provides a status update on the development of this roadmap. It demonstrates how a DwC-DP dataset can be published, ingested, and explored through its internal structure via a test data portal. Finally, it outlines upcoming service enhancements for both the current DwC-A platform and the evolving DwC-DP based infrastructure."
+      },
+      "actual": {
+        "start_timestamp": "00:44:30.720",
+        "end_timestamp": "01:01:44.280",
+        "duration_seconds": 613,
+        "speakers": [
+          {
+            "name": "Federico Méndez",
+            "affiliation": "GBIF Secretariat, Copenhagen"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Self-introduction ASR 'Ric Mendes'; chair says 'Feder Federico Mendes'. Two source segments: the presentation (00:44:30.720–00:53:08.280) and talk-specific Q&A (01:00:09.280–01:01:44.280), which took place in the question slot after Mikhail Podolskiy's talk but was explicitly addressed to Federico ('My question is for Fed'). actual start/end span both segments; duration_seconds is the sum of the two segments (517.56 s + 95.00 s), not end minus start, because Mikhail Podolskiy's talk lies between them. ASR: 'JIF'/'JIVF'/'GB'/'J' = GBIF; 'MDT'/'entity' = Metabarcoding Data Toolkit; 'Mika' = Mikhail; 'fifth milestone' is probably 'first milestone'; 'mastering tree' = milestone three; 'elastic search post and clear house' = probably Elasticsearch, Postgres and ClickHouse. The speaker's ASR is disfluent, with many repetitions.",
+        "transcript_quality": "low"
+      },
+      "summary": "Federico Méndez gave GBIF's DwC-DP implementation plan. It has four areas: standards promotion and support, data publishing, dataset representation in the GBIF platform/APIs/portal, and longer-term data services. For the coming year there are three milestones. Milestone 1 covers provisional support in the IPT and Metabarcoding Data Toolkit, validation tools, and a minimal dataset view on the new GBIF website before year end. Milestone 2 covers mature documentation, IPT mapping UX, a versioning strategy, DwC-A/DwC-DP conversion and improved dataset pages. Milestone 3 covers long-term questions such as new data services and whether one or several portals are needed. A development-environment demo showed an MDT-published DwC-DP registered in GBIF, with a graphical view of tables, fields and relationships and basic table exploration. Planned additions include a DwC-DP download format, maps, metrics, validation reports and an API. In Q&A, Méndez said milestones 1 and 2 are not sequential.",
+      "one_line_takeaway": "GBIF is phasing in DwC-DP support, from provisional publishing and dataset views now to integrated data services later, with publishing and display developed in parallel.",
+      "why_it_matters": "It tells publishers and data users concretely what GBIF will support and when, and what remains undecided (e.g. new data services and portals) for richer DwC-DP data.",
+      "key_points": [
+        "Four implementation areas: data standards promotion and support; data publishing; representation of DwC-DP datasets in the GBIF platform, APIs and portal; data services (long-term).",
+        "Three milestones for the coming year.",
+        "Milestone 1: schema and standards work, provisional support in the IPT and MDT, validation and mapping tools (also as GBIF portal services), and minimal display of DwC-DP datasets in the new GBIF website before year end.",
+        "Milestone 2: mature technical and user documentation, improve IPT mapping UX, initiate a versioning strategy for progressive improvements, tools for conversion between DwC-A and DwC-DP, improved dataset representation.",
+        "Milestone 3 (future): new data services, the question of one versus multiple data portals for very different kinds of datasets, multiple APIs.",
+        "Demo (development environment): MDT exports DwC-A or DwC-DP; a registered DwC-DP is shown as a graphical view of the data package descriptor (tables, fields, relationships), with basic exploration of the event and other tables.",
+        "Planned features: DwC-DP download format, map view where coordinates exist, table and column metrics, validation status reports, and a basic API.",
+        "Libraries: a Java library to validate and read data packages, and a library to load data packages into data stores (probably Elasticsearch, Postgres and ClickHouse).",
+        "Q&A: milestones 1 and 2 are not sequential, so users can publish soon with a way to view datasets and better documentation."
+      ],
+      "content_type": [
+        "infrastructure",
+        "software/tool"
+      ],
+      "audience_level": "intermediate",
+      "themes_raw": [
+        "GBIF implementation roadmap",
+        "milestone planning",
+        "dataset registration and display",
+        "validation services",
+        "versioning strategy for evolving standards",
+        "format conversion between DwC-A and DwC-DP",
+        "data portal design for heterogeneous datasets",
+        "data package descriptor visualisation",
+        "data store ingestion libraries"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "GBIF Secretariat",
+          "type": "organisation"
+        },
+        {
+          "name": "GBIF.org data portal",
+          "type": "platform"
+        },
+        {
+          "name": "GBIF API",
+          "type": "software"
+        },
+        {
+          "name": "Integrated Publishing Toolkit (IPT)",
+          "type": "software"
+        },
+        {
+          "name": "Metabarcoding Data Toolkit (MDT)",
+          "type": "software"
+        },
+        {
+          "name": "Elasticsearch",
+          "type": "software"
+        },
+        {
+          "name": "PostgreSQL",
+          "type": "software"
+        },
+        {
+          "name": "ClickHouse",
+          "type": "software"
+        }
+      ],
+      "standards": [
+        "Darwin Core Data Package",
+        "Darwin Core Archive",
+        "Frictionless data package descriptor"
+      ],
+      "software_tools": [
+        "GBIF Integrated Publishing Toolkit (IPT)",
+        "Metabarcoding Data Toolkit (MDT)",
+        "GBIF data portal (test/development site)",
+        "Java library for validating and reading data packages",
+        "Data package import library for Elasticsearch, Postgres and ClickHouse (names inferred from ASR)"
+      ],
+      "datasets": [],
+      "methods": [
+        "phased implementation roadmap with milestones",
+        "graphical visualisation of data package descriptors"
+      ],
+      "questions": [
+        "What new data services will GBIF need for DwC-DP data?",
+        "Does GBIF need one or multiple data portals for datasets of very different nature?"
+      ],
+      "notable_claims": [
+        {
+          "claim": "GBIF's implementation plan defines four main areas: standards promotion and support, data publishing, representation in the GBIF platform, and data services.",
+          "timestamp": "00:44:41.040",
+          "confidence": "high"
+        },
+        {
+          "claim": "A minimal display of DwC-DP datasets in the new GBIF website should be available before the end of the year.",
+          "timestamp": "00:46:18.960",
+          "confidence": "medium"
+        },
+        {
+          "claim": "GBIF wants validation tools available both within publishing tools and as a service in the GBIF portal for DwC-DPs assembled outside those tools.",
+          "timestamp": "00:47:11.200",
+          "confidence": "high"
+        },
+        {
+          "claim": "GBIF intends a versioning strategy because the post-review standard is a first draft implementation that will change.",
+          "timestamp": "00:48:08.480",
+          "confidence": "high"
+        },
+        {
+          "claim": "The dataset structure view shown is work in progress in a development environment, not yet public.",
+          "timestamp": "00:50:47.119",
+          "confidence": "high"
+        },
+        {
+          "claim": "Milestones 1 and 2 are not sequential; the third milestone is future work.",
+          "timestamp": "01:00:52.000",
+          "confidence": "high"
+        }
+      ],
+      "recommendations": [],
+      "results_findings": [
+        "Provisional DwC-DP export exists in the Metabarcoding Data Toolkit, and a registered DwC-DP can be displayed structurally in a development portal."
+      ],
+      "limitations": [
+        "The dataset exploration features are still in a development environment and not yet available to the public."
+      ],
+      "future_work": [
+        "DwC-DP download format.",
+        "Map views where coordinates are present, table and column metrics, validation status reports and a basic API.",
+        "Conversion services between DwC-A and DwC-DP.",
+        "Design of integrated data services and possibly multiple APIs/portals."
+      ],
+      "examples_case_studies": [
+        "Metabarcoding Data Toolkit upload, mapping and export of a dataset as DwC-DP, registered and viewed in a GBIF development portal."
+      ],
+      "q_and_a": [
+        {
+          "question": "An audience member asked whether the milestones will be implemented sequentially, since data consumers need to know what searches will be meaningful and this should inform how-to guides for publishing.",
+          "answer_summary": "Federico Méndez: no — milestones 1 and 2 are not sequential, so that users can start publishing DwC-DP as soon as possible, with a mechanism to view datasets and better documentation; the third milestone is future work.",
+          "timestamp": "01:00:16.319"
+        }
+      ],
+      "representative_excerpt": {
+        "timestamp": "00:48:06.480",
+        "text": "We we are totally aware that this is just after the public review is the first and draft implementation of the standard. So we have to anticipate how are we going to accommodate the changes in the future."
+      },
+      "notable_moments": [
+        {
+          "timestamp": "00:45:39.920",
+          "type": "key_point",
+          "description": "Three milestones for the coming year."
+        },
+        {
+          "timestamp": "00:49:47.440",
+          "type": "demonstration",
+          "description": "Demo of MDT export and graphical DwC-DP dataset view in a development portal."
+        },
+        {
+          "timestamp": "00:51:28.640",
+          "type": "key_point",
+          "description": "Planned portal features and supporting libraries."
+        },
+        {
+          "timestamp": "01:00:16.319",
+          "type": "question",
+          "description": "Question on whether milestones are sequential."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "00:44:30.720",
+          "end_timestamp": "00:53:08.280"
+        },
+        {
+          "start_timestamp": "01:00:09.280",
+          "end_timestamp": "01:01:44.280"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Scheduled fourth talk of Part 2; presented fourth. No cross-part move. Its Q&A occurred after the following talk (Mikhail Podolskiy) and is attached here as a second source segment."
+      }
+    },
+    {
+      "id": "livingdata-2025-dp-p2-05-ipt-tools",
+      "type": "talk",
+      "programme_id": "7016769",
+      "title": "Implementing the proposed DwC-DP format in GBIF: data publishing tools",
+      "programme": {
+        "title": "Implementing the proposed DwC-DP format in GBIF: data publishing tools",
+        "speakers": [
+          {
+            "name": "Mikhail Podolskiy",
+            "affiliation": "GBIF"
+          }
+        ],
+        "session": "Darwin Core Data Package: an updated model and format for exchanging biodiversity data (Part 2)",
+        "scheduled_start": "2025-10-21T16:56:00",
+        "scheduled_end": "2025-10-21T17:06:00",
+        "abstract": "The GBIF Integrated Publishing Toolkit (IPT) has enabled the publication of thousands of datasets in a robust and user-friendly way for more than a decade. This success is due in part to the simplicity and clarity of the Darwin Core standard, as well as the straightforward workflows the IPT provides for data publishers.As the data model supporting the mobilization of more complex biodiversity data evolves, so too must the infrastructure. Traditional schemas like Darwin Core have served the community well, but they limit the expression of richer biodiversity information. To address this, GBIF is working towards introducing the new Darwin Core Data Package (DwC-DP), designed to better represent complex relationships among biodiversity entities. While DwC-DP opens exciting possibilities for linking entities and supporting diverse data types, it also presents significant challenges for developers and data publishers. We must balance this increased richness with usability, ensuring that tools like the IPT remain accessible to a broad community. Key challenges include managing data model versions, providing user guidance for complex schemas, and ensuring that schema governance and validation workflows are transparent and sustainable.This presentation will offer a vision for implementing DwC-DP support in the IPT, including design decisions, current state and limitations, and planned improvements.We aim to inspire contributions and ideas from the TDWG community to improve tooling and practices, ultimately helping to lower the barriers to publishing high-quality, richly structured biodiversity datasets."
+      },
+      "actual": {
+        "start_timestamp": "00:53:41.200",
+        "end_timestamp": "01:00:05.480",
+        "duration_seconds": 384,
+        "speakers": [
+          {
+            "name": "Mikhail Podolskiy",
+            "affiliation": "GBIF (lead developer, Integrated Publishing Toolkit)"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Self-introduces as 'Mikail', lead developer for the IPT at GBIF ('JBIF'); chair says 'Male Podski Podski' (ASR); also referred to as 'Mika' by Federico Méndez and 'Misha' by an audience member. ASR: 'IP'/'AP' = IPT; 'OBS' = OBIS; 'pentological' = paleontological; 'Daring'/'diving core' = Darwin Core. The question taken immediately after this talk was addressed to Federico Méndez and is attached to livingdata-2025-dp-p2-04-gbif-implementation. A later question to Mikhail about community dataset profiles is in the general discussion (livingdata-2025-dp-p2-07-discussion).",
+        "transcript_quality": "medium"
+      },
+      "summary": "Mikhail Podolskiy, lead developer of GBIF's Integrated Publishing Toolkit (IPT), discussed the user-interface challenges of supporting DwC-DP: a large, overwhelming new model, many identifiers and join tables, and identifier maintenance. A dropdown listing all 70-plus tables clearly does not scale. Proposed solutions were profiles or templates: subsets of the model with selected tables and fields, descriptions and search keywords, which can be public or local and are managed within the IPT. A made-up paleontological profile was shown as an example. Other ideas were table categories, an improved dropdown, an advanced search across fields, examples and descriptions (e.g. for 'collector'), a schematic visualisation of mapped tables like the one in the MDT, and 'splitting tools' that break a flat source table into several DwC-DP tables and generate their identifiers.",
+      "one_line_takeaway": "To keep DwC-DP publishable in the IPT, GBIF proposes profiles, better model navigation and search, visualisation, and tools that split tables and generate identifiers.",
+      "why_it_matters": "Usability of publishing tools is likely to decide whether DwC-DP is adopted; this sets out how the most widely used GBIF publishing tool intends to make a 70-plus-table model manageable.",
+      "key_points": [
+        "The IPT is a formatting and sharing tool for publishing to GBIF and OBIS.",
+        "Challenges: a new, large and complicated model; relational structure with many identifiers and join tables; maintaining identifiers.",
+        "Listing all 70-plus tables in the current IPT dropdown does not scale.",
+        "Profiles/templates: subsets of the model with tables and fields, comprehensive descriptions and search keywords; public or local; downloadable; resources can be created from them and they can be edited.",
+        "A profile management tool in the IPT would be needed to edit, add fields and tables, save, upload and download profiles.",
+        "Navigation ideas: table categories, improved dropdown lists, and an advanced search engine across tables, terms, examples and descriptions.",
+        "Visualisation: a schematic view of mapped tables and their connections, as already implemented in the MDT.",
+        "Splitting tools: split source data (e.g. event ID, date, collector) into multiple DwC-DP tables and generate the required identifiers automatically."
+      ],
+      "content_type": [
+        "software/tool"
+      ],
+      "audience_level": "intermediate",
+      "themes_raw": [
+        "publishing tool usability",
+        "dataset profiles and templates",
+        "model navigation and search",
+        "schema visualisation",
+        "identifier generation tooling",
+        "table splitting"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "GBIF Integrated Publishing Toolkit (IPT)",
+          "type": "software"
+        },
+        {
+          "name": "GBIF",
+          "type": "organisation"
+        },
+        {
+          "name": "OBIS",
+          "type": "infrastructure"
+        },
+        {
+          "name": "Metabarcoding Data Toolkit (MDT)",
+          "type": "software"
+        }
+      ],
+      "standards": [
+        "Darwin Core Data Package"
+      ],
+      "software_tools": [
+        "GBIF Integrated Publishing Toolkit (IPT)",
+        "Metabarcoding Data Toolkit (MDT)"
+      ],
+      "datasets": [],
+      "methods": [
+        "profile/template subsets of the DwC-DP model",
+        "table-splitting with automatic identifier generation"
+      ],
+      "questions": [],
+      "notable_claims": [
+        {
+          "claim": "The DwC-DP model is huge and can be overwhelming for users, with many identifiers, connections and join tables.",
+          "timestamp": "00:54:23.280",
+          "confidence": "high"
+        },
+        {
+          "claim": "Putting all 70-plus DwC-DP tables in the IPT dropdown does not scale.",
+          "timestamp": "00:55:25.680",
+          "confidence": "high"
+        },
+        {
+          "claim": "One idea is a profile or template concept: a subset of the model with selected tables and fields, descriptions and search keywords.",
+          "timestamp": "00:55:40.480",
+          "confidence": "high"
+        },
+        {
+          "claim": "The paleontological profile shown is a made-up example, not a real dataset profile.",
+          "timestamp": "00:56:21.280",
+          "confidence": "high"
+        },
+        {
+          "claim": "Splitting tools could generate identifiers when splitting source data into multiple DwC-DP tables.",
+          "timestamp": "00:59:20.160",
+          "confidence": "high"
+        }
+      ],
+      "recommendations": [],
+      "results_findings": [],
+      "limitations": [
+        "The current IPT approach of listing all tables does not scale to DwC-DP."
+      ],
+      "future_work": [
+        "Profiles/templates and a profile management tool in the IPT.",
+        "Categories, improved dropdowns and advanced search for navigating the model.",
+        "Schematic visualisation of mapped tables.",
+        "Splitting tools that generate identifiers."
+      ],
+      "examples_case_studies": [
+        "Made-up paleontological dataset profile.",
+        "Search for 'collector' across fields, examples and descriptions.",
+        "Splitting a source table with event ID, date and collector into three DwC-DP tables."
+      ],
+      "q_and_a": [],
+      "representative_excerpt": {
+        "timestamp": "00:55:23.359",
+        "text": "see what how it would look like if we put all 70 plus tables in the dropdown. So it obviously doesn't scale this approach."
+      },
+      "notable_moments": [
+        {
+          "timestamp": "00:54:23.280",
+          "type": "key_point",
+          "description": "Challenges of DwC-DP for publishing tools."
+        },
+        {
+          "timestamp": "00:55:40.480",
+          "type": "explanation",
+          "description": "Profiles/templates proposed as a UI solution."
+        },
+        {
+          "timestamp": "00:59:20.160",
+          "type": "key_point",
+          "description": "Splitting tools for identifier management."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "00:53:41.200",
+          "end_timestamp": "01:00:05.480"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Scheduled fifth talk of Part 2; presented fifth. No cross-part move."
+      }
+    },
+    {
+      "id": "livingdata-2025-dp-p2-06-public-review",
+      "type": "talk",
+      "programme_id": "7009601",
+      "title": "Darwin Core Data Package public review process",
+      "programme": {
+        "title": "Darwin Core Data Package public review process",
+        "speakers": [
+          {
+            "name": "Steve Baskauf",
+            "affiliation": "Darwin Core Maintenance Group"
+          }
+        ],
+        "session": "Darwin Core Data Package: an updated model and format for exchanging biodiversity data (Part 2)",
+        "scheduled_start": "2025-10-21T17:06:00",
+        "scheduled_end": "2025-10-21T17:18:00",
+        "abstract": "The TDWG Vocabulary Maintenance Specification (VMS, http:||rs.tdwg.org|vms|doc|specification|) provides a mechanism for making a set of coordinated changes to a vocabulary. The Darwin Core Data Package (DwC-DP) falls into this category of coordinated additions to the Darwin Core standard (http:||www.tdwg.org|standards|450). In this presentation, I will describe how the public review process described by the VMS applies to the DwC-DP proposal. Specifically, I will detail: what is under review, how the proposed changes will be added to the standard and its documentation, and how the public can provide comments to participate in the public review."
+      },
+      "actual": {
+        "start_timestamp": "01:03:06.799",
+        "end_timestamp": "01:09:32.520",
+        "duration_seconds": 386,
+        "speakers": [
+          {
+            "name": "Steve Baskauf",
+            "affiliation": "Darwin Core Maintenance Group (convenor)"
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "Pre-recorded virtual presentation as scheduled. Self-introduction captioned 'Steve Baskoff, the convenor of the Darwin Core Maintenance Group'; chair says 'Steve Basco'. ASR: 'Tadwig'/'TAWIG' = TDWG; 'Dolan core'/'dollar core' = Darwin Core. Questions about the review process were handled in the general discussion (livingdata-2025-dp-p2-07-discussion), where the chair also relayed the speaker's chat reply.",
+        "transcript_quality": "high"
+      },
+      "summary": "Steve Baskauf, convenor of the Darwin Core Maintenance Group, explained how the DwC-DP proposal is being reviewed under the TDWG Vocabulary Maintenance Specification. Anyone may propose changes; the maintenance group assesses demand, efficacy and stability, then opens a public comment period seeking consensus, and the Executive Committee ratifies. Because DwC-DP is a vocabulary enhancement beyond the basic term layer, it required user feedback documents. Under review are two documents, the conceptual model and the data package guide (based on Frictionless Data Packages), plus related term additions and changes. Implementation details such as how data packages are actually built are outside the standard. The review opened in September and runs at least until 16 December: 90 days instead of the usual 30 because of the proposal's complexity. Comments go to GitHub issues, reached via a landing page and per-class issue summaries, or by email to the convenor.",
+      "one_line_takeaway": "The DwC-DP proposal is in an extended 90-day TDWG public review covering the conceptual model, the data package guide and related term changes, with comments taken on GitHub or by email.",
+      "why_it_matters": "It tells the community exactly what is up for decision, what is not, and how to take part, which is essential for reaching the consensus needed to ratify DwC-DP.",
+      "key_points": [
+        "Changes to TDWG vocabularies are governed by the Vocabulary Maintenance Specification.",
+        "Any person or group may propose changes; the maintenance group reviews proposals for community demand, efficacy and stability of existing implementations.",
+        "Approved proposals normally get a 30-day public comment period seeking consensus; the Executive Committee checks procedures and ratifies.",
+        "Vocabulary enhancements (beyond the 'bag of terms' layer) require user feedback documents.",
+        "Under review: the conceptual model document, the data package guide (based on Frictionless Data Packages), and term additions/modifications needed to impose this structure.",
+        "Darwin Core data packages will implement the data packages guide as DwC-As implement the text guide, but the implementation details are outside the standard and not part of the review.",
+        "A landing page (linked from the TDWG website news item) gives document links, term changes and per-class issue summaries.",
+        "The maintenance group approved the proposal for public comment in September; review runs at least to December 16 (90 days).",
+        "Comments are made in the Darwin Core GitHub issue tracker or emailed to the convenor to post.",
+        "End users need not feel bad about not commenting on the documents, which mainly target application developers; there will be later opportunities as implementations develop."
+      ],
+      "content_type": [
+        "policy/governance",
+        "standard"
+      ],
+      "audience_level": "general",
+      "themes_raw": [
+        "TDWG vocabulary maintenance process",
+        "public review participation",
+        "consensus-based standard ratification",
+        "vocabulary enhancements",
+        "scope of what is under review",
+        "GitHub issue-based commenting"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "TDWG Vocabulary Maintenance Specification",
+          "type": "standard"
+        },
+        {
+          "name": "Darwin Core Maintenance Group",
+          "type": "working group"
+        },
+        {
+          "name": "TDWG Executive Committee",
+          "type": "organisation"
+        },
+        {
+          "name": "Darwin Core conceptual model",
+          "type": "standard"
+        },
+        {
+          "name": "Darwin Core Data Package guide",
+          "type": "standard"
+        },
+        {
+          "name": "Frictionless Data Packages",
+          "type": "standard"
+        },
+        {
+          "name": "Darwin Core GitHub issue tracker",
+          "type": "platform"
+        },
+        {
+          "name": "TDWG website (tdwg.org)",
+          "type": "platform"
+        }
+      ],
+      "standards": [
+        "TDWG Vocabulary Maintenance Specification",
+        "Darwin Core",
+        "Darwin Core conceptual model",
+        "Darwin Core Data Package guide",
+        "Darwin Core text guide",
+        "Frictionless Data Packages"
+      ],
+      "software_tools": [
+        "GitHub issue tracker"
+      ],
+      "datasets": [],
+      "methods": [
+        "TDWG public review and consensus process"
+      ],
+      "questions": [],
+      "notable_claims": [
+        {
+          "claim": "The maintenance group reviews proposals against three criteria: community demand, efficacy in meeting an identified need, and maintaining stability of existing implementations.",
+          "timestamp": "01:03:54.000",
+          "confidence": "high"
+        },
+        {
+          "claim": "Vocabulary enhancements require user feedback documents to be submitted with the proposal.",
+          "timestamp": "01:04:37.520",
+          "confidence": "high"
+        },
+        {
+          "claim": "Implementation details of Darwin Core data packages are outside the standard and not part of the review.",
+          "timestamp": "01:05:50.079",
+          "confidence": "high"
+        },
+        {
+          "claim": "The public review is ongoing until at least December 16th and lasts 90 days rather than the normal 30 because of the proposal's complexity.",
+          "timestamp": "01:06:56.480",
+          "confidence": "high"
+        },
+        {
+          "claim": "Commenters who have difficulty with GitHub can email their comments to the convenor, who will post them.",
+          "timestamp": "01:08:07.440",
+          "confidence": "high"
+        }
+      ],
+      "recommendations": [
+        "Review the term changes grouped by class using the issue summaries.",
+        "Participate in the review via the GitHub issue tracker or by email."
+      ],
+      "results_findings": [],
+      "limitations": [],
+      "future_work": [
+        "Additional opportunities for user feedback as implementations based on the new documents are developed."
+      ],
+      "examples_case_studies": [],
+      "q_and_a": [],
+      "representative_excerpt": {
+        "timestamp": "01:06:56.480",
+        "text": "The public review is ongoing until at least December 16th. This period of review is 90 days rather than the normal 30 days due to the complexity of the proposal."
+      },
+      "notable_moments": [
+        {
+          "timestamp": "01:03:38.960",
+          "type": "explanation",
+          "description": "Overview of the TDWG vocabulary change process."
+        },
+        {
+          "timestamp": "01:05:00.160",
+          "type": "key_point",
+          "description": "What is under review: conceptual model, data package guide and term changes."
+        },
+        {
+          "timestamp": "01:07:10.240",
+          "type": "explanation",
+          "description": "How to comment via the landing page, issue summaries and GitHub."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "01:03:06.799",
+          "end_timestamp": "01:09:32.520"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Scheduled sixth talk of Part 2 (virtual); presented sixth as a recording. No cross-part move."
+      }
+    },
+    {
+      "id": "livingdata-2025-dp-p2-07-discussion",
+      "type": "discussion",
+      "programme_id": "6798937-2-discussion",
+      "title": "Part 2 Q&A: review participation, profiles, metabarcoding scale, nested assertions, projects and building expertise",
+      "programme": {
+        "title": "Discussion",
+        "speakers": [],
+        "session": "Darwin Core Data Package: an updated model and format for exchanging biodiversity data (Part 2)",
+        "scheduled_start": "2025-10-21T17:18:00",
+        "scheduled_end": "2025-10-21T17:30:00",
+        "abstract": ""
+      },
+      "actual": {
+        "start_timestamp": "01:10:25.520",
+        "end_timestamp": "01:30:04.880",
+        "duration_seconds": 1179,
+        "speakers": [
+          {
+            "name": "Tim Robertson",
+            "affiliation": "GBIF (deputy director and head of informatics)"
+          },
+          {
+            "name": "John Wieczorek",
+            "affiliation": "Rauthiflor LLC"
+          },
+          {
+            "name": "Mikhail Podolskiy",
+            "affiliation": "GBIF"
+          },
+          {
+            "name": "Kate Ingenloff",
+            "affiliation": ""
+          },
+          {
+            "name": "Nikki (surname not stated)",
+            "affiliation": ""
+          },
+          {
+            "name": "Lynn (ASR; surname not stated)",
+            "affiliation": ""
+          },
+          {
+            "name": "Unnamed audience members",
+            "affiliation": ""
+          }
+        ],
+        "identification_confidence": "high",
+        "identification_notes": "General Q&A after the final talk, matching the scheduled Part 2 Discussion. Tim Robertson re-introduces himself at 01:17:09.760. Several answers are unattributed in the captions; those attributed to John Wieczorek (review participation, nested assertions, expert forum — he says 'instead of just me' and offers to be available for the next year — and the project class) are inferred from content and should be checked. The person who described the user guide at 01:16:40.159 is unidentified. 'Erica Criminal' (ASR) = Erica Krimmel. 'Misha' = Mikhail Podolskiy. 'Fede' = Federico Méndez. Questions about the review process relate to Steve Baskauf's talk, and the profiles question relates to Mikhail Podolskiy's talk, but they are kept here because they were asked and answered by the panel in the general Q&A and the threads cross-reference one another.",
+        "transcript_quality": "medium"
+      },
+      "summary": "The closing discussion began with whether the public review receives adequate comments. The panel feared the community is not yet educated enough to comment meaningfully on such a complex, interdependent proposal, where a lack of consensus on one part could cascade. Issue summaries let people focus on what matters to them, Erica Krimmel had volunteered to host 'Darwin Core hours', and GitHub thumbs-up reactions are a useful way to signal agreement. A suggestion that thematic communities propose and endorse IPT dataset profiles led Tim Robertson to recount how community-specific publishing models (ColDP, Camtrap DP) were dropped after fragmentation concerns, only for profiles to re-emerge as the unified model felt overwhelming. Tim also said metabarcoding DwC-As reach half a terabyte because of star-schema repetition, and DwC-DP can shrink them about a thousandfold. Other questions covered nested trait assertions (not supported; would need a new term), a forum for unusual use cases, project-level metadata (no project class yet), and building expertise through training and the TDWG review.",
+      "one_line_takeaway": "Panellists acknowledged that review participation, model complexity and expertise are real constraints, while arguing that metabarcoding scale makes something like DwC-DP operationally necessary.",
+      "why_it_matters": "The discussion reveals open design gaps (recursive assertions, project class), governance risks in the review, and the operational driver (metabarcoding data volume) behind GBIF's implementation priorities.",
+      "key_points": [
+        "Review participation: fair so far but uneven; the community may not be educated enough to comment meaningfully; no consensus means a proposal is excluded, and interdependencies could cascade.",
+        "Issue summaries were a new way of organising issues so that interested people can go directly to the parts that matter to them.",
+        "Erica Krimmel had volunteered to host 'Darwin Core hours' for education and discussion (not yet scheduled).",
+        "GitHub thumbs-up reactions are the built-in way to signal agreement without flooding issues with comments.",
+        "Steve Baskauf replied in the chat (relayed by the chair) that the number of comments depends on the topic.",
+        "Dataset profiles: GBIF would implement the concept and communities would decide on and manage their own profiles; the user guide aims to give domain-specific starting points.",
+        "Tim Robertson: community-specific publishing models (ColDP for checklists, Camtrap DP) were discouraged as fragmenting; a single model became overwhelming; simplified profiles may return, integrable through the conceptual model.",
+        "Metabarcoding DwC-As with about 27 million detections reach half a terabyte due to star-schema repetition; the same data as DwC-DP via the MDT can be about a thousand times smaller.",
+        "GBIF may need to implement part of DwC-DP specifically to support metabarcoding even if not everything at once.",
+        "No recursive relationship on assertions yet for nested trait measurements; a workaround exists but a related-assertion identifier term could be added given a strong use case.",
+        "Model experts have been helping with unusual use cases for over a year and will continue; the goal is to produce more experts.",
+        "No project class yet; project information is limited to EML or project names/IDs in provenance; a project class could be developed.",
+        "Building expertise: an internal GBIF node-manager training (correcting the Part 1 workshop answer), bringing the work to TDWG, keeping the community together; training materials are freely available."
+      ],
+      "content_type": [
+        "discussion"
+      ],
+      "audience_level": "intermediate",
+      "themes_raw": [
+        "public review participation and consensus",
+        "community education on standards",
+        "signalling agreement in reviews",
+        "community-managed dataset profiles",
+        "fragmentation vs unified publishing model",
+        "metabarcoding data volume and star schema repetition",
+        "nested and recursive assertions for traits",
+        "expert support for unusual use cases",
+        "project-level metadata",
+        "capacity building and training"
+      ],
+      "themes_normalized": [],
+      "entities": [
+        {
+          "name": "GBIF",
+          "type": "organisation"
+        },
+        {
+          "name": "TDWG",
+          "type": "organisation"
+        },
+        {
+          "name": "Darwin Core Maintenance Group",
+          "type": "working group"
+        },
+        {
+          "name": "GitHub",
+          "type": "platform"
+        },
+        {
+          "name": "Integrated Publishing Toolkit (IPT)",
+          "type": "software"
+        },
+        {
+          "name": "Metabarcoding Data Toolkit (MDT)",
+          "type": "software"
+        },
+        {
+          "name": "Catalogue of Life Data Package (ColDP)",
+          "type": "standard"
+        },
+        {
+          "name": "Camtrap DP",
+          "type": "standard"
+        },
+        {
+          "name": "DNA-derived data extension",
+          "type": "standard"
+        },
+        {
+          "name": "Ecological Metadata Language (EML)",
+          "type": "standard"
+        },
+        {
+          "name": "Erica Krimmel",
+          "type": "person"
+        },
+        {
+          "name": "Darwin Core hours",
+          "type": "project"
+        }
+      ],
+      "standards": [
+        "Darwin Core Data Package",
+        "Darwin Core Archive",
+        "ColDP",
+        "Camtrap DP",
+        "DNA-derived data extension",
+        "EML"
+      ],
+      "software_tools": [
+        "GBIF Integrated Publishing Toolkit (IPT)",
+        "Metabarcoding Data Toolkit (MDT)",
+        "GitHub issue tracker"
+      ],
+      "datasets": [
+        "Metabarcoding Darwin Core Archives with about 27 million detections"
+      ],
+      "methods": [],
+      "questions": [
+        "Does the public review attract adequate and representative commenting?",
+        "How can reviewers signal agreement rather than only objections?",
+        "Could thematic communities propose and endorse dataset profiles?",
+        "Can DwC-DP accommodate nested trait measurements?",
+        "Is there a forum where people with unusual use cases can talk them through with model experts?",
+        "Where should project-level metadata go in DwC-DP?",
+        "How will more DwC-DP experts be developed?"
+      ],
+      "notable_claims": [
+        {
+          "claim": "When consensus is not achieved in a Darwin Core review the proposal is not included, and with DwC-DP's interdependencies a failure on one part could cause a cascade.",
+          "timestamp": "01:11:25.040",
+          "confidence": "medium"
+        },
+        {
+          "claim": "Thumbs-up reactions on GitHub issues are the built-in way to signal agreement and are useful feedback.",
+          "timestamp": "01:14:55.280",
+          "confidence": "high"
+        },
+        {
+          "claim": "Strong feedback discouraged community-specific publishing models because they could fragment the community.",
+          "timestamp": "01:17:53.600",
+          "confidence": "high"
+        },
+        {
+          "claim": "Metabarcoding Darwin Core Archives with around 27 million detections are about half a terabyte because of star-schema repetition.",
+          "timestamp": "01:19:19.120",
+          "confidence": "high"
+        },
+        {
+          "claim": "The same input data published as DwC-DP through the Metabarcoding Data Toolkit can be about a thousand times smaller.",
+          "timestamp": "01:20:07.440",
+          "confidence": "high"
+        },
+        {
+          "claim": "There is currently no recursive relationship on assertions; one could be added with a new related-assertion identifier term if there is a strong use case.",
+          "timestamp": "01:22:55.520",
+          "confidence": "high"
+        },
+        {
+          "claim": "There is currently no project class in DwC-DP; project information is limited to EML or project names and IDs in provenance.",
+          "timestamp": "01:26:22.719",
+          "confidence": "high"
+        },
+        {
+          "claim": "The GBIF DwC-DP training was an internal event for GBIF node managers, correcting an earlier statement in Part 1.",
+          "timestamp": "01:27:58.880",
+          "confidence": "high"
+        }
+      ],
+      "recommendations": [
+        "Use thumbs-up reactions on GitHub issues to indicate agreement.",
+        "Bring strong use cases (e.g. for nested assertions or a project class) to the model maintainers."
+      ],
+      "results_findings": [],
+      "limitations": [
+        "Recursive/nested assertions are not supported except through a workaround.",
+        "No project class is implemented.",
+        "Community expertise to review and implement the model is limited."
+      ],
+      "future_work": [
+        "Possible related-assertion identifier term for nested assertions.",
+        "Possible project class.",
+        "Darwin Core hours hosted by Erica Krimmel.",
+        "Continued expert support for use cases for at least the next year.",
+        "GBIF may implement parts of DwC-DP for the metabarcoding community first."
+      ],
+      "examples_case_studies": [
+        "Plant specimen with leaf measurements grouped by branch, with multiple branches per specimen (nested traits).",
+        "Mean and standard deviation assertions linked through the assertion-type vocabulary."
+      ],
+      "q_and_a": [
+        {
+          "question": "Nikki asked what coverage of people submit comments in review periods and whether commenting is adequate.",
+          "answer_summary": "Unattributed (probably John Wieczorek): a big worry for this complex proposal; simpler reviews get plenty of interaction, but complex topics can fail to reach consensus, and interdependencies could cascade; the community may not be educated enough; issue summaries help people focus; participation so far is fair. Another speaker noted Erica Krimmel volunteered to host Darwin Core hours. Later the chair relayed Steve Baskauf's chat reply that comment numbers depend on the topic.",
+          "timestamp": "01:10:38.239"
+        },
+        {
+          "question": "An audience member asked whether there is a way to state agreement with the model or parts of it during the review.",
+          "answer_summary": "Unattributed: use the thumbs-up reactions on issues; it is useful feedback and helps show what matters to people.",
+          "timestamp": "01:14:13.920"
+        },
+        {
+          "question": "An audience member suggested to Mikhail ('Misha') that thematic communities could be called on to propose and endorse IPT dataset profiles.",
+          "answer_summary": "Mikhail Podolskiy: GBIF would implement the profile concept and communities would decide and manage their own profiles. An unidentified speaker added that the user guide aims to provide domain-specific starting points. Tim Robertson described the history of community-specific models (ColDP, Camtrap DP), fragmentation concerns, the return of simplified profiles, and the metabarcoding size problem.",
+          "timestamp": "01:15:37.280"
+        },
+        {
+          "question": "An audience member asked how DwC-DP accommodates nested trait measurements (e.g. leaves grouped by branch within a specimen).",
+          "answer_summary": "Unattributed (probably John Wieczorek): no recursive relationship on assertions; it was considered but lacked a strong use case; a workaround is possible but unclear; adding a related-assertion ID term would be simple — bring a good use case.",
+          "timestamp": "01:22:17.520"
+        },
+        {
+          "question": "An audience member asked whether there is a forum where people with unusual use cases can talk through mappings with experts on the proposed model.",
+          "answer_summary": "Unattributed (probably John Wieczorek): this has been done for over a year and will continue; the hope is to produce more experts, and the answerer will be available to help for at least the next year.",
+          "timestamp": "01:24:15.120"
+        },
+        {
+          "question": "Lynn asked where project-level metadata should be mapped in DwC-DP — EML or the highest-level events.",
+          "answer_summary": "Unattributed (probably John Wieczorek): a project class was investigated but not implemented for lack of a use case; GBIF sees demand; currently only EML or project names/IDs in provenance; a project class can be developed.",
+          "timestamp": "01:25:42.639"
+        },
+        {
+          "question": "Nikki asked how the team plans to develop more experts.",
+          "answer_summary": "Tim Robertson: by sharing the work at this conference and bringing it to TDWG; GBIF held an internal training for node managers (correcting an earlier statement) to build capacity that can spread to their communities; the community must be kept together; ideas are welcome. The chair added that the training materials are freely available online.",
+          "timestamp": "01:27:17.280"
+        }
+      ],
+      "representative_excerpt": {
+        "timestamp": "01:20:14.960",
+        "text": "So not 10 times bigger, not a 100 times but three orders of magnitude difference by these two formats."
+      },
+      "notable_moments": [
+        {
+          "timestamp": "01:10:38.239",
+          "type": "question",
+          "description": "Question on whether the public review gets adequate commenting."
+        },
+        {
+          "timestamp": "01:17:09.760",
+          "type": "key_point",
+          "description": "Tim Robertson on community profiles vs a single model and the fragmentation concern."
+        },
+        {
+          "timestamp": "01:19:15.920",
+          "type": "result",
+          "description": "Metabarcoding archives at half a terabyte vs DwC-DP about a thousand times smaller."
+        },
+        {
+          "timestamp": "01:22:55.520",
+          "type": "explanation",
+          "description": "No recursive assertions yet; how one could be added."
+        },
+        {
+          "timestamp": "01:27:28.000",
+          "type": "key_point",
+          "description": "Tim Robertson on building expertise and keeping the community together."
+        }
+      ],
+      "source_segments": [
+        {
+          "start_timestamp": "01:10:25.520",
+          "end_timestamp": "01:30:04.880"
+        }
+      ],
+      "programme_match": {
+        "status": "matched",
+        "notes": "Matched to the scheduled Part 2 Discussion slot. Contains questions related to Steve Baskauf's and Mikhail Podolskiy's talks, kept here because they were handled by the panel in the general Q&A."
+      }
+    }
+  ],
+  "unassigned": [
+    {
+      "start_timestamp": "00:00:00.000",
+      "end_timestamp": "00:01:06.799",
+      "type": "unidentifiable",
+      "description": "Recording lead-in before the first caption; no captions available."
+    },
+    {
+      "start_timestamp": "00:01:06.799",
+      "end_timestamp": "00:01:59.079",
+      "type": "introduction",
+      "description": "Chair welcomes the audience back, explains the changed format (one or two questions after each talk, then general Q&A) and introduces John Wieczorek (ASR 'John McCor')."
+    },
+    {
+      "start_timestamp": "00:23:04.720",
+      "end_timestamp": "00:23:17.799",
+      "type": "introduction",
+      "description": "Chair thanks John Wieczorek and introduces Anton Güntsch (ASR 'Anon Gch') on ABCD."
+    },
+    {
+      "start_timestamp": "00:32:07.120",
+      "end_timestamp": "00:32:27.080",
+      "type": "announcement",
+      "description": "Chair notes the session is a little behind schedule and invites one question for Anton Güntsch; no question is captured (an isolated ASR word 'Shanton.' follows)."
+    },
+    {
+      "start_timestamp": "00:32:32.640",
+      "end_timestamp": "00:32:53.440",
+      "type": "introduction",
+      "description": "Chair explains that Sam Leeflang (ASR 'Sam Lupang') could not attend and introduces his recorded presentation on DiSSCo and DwC-DP."
+    },
+    {
+      "start_timestamp": "00:43:38.000",
+      "end_timestamp": "00:44:29.000",
+      "type": "introduction",
+      "description": "Chair thanks Sam Leeflang, notes he is answering questions in the online chat and that Walter can answer room questions; no questions are asked; chair introduces Federico Méndez."
+    },
+    {
+      "start_timestamp": "00:53:15.599",
+      "end_timestamp": "00:53:34.040",
+      "type": "introduction",
+      "description": "Chair thanks Federico Méndez and introduces Mikhail Podolskiy (ASR 'Male Podski') on data publishing tools."
+    },
+    {
+      "start_timestamp": "01:01:47.599",
+      "end_timestamp": "01:03:05.960",
+      "type": "introduction",
+      "description": "Chair recaps the session so far, announces John Wieczorek's Friday session introducing data packages, and introduces Steve Baskauf's recorded talk on the public review."
+    },
+    {
+      "start_timestamp": "01:09:40.400",
+      "end_timestamp": "01:10:21.560",
+      "type": "announcement",
+      "description": "Chair concludes the scheduled presentations, notes about 15 minutes for questions, mentions unconference sessions for continued conversations and calls on Nikki."
+    },
+    {
+      "start_timestamp": "01:30:04.880",
+      "end_timestamp": "01:30:30.040",
+      "type": "announcement",
+      "description": "Chair closes the session and thanks speakers and audience."
+    },
+    {
+      "start_timestamp": "01:30:30.040",
+      "end_timestamp": "01:31:16.800",
+      "type": "unidentifiable",
+      "description": "Caption gap after the session closes; no captions available."
+    },
+    {
+      "start_timestamp": "01:31:16.800",
+      "end_timestamp": "01:35:05.880",
+      "type": "unidentifiable",
+      "description": "Caption track contains [Music] markers and isolated fragmentary ASR words; no identifiable session content."
+    },
+    {
+      "start_timestamp": "01:35:05.880",
+      "end_timestamp": "01:36:46.000",
+      "type": "unidentifiable",
+      "description": "Remainder of the video after the last caption; no captions available."
+    }
+  ],
+  "programme_status": [
+    {
+      "programme_id": "7020859",
+      "title": "Darwin Core Data Package: A Practical Evolution to Support Richer, Deeper, and New Biodiversity Data Sharing",
+      "status": "presented",
+      "content_item_id": "livingdata-2025-dp-p2-01-dwc-dp-overview",
+      "notes": "Presented in person by John Wieczorek in scheduled order, with talk-specific Q&A."
+    },
+    {
+      "programme_id": "7015382",
+      "title": "Two Decades of ABCD: Advancing Structured Biodiversity Data Sharing",
+      "status": "presented",
+      "content_item_id": "livingdata-2025-dp-p2-02-abcd",
+      "notes": "Presented in person by Anton Güntsch in scheduled order; no question captured."
+    },
+    {
+      "programme_id": "7019768",
+      "title": "Seamless Integration: How DiSSCo's openDS Facilitates Data Interoperability with the Darwin Core Data Package",
+      "status": "presented",
+      "content_item_id": "livingdata-2025-dp-p2-03-dissco-opends",
+      "notes": "Presented as a recording by Sam Leeflang, who could not attend in person; answered questions in the online chat."
+    },
+    {
+      "programme_id": "7019798",
+      "title": "Implementation Status of the Darwin Core Data Package (DwC DP) at GBIF",
+      "status": "presented",
+      "content_item_id": "livingdata-2025-dp-p2-04-gbif-implementation",
+      "notes": "Presented in person by Federico Méndez in scheduled order; its Q&A followed the next talk and is attached as a second segment."
+    },
+    {
+      "programme_id": "7016769",
+      "title": "Implementing the proposed DwC-DP format in GBIF: data publishing tools",
+      "status": "presented",
+      "content_item_id": "livingdata-2025-dp-p2-05-ipt-tools",
+      "notes": "Presented in person by Mikhail Podolskiy in scheduled order."
+    },
+    {
+      "programme_id": "7009601",
+      "title": "Darwin Core Data Package public review process",
+      "status": "presented",
+      "content_item_id": "livingdata-2025-dp-p2-06-public-review",
+      "notes": "Presented as a recorded virtual talk by Steve Baskauf, as scheduled."
+    },
+    {
+      "programme_id": "6798937-2-discussion",
+      "title": "Discussion",
+      "status": "presented",
+      "content_item_id": "livingdata-2025-dp-p2-07-discussion",
+      "notes": "General Q&A of about 20 minutes after the final talk."
+    }
+  ]
+}

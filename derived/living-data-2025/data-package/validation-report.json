@@ -1,0 +1,86 @@
+{
+  "valid": true,
+  "2025_items_mapped": 14,
+  "raw_tag_occurrences": 118,
+  "catalogue_themes_used": 37,
+  "unmapped_tag_occurrences": 8,
+  "candidate_pairs": 70,
+  "reviewed_comparisons": 12,
+  "items_without_reviewed_comparison": [
+    "livingdata-2025-dp-p1-01-introduction",
+    "livingdata-2025-dp-p1-02-inaturalist",
+    "livingdata-2025-dp-p1-04-broke-west-marine",
+    "livingdata-2025-dp-p1-05-insektmobilen",
+    "livingdata-2025-dp-p2-07-discussion"
+  ],
+  "unmapped_tags": [
+    {
+      "item_id": "livingdata-2025-dp-p1-01-introduction",
+      "raw_theme": "symposium agenda",
+      "theme_ids": [],
+      "reason": "Programme navigation rather than a substantive exploration theme."
+    },
+    {
+      "item_id": "livingdata-2025-dp-p1-02-inaturalist",
+      "raw_theme": "organism interactions",
+      "theme_ids": [],
+      "reason": "No existing theme directly covers ecological interactions; do not conflate them with specimen derivation links."
+    },
+    {
+      "item_id": "livingdata-2025-dp-p1-02-inaturalist",
+      "raw_theme": "export scale and processing cost",
+      "theme_ids": [],
+      "reason": "Export runtime/file size is not the environmental or compute cost of AI; propose a general data-exchange performance theme."
+    },
+    {
+      "item_id": "livingdata-2025-dp-p1-04-broke-west-marine",
+      "raw_theme": "stomach content and prey relationships",
+      "theme_ids": [],
+      "reason": "Ecological/diet interactions have no direct existing theme; retain the raw concept and propose an interaction theme."
+    },
+    {
+      "item_id": "livingdata-2025-dp-p1-06-paleo-specimens",
+      "raw_theme": "fossil taxonomy alignment",
+      "theme_ids": [],
+      "reason": "Contextual mention is insufficient to assign taxonomic name matching, concept change or checklist construction."
+    },
+    {
+      "item_id": "livingdata-2025-dp-p1-07-discussion",
+      "raw_theme": "LLM-assisted mapping",
+      "theme_ids": [],
+      "reason": "An unanswered audience question alone does not justify tagging the discussion as substantive LLM information extraction."
+    },
+    {
+      "item_id": "livingdata-2025-dp-p1-07-discussion",
+      "raw_theme": "organism interactions in DwC-A vs DwC-DP",
+      "theme_ids": [],
+      "reason": "No existing theme directly covers ecological interactions; packaging remains covered by the item-level DwC-DP theme."
+    },
+    {
+      "item_id": "livingdata-2025-dp-p2-04-gbif-implementation",
+      "raw_theme": "milestone planning",
+      "theme_ids": [],
+      "reason": "Generic project scheduling rather than a biodiversity informatics theme."
+    }
+  ],
+  "source_hashes": {
+    "source/living-data-2025/data-package/output/part-1.json": "6990431de71be70c1e899ff21b6e0236d0fa6eb42436a4f597fc223554c57aeb",
+    "source/living-data-2025/data-package/output/part-2.json": "8efa3f69aa72cf649b22ba2b95d0c4389b51160a562dacbc52300fc94fc8d6ee",
+    "derived/themes.json": "6b4348ac914eac7951d1c52560dc4ab1151ed2aa8aad2029705c84b165b04967",
+    "derived/content_items.json": "8176c3065b9c4a5e3db223448c1642611793d911b187c9c8ed712b4189df2296",
+    "derived/recordings.json": "411ab4ddd462e72337c92784f737836b5a5e932761cbd23955f5800d7f68d90f",
+    "derived/living-data-2025/data-package/theme_mapping.json": "07748050c49311f173d90cc660aff67e62a40c1fcdd5d9b43eb963d2e5efac61",
+    "derived/living-data-2025/data-package/comparison_decisions.json": "935e23021c1220d784d7932c539f8765b285c52d5df758129a9ae7a57ad54965"
+  },
+  "limits": [
+    "Caption text checked, audio not checked.",
+    "Candidate discovery is metadata retrieval, not exhaustive semantic review of all 2026 recordings.",
+    "Unpaired items and unanswered questions are gaps in this reviewed set, not evidence of absence in 2026.",
+    "Uncertain discussion speakers and the GBIF 2026 co-presenter remain uncertain.",
+    "The 2026 main site datasets and original 2025 extraction are unchanged."
+  ],
+  "structural_checks_run": 1109,
+  "errors": [],
+  "evidence_windows_checked": 30,
+  "validation_scope": "Saved mappings, references, original extraction hashes and exact caption-window provenance. Semantic support was reviewed manually; these checks cannot establish it or verify audio."
+}

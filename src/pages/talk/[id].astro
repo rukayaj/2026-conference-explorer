@@ -2,6 +2,7 @@
 import Base from "../../layouts/Base.astro";
 import TalkCard from "../../components/TalkCard.astro";
 import SpeakerLinks from "../../components/SpeakerLinks.astro";
+import TimeTravel from "../../components/TimeTravel.astro";
 import {
   href,
   scheduleTime,
@@ -105,6 +106,7 @@ const time = scheduleTime(item);
         <span>The short version</span>
         {item.takeaway}
       </p>
+      <TimeTravel itemId={item.id} />
       <section class="article-section">
         <div class="eyebrow">Overview</div>
         <h2>What this was about</h2>

@@ -1,0 +1,960 @@
+{
+  "search_scope": {
+    "2025_items": 14,
+    "2026_items": 255
+  },
+  "method": "Transparent lexical IDF, shared specific themes and normalised speaker labels; top five per 2025 item. All candidates are unreviewed suggestions.",
+  "items": [
+    {
+      "item_2025": "livingdata-2025-dp-p1-01-introduction",
+      "candidates": [
+        {
+          "item_2026": "aula-taster-04-gbif-dwc-dp",
+          "title": "DwC-DP Integration at GBIF",
+          "ranking_score": 5.983,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "darwin-core-data-package",
+            "schema-design-and-data-modelling"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "salb-2026-09-25-01",
+          "title": "Ctrl+Alt+SDD: A Historical Review Toward a Standard Reboot",
+          "ranking_score": 5.4216,
+          "shared_speaker_labels": [],
+          "shared_themes": [],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "sala-2026-09-24-16",
+          "title": "Sharing Extended Specimen Data from Symbiota Portals using Registered Extensions",
+          "ranking_score": 5.2934,
+          "shared_speaker_labels": [],
+          "shared_themes": [],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "salc-2026-09-22-01",
+          "title": "A community-curated controlled vocabulary for fossil collections using dwc:materialEntityType",
+          "ranking_score": 5.1795,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "collection-data-models",
+            "darwin-core-data-package"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "sala-2026-09-24-13",
+          "title": "From Specimens to Networks: Darwin Core Data Packages in Practice",
+          "ranking_score": 5.0694,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "collection-data-models",
+            "darwin-core-data-package"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        }
+      ]
+    },
+    {
+      "item_2025": "livingdata-2025-dp-p1-02-inaturalist",
+      "candidates": [
+        {
+          "item_2026": "salc-2026-09-24-11",
+          "title": "Phenobase: a harmonized, AI-ready knowledge base of global plant phenology",
+          "ranking_score": 8.0013,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "citizen-science",
+            "data-provenance",
+            "trait-data"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "odin-2026-09-22-15",
+          "title": "AURORA - A Shiny app designed to create Darwin Core Archives from messy biodiversity datasets",
+          "ranking_score": 6.9434,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "darwin-core-mapping",
+            "trait-data"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "salc-2026-09-22-11",
+          "title": "Managing observations when taxonomy changes: the case of Artportalen and Dyntaxa",
+          "ranking_score": 6.2943,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "citizen-science",
+            "data-provenance"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "sala-2026-09-24-14",
+          "title": "Aligning An Evolving Global Data Model To Software With Global Ambitions: GBIF x TaxonWorks",
+          "ranking_score": 6.2299,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "darwin-core-data-package",
+            "darwin-core-mapping"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "salc-2026-09-22-15",
+          "title": "Metadata matters: perceptions on the implementation of Darwin Core in the biocollections cyberinfrastructure",
+          "ranking_score": 6.1409,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "darwin-core-mapping",
+            "data-access-and-licensing"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        }
+      ]
+    },
+    {
+      "item_2025": "livingdata-2025-dp-p1-03-bgbm-collections",
+      "candidates": [
+        {
+          "item_2026": "salb-2026-09-22-10",
+          "title": "Machine-Ready Botanical Data: Mapping Integrated Collections and Traits with Darwin Core Data Package",
+          "ranking_score": 8.9661,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "biobanks-and-living-collections",
+            "darwin-core-data-package",
+            "digital-extended-specimen"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "forum-2026-09-24-13",
+          "title": "Visualising specimens as event chains on the Australian Reference Genome Atlas",
+          "ranking_score": 8.2504,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "digital-extended-specimen",
+            "molecular-sequence-data"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "salc-2026-09-22-05",
+          "title": "Bridging domains: how SESAR supports Earth and biodiversity digital extended specimens",
+          "ranking_score": 7.6075,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "biobanks-and-living-collections",
+            "digital-extended-specimen",
+            "persistent-identifiers"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "aula-taster-04-gbif-dwc-dp",
+          "title": "DwC-DP Integration at GBIF",
+          "ranking_score": 7.2903,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "darwin-core-data-package",
+            "data-publishing-and-mobilisation",
+            "data-quality",
+            "schema-design-and-data-modelling"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "sala-2026-09-24-15",
+          "title": "Material Samples and Occurrences in Darwin Core Data Packages: Practical Experiences from DINA",
+          "ranking_score": 7.0615,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "darwin-core-data-package",
+            "data-publishing-and-mobilisation",
+            "digital-extended-specimen"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        }
+      ]
+    },
+    {
+      "item_2025": "livingdata-2025-dp-p1-04-broke-west-marine",
+      "candidates": [
+        {
+          "item_2026": "odin-2026-09-22-15",
+          "title": "AURORA - A Shiny app designed to create Darwin Core Archives from messy biodiversity datasets",
+          "ranking_score": 7.4707,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "darwin-core-mapping",
+            "data-publishing-and-mobilisation",
+            "marine-biodiversity-data"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "forum-2026-09-25-01",
+          "title": "Standardizing Multimodal Insect Monitoring Data for AI-Ready Pipelines: Lessons from an InsectAI Community Datathon",
+          "ranking_score": 6.4825,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "sampling-event-and-survey-data"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "salc-2026-09-24-06",
+          "title": "The Good, the Bad, and the Standardised: A Specify Journey Through 200 Years of the MfN Berlin's Biological Collections",
+          "ranking_score": 6.0928,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "collection-data-models",
+            "legacy-data-migration"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "sala-2026-09-24-15",
+          "title": "Material Samples and Occurrences in Darwin Core Data Packages: Practical Experiences from DINA",
+          "ranking_score": 6.0206,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "collection-data-models",
+            "darwin-core-data-package",
+            "data-publishing-and-mobilisation"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "sala-2026-09-24-19",
+          "title": "Mapping the Relational Data Schema of the Diversity Workbench (DWB) to the Darwin Core Data Package Data Model to fit better to GBIF´s New Data Model",
+          "ranking_score": 5.7798,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "darwin-core-data-package",
+            "darwin-core-mapping",
+            "data-publishing-and-mobilisation"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        }
+      ]
+    },
+    {
+      "item_2025": "livingdata-2025-dp-p1-05-insektmobilen",
+      "candidates": [
+        {
+          "item_2026": "sala-2026-09-24-13",
+          "title": "From Specimens to Networks: Darwin Core Data Packages in Practice",
+          "ranking_score": 8.1447,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "collection-data-models",
+            "darwin-core-data-package",
+            "digital-extended-specimen"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "forum-2026-09-25-01",
+          "title": "Standardizing Multimodal Insect Monitoring Data for AI-Ready Pipelines: Lessons from an InsectAI Community Datathon",
+          "ranking_score": 7.9247,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "identification-provenance-and-uncertainty",
+            "sampling-event-and-survey-data"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "sala-2026-09-24-15",
+          "title": "Material Samples and Occurrences in Darwin Core Data Packages: Practical Experiences from DINA",
+          "ranking_score": 7.1231,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "collection-data-models",
+            "darwin-core-data-package",
+            "digital-extended-specimen"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "salb-2026-09-22-10",
+          "title": "Machine-Ready Botanical Data: Mapping Integrated Collections and Traits with Darwin Core Data Package",
+          "ranking_score": 6.5194,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "darwin-core-data-package",
+            "digital-extended-specimen"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "forum-2026-09-24-13",
+          "title": "Visualising specimens as event chains on the Australian Reference Genome Atlas",
+          "ranking_score": 6.432,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "digital-extended-specimen",
+            "sampling-event-and-survey-data"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        }
+      ]
+    },
+    {
+      "item_2025": "livingdata-2025-dp-p1-06-paleo-specimens",
+      "candidates": [
+        {
+          "item_2026": "salc-2026-09-22-01",
+          "title": "A community-curated controlled vocabulary for fossil collections using dwc:materialEntityType",
+          "ranking_score": 17.0879,
+          "shared_speaker_labels": [
+            "Holly Little"
+          ],
+          "shared_themes": [
+            "collection-data-models",
+            "controlled-vocabularies",
+            "darwin-core-data-package",
+            "palaeontology-data"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "sala-2026-09-24-06",
+          "title": "A framework for aligning collections data with the global data ecosystem from data creation to extension in the Smithsonian National Museum of Natural History Department of Paleobiology",
+          "ranking_score": 14.9866,
+          "shared_speaker_labels": [
+            "Holly Little"
+          ],
+          "shared_themes": [
+            "darwin-core-data-package",
+            "palaeontology-data"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "sala-2026-09-24-07",
+          "title": "SYM29A panel discussion: working with collection managers, documentation and institutional strategy",
+          "ranking_score": 11.3643,
+          "shared_speaker_labels": [
+            "Holly Little"
+          ],
+          "shared_themes": [
+            "capacity-building"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "sala-2026-09-24-23",
+          "title": "Mobilizing rich, interoperable, and secure fossil data from underserved collections using Symbiota",
+          "ranking_score": 11.0292,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "collection-management-systems",
+            "digital-extended-specimen",
+            "geoscience-collections",
+            "palaeontology-data"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "sala-2026-09-24-15",
+          "title": "Material Samples and Occurrences in Darwin Core Data Packages: Practical Experiences from DINA",
+          "ranking_score": 9.8472,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "collection-data-models",
+            "collection-management-systems",
+            "darwin-core-data-package",
+            "digital-extended-specimen"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        }
+      ]
+    },
+    {
+      "item_2025": "livingdata-2025-dp-p1-07-discussion",
+      "candidates": [
+        {
+          "item_2026": "sala-2026-09-24-24",
+          "title": "SYM42 discussion: DwC-DP profiles, deriving occurrences, ABCD's future and system boundaries",
+          "ranking_score": 13.2627,
+          "shared_speaker_labels": [
+            "John Wieczorek"
+          ],
+          "shared_themes": [
+            "darwin-core-data-package",
+            "digital-extended-specimen",
+            "persistent-identifiers"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "sala-2026-09-24-13",
+          "title": "From Specimens to Networks: Darwin Core Data Packages in Practice",
+          "ranking_score": 9.9252,
+          "shared_speaker_labels": [
+            "John Wieczorek"
+          ],
+          "shared_themes": [
+            "darwin-core-data-package",
+            "digital-extended-specimen"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "salb-2026-09-25-11",
+          "title": "Discussion: designing institutional biodiversity knowledge and data science centres",
+          "ranking_score": 8.5012,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "capacity-building",
+            "indigenous-data-governance"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "aula-taster-04-gbif-dwc-dp",
+          "title": "DwC-DP Integration at GBIF",
+          "ranking_score": 8.2697,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "darwin-core-data-package",
+            "data-publishing-and-mobilisation",
+            "schema-design-and-data-modelling"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "aula-2026-09-21-plenary2-heatta",
+          "title": "Sámi perspectives on biodiversity data governance: when biodiversity data travel, does their governance travel with them?",
+          "ranking_score": 7.4877,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "indigenous-data-governance"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        }
+      ]
+    },
+    {
+      "item_2025": "livingdata-2025-dp-p2-01-dwc-dp-overview",
+      "candidates": [
+        {
+          "item_2026": "sala-2026-09-24-13",
+          "title": "From Specimens to Networks: Darwin Core Data Packages in Practice",
+          "ranking_score": 14.9627,
+          "shared_speaker_labels": [
+            "John Wieczorek"
+          ],
+          "shared_themes": [
+            "collection-data-models",
+            "darwin-core-data-package",
+            "digital-extended-specimen",
+            "people-identification-and-attribution"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "sala-2026-09-24-24",
+          "title": "SYM42 discussion: DwC-DP profiles, deriving occurrences, ABCD's future and system boundaries",
+          "ranking_score": 11.6281,
+          "shared_speaker_labels": [
+            "John Wieczorek"
+          ],
+          "shared_themes": [
+            "darwin-core-data-package",
+            "digital-extended-specimen",
+            "standards-development-and-governance"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "salb-2026-09-22-10",
+          "title": "Machine-Ready Botanical Data: Mapping Integrated Collections and Traits with Darwin Core Data Package",
+          "ranking_score": 7.1618,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "darwin-core-data-package",
+            "digital-extended-specimen"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "salc-2026-09-24-17",
+          "title": "Camtrap DP: extending data standard designed for camera trapping research to support AI workflows and new data sources",
+          "ranking_score": 7.0596,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "data-packaging-formats",
+            "standards-development-and-governance"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "sala-2026-09-24-15",
+          "title": "Material Samples and Occurrences in Darwin Core Data Packages: Practical Experiences from DINA",
+          "ranking_score": 6.8209,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "collection-data-models",
+            "darwin-core-data-package",
+            "digital-extended-specimen"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        }
+      ]
+    },
+    {
+      "item_2025": "livingdata-2025-dp-p2-02-abcd",
+      "candidates": [
+        {
+          "item_2026": "aula-plenary-1-01-tdwg-chair-address",
+          "title": "Address from the TDWG Chair: highlights of the year and TDWG at a crossroads",
+          "ranking_score": 7.0724,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "research-infrastructure-landscape",
+            "standards-development-and-governance"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "salb-2026-09-24-13",
+          "title": "Robot-ready by construction: an ontology-driven, SHACL-validated submission pipeline for national ecological monitoring data",
+          "ranking_score": 6.9575,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "national-and-regional-data-networks",
+            "schema-design-and-data-modelling",
+            "semantic-interoperability"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "salb-2026-09-25-11",
+          "title": "Discussion: designing institutional biodiversity knowledge and data science centres",
+          "ranking_score": 6.472,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "capacity-building",
+            "research-infrastructure-landscape",
+            "standards-development-and-governance"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "salb-2026-09-25-01",
+          "title": "Ctrl+Alt+SDD: A Historical Review Toward a Standard Reboot",
+          "ranking_score": 6.1777,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "standards-development-and-governance"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "sala-2026-09-24-14",
+          "title": "Aligning An Evolving Global Data Model To Software With Global Ambitions: GBIF x TaxonWorks",
+          "ranking_score": 5.9538,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "darwin-core-data-package",
+            "data-packaging-formats",
+            "standards-development-and-governance"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        }
+      ]
+    },
+    {
+      "item_2025": "livingdata-2025-dp-p2-03-dissco-opends",
+      "candidates": [
+        {
+          "item_2026": "sala-2026-09-25-15",
+          "title": "TDWG 2026 Unconference: pitches, topic voting and breakout report-backs",
+          "ranking_score": 8.5951,
+          "shared_speaker_labels": [
+            "Sam Leeflang"
+          ],
+          "shared_themes": [
+            "darwin-core-data-package"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "sala-2026-09-24-24",
+          "title": "SYM42 discussion: DwC-DP profiles, deriving occurrences, ABCD's future and system boundaries",
+          "ranking_score": 7.863,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "darwin-core-data-package",
+            "digital-extended-specimen",
+            "persistent-identifiers",
+            "standards-development-and-governance"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "salc-2026-09-22-23",
+          "title": "Once and future Latimer Core: status update and open conversation",
+          "ranking_score": 7.4731,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "persistent-identifiers",
+            "standards-development-and-governance"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "salc-2026-09-22-05",
+          "title": "Bridging domains: how SESAR supports Earth and biodiversity digital extended specimens",
+          "ranking_score": 6.9823,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "digital-extended-specimen",
+            "persistent-identifiers",
+            "semantic-interoperability"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "salb-2026-09-22-17",
+          "title": "Here, There, and Everywhere: Modelling Research Expeditions in Wikidata",
+          "ranking_score": 6.6467,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "digital-extended-specimen",
+            "persistent-identifiers"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        }
+      ]
+    },
+    {
+      "item_2025": "livingdata-2025-dp-p2-04-gbif-implementation",
+      "candidates": [
+        {
+          "item_2026": "aula-taster-04-gbif-dwc-dp",
+          "title": "DwC-DP Integration at GBIF",
+          "ranking_score": 14.5058,
+          "shared_speaker_labels": [
+            "Federico Mendez"
+          ],
+          "shared_themes": [
+            "darwin-core-data-package",
+            "data-publishing-and-mobilisation",
+            "data-quality",
+            "standards-development-and-governance"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "sala-2026-09-24-18",
+          "title": "From Client to App: Extending Diversity Workbench with REST and graphical web interfaces",
+          "ranking_score": 6.5311,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "data-publishing-and-mobilisation",
+            "research-software-architecture"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "sala-2026-09-24-14",
+          "title": "Aligning An Evolving Global Data Model To Software With Global Ambitions: GBIF x TaxonWorks",
+          "ranking_score": 5.9638,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "darwin-core-data-package",
+            "data-packaging-formats",
+            "research-software-architecture",
+            "standards-development-and-governance"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "salc-2026-09-24-23",
+          "title": "From NetCDF to Web Maps: Building an Open-Source Web GIS for Biodiversity Data Cubes",
+          "ranking_score": 5.8097,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "data-visualisation"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "odin-2026-09-22-15",
+          "title": "AURORA - A Shiny app designed to create Darwin Core Archives from messy biodiversity datasets",
+          "ranking_score": 5.5705,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "data-publishing-and-mobilisation",
+            "data-visualisation"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        }
+      ]
+    },
+    {
+      "item_2025": "livingdata-2025-dp-p2-05-ipt-tools",
+      "candidates": [
+        {
+          "item_2026": "aula-taster-04-gbif-dwc-dp",
+          "title": "DwC-DP Integration at GBIF",
+          "ranking_score": 9.0246,
+          "shared_speaker_labels": [
+            "Mikhail Podolskiy"
+          ],
+          "shared_themes": [
+            "darwin-core-data-package",
+            "schema-design-and-data-modelling"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "odin-2026-09-22-15",
+          "title": "AURORA - A Shiny app designed to create Darwin Core Archives from messy biodiversity datasets",
+          "ranking_score": 7.1244,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "darwin-core-mapping",
+            "data-visualisation"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "sala-2026-09-24-19",
+          "title": "Mapping the Relational Data Schema of the Diversity Workbench (DWB) to the Darwin Core Data Package Data Model to fit better to GBIF´s New Data Model",
+          "ranking_score": 5.8596,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "darwin-core-data-package",
+            "darwin-core-mapping"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "salc-2026-09-24-08",
+          "title": "From Data Entry to Distribution: Streamlining Biodiversity Workflows with Specify at CSIRO",
+          "ranking_score": 5.4951,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "darwin-core-mapping"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "salc-2026-09-24-07",
+          "title": "Meeting Biodiversity Standards with Specify 7",
+          "ranking_score": 5.4328,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "darwin-core-mapping"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        }
+      ]
+    },
+    {
+      "item_2025": "livingdata-2025-dp-p2-06-public-review",
+      "candidates": [
+        {
+          "item_2026": "aula-taster-04-gbif-dwc-dp",
+          "title": "DwC-DP Integration at GBIF",
+          "ranking_score": 5.9867,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "darwin-core-data-package",
+            "standards-development-and-governance"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "salc-2026-09-22-23",
+          "title": "Once and future Latimer Core: status update and open conversation",
+          "ranking_score": 5.899,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "standards-development-and-governance"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "forum-2026-09-25-01",
+          "title": "Standardizing Multimodal Insect Monitoring Data for AI-Ready Pipelines: Lessons from an InsectAI Community Datathon",
+          "ranking_score": 5.6628,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "community-engagement"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "sala-2026-09-25-17",
+          "title": "TDWG Business Meeting: elections, subcommittee and working group reports, and TDWG 2027 announcement",
+          "ranking_score": 5.5123,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "community-engagement",
+            "standards-development-and-governance"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "salb-2026-09-22-15",
+          "title": "Open Digital Curation and Round-Tripping Biodiversity Data Enhancements Across Collection Infrastructures: Six Years and 50 Million Links in Bionomia",
+          "ranking_score": 5.2599,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "darwin-core-data-package"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        }
+      ]
+    },
+    {
+      "item_2025": "livingdata-2025-dp-p2-07-discussion",
+      "candidates": [
+        {
+          "item_2026": "sala-2026-09-24-24",
+          "title": "SYM42 discussion: DwC-DP profiles, deriving occurrences, ABCD's future and system boundaries",
+          "ranking_score": 11.5432,
+          "shared_speaker_labels": [
+            "John Wieczorek"
+          ],
+          "shared_themes": [
+            "darwin-core-data-package",
+            "standards-development-and-governance"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "aula-taster-04-gbif-dwc-dp",
+          "title": "DwC-DP Integration at GBIF",
+          "ranking_score": 10.6947,
+          "shared_speaker_labels": [
+            "Mikhail Podolskiy"
+          ],
+          "shared_themes": [
+            "darwin-core-data-package",
+            "schema-design-and-data-modelling",
+            "standards-development-and-governance"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "sala-2026-09-24-13",
+          "title": "From Specimens to Networks: Darwin Core Data Packages in Practice",
+          "ranking_score": 7.8968,
+          "shared_speaker_labels": [
+            "John Wieczorek"
+          ],
+          "shared_themes": [
+            "darwin-core-data-package"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "odin-2026-09-22-08",
+          "title": "SYM18 discussion: who sustains biodiversity data infrastructures?",
+          "ranking_score": 6.1769,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "capacity-building"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        },
+        {
+          "item_2026": "salc-2026-09-24-20",
+          "title": "LifeGate: Extending a Global Visual PhyloMap into a Structured Biodiversity Knowledge System",
+          "ranking_score": 6.1438,
+          "shared_speaker_labels": [],
+          "shared_themes": [
+            "semantic-interoperability",
+            "trait-data"
+          ],
+          "review_status": "candidate_only",
+          "caution": "Names inherit extraction uncertainty; shared words/themes/speakers do not establish influence."
+        }
+      ]
+    }
+  ]
+}

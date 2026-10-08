@@ -1,0 +1,1025 @@
+[
+  {
+    "id": "biobanks-and-living-collections",
+    "name": "Biobanks, seed banks and living collections",
+    "description": "Tissue and genetic-resource biobanks, seed banks and living collections, and tracking samples through them.",
+    "content_item_ids_2025": [
+      "livingdata-2025-dp-p1-03-bgbm-collections"
+    ],
+    "content_item_ids_2026": [
+      "odin-2026-09-22-16",
+      "salb-2026-09-22-10",
+      "salc-2026-09-22-05",
+      "salc-2026-09-22-17",
+      "salc-2026-09-24-01",
+      "salc-2026-09-24-04"
+    ],
+    "comparison_link_ids": [],
+    "coverage_warning": "2025 counts cover only this symposium; 2026 counts cover the conference. Do not compare prominence."
+  },
+  {
+    "id": "biodiversity-indicators-and-policy",
+    "name": "Biodiversity indicators and policy reporting",
+    "description": "Indicators, Essential Biodiversity Variables, data cubes and assessments that connect biodiversity data to policy (e.g. KMGBF, IPBES, Red List).",
+    "content_item_ids_2025": [
+      "livingdata-2025-dp-p1-04-broke-west-marine"
+    ],
+    "content_item_ids_2026": [
+      "aula-taster-05-botha-sanparks-bims",
+      "odin-2026-09-22-01",
+      "odin-2026-09-22-22",
+      "salb-2026-09-22-06",
+      "salc-2026-09-22-12",
+      "forum-2026-09-24-02",
+      "forum-2026-09-24-09",
+      "forum-2026-09-24-20",
+      "salb-2026-09-24-01",
+      "salc-2026-09-24-23",
+      "salc-2026-09-25-11"
+    ],
+    "comparison_link_ids": [],
+    "coverage_warning": "2025 counts cover only this symposium; 2026 counts cover the conference. Do not compare prominence."
+  },
+  {
+    "id": "capacity-building",
+    "name": "Capacity building and workforce",
+    "description": "Training, certification, curricula and retaining skilled people in biodiversity informatics and collections.",
+    "content_item_ids_2025": [
+      "livingdata-2025-dp-p1-06-paleo-specimens",
+      "livingdata-2025-dp-p1-07-discussion",
+      "livingdata-2025-dp-p2-02-abcd",
+      "livingdata-2025-dp-p2-07-discussion"
+    ],
+    "content_item_ids_2026": [
+      "odin-2026-09-22-02",
+      "odin-2026-09-22-04",
+      "odin-2026-09-22-08",
+      "salc-2026-09-22-15",
+      "salc-2026-09-22-20",
+      "forum-2026-09-24-01",
+      "forum-2026-09-24-02",
+      "sala-2026-09-24-05",
+      "sala-2026-09-24-07",
+      "salc-2026-09-24-08",
+      "salb-2026-09-25-07",
+      "salb-2026-09-25-10",
+      "salb-2026-09-25-11",
+      "salc-2026-09-25-02"
+    ],
+    "comparison_link_ids": [],
+    "coverage_warning": "2025 counts cover only this symposium; 2026 counts cover the conference. Do not compare prominence."
+  },
+  {
+    "id": "citizen-science",
+    "name": "Citizen science",
+    "description": "Community and volunteer observation platforms, their data, identification behaviour, verification and integration into research.",
+    "content_item_ids_2025": [
+      "livingdata-2025-dp-p1-02-inaturalist",
+      "livingdata-2025-dp-p1-05-insektmobilen"
+    ],
+    "content_item_ids_2026": [
+      "odin-2026-09-22-12",
+      "odin-2026-09-22-21",
+      "odin-2026-09-22-22",
+      "odin-2026-09-22-23",
+      "odin-2026-09-22-24",
+      "odin-2026-09-22-25",
+      "odin-2026-09-22-26",
+      "sala-2026-09-22-05",
+      "sala-2026-09-22-09",
+      "salc-2026-09-22-11",
+      "salc-2026-09-24-11",
+      "salc-2026-09-24-12",
+      "forum-2026-09-25-02",
+      "salb-2026-09-25-04",
+      "salc-2026-09-25-08",
+      "salc-2026-09-25-09"
+    ],
+    "comparison_link_ids": [],
+    "coverage_warning": "2025 counts cover only this symposium; 2026 counts cover the conference. Do not compare prominence."
+  },
+  {
+    "id": "collection-data-models",
+    "name": "Collection data models",
+    "description": "Modelling collection objects and events: material entities, lots, storage units, transactions, movements and collection state.",
+    "content_item_ids_2025": [
+      "livingdata-2025-dp-p1-01-introduction",
+      "livingdata-2025-dp-p1-04-broke-west-marine",
+      "livingdata-2025-dp-p1-05-insektmobilen",
+      "livingdata-2025-dp-p1-06-paleo-specimens",
+      "livingdata-2025-dp-p2-01-dwc-dp-overview"
+    ],
+    "content_item_ids_2026": [
+      "aula-taster-06-baringo-sociobiodiversity",
+      "salc-2026-09-22-01",
+      "salc-2026-09-22-03",
+      "salc-2026-09-22-06",
+      "salc-2026-09-22-16",
+      "sala-2026-09-24-02",
+      "sala-2026-09-24-04",
+      "sala-2026-09-24-10",
+      "sala-2026-09-24-12",
+      "sala-2026-09-24-13",
+      "sala-2026-09-24-15",
+      "salc-2026-09-24-03",
+      "salc-2026-09-24-06"
+    ],
+    "comparison_link_ids": [
+      "fossil-vocabulary-continuity",
+      "paleo-readiness-to-profiles",
+      "material-derivation-examples",
+      "conceptual-model-to-designer"
+    ],
+    "coverage_warning": "2025 counts cover only this symposium; 2026 counts cover the conference. Do not compare prominence."
+  },
+  {
+    "id": "collection-management-systems",
+    "name": "Collection management systems",
+    "description": "Software for managing collection data (e.g. Specify, Symbiota and institutional systems): data models, migration, replacement, hosting and publishing.",
+    "content_item_ids_2025": [
+      "livingdata-2025-dp-p1-06-paleo-specimens"
+    ],
+    "content_item_ids_2026": [
+      "aula-taster-01-kearney-bhl",
+      "salc-2026-09-22-02",
+      "salc-2026-09-22-06",
+      "salc-2026-09-22-17",
+      "forum-2026-09-24-25",
+      "sala-2026-09-24-01",
+      "sala-2026-09-24-04",
+      "sala-2026-09-24-15",
+      "sala-2026-09-24-17",
+      "sala-2026-09-24-18",
+      "sala-2026-09-24-21",
+      "sala-2026-09-24-23",
+      "salb-2026-09-24-19",
+      "salc-2026-09-24-01",
+      "salc-2026-09-24-05",
+      "salc-2026-09-24-06",
+      "salc-2026-09-24-07",
+      "salc-2026-09-24-08",
+      "salc-2026-09-24-09",
+      "salc-2026-09-25-05"
+    ],
+    "comparison_link_ids": [
+      "paleo-readiness-to-profiles"
+    ],
+    "coverage_warning": "2025 counts cover only this symposium; 2026 counts cover the conference. Do not compare prominence."
+  },
+  {
+    "id": "community-engagement",
+    "name": "Community engagement and outreach",
+    "description": "Engaging stakeholders, communities and the public: communication, outreach, collaboration and participation.",
+    "content_item_ids_2025": [
+      "livingdata-2025-dp-p2-06-public-review"
+    ],
+    "content_item_ids_2026": [
+      "odin-2026-09-22-02",
+      "odin-2026-09-22-26",
+      "sala-2026-09-22-19",
+      "salc-2026-09-22-08",
+      "salc-2026-09-22-15",
+      "forum-2026-09-24-01",
+      "forum-2026-09-24-09",
+      "forum-2026-09-24-12",
+      "sala-2026-09-24-01",
+      "sala-2026-09-24-05",
+      "sala-2026-09-24-07",
+      "forum-2026-09-25-01",
+      "sala-2026-09-25-17",
+      "salc-2026-09-25-04",
+      "salc-2026-09-25-06"
+    ],
+    "comparison_link_ids": [],
+    "coverage_warning": "2025 counts cover only this symposium; 2026 counts cover the conference. Do not compare prominence."
+  },
+  {
+    "id": "controlled-vocabularies",
+    "name": "Controlled vocabularies",
+    "description": "Building, governing and aligning controlled vocabularies, thesauri and term lists (including multilingual ones).",
+    "content_item_ids_2025": [
+      "livingdata-2025-dp-p1-06-paleo-specimens",
+      "livingdata-2025-dp-p2-01-dwc-dp-overview"
+    ],
+    "content_item_ids_2026": [
+      "odin-2026-09-22-18",
+      "salb-2026-09-22-07",
+      "salb-2026-09-22-09",
+      "salb-2026-09-22-27",
+      "salc-2026-09-22-01",
+      "salc-2026-09-22-05",
+      "forum-2026-09-24-11",
+      "forum-2026-09-24-22",
+      "sala-2026-09-24-01",
+      "sala-2026-09-24-22",
+      "salb-2026-09-24-10",
+      "salc-2026-09-24-08",
+      "salc-2026-09-24-22",
+      "sala-2026-09-25-15"
+    ],
+    "comparison_link_ids": [
+      "fossil-vocabulary-continuity"
+    ],
+    "coverage_warning": "2025 counts cover only this symposium; 2026 counts cover the conference. Do not compare prominence."
+  },
+  {
+    "id": "darwin-core-data-package",
+    "name": "Darwin Core Data Package",
+    "description": "The Darwin Core Data Package (DwC-DP) and conceptual model: design, profiles, adoption, and transition from Darwin Core Archives and ABCD.",
+    "content_item_ids_2025": [
+      "livingdata-2025-dp-p1-01-introduction",
+      "livingdata-2025-dp-p1-02-inaturalist",
+      "livingdata-2025-dp-p1-03-bgbm-collections",
+      "livingdata-2025-dp-p1-04-broke-west-marine",
+      "livingdata-2025-dp-p1-05-insektmobilen",
+      "livingdata-2025-dp-p1-06-paleo-specimens",
+      "livingdata-2025-dp-p1-07-discussion",
+      "livingdata-2025-dp-p2-01-dwc-dp-overview",
+      "livingdata-2025-dp-p2-02-abcd",
+      "livingdata-2025-dp-p2-03-dissco-opends",
+      "livingdata-2025-dp-p2-04-gbif-implementation",
+      "livingdata-2025-dp-p2-05-ipt-tools",
+      "livingdata-2025-dp-p2-06-public-review",
+      "livingdata-2025-dp-p2-07-discussion"
+    ],
+    "content_item_ids_2026": [
+      "aula-taster-04-gbif-dwc-dp",
+      "salb-2026-09-22-07",
+      "salb-2026-09-22-10",
+      "salb-2026-09-22-15",
+      "salc-2026-09-22-01",
+      "sala-2026-09-24-06",
+      "sala-2026-09-24-10",
+      "sala-2026-09-24-13",
+      "sala-2026-09-24-14",
+      "sala-2026-09-24-15",
+      "sala-2026-09-24-19",
+      "sala-2026-09-24-24",
+      "sala-2026-09-25-15",
+      "salb-2026-09-25-08"
+    ],
+    "comparison_link_ids": [
+      "review-to-reported-ratification",
+      "versioning-still-open",
+      "validation-from-plan-to-specific-rules",
+      "fossil-vocabulary-continuity",
+      "paleo-readiness-to-profiles",
+      "profiles-and-governance",
+      "abcd-to-dwb-prototype",
+      "identifiers-and-derived-occurrences",
+      "alignment-is-project-dependent",
+      "indigenous-governance-related-work",
+      "material-derivation-examples",
+      "conceptual-model-to-designer"
+    ],
+    "coverage_warning": "2025 counts cover only this symposium; 2026 counts cover the conference. Do not compare prominence."
+  },
+  {
+    "id": "darwin-core-mapping",
+    "name": "Darwin Core mapping and crosswalks",
+    "description": "Mapping and transforming source data to Darwin Core and other schemas, crosswalks, templates and tools that help data holders standardise.",
+    "content_item_ids_2025": [
+      "livingdata-2025-dp-p1-02-inaturalist",
+      "livingdata-2025-dp-p1-03-bgbm-collections",
+      "livingdata-2025-dp-p1-04-broke-west-marine",
+      "livingdata-2025-dp-p2-05-ipt-tools"
+    ],
+    "content_item_ids_2026": [
+      "odin-2026-09-22-14",
+      "odin-2026-09-22-15",
+      "odin-2026-09-22-17",
+      "sala-2026-09-22-10",
+      "sala-2026-09-22-20",
+      "salb-2026-09-22-16",
+      "salc-2026-09-22-02",
+      "salc-2026-09-22-03",
+      "salc-2026-09-22-15",
+      "sala-2026-09-24-14",
+      "sala-2026-09-24-19",
+      "salb-2026-09-24-15",
+      "salc-2026-09-24-07",
+      "salc-2026-09-24-08",
+      "sala-2026-09-25-05",
+      "salb-2026-09-25-09",
+      "salc-2026-09-25-07"
+    ],
+    "comparison_link_ids": [
+      "abcd-to-dwb-prototype"
+    ],
+    "coverage_warning": "2025 counts cover only this symposium; 2026 counts cover the conference. Do not compare prominence."
+  },
+  {
+    "id": "data-access-and-licensing",
+    "name": "Data access control and licensing",
+    "description": "Licences, embargoes, data agreements, access rights and machine-actionable policies governing data use.",
+    "content_item_ids_2025": [
+      "livingdata-2025-dp-p1-02-inaturalist"
+    ],
+    "content_item_ids_2026": [
+      "odin-2026-09-22-05",
+      "salb-2026-09-22-01",
+      "salb-2026-09-22-02",
+      "salb-2026-09-22-03",
+      "salb-2026-09-22-07",
+      "salb-2026-09-22-08",
+      "salb-2026-09-22-09",
+      "salc-2026-09-22-15",
+      "salc-2026-09-22-17",
+      "sala-2026-09-24-18",
+      "salb-2026-09-24-14",
+      "salb-2026-09-24-17",
+      "salc-2026-09-24-12"
+    ],
+    "comparison_link_ids": [],
+    "coverage_warning": "2025 counts cover only this symposium; 2026 counts cover the conference. Do not compare prominence."
+  },
+  {
+    "id": "data-packaging-formats",
+    "name": "Data packaging and exchange formats",
+    "description": "Formats for packaging and exchanging datasets, such as Frictionless data packages, RO-Crate and self-describing files.",
+    "content_item_ids_2025": [
+      "livingdata-2025-dp-p1-07-discussion",
+      "livingdata-2025-dp-p2-01-dwc-dp-overview",
+      "livingdata-2025-dp-p2-02-abcd",
+      "livingdata-2025-dp-p2-04-gbif-implementation",
+      "livingdata-2025-dp-p2-07-discussion"
+    ],
+    "content_item_ids_2026": [
+      "odin-2026-09-22-17",
+      "odin-2026-09-22-20",
+      "salc-2026-09-22-22",
+      "salc-2026-09-22-23",
+      "sala-2026-09-24-14",
+      "salb-2026-09-24-02",
+      "salc-2026-09-24-17"
+    ],
+    "comparison_link_ids": [],
+    "coverage_warning": "2025 counts cover only this symposium; 2026 counts cover the conference. Do not compare prominence."
+  },
+  {
+    "id": "data-provenance",
+    "name": "Data provenance",
+    "description": "Recording where data came from and how they were processed, including versioning, paradata and auditability.",
+    "content_item_ids_2025": [
+      "livingdata-2025-dp-p1-02-inaturalist",
+      "livingdata-2025-dp-p2-07-discussion"
+    ],
+    "content_item_ids_2026": [
+      "odin-2026-09-22-13",
+      "odin-2026-09-22-16",
+      "sala-2026-09-22-02",
+      "salb-2026-09-22-12",
+      "salc-2026-09-22-09",
+      "salc-2026-09-22-11",
+      "forum-2026-09-24-06",
+      "forum-2026-09-24-13",
+      "sala-2026-09-24-04",
+      "sala-2026-09-24-20",
+      "salb-2026-09-24-01",
+      "salb-2026-09-24-02",
+      "salb-2026-09-24-11",
+      "salb-2026-09-24-12",
+      "salc-2026-09-24-10",
+      "salc-2026-09-24-11",
+      "sala-2026-09-25-01",
+      "sala-2026-09-25-04",
+      "sala-2026-09-25-11",
+      "salc-2026-09-25-04"
+    ],
+    "comparison_link_ids": [],
+    "coverage_warning": "2025 counts cover only this symposium; 2026 counts cover the conference. Do not compare prominence."
+  },
+  {
+    "id": "data-publishing-and-mobilisation",
+    "name": "Data publishing and mobilisation",
+    "description": "Getting data from holders into aggregators such as GBIF: publishing pipelines, ingestion, continuous and automated publication, and barriers to publishing.",
+    "content_item_ids_2025": [
+      "livingdata-2025-dp-p1-03-bgbm-collections",
+      "livingdata-2025-dp-p1-04-broke-west-marine",
+      "livingdata-2025-dp-p1-07-discussion",
+      "livingdata-2025-dp-p2-04-gbif-implementation"
+    ],
+    "content_item_ids_2026": [
+      "aula-taster-02-groom-timeliness",
+      "aula-taster-04-gbif-dwc-dp",
+      "odin-2026-09-22-15",
+      "sala-2026-09-22-07",
+      "salc-2026-09-22-06",
+      "salc-2026-09-22-19",
+      "salc-2026-09-22-21",
+      "forum-2026-09-24-12",
+      "forum-2026-09-24-16",
+      "forum-2026-09-24-25",
+      "sala-2026-09-24-06",
+      "sala-2026-09-24-09",
+      "sala-2026-09-24-12",
+      "sala-2026-09-24-15",
+      "sala-2026-09-24-17",
+      "sala-2026-09-24-18",
+      "sala-2026-09-24-19",
+      "sala-2026-09-24-21",
+      "salb-2026-09-24-11",
+      "salc-2026-09-24-01",
+      "salc-2026-09-24-03",
+      "salc-2026-09-24-05",
+      "salc-2026-09-24-09",
+      "salc-2026-09-24-12",
+      "salc-2026-09-24-24",
+      "salc-2026-09-25-07",
+      "salc-2026-09-25-10"
+    ],
+    "comparison_link_ids": [
+      "validation-from-plan-to-specific-rules",
+      "abcd-to-dwb-prototype"
+    ],
+    "coverage_warning": "2025 counts cover only this symposium; 2026 counts cover the conference. Do not compare prominence."
+  },
+  {
+    "id": "data-quality",
+    "name": "Data quality assessment",
+    "description": "Tests, flags, validation and cleaning that assess and improve the quality of biodiversity records (e.g. BDQ tests).",
+    "content_item_ids_2025": [
+      "livingdata-2025-dp-p1-03-bgbm-collections",
+      "livingdata-2025-dp-p2-04-gbif-implementation"
+    ],
+    "content_item_ids_2026": [
+      "aula-taster-03-slatyer-taxonomic-backbone",
+      "aula-taster-04-gbif-dwc-dp",
+      "odin-2026-09-22-09",
+      "odin-2026-09-22-10",
+      "odin-2026-09-22-11",
+      "salb-2026-09-22-24",
+      "salc-2026-09-22-04",
+      "salc-2026-09-22-15",
+      "salc-2026-09-22-16",
+      "salc-2026-09-22-21",
+      "salc-2026-09-22-24",
+      "forum-2026-09-24-08",
+      "forum-2026-09-24-12",
+      "sala-2026-09-24-17",
+      "salb-2026-09-24-14",
+      "salb-2026-09-24-20",
+      "salb-2026-09-24-21",
+      "salc-2026-09-24-03",
+      "salc-2026-09-24-08",
+      "sala-2026-09-25-12"
+    ],
+    "comparison_link_ids": [
+      "validation-from-plan-to-specific-rules"
+    ],
+    "coverage_warning": "2025 counts cover only this symposium; 2026 counts cover the conference. Do not compare prominence."
+  },
+  {
+    "id": "data-visualisation",
+    "name": "Data visualisation",
+    "description": "Visualising biodiversity data and taxonomies with interactive and open-source tools.",
+    "content_item_ids_2025": [
+      "livingdata-2025-dp-p1-07-discussion",
+      "livingdata-2025-dp-p2-04-gbif-implementation",
+      "livingdata-2025-dp-p2-05-ipt-tools"
+    ],
+    "content_item_ids_2026": [
+      "odin-2026-09-22-15",
+      "salc-2026-09-24-20",
+      "salc-2026-09-24-23"
+    ],
+    "comparison_link_ids": [],
+    "coverage_warning": "2025 counts cover only this symposium; 2026 counts cover the conference. Do not compare prominence."
+  },
+  {
+    "id": "digital-extended-specimen",
+    "name": "Digital extended specimen",
+    "description": "Linking specimens to derived data, samples, sequences, media, archives and other specimens so the specimen record becomes a connected network.",
+    "content_item_ids_2025": [
+      "livingdata-2025-dp-p1-03-bgbm-collections",
+      "livingdata-2025-dp-p1-05-insektmobilen",
+      "livingdata-2025-dp-p1-06-paleo-specimens",
+      "livingdata-2025-dp-p1-07-discussion",
+      "livingdata-2025-dp-p2-01-dwc-dp-overview",
+      "livingdata-2025-dp-p2-03-dissco-opends"
+    ],
+    "content_item_ids_2026": [
+      "salb-2026-09-22-10",
+      "salb-2026-09-22-17",
+      "salc-2026-09-22-02",
+      "salc-2026-09-22-05",
+      "salc-2026-09-22-18",
+      "forum-2026-09-24-01",
+      "forum-2026-09-24-06",
+      "forum-2026-09-24-13",
+      "sala-2026-09-24-13",
+      "sala-2026-09-24-15",
+      "sala-2026-09-24-16",
+      "sala-2026-09-24-23",
+      "sala-2026-09-24-24",
+      "salb-2026-09-24-14",
+      "salc-2026-09-24-01",
+      "salc-2026-09-24-02",
+      "salc-2026-09-24-04"
+    ],
+    "comparison_link_ids": [
+      "material-derivation-examples"
+    ],
+    "coverage_warning": "2025 counts cover only this symposium; 2026 counts cover the conference. Do not compare prominence."
+  },
+  {
+    "id": "environmental-dna",
+    "name": "Environmental DNA",
+    "description": "eDNA, metabarcoding, environmental genomics and ancient DNA as sources of biodiversity occurrence data.",
+    "content_item_ids_2025": [
+      "livingdata-2025-dp-p1-05-insektmobilen",
+      "livingdata-2025-dp-p2-07-discussion"
+    ],
+    "content_item_ids_2026": [
+      "odin-2026-09-22-23",
+      "salb-2026-09-22-24",
+      "forum-2026-09-24-07",
+      "forum-2026-09-24-10",
+      "forum-2026-09-24-12"
+    ],
+    "comparison_link_ids": [],
+    "coverage_warning": "2025 counts cover only this symposium; 2026 counts cover the conference. Do not compare prominence."
+  },
+  {
+    "id": "fair-digital-objects",
+    "name": "FAIR digital objects",
+    "description": "Packaging data as FAIR Digital Objects with persistent, machine-actionable identifiers and typed metadata, and related signposting.",
+    "content_item_ids_2025": [
+      "livingdata-2025-dp-p2-03-dissco-opends"
+    ],
+    "content_item_ids_2026": [
+      "odin-2026-09-22-05",
+      "sala-2026-09-22-09",
+      "forum-2026-09-24-03",
+      "salb-2026-09-24-02"
+    ],
+    "comparison_link_ids": [],
+    "coverage_warning": "2025 counts cover only this symposium; 2026 counts cover the conference. Do not compare prominence."
+  },
+  {
+    "id": "geoscience-collections",
+    "name": "Geoscience and mineral collections",
+    "description": "Geological and mineral collections data, geologic context, stratigraphy and their place in TDWG standards.",
+    "content_item_ids_2025": [
+      "livingdata-2025-dp-p1-06-paleo-specimens"
+    ],
+    "content_item_ids_2026": [
+      "salc-2026-09-22-02",
+      "salc-2026-09-22-03",
+      "salc-2026-09-22-04",
+      "salc-2026-09-22-06",
+      "salc-2026-09-22-07",
+      "salc-2026-09-22-08",
+      "salc-2026-09-22-24",
+      "forum-2026-09-24-05",
+      "sala-2026-09-24-23"
+    ],
+    "comparison_link_ids": [],
+    "coverage_warning": "2025 counts cover only this symposium; 2026 counts cover the conference. Do not compare prominence."
+  },
+  {
+    "id": "identification-provenance-and-uncertainty",
+    "name": "Identification provenance and uncertainty",
+    "description": "Recording who or what identified an organism, how confident the identification is, and how human and machine identifications are exchanged.",
+    "content_item_ids_2025": [
+      "livingdata-2025-dp-p1-02-inaturalist",
+      "livingdata-2025-dp-p1-05-insektmobilen"
+    ],
+    "content_item_ids_2026": [
+      "odin-2026-09-22-12",
+      "salb-2026-09-24-06",
+      "salb-2026-09-24-23",
+      "forum-2026-09-25-01",
+      "salb-2026-09-25-04",
+      "salc-2026-09-25-04"
+    ],
+    "comparison_link_ids": [],
+    "coverage_warning": "2025 counts cover only this symposium; 2026 counts cover the conference. Do not compare prominence."
+  },
+  {
+    "id": "people-identification-and-attribution",
+    "name": "Identifying and crediting people",
+    "description": "Disambiguating collectors, determiners and other agents, person identifiers, and attribution and credit for data work.",
+    "content_item_ids_2025": [
+      "livingdata-2025-dp-p2-01-dwc-dp-overview"
+    ],
+    "content_item_ids_2026": [
+      "aula-taster-06-baringo-sociobiodiversity",
+      "odin-2026-09-22-07",
+      "sala-2026-09-22-18",
+      "salb-2026-09-22-09",
+      "salb-2026-09-22-15",
+      "sala-2026-09-24-03",
+      "sala-2026-09-24-07",
+      "sala-2026-09-24-13",
+      "salc-2026-09-24-02",
+      "salc-2026-09-24-21",
+      "salc-2026-09-25-01",
+      "salc-2026-09-25-03",
+      "salc-2026-09-25-06"
+    ],
+    "comparison_link_ids": [],
+    "coverage_warning": "2025 counts cover only this symposium; 2026 counts cover the conference. Do not compare prominence."
+  },
+  {
+    "id": "indigenous-data-governance",
+    "name": "Indigenous data governance",
+    "description": "Indigenous data sovereignty and governance, the CARE principles, Local Contexts labels, and Indigenous perspectives on biodiversity data.",
+    "content_item_ids_2025": [
+      "livingdata-2025-dp-p1-07-discussion"
+    ],
+    "content_item_ids_2026": [
+      "aula-2026-09-21-plenary2-heatta",
+      "aula-taster-06-baringo-sociobiodiversity",
+      "salb-2026-09-22-04",
+      "salb-2026-09-22-07",
+      "salc-2026-09-24-10",
+      "salb-2026-09-25-11"
+    ],
+    "comparison_link_ids": [
+      "indigenous-governance-related-work"
+    ],
+    "coverage_warning": "2025 counts cover only this symposium; 2026 counts cover the conference. Do not compare prominence."
+  },
+  {
+    "id": "legacy-data-migration",
+    "name": "Legacy data migration",
+    "description": "Moving and cleaning legacy databases, images and records into new systems and formats.",
+    "content_item_ids_2025": [
+      "livingdata-2025-dp-p1-04-broke-west-marine"
+    ],
+    "content_item_ids_2026": [
+      "salc-2026-09-22-17",
+      "sala-2026-09-24-04",
+      "sala-2026-09-24-05",
+      "sala-2026-09-24-11",
+      "salc-2026-09-24-02",
+      "salc-2026-09-24-03",
+      "salc-2026-09-24-06",
+      "salc-2026-09-24-14",
+      "salb-2026-09-25-11"
+    ],
+    "comparison_link_ids": [],
+    "coverage_warning": "2025 counts cover only this symposium; 2026 counts cover the conference. Do not compare prominence."
+  },
+  {
+    "id": "marine-biodiversity-data",
+    "name": "Marine biodiversity data",
+    "description": "Marine species and ocean data, marine geographic units and gazetteers, and land-sea integration.",
+    "content_item_ids_2025": [
+      "livingdata-2025-dp-p1-04-broke-west-marine"
+    ],
+    "content_item_ids_2026": [
+      "odin-2026-09-22-15",
+      "salb-2026-09-22-23",
+      "forum-2026-09-24-22",
+      "forum-2026-09-24-23",
+      "salb-2026-09-24-03",
+      "sala-2026-09-25-07"
+    ],
+    "comparison_link_ids": [],
+    "coverage_warning": "2025 counts cover only this symposium; 2026 counts cover the conference. Do not compare prominence."
+  },
+  {
+    "id": "molecular-sequence-data",
+    "name": "Molecular and sequence data",
+    "description": "DNA barcodes and sequence data: curation, metadata, provenance and linking to specimens.",
+    "content_item_ids_2025": [
+      "livingdata-2025-dp-p1-03-bgbm-collections"
+    ],
+    "content_item_ids_2026": [
+      "forum-2026-09-24-07",
+      "forum-2026-09-24-10",
+      "forum-2026-09-24-13",
+      "sala-2026-09-25-10"
+    ],
+    "comparison_link_ids": [],
+    "coverage_warning": "2025 counts cover only this symposium; 2026 counts cover the conference. Do not compare prominence."
+  },
+  {
+    "id": "national-and-regional-data-networks",
+    "name": "National and regional biodiversity data networks",
+    "description": "GBIF nodes, national biodiversity information systems, hosted and regional portals, and national data strategies.",
+    "content_item_ids_2025": [
+      "livingdata-2025-dp-p2-02-abcd"
+    ],
+    "content_item_ids_2026": [
+      "odin-2026-09-22-14",
+      "sala-2026-09-22-18",
+      "salb-2026-09-22-01",
+      "salb-2026-09-22-02",
+      "salb-2026-09-22-18",
+      "salb-2026-09-22-19",
+      "salc-2026-09-22-13",
+      "salc-2026-09-22-14",
+      "forum-2026-09-24-08",
+      "salb-2026-09-24-13",
+      "salb-2026-09-24-19",
+      "salc-2026-09-24-07",
+      "salc-2026-09-25-02",
+      "salc-2026-09-25-11"
+    ],
+    "comparison_link_ids": [],
+    "coverage_warning": "2025 counts cover only this symposium; 2026 counts cover the conference. Do not compare prominence."
+  },
+  {
+    "id": "palaeontology-data",
+    "name": "Palaeontology data",
+    "description": "Fossil collections and palaeontological data, including deep-time environmental data.",
+    "content_item_ids_2025": [
+      "livingdata-2025-dp-p1-06-paleo-specimens"
+    ],
+    "content_item_ids_2026": [
+      "salc-2026-09-22-01",
+      "salc-2026-09-22-03",
+      "sala-2026-09-24-06",
+      "sala-2026-09-24-23",
+      "salb-2026-09-24-14"
+    ],
+    "comparison_link_ids": [
+      "fossil-vocabulary-continuity",
+      "paleo-readiness-to-profiles"
+    ],
+    "coverage_warning": "2025 counts cover only this symposium; 2026 counts cover the conference. Do not compare prominence."
+  },
+  {
+    "id": "persistent-identifiers",
+    "name": "Persistent identifiers",
+    "description": "Persistent and content-based identifiers for specimens, samples, media, names, literature and organisms, and their stability.",
+    "content_item_ids_2025": [
+      "livingdata-2025-dp-p1-03-bgbm-collections",
+      "livingdata-2025-dp-p1-07-discussion",
+      "livingdata-2025-dp-p2-03-dissco-opends"
+    ],
+    "content_item_ids_2026": [
+      "aula-taster-01-kearney-bhl",
+      "odin-2026-09-22-07",
+      "odin-2026-09-22-10",
+      "sala-2026-09-22-24",
+      "salb-2026-09-22-15",
+      "salb-2026-09-22-17",
+      "salc-2026-09-22-05",
+      "salc-2026-09-22-09",
+      "salc-2026-09-22-23",
+      "forum-2026-09-24-06",
+      "forum-2026-09-24-16",
+      "forum-2026-09-24-17",
+      "forum-2026-09-24-23",
+      "sala-2026-09-24-03",
+      "sala-2026-09-24-08",
+      "sala-2026-09-24-09",
+      "sala-2026-09-24-11",
+      "sala-2026-09-24-24",
+      "salb-2026-09-24-11",
+      "salb-2026-09-24-12",
+      "salc-2026-09-24-02",
+      "salc-2026-09-24-13",
+      "forum-2026-09-25-02",
+      "salc-2026-09-25-03"
+    ],
+    "comparison_link_ids": [
+      "identifiers-and-derived-occurrences"
+    ],
+    "coverage_warning": "2025 counts cover only this symposium; 2026 counts cover the conference. Do not compare prominence."
+  },
+  {
+    "id": "research-infrastructure-landscape",
+    "name": "Research infrastructure landscape",
+    "description": "How biodiversity research infrastructures fit together: scope, governance, federation, European data spaces and the visibility of infrastructure.",
+    "content_item_ids_2025": [
+      "livingdata-2025-dp-p2-02-abcd",
+      "livingdata-2025-dp-p2-03-dissco-opends"
+    ],
+    "content_item_ids_2026": [
+      "aula-plenary-1-01-tdwg-chair-address",
+      "aula-taster-07-lewers-information-ecosystems",
+      "odin-2026-09-22-01",
+      "odin-2026-09-22-21",
+      "sala-2026-09-22-14",
+      "sala-2026-09-22-15",
+      "sala-2026-09-22-19",
+      "salb-2026-09-22-25",
+      "salc-2026-09-22-03",
+      "forum-2026-09-24-03",
+      "forum-2026-09-24-05",
+      "forum-2026-09-24-21",
+      "sala-2026-09-24-02",
+      "salb-2026-09-24-02",
+      "salb-2026-09-24-04",
+      "salb-2026-09-24-21",
+      "salc-2026-09-24-05",
+      "forum-2026-09-25-02",
+      "sala-2026-09-25-02",
+      "sala-2026-09-25-17",
+      "salb-2026-09-25-06",
+      "salb-2026-09-25-11"
+    ],
+    "comparison_link_ids": [],
+    "coverage_warning": "2025 counts cover only this symposium; 2026 counts cover the conference. Do not compare prominence."
+  },
+  {
+    "id": "research-software-architecture",
+    "name": "Research software architecture",
+    "description": "Architectural choices for biodiversity software: APIs, microservices, event-driven and cloud-native systems.",
+    "content_item_ids_2025": [
+      "livingdata-2025-dp-p2-04-gbif-implementation"
+    ],
+    "content_item_ids_2026": [
+      "aula-taster-07-lewers-information-ecosystems",
+      "odin-2026-09-22-14",
+      "sala-2026-09-22-07",
+      "sala-2026-09-24-14",
+      "sala-2026-09-24-18",
+      "sala-2026-09-24-24",
+      "salb-2026-09-24-04",
+      "salb-2026-09-25-08"
+    ],
+    "comparison_link_ids": [
+      "versioning-still-open"
+    ],
+    "coverage_warning": "2025 counts cover only this symposium; 2026 counts cover the conference. Do not compare prominence."
+  },
+  {
+    "id": "sampling-event-and-survey-data",
+    "name": "Sampling-event and survey data",
+    "description": "Structured survey and sampling-event data: protocols, sampling effort, absences, abundance and detectability (e.g. Humboldt Extension).",
+    "content_item_ids_2025": [
+      "livingdata-2025-dp-p1-04-broke-west-marine",
+      "livingdata-2025-dp-p1-05-insektmobilen"
+    ],
+    "content_item_ids_2026": [
+      "odin-2026-09-22-17",
+      "salc-2026-09-22-18",
+      "forum-2026-09-24-11",
+      "forum-2026-09-24-13",
+      "salb-2026-09-24-21",
+      "forum-2026-09-25-01",
+      "salc-2026-09-25-08",
+      "salc-2026-09-25-09",
+      "salc-2026-09-25-10"
+    ],
+    "comparison_link_ids": [],
+    "coverage_warning": "2025 counts cover only this symposium; 2026 counts cover the conference. Do not compare prominence."
+  },
+  {
+    "id": "schema-design-and-data-modelling",
+    "name": "Schema design and data modelling",
+    "description": "Designing typed schemas and data models (e.g. LinkML), schema validation and specification-driven data capture.",
+    "content_item_ids_2025": [
+      "livingdata-2025-dp-p1-01-introduction",
+      "livingdata-2025-dp-p1-03-bgbm-collections",
+      "livingdata-2025-dp-p1-04-broke-west-marine",
+      "livingdata-2025-dp-p1-05-insektmobilen",
+      "livingdata-2025-dp-p1-07-discussion",
+      "livingdata-2025-dp-p2-01-dwc-dp-overview",
+      "livingdata-2025-dp-p2-02-abcd",
+      "livingdata-2025-dp-p2-03-dissco-opends",
+      "livingdata-2025-dp-p2-05-ipt-tools",
+      "livingdata-2025-dp-p2-07-discussion"
+    ],
+    "content_item_ids_2026": [
+      "aula-taster-04-gbif-dwc-dp",
+      "salc-2026-09-22-10",
+      "forum-2026-09-24-17",
+      "sala-2026-09-24-21",
+      "salb-2026-09-24-01",
+      "salb-2026-09-24-13",
+      "salc-2026-09-24-19"
+    ],
+    "comparison_link_ids": [
+      "profiles-and-governance",
+      "identifiers-and-derived-occurrences",
+      "alignment-is-project-dependent",
+      "conceptual-model-to-designer"
+    ],
+    "coverage_warning": "2025 counts cover only this symposium; 2026 counts cover the conference. Do not compare prominence."
+  },
+  {
+    "id": "semantic-interoperability",
+    "name": "Semantic interoperability",
+    "description": "Integrating heterogeneous data across domains and systems through shared semantics, annotation and harmonisation.",
+    "content_item_ids_2025": [
+      "livingdata-2025-dp-p2-02-abcd",
+      "livingdata-2025-dp-p2-03-dissco-opends",
+      "livingdata-2025-dp-p2-07-discussion"
+    ],
+    "content_item_ids_2026": [
+      "odin-2026-09-22-04",
+      "odin-2026-09-22-05",
+      "odin-2026-09-22-18",
+      "odin-2026-09-22-20",
+      "salc-2026-09-22-05",
+      "forum-2026-09-24-12",
+      "sala-2026-09-24-17",
+      "sala-2026-09-24-20",
+      "salb-2026-09-24-03",
+      "salb-2026-09-24-10",
+      "salb-2026-09-24-13",
+      "salb-2026-09-24-20",
+      "salc-2026-09-24-16",
+      "salc-2026-09-24-18",
+      "salc-2026-09-24-20",
+      "salc-2026-09-24-22",
+      "sala-2026-09-25-11"
+    ],
+    "comparison_link_ids": [
+      "abcd-to-dwb-prototype",
+      "alignment-is-project-dependent"
+    ],
+    "coverage_warning": "2025 counts cover only this symposium; 2026 counts cover the conference. Do not compare prominence."
+  },
+  {
+    "id": "standards-development-and-governance",
+    "name": "Standards development and governance",
+    "description": "How TDWG and other bodies develop, review, ratify, version and sustain standards, and how standards evolve and are adopted.",
+    "content_item_ids_2025": [
+      "livingdata-2025-dp-p2-01-dwc-dp-overview",
+      "livingdata-2025-dp-p2-02-abcd",
+      "livingdata-2025-dp-p2-03-dissco-opends",
+      "livingdata-2025-dp-p2-04-gbif-implementation",
+      "livingdata-2025-dp-p2-06-public-review",
+      "livingdata-2025-dp-p2-07-discussion"
+    ],
+    "content_item_ids_2026": [
+      "aula-plenary-1-01-tdwg-chair-address",
+      "aula-2026-09-21-plenary2-walls",
+      "aula-taster-04-gbif-dwc-dp",
+      "aula-taster-07-lewers-information-ecosystems",
+      "odin-2026-09-22-09",
+      "sala-2026-09-22-13",
+      "salc-2026-09-22-23",
+      "forum-2026-09-24-06",
+      "forum-2026-09-24-10",
+      "forum-2026-09-24-14",
+      "forum-2026-09-24-22",
+      "forum-2026-09-24-24",
+      "sala-2026-09-24-05",
+      "sala-2026-09-24-14",
+      "sala-2026-09-24-16",
+      "sala-2026-09-24-20",
+      "sala-2026-09-24-24",
+      "salb-2026-09-24-09",
+      "salc-2026-09-24-07",
+      "salc-2026-09-24-17",
+      "sala-2026-09-25-17",
+      "salb-2026-09-25-01",
+      "salb-2026-09-25-07",
+      "salb-2026-09-25-11"
+    ],
+    "comparison_link_ids": [
+      "review-to-reported-ratification",
+      "versioning-still-open",
+      "profiles-and-governance"
+    ],
+    "coverage_warning": "2025 counts cover only this symposium; 2026 counts cover the conference. Do not compare prominence."
+  },
+  {
+    "id": "trait-data",
+    "name": "Trait and phenology data",
+    "description": "Functional, morphological and phenological trait data: measurement, units, extraction and FAIR publication.",
+    "content_item_ids_2025": [
+      "livingdata-2025-dp-p1-02-inaturalist",
+      "livingdata-2025-dp-p2-07-discussion"
+    ],
+    "content_item_ids_2026": [
+      "odin-2026-09-22-15",
+      "odin-2026-09-22-26",
+      "sala-2026-09-22-13",
+      "salb-2026-09-22-10",
+      "forum-2026-09-24-21",
+      "sala-2026-09-24-16",
+      "salb-2026-09-24-10",
+      "salc-2026-09-24-11",
+      "salc-2026-09-24-20",
+      "sala-2026-09-25-03",
+      "sala-2026-09-25-08",
+      "salb-2026-09-25-09"
+    ],
+    "comparison_link_ids": [],
+    "coverage_warning": "2025 counts cover only this symposium; 2026 counts cover the conference. Do not compare prominence."
+  },
+  {
+    "id": "user-centred-design",
+    "name": "User-centred design",
+    "description": "Designing tools and infrastructures around user needs, with requirements elicitation, co-design and agile methods.",
+    "content_item_ids_2025": [
+      "livingdata-2025-dp-p1-07-discussion",
+      "livingdata-2025-dp-p2-04-gbif-implementation",
+      "livingdata-2025-dp-p2-05-ipt-tools"
+    ],
+    "content_item_ids_2026": [
+      "odin-2026-09-22-02",
+      "salc-2026-09-22-15",
+      "salc-2026-09-22-19",
+      "sala-2026-09-24-05",
+      "sala-2026-09-24-11",
+      "sala-2026-09-24-12",
+      "salb-2026-09-24-07",
+      "salb-2026-09-24-19"
+    ],
+    "comparison_link_ids": [
+      "profiles-and-governance"
+    ],
+    "coverage_warning": "2025 counts cover only this symposium; 2026 counts cover the conference. Do not compare prominence."
+  }
+]

@@ -1,0 +1,997 @@
+{
+  "version": 1,
+  "scope": "Fourteen extracted items from the 2025 Data Package symposium; existing 2026 theme IDs retained.",
+  "review_basis": "Transcript-derived content, raw tags, catalogue definitions and extraction review flags. No abstract-only theme assignment.",
+  "items": [
+    {
+      "item_id": "livingdata-2025-dp-p1-01-introduction",
+      "decisions": [
+        {
+          "raw_theme": "introduction to Darwin Core Data Package",
+          "theme_ids": [
+            "darwin-core-data-package"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "Darwin Core Archive star schema limitations",
+          "theme_ids": [
+            "schema-design-and-data-modelling"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "reading publishing model diagrams",
+          "theme_ids": [
+            "schema-design-and-data-modelling"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "assertions replacing extended measurement or fact",
+          "theme_ids": [
+            "collection-data-models"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "symposium agenda",
+          "theme_ids": [],
+          "reason": "Programme navigation rather than a substantive exploration theme."
+        }
+      ],
+      "item_additions": [
+        {
+          "theme_id": "darwin-core-data-package",
+          "reason": "DwC-DP is the substantive focus of this symposium item even where the raw tags name only a specific implementation problem."
+        }
+      ]
+    },
+    {
+      "item_id": "livingdata-2025-dp-p1-02-inaturalist",
+      "decisions": [
+        {
+          "raw_theme": "citizen science data mapping",
+          "theme_ids": [
+            "citizen-science",
+            "darwin-core-mapping"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "community identifications and multiple identifiers",
+          "theme_ids": [
+            "identification-provenance-and-uncertainty"
+          ],
+          "reason": "Here identifiers means people who identify organisms, not identifier strings or PIDs."
+        },
+        {
+          "raw_theme": "organism interactions",
+          "theme_ids": [],
+          "reason": "No existing theme directly covers ecological interactions; do not conflate them with specimen derivation links."
+        },
+        {
+          "raw_theme": "observation annotations and phenology",
+          "theme_ids": [
+            "trait-data"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "media licensing and usage policy",
+          "theme_ids": [
+            "data-access-and-licensing"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "provenance and projects",
+          "theme_ids": [
+            "data-provenance"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "algorithm as agent",
+          "theme_ids": [
+            "identification-provenance-and-uncertainty"
+          ],
+          "reason": "An identification algorithm is an attribution/provenance agent, not evidence of an autonomous conversational AI agent."
+        },
+        {
+          "raw_theme": "export scale and processing cost",
+          "theme_ids": [],
+          "reason": "Export runtime/file size is not the environmental or compute cost of AI; propose a general data-exchange performance theme."
+        }
+      ],
+      "item_additions": [
+        {
+          "theme_id": "darwin-core-data-package",
+          "reason": "DwC-DP is the substantive focus of this symposium item even where the raw tags name only a specific implementation problem."
+        }
+      ]
+    },
+    {
+      "item_id": "livingdata-2025-dp-p1-03-bgbm-collections",
+      "decisions": [
+        {
+          "raw_theme": "herbarium collection data publishing",
+          "theme_ids": [
+            "data-publishing-and-mobilisation"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "material sample derivation chains",
+          "theme_ids": [
+            "digital-extended-specimen"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "tissue and DNA bank linkage",
+          "theme_ids": [
+            "molecular-sequence-data",
+            "biobanks-and-living-collections"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "specimen and living organism media",
+          "theme_ids": [
+            "digital-extended-specimen"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "resolvable persistent identifiers",
+          "theme_ids": [
+            "persistent-identifiers"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "data cleaning for CSV export",
+          "theme_ids": [
+            "data-quality"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "denormalising relational collection databases",
+          "theme_ids": [
+            "darwin-core-mapping",
+            "schema-design-and-data-modelling"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        }
+      ],
+      "item_additions": [
+        {
+          "theme_id": "darwin-core-data-package",
+          "reason": "DwC-DP is the substantive focus of this symposium item even where the raw tags name only a specific implementation problem."
+        }
+      ]
+    },
+    {
+      "item_id": "livingdata-2025-dp-p1-04-broke-west-marine",
+      "decisions": [
+        {
+          "raw_theme": "marine survey data modelling",
+          "theme_ids": [
+            "marine-biodiversity-data",
+            "sampling-event-and-survey-data"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "survey targets and inferred non-detections",
+          "theme_ids": [
+            "sampling-event-and-survey-data"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "Humboldt Extension vs DwC-DP",
+          "theme_ids": [
+            "darwin-core-data-package"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "material assertions for individual specimens",
+          "theme_ids": [
+            "collection-data-models"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "stomach content and prey relationships",
+          "theme_ids": [],
+          "reason": "Ecological/diet interactions have no direct existing theme; retain the raw concept and propose an interaction theme."
+        },
+        {
+          "raw_theme": "identifier maintenance burden",
+          "theme_ids": [
+            "schema-design-and-data-modelling"
+          ],
+          "reason": "Local foreign keys and dataset-update identifiers are data modelling concerns; their persistence outside the package is not established."
+        },
+        {
+          "raw_theme": "table-splitting tooling",
+          "theme_ids": [
+            "darwin-core-mapping"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "Essential Ocean Variables data products",
+          "theme_ids": [
+            "biodiversity-indicators-and-policy"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "legacy dataset enrichment",
+          "theme_ids": [
+            "legacy-data-migration"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "GBIF and OBIS node perspective",
+          "theme_ids": [
+            "data-publishing-and-mobilisation"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        }
+      ],
+      "item_additions": [
+        {
+          "theme_id": "darwin-core-data-package",
+          "reason": "DwC-DP is the substantive focus of this symposium item even where the raw tags name only a specific implementation problem."
+        }
+      ]
+    },
+    {
+      "item_id": "livingdata-2025-dp-p1-05-insektmobilen",
+      "decisions": [
+        {
+          "raw_theme": "DNA metabarcoding survey data",
+          "theme_ids": [
+            "environmental-dna"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "citizen science sampling",
+          "theme_ids": [
+            "citizen-science",
+            "sampling-event-and-survey-data"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "star schema data repetition",
+          "theme_ids": [
+            "darwin-core-data-package"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "bulk sample materials and media",
+          "theme_ids": [
+            "digital-extended-specimen"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "morphological vs DNA-based identifications",
+          "theme_ids": [
+            "identification-provenance-and-uncertainty"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "survey targets and land cover",
+          "theme_ids": [
+            "sampling-event-and-survey-data"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "material derivation terms",
+          "theme_ids": [
+            "collection-data-models"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "table preparation order and identifiers",
+          "theme_ids": [
+            "schema-design-and-data-modelling"
+          ],
+          "reason": "Dependencies between local table identifiers do not by themselves establish persistent identifiers."
+        }
+      ],
+      "item_additions": [
+        {
+          "theme_id": "darwin-core-data-package",
+          "reason": "DwC-DP is the substantive focus of this symposium item even where the raw tags name only a specific implementation problem."
+        }
+      ]
+    },
+    {
+      "item_id": "livingdata-2025-dp-p1-06-paleo-specimens",
+      "decisions": [
+        {
+          "raw_theme": "paleontological collections data",
+          "theme_ids": [
+            "palaeontology-data"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "fossil specimen categorisation",
+          "theme_ids": [
+            "collection-data-models"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "geological context",
+          "theme_ids": [
+            "geoscience-collections"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "material as primary class",
+          "theme_ids": [
+            "collection-data-models"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "material and biological relationships in fossils",
+          "theme_ids": [
+            "digital-extended-specimen"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "complex stratigraphy and cores",
+          "theme_ids": [
+            "geoscience-collections"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "materialEntityType vocabulary",
+          "theme_ids": [
+            "controlled-vocabularies"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "fossil taxonomy alignment",
+          "theme_ids": [],
+          "reason": "Contextual mention is insufficient to assign taxonomic name matching, concept change or checklist construction."
+        },
+        {
+          "raw_theme": "collection management system readiness",
+          "theme_ids": [
+            "collection-management-systems"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "implementation guidance for paleo collections",
+          "theme_ids": [
+            "capacity-building"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        }
+      ],
+      "item_additions": [
+        {
+          "theme_id": "darwin-core-data-package",
+          "reason": "DwC-DP is the substantive focus of this symposium item even where the raw tags name only a specific implementation problem."
+        }
+      ]
+    },
+    {
+      "item_id": "livingdata-2025-dp-p1-07-discussion",
+      "decisions": [
+        {
+          "raw_theme": "standardisation effort and resourcing",
+          "theme_ids": [
+            "capacity-building"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "LLM-assisted mapping",
+          "theme_ids": [],
+          "reason": "An unanswered audience question alone does not justify tagging the discussion as substantive LLM information extraction."
+        },
+        {
+          "raw_theme": "identifier minting and persistence",
+          "theme_ids": [
+            "persistent-identifiers",
+            "schema-design-and-data-modelling"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "complexity for data users",
+          "theme_ids": [
+            "user-centred-design"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "aggregator simplified views",
+          "theme_ids": [
+            "data-publishing-and-mobilisation"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "Indigenous data and CARE principles",
+          "theme_ids": [
+            "indigenous-data-governance"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "organism interactions in DwC-A vs DwC-DP",
+          "theme_ids": [],
+          "reason": "No existing theme directly covers ecological interactions; packaging remains covered by the item-level DwC-DP theme."
+        },
+        {
+          "raw_theme": "EML vs JSON metadata",
+          "theme_ids": [
+            "data-packaging-formats"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "training and capacity building",
+          "theme_ids": [
+            "capacity-building"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "extended specimen alignment",
+          "theme_ids": [
+            "digital-extended-specimen"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "visualising richer data",
+          "theme_ids": [
+            "data-visualisation"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        }
+      ],
+      "item_additions": [
+        {
+          "theme_id": "darwin-core-data-package",
+          "reason": "DwC-DP is the substantive focus of this symposium item even where the raw tags name only a specific implementation problem."
+        }
+      ]
+    },
+    {
+      "item_id": "livingdata-2025-dp-p2-01-dwc-dp-overview",
+      "decisions": [
+        {
+          "raw_theme": "Darwin Core standard structure",
+          "theme_ids": [
+            "standards-development-and-governance"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "Darwin Core conceptual model",
+          "theme_ids": [
+            "schema-design-and-data-modelling"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "relational vs flat data packaging",
+          "theme_ids": [
+            "data-packaging-formats"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "Frictionless Data Packages",
+          "theme_ids": [
+            "data-packaging-formats"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "occurrence event vs collecting event",
+          "theme_ids": [
+            "collection-data-models"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "agent roles",
+          "theme_ids": [
+            "people-identification-and-attribution"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "assertions on any entity",
+          "theme_ids": [
+            "schema-design-and-data-modelling"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "declared controlled vocabularies",
+          "theme_ids": [
+            "controlled-vocabularies"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "backwards compatibility with Darwin Core Archives",
+          "theme_ids": [
+            "darwin-core-data-package"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "public review timeline",
+          "theme_ids": [
+            "standards-development-and-governance"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "schema maintenance and release cadence",
+          "theme_ids": [
+            "standards-development-and-governance"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "extended and digital specimen alignment",
+          "theme_ids": [
+            "digital-extended-specimen"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        }
+      ],
+      "item_additions": [
+        {
+          "theme_id": "darwin-core-data-package",
+          "reason": "DwC-DP is the substantive focus of this symposium item even where the raw tags name only a specific implementation problem."
+        }
+      ]
+    },
+    {
+      "item_id": "livingdata-2025-dp-p2-02-abcd",
+      "decisions": [
+        {
+          "raw_theme": "history of biodiversity data models",
+          "theme_ids": [
+            "standards-development-and-governance"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "relational vs hierarchical data models",
+          "theme_ids": [
+            "schema-design-and-data-modelling"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "ABCD standard evolution",
+          "theme_ids": [
+            "standards-development-and-governance"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "XML-based data exchange networks",
+          "theme_ids": [
+            "data-packaging-formats"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "special interest networks",
+          "theme_ids": [
+            "research-infrastructure-landscape"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "national infrastructure data flows",
+          "theme_ids": [
+            "national-and-regional-data-networks"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "community support and help desks",
+          "theme_ids": [
+            "capacity-building"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "convergence of ABCD and DwC-DP",
+          "theme_ids": [
+            "semantic-interoperability",
+            "darwin-core-data-package"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        }
+      ],
+      "item_additions": [
+        {
+          "theme_id": "darwin-core-data-package",
+          "reason": "DwC-DP is the substantive focus of this symposium item even where the raw tags name only a specific implementation problem."
+        }
+      ]
+    },
+    {
+      "item_id": "livingdata-2025-dp-p2-03-dissco-opends",
+      "decisions": [
+        {
+          "raw_theme": "digital extended specimens",
+          "theme_ids": [
+            "digital-extended-specimen"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "FAIR Digital Objects",
+          "theme_ids": [
+            "fair-digital-objects"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "avoiding standards proliferation",
+          "theme_ids": [
+            "standards-development-and-governance"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "document-oriented vs normalised tabular models",
+          "theme_ids": [
+            "schema-design-and-data-modelling"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "conceptual model implementations",
+          "theme_ids": [
+            "semantic-interoperability"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "lossless data transformation",
+          "theme_ids": [
+            "semantic-interoperability"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "generated identifiers via hashing",
+          "theme_ids": [
+            "schema-design-and-data-modelling",
+            "persistent-identifiers"
+          ],
+          "reason": "The existing identifier theme explicitly includes content-based identifiers. The speaker describes MD5 object hashes; this mapping does not assert global resolvability or permanence."
+        },
+        {
+          "raw_theme": "European research infrastructure",
+          "theme_ids": [
+            "research-infrastructure-landscape"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        }
+      ],
+      "item_additions": [
+        {
+          "theme_id": "darwin-core-data-package",
+          "reason": "DwC-DP is the substantive focus of this symposium item even where the raw tags name only a specific implementation problem."
+        }
+      ]
+    },
+    {
+      "item_id": "livingdata-2025-dp-p2-04-gbif-implementation",
+      "decisions": [
+        {
+          "raw_theme": "GBIF implementation roadmap",
+          "theme_ids": [
+            "data-publishing-and-mobilisation"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "milestone planning",
+          "theme_ids": [],
+          "reason": "Generic project scheduling rather than a biodiversity informatics theme."
+        },
+        {
+          "raw_theme": "dataset registration and display",
+          "theme_ids": [
+            "data-publishing-and-mobilisation"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "validation services",
+          "theme_ids": [
+            "data-quality"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "versioning strategy for evolving standards",
+          "theme_ids": [
+            "standards-development-and-governance"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "format conversion between DwC-A and DwC-DP",
+          "theme_ids": [
+            "data-packaging-formats"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "data portal design for heterogeneous datasets",
+          "theme_ids": [
+            "user-centred-design"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "data package descriptor visualisation",
+          "theme_ids": [
+            "data-visualisation"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "data store ingestion libraries",
+          "theme_ids": [
+            "research-software-architecture"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        }
+      ],
+      "item_additions": [
+        {
+          "theme_id": "darwin-core-data-package",
+          "reason": "DwC-DP is the substantive focus of this symposium item even where the raw tags name only a specific implementation problem."
+        }
+      ]
+    },
+    {
+      "item_id": "livingdata-2025-dp-p2-05-ipt-tools",
+      "decisions": [
+        {
+          "raw_theme": "publishing tool usability",
+          "theme_ids": [
+            "user-centred-design"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "dataset profiles and templates",
+          "theme_ids": [
+            "schema-design-and-data-modelling"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "model navigation and search",
+          "theme_ids": [
+            "user-centred-design"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "schema visualisation",
+          "theme_ids": [
+            "data-visualisation"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "identifier generation tooling",
+          "theme_ids": [
+            "schema-design-and-data-modelling"
+          ],
+          "reason": "Generation of join keys is a modelling/tooling problem, without an established persistence guarantee."
+        },
+        {
+          "raw_theme": "table splitting",
+          "theme_ids": [
+            "darwin-core-mapping"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        }
+      ],
+      "item_additions": [
+        {
+          "theme_id": "darwin-core-data-package",
+          "reason": "DwC-DP is the substantive focus of this symposium item even where the raw tags name only a specific implementation problem."
+        }
+      ]
+    },
+    {
+      "item_id": "livingdata-2025-dp-p2-06-public-review",
+      "decisions": [
+        {
+          "raw_theme": "TDWG vocabulary maintenance process",
+          "theme_ids": [
+            "standards-development-and-governance"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "public review participation",
+          "theme_ids": [
+            "standards-development-and-governance",
+            "community-engagement"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "consensus-based standard ratification",
+          "theme_ids": [
+            "standards-development-and-governance"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "vocabulary enhancements",
+          "theme_ids": [
+            "standards-development-and-governance"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "scope of what is under review",
+          "theme_ids": [
+            "standards-development-and-governance"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "GitHub issue-based commenting",
+          "theme_ids": [
+            "standards-development-and-governance"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        }
+      ],
+      "item_additions": [
+        {
+          "theme_id": "darwin-core-data-package",
+          "reason": "DwC-DP is the substantive focus of this symposium item even where the raw tags name only a specific implementation problem."
+        }
+      ]
+    },
+    {
+      "item_id": "livingdata-2025-dp-p2-07-discussion",
+      "decisions": [
+        {
+          "raw_theme": "public review participation and consensus",
+          "theme_ids": [
+            "standards-development-and-governance"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "community education on standards",
+          "theme_ids": [
+            "capacity-building"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "signalling agreement in reviews",
+          "theme_ids": [
+            "standards-development-and-governance"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "community-managed dataset profiles",
+          "theme_ids": [
+            "schema-design-and-data-modelling",
+            "standards-development-and-governance"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "fragmentation vs unified publishing model",
+          "theme_ids": [
+            "semantic-interoperability"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "metabarcoding data volume and star schema repetition",
+          "theme_ids": [
+            "environmental-dna",
+            "data-packaging-formats"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "nested and recursive assertions for traits",
+          "theme_ids": [
+            "trait-data",
+            "schema-design-and-data-modelling"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "expert support for unusual use cases",
+          "theme_ids": [
+            "capacity-building"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "project-level metadata",
+          "theme_ids": [
+            "data-provenance"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        },
+        {
+          "raw_theme": "capacity building and training",
+          "theme_ids": [
+            "capacity-building"
+          ],
+          "reason": "Direct fit to the catalogue definition, grounded in this item’s extracted presentation content."
+        }
+      ],
+      "item_additions": [
+        {
+          "theme_id": "darwin-core-data-package",
+          "reason": "DwC-DP is the substantive focus of this symposium item even where the raw tags name only a specific implementation problem."
+        }
+      ]
+    }
+  ],
+  "proposed_themes": [
+    {
+      "id": "organism-interactions",
+      "name": "Organism interactions",
+      "description": "Ecological relationships such as predation and pollination, and how interaction records are represented and shared.",
+      "status": "proposal_only_not_added_to_catalogue"
+    },
+    {
+      "id": "data-exchange-scale-and-performance",
+      "name": "Data exchange scale and performance",
+      "description": "Runtime, file size and redundancy in biodiversity data export, exchange and ingestion.",
+      "status": "proposal_only_not_added_to_catalogue"
+    }
+  ]
+}

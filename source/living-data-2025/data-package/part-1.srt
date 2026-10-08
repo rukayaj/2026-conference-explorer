@@ -1,0 +1,7247 @@
+1
+00:09:26,959 --> 00:09:29,920
+Hello. Good afternoon, everyone. Lower
+
+2
+00:09:29,920 --> 00:09:33,839
+this down just a little bit.
+
+3
+00:09:33,839 --> 00:09:35,440
+All right. Good afternoon, everybody. I
+
+4
+00:09:35,440 --> 00:09:37,120
+hope you had an excellent lunch. You're
+
+5
+00:09:37,120 --> 00:09:39,120
+feeling recharged and refreshed, ready
+
+6
+00:09:39,120 --> 00:09:41,839
+to start a double session here this
+
+7
+00:09:41,839 --> 00:09:43,519
+afternoon to learn about the Darwin Core
+
+8
+00:09:43,519 --> 00:09:45,920
+data package. I just need to close that
+
+9
+00:09:45,920 --> 00:09:48,640
+really quick. So hopefully you didn't
+
+10
+00:09:48,640 --> 00:09:50,080
+just stumble in here by accident.
+
+11
+00:09:50,080 --> 00:09:51,920
+Hopefully you here are here to to
+
+12
+00:09:51,920 --> 00:09:53,920
+actually join us today. If you did
+
+13
+00:09:53,920 --> 00:09:56,959
+stumble in, please stay. Uh what we are
+
+14
+00:09:56,959 --> 00:09:58,959
+going to do over the course of not just
+
+15
+00:09:58,959 --> 00:10:01,040
+this session but the next two sessions
+
+16
+00:10:01,040 --> 00:10:03,920
+today is bring forth an excellent group
+
+17
+00:10:03,920 --> 00:10:05,760
+of speakers to introduce the Darwin core
+
+18
+00:10:05,760 --> 00:10:07,760
+data package. This first session will
+
+19
+00:10:07,760 --> 00:10:10,399
+int will introduce the the the
+
+20
+00:10:10,399 --> 00:10:12,480
+generalities and the general concepts of
+
+21
+00:10:12,480 --> 00:10:14,320
+the data package through the through the
+
+22
+00:10:14,320 --> 00:10:16,320
+demon demonstrated through a series of
+
+23
+00:10:16,320 --> 00:10:18,480
+use cases. Our second session this
+
+24
+00:10:18,480 --> 00:10:20,160
+afternoon will then give you a little
+
+25
+00:10:20,160 --> 00:10:21,600
+bit more of the nuts and bolts and
+
+26
+00:10:21,600 --> 00:10:23,120
+nitty-gritty information that you would
+
+27
+00:10:23,120 --> 00:10:25,760
+be interested in. But before we start,
+
+28
+00:10:25,760 --> 00:10:27,440
+I'd like to take you take a few minutes
+
+29
+00:10:27,440 --> 00:10:30,240
+to help orient you uh with some helpful
+
+30
+00:10:30,240 --> 00:10:33,519
+information for today. And so the first
+
+31
+00:10:33,519 --> 00:10:36,480
+thing to know is what exactly is the
+
+32
+00:10:36,480 --> 00:10:38,000
+Darwin core data package? And I'm sure
+
+33
+00:10:38,000 --> 00:10:39,279
+there's a few of you in here who are
+
+34
+00:10:39,279 --> 00:10:40,959
+already aware of what it is. But for
+
+35
+00:10:40,959 --> 00:10:42,800
+those of you who are not, in a nutshell,
+
+36
+00:10:42,800 --> 00:10:44,399
+the Darwin core data package is a
+
+37
+00:10:44,399 --> 00:10:46,480
+publishing model that enables publishers
+
+38
+00:10:46,480 --> 00:10:48,800
+to share richer biodiversity data than
+
+39
+00:10:48,800 --> 00:10:50,320
+what is currently possible with the with
+
+40
+00:10:50,320 --> 00:10:52,560
+the Darwin core archives. So the Darwin
+
+41
+00:10:52,560 --> 00:10:55,040
+core data package mostly utilizes terms
+
+42
+00:10:55,040 --> 00:10:56,959
+from the from the Darwin Core standard,
+
+43
+00:10:56,959 --> 00:10:58,800
+but it also includes terms that are
+
+44
+00:10:58,800 --> 00:11:00,800
+governed by organi organizations outside
+
+45
+00:11:00,800 --> 00:11:03,120
+of TADWIG.
+
+46
+00:11:03,120 --> 00:11:05,120
+And I'm not going to linger overly long
+
+47
+00:11:05,120 --> 00:11:08,160
+on this slide here, but just to ease any
+
+48
+00:11:08,160 --> 00:11:11,360
+immediate concerns or anxiety um over
+
+49
+00:11:11,360 --> 00:11:12,880
+the potential of learning a new data
+
+50
+00:11:12,880 --> 00:11:14,560
+model and what that might look like,
+
+51
+00:11:14,560 --> 00:11:17,200
+let's just take a quick look at what
+
+52
+00:11:17,200 --> 00:11:19,920
+what the what the Darren, excuse me,
+
+53
+00:11:19,920 --> 00:11:22,240
+what the Darwin core data package is um
+
+54
+00:11:22,240 --> 00:11:24,800
+relative to the Darwin Core archives. So
+
+55
+00:11:24,800 --> 00:11:29,200
+what do they have in common? And so both
+
+56
+00:11:29,200 --> 00:11:31,600
+of these data models um have an
+
+57
+00:11:31,600 --> 00:11:33,600
+associated guide. They include a data
+
+58
+00:11:33,600 --> 00:11:36,800
+set metadata as in an EML.xml file and
+
+59
+00:11:36,800 --> 00:11:40,240
+our data shared as either a CSV or TSV.
+
+60
+00:11:40,240 --> 00:11:42,480
+But where biodiversity data shared in
+
+61
+00:11:42,480 --> 00:11:44,480
+the Darwin core archive format are
+
+62
+00:11:44,480 --> 00:11:46,800
+confined by cores and extensions and
+
+63
+00:11:46,800 --> 00:11:49,440
+limited by the star schema. The Darwin
+
+64
+00:11:49,440 --> 00:11:51,760
+core data package does not have those
+
+65
+00:11:51,760 --> 00:11:54,079
+limitations. Um, and that means that the
+
+66
+00:11:54,079 --> 00:11:56,800
+DAR core data package can support data
+
+67
+00:11:56,800 --> 00:12:00,079
+that are uh much more complex and that
+
+68
+00:12:00,079 --> 00:12:01,920
+cannot currently be supported, including
+
+69
+00:12:01,920 --> 00:12:04,480
+organism interactions, including um
+
+70
+00:12:04,480 --> 00:12:06,000
+identifications that support multiple
+
+71
+00:12:06,000 --> 00:12:10,000
+taxa and so forth. Now, let's have a
+
+72
+00:12:10,000 --> 00:12:13,120
+very quick look at our agenda for today.
+
+73
+00:12:13,120 --> 00:12:16,000
+And the first of our two sessions will
+
+74
+00:12:16,000 --> 00:12:17,680
+help you visualize the practical
+
+75
+00:12:17,680 --> 00:12:19,600
+implementation of the Darwin Core data
+
+76
+00:12:19,600 --> 00:12:22,079
+package uh with five use cases. And we
+
+77
+00:12:22,079 --> 00:12:23,839
+ask that you hold your questions until
+
+78
+00:12:23,839 --> 00:12:27,040
+the end of the session. So we we will go
+
+79
+00:12:27,040 --> 00:12:28,560
+through all of the use cases back to
+
+80
+00:12:28,560 --> 00:12:31,200
+back and then have time at the end to to
+
+81
+00:12:31,200 --> 00:12:32,560
+entertain any questions that you have
+
+82
+00:12:32,560 --> 00:12:35,519
+from there. At 3:30 we will have a 30
+
+83
+00:12:35,519 --> 00:12:37,519
+minute coffee break so everybody can go
+
+84
+00:12:37,519 --> 00:12:39,600
+out and stretch your legs, get some much
+
+85
+00:12:39,600 --> 00:12:41,200
+needed caffeine and then hopefully
+
+86
+00:12:41,200 --> 00:12:43,680
+you'll come back at 4:00 straight back
+
+87
+00:12:43,680 --> 00:12:47,360
+to this room. join us here to uh listen
+
+88
+00:12:47,360 --> 00:12:49,519
+to another five presentations addressing
+
+89
+00:12:49,519 --> 00:12:51,680
+many of the practicalities associated
+
+90
+00:12:51,680 --> 00:12:53,519
+with the data package. In the first
+
+91
+00:12:53,519 --> 00:12:55,519
+presentation then we'll provide a solid
+
+92
+00:12:55,519 --> 00:12:57,839
+there we go provide a solid overview of
+
+93
+00:12:57,839 --> 00:13:00,000
+how the data package came about um
+
+94
+00:13:00,000 --> 00:13:01,760
+drawing on the use cases presented here
+
+95
+00:13:01,760 --> 00:13:04,399
+in the first session. Um subsequent
+
+96
+00:13:04,399 --> 00:13:06,720
+presentations will provide um an
+
+97
+00:13:06,720 --> 00:13:08,639
+explanation uh of the relationship
+
+98
+00:13:08,639 --> 00:13:10,800
+between ABCD in the data package,
+
+99
+00:13:10,800 --> 00:13:12,720
+current imple implementation status of
+
+100
+00:13:12,720 --> 00:13:15,600
+the data package at GBF, an insight into
+
+101
+00:13:15,600 --> 00:13:17,200
+uh the data package publishing tools
+
+102
+00:13:17,200 --> 00:13:18,880
+that are currently in development or
+
+103
+00:13:18,880 --> 00:13:20,399
+being considered for development. And
+
+104
+00:13:20,399 --> 00:13:22,160
+then finally, you'll learn more about
+
+105
+00:13:22,160 --> 00:13:23,760
+how you can get involved in the current
+
+106
+00:13:23,760 --> 00:13:26,320
+public review process uh before we close
+
+107
+00:13:26,320 --> 00:13:28,720
+out the symposium for uh with a Q&A
+
+108
+00:13:28,720 --> 00:13:30,560
+session.
+
+109
+00:13:30,560 --> 00:13:32,800
+All right. So, there's some final
+
+110
+00:13:32,800 --> 00:13:35,440
+information that you definitely want to
+
+111
+00:13:35,440 --> 00:13:39,920
+know. Timing me. Oh, okay. Thanks. I'm
+
+112
+00:13:39,920 --> 00:13:41,680
+getting timed.
+
+113
+00:13:41,680 --> 00:13:42,880
+There's some information you're
+
+114
+00:13:42,880 --> 00:13:44,639
+definitely going to want to know as we
+
+115
+00:13:44,639 --> 00:13:46,720
+move into these upcoming presentations.
+
+116
+00:13:46,720 --> 00:13:49,600
+And this is going to be all about uh
+
+117
+00:13:49,600 --> 00:13:50,639
+what you're going to see in the
+
+118
+00:13:50,639 --> 00:13:52,800
+represent represented uh publishing
+
+119
+00:13:52,800 --> 00:13:55,279
+models used to implement the Darcore
+
+120
+00:13:55,279 --> 00:13:57,040
+data package. In this schematic, there
+
+121
+00:13:57,040 --> 00:13:59,120
+are six components. So the first
+
+122
+00:13:59,120 --> 00:14:01,920
+component are represented as events,
+
+123
+00:14:01,920 --> 00:14:03,600
+right? Events just as in Darwin core
+
+124
+00:14:03,600 --> 00:14:07,519
+archives are um or events are excuse me
+
+125
+00:14:07,519 --> 00:14:09,040
+things that happen at a particular place
+
+126
+00:14:09,040 --> 00:14:10,959
+in time.
+
+127
+00:14:10,959 --> 00:14:12,639
+Next you're going to see what are called
+
+128
+00:14:12,639 --> 00:14:14,959
+entities. So entities include
+
+129
+00:14:14,959 --> 00:14:16,399
+essentially interesting information
+
+130
+00:14:16,399 --> 00:14:18,079
+about an event or something that
+
+131
+00:14:18,079 --> 00:14:19,760
+happened.
+
+132
+00:14:19,760 --> 00:14:21,760
+The third component you'll see are
+
+133
+00:14:21,760 --> 00:14:24,639
+called agents. So agents are the things
+
+134
+00:14:24,639 --> 00:14:27,440
+that engage in an activity or an event.
+
+135
+00:14:27,440 --> 00:14:29,760
+An agent can be a person, a group of
+
+136
+00:14:29,760 --> 00:14:34,639
+people, or an organization, or even AI.
+
+137
+00:14:34,639 --> 00:14:37,279
+Next, we have join tables. And join
+
+138
+00:14:37,279 --> 00:14:40,240
+tables are exactly what they say they
+
+139
+00:14:40,240 --> 00:14:43,440
+are. They are tables that join
+
+140
+00:14:43,440 --> 00:14:47,760
+information about what happened to the
+
+141
+00:14:47,760 --> 00:14:50,880
+interesting things and the people or in
+
+142
+00:14:50,880 --> 00:14:54,519
+groups that did them.
+
+143
+00:14:54,560 --> 00:14:56,320
+Okay. So the with these publishing
+
+144
+00:14:56,320 --> 00:14:59,760
+schematics you will also see arrows and
+
+145
+00:14:59,760 --> 00:15:01,760
+so these arrows provide
+
+146
+00:15:01,760 --> 00:15:03,680
+directionalities. They link the tables
+
+147
+00:15:03,680 --> 00:15:05,360
+and show you how those tables are
+
+148
+00:15:05,360 --> 00:15:07,839
+linking to one another. And then finally
+
+149
+00:15:07,839 --> 00:15:08,800
+you're going to see what are called
+
+150
+00:15:08,800 --> 00:15:10,639
+predicates. And predicates are the words
+
+151
+00:15:10,639 --> 00:15:12,800
+or phrases associated with the arrows.
+
+152
+00:15:12,800 --> 00:15:14,880
+These are words or phrases that describe
+
+153
+00:15:14,880 --> 00:15:17,680
+the relationships between those tables
+
+154
+00:15:17,680 --> 00:15:20,160
+and relative to the directionality of
+
+155
+00:15:20,160 --> 00:15:22,320
+the arrows.
+
+156
+00:15:22,320 --> 00:15:25,440
+Hopefully that's clear. translucently
+
+157
+00:15:25,440 --> 00:15:27,279
+clear
+
+158
+00:15:27,279 --> 00:15:29,680
+maybe not crystal. Yeah. Excellent. All
+
+159
+00:15:29,680 --> 00:15:31,279
+right.
+
+160
+00:15:31,279 --> 00:15:32,720
+Perfect. Okay. So, bringing it all
+
+161
+00:15:32,720 --> 00:15:34,639
+together in a very simple example. I'm
+
+162
+00:15:34,639 --> 00:15:35,920
+probably running out of time, but we're
+
+163
+00:15:35,920 --> 00:15:37,680
+going to continue. Anyway, consider a
+
+164
+00:15:37,680 --> 00:15:39,920
+situation where you have an occurrence
+
+165
+00:15:39,920 --> 00:15:41,519
+with some additional information for
+
+166
+00:15:41,519 --> 00:15:43,519
+which there are no specific Darwin core
+
+167
+00:15:43,519 --> 00:15:46,160
+terms. In a Darwin core archive, you
+
+168
+00:15:46,160 --> 00:15:49,519
+would have an occurrence core table and
+
+169
+00:15:49,519 --> 00:15:51,600
+you would have an EMOF extension to
+
+170
+00:15:51,600 --> 00:15:55,279
+attach that extra information.
+
+171
+00:15:55,279 --> 00:15:58,079
+As a Darwin core data package, this same
+
+172
+00:15:58,079 --> 00:16:00,160
+information would be shared as follows.
+
+173
+00:16:00,160 --> 00:16:02,000
+You would have an inferred occurrence
+
+174
+00:16:02,000 --> 00:16:05,199
+that occurred during some event. Then
+
+175
+00:16:05,199 --> 00:16:07,040
+the additional information about that
+
+176
+00:16:07,040 --> 00:16:09,360
+occurrence would be connected to the
+
+177
+00:16:09,360 --> 00:16:10,880
+occurrence using an occurrence
+
+178
+00:16:10,880 --> 00:16:13,839
+assertion. So in this case, an assertion
+
+179
+00:16:13,839 --> 00:16:15,600
+in the Darwin core data package is the
+
+180
+00:16:15,600 --> 00:16:17,440
+equivalent uh is attaching the
+
+181
+00:16:17,440 --> 00:16:18,639
+equivalent information that you would
+
+182
+00:16:18,639 --> 00:16:21,120
+once use in uh in the EMOFH extension in
+
+183
+00:16:21,120 --> 00:16:24,880
+the Darwin core archives.
+
+184
+00:16:25,360 --> 00:16:27,680
+And without further ado, I would like to
+
+185
+00:16:27,680 --> 00:16:29,920
+say let's go ahead and get started with
+
+186
+00:16:29,920 --> 00:16:31,920
+sharing our presentations before anybody
+
+187
+00:16:31,920 --> 00:16:33,600
+thinks of any questions to interrupt.
+
+188
+00:16:33,600 --> 00:16:35,680
+And I would like to invite our first
+
+189
+00:16:35,680 --> 00:16:37,519
+speaker,
+
+190
+00:16:37,519 --> 00:16:41,920
+Karen Seltzer, who will be presenting.
+
+191
+00:16:41,920 --> 00:16:44,240
+Your your presentation's not up. You go
+
+192
+00:16:44,240 --> 00:16:46,320
+presenting on and a data use example
+
+193
+00:16:46,320 --> 00:16:49,040
+from my naturalist.
+
+194
+00:16:49,040 --> 00:16:52,440
+>> Thanks, Kate.
+
+195
+00:16:55,199 --> 00:16:57,120
+My name is Carrie Seltzer. I'm the head
+
+196
+00:16:57,120 --> 00:16:59,759
+of engagement for I Naturalist. And I'm
+
+197
+00:16:59,759 --> 00:17:01,920
+just going to stall for a moment while
+
+198
+00:17:01,920 --> 00:17:05,520
+my slides are pulled up, I hope. Um, and
+
+199
+00:17:05,520 --> 00:17:08,640
+great. So, I'm going to be uh showing
+
+200
+00:17:08,640 --> 00:17:12,079
+you how this Darwin Core data package
+
+201
+00:17:12,079 --> 00:17:14,880
+maps to I naturalist occurrence records.
+
+202
+00:17:14,880 --> 00:17:17,760
+I also want to give a huge thanks to
+
+203
+00:17:17,760 --> 00:17:22,000
+John who was tremendously helpful in um
+
+204
+00:17:22,000 --> 00:17:24,240
+helping me understand how I naturalist
+
+205
+00:17:24,240 --> 00:17:29,039
+data um maps to the data package.
+
+206
+00:17:29,039 --> 00:17:31,120
+Um so first of all if you're not
+
+207
+00:17:31,120 --> 00:17:33,440
+familiar with I naturalist um INAT
+
+208
+00:17:33,440 --> 00:17:35,840
+crowdsources observations and
+
+209
+00:17:35,840 --> 00:17:39,280
+identifications from all over the world
+
+210
+00:17:39,280 --> 00:17:42,320
+um and it's primarily photobased
+
+211
+00:17:42,320 --> 00:17:44,000
+um these
+
+212
+00:17:44,000 --> 00:17:46,400
+are occurrence records um and
+
+213
+00:17:46,400 --> 00:17:48,720
+occasionally there are also organism
+
+214
+00:17:48,720 --> 00:17:50,320
+interactions
+
+215
+00:17:50,320 --> 00:17:51,840
+associated with those occurrence
+
+216
+00:17:51,840 --> 00:17:53,919
+records.
+
+217
+00:17:53,919 --> 00:17:57,120
+Sharing biodiversity data is a huge part
+
+218
+00:17:57,120 --> 00:18:00,080
+of I naturalist mission. Um and so we
+
+219
+00:18:00,080 --> 00:18:02,320
+share a massive data set with GBIFF. Um
+
+220
+00:18:02,320 --> 00:18:05,039
+and I am pleased to highlight that uh if
+
+221
+00:18:05,039 --> 00:18:07,840
+you look at data since 2020 um more than
+
+222
+00:18:07,840 --> 00:18:10,240
+half of species have more than half of
+
+223
+00:18:10,240 --> 00:18:13,440
+their data from I naturalist. Um so
+
+224
+00:18:13,440 --> 00:18:15,919
+pleased to share how how this would
+
+225
+00:18:15,919 --> 00:18:18,720
+work. Just to recap for those of you who
+
+226
+00:18:18,720 --> 00:18:21,520
+maybe actually let me ask who who uses I
+
+227
+00:18:21,520 --> 00:18:23,039
+naturalist.
+
+228
+00:18:23,039 --> 00:18:25,840
+Okay, cool. Um, if you have not used D
+
+229
+00:18:25,840 --> 00:18:28,799
+naturalist, here's how it works. You see
+
+230
+00:18:28,799 --> 00:18:30,880
+something, you take a photo, like a
+
+231
+00:18:30,880 --> 00:18:34,720
+dragonfly for example, um, you
+
+232
+00:18:34,720 --> 00:18:36,880
+and at that point then people can either
+
+233
+00:18:36,880 --> 00:18:38,880
+confirm the identification if you've
+
+234
+00:18:38,880 --> 00:18:41,120
+submitted an identification of your own
+
+235
+00:18:41,120 --> 00:18:43,520
+or they can advance it or correct it if
+
+236
+00:18:43,520 --> 00:18:45,200
+you've made a mistake. Mistakes happen
+
+237
+00:18:45,200 --> 00:18:46,799
+all the time on our naturalist, but they
+
+238
+00:18:46,799 --> 00:18:48,320
+can always be corrected by the
+
+239
+00:18:48,320 --> 00:18:50,080
+community.
+
+240
+00:18:50,080 --> 00:18:53,520
+So, keep this flow in mind. a person
+
+241
+00:18:53,520 --> 00:18:56,960
+makes takes a photo of a thing, posts it
+
+242
+00:18:56,960 --> 00:18:58,960
+to I naturalist, and then other people
+
+243
+00:18:58,960 --> 00:19:00,880
+chime in and help with the
+
+244
+00:19:00,880 --> 00:19:02,559
+identification process because that's
+
+245
+00:19:02,559 --> 00:19:03,919
+we're going to come back to that and how
+
+246
+00:19:03,919 --> 00:19:06,640
+it maps to the data package. So, right
+
+247
+00:19:06,640 --> 00:19:09,120
+now we're sharing um we're sharing a
+
+248
+00:19:09,120 --> 00:19:10,960
+Darwin core archive with JBIFF. We
+
+249
+00:19:10,960 --> 00:19:14,559
+update it once a week hopefully. Um and
+
+250
+00:19:14,559 --> 00:19:16,320
+in terms of some of the limitations
+
+251
+00:19:16,320 --> 00:19:19,200
+right now uh we are not for example
+
+252
+00:19:19,200 --> 00:19:21,440
+passing along all of the identifiers
+
+253
+00:19:21,440 --> 00:19:23,120
+who've contributed to an occurrence
+
+254
+00:19:23,120 --> 00:19:25,440
+record. We're only passing along the
+
+255
+00:19:25,440 --> 00:19:28,799
+first one who uh the first person to
+
+256
+00:19:28,799 --> 00:19:30,480
+essentially like put that species level
+
+257
+00:19:30,480 --> 00:19:32,559
+identification.
+
+258
+00:19:32,559 --> 00:19:35,919
+Uh interactions are captured in I
+
+259
+00:19:35,919 --> 00:19:39,919
+naturalist um occasionally. It's not
+
+260
+00:19:39,919 --> 00:19:42,400
+part of our core data model. Um, but
+
+261
+00:19:42,400 --> 00:19:45,200
+this can be mapped to the Darwin core
+
+262
+00:19:45,200 --> 00:19:48,080
+archive format using the research,
+
+263
+00:19:48,080 --> 00:19:50,400
+sorry, resource relationship, but that's
+
+264
+00:19:50,400 --> 00:19:52,880
+not specific to interactions. Um, it
+
+265
+00:19:52,880 --> 00:19:55,840
+would sort of fit interactions into a a
+
+266
+00:19:55,840 --> 00:19:57,840
+more generalizable
+
+267
+00:19:57,840 --> 00:20:00,480
+uh structure there. And lastly, there's
+
+268
+00:20:00,480 --> 00:20:02,960
+a lot of additional data that we call
+
+269
+00:20:02,960 --> 00:20:05,120
+annotations in I naturalist. It's things
+
+270
+00:20:05,120 --> 00:20:07,760
+like life stage or plant phenology
+
+271
+00:20:07,760 --> 00:20:10,559
+stage. Um and right now a lot of those
+
+272
+00:20:10,559 --> 00:20:12,240
+are getting mapped to the dynamic
+
+273
+00:20:12,240 --> 00:20:14,799
+properties field. Um for example, leaf
+
+274
+00:20:14,799 --> 00:20:16,720
+phenology ends up there because there's
+
+275
+00:20:16,720 --> 00:20:19,679
+not a more structured way um to share
+
+276
+00:20:19,679 --> 00:20:23,840
+that in the Darwin core archive format.
+
+277
+00:20:23,840 --> 00:20:27,200
+So people are at the center of I
+
+278
+00:20:27,200 --> 00:20:28,799
+naturalist and so we're going to start
+
+279
+00:20:28,799 --> 00:20:31,280
+this mapping process with the agent
+
+280
+00:20:31,280 --> 00:20:33,200
+which if you have made an I naturalist
+
+281
+00:20:33,200 --> 00:20:36,400
+observation is you.
+
+282
+00:20:36,400 --> 00:20:40,480
+So you the event is you see something
+
+283
+00:20:40,480 --> 00:20:42,799
+that you want to take a picture of. So
+
+284
+00:20:42,799 --> 00:20:45,440
+now we've got you the event of you
+
+285
+00:20:45,440 --> 00:20:48,480
+seeing it and the thing that you saw.
+
+286
+00:20:48,480 --> 00:20:51,360
+You take a photo that is captured in the
+
+287
+00:20:51,360 --> 00:20:53,840
+media.
+
+288
+00:20:53,840 --> 00:20:56,480
+Then there's an identification and it
+
+289
+00:20:56,480 --> 00:20:58,640
+can come from you or it could come from
+
+290
+00:20:58,640 --> 00:21:03,039
+some someone else many other people.
+
+291
+00:21:03,039 --> 00:21:05,520
+And then there's that extra data like
+
+292
+00:21:05,520 --> 00:21:10,039
+life stage or plant phenology.
+
+293
+00:21:10,640 --> 00:21:13,600
+And with all of the records on I
+
+294
+00:21:13,600 --> 00:21:16,480
+naturalist as well as all of the media
+
+295
+00:21:16,480 --> 00:21:19,440
+there is a usage policy. We use the
+
+296
+00:21:19,440 --> 00:21:22,720
+creative common licenses. Um so that
+
+297
+00:21:22,720 --> 00:21:25,280
+fits in here too.
+
+298
+00:21:25,280 --> 00:21:28,159
+And we've got the provenence. Where did
+
+299
+00:21:28,159 --> 00:21:30,320
+these things come from?
+
+300
+00:21:30,320 --> 00:21:33,760
+So now when we start to pull into this
+
+301
+00:21:33,760 --> 00:21:36,880
+we see that there was an event conducted
+
+302
+00:21:36,880 --> 00:21:40,720
+by a person and in this case it was you
+
+303
+00:21:40,720 --> 00:21:43,600
+without there's not sampling effort um
+
+304
+00:21:43,600 --> 00:21:47,760
+it's just you saw a thing and you uh
+
+305
+00:21:47,760 --> 00:21:51,600
+took a photo. Um and that the
+
+306
+00:21:51,600 --> 00:21:53,679
+identification of what you saw is based
+
+307
+00:21:53,679 --> 00:21:58,880
+on the media. Um the identification was
+
+308
+00:21:58,880 --> 00:22:01,039
+is also mapped to an agent which like I
+
+309
+00:22:01,039 --> 00:22:04,880
+said can be you or someone else. Um and
+
+310
+00:22:04,880 --> 00:22:07,039
+the occurrence assertion is being made
+
+311
+00:22:07,039 --> 00:22:09,440
+about the occurrence which happened
+
+312
+00:22:09,440 --> 00:22:12,080
+during the event.
+
+313
+00:22:12,080 --> 00:22:13,600
+We're just going to keep adding more
+
+314
+00:22:13,600 --> 00:22:16,559
+arrows and boxes. So brace yourselves.
+
+315
+00:22:16,559 --> 00:22:18,400
+All right. So now we've got these join
+
+316
+00:22:18,400 --> 00:22:20,559
+tables in here. Those are the ones in
+
+317
+00:22:20,559 --> 00:22:24,480
+yellow. So now when it comes to media,
+
+318
+00:22:24,480 --> 00:22:28,320
+we've got media both about the the event
+
+319
+00:22:28,320 --> 00:22:29,760
+media about the occurrence, the
+
+320
+00:22:29,760 --> 00:22:32,320
+occurrence media about the occurrence.
+
+321
+00:22:32,320 --> 00:22:34,720
+We've got the media usage policy which
+
+322
+00:22:34,720 --> 00:22:36,880
+connects the media with the usage
+
+323
+00:22:36,880 --> 00:22:39,360
+policy. We've got proven provenence
+
+324
+00:22:39,360 --> 00:22:43,440
+media connecting those two boxes.
+
+325
+00:22:43,440 --> 00:22:47,360
+So this is sort of the core uh this is
+
+326
+00:22:47,360 --> 00:22:50,960
+how most of the I naturalist data that
+
+327
+00:22:50,960 --> 00:22:52,480
+we are currently sharing through the
+
+328
+00:22:52,480 --> 00:22:55,360
+Darwin core archive would get mapped to
+
+329
+00:22:55,360 --> 00:22:58,159
+the data package
+
+330
+00:22:58,159 --> 00:23:00,080
+and like I said we've also got these
+
+331
+00:23:00,080 --> 00:23:03,360
+interactions sometimes so now that comes
+
+332
+00:23:03,360 --> 00:23:07,360
+in and when we add the tables the
+
+333
+00:23:07,360 --> 00:23:09,679
+additional arrows and boxes to that
+
+334
+00:23:09,679 --> 00:23:13,679
+we've got media that is about this
+
+335
+00:23:13,679 --> 00:23:16,400
+organism interaction and the organism
+
+336
+00:23:16,400 --> 00:23:20,159
+interaction is happening with or by an
+
+337
+00:23:20,159 --> 00:23:23,159
+occurrence.
+
+338
+00:23:24,559 --> 00:23:28,720
+I know that's a lot to take in.
+
+339
+00:23:28,720 --> 00:23:31,440
+Uh if you want to see this sort of
+
+340
+00:23:31,440 --> 00:23:35,200
+captured in um in sort of a tabular
+
+341
+00:23:35,200 --> 00:23:39,200
+format, these are the key um the the key
+
+342
+00:23:39,200 --> 00:23:41,360
+tables that are included. There's some
+
+343
+00:23:41,360 --> 00:23:43,120
+links in the slides here if you'd like
+
+344
+00:23:43,120 --> 00:23:46,159
+to refer to the example data set that
+
+345
+00:23:46,159 --> 00:23:48,480
+John prepared. I forgot to mention that
+
+346
+00:23:48,480 --> 00:23:50,640
+from the outset that that was part of
+
+347
+00:23:50,640 --> 00:23:53,120
+this exercise was taking a very small
+
+348
+00:23:53,120 --> 00:23:55,200
+subset of I naturalist data that
+
+349
+00:23:55,200 --> 00:23:57,039
+happened to have that additional
+
+350
+00:23:57,039 --> 00:23:59,919
+information about uh in this case plant
+
+351
+00:23:59,919 --> 00:24:03,039
+animal interactions um that was used to
+
+352
+00:24:03,039 --> 00:24:05,440
+to to go through this exercise of
+
+353
+00:24:05,440 --> 00:24:07,520
+mapping I naturalist data to the data
+
+354
+00:24:07,520 --> 00:24:10,520
+package.
+
+355
+00:24:11,120 --> 00:24:13,600
+So when it comes to natural data using
+
+356
+00:24:13,600 --> 00:24:15,600
+this new format, there are many new
+
+357
+00:24:15,600 --> 00:24:17,440
+possibilities.
+
+358
+00:24:17,440 --> 00:24:19,919
+For example, one question that we get
+
+359
+00:24:19,919 --> 00:24:23,279
+fairly often is can projects be
+
+360
+00:24:23,279 --> 00:24:26,000
+represented in the data that is shared
+
+361
+00:24:26,000 --> 00:24:29,360
+with GBIFF. Um and this for example
+
+362
+00:24:29,360 --> 00:24:31,200
+could be part of providence. So I think
+
+363
+00:24:31,200 --> 00:24:34,320
+it opens up a new avenue for us to pass
+
+364
+00:24:34,320 --> 00:24:36,080
+on information that people have been
+
+365
+00:24:36,080 --> 00:24:39,760
+asking for uh in in in this u more
+
+366
+00:24:39,760 --> 00:24:42,080
+elaborate data model.
+
+367
+00:24:42,080 --> 00:24:44,880
+Another interesting possibility is that
+
+368
+00:24:44,880 --> 00:24:47,360
+the community ID which is essentially an
+
+369
+00:24:47,360 --> 00:24:49,360
+algorithmic thing on I naturalist it's
+
+370
+00:24:49,360 --> 00:24:52,799
+sort of a uh you the short hand is there
+
+371
+00:24:52,799 --> 00:24:55,840
+needs to be at least at least twothirds
+
+372
+00:24:55,840 --> 00:24:58,000
+agreement at the species level
+
+373
+00:24:58,000 --> 00:24:59,840
+identification for something to become
+
+374
+00:24:59,840 --> 00:25:04,159
+research grade and get shared with GBF.
+
+375
+00:25:04,159 --> 00:25:07,039
+And so that sort of simple algorithm
+
+376
+00:25:07,039 --> 00:25:09,679
+could for example be an agent in this
+
+377
+00:25:09,679 --> 00:25:12,159
+model if we wanted to sort of build out
+
+378
+00:25:12,159 --> 00:25:14,559
+the complexity of information that we're
+
+379
+00:25:14,559 --> 00:25:19,760
+passing from I naturalist um to a a a
+
+380
+00:25:19,760 --> 00:25:22,480
+data aggregator like GBF.
+
+381
+00:25:22,480 --> 00:25:25,120
+But when it comes to thinking about
+
+382
+00:25:25,120 --> 00:25:26,960
+where we are now using the Darwin core
+
+383
+00:25:26,960 --> 00:25:29,919
+archive to the implementation process,
+
+384
+00:25:29,919 --> 00:25:32,320
+we will need to think about a lot of uh
+
+385
+00:25:32,320 --> 00:25:35,039
+costs including complexity and
+
+386
+00:25:35,039 --> 00:25:37,200
+processing time and what are the
+
+387
+00:25:37,200 --> 00:25:39,120
+resulting file sizes and sharing this
+
+388
+00:25:39,120 --> 00:25:41,200
+way. It currently takes us about a week
+
+389
+00:25:41,200 --> 00:25:44,159
+to our Darwin core archive and we do it
+
+390
+00:25:44,159 --> 00:25:46,640
+once a week. So it's a constant process.
+
+391
+00:25:46,640 --> 00:25:48,320
+Um, if you've ever found it out of date,
+
+392
+00:25:48,320 --> 00:25:51,039
+it's because uh got too big and we
+
+393
+00:25:51,039 --> 00:25:53,600
+needed to optimize again.
+
+394
+00:25:53,600 --> 00:25:57,919
+So, with that, I am going to
+
+395
+00:25:57,919 --> 00:26:00,320
+say thank you and turn it over to the
+
+396
+00:26:00,320 --> 00:26:03,880
+next example.
+
+397
+00:26:12,000 --> 00:26:13,360
+Thank you Carrie for that awesome
+
+398
+00:26:13,360 --> 00:26:15,279
+example of citizen science data being
+
+399
+00:26:15,279 --> 00:26:17,840
+mapped to the DRO data package. Our next
+
+400
+00:26:17,840 --> 00:26:20,799
+speaker Yolichek will be providing an
+
+401
+00:26:20,799 --> 00:26:23,279
+example uh using natural history museum
+
+402
+00:26:23,279 --> 00:26:24,960
+collections. So probably something quite
+
+403
+00:26:24,960 --> 00:26:29,320
+familiar to everybody here.
+
+404
+00:26:32,320 --> 00:26:34,880
+>> Yeah. Hello, Daniel Kchek from Bhutanic
+
+405
+00:26:34,880 --> 00:26:38,320
+Museum in Berlin and I'm working at the
+
+406
+00:26:38,320 --> 00:26:40,640
+center for biodiversity informatics and
+
+407
+00:26:40,640 --> 00:26:45,080
+um collection data integration
+
+408
+00:26:45,279 --> 00:26:48,159
+um and I've been responsible for pushing
+
+409
+00:26:48,159 --> 00:26:51,360
+our data um for the last years to GIF
+
+410
+00:26:51,360 --> 00:26:55,200
+and likewise biodiversity networks. So
+
+411
+00:26:55,200 --> 00:26:58,240
+uh I knew a lot about um the limitations
+
+412
+00:26:58,240 --> 00:27:01,440
+of Darwin core and uh yeah so we were
+
+413
+00:27:01,440 --> 00:27:03,279
+happy to move one of the use cases to
+
+414
+00:27:03,279 --> 00:27:05,600
+publish natural history collection data
+
+415
+00:27:05,600 --> 00:27:09,400
+as D core packages.
+
+416
+00:27:12,640 --> 00:27:15,200
+So herarium we have in Berlin is um the
+
+417
+00:27:15,200 --> 00:27:18,720
+largest one in in in Germany. Uh right
+
+418
+00:27:18,720 --> 00:27:20,640
+now there's about 4 million specimens.
+
+419
+00:27:20,640 --> 00:27:22,480
+It has been largely destroyed during the
+
+420
+00:27:22,480 --> 00:27:25,679
+world war but it grew very fast again
+
+421
+00:27:25,679 --> 00:27:28,880
+due to the distribution of duplicates
+
+422
+00:27:28,880 --> 00:27:32,000
+and even now it's uh growing constantly
+
+423
+00:27:32,000 --> 00:27:36,159
+with about 30,000 new specimens per year
+
+424
+00:27:36,159 --> 00:27:39,200
+mainly through donations from botonists
+
+425
+00:27:39,200 --> 00:27:43,679
+or by collection uh events from our um
+
+426
+00:27:43,679 --> 00:27:46,679
+colleagues.
+
+427
+00:27:46,720 --> 00:27:49,760
+Um the type of data we provide or we are
+
+428
+00:27:49,760 --> 00:27:51,840
+able to provide are of course the
+
+429
+00:27:51,840 --> 00:27:53,600
+specimens currently about 4 million
+
+430
+00:27:53,600 --> 00:27:58,320
+ones. Um about 10% of them are digitized
+
+431
+00:27:58,320 --> 00:28:01,600
+so far as as high resolution images. U
+
+432
+00:28:01,600 --> 00:28:05,440
+they're stored as um diff data and we
+
+433
+00:28:05,440 --> 00:28:07,840
+provide them as JPEGs for the creation
+
+434
+00:28:07,840 --> 00:28:11,039
+of of thumbnails and of course um
+
+435
+00:28:11,039 --> 00:28:14,000
+through image viewers for humans to be
+
+436
+00:28:14,000 --> 00:28:16,399
+able to zoom into different um areas of
+
+437
+00:28:16,399 --> 00:28:18,159
+the image and to take measurements and
+
+438
+00:28:18,159 --> 00:28:20,880
+to rotate stuff like that.
+
+439
+00:28:20,880 --> 00:28:24,000
+We do have 30,000 images of um the
+
+440
+00:28:24,000 --> 00:28:26,399
+organisms before being collected. Um
+
+441
+00:28:26,399 --> 00:28:29,200
+often that's in the the original habitat
+
+442
+00:28:29,200 --> 00:28:34,880
+so that the surrounding um FL is also
+
+443
+00:28:34,880 --> 00:28:39,120
+captured and we do have um 30,000 tissue
+
+444
+00:28:39,120 --> 00:28:42,320
+samples and 50,000 DNA samples in our
+
+445
+00:28:42,320 --> 00:28:44,880
+DNA repository.
+
+446
+00:28:44,880 --> 00:28:47,360
+Um we do provide the sequences through
+
+447
+00:28:47,360 --> 00:28:52,480
+ENA and NCBI with nightly updates.
+
+448
+00:28:52,480 --> 00:28:55,440
+Um so far so before Darwin core data
+
+449
+00:28:55,440 --> 00:28:58,240
+package we provided only the specimen
+
+450
+00:28:58,240 --> 00:29:01,919
+and the specimen image to GIF um the
+
+451
+00:29:01,919 --> 00:29:04,159
+tissue and the material samples we
+
+452
+00:29:04,159 --> 00:29:05,520
+shared with the global genome
+
+453
+00:29:05,520 --> 00:29:08,880
+biodiversity network because um this
+
+454
+00:29:08,880 --> 00:29:13,840
+network also is able to um to show all
+
+455
+00:29:13,840 --> 00:29:17,039
+the associations between the objects. So
+
+456
+00:29:17,039 --> 00:29:19,360
+you can if you're looking for a DNA
+
+457
+00:29:19,360 --> 00:29:22,320
+sample, you can go to GGBN, it'll find
+
+458
+00:29:22,320 --> 00:29:24,640
+the DNA sample and then it will link you
+
+459
+00:29:24,640 --> 00:29:27,120
+to the um tissue sample this DNA has
+
+460
+00:29:27,120 --> 00:29:29,760
+been taken from and then to the specimen
+
+461
+00:29:29,760 --> 00:29:32,320
+that the tissue has been taken from and
+
+462
+00:29:32,320 --> 00:29:34,159
+as I said before the sequences are
+
+463
+00:29:34,159 --> 00:29:38,279
+shared with NCBI.
+
+464
+00:29:38,320 --> 00:29:42,399
+Um now again publishing model as Gary
+
+465
+00:29:42,399 --> 00:29:44,720
+showed. Um
+
+466
+00:29:44,720 --> 00:29:48,080
+again of course uh a specimen documents
+
+467
+00:29:48,080 --> 00:29:50,960
+the existing the existence of an
+
+468
+00:29:50,960 --> 00:29:55,919
+organism um the an event documents the
+
+469
+00:29:55,919 --> 00:29:58,240
+gathering event documents the existence
+
+470
+00:29:58,240 --> 00:30:01,679
+of an occurrence um at a given location
+
+471
+00:30:01,679 --> 00:30:04,799
+of course. And then all the materials
+
+472
+00:30:04,799 --> 00:30:08,080
+that get um that get um sampled or that
+
+473
+00:30:08,080 --> 00:30:10,799
+get gathered of course first is the
+
+474
+00:30:10,799 --> 00:30:13,039
+specimen that is the specimen gathered
+
+475
+00:30:13,039 --> 00:30:16,880
+on site. Uh later the material is taken
+
+476
+00:30:16,880 --> 00:30:19,679
+the material sample the tissue sample is
+
+477
+00:30:19,679 --> 00:30:22,240
+taken from the specimen
+
+478
+00:30:22,240 --> 00:30:27,279
+and the DNA is uh taken from from the
+
+479
+00:30:27,279 --> 00:30:31,279
+tissue sample. Um these are the the
+
+480
+00:30:31,279 --> 00:30:34,640
+arrows. They show that um this this this
+
+481
+00:30:34,640 --> 00:30:39,120
+chain of derivation and um the arrows
+
+482
+00:30:39,120 --> 00:30:41,840
+that I just added is um the only
+
+483
+00:30:41,840 --> 00:30:44,960
+exception. We have some tissue samples
+
+484
+00:30:44,960 --> 00:30:47,600
+that are not taken from specimen. For
+
+485
+00:30:47,600 --> 00:30:49,600
+example, if the tissues are taken
+
+486
+00:30:49,600 --> 00:30:51,840
+directly in the garden, there's no spec
+
+487
+00:30:51,840 --> 00:30:55,120
+specimen gathered. So the those tissue
+
+488
+00:30:55,120 --> 00:30:58,240
+samples are directly from the organism
+
+489
+00:30:58,240 --> 00:31:01,559
+in the garden.
+
+490
+00:31:05,200 --> 00:31:08,240
+Specimens is based of course on material
+
+491
+00:31:08,240 --> 00:31:11,760
+on the specimen with the exception then
+
+492
+00:31:11,760 --> 00:31:13,919
+if no specimen has been gathered then
+
+493
+00:31:13,919 --> 00:31:16,399
+the tification is of course based on the
+
+494
+00:31:16,399 --> 00:31:18,880
+organism in the mixture.
+
+495
+00:31:18,880 --> 00:31:21,440
+And we do have
+
+496
+00:31:21,440 --> 00:31:25,520
+of course um a lot of mu identifiers. So
+
+497
+00:31:25,520 --> 00:31:29,200
+these are glob unique and
+
+498
+00:31:29,200 --> 00:31:32,640
+identifiers for the specimens and the
+
+499
+00:31:32,640 --> 00:31:35,600
+tissue or the DNA samples they uh
+
+500
+00:31:35,600 --> 00:31:41,360
+resolve. So if you use them um
+
+501
+00:31:41,360 --> 00:31:44,559
+as as as a script you get the metadata
+
+502
+00:31:44,559 --> 00:31:47,919
+on on these objects as JSON. And if
+
+503
+00:31:47,919 --> 00:31:50,799
+you're a human using a browser then you
+
+504
+00:31:50,799 --> 00:31:53,279
+will get the same metadata as um a
+
+505
+00:31:53,279 --> 00:31:55,519
+landing page and of course the image
+
+506
+00:31:55,519 --> 00:31:57,039
+shown.
+
+507
+00:31:57,039 --> 00:32:00,559
+Um we provide certain geo assertions on
+
+508
+00:32:00,559 --> 00:32:04,159
+DNA samples for example and we of course
+
+509
+00:32:04,159 --> 00:32:06,799
+as mentioned we do have images of the
+
+510
+00:32:06,799 --> 00:32:12,240
+specimens as occurring media and of the
+
+511
+00:32:12,240 --> 00:32:14,960
+no of the specimens as material media
+
+512
+00:32:14,960 --> 00:32:16,799
+and of the occurrences. These are the
+
+513
+00:32:16,799 --> 00:32:21,519
+images of the living organisms.
+
+514
+00:32:21,519 --> 00:32:25,039
+Um the lessons we learned, we could
+
+515
+00:32:25,039 --> 00:32:26,880
+provide way more data that we could
+
+516
+00:32:26,880 --> 00:32:29,600
+before. And with this, there was also a
+
+517
+00:32:29,600 --> 00:32:31,360
+lot of more data issues to be
+
+518
+00:32:31,360 --> 00:32:34,640
+discovered. I learned a lot about um
+
+519
+00:32:34,640 --> 00:32:37,120
+control characters that can be that can
+
+520
+00:32:37,120 --> 00:32:40,640
+break uh a CSV and the IoT. um we found
+
+521
+00:32:40,640 --> 00:32:43,200
+almost every um special character or
+
+522
+00:32:43,200 --> 00:32:45,279
+control character in our data and we had
+
+523
+00:32:45,279 --> 00:32:48,320
+to clean them. Of course, we had to do a
+
+524
+00:32:48,320 --> 00:32:50,480
+lot of of juggling because the data
+
+525
+00:32:50,480 --> 00:32:52,000
+model of our database is very
+
+526
+00:32:52,000 --> 00:32:54,399
+normalized. So I had to concatenate a
+
+527
+00:32:54,399 --> 00:32:58,960
+lot of tables and um create a lot of
+
+528
+00:32:58,960 --> 00:33:03,600
+yeah SQL um statements for that and um
+
+529
+00:33:03,600 --> 00:33:05,840
+as I said as I showed in the example
+
+530
+00:33:05,840 --> 00:33:07,440
+there are a lot of objects that that
+
+531
+00:33:07,440 --> 00:33:10,000
+don't stick to the rules and um this was
+
+532
+00:33:10,000 --> 00:33:13,120
+just one example and uh we had to to
+
+533
+00:33:13,120 --> 00:33:14,720
+build a lot of workarounds for these
+
+534
+00:33:14,720 --> 00:33:16,640
+special cases that don't stick to the
+
+535
+00:33:16,640 --> 00:33:19,840
+regular um schema.
+
+536
+00:33:19,840 --> 00:33:22,559
+So together it was a lot of juggling but
+
+537
+00:33:22,559 --> 00:33:24,640
+in the end everything fit in and we were
+
+538
+00:33:24,640 --> 00:33:26,880
+able to write more more data than
+
+539
+00:33:26,880 --> 00:33:29,360
+before.
+
+540
+00:33:29,360 --> 00:33:32,919
+>> Yeah. Thank you.
+
+541
+00:33:40,799 --> 00:33:42,640
+>> Thank you very much. Sheriff I'd like to
+
+542
+00:33:42,640 --> 00:33:44,240
+invite our next speaker up, Ying Ming
+
+543
+00:33:44,240 --> 00:33:46,480
+Gan. She's going to give you an example
+
+544
+00:33:46,480 --> 00:33:49,519
+of the data package uh with complex
+
+545
+00:33:49,519 --> 00:33:52,960
+marine survey data and we are actually
+
+546
+00:33:52,960 --> 00:33:54,320
+quite a bit ahead of schedule.
+
+547
+00:33:54,320 --> 00:33:55,679
+Everybody's been super efficient in
+
+548
+00:33:55,679 --> 00:33:58,159
+their presentations. So, we'll keep
+
+549
+00:33:58,159 --> 00:34:00,159
+moving through our use cases, but this
+
+550
+00:34:00,159 --> 00:34:01,360
+will just give us a little bit more time
+
+551
+00:34:01,360 --> 00:34:02,960
+at the end for for discussion. So,
+
+552
+00:34:02,960 --> 00:34:04,399
+continue to hold on to your questions
+
+553
+00:34:04,399 --> 00:34:06,960
+and and comments and we will address
+
+554
+00:34:06,960 --> 00:34:08,560
+those at the end, but we'll just have a
+
+555
+00:34:08,560 --> 00:34:12,040
+little bit more time.
+
+556
+00:34:15,839 --> 00:34:18,839
+Oh,
+
+557
+00:34:19,679 --> 00:34:22,720
+thank you Kate. Thank you for inviting.
+
+558
+00:34:22,720 --> 00:34:24,960
+Thank you for being here. Good afternoon
+
+559
+00:34:24,960 --> 00:34:27,280
+everyone. I'm from Scott and
+
+560
+00:34:27,280 --> 00:34:30,560
+biodiversity portal which is also a dri
+
+561
+00:34:30,560 --> 00:34:33,200
+and obus node. So I'm very excited to
+
+562
+00:34:33,200 --> 00:34:35,760
+share with you how we use darling core
+
+563
+00:34:35,760 --> 00:34:39,440
+data package to map our complex marine
+
+564
+00:34:39,440 --> 00:34:42,960
+survey data sets.
+
+565
+00:34:43,280 --> 00:34:45,839
+The bird west fish data sets contains
+
+566
+00:34:45,839 --> 00:34:48,560
+fish records
+
+567
+00:34:48,560 --> 00:34:51,200
+for survey conducted from January to
+
+568
+00:34:51,200 --> 00:34:53,839
+March 2006
+
+569
+00:34:53,839 --> 00:34:57,200
+region in southern ocean. The goal is to
+
+570
+00:34:57,200 --> 00:34:59,040
+have a baseline assessment of the
+
+571
+00:34:59,040 --> 00:35:02,800
+biodiversity in that area.
+
+572
+00:35:02,800 --> 00:35:06,240
+It was published in year 2008
+
+573
+00:35:06,240 --> 00:35:11,040
+as a single parents table.
+
+574
+00:35:11,040 --> 00:35:15,200
+Now we remember how much more enrichment
+
+575
+00:35:15,200 --> 00:35:17,680
+of this data set can be done if we move
+
+576
+00:35:17,680 --> 00:35:20,800
+it to down core data package.
+
+577
+00:35:20,800 --> 00:35:24,640
+So first of all we have the events which
+
+578
+00:35:24,640 --> 00:35:27,119
+uh which consists of either the
+
+579
+00:35:27,119 --> 00:35:29,599
+rectangular midwater troll routine
+
+580
+00:35:29,599 --> 00:35:34,320
+sampling which is the first 200
+
+581
+00:35:34,320 --> 00:35:37,839
+target sampling which is
+
+582
+00:35:37,839 --> 00:35:40,880
+detecting the assemblage and lower the
+
+583
+00:35:40,880 --> 00:35:43,200
+to the depth of this assemblage and
+
+584
+00:35:43,200 --> 00:35:45,760
+sample the assemblage. So we have a
+
+585
+00:35:45,760 --> 00:35:49,119
+survey target that includes target taxum
+
+586
+00:35:49,119 --> 00:35:52,800
+life stage and body size for this
+
+587
+00:35:52,800 --> 00:35:56,400
+routine or target pull which happen
+
+588
+00:35:56,400 --> 00:35:59,359
+during an event.
+
+589
+00:35:59,359 --> 00:36:01,920
+And this sampling contains measurements
+
+590
+00:36:01,920 --> 00:36:05,839
+such as the depth mark over
+
+591
+00:36:05,839 --> 00:36:08,800
+size of the net as well as the trail
+
+592
+00:36:08,800 --> 00:36:12,079
+distance speeds and separate volume. And
+
+593
+00:36:12,079 --> 00:36:16,839
+this goes to the event assertion.
+
+594
+00:36:16,880 --> 00:36:20,480
+The fish sample will the occurrence and
+
+595
+00:36:20,480 --> 00:36:22,880
+we also indicate whether the occurrence
+
+596
+00:36:22,880 --> 00:36:26,320
+satisfied a survey target and all of the
+
+597
+00:36:26,320 --> 00:36:28,480
+fish were identified
+
+598
+00:36:28,480 --> 00:36:30,880
+and the identification goes to the
+
+599
+00:36:30,880 --> 00:36:34,680
+identification table.
+
+600
+00:36:35,200 --> 00:36:38,400
+Aside from the group of fish as an
+
+601
+00:36:38,400 --> 00:36:41,359
+occurrence, each of the individual fish
+
+602
+00:36:41,359 --> 00:36:45,760
+were also preserved as material
+
+603
+00:36:45,760 --> 00:36:49,440
+and their weight. So they contains the
+
+604
+00:36:49,440 --> 00:36:52,000
+dry and that weight as well as standard
+
+605
+00:36:52,000 --> 00:36:55,440
+length and energy content. This goes to
+
+606
+00:36:55,440 --> 00:36:58,320
+material assertion table. They are also
+
+607
+00:36:58,320 --> 00:37:00,320
+photographed. Each of the individual
+
+608
+00:37:00,320 --> 00:37:03,040
+fish were photographed. So we have the
+
+609
+00:37:03,040 --> 00:37:05,920
+of the material
+
+610
+00:37:05,920 --> 00:37:08,400
+and here to build on the tables the
+
+611
+00:37:08,400 --> 00:37:13,119
+materials goes here. Uh they they go
+
+612
+00:37:13,119 --> 00:37:16,079
+there are material atom event which
+
+613
+00:37:16,079 --> 00:37:19,520
+serves as an evidence for an occurrence
+
+614
+00:37:19,520 --> 00:37:21,359
+and that contains also the
+
+615
+00:37:21,359 --> 00:37:24,480
+identification as well as the material
+
+616
+00:37:24,480 --> 00:37:27,480
+assertion.
+
+617
+00:37:28,320 --> 00:37:30,880
+For some of the fish, their stomach
+
+618
+00:37:30,880 --> 00:37:33,119
+content was also assessed using
+
+619
+00:37:33,119 --> 00:37:37,119
+binocular. The prey item were identified
+
+620
+00:37:37,119 --> 00:37:40,000
+and counts and the degree of digestion
+
+621
+00:37:40,000 --> 00:37:42,800
+were recorded.
+
+622
+00:37:42,800 --> 00:37:46,000
+So to do this, the prayer items and its
+
+623
+00:37:46,000 --> 00:37:48,320
+identification goes to the material
+
+624
+00:37:48,320 --> 00:37:51,839
+table as a mixed material. Degree of
+
+625
+00:37:51,839 --> 00:37:57,359
+digestion is assertion to this material.
+
+626
+00:37:57,359 --> 00:38:01,119
+Now it is quite a complicated tables. In
+
+627
+00:38:01,119 --> 00:38:04,079
+total we have 23
+
+628
+00:38:04,079 --> 00:38:06,640
+tables which is all right. It cannot fit
+
+629
+00:38:06,640 --> 00:38:09,040
+into all the slides
+
+630
+00:38:09,040 --> 00:38:12,560
+and we were we had a thought exercise.
+
+631
+00:38:12,560 --> 00:38:17,200
+Can we map any with just D core archive?
+
+632
+00:38:17,200 --> 00:38:19,839
+So we could do most of the things with D
+
+633
+00:38:19,839 --> 00:38:23,359
+core archive. For example, the event can
+
+634
+00:38:23,359 --> 00:38:26,960
+still be an event core. Serve target and
+
+635
+00:38:26,960 --> 00:38:29,839
+survey will all generate from the humble
+
+636
+00:38:29,839 --> 00:38:31,599
+extension.
+
+637
+00:38:31,599 --> 00:38:34,079
+They got flattened into single table as
+
+638
+00:38:34,079 --> 00:38:36,079
+humble extension.
+
+639
+00:38:36,079 --> 00:38:39,119
+Occurrence material and notification and
+
+640
+00:38:39,119 --> 00:38:41,920
+media can go to the occurrence
+
+641
+00:38:41,920 --> 00:38:44,800
+extension. material assertion event
+
+642
+00:38:44,800 --> 00:38:47,119
+assertion can go to extended measurement
+
+643
+00:38:47,119 --> 00:38:49,760
+of fat extension that points to both
+
+644
+00:38:49,760 --> 00:38:54,320
+event or occurrence. Now this is where
+
+645
+00:38:54,320 --> 00:39:00,000
+we felt ding could data set well.
+
+646
+00:39:00,000 --> 00:39:02,079
+First of all there's less freedom in
+
+647
+00:39:02,079 --> 00:39:04,720
+specifying survey target. We want to
+
+648
+00:39:04,720 --> 00:39:10,720
+indicate a minimum body size um for for
+
+649
+00:39:10,720 --> 00:39:14,160
+the survey target and it's we can put
+
+650
+00:39:14,160 --> 00:39:18,000
+that as verbating target scope but it's
+
+651
+00:39:18,000 --> 00:39:22,320
+um more difficult to parse and then to
+
+652
+00:39:22,320 --> 00:39:25,119
+us we feel because the individual fish
+
+653
+00:39:25,119 --> 00:39:28,160
+has a material entity ID therefore
+
+654
+00:39:28,160 --> 00:39:30,640
+occurrence extension we make unique
+
+655
+00:39:30,640 --> 00:39:33,760
+occurrence ID to represent each row a
+
+656
+00:39:33,760 --> 00:39:37,920
+user occurs ID to represent material
+
+657
+00:39:37,920 --> 00:39:41,839
+feels a little awkward the
+
+658
+00:39:41,839 --> 00:39:45,200
+items were published because these the
+
+659
+00:39:45,200 --> 00:39:47,920
+media that is extension too far we can
+
+660
+00:39:47,920 --> 00:39:50,160
+use associated media but that will miss
+
+661
+00:39:50,160 --> 00:39:52,400
+the metadata such as the license of the
+
+662
+00:39:52,400 --> 00:39:55,680
+photo and the proactives we find that
+
+663
+00:39:55,680 --> 00:39:57,599
+it's difficult to represent in our
+
+664
+00:39:57,599 --> 00:40:00,720
+current extension
+
+665
+00:40:00,720 --> 00:40:04,560
+so these are the lessons that we learned
+
+666
+00:40:04,560 --> 00:40:06,800
+during the mapping. I thought we have to
+
+667
+00:40:06,800 --> 00:40:09,599
+join tables to get the foreign key just
+
+668
+00:40:09,599 --> 00:40:12,720
+to split them into multiple D core data
+
+669
+00:40:12,720 --> 00:40:15,359
+package tables and we find that tools
+
+670
+00:40:15,359 --> 00:40:17,680
+for splitting tables would be very
+
+671
+00:40:17,680 --> 00:40:20,160
+helpful.
+
+672
+00:40:20,160 --> 00:40:22,000
+Secondly, we think that it would be
+
+673
+00:40:22,000 --> 00:40:24,640
+extremely difficult to maintain the
+
+674
+00:40:24,640 --> 00:40:28,160
+identifiers upon updating the data set.
+
+675
+00:40:28,160 --> 00:40:30,880
+There are 23 tables and there are a lot
+
+676
+00:40:30,880 --> 00:40:34,560
+of identifiers to maintain.
+
+677
+00:40:34,560 --> 00:40:36,880
+Now within the dial data package is
+
+678
+00:40:36,880 --> 00:40:39,839
+extremely helpful to to model complex
+
+679
+00:40:39,839 --> 00:40:43,440
+data sets because it preserve the of the
+
+680
+00:40:43,440 --> 00:40:47,680
+data represented closer to the reality
+
+681
+00:40:47,680 --> 00:40:50,400
+and preserve the meaning of identifier
+
+682
+00:40:50,400 --> 00:40:52,960
+as well.
+
+683
+00:40:52,960 --> 00:40:56,640
+And finally I get go one step further to
+
+684
+00:40:56,640 --> 00:40:59,119
+see if we can access the data from D
+
+685
+00:40:59,119 --> 00:41:02,000
+core data package. A first use case we
+
+686
+00:41:02,000 --> 00:41:06,000
+could think of is the info detections.
+
+687
+00:41:06,000 --> 00:41:10,160
+This is ho extension intended to do
+
+688
+00:41:10,160 --> 00:41:13,440
+shell. So for example we have a target
+
+689
+00:41:13,440 --> 00:41:18,400
+scope of species ABC say we report
+
+690
+00:41:18,400 --> 00:41:21,920
+detections of an event of including all
+
+691
+00:41:21,920 --> 00:41:24,079
+the targets that we report that we
+
+692
+00:41:24,079 --> 00:41:27,680
+detected. So if we detect species C and
+
+693
+00:41:27,680 --> 00:41:30,000
+we report everything we can infer that
+
+694
+00:41:30,000 --> 00:41:33,280
+species A and B were not detected and
+
+695
+00:41:33,280 --> 00:41:35,680
+anything we detect outside of the target
+
+696
+00:41:35,680 --> 00:41:38,960
+scope are the non-target tax.
+
+697
+00:41:38,960 --> 00:41:41,680
+So using this concept I'm looking at
+
+698
+00:41:41,680 --> 00:41:45,200
+these four tables looking at what
+
+699
+00:41:45,200 --> 00:41:47,359
+occurrence
+
+700
+00:41:47,359 --> 00:41:49,359
+this data set
+
+701
+00:41:49,359 --> 00:41:52,160
+currents were reported. So looking at
+
+702
+00:41:52,160 --> 00:41:55,040
+the occurrence of all of the events that
+
+703
+00:41:55,040 --> 00:41:59,359
+are not that satisfy the server targets
+
+704
+00:41:59,359 --> 00:42:02,160
+um can be used to infer what they're not
+
+705
+00:42:02,160 --> 00:42:06,240
+present. So the yaxis are all the events
+
+706
+00:42:06,240 --> 00:42:10,079
+and x-axis are all the target scope. So
+
+707
+00:42:10,079 --> 00:42:12,240
+we can see the pale blue are the
+
+708
+00:42:12,240 --> 00:42:16,000
+detections from these detections only
+
+709
+00:42:16,000 --> 00:42:18,400
+data set.
+
+710
+00:42:18,400 --> 00:42:22,400
+A second use case what we thought of is
+
+711
+00:42:22,400 --> 00:42:25,839
+we be able to pull this data out for
+
+712
+00:42:25,839 --> 00:42:29,839
+data products. So in essential ocean
+
+713
+00:42:29,839 --> 00:42:31,920
+variables the fish line frequency
+
+714
+00:42:31,920 --> 00:42:33,920
+distribution is one of the sub
+
+715
+00:42:33,920 --> 00:42:37,520
+variables. So we want to see if we can
+
+716
+00:42:37,520 --> 00:42:40,880
+the fish length and build this fish uh
+
+717
+00:42:40,880 --> 00:42:43,599
+size frequency diagram.
+
+718
+00:42:43,599 --> 00:42:46,880
+So we look at the material assertion
+
+719
+00:42:46,880 --> 00:42:49,680
+where the fish lines are and then look
+
+720
+00:42:49,680 --> 00:42:53,359
+at how which
+
+721
+00:42:53,359 --> 00:42:55,920
+troll type it is from whether is from
+
+722
+00:42:55,920 --> 00:43:00,560
+routine or target troll that's uh that's
+
+723
+00:43:00,560 --> 00:43:04,000
+information in the survey table.
+
+724
+00:43:04,000 --> 00:43:06,400
+So the answer is yes we can do that we
+
+725
+00:43:06,400 --> 00:43:08,480
+can plot a fish line frequency
+
+726
+00:43:08,480 --> 00:43:10,640
+distribution.
+
+727
+00:43:10,640 --> 00:43:12,400
+So
+
+728
+00:43:12,400 --> 00:43:15,359
+during this process I also think you
+
+729
+00:43:15,359 --> 00:43:18,079
+know fish life frequency we we put it as
+
+730
+00:43:18,079 --> 00:43:20,160
+material assession but it could also be
+
+731
+00:43:20,160 --> 00:43:22,319
+an occurrence assertion. One of the
+
+732
+00:43:22,319 --> 00:43:25,680
+example from the OBC USA data set here
+
+733
+00:43:25,680 --> 00:43:28,480
+is um the you the diver could use this
+
+734
+00:43:28,480 --> 00:43:32,000
+tool here to measure the fish while
+
+735
+00:43:32,000 --> 00:43:35,040
+swimming and estimate the fish length.
+
+736
+00:43:35,040 --> 00:43:38,000
+So one thing is important is that when
+
+737
+00:43:38,000 --> 00:43:40,000
+aggregator will aggregate these data
+
+738
+00:43:40,000 --> 00:43:42,640
+sets the variables can come from
+
+739
+00:43:42,640 --> 00:43:45,760
+multiple classes. So push length can be
+
+740
+00:43:45,760 --> 00:43:47,920
+both occurrence assertion or material
+
+741
+00:43:47,920 --> 00:43:50,319
+assertion. We think this is important to
+
+742
+00:43:50,319 --> 00:43:52,560
+take into account so that user can pull
+
+743
+00:43:52,560 --> 00:43:55,440
+this data out.
+
+744
+00:43:55,440 --> 00:43:58,400
+And finally I personally like to see
+
+745
+00:43:58,400 --> 00:44:00,000
+what we can pull out the diet
+
+746
+00:44:00,000 --> 00:44:02,880
+composition from the ding core data
+
+747
+00:44:02,880 --> 00:44:05,520
+package. And yes it is possible we look
+
+748
+00:44:05,520 --> 00:44:08,160
+at the diet composition of pluragama
+
+749
+00:44:08,160 --> 00:44:12,079
+antarctic from birth routine uh from
+
+750
+00:44:12,079 --> 00:44:14,640
+sample from a routine to or the target
+
+751
+00:44:14,640 --> 00:44:17,839
+draw and these are what we found and all
+
+752
+00:44:17,839 --> 00:44:20,880
+this was not possible because the data
+
+753
+00:44:20,880 --> 00:44:23,839
+was unpublished.
+
+754
+00:44:23,839 --> 00:44:26,160
+So thank I would like to thank this list
+
+755
+00:44:26,160 --> 00:44:29,359
+of people who helped me so much in this
+
+756
+00:44:29,359 --> 00:44:32,160
+process and of course this data set was
+
+757
+00:44:32,160 --> 00:44:35,119
+a legacy data sets. There are mistakes
+
+758
+00:44:35,119 --> 00:44:37,760
+there are things that are incomplete
+
+759
+00:44:37,760 --> 00:44:41,040
+and um I do this as a data manager and
+
+760
+00:44:41,040 --> 00:44:43,760
+not not an ecologist. So um there will
+
+761
+00:44:43,760 --> 00:44:48,160
+be mistakes and finally um this mapping
+
+762
+00:44:48,160 --> 00:44:50,480
+is part of the contribution to the OBS
+
+763
+00:44:50,480 --> 00:44:53,119
+data coordination group. If you would
+
+764
+00:44:53,119 --> 00:44:54,880
+the coordinator group is open to
+
+765
+00:44:54,880 --> 00:44:57,200
+everyone. If you would like to involve
+
+766
+00:44:57,200 --> 00:45:00,319
+in this conversation with both J BF and
+
+767
+00:45:00,319 --> 00:45:03,280
+Obus please I would like to invite you
+
+768
+00:45:03,280 --> 00:45:05,520
+to join the coordination group and all
+
+769
+00:45:05,520 --> 00:45:08,000
+this is not possible without funings
+
+770
+00:45:08,000 --> 00:45:10,079
+from BPO and we are very grateful for
+
+771
+00:45:10,079 --> 00:45:15,720
+that and thank you so much.
+
+772
+00:45:23,839 --> 00:45:25,680
+Thank you very much for that, Ming. And
+
+773
+00:45:25,680 --> 00:45:27,920
+I'm trying to look out at the audience
+
+774
+00:45:27,920 --> 00:45:29,599
+and see how everybody's feeling. Kind of
+
+775
+00:45:29,599 --> 00:45:32,000
+gauging. Is everybody still feeling all
+
+776
+00:45:32,000 --> 00:45:34,000
+right? Not not feeling too queasy about
+
+777
+00:45:34,000 --> 00:45:36,000
+CH. Excellent. I see some thumbs up.
+
+778
+00:45:36,000 --> 00:45:38,079
+This is great to hear. So, three three
+
+779
+00:45:38,079 --> 00:45:39,839
+use cases in. We're getting a little bit
+
+780
+00:45:39,839 --> 00:45:41,599
+more complex. Maybe a lot more complex
+
+781
+00:45:41,599 --> 00:45:43,680
+with some of that marine data. We have
+
+782
+00:45:43,680 --> 00:45:45,680
+two more use cases to go. Both of these
+
+783
+00:45:45,680 --> 00:45:47,839
+are virtual presentations. So
+
+784
+00:45:47,839 --> 00:45:51,200
+presentation number four is is by Cecil
+
+785
+00:45:51,200 --> 00:45:53,920
+Cecilia Swenson and she is presenting a
+
+786
+00:45:53,920 --> 00:45:55,599
+use case that includes both citizen
+
+787
+00:45:55,599 --> 00:46:00,560
+science and DNA meta metabarcoding data.
+
+788
+00:46:00,560 --> 00:46:02,400
+>> Spinning and I will present how my
+
+789
+00:46:02,400 --> 00:46:04,319
+co-authors and I mapped a citizen
+
+790
+00:46:04,319 --> 00:46:07,200
+science and DNA meta barcoding survey to
+
+791
+00:46:07,200 --> 00:46:10,000
+Davinc code data package.
+
+792
+00:46:10,000 --> 00:46:11,760
+The data behind the diving court data
+
+793
+00:46:11,760 --> 00:46:14,160
+package mapping comes from a national
+
+794
+00:46:14,160 --> 00:46:16,640
+survey of flying insect diversity across
+
+795
+00:46:16,640 --> 00:46:19,040
+five different land covers. The project
+
+796
+00:46:19,040 --> 00:46:22,400
+was called insect mob.
+
+797
+00:46:22,400 --> 00:46:24,160
+Insect sampling was carried out by
+
+798
+00:46:24,160 --> 00:46:26,560
+volunteers that drove on pre-esigned 5
+
+799
+00:46:26,560 --> 00:46:29,200
+km routs with large nets mounted on the
+
+800
+00:46:29,200 --> 00:46:31,280
+rooftop of their car.
+
+801
+00:46:31,280 --> 00:46:33,200
+The end of the net could be detached
+
+802
+00:46:33,200 --> 00:46:35,520
+from the larger net after sampling and
+
+803
+00:46:35,520 --> 00:46:37,119
+the content shipped to the National
+
+804
+00:46:37,119 --> 00:46:38,960
+History Museum of Denmark for
+
+805
+00:46:38,960 --> 00:46:41,680
+identification.
+
+806
+00:46:41,680 --> 00:46:43,920
+The project consisted of a survey with
+
+807
+00:46:43,920 --> 00:46:45,599
+individual sampling events for which
+
+808
+00:46:45,599 --> 00:46:48,640
+there was collected material.
+
+809
+00:46:48,640 --> 00:46:50,560
+Some of the material was photographed
+
+810
+00:46:50,560 --> 00:46:52,800
+and identifications were based on both
+
+811
+00:46:52,800 --> 00:46:56,720
+morphology and DNA analysis.
+
+812
+00:46:56,720 --> 00:46:58,319
+We've previously shared the data as a
+
+813
+00:46:58,319 --> 00:47:00,880
+Davenco archive but some because of the
+
+814
+00:47:00,880 --> 00:47:02,800
+star schema limitation it was never
+
+815
+00:47:02,800 --> 00:47:04,960
+really a good fit and we wanted to see
+
+816
+00:47:04,960 --> 00:47:06,480
+if data could be better shared with
+
+817
+00:47:06,480 --> 00:47:09,520
+Davenco data package.
+
+818
+00:47:09,520 --> 00:47:11,200
+So if we go back to the Daven core
+
+819
+00:47:11,200 --> 00:47:14,560
+archive in the ideal world with the
+
+820
+00:47:14,560 --> 00:47:17,119
+table options we have in Darcore archive
+
+821
+00:47:17,119 --> 00:47:19,359
+we would first share the sampling events
+
+822
+00:47:19,359 --> 00:47:21,839
+and from those events we collected the
+
+823
+00:47:21,839 --> 00:47:23,520
+material.
+
+824
+00:47:23,520 --> 00:47:25,839
+We took images of that material. We
+
+825
+00:47:25,839 --> 00:47:27,839
+measured biomass of the bulk sample and
+
+826
+00:47:27,839 --> 00:47:30,960
+we extracted DNA. Occurrences was based
+
+827
+00:47:30,960 --> 00:47:33,440
+on both the DNA derived and the
+
+828
+00:47:33,440 --> 00:47:36,160
+morphological identifications.
+
+829
+00:47:36,160 --> 00:47:38,000
+However, this would not work in a
+
+830
+00:47:38,000 --> 00:47:40,319
+diamond core archive because we have
+
+831
+00:47:40,319 --> 00:47:42,880
+both extended information,
+
+832
+00:47:42,880 --> 00:47:46,079
+the event and the occurrence table.
+
+833
+00:47:46,079 --> 00:47:48,240
+And in a diamond core archive, you can
+
+834
+00:47:48,240 --> 00:47:50,400
+only have one core file, either an
+
+835
+00:47:50,400 --> 00:47:53,200
+event, occurrence or a taxon, and only
+
+836
+00:47:53,200 --> 00:47:55,200
+one layer of extensions to the core
+
+837
+00:47:55,200 --> 00:47:57,119
+file.
+
+838
+00:47:57,119 --> 00:47:59,280
+So the sampling event data had to be
+
+839
+00:47:59,280 --> 00:48:01,040
+shared as occurrence call in order to
+
+840
+00:48:01,040 --> 00:48:04,800
+include the DNA derived data extension.
+
+841
+00:48:04,800 --> 00:48:07,920
+This meant that media event information,
+
+842
+00:48:07,920 --> 00:48:10,560
+extended measurements of facts, and part
+
+843
+00:48:10,560 --> 00:48:12,800
+of the DNA derived information was
+
+844
+00:48:12,800 --> 00:48:16,319
+shared for each individual occurrence.
+
+845
+00:48:16,319 --> 00:48:18,800
+sample. An occurrence record of a growth
+
+846
+00:48:18,800 --> 00:48:21,440
+beetle in GIF includes an image of the
+
+847
+00:48:21,440 --> 00:48:25,040
+bulk sample the species was detected in
+
+848
+00:48:25,040 --> 00:48:28,240
+and not the individual itself.
+
+849
+00:48:28,240 --> 00:48:31,040
+And we had several images taken for each
+
+850
+00:48:31,040 --> 00:48:33,680
+bulk sample. So you can imagine how the
+
+851
+00:48:33,680 --> 00:48:35,920
+media quickly got inflated and did not
+
+852
+00:48:35,920 --> 00:48:37,920
+represent the organism that was detected
+
+853
+00:48:37,920 --> 00:48:41,800
+in the occurrence record.
+
+854
+00:48:42,079 --> 00:48:44,480
+So how would this data look like in
+
+855
+00:48:44,480 --> 00:48:46,480
+Davenport data package where we are not
+
+856
+00:48:46,480 --> 00:48:49,440
+restricted by the star schema?
+
+857
+00:48:49,440 --> 00:48:51,200
+I will now go through the tables we
+
+858
+00:48:51,200 --> 00:48:53,680
+included in the Davenport data package.
+
+859
+00:48:53,680 --> 00:48:56,800
+Some boxes or tables have dotted lines
+
+860
+00:48:56,800 --> 00:48:58,960
+around them. This means that they are
+
+861
+00:48:58,960 --> 00:49:01,280
+not actual tables included in the data
+
+862
+00:49:01,280 --> 00:49:04,000
+package but the information is included
+
+863
+00:49:04,000 --> 00:49:07,200
+in the tables they relate to.
+
+864
+00:49:07,200 --> 00:49:09,760
+Our citizen scientists were agents that
+
+865
+00:49:09,760 --> 00:49:12,160
+conducted surveys.
+
+866
+00:49:12,160 --> 00:49:14,559
+Each individual survey had a specific
+
+867
+00:49:14,559 --> 00:49:18,640
+land cover attack and tax target.
+
+868
+00:49:18,640 --> 00:49:21,359
+The agents followed a sampling protocol
+
+869
+00:49:21,359 --> 00:49:23,200
+to carry out the individual sampling
+
+870
+00:49:23,200 --> 00:49:25,280
+events.
+
+871
+00:49:25,280 --> 00:49:27,440
+During each sampling event, material was
+
+872
+00:49:27,440 --> 00:49:30,240
+collected. The material was bulk insect
+
+873
+00:49:30,240 --> 00:49:32,319
+samples and images were taken for some
+
+874
+00:49:32,319 --> 00:49:34,640
+of those samples.
+
+875
+00:49:34,640 --> 00:49:36,480
+The bulk insect samples were pro
+
+876
+00:49:36,480 --> 00:49:39,040
+processed into two size fractions and
+
+877
+00:49:39,040 --> 00:49:41,200
+dryweight biomass of the size sorted
+
+878
+00:49:41,200 --> 00:49:43,760
+material and DNA concentration of the
+
+879
+00:49:43,760 --> 00:49:46,559
+purified DNA extracts was captured as
+
+880
+00:49:46,559 --> 00:49:49,359
+material assertions
+
+881
+00:49:49,359 --> 00:49:51,520
+from the bulk sample. We performed
+
+882
+00:49:51,520 --> 00:49:53,760
+morphological identification of certain
+
+883
+00:49:53,760 --> 00:49:56,800
+texonom groups.
+
+884
+00:49:56,800 --> 00:50:00,000
+We then carried out nucleotide analysis
+
+885
+00:50:00,000 --> 00:50:02,480
+with three different primer pairs on a
+
+886
+00:50:02,480 --> 00:50:05,520
+fraction of the purified DNA extract by
+
+887
+00:50:05,520 --> 00:50:08,160
+following a molecular protocol.
+
+888
+00:50:08,160 --> 00:50:10,240
+And from one of those primer pairs, we
+
+889
+00:50:10,240 --> 00:50:12,800
+shared sequences sequences for which we
+
+890
+00:50:12,800 --> 00:50:15,599
+compared to a reference database to get
+
+891
+00:50:15,599 --> 00:50:19,400
+taxonomic identifications.
+
+892
+00:50:19,839 --> 00:50:22,240
+So we had identifications based on both
+
+893
+00:50:22,240 --> 00:50:24,960
+morphology and DNA sequences for which
+
+894
+00:50:24,960 --> 00:50:27,440
+occurrences could be inferred
+
+895
+00:50:27,440 --> 00:50:28,880
+which were then evidence of the
+
+896
+00:50:28,880 --> 00:50:32,160
+occurrence of taxa in an event and the
+
+897
+00:50:32,160 --> 00:50:34,640
+occurrences satisfied the survey targets
+
+898
+00:50:34,640 --> 00:50:37,800
+we set.
+
+899
+00:50:38,559 --> 00:50:41,359
+In total we map data to 12 tables in
+
+900
+00:50:41,359 --> 00:50:44,079
+Davenore data package.
+
+901
+00:50:44,079 --> 00:50:45,839
+We specified the preferred
+
+902
+00:50:45,839 --> 00:50:48,640
+identification, the DNA sequence with
+
+903
+00:50:48,640 --> 00:50:52,160
+the is accepted identification term.
+
+904
+00:50:52,160 --> 00:50:54,559
+We could elaborate on how material was
+
+905
+00:50:54,559 --> 00:50:57,680
+processed by including the part of and
+
+906
+00:50:57,680 --> 00:50:59,599
+derived from terms in the materials
+
+907
+00:50:59,599 --> 00:51:01,839
+table.
+
+908
+00:51:01,839 --> 00:51:03,440
+A quick reference guide and the
+
+909
+00:51:03,440 --> 00:51:05,359
+relationship explorer was a great help
+
+910
+00:51:05,359 --> 00:51:07,680
+to understand which tables would make
+
+911
+00:51:07,680 --> 00:51:10,240
+sense to prepare first in order to have
+
+912
+00:51:10,240 --> 00:51:12,559
+the identifiers needed to link between
+
+913
+00:51:12,559 --> 00:51:15,359
+the tables.
+
+914
+00:51:15,359 --> 00:51:17,920
+So, we went from a Diamond Core archive
+
+915
+00:51:17,920 --> 00:51:20,400
+with a core file of four extensions to
+
+916
+00:51:20,400 --> 00:51:22,400
+12 tables in the Diamond Core data
+
+917
+00:51:22,400 --> 00:51:25,400
+package.
+
+918
+00:51:26,480 --> 00:51:28,400
+If you're curious about which terms and
+
+919
+00:51:28,400 --> 00:51:30,079
+content we put into the individual
+
+920
+00:51:30,079 --> 00:51:31,839
+tables, you can find the use case
+
+921
+00:51:31,839 --> 00:51:34,559
+example in Sigma Beacon under the survey
+
+922
+00:51:34,559 --> 00:51:36,640
+folder in the Davenport data package
+
+923
+00:51:36,640 --> 00:51:39,440
+examples repo.
+
+924
+00:51:39,440 --> 00:51:41,280
+We found the Davenco data package
+
+925
+00:51:41,280 --> 00:51:43,599
+enabled us to establish the right links
+
+926
+00:51:43,599 --> 00:51:45,839
+between the data from the project and
+
+927
+00:51:45,839 --> 00:51:47,680
+share even more information that what
+
+928
+00:51:47,680 --> 00:51:49,839
+was previously been shared in a Davenco
+
+929
+00:51:49,839 --> 00:51:52,640
+archive. So Davinc code data package is
+
+930
+00:51:52,640 --> 00:51:55,040
+definitely a benefit fit for DNA meding
+
+931
+00:51:55,040 --> 00:51:57,680
+survey data.
+
+932
+00:51:57,680 --> 00:51:59,359
+Thank you all for your attention and I
+
+933
+00:51:59,359 --> 00:52:00,800
+hope you have an excellent time in
+
+934
+00:52:00,800 --> 00:52:03,800
+Bocota.
+
+935
+00:52:12,480 --> 00:52:14,480
+So, our final presenter, Holly Little,
+
+936
+00:52:14,480 --> 00:52:16,559
+was unable to join us here in person
+
+937
+00:52:16,559 --> 00:52:18,400
+today as planned due to the government
+
+938
+00:52:18,400 --> 00:52:20,800
+shutdown in the US, but she was able to
+
+939
+00:52:20,800 --> 00:52:23,680
+submit her presentation as a virtual
+
+940
+00:52:23,680 --> 00:52:25,599
+presentation, and I do believe she has
+
+941
+00:52:25,599 --> 00:52:27,520
+colleagues online to answer questions uh
+
+942
+00:52:27,520 --> 00:52:29,520
+when we get to the Q&A Q&A session at
+
+943
+00:52:29,520 --> 00:52:32,319
+the end. But I would like to now present
+
+944
+00:52:32,319 --> 00:52:34,720
+to you Holly Little's presentation. It's
+
+945
+00:52:34,720 --> 00:52:36,880
+present. She's presenting to you today a
+
+946
+00:52:36,880 --> 00:52:41,800
+use case on uh paleo data collections.
+
+947
+00:53:09,680 --> 00:53:13,000
+Just a moment.
+
+948
+00:54:15,440 --> 00:54:18,079
+Hi, I'm Paul informatics manager in the
+
+949
+00:54:18,079 --> 00:54:21,599
+department of biology at the Smithsonian
+
+950
+00:54:21,599 --> 00:54:24,079
+history with my co-authors. I'm here to
+
+951
+00:54:24,079 --> 00:54:26,480
+present a Darcore data package use case
+
+952
+00:54:26,480 --> 00:54:29,280
+for fossil specimens or as titled
+
+953
+00:54:29,280 --> 00:54:31,599
+characterizing paleontological specimens
+
+954
+00:54:31,599 --> 00:54:33,680
+for maximal alignment with global data
+
+955
+00:54:33,680 --> 00:54:36,680
+practices.
+
+956
+00:54:37,119 --> 00:54:38,880
+Informatics manager in the department of
+
+957
+00:54:38,880 --> 00:54:41,200
+paleobiology at the Smithsonian National
+
+958
+00:54:41,200 --> 00:54:43,359
+Museum of Natural History with my
+
+959
+00:54:43,359 --> 00:54:45,119
+co-authors. I'm here to present a
+
+960
+00:54:45,119 --> 00:54:47,599
+Darcore data package use case for fossil
+
+961
+00:54:47,599 --> 00:54:50,400
+specimens or as titled characterizing
+
+962
+00:54:50,400 --> 00:54:52,800
+paleontological specimens for maximal
+
+963
+00:54:52,800 --> 00:54:55,839
+alignment with global data practices.
+
+964
+00:54:55,839 --> 00:54:58,319
+Our use case addresses the mobilization
+
+965
+00:54:58,319 --> 00:55:00,480
+of data derived from specimens in
+
+966
+00:55:00,480 --> 00:55:02,880
+paleontological collections. These
+
+967
+00:55:02,880 --> 00:55:04,960
+collections cover evidence of all types
+
+968
+00:55:04,960 --> 00:55:07,200
+of life on Earth through time. And key
+
+969
+00:55:07,200 --> 00:55:09,760
+data points include documentation of
+
+970
+00:55:09,760 --> 00:55:12,480
+that material, the representation of
+
+971
+00:55:12,480 --> 00:55:14,240
+taxonomic occurrences through that
+
+972
+00:55:14,240 --> 00:55:16,400
+material, associated media, and
+
+973
+00:55:16,400 --> 00:55:18,800
+critically the geological context,
+
+974
+00:55:18,800 --> 00:55:21,200
+collections, event, and location
+
+975
+00:55:21,200 --> 00:55:23,680
+information for that material. Often
+
+976
+00:55:23,680 --> 00:55:26,160
+fossil specimens also include important
+
+977
+00:55:26,160 --> 00:55:28,400
+relationships, including biological
+
+978
+00:55:28,400 --> 00:55:31,599
+interactions and material associations.
+
+979
+00:55:31,599 --> 00:55:34,000
+Our overarching goal is to improve the
+
+980
+00:55:34,000 --> 00:55:36,079
+discoverability of paleo collections
+
+981
+00:55:36,079 --> 00:55:38,319
+data which is largely dependent on the
+
+982
+00:55:38,319 --> 00:55:40,880
+details listed here. Findability and
+
+983
+00:55:40,880 --> 00:55:43,920
+interoperability of key data points.
+
+984
+00:55:43,920 --> 00:55:46,160
+Ensuring there is clarity about what the
+
+985
+00:55:46,160 --> 00:55:48,079
+record represents in the physical
+
+986
+00:55:48,079 --> 00:55:50,400
+collection. Being able to share the
+
+987
+00:55:50,400 --> 00:55:52,799
+variety of associations or relationships
+
+988
+00:55:52,799 --> 00:55:55,200
+you might find with fossil specimens.
+
+989
+00:55:55,200 --> 00:55:57,760
+and having more options for fossil data
+
+990
+00:55:57,760 --> 00:55:59,839
+because of the variety and complexity of
+
+991
+00:55:59,839 --> 00:56:02,400
+data requirements.
+
+992
+00:56:02,400 --> 00:56:04,240
+For more context on the scope and
+
+993
+00:56:04,240 --> 00:56:06,559
+complexity, here's a brief, highly
+
+994
+00:56:06,559 --> 00:56:08,799
+selective and not comprehensive view of
+
+995
+00:56:08,799 --> 00:56:11,280
+that variety and fossils. As noted,
+
+996
+00:56:11,280 --> 00:56:13,200
+paleo collections cover the fossil
+
+997
+00:56:13,200 --> 00:56:15,280
+equivalent of all modern biodiversity
+
+998
+00:56:15,280 --> 00:56:17,440
+groups that includes plants,
+
+999
+00:56:17,440 --> 00:56:19,520
+invertebrates, vertebrates, trace
+
+1000
+00:56:19,520 --> 00:56:22,880
+fossils, etc. A fossil specimen in a
+
+1001
+00:56:22,880 --> 00:56:25,440
+collection could be a single microscopic
+
+1002
+00:56:25,440 --> 00:56:28,880
+organism like this foram, a jar of them,
+
+1003
+00:56:28,880 --> 00:56:31,040
+a single slide with thousands of fossil
+
+1004
+00:56:31,040 --> 00:56:33,680
+pollen grains, a stratographic sample of
+
+1005
+00:56:33,680 --> 00:56:36,559
+dozens of mollisks or a single mollisk,
+
+1006
+00:56:36,559 --> 00:56:38,960
+a slab from the size of your hand to the
+
+1007
+00:56:38,960 --> 00:56:41,359
+size of a treetop with many organisms on
+
+1008
+00:56:41,359 --> 00:56:43,599
+it, a drill cord from across many
+
+1009
+00:56:43,599 --> 00:56:45,920
+stratographic layers. and of course
+
+1010
+00:56:45,920 --> 00:56:48,480
+large full skeletons that might be a
+
+1011
+00:56:48,480 --> 00:56:53,040
+single organism or a composite of many.
+
+1012
+00:56:53,040 --> 00:56:54,960
+Somewhat independent of the use case and
+
+1013
+00:56:54,960 --> 00:56:56,720
+testing for the Daracore data package
+
+1014
+00:56:56,720 --> 00:56:58,400
+development, we determined it was
+
+1015
+00:56:58,400 --> 00:57:00,640
+necessary to try to categorize the wide
+
+1016
+00:57:00,640 --> 00:57:03,040
+variety of fossil specimens to better
+
+1017
+00:57:03,040 --> 00:57:04,880
+understand what the various types of
+
+1018
+00:57:04,880 --> 00:57:06,559
+fossils we manage in the Paleo
+
+1019
+00:57:06,559 --> 00:57:09,200
+collections are and to more clearly
+
+1020
+00:57:09,200 --> 00:57:10,880
+define what the necessary data
+
+1021
+00:57:10,880 --> 00:57:13,200
+structures are for each type. We worked
+
+1022
+00:57:13,200 --> 00:57:15,200
+closely with the paleo community through
+
+1023
+00:57:15,200 --> 00:57:17,839
+the paleo data working group to complete
+
+1024
+00:57:17,839 --> 00:57:20,240
+this evaluation. Our working sheet is
+
+1025
+00:57:20,240 --> 00:57:22,400
+shown in the screenshot here. This
+
+1026
+00:57:22,400 --> 00:57:25,599
+effort resulted in three primary data
+
+1027
+00:57:25,599 --> 00:57:27,599
+groups that inform the data structure
+
+1028
+00:57:27,599 --> 00:57:30,160
+needed. Each data group covers many
+
+1029
+00:57:30,160 --> 00:57:32,240
+different types of fossils as managed in
+
+1030
+00:57:32,240 --> 00:57:35,359
+paleo collections. Group one standalone
+
+1031
+00:57:35,359 --> 00:57:37,680
+record covers the most typical data
+
+1032
+00:57:37,680 --> 00:57:39,920
+structure needed when a fossil specimen
+
+1033
+00:57:39,920 --> 00:57:42,000
+can be represented by a single record
+
+1034
+00:57:42,000 --> 00:57:45,040
+and most commonly a single taxon. Group
+
+1035
+00:57:45,040 --> 00:57:47,200
+two relationships delves into
+
+1036
+00:57:47,200 --> 00:57:48,960
+requirements for clearly defining
+
+1037
+00:57:48,960 --> 00:57:51,359
+associations either biological or
+
+1038
+00:57:51,359 --> 00:57:54,160
+material between individual taxonomic
+
+1039
+00:57:54,160 --> 00:57:55,920
+occurrences contained within a single
+
+1040
+00:57:55,920 --> 00:57:58,880
+object or sample of multiple objects.
+
+1041
+00:57:58,880 --> 00:58:01,119
+Group three, complex strategraphy,
+
+1042
+00:58:01,119 --> 00:58:03,200
+addresses fossil samples that may have
+
+1043
+00:58:03,200 --> 00:58:06,000
+multiple geological context. This is
+
+1044
+00:58:06,000 --> 00:58:08,720
+most often core samples.
+
+1045
+00:58:08,720 --> 00:58:10,640
+That work has also helped us to develop
+
+1046
+00:58:10,640 --> 00:58:13,040
+values that can be used to further
+
+1047
+00:58:13,040 --> 00:58:15,280
+develop a vocabulary for a newer draw
+
+1048
+00:58:15,280 --> 00:58:18,079
+core term, material entity type, which
+
+1049
+00:58:18,079 --> 00:58:20,319
+is key for describing what a fossil
+
+1050
+00:58:20,319 --> 00:58:23,040
+actually is.
+
+1051
+00:58:23,040 --> 00:58:25,040
+Paleo collections have of course been
+
+1052
+00:58:25,040 --> 00:58:27,440
+publishing data mapped to Darwin Core
+
+1053
+00:58:27,440 --> 00:58:29,440
+using the Darwin Core archive model as
+
+1054
+00:58:29,440 --> 00:58:31,920
+long as it has existed. But that version
+
+1055
+00:58:31,920 --> 00:58:33,839
+does have limitations for meeting our
+
+1056
+00:58:33,839 --> 00:58:35,920
+data publishing goals. Events and
+
+1057
+00:58:35,920 --> 00:58:37,760
+localities are critical for paleo
+
+1058
+00:58:37,760 --> 00:58:39,839
+research. While that data can be shared
+
+1059
+00:58:39,839 --> 00:58:41,839
+with the Darwin core archive, it often
+
+1060
+00:58:41,839 --> 00:58:44,240
+has limited discoverability.
+
+1061
+00:58:44,240 --> 00:58:45,760
+Importantly,
+
+1062
+00:58:45,760 --> 00:58:47,680
+in previous published data, it is
+
+1063
+00:58:47,680 --> 00:58:49,680
+actually quite difficult to know what
+
+1064
+00:58:49,680 --> 00:58:52,000
+exactly that record is documenting. For
+
+1065
+00:58:52,000 --> 00:58:54,960
+example, if you're looking at a single
+
+1066
+00:58:54,960 --> 00:58:57,359
+record for a fossil insect, you might
+
+1067
+00:58:57,359 --> 00:58:59,280
+not know if that record represents
+
+1068
+00:58:59,280 --> 00:59:01,760
+insects on a slab, as shown in the top
+
+1069
+00:59:01,760 --> 00:59:04,319
+picture here, or insects in a piece of
+
+1070
+00:59:04,319 --> 00:59:06,720
+amber, as shown in the bottom picture.
+
+1071
+00:59:06,720 --> 00:59:08,880
+It also might not be clear that all of
+
+1072
+00:59:08,880 --> 00:59:11,920
+these individual insects and one spider
+
+1073
+00:59:11,920 --> 00:59:14,799
+of a variety of taxa are often found on
+
+1074
+00:59:14,799 --> 00:59:18,559
+the same object in either case. In
+
+1075
+00:59:18,559 --> 00:59:20,319
+addition, previous models have had
+
+1076
+00:59:20,319 --> 00:59:22,799
+limited flexibility for using data
+
+1077
+00:59:22,799 --> 00:59:24,400
+structures more tailored to the
+
+1078
+00:59:24,400 --> 00:59:26,319
+different types of fossil specimens with
+
+1079
+00:59:26,319 --> 00:59:29,839
+var variable specimen data.
+
+1080
+00:59:29,839 --> 00:59:32,559
+Before divi so before divi div diving
+
+1081
+00:59:32,559 --> 00:59:34,720
+into our mappings we wanted to share a
+
+1082
+00:59:34,720 --> 00:59:37,040
+few caveats because the dial core data
+
+1083
+00:59:37,040 --> 00:59:39,200
+package is much more dynamic. We
+
+1084
+00:59:39,200 --> 00:59:41,359
+manually created our test data sets
+
+1085
+00:59:41,359 --> 00:59:43,920
+record by record and term by term. We're
+
+1086
+00:59:43,920 --> 00:59:46,319
+still refining those test test data sets
+
+1087
+00:59:46,319 --> 00:59:48,640
+and piloting various iterations for each
+
+1088
+00:59:48,640 --> 00:59:51,760
+data group. And it is quite possible we
+
+1089
+00:59:51,760 --> 00:59:54,400
+will define more data groups as we go.
+
+1090
+00:59:54,400 --> 00:59:56,400
+I'll also note that much of what we have
+
+1091
+00:59:56,400 --> 00:59:58,640
+determined is likely adaptable for
+
+1092
+00:59:58,640 --> 01:00:01,280
+modern or extent biological collections
+
+1093
+01:00:01,280 --> 01:00:03,119
+as well since many of the data
+
+1094
+01:00:03,119 --> 01:00:05,280
+requirements might be shared depending
+
+1095
+01:00:05,280 --> 01:00:08,160
+on the type of collection.
+
+1096
+01:00:08,160 --> 01:00:10,480
+So to start a major shift in the updates
+
+1097
+01:00:10,480 --> 01:00:12,400
+to Dharma core and the Dharmaore data
+
+1098
+01:00:12,400 --> 01:00:14,160
+package is use of material as the
+
+1099
+01:00:14,160 --> 01:00:16,319
+primary class for collection specimen
+
+1100
+01:00:16,319 --> 01:00:19,040
+data. This change introduces improved
+
+1101
+01:00:19,040 --> 01:00:21,359
+options for clearly describing the
+
+1102
+01:00:21,359 --> 01:00:23,119
+physical object represented by the
+
+1103
+01:00:23,119 --> 01:00:24,960
+digital record
+
+1104
+01:00:24,960 --> 01:00:27,599
+and an increased focus on events
+
+1105
+01:00:27,599 --> 01:00:29,599
+improves discoverability of this class
+
+1106
+01:00:29,599 --> 01:00:31,119
+of information and the connected
+
+1107
+01:00:31,119 --> 01:00:33,920
+geological context terms. Expanded
+
+1108
+01:00:33,920 --> 01:00:36,160
+tables for capturing agent data allows
+
+1109
+01:00:36,160 --> 01:00:38,000
+us to share clear information about
+
+1110
+01:00:38,000 --> 01:00:39,839
+people associated with our collections
+
+1111
+01:00:39,839 --> 01:00:42,000
+or shared across collections which is
+
+1112
+01:00:42,000 --> 01:00:44,400
+common for paleo. This part of the
+
+1113
+01:00:44,400 --> 01:00:46,240
+mapping is pretty much shared across the
+
+1114
+01:00:46,240 --> 01:00:48,000
+data groups. So for the rest of the
+
+1115
+01:00:48,000 --> 01:00:50,160
+diagrams, we selectively remove some
+
+1116
+01:00:50,160 --> 01:00:52,400
+tables for visual simplicity and clearer
+
+1117
+01:00:52,400 --> 01:00:55,359
+focus on the more unique aspects of each
+
+1118
+01:00:55,359 --> 01:00:57,520
+profile.
+
+1119
+01:00:57,520 --> 01:01:00,240
+As we focus in on data group one and
+
+1120
+01:01:00,240 --> 01:01:03,599
+some versions of data group 2 a, the
+
+1121
+01:01:03,599 --> 01:01:06,000
+material relationship, we expand into
+
+1122
+01:01:06,000 --> 01:01:08,400
+more tables. In our testing, we found a
+
+1123
+01:01:08,400 --> 01:01:10,319
+few key areas that needed particular
+
+1124
+01:01:10,319 --> 01:01:12,640
+attention and worked with the Dawn Core
+
+1125
+01:01:12,640 --> 01:01:14,400
+data package team to address our
+
+1126
+01:01:14,400 --> 01:01:17,200
+requirements. Location is not a real
+
+1127
+01:01:17,200 --> 01:01:19,520
+class as it is embedded within event,
+
+1128
+01:01:19,520 --> 01:01:21,280
+but we chose to show it in some form
+
+1129
+01:01:21,280 --> 01:01:23,280
+here because of its importance to fossil
+
+1130
+01:01:23,280 --> 01:01:25,680
+specimens. There can be a lot of nuance
+
+1131
+01:01:25,680 --> 01:01:27,520
+in the relationships between collecting
+
+1132
+01:01:27,520 --> 01:01:30,720
+events and locations with many to one
+
+1133
+01:01:30,720 --> 01:01:33,680
+relationships in either direction. Due
+
+1134
+01:01:33,680 --> 01:01:35,599
+to those nuances in the event and
+
+1135
+01:01:35,599 --> 01:01:37,200
+location data, there can be some
+
+1136
+01:01:37,200 --> 01:01:38,960
+variation in how to most clearly
+
+1137
+01:01:38,960 --> 01:01:42,319
+describe the geological context. This is
+
+1138
+01:01:42,319 --> 01:01:44,160
+addressed by having an ability to link
+
+1139
+01:01:44,160 --> 01:01:46,480
+geological context to either event
+
+1140
+01:01:46,480 --> 01:01:49,920
+directly to the material. In previous TY
+
+1141
+01:01:49,920 --> 01:01:51,280
+meetings, you may have heard our group
+
+1142
+01:01:51,280 --> 01:01:52,799
+talk about challenges with fossil
+
+1143
+01:01:52,799 --> 01:01:56,160
+taxonomy. Having an ability to mobilize
+
+1144
+01:01:56,160 --> 01:01:58,559
+the taxonomy used to build out the
+
+1145
+01:01:58,559 --> 01:02:00,559
+published data set with a table like
+
+1146
+01:02:00,559 --> 01:02:03,040
+identification taxon helps to address
+
+1147
+01:02:03,040 --> 01:02:06,319
+any issues with aligning shared tax two
+
+1148
+01:02:06,319 --> 01:02:08,000
+shared taxonomic backbones like the
+
+1149
+01:02:08,000 --> 01:02:10,559
+catalog of life. And finally, we can now
+
+1150
+01:02:10,559 --> 01:02:12,559
+use terms within the material table to
+
+1151
+01:02:12,559 --> 01:02:14,640
+note those physical relationships to
+
+1152
+01:02:14,640 --> 01:02:18,079
+other material entities.
+
+1153
+01:02:18,079 --> 01:02:20,079
+As with other biological specimens,
+
+1154
+01:02:20,079 --> 01:02:22,400
+fossil material entities have biological
+
+1155
+01:02:22,400 --> 01:02:23,920
+relationships to other material
+
+1156
+01:02:23,920 --> 01:02:27,359
+entities. For data group 2b, biological
+
+1157
+01:02:27,359 --> 01:02:29,119
+relationships, we integrate the
+
+1158
+01:02:29,119 --> 01:02:31,200
+occurrence table for improved mapping
+
+1159
+01:02:31,200 --> 01:02:33,280
+and publishing of data about these types
+
+1160
+01:02:33,280 --> 01:02:35,599
+of relationships. In fossils, this can
+
+1161
+01:02:35,599 --> 01:02:37,599
+be found in many forms, including traces
+
+1162
+01:02:37,599 --> 01:02:40,400
+like insect damage on a plant, a single
+
+1163
+01:02:40,400 --> 01:02:42,240
+object that preserves encrusting of one
+
+1164
+01:02:42,240 --> 01:02:44,319
+organism on another, as shown in two of
+
+1165
+01:02:44,319 --> 01:02:47,119
+the images here, and an organism within
+
+1166
+01:02:47,119 --> 01:02:50,960
+another organism, like these fish.
+
+1167
+01:02:50,960 --> 01:02:52,960
+Referring back to the need for clarity
+
+1168
+01:02:52,960 --> 01:02:55,200
+about what is physically present in the
+
+1169
+01:02:55,200 --> 01:02:57,119
+collection, adding the material
+
+1170
+01:02:57,119 --> 01:02:59,359
+relationship back into the biological
+
+1171
+01:02:59,359 --> 01:03:01,680
+relationship model enables us to fully
+
+1172
+01:03:01,680 --> 01:03:04,480
+describe many types of fossils. In the
+
+1173
+01:03:04,480 --> 01:03:06,799
+images here, we see examples of fossil
+
+1174
+01:03:06,799 --> 01:03:09,440
+insects, each included in our test data
+
+1175
+01:03:09,440 --> 01:03:11,760
+as its own record. There are each
+
+1176
+01:03:11,760 --> 01:03:14,880
+evidence of a taxa at a time and place,
+
+1177
+01:03:14,880 --> 01:03:17,520
+so an occurrence. And they also all
+
+1178
+01:03:17,520 --> 01:03:19,280
+happen to exist on the same piece of
+
+1179
+01:03:19,280 --> 01:03:21,680
+shell. Therefore having a material
+
+1180
+01:03:21,680 --> 01:03:25,200
+relationship and shared event location
+
+1181
+01:03:25,200 --> 01:03:29,039
+and geological context data.
+
+1182
+01:03:29,039 --> 01:03:31,119
+The model shifts to a much more event
+
+1183
+01:03:31,119 --> 01:03:33,359
+centered version for group three. Here
+
+1184
+01:03:33,359 --> 01:03:36,000
+we typically have a core or other type
+
+1185
+01:03:36,000 --> 01:03:38,000
+of stratographic sample collected in one
+
+1186
+01:03:38,000 --> 01:03:41,359
+event and at one locality which could
+
+1187
+01:03:41,359 --> 01:03:43,760
+cross multiple stratographic layers and
+
+1188
+01:03:43,760 --> 01:03:45,520
+therefore have multiple associated
+
+1189
+01:03:45,520 --> 01:03:48,400
+geological context. That core might be
+
+1190
+01:03:48,400 --> 01:03:51,520
+intact as a whole single object or it
+
+1191
+01:03:51,520 --> 01:03:53,119
+may have been processed into multiple
+
+1192
+01:03:53,119 --> 01:03:55,440
+subsamples as shown in the form slides
+
+1193
+01:03:55,440 --> 01:03:57,440
+here which probably contain multiple
+
+1194
+01:03:57,440 --> 01:04:00,480
+individual organisms each. In addition,
+
+1195
+01:04:00,480 --> 01:04:03,039
+core samples include material beyond
+
+1196
+01:04:03,039 --> 01:04:05,599
+biological. This mapping profile with
+
+1197
+01:04:05,599 --> 01:04:07,520
+the Darwin core data package enables
+
+1198
+01:04:07,520 --> 01:04:10,240
+publishing of a single data set to make
+
+1199
+01:04:10,240 --> 01:04:13,440
+those events and associated material
+
+1200
+01:04:13,440 --> 01:04:15,920
+discoverable even if only parts of that
+
+1201
+01:04:15,920 --> 01:04:18,000
+data set are relevant to an aggregator
+
+1202
+01:04:18,000 --> 01:04:21,160
+like GPIF.
+
+1203
+01:04:21,760 --> 01:04:23,680
+In our work so far, we have developed
+
+1204
+01:04:23,680 --> 01:04:25,839
+two test data sets using these three
+
+1205
+01:04:25,839 --> 01:04:27,920
+mapping profiles. In total, the test
+
+1206
+01:04:27,920 --> 01:04:30,000
+data sets use about 11 tables, but with
+
+1207
+01:04:30,000 --> 01:04:31,520
+varying levels of emphasis and
+
+1208
+01:04:31,520 --> 01:04:33,119
+complexity depending on the type of
+
+1209
+01:04:33,119 --> 01:04:35,200
+fossil. Moving forward, we will
+
+1210
+01:04:35,200 --> 01:04:37,039
+integrate additional tables that further
+
+1211
+01:04:37,039 --> 01:04:39,039
+enhance these records as we continue
+
+1212
+01:04:39,039 --> 01:04:41,599
+testing and evaluation. Given the range
+
+1213
+01:04:41,599 --> 01:04:43,440
+of fossil types and challenges in the
+
+1214
+01:04:43,440 --> 01:04:45,440
+data, this use of multiple mapping
+
+1215
+01:04:45,440 --> 01:04:47,359
+profiles will be essential for fully
+
+1216
+01:04:47,359 --> 01:04:49,119
+leveraging the Darwin core data package
+
+1217
+01:04:49,119 --> 01:04:51,680
+for fossils from paleo collections.
+
+1218
+01:04:51,680 --> 01:04:53,760
+Ultimately, the Darcore data package
+
+1219
+01:04:53,760 --> 01:04:56,079
+does enable better representation of
+
+1220
+01:04:56,079 --> 01:04:58,160
+that complexity than previous publishing
+
+1221
+01:04:58,160 --> 01:04:59,760
+models.
+
+1222
+01:04:59,760 --> 01:05:01,920
+While that is true, it will take work to
+
+1223
+01:05:01,920 --> 01:05:04,480
+implement. As I noted in our caveats, we
+
+1224
+01:05:04,480 --> 01:05:06,720
+had to map our data manually. Most
+
+1225
+01:05:06,720 --> 01:05:08,559
+collections management systems do not
+
+1226
+01:05:08,559 --> 01:05:10,799
+have the fields or tools to store or
+
+1227
+01:05:10,799 --> 01:05:12,799
+generate some of the necessary data that
+
+1228
+01:05:12,799 --> 01:05:14,960
+makes the DARO data package a powerful
+
+1229
+01:05:14,960 --> 01:05:17,599
+publishing model. In particular, the
+
+1230
+01:05:17,599 --> 01:05:19,520
+extensive and important use of
+
+1231
+01:05:19,520 --> 01:05:21,599
+identifiers is something our community
+
+1232
+01:05:21,599 --> 01:05:23,839
+doesn't quite have the ability to meet
+
+1233
+01:05:23,839 --> 01:05:27,359
+yet. And as we all see with within our
+
+1234
+01:05:27,359 --> 01:05:29,440
+communities, the resources and expertise
+
+1235
+01:05:29,440 --> 01:05:31,680
+to adapt to a new system can vary widely
+
+1236
+01:05:31,680 --> 01:05:34,559
+across collections and institutions.
+
+1237
+01:05:34,559 --> 01:05:36,640
+To help meet the needs of the Paleo
+
+1238
+01:05:36,640 --> 01:05:38,480
+collections community, we're working
+
+1239
+01:05:38,480 --> 01:05:40,480
+with the Paleo data working group to
+
+1240
+01:05:40,480 --> 01:05:42,640
+develop a library of shared resources
+
+1241
+01:05:42,640 --> 01:05:44,880
+and tools in a new web resource we're
+
+1242
+01:05:44,880 --> 01:05:47,680
+calling the Paleo data knowledge hub. We
+
+1243
+01:05:47,680 --> 01:05:49,680
+are also working to create a Darwin core
+
+1244
+01:05:49,680 --> 01:05:52,160
+implementation guide that is specific to
+
+1245
+01:05:52,160 --> 01:05:54,720
+fossils from Paleo collections and will
+
+1246
+01:05:54,720 --> 01:05:56,400
+address the Darwin data package once
+
+1247
+01:05:56,400 --> 01:05:58,880
+finalized. We're also working to create
+
+1248
+01:05:58,880 --> 01:06:00,960
+example records for the various fossil
+
+1249
+01:06:00,960 --> 01:06:03,200
+types and data groups which can be used
+
+1250
+01:06:03,200 --> 01:06:05,200
+to illustrate the full data mobilization
+
+1251
+01:06:05,200 --> 01:06:07,200
+pipeline alongside the implementation
+
+1252
+01:06:07,200 --> 01:06:10,160
+guide. And with that, thank you. We
+
+1253
+01:06:10,160 --> 01:06:12,000
+really appreciate our partners in this
+
+1254
+01:06:12,000 --> 01:06:14,559
+process, GBIFF and John, of course, and
+
+1255
+01:06:14,559 --> 01:06:16,160
+a big shout out to the Paleo data
+
+1256
+01:06:16,160 --> 01:06:18,319
+working group. Also, thanks to the
+
+1257
+01:06:18,319 --> 01:06:20,160
+organizers for inviting us to contribute
+
+1258
+01:06:20,160 --> 01:06:22,240
+to this session. We are more than happy
+
+1259
+01:06:22,240 --> 01:06:23,839
+to talk about this use case in more
+
+1260
+01:06:23,839 --> 01:06:25,520
+detail and any other details you might
+
+1261
+01:06:25,520 --> 01:06:27,760
+be curious about for fossil data. Please
+
+1262
+01:06:27,760 --> 01:06:29,680
+reach out with any questions, comments,
+
+1263
+01:06:29,680 --> 01:06:32,160
+etc. My emails here and Erica and Alex
+
+1264
+01:06:32,160 --> 01:06:33,839
+are available in the session for any
+
+1265
+01:06:33,839 --> 01:06:36,079
+immediate questions you might have.
+
+1266
+01:06:36,079 --> 01:06:39,079
+Thanks.
+
+1267
+01:06:47,039 --> 01:06:50,000
+So this concludes uh the part of our
+
+1268
+01:06:50,000 --> 01:06:52,400
+symposium where we present use cases and
+
+1269
+01:06:52,400 --> 01:06:55,280
+I'm actually quite blown away not only
+
+1270
+01:06:55,280 --> 01:06:57,599
+because all of the I I feel like all of
+
+1271
+01:06:57,599 --> 01:06:59,200
+these presentations were absolutely
+
+1272
+01:06:59,200 --> 01:07:01,760
+fantastic doing a great job hopefully
+
+1273
+01:07:01,760 --> 01:07:04,240
+you think as well to explain what can be
+
+1274
+01:07:04,240 --> 01:07:07,359
+quite difficult to to it to absorb as
+
+1275
+01:07:07,359 --> 01:07:09,599
+far as thinking about your data in this
+
+1276
+01:07:09,599 --> 01:07:11,520
+new data model context. The other thing
+
+1277
+01:07:11,520 --> 01:07:13,920
+I find incredibly impressive is we are
+
+1278
+01:07:13,920 --> 01:07:16,400
+15 minutes ahead of schedule and I can't
+
+1279
+01:07:16,400 --> 01:07:18,240
+remember the last time I was at a
+
+1280
+01:07:18,240 --> 01:07:19,920
+conference session where this happened.
+
+1281
+01:07:19,920 --> 01:07:24,319
+So congratulations. This
+
+1282
+01:07:24,319 --> 01:07:25,839
+thank you very much to all of our
+
+1283
+01:07:25,839 --> 01:07:28,240
+speakers. This gives us another 15
+
+1284
+01:07:28,240 --> 01:07:31,359
+minutes for Q&A. So it is currently
+
+1285
+01:07:31,359 --> 01:07:34,480
+3:05. We have 25 minutes for questions
+
+1286
+01:07:34,480 --> 01:07:38,640
+and I'd like to open the floor to to
+
+1287
+01:07:38,640 --> 01:07:42,160
+anybody out there.
+
+1288
+01:07:53,440 --> 01:07:55,760
+Uh well, thanks a lot for all the
+
+1289
+01:07:55,760 --> 01:07:57,839
+presentation. I really enjoyed the use
+
+1290
+01:07:57,839 --> 01:08:02,559
+cases. Um my question or my comment is
+
+1291
+01:08:02,559 --> 01:08:06,319
+more about the usage of the data package
+
+1292
+01:08:06,319 --> 01:08:11,119
+as a way to standardize the data. Um, I
+
+1293
+01:08:11,119 --> 01:08:13,440
+work for a biodiversity observation
+
+1294
+01:08:13,440 --> 01:08:17,440
+network in Quebec and Canada and we
+
+1295
+01:08:17,440 --> 01:08:20,560
+uh are working to standardize the data
+
+1296
+01:08:20,560 --> 01:08:23,759
+of a lot of researchers or sorry perhaps
+
+1297
+01:08:23,759 --> 01:08:27,120
+I can move a bit uh researchers or our
+
+1298
+01:08:27,120 --> 01:08:30,719
+partners have a lot of data and we often
+
+1299
+01:08:30,719 --> 01:08:33,120
+encounter the same challenge is that
+
+1300
+01:08:33,120 --> 01:08:38,400
+their data is very um unstructured.
+
+1301
+01:08:38,400 --> 01:08:42,319
+They're basically uh uh Excel files and
+
+1302
+01:08:42,319 --> 01:08:45,279
+they use some glosseries to like create
+
+1303
+01:08:45,279 --> 01:08:48,799
+some unique identifiers and we found
+
+1304
+01:08:48,799 --> 01:08:51,279
+that just standardizing
+
+1305
+01:08:51,279 --> 01:08:55,679
+those data set into Darwin core uh
+
+1306
+01:08:55,679 --> 01:08:59,120
+archives requires a lot of work and
+
+1307
+01:08:59,120 --> 01:09:04,640
+often this is not budgeted or uh planned
+
+1308
+01:09:04,640 --> 01:09:07,839
+and what I see with the data package is
+
+1309
+01:09:07,839 --> 01:09:09,920
+that there is a great opportunity to
+
+1310
+01:09:09,920 --> 01:09:12,400
+have more richness, but I have a concern
+
+1311
+01:09:12,400 --> 01:09:16,719
+that it will require exponentially more
+
+1312
+01:09:16,719 --> 01:09:20,960
+effort to standardize the data and we
+
+1313
+01:09:20,960 --> 01:09:23,359
+still have the challenge of there's not
+
+1314
+01:09:23,359 --> 01:09:26,239
+a lot of money or efforts put into that.
+
+1315
+01:09:26,239 --> 01:09:30,080
+So, I'd love to hear uh your comments on
+
+1316
+01:09:30,080 --> 01:09:33,120
+that effort to standardize and how we
+
+1317
+01:09:33,120 --> 01:09:35,440
+can work toward this with this new
+
+1318
+01:09:35,440 --> 01:09:38,440
+standard.
+
+1319
+01:09:42,880 --> 01:09:46,560
+Hello. Um,
+
+1320
+01:09:46,560 --> 01:09:48,799
+that might be a question better suited
+
+1321
+01:09:48,799 --> 01:09:50,480
+for later, but we have so much time I'm
+
+1322
+01:09:50,480 --> 01:09:53,600
+going to take it. And the answer is
+
+1323
+01:09:53,600 --> 01:09:55,280
+complex.
+
+1324
+01:09:55,280 --> 01:09:57,600
+We already have problems with resources
+
+1325
+01:09:57,600 --> 01:10:00,239
+with mapping Darwin core archives.
+
+1326
+01:10:00,239 --> 01:10:03,280
+The big message here is that Darwin core
+
+1327
+01:10:03,280 --> 01:10:07,280
+data packages enable those who need to
+
+1328
+01:10:07,280 --> 01:10:08,719
+do something more than they can do
+
+1329
+01:10:08,719 --> 01:10:11,920
+already and have the resources to do it.
+
+1330
+01:10:11,920 --> 01:10:13,760
+We all want to find resources to do
+
+1331
+01:10:13,760 --> 01:10:17,679
+things more be more better and richer
+
+1332
+01:10:17,679 --> 01:10:20,960
+um and to try to do if if those
+
+1333
+01:10:20,960 --> 01:10:23,840
+researchers have more data than they can
+
+1334
+01:10:23,840 --> 01:10:26,719
+mobilize via a Darwin core archive, they
+
+1335
+01:10:26,719 --> 01:10:29,679
+have a choice. find those resources and
+
+1336
+01:10:29,679 --> 01:10:32,159
+publish in a Darwin core archive or use
+
+1337
+01:10:32,159 --> 01:10:35,840
+a sorry in a Darwin core data package or
+
+1338
+01:10:35,840 --> 01:10:39,120
+do things the way things are now not
+
+1339
+01:10:39,120 --> 01:10:41,760
+include all that richness and use Darwin
+
+1340
+01:10:41,760 --> 01:10:44,800
+core archives both will continue to be
+
+1341
+01:10:44,800 --> 01:10:47,800
+supportive
+
+1342
+01:10:48,000 --> 01:10:51,320
+does that help
+
+1343
+01:11:03,600 --> 01:11:05,199
+Thanks.
+
+1344
+01:11:05,199 --> 01:11:09,679
+Um, so this is just to kind of check
+
+1345
+01:11:09,679 --> 01:11:11,600
+where everybody is with this sort of
+
+1346
+01:11:11,600 --> 01:11:15,199
+stuff. Uh, so the Darwin core data
+
+1347
+01:11:15,199 --> 01:11:17,280
+package, I just checked the GitHub and
+
+1348
+01:11:17,280 --> 01:11:20,000
+it's quite sprawling. um but luckily
+
+1349
+01:11:20,000 --> 01:11:22,159
+very formally described apparently in
+
+1350
+01:11:22,159 --> 01:11:25,679
+JSON. So I saw in some of the talks
+
+1351
+01:11:25,679 --> 01:11:27,360
+people saying well this is really
+
+1352
+01:11:27,360 --> 01:11:30,719
+complex to map onto this. I have a SQL
+
+1353
+01:11:30,719 --> 01:11:33,040
+database with complex joins. I have the
+
+1354
+01:11:33,040 --> 01:11:37,040
+my tables and I'm just curious to hear
+
+1355
+01:11:37,040 --> 01:11:38,880
+would other people do the thing that I
+
+1356
+01:11:38,880 --> 01:11:40,719
+would do which is to load the Darwin
+
+1357
+01:11:40,719 --> 01:11:42,640
+core data package description into an
+
+1358
+01:11:42,640 --> 01:11:45,920
+LLM and then have it talk me through
+
+1359
+01:11:45,920 --> 01:11:49,280
+what I'm supposed to do or it be I mean
+
+1360
+01:11:49,280 --> 01:11:51,280
+this is too big for our own brains it
+
+1361
+01:11:51,280 --> 01:11:53,040
+feels like to me so I don't know if
+
+1362
+01:11:53,040 --> 01:11:54,560
+anybody else is doing the same thing
+
+1363
+01:11:54,560 --> 01:11:57,560
+here
+
+1364
+01:11:58,400 --> 01:12:00,800
+not just me okay
+
+1365
+01:12:00,800 --> 01:12:03,280
+cool thanks
+
+1366
+01:12:07,199 --> 01:12:08,960
+Just one second. We have two questions
+
+1367
+01:12:08,960 --> 01:12:12,159
+online. So, we'll take one of those.
+
+1368
+01:12:12,159 --> 01:12:14,320
+>> So, one question is from Matias Dylan.
+
+1369
+01:12:14,320 --> 01:12:16,719
+He's asking, "More tables mean more
+
+1370
+01:12:16,719 --> 01:12:19,360
+identifiers. And what should they do
+
+1371
+01:12:19,360 --> 01:12:21,600
+with the occurrence IDs they currently
+
+1372
+01:12:21,600 --> 01:12:23,920
+have in Darcore archives? Do they want
+
+1373
+01:12:23,920 --> 01:12:25,600
+to transform it to Darwin core data
+
+1374
+01:12:25,600 --> 01:12:28,080
+packages? How many more identifiers do
+
+1375
+01:12:28,080 --> 01:12:30,239
+they need to mint? And how stable do you
+
+1376
+01:12:30,239 --> 01:12:31,920
+keep those identifiers that they have
+
+1377
+01:12:31,920 --> 01:12:34,920
+already?
+
+1378
+01:12:38,159 --> 01:12:40,480
+>> Uh thank you Matias. I hope you can hear
+
+1379
+01:12:40,480 --> 01:12:43,920
+me. Um I think uh the question would
+
+1380
+01:12:43,920 --> 01:12:46,000
+really be if you're trying to move from
+
+1381
+01:12:46,000 --> 01:12:48,560
+Darwin core archives into the data
+
+1382
+01:12:48,560 --> 01:12:51,120
+package it will be because you're trying
+
+1383
+01:12:51,120 --> 01:12:53,520
+to express more relationships across
+
+1384
+01:12:53,520 --> 01:12:56,320
+your data. And in order to do so, you
+
+1385
+01:12:56,320 --> 01:12:59,040
+would need to uniquely identify the the
+
+1386
+01:12:59,040 --> 01:13:01,040
+entities that are in there. And that
+
+1387
+01:13:01,040 --> 01:13:03,360
+will require defining what would
+
+1388
+01:13:03,360 --> 01:13:05,920
+constitute an ID for the entity that
+
+1389
+01:13:05,920 --> 01:13:08,800
+you're creating. So at the moment, an
+
+1390
+01:13:08,800 --> 01:13:12,159
+occurrence record quite often flattens a
+
+1391
+01:13:12,159 --> 01:13:15,679
+material and the event of the uh
+
+1392
+01:13:15,679 --> 01:13:18,400
+organism existing into one record and
+
+1393
+01:13:18,400 --> 01:13:20,880
+you've got an occurrence ID. It would be
+
+1394
+01:13:20,880 --> 01:13:24,239
+quite likely you'd have to identify how
+
+1395
+01:13:24,239 --> 01:13:26,880
+you would uniquely identify one of your
+
+1396
+01:13:26,880 --> 01:13:29,199
+material records, which would be
+
+1397
+01:13:29,199 --> 01:13:30,960
+something that the the publisher would
+
+1398
+01:13:30,960 --> 01:13:35,120
+have to do. We recognize that uh tools
+
+1399
+01:13:35,120 --> 01:13:38,239
+would need to be uh created um to make
+
+1400
+01:13:38,239 --> 01:13:40,880
+this easier for people um because it's
+
+1401
+01:13:40,880 --> 01:13:43,600
+going to be hard and I would expect tool
+
+1402
+01:13:43,600 --> 01:13:46,880
+developers such as the IP for example to
+
+1403
+01:13:46,880 --> 01:13:49,760
+have to help people manage these things.
+
+1404
+01:13:49,760 --> 01:13:53,199
+I would also expect it that to be the
+
+1405
+01:13:53,199 --> 01:13:55,679
+case that some of the identifiers will
+
+1406
+01:13:55,679 --> 01:13:58,880
+be unique and persist across time while
+
+1407
+01:13:58,880 --> 01:14:02,880
+others might be only uh valid within the
+
+1408
+01:14:02,880 --> 01:14:05,040
+Darwin core data package as it's being
+
+1409
+01:14:05,040 --> 01:14:07,360
+created. So we'll have certain things
+
+1410
+01:14:07,360 --> 01:14:10,000
+like specimen ids which are probably
+
+1411
+01:14:10,000 --> 01:14:12,480
+stable across long periods of time but
+
+1412
+01:14:12,480 --> 01:14:14,320
+there could be others that uh really
+
+1413
+01:14:14,320 --> 01:14:16,800
+only need to exist within that version
+
+1414
+01:14:16,800 --> 01:14:19,040
+of a data set. And I think we'll
+
+1415
+01:14:19,040 --> 01:14:21,360
+probably end up in the situation that
+
+1416
+01:14:21,360 --> 01:14:23,840
+we've got two classes of identifiers.
+
+1417
+01:14:23,840 --> 01:14:25,600
+Some that you can rely on and others
+
+1418
+01:14:25,600 --> 01:14:28,239
+that are really just joining data within
+
+1419
+01:14:28,239 --> 01:14:31,880
+one data set.
+
+1420
+01:14:31,920 --> 01:14:34,320
+>> Matt asks that we introduce ourselves.
+
+1421
+01:14:34,320 --> 01:14:35,920
+>> I'm sorry. I was asked to introduce
+
+1422
+01:14:35,920 --> 01:14:38,800
+myself. I'm Tim Robertson. I'm deputy
+
+1423
+01:14:38,800 --> 01:14:40,880
+director and head of informatics at
+
+1424
+01:14:40,880 --> 01:14:43,679
+GBish.
+
+1425
+01:14:43,679 --> 01:14:48,199
+>> And I was and still am John Vurik.
+
+1426
+01:14:52,880 --> 01:14:54,880
+Thank you very much Edardo Klein from uh
+
+1427
+01:14:54,880 --> 01:14:56,719
+integrated marine observing system in
+
+1428
+01:14:56,719 --> 01:14:58,960
+Australia. Um thank you very much for
+
+1429
+01:14:58,960 --> 01:15:00,640
+the presentation especially the use case
+
+1430
+01:15:00,640 --> 01:15:04,960
+were very illuminating I may say. Um but
+
+1431
+01:15:04,960 --> 01:15:07,600
+um I think that from the provider point
+
+1432
+01:15:07,600 --> 01:15:10,239
+of view this new data schema solves the
+
+1433
+01:15:10,239 --> 01:15:13,360
+problem of the star schema which is the
+
+1434
+01:15:13,360 --> 01:15:16,320
+lack of flexibility basically
+
+1435
+01:15:16,320 --> 01:15:18,960
+but it creates a very complex structure.
+
+1436
+01:15:18,960 --> 01:15:21,280
+It's standardized could be standardized
+
+1437
+01:15:21,280 --> 01:15:24,560
+but it's complex. Now I'm thinking from
+
+1438
+01:15:24,560 --> 01:15:27,679
+the user point of view. The star schema
+
+1439
+01:15:27,679 --> 01:15:30,320
+presents some blockers for the
+
+1440
+01:15:30,320 --> 01:15:32,560
+non-expert user especially the emo the
+
+1441
+01:15:32,560 --> 01:15:35,920
+emo with this long format multiple
+
+1442
+01:15:35,920 --> 01:15:38,480
+possibility of adding variables etc etc.
+
+1443
+01:15:38,480 --> 01:15:39,679
+So you need to know how to work with
+
+1444
+01:15:39,679 --> 01:15:42,880
+that. This schema is extremely complex
+
+1445
+01:15:42,880 --> 01:15:44,640
+for the non-expert user. How do you
+
+1446
+01:15:44,640 --> 01:15:46,719
+think it will be accepted in the
+
+1447
+01:15:46,719 --> 01:15:48,400
+community? Because for the providers
+
+1448
+01:15:48,400 --> 01:15:50,800
+it's perfect. I mean it's perfect. And I
+
+1449
+01:15:50,800 --> 01:15:53,520
+may say if I can accommodate my data
+
+1450
+01:15:53,520 --> 01:15:55,600
+into the Darwin core star schema, I
+
+1451
+01:15:55,600 --> 01:15:58,000
+would prefer to use that.
+
+1452
+01:15:58,000 --> 01:16:01,239
+Thank you.
+
+1453
+01:16:04,640 --> 01:16:07,760
+It's complex.
+
+1454
+01:16:07,760 --> 01:16:10,159
+But it's you have to realize it's only
+
+1455
+01:16:10,159 --> 01:16:13,600
+as complex as you need it to be also. So
+
+1456
+01:16:13,600 --> 01:16:16,239
+you've seen a bunch of diagrams, one
+
+1457
+01:16:16,239 --> 01:16:19,280
+with 20ome tables used, one with six
+
+1458
+01:16:19,280 --> 01:16:21,760
+tables used. It's because they didn't
+
+1459
+01:16:21,760 --> 01:16:25,360
+use all 77 tables that you could use.
+
+1460
+01:16:25,360 --> 01:16:28,719
+They're all there because the model was
+
+1461
+01:16:28,719 --> 01:16:31,199
+built to cover every use case we
+
+1462
+01:16:31,199 --> 01:16:33,679
+encountered. So they all had to be there
+
+1463
+01:16:33,679 --> 01:16:35,920
+to solve something. That doesn't mean
+
+1464
+01:16:35,920 --> 01:16:39,760
+you need it. No. And in fact, you may
+
+1465
+01:16:39,760 --> 01:16:43,840
+not need as many tables for your case as
+
+1466
+01:16:43,840 --> 01:16:46,560
+was seen there. In fact, you may not
+
+1467
+01:16:46,560 --> 01:16:49,440
+need core data package at all because
+
+1468
+01:16:49,440 --> 01:16:52,480
+the star schema isn't really
+
+1469
+01:16:52,480 --> 01:16:54,480
+uh
+
+1470
+01:16:54,480 --> 01:16:57,520
+an obstacle to you.
+
+1471
+01:16:57,520 --> 01:16:59,360
+This week has been illuminating already
+
+1472
+01:16:59,360 --> 01:17:01,520
+starting with the the global nodes
+
+1473
+01:17:01,520 --> 01:17:03,440
+meeting where people were doing
+
+1474
+01:17:03,440 --> 01:17:05,760
+exercises trying to map into this thing
+
+1475
+01:17:05,760 --> 01:17:08,880
+with uh an artificial
+
+1476
+01:17:08,880 --> 01:17:11,280
+uh use case.
+
+1477
+01:17:11,280 --> 01:17:14,480
+From that I got the feeling that a
+
+1478
+01:17:14,480 --> 01:17:17,199
+Darwin core archive serves as a very
+
+1479
+01:17:17,199 --> 01:17:20,400
+good stepping stone to that.
+
+1480
+01:17:20,400 --> 01:17:22,719
+And the thing people need to understand
+
+1481
+01:17:22,719 --> 01:17:26,159
+is what that can do that the archive
+
+1482
+01:17:26,159 --> 01:17:30,400
+can't do and then how much of that is
+
+1483
+01:17:30,400 --> 01:17:33,120
+actually relevant to you and then make
+
+1484
+01:17:33,120 --> 01:17:35,360
+that decision and it's going to be
+
+1485
+01:17:35,360 --> 01:17:37,280
+perfectly fine to stay where you are
+
+1486
+01:17:37,280 --> 01:17:39,120
+with Darwin core archives for a lot of
+
+1487
+01:17:39,120 --> 01:17:42,320
+people but as we've seen in our
+
+1488
+01:17:42,320 --> 01:17:44,800
+community as people start to get
+
+1489
+01:17:44,800 --> 01:17:47,120
+expertise they start to get a little bit
+
+1490
+01:17:47,120 --> 01:17:49,360
+nervous about things that they're not
+
+1491
+01:17:49,360 --> 01:17:51,120
+doing
+
+1492
+01:17:51,120 --> 01:17:53,040
+what they think should be the best way.
+
+1493
+01:17:53,040 --> 01:17:54,800
+So when they get the resources, they
+
+1494
+01:17:54,800 --> 01:17:56,640
+learn and when they get more resources,
+
+1495
+01:17:56,640 --> 01:17:58,480
+they do. And I think that's how it's
+
+1496
+01:17:58,480 --> 01:18:00,239
+going to go that we're going to get
+
+1497
+01:18:00,239 --> 01:18:01,679
+we're as a community, we're going to
+
+1498
+01:18:01,679 --> 01:18:06,360
+evolve into using that when necessary.
+
+1499
+01:18:07,840 --> 01:18:10,159
+>> The the other side of the getting stuff
+
+1500
+01:18:10,159 --> 01:18:12,080
+down,
+
+1501
+01:18:12,080 --> 01:18:15,520
+we're going to share that question.
+
+1502
+01:18:15,520 --> 01:18:17,280
+>> Oh, wow. I feel like I've just been
+
+1503
+01:18:17,280 --> 01:18:21,040
+handed this is this is Tim again. Um
+
+1504
+01:18:21,040 --> 01:18:23,679
+that that's that's a really good uh
+
+1505
+01:18:23,679 --> 01:18:27,440
+question the because some people will
+
+1506
+01:18:27,440 --> 01:18:29,840
+you know want to share simple data and
+
+1507
+01:18:29,840 --> 01:18:31,920
+others will share perhaps more complex
+
+1508
+01:18:31,920 --> 01:18:35,360
+data but then you've got users who will
+
+1509
+01:18:35,360 --> 01:18:37,760
+want the both both kinds of uh
+
+1510
+01:18:37,760 --> 01:18:40,480
+complexity different ranges. Through our
+
+1511
+01:18:40,480 --> 01:18:43,600
+work, we have admittedly been focusing
+
+1512
+01:18:43,600 --> 01:18:46,480
+on how to support the publishing
+
+1513
+01:18:46,480 --> 01:18:49,199
+community. At this point, we have groups
+
+1514
+01:18:49,199 --> 01:18:51,280
+that are frustrated that their Darwin
+
+1515
+01:18:51,280 --> 01:18:53,600
+core archives does not reflect their
+
+1516
+01:18:53,600 --> 01:18:56,080
+research. So, our focus has really been
+
+1517
+01:18:56,080 --> 01:18:58,719
+on that. The challenge I think is going
+
+1518
+01:18:58,719 --> 01:19:01,360
+to be the next stage for us is to start
+
+1519
+01:19:01,360 --> 01:19:03,199
+thinking about what aggregators like
+
+1520
+01:19:03,199 --> 01:19:06,640
+Gibb and others would have to do. and we
+
+1521
+01:19:06,640 --> 01:19:08,800
+we we'll be moving into that kind of
+
+1522
+01:19:08,800 --> 01:19:13,199
+stage. Now the I would expect an
+
+1523
+01:19:13,199 --> 01:19:15,280
+aggregator like GBIF will still need to
+
+1524
+01:19:15,280 --> 01:19:17,679
+produce very simple views of data things
+
+1525
+01:19:17,679 --> 01:19:20,800
+like occurrences uh things like material
+
+1526
+01:19:20,800 --> 01:19:23,760
+cataloges with specimens probably with
+
+1527
+01:19:23,760 --> 01:19:25,679
+relationships across them but that's
+
+1528
+01:19:25,679 --> 01:19:27,840
+already a step forward from what GBIF
+
+1529
+01:19:27,840 --> 01:19:30,000
+can do today. We don't have a material
+
+1530
+01:19:30,000 --> 01:19:32,480
+catalog. We've just got occurrences. We
+
+1531
+01:19:32,480 --> 01:19:35,120
+can't do relationships across material.
+
+1532
+01:19:35,120 --> 01:19:38,320
+So we would I could imagine JBRF would
+
+1533
+01:19:38,320 --> 01:19:41,199
+be able to have simple occurrence views,
+
+1534
+01:19:41,199 --> 01:19:43,760
+a catalog of material and the
+
+1535
+01:19:43,760 --> 01:19:47,120
+relationships, occurrences with the
+
+1536
+01:19:47,120 --> 01:19:49,120
+evidence that supports that. Here are
+
+1537
+01:19:49,120 --> 01:19:51,600
+the the specimens in support of those
+
+1538
+01:19:51,600 --> 01:19:54,560
+occurrences. I could imagine JVI having
+
+1539
+01:19:54,560 --> 01:19:58,560
+a catalog specific to uh the evidence of
+
+1540
+01:19:58,560 --> 01:20:01,199
+organism interactions for example. So
+
+1541
+01:20:01,199 --> 01:20:03,920
+simplified views on top of this richer
+
+1542
+01:20:03,920 --> 01:20:06,239
+model. We don't know what that would be
+
+1543
+01:20:06,239 --> 01:20:09,199
+yet. And at this point what John and I
+
+1544
+01:20:09,199 --> 01:20:11,199
+and the team and everybody has got to is
+
+1545
+01:20:11,199 --> 01:20:13,440
+we're trying to share with you through
+
+1546
+01:20:13,440 --> 01:20:15,120
+the last few years we've been working
+
+1547
+01:20:15,120 --> 01:20:17,360
+with lots of publishing communities.
+
+1548
+01:20:17,360 --> 01:20:19,280
+This is the kind of data that people are
+
+1549
+01:20:19,280 --> 01:20:21,840
+sitting on and want to share and we're
+
+1550
+01:20:21,840 --> 01:20:23,520
+trying to socialize that. We've got it
+
+1551
+01:20:23,520 --> 01:20:26,159
+to this stage. We've got it to a shape
+
+1552
+01:20:26,159 --> 01:20:28,320
+that we think accommodates a lot of use
+
+1553
+01:20:28,320 --> 01:20:30,800
+cases and we want to socialize that with
+
+1554
+01:20:30,800 --> 01:20:32,800
+you with the Tadre community and the
+
+1555
+01:20:32,800 --> 01:20:35,280
+biodiversity community to know what we
+
+1556
+01:20:35,280 --> 01:20:38,080
+should do together to move forward. This
+
+1557
+01:20:38,080 --> 01:20:40,640
+is this is a checkpoint for us. It's a
+
+1558
+01:20:40,640 --> 01:20:43,280
+real big milestone to know you know
+
+1559
+01:20:43,280 --> 01:20:44,800
+people are sitting on this data. We've
+
+1560
+01:20:44,800 --> 01:20:48,640
+heard some case studies where they've
+
+1561
+01:20:48,640 --> 01:20:50,480
+expressed this is what we have and how
+
+1562
+01:20:50,480 --> 01:20:52,400
+it could fit. We've got challenges of
+
+1563
+01:20:52,400 --> 01:20:54,560
+how we might you know operationalize
+
+1564
+01:20:54,560 --> 01:20:57,120
+that but conceptually that's the kind of
+
+1565
+01:20:57,120 --> 01:21:00,000
+structure that people's research is is
+
+1566
+01:21:00,000 --> 01:21:02,640
+accommodating. So we we do need to think
+
+1567
+01:21:02,640 --> 01:21:04,560
+about this I think from the publishing
+
+1568
+01:21:04,560 --> 01:21:07,600
+aspect and the kind of data that they
+
+1569
+01:21:07,600 --> 01:21:09,440
+would they would want or could
+
+1570
+01:21:09,440 --> 01:21:12,080
+potentially share. We then need to think
+
+1571
+01:21:12,080 --> 01:21:15,120
+about what kind of use cases we'd want
+
+1572
+01:21:15,120 --> 01:21:17,520
+to support for accessing this data. And
+
+1573
+01:21:17,520 --> 01:21:19,840
+we haven't we haven't done that exercise
+
+1574
+01:21:19,840 --> 01:21:22,000
+thoroughly yet. But now we have a model.
+
+1575
+01:21:22,000 --> 01:21:23,600
+We could start thinking about those
+
+1576
+01:21:23,600 --> 01:21:26,239
+questions. And I'd invite everybody to
+
+1577
+01:21:26,239 --> 01:21:28,640
+think about those kind of problems. And
+
+1578
+01:21:28,640 --> 01:21:30,719
+then we need to think about, you know,
+
+1579
+01:21:30,719 --> 01:21:32,880
+what should an aggregator like GBIF do?
+
+1580
+01:21:32,880 --> 01:21:35,840
+What should others do? And at what level
+
+1581
+01:21:35,840 --> 01:21:38,960
+of complexity should it be simplified um
+
+1582
+01:21:38,960 --> 01:21:41,600
+as it goes up the chain from the the raw
+
+1583
+01:21:41,600 --> 01:21:44,480
+data up to sort of integration and use.
+
+1584
+01:21:44,480 --> 01:21:46,480
+We need to think through those problems.
+
+1585
+01:21:46,480 --> 01:21:48,480
+But we've now got it to a stage that we
+
+1586
+01:21:48,480 --> 01:21:50,800
+think there is a model to discuss those
+
+1587
+01:21:50,800 --> 01:21:53,120
+things and that's largely why we're here
+
+1588
+01:21:53,120 --> 01:21:56,880
+presenting that to you today. So just to
+
+1589
+01:21:56,880 --> 01:21:59,040
+to recap there, that's to acknowledge we
+
+1590
+01:21:59,040 --> 01:22:00,719
+haven't gone through that process of
+
+1591
+01:22:00,719 --> 01:22:03,280
+thinking about how someone might access
+
+1592
+01:22:03,280 --> 01:22:06,080
+and do questions that integrate all of
+
+1593
+01:22:06,080 --> 01:22:08,560
+this data. But if we were to have that
+
+1594
+01:22:08,560 --> 01:22:11,280
+sort of conceptual model of structure,
+
+1595
+01:22:11,280 --> 01:22:13,520
+we feel that we would be able to ask a
+
+1596
+01:22:13,520 --> 01:22:17,880
+lot of interesting questions here.
+
+1597
+01:22:23,360 --> 01:22:27,560
+over here. There's one over here, too.
+
+1598
+01:22:28,880 --> 01:22:30,239
+>> Go ahead. Sorry, I didn't get the
+
+1599
+01:22:30,239 --> 01:22:30,639
+question.
+
+1600
+01:22:30,639 --> 01:22:32,239
+>> That's okay. Hi. Um, my name's Jane
+
+1601
+01:22:32,239 --> 01:22:34,000
+Anderson. I'm from Local Context, and I
+
+1602
+01:22:34,000 --> 01:22:36,320
+just wanted to ask both uh thank you for
+
+1603
+01:22:36,320 --> 01:22:37,679
+the presentations and for the case
+
+1604
+01:22:37,679 --> 01:22:40,719
+studies. I wanted to ask um the for the
+
+1605
+01:22:40,719 --> 01:22:42,320
+case studies, how you might have been
+
+1606
+01:22:42,320 --> 01:22:44,080
+dealing with indigenous data and just
+
+1607
+01:22:44,080 --> 01:22:46,080
+pulling a thread through from the
+
+1608
+01:22:46,080 --> 01:22:48,320
+keynote this morning. And then this uh
+
+1609
+01:22:48,320 --> 01:22:51,199
+possibility of the data package uh
+
+1610
+01:22:51,199 --> 01:22:52,800
+opening up space for indigenous
+
+1611
+01:22:52,800 --> 01:22:54,719
+interests to be uh included. I just
+
+1612
+01:22:54,719 --> 01:22:56,239
+wonder how you're thinking about that as
+
+1613
+01:22:56,239 --> 01:22:59,239
+well.
+
+1614
+01:23:02,960 --> 01:23:06,000
+>> Very good question. Um the first and
+
+1615
+01:23:06,000 --> 01:23:07,600
+simplest answer is that we haven't gone
+
+1616
+01:23:07,600 --> 01:23:10,080
+through a proper use case and so there
+
+1617
+01:23:10,080 --> 01:23:12,400
+isn't a proper solution to all of the
+
+1618
+01:23:12,400 --> 01:23:15,120
+concerns that come up. However, there
+
+1619
+01:23:15,120 --> 01:23:17,520
+are working groups in Tadwig that are
+
+1620
+01:23:17,520 --> 01:23:20,400
+interested in these things. Um, one of
+
+1621
+01:23:20,400 --> 01:23:23,760
+which is sensitive data that can be
+
+1622
+01:23:23,760 --> 01:23:26,880
+>> I won't cross the lines here with the
+
+1623
+01:23:26,880 --> 01:23:28,080
+same kinds of concerns that you're
+
+1624
+01:23:28,080 --> 01:23:30,239
+talking about. So as
+
+1625
+01:23:30,239 --> 01:23:30,880
+>> this one
+
+1626
+01:23:30,880 --> 01:23:33,600
+>> star for maintenance group which is kind
+
+1627
+01:23:33,600 --> 01:23:37,040
+of responsible for all all of this we're
+
+1628
+01:23:37,040 --> 01:23:39,920
+aware of and trying to make sure that
+
+1629
+01:23:39,920 --> 01:23:41,520
+the solutions that are that come up
+
+1630
+01:23:41,520 --> 01:23:44,719
+there end up in the data package as well
+
+1631
+01:23:44,719 --> 01:23:46,480
+and
+
+1632
+01:23:46,480 --> 01:23:49,280
+it's middle stages in terms of
+
+1633
+01:23:49,280 --> 01:23:51,600
+determining how that works and also
+
+1634
+01:23:51,600 --> 01:23:54,159
+about integrating the care principles
+
+1635
+01:23:54,159 --> 01:23:58,960
+for example into uh usage policy. No, I
+
+1636
+01:23:58,960 --> 01:24:01,679
+I would never claim that usage policy as
+
+1637
+01:24:01,679 --> 01:24:04,080
+it stands in Dracore data package solves
+
+1638
+01:24:04,080 --> 01:24:06,000
+the kinds of issues that will arise
+
+1639
+01:24:06,000 --> 01:24:09,840
+there, but it needs to. And as all
+
+1640
+01:24:09,840 --> 01:24:11,600
+Darmman core things, it's a standard
+
+1641
+01:24:11,600 --> 01:24:15,239
+that's meant to evolve.
+
+1642
+01:24:21,760 --> 01:24:23,920
+An online question from Urit Pulen. I'm
+
+1643
+01:24:23,920 --> 01:24:25,360
+going to paraphrase a little bit. Sorry,
+
+1644
+01:24:25,360 --> 01:24:27,760
+Urit. Um, he wants something clarified.
+
+1645
+01:24:27,760 --> 01:24:30,480
+He asked, "It seems like we suggest that
+
+1646
+01:24:30,480 --> 01:24:32,639
+Darwin core data package introduces a
+
+1647
+01:24:32,639 --> 01:24:35,520
+way to record organism interactions, but
+
+1648
+01:24:35,520 --> 01:24:37,280
+that is also possible in Dorman core
+
+1649
+01:24:37,280 --> 01:24:39,520
+archives. Can you confirm that it is
+
+1650
+01:24:39,520 --> 01:24:41,440
+possible in Darwin core archives through
+
+1651
+01:24:41,440 --> 01:24:43,280
+resource relationship associated
+
+1652
+01:24:43,280 --> 01:24:46,400
+organisms and KT Pearson is backing this
+
+1653
+01:24:46,400 --> 01:24:49,120
+up also with phenological data? I mean
+
+1654
+01:24:49,120 --> 01:24:50,719
+this can be represented with extended
+
+1655
+01:24:50,719 --> 01:24:54,080
+measurement or facts like why switching
+
+1656
+01:24:54,080 --> 01:24:56,480
+to Darwin core arch data packages and
+
+1657
+01:24:56,480 --> 01:24:59,199
+also can you confirm that uh organisms
+
+1658
+01:24:59,199 --> 01:25:00,880
+interactions can be well represented in
+
+1659
+01:25:00,880 --> 01:25:03,760
+Darwin core archives
+
+1660
+01:25:03,760 --> 01:25:06,080
+first what was the second example I got
+
+1661
+01:25:06,080 --> 01:25:07,280
+the whole thing about organism
+
+1662
+01:25:07,280 --> 01:25:09,520
+interactions but there
+
+1663
+01:25:09,520 --> 01:25:12,159
+phenological data
+
+1664
+01:25:12,159 --> 01:25:14,560
+okay I'll deal with organism
+
+1665
+01:25:14,560 --> 01:25:17,120
+interactions the answer is yes the
+
+1666
+01:25:17,120 --> 01:25:20,560
+exercise to uh share organism
+
+1667
+01:25:20,560 --> 01:25:23,040
+interactions via core archives has been
+
+1668
+01:25:23,040 --> 01:25:27,120
+done in the past and there is a
+
+1669
+01:25:27,120 --> 01:25:28,320
+I don't remember it's not called
+
+1670
+01:25:28,320 --> 01:25:30,880
+organism interactions but interactions
+
+1671
+01:25:30,880 --> 01:25:33,360
+uh interest group that has gone through
+
+1672
+01:25:33,360 --> 01:25:35,760
+this as well so yes it is capable of
+
+1673
+01:25:35,760 --> 01:25:39,199
+doing it however
+
+1674
+01:25:39,199 --> 01:25:42,880
+like the obus extended measurements or
+
+1675
+01:25:42,880 --> 01:25:45,120
+facts extension to Darwin core it's a
+
+1676
+01:25:45,120 --> 01:25:48,960
+community understanding about a trick to
+
+1677
+01:25:48,960 --> 01:25:52,400
+do in order to make your data fit in a
+
+1678
+01:25:52,400 --> 01:25:55,360
+DMO archive. It's not particularly
+
+1679
+01:25:55,360 --> 01:25:58,639
+semantically rigorous. It's hard to
+
+1680
+01:25:58,639 --> 01:26:02,400
+recognize a an organism interaction from
+
+1681
+01:26:02,400 --> 01:26:05,840
+a material relationship because it's
+
+1682
+01:26:05,840 --> 01:26:08,880
+just so vague. A resource relationship
+
+1683
+01:26:08,880 --> 01:26:12,159
+is the place to put anything that you
+
+1684
+01:26:12,159 --> 01:26:15,679
+couldn't relate in the model before.
+
+1685
+01:26:15,679 --> 01:26:18,880
+So we knowing that organism interactions
+
+1686
+01:26:18,880 --> 01:26:21,760
+are an important thing we have a
+
+1687
+01:26:21,760 --> 01:26:25,040
+standardsbased place to put them now. So
+
+1688
+01:26:25,040 --> 01:26:27,600
+yes it worked before but you had to
+
+1689
+01:26:27,600 --> 01:26:30,320
+understand how you had to be in the in
+
+1690
+01:26:30,320 --> 01:26:32,800
+group. This will be part of a standard
+
+1691
+01:26:32,800 --> 01:26:35,800
+undocumented.
+
+1692
+01:26:38,960 --> 01:26:41,280
+>> Another online question from Kapia
+
+1693
+01:26:41,280 --> 01:26:43,760
+Molina. He's asking why is Dorin core
+
+1694
+01:26:43,760 --> 01:26:46,560
+data package not using JSON for the EML?
+
+1695
+01:26:46,560 --> 01:26:48,719
+Seems a bit odd to have a data package
+
+1696
+01:26:48,719 --> 01:26:51,840
+JSON and EML XML.
+
+1697
+01:26:51,840 --> 01:26:55,880
+Why not use JSON for Pum?
+
+1698
+01:26:58,560 --> 01:27:00,560
+>> Hi Javier. Um thank you for the
+
+1699
+01:27:00,560 --> 01:27:03,520
+question. Um it was actually to avoid uh
+
+1700
+01:27:03,520 --> 01:27:04,960
+changing everything all in one go
+
+1701
+01:27:04,960 --> 01:27:08,719
+really. Um EML is a is an established
+
+1702
+01:27:08,719 --> 01:27:10,239
+standard. It's been used by our
+
+1703
+01:27:10,239 --> 01:27:14,480
+community in JBIF for you know 15 or or
+
+1704
+01:27:14,480 --> 01:27:17,440
+more years and um we didn't want to
+
+1705
+01:27:17,440 --> 01:27:20,320
+tackle rewriting EML at the same time as
+
+1706
+01:27:20,320 --> 01:27:23,920
+this. Um there are I I would call
+
+1707
+01:27:23,920 --> 01:27:26,080
+attention to the catalog of life data
+
+1708
+01:27:26,080 --> 01:27:29,199
+package um which took the approach I
+
+1709
+01:27:29,199 --> 01:27:32,960
+believe of using uh markdown for the the
+
+1710
+01:27:32,960 --> 01:27:35,679
+metadata and translation tools to go
+
+1711
+01:27:35,679 --> 01:27:40,320
+from markdown to EML. um the the
+
+1712
+01:27:40,320 --> 01:27:42,880
+metadata about the data set is not
+
+1713
+01:27:42,880 --> 01:27:46,639
+really the the focus of uh our research
+
+1714
+01:27:46,639 --> 01:27:49,040
+at the moment. So the the data set
+
+1715
+01:27:49,040 --> 01:27:51,520
+descriptive stuff that's in EML is not
+
+1716
+01:27:51,520 --> 01:27:53,840
+really um what we're we're looking at
+
+1717
+01:27:53,840 --> 01:27:57,840
+with the schemas of the data package.
+
+1718
+01:27:57,840 --> 01:28:02,520
+I hope that answers the question.
+
+1719
+01:28:04,159 --> 01:28:06,560
+We have one more virtual question online
+
+1720
+01:28:06,560 --> 01:28:08,719
+and then I think we'll have time for one
+
+1721
+01:28:08,719 --> 01:28:10,560
+more question in house before the
+
+1722
+01:28:10,560 --> 01:28:14,159
+session is over.
+
+1723
+01:28:14,159 --> 01:28:17,159
+>> Okay,
+
+1724
+01:28:19,199 --> 01:28:21,280
+>> is asking will there be any Darwin core
+
+1725
+01:28:21,280 --> 01:28:25,480
+data package introduction workshops?
+
+1726
+01:28:31,040 --> 01:28:33,360
+already missed it.
+
+1727
+01:28:33,360 --> 01:28:34,960
+It was part of the global nodes
+
+1728
+01:28:34,960 --> 01:28:38,239
+training. Um there won't be any in the
+
+1729
+01:28:38,239 --> 01:28:40,719
+rest of this unless you find me in a
+
+1730
+01:28:40,719 --> 01:28:44,840
+corner and keep me there.
+
+1731
+01:28:48,560 --> 01:28:51,360
+>> Sorry De they there's been a question
+
+1732
+01:28:51,360 --> 01:28:52,639
+identified already.
+
+1733
+01:28:52,639 --> 01:28:58,880
+>> Sorry. H De sorry. Oh harsh. Uh hi John.
+
+1734
+01:28:58,880 --> 01:29:02,080
+Hi Tim. I just this is Shandra. I work
+
+1735
+01:29:02,080 --> 01:29:04,159
+at the National Ecological Observatory
+
+1736
+01:29:04,159 --> 01:29:07,520
+Network at uh in the USA. Um, and I'm
+
+1737
+01:29:07,520 --> 01:29:10,480
+wondering if you could um talk a little
+
+1738
+01:29:10,480 --> 01:29:13,280
+bit how when you were thinking about how
+
+1739
+01:29:13,280 --> 01:29:16,239
+to create the data package, how you
+
+1740
+01:29:16,239 --> 01:29:17,920
+thought about that in terms of how it
+
+1741
+01:29:17,920 --> 01:29:19,920
+would interact with extended specimen
+
+1742
+01:29:19,920 --> 01:29:21,760
+infrastructure and that can either be
+
+1743
+01:29:21,760 --> 01:29:23,280
+from, I guess, the model point of view
+
+1744
+01:29:23,280 --> 01:29:28,440
+or the front-end point of view as well.
+
+1745
+01:29:29,760 --> 01:29:33,120
+>> Aandra, thank you very much. um the the
+
+1746
+01:29:33,120 --> 01:29:36,000
+extended specimen um model and there's
+
+1747
+01:29:36,000 --> 01:29:37,600
+actually many people in the room who've
+
+1748
+01:29:37,600 --> 01:29:40,400
+been heavily involved in that um have
+
+1749
+01:29:40,400 --> 01:29:43,199
+been collaborating uh with us throughout
+
+1750
+01:29:43,199 --> 01:29:46,159
+this process. So in the second session
+
+1751
+01:29:46,159 --> 01:29:49,280
+there will be a presentation recorded
+
+1752
+01:29:49,280 --> 01:29:53,199
+from Sam from Disco in in Europe. Sam
+
+1753
+01:29:53,199 --> 01:29:55,679
+unfortunately couldn't travel um but his
+
+1754
+01:29:55,679 --> 01:29:59,120
+presentation's recorded where the open
+
+1755
+01:29:59,120 --> 01:30:02,159
+DS specification or standard that they
+
+1756
+01:30:02,159 --> 01:30:04,320
+came up with. He demonstrates that he
+
+1757
+01:30:04,320 --> 01:30:06,639
+was able to map it faithfully onto the
+
+1758
+01:30:06,639 --> 01:30:09,199
+Darvin core data package and actually he
+
+1759
+01:30:09,199 --> 01:30:10,719
+he's someone who said it was actually
+
+1760
+01:30:10,719 --> 01:30:13,040
+quite easy and it was easy because all
+
+1761
+01:30:13,040 --> 01:30:15,440
+the target entities existed and he could
+
+1762
+01:30:15,440 --> 01:30:17,440
+just transfer well I've got material it
+
+1763
+01:30:17,440 --> 01:30:19,520
+goes into material got the collection
+
+1764
+01:30:19,520 --> 01:30:22,000
+event it goes onto collection event got
+
+1765
+01:30:22,000 --> 01:30:24,159
+the assertions they go you know and and
+
+1766
+01:30:24,159 --> 01:30:27,360
+for him because the data structure was
+
+1767
+01:30:27,360 --> 01:30:30,080
+already largely aligned it was a fairly
+
+1768
+01:30:30,080 --> 01:30:33,199
+easy data transfer Um, I don't want to
+
+1769
+01:30:33,199 --> 01:30:34,719
+give away the highlights from this
+
+1770
+01:30:34,719 --> 01:30:36,320
+presentation, but I would encourage you
+
+1771
+01:30:36,320 --> 01:30:39,040
+to come and and see that example later.
+
+1772
+01:30:39,040 --> 01:30:42,280
+Thank you.
+
+1773
+01:30:44,159 --> 01:30:45,920
+>> Okay, Deb, we have time for one more
+
+1774
+01:30:45,920 --> 01:30:46,719
+question.
+
+1775
+01:30:46,719 --> 01:30:50,239
+>> Oh, question. It's a comment to add on
+
+1776
+01:30:50,239 --> 01:30:52,480
+to what was said earlier. I think the
+
+1777
+01:30:52,480 --> 01:30:54,880
+point you were pointing out Tim and John
+
+1778
+01:30:54,880 --> 01:30:56,480
+the question that was asked about
+
+1779
+01:30:56,480 --> 01:30:58,880
+whether we should use the data package
+
+1780
+01:30:58,880 --> 01:31:02,080
+as it currently stands or the new one I
+
+1781
+01:31:02,080 --> 01:31:04,239
+I can remember and many of you can I
+
+1782
+01:31:04,239 --> 01:31:06,480
+think we're evolving many of us are
+
+1783
+01:31:06,480 --> 01:31:08,320
+still in collection management software
+
+1784
+01:31:08,320 --> 01:31:10,480
+for example where we're just beginning
+
+1785
+01:31:10,480 --> 01:31:13,360
+to be able to get richer data out using
+
+1786
+01:31:13,360 --> 01:31:15,520
+the extensions that currently exist
+
+1787
+01:31:15,520 --> 01:31:18,880
+right we're getting there I can remember
+
+1788
+01:31:18,880 --> 01:31:22,480
+asking Tim or Marcus at JBIFF and saying
+
+1789
+01:31:22,480 --> 01:31:24,800
+which one of your data sets actually use
+
+1790
+01:31:24,800 --> 01:31:26,960
+the extensions where are they wait I
+
+1791
+01:31:26,960 --> 01:31:29,520
+can't find them right and then it's nice
+
+1792
+01:31:29,520 --> 01:31:31,360
+now in the user interface right we can
+
+1793
+01:31:31,360 --> 01:31:33,920
+we can see them so this this notion of
+
+1794
+01:31:33,920 --> 01:31:35,760
+how do we see the extended data that's
+
+1795
+01:31:35,760 --> 01:31:37,520
+there and I think the new user
+
+1796
+01:31:37,520 --> 01:31:39,280
+interfaces that we're experiencing that
+
+1797
+01:31:39,280 --> 01:31:41,280
+begin to show us biological associations
+
+1798
+01:31:41,280 --> 01:31:44,000
+and relationships we will see we'll
+
+1799
+01:31:44,000 --> 01:31:46,480
+still have rows and columns of data but
+
+1800
+01:31:46,480 --> 01:31:47,920
+we're going to have much richer
+
+1801
+01:31:47,920 --> 01:31:51,120
+visualizations of these data
+
+1802
+01:31:51,120 --> 01:31:53,760
+I think that's where I see that going
+
+1803
+01:31:53,760 --> 01:31:56,400
+based on the history of what we've seen.
+
+1804
+01:31:56,400 --> 01:32:00,080
+So I think it's very exciting. Yes.
+
+1805
+01:32:00,080 --> 01:32:01,920
+Awesome. Thank you very much, Deb. And
+
+1806
+01:32:01,920 --> 01:32:04,719
+that is time for this session. Remember
+
+1807
+01:32:04,719 --> 01:32:07,040
+this is part one. It is time for coffee.
+
+1808
+01:32:07,040 --> 01:32:08,800
+But before you go, I would really like
+
+1809
+01:32:08,800 --> 01:32:10,480
+you to like us all to give a big round
+
+1810
+01:32:10,480 --> 01:32:12,480
+of applause to our presenters. Thank you
+
+1811
+01:32:12,480 --> 01:32:14,239
+so much for presenting your work. I know
+
+1812
+01:32:14,239 --> 01:32:16,960
+except the lots.

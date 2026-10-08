@@ -1,0 +1,335 @@
+---
+import comparisons from "../../derived/living-data-2025/data-package/comparison_links.json";
+import { stampSeconds, timeLabel } from "../lib/format.js";
+
+const { itemId } = Astro.props;
+const connections = comparisons.links.filter(
+  (link) =>
+    link.evidence_2026.item_id === itemId &&
+    link.review_status === "caption_checked" &&
+    link.causal_lineage_asserted === false,
+);
+const relationship = (type) => {
+  if (type === "question_revisited") return "Open question";
+  if (type.startsWith("same_")) return "Continuing work";
+  return "Related example";
+};
+---
+
+{connections.length > 0 && (
+  <details class="time-travel" id="history-2025">
+    <summary class="history-toggle">
+      <span class="history-icon" aria-hidden="true">
+        ↶
+      </span>
+      <span class="history-label">
+        <strong>Go back to 2025</strong>
+        <span>
+          Data Package pilot · {connections.length}{" "}
+          {connections.length === 1 ? "connection" : "connections"}
+        </span>
+      </span>
+      <span class="history-chevron" aria-hidden="true">
+        ↓
+      </span>
+    </summary>
+    <div class="history-content">
+      <p class="history-intro">
+        Revisit Living Data 2025 alongside this talk. These connections were
+        checked against captions; related examples may come from different teams
+        rather than a direct follow-up.
+      </p>
+      {connections.map((connection) => (
+        <article
+          class="connection"
+          aria-labelledby={`history-${connection.id}`}
+        >
+          <div class="connection-heading">
+            <span
+              class:list={[
+                "relationship",
+                {
+                  "open-question":
+                    connection.relationship_type === "question_revisited",
+                },
+              ]}
+            >
+              {relationship(connection.relationship_type)}
+            </span>
+            <h2 id={`history-${connection.id}`}>{connection.title}</h2>
+          </div>
+          <div class="year-pair">
+            <section class="year-moment" aria-label="In 2025">
+              <div class="year-label">
+                2025 <span>Living Data</span>
+              </div>
+              <p>{connection.then}</p>
+              <a
+                class="watch-link"
+                href={connection.evidence_2025.video_link}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Watch 2025 at{" "}
+                {timeLabel(stampSeconds(connection.evidence_2025.timestamp))} ↗
+              </a>
+              <details class="caption-source">
+                <summary>Read the source captions</summary>
+                <p class="source-title">{connection.evidence_2025.title}</p>
+                <blockquote>{connection.evidence_2025.passage}</blockquote>
+              </details>
+            </section>
+            <section class="year-moment current-year" aria-label="In 2026">
+              <div class="year-label">
+                2026 <span>This talk</span>
+              </div>
+              <p>{connection.now}</p>
+              <button
+                class="watch-link"
+                type="button"
+                data-seek={stampSeconds(connection.evidence_2026.timestamp)}
+              >
+                Play 2026 at{" "}
+                {timeLabel(stampSeconds(connection.evidence_2026.timestamp))} ↑
+              </button>
+              <a
+                class="external-recording"
+                href={connection.evidence_2026.video_link}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Open on Vimeo ↗
+              </a>
+              <details class="caption-source">
+                <summary>Read the source captions</summary>
+                <p class="source-title">{connection.evidence_2026.title}</p>
+                <blockquote>{connection.evidence_2026.passage}</blockquote>
+              </details>
+            </section>
+          </div>
+          <p class="connection-meaning">{connection.interpretation}</p>
+          <details class="connection-note">
+            <summary>About this connection</summary>
+            <p>
+              {connection.id === "validation-from-plan-to-specific-rules"
+                ? "This does not establish delivery of every planned service or a production rollout. The second GBIF presenter’s identity is uncertain in the recording."
+                : connection.caveat}
+            </p>
+          </details>
+        </article>
+      ))}
+      <p class="history-footnote">
+        This pilot covers one 2025 symposium and selected 2026 moments.
+        Automatic captions can contain mistakes; audio has not been checked.
+      </p>
+    </div>
+  </details>
+)}
+
+<style>
+  .time-travel {
+    margin: 24px 0 32px;
+    border: 1px solid #b9cdb0;
+    border-radius: 15px;
+    background: #edf2e8;
+    scroll-margin-top: 24px;
+  }
+  .history-toggle {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 20px 24px;
+    border-radius: 15px;
+    cursor: pointer;
+    list-style: none;
+  }
+  .history-toggle::-webkit-details-marker {
+    display: none;
+  }
+  .history-toggle:hover {
+    background: #e2ecdb;
+  }
+  .history-icon {
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    flex: none;
+    border-radius: 50%;
+    background: var(--accent);
+    font-size: 1.8rem;
+  }
+  .history-label {
+    display: grid;
+    gap: 5px;
+  }
+  .history-label strong {
+    font-size: 1rem;
+  }
+  .history-label > span {
+    color: var(--muted);
+    font-size: 0.78rem;
+    line-height: 1.4;
+  }
+  .history-chevron {
+    margin-left: auto;
+    font-size: 1.2rem;
+  }
+  .time-travel[open] > summary .history-chevron {
+    transform: rotate(180deg);
+  }
+  .history-content {
+    padding: 0 24px 24px;
+  }
+  .history-intro,
+  .history-footnote {
+    color: var(--muted);
+    font-size: 0.83rem;
+    line-height: 1.6;
+  }
+  .history-intro {
+    margin: 0 0 24px;
+  }
+  .history-footnote {
+    margin: 22px 0 0;
+    font-size: 0.76rem;
+  }
+  .connection {
+    padding: 24px;
+    border: 1px solid #d7e1d4;
+    border-radius: 12px;
+    background: var(--paper);
+  }
+  .connection + .connection {
+    margin-top: 18px;
+  }
+  .relationship {
+    display: inline-block;
+    padding: 6px 10px;
+    border-radius: 100px;
+    background: #dcebc9;
+    color: #29534a;
+    font-size: 0.7rem;
+    font-weight: 800;
+  }
+  .relationship.open-question {
+    background: #efe5c9;
+    color: #66532d;
+  }
+  .connection-heading h2 {
+    margin: 12px 0 24px;
+    font:
+      400 1.65rem/1.2 Georgia,
+      serif;
+    letter-spacing: -0.025em;
+  }
+  .year-pair {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 24px;
+  }
+  .year-moment {
+    min-width: 0;
+    padding-top: 14px;
+    border-top: 3px solid #b9cdb0;
+  }
+  .current-year {
+    border-color: #397a67;
+  }
+  .year-label {
+    font-size: 1rem;
+    font-weight: 850;
+  }
+  .year-label span {
+    display: block;
+    margin-top: 4px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: var(--muted);
+  }
+  .year-moment > p,
+  .connection-meaning {
+    color: #3e635b;
+    font-size: 0.9rem;
+    line-height: 1.65;
+  }
+  .watch-link {
+    display: inline-block;
+    padding: 10px 0;
+    border: 0;
+    background: none;
+    color: #29534a;
+    font-size: 0.8rem;
+    font-weight: 800;
+    text-align: left;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
+  .watch-link:hover,
+  .external-recording:hover {
+    color: #347b69;
+  }
+  .external-recording {
+    display: block;
+    width: fit-content;
+    padding: 8px 0;
+    font-size: 0.75rem;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+  .caption-source {
+    margin-top: 10px;
+    font-size: 0.76rem;
+    color: var(--muted);
+  }
+  .caption-source summary,
+  .connection-note summary {
+    cursor: pointer;
+    padding: 10px 0;
+    line-height: 1.4;
+  }
+  .source-title {
+    font-weight: 700;
+    line-height: 1.5;
+  }
+  blockquote {
+    margin: 12px 0 0;
+    padding-left: 12px;
+    border-left: 2px solid #b9cdb0;
+    line-height: 1.65;
+    overflow-wrap: anywhere;
+  }
+  .connection-meaning {
+    margin: 24px 0 10px;
+    padding-top: 18px;
+    border-top: 1px solid var(--border);
+  }
+  .connection-note {
+    color: var(--muted);
+    font-size: 0.78rem;
+    line-height: 1.6;
+  }
+  .connection-note p {
+    margin: 4px 0;
+  }
+  @media (max-width: 600px) {
+    .history-toggle {
+      padding: 18px;
+    }
+    .history-content {
+      padding: 0 14px 18px;
+    }
+    .history-intro {
+      padding-inline: 4px;
+    }
+    .connection {
+      padding: 18px;
+    }
+    .year-pair {
+      grid-template-columns: 1fr;
+    }
+    .connection-heading h2 {
+      font-size: 1.45rem;
+    }
+  }
+</style>

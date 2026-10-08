@@ -1,0 +1,141 @@
+{
+  "reviewed_at_utc": "2026-10-08T11:26:36.716656+00:00",
+  "reviewer": "Codex parent",
+  "original_outputs": "Preserved in the ignored .claude/pilots/data-package-2025/ directory and worker log.",
+  "output_hashes": {
+    "part-1.json": {
+      "worker_original_sha256": "dd7770b623f7ca80f695a886845237f4b2b5e01cc759481184f523c3449e2f9f",
+      "reviewed_sha256": "6990431de71be70c1e899ff21b6e0236d0fa6eb42436a4f597fc223554c57aeb"
+    },
+    "part-2.json": {
+      "worker_original_sha256": "9a0fb079b46e0a07ba5f8a4081463a84117892a6cba26fd13e820d62607227e8",
+      "reviewed_sha256": "8efa3f69aa72cf649b22ba2b95d0c4389b51160a562dacbc52300fc94fc8d6ee"
+    }
+  },
+  "corrections": [
+    {
+      "file": "part-1.json",
+      "item_id": "livingdata-2025-dp-p1-01-introduction",
+      "field": "programme.abstract",
+      "before": null,
+      "after": "",
+      "reason": "Represent missing text using the existing schema string type; no source fact added."
+    },
+    {
+      "file": "part-1.json",
+      "item_id": "livingdata-2025-dp-p1-01-introduction",
+      "field": "actual.speakers.affiliation",
+      "speaker": "Kate Ingenloff",
+      "before": null,
+      "after": "",
+      "reason": "Represent unknown affiliation using the existing schema string type; no affiliation inferred."
+    },
+    {
+      "file": "part-1.json",
+      "item_id": "livingdata-2025-dp-p1-07-discussion",
+      "field": "programme.abstract",
+      "before": null,
+      "after": "",
+      "reason": "Represent missing text using the existing schema string type; no source fact added."
+    },
+    {
+      "file": "part-1.json",
+      "item_id": "livingdata-2025-dp-p1-07-discussion",
+      "field": "actual.speakers.affiliation",
+      "speaker": "Kate Ingenloff",
+      "before": null,
+      "after": "",
+      "reason": "Represent unknown affiliation using the existing schema string type; no affiliation inferred."
+    },
+    {
+      "file": "part-1.json",
+      "item_id": "livingdata-2025-dp-p1-07-discussion",
+      "field": "actual.speakers.affiliation",
+      "speaker": "Deb (surname not stated)",
+      "before": null,
+      "after": "",
+      "reason": "Represent unknown affiliation using the existing schema string type; no affiliation inferred."
+    },
+    {
+      "file": "part-1.json",
+      "item_id": "livingdata-2025-dp-p1-02-inaturalist",
+      "field": "representative_excerpt.timestamp",
+      "before": "00:18:05.039",
+      "after": "00:18:02.320",
+      "reason": "The first words of the unchanged verbatim quote begin in the immediately preceding caption cue."
+    },
+    {
+      "file": "part-2.json",
+      "item_id": "livingdata-2025-dp-p2-01-dwc-dp-overview",
+      "field": "actual.speakers.affiliation",
+      "speaker": "Walter (surname not stated)",
+      "before": null,
+      "after": "",
+      "reason": "Represent unknown affiliation using the existing schema string type; no affiliation inferred."
+    },
+    {
+      "file": "part-2.json",
+      "item_id": "livingdata-2025-dp-p2-07-discussion",
+      "field": "programme.abstract",
+      "before": null,
+      "after": "",
+      "reason": "Represent missing text using the existing schema string type; no source fact added."
+    },
+    {
+      "file": "part-2.json",
+      "item_id": "livingdata-2025-dp-p2-07-discussion",
+      "field": "actual.speakers.affiliation",
+      "speaker": "Kate Ingenloff",
+      "before": null,
+      "after": "",
+      "reason": "Represent unknown affiliation using the existing schema string type; no affiliation inferred."
+    },
+    {
+      "file": "part-2.json",
+      "item_id": "livingdata-2025-dp-p2-07-discussion",
+      "field": "actual.speakers.affiliation",
+      "speaker": "Nikki (surname not stated)",
+      "before": null,
+      "after": "",
+      "reason": "Represent unknown affiliation using the existing schema string type; no affiliation inferred."
+    },
+    {
+      "file": "part-2.json",
+      "item_id": "livingdata-2025-dp-p2-07-discussion",
+      "field": "actual.speakers.affiliation",
+      "speaker": "Lynn (ASR; surname not stated)",
+      "before": null,
+      "after": "",
+      "reason": "Represent unknown affiliation using the existing schema string type; no affiliation inferred."
+    },
+    {
+      "file": "part-2.json",
+      "item_id": "livingdata-2025-dp-p2-07-discussion",
+      "field": "actual.speakers.affiliation",
+      "speaker": "Unnamed audience members",
+      "before": null,
+      "after": "",
+      "reason": "Represent unknown affiliation using the existing schema string type; no affiliation inferred."
+    },
+    {
+      "file": "part-2.json",
+      "item_id": "livingdata-2025-dp-p2-02-abcd",
+      "field": "representative_excerpt.timestamp",
+      "before": "00:30:28.960",
+      "after": "00:30:25.600",
+      "reason": "The first words of the unchanged verbatim quote begin in the immediately preceding caption cue."
+    },
+    {
+      "file": "part-2.json",
+      "item_id": "livingdata-2025-dp-p2-04-gbif-implementation",
+      "field": "representative_excerpt.timestamp",
+      "before": "00:48:08.480",
+      "after": "00:48:06.480",
+      "reason": "The first words of the unchanged verbatim quote begin in the immediately preceding caption cue."
+    }
+  ],
+  "semantic_spot_checks": {
+    "count": 14,
+    "method": "First timestamped claim from each of the fourteen items checked against the surrounding caption text. All were supported; this is a sample rather than exhaustive factual or audio verification."
+  }
+}

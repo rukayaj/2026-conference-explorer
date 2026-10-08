@@ -1,0 +1,1130 @@
+{
+  "scope": "Editorial follow-up prompts inspired by the recordings, not necessarily questions asked verbatim in either year. Unmatched questions are gaps in this reviewed set, not evidence of absence in 2026.",
+  "questions": [
+    {
+      "question": "How should shared profiles be registered and governed?",
+      "assessment": "Revisited in the 2026 profile discussion; local/draft profiles must be distinguished from standard products.",
+      "comparison_link_ids": [
+        "profiles-and-governance"
+      ],
+      "evidence_2025": {
+        "item_id": "livingdata-2025-dp-p2-05-ipt-tools",
+        "title": "Implementing the proposed DwC-DP format in GBIF: data publishing tools",
+        "year": 2025,
+        "speakers": [
+          {
+            "name": "Mikhail Podolskiy",
+            "affiliation": "GBIF (lead developer, Integrated Publishing Toolkit)"
+          }
+        ],
+        "speaker_notes": "Self-introduces as 'Mikail', lead developer for the IPT at GBIF ('JBIF'); chair says 'Male Podski Podski' (ASR); also referred to as 'Mika' by Federico Méndez and 'Misha' by an audience member. ASR: 'IP'/'AP' = IPT; 'OBS' = OBIS; 'pentological' = paleontological; 'Daring'/'diving core' = Darwin Core. The question taken immediately after this talk was addressed to Federico Méndez and is attached to livingdata-2025-dp-p2-04-gbif-implementation. A later question to Mikhail about community dataset profiles is in the general discussion (livingdata-2025-dp-p2-07-discussion).",
+        "timestamp": "00:55:40.480",
+        "video_link": "https://www.youtube.com/watch?v=sPsR0X69PsM&t=3340s",
+        "source_file": "source/living-data-2025/data-package/part-2.srt",
+        "source_sha256": "8a8cefc650c9702f6972789572b18da3b30e70bad17f98644b4db01443c3c621",
+        "passage_start": "00:55:37.280",
+        "passage_end": "00:56:44.799",
+        "passage": "solve this issue. Uh one of the ideas to solve this thing is uh introduce new concept of a profile or template which would be a subset of the model with uh uh some tables and fields their fields with the comprehensive description of it and some keywords for search. They can be public or local. they can be downloadable online or not or yeah um you can create resources from these templates you can edit those templates and yeah basically that's the idea so here's the example for for example for pentological data set which is a madeup example it's it's not real data data set profile so just just the idea it can be many many profiles Um sorry. So for implementing profiles",
+        "caption_cues": [
+          {
+            "start": "00:55:37.280",
+            "end": "00:55:40.480",
+            "text": "solve this issue."
+          },
+          {
+            "start": "00:55:40.480",
+            "end": "00:55:44.559",
+            "text": "Uh one of the ideas to solve this thing"
+          },
+          {
+            "start": "00:55:44.559",
+            "end": "00:55:48.000",
+            "text": "is uh introduce new concept of a profile"
+          },
+          {
+            "start": "00:55:48.000",
+            "end": "00:55:52.000",
+            "text": "or template which would be a subset of"
+          },
+          {
+            "start": "00:55:52.000",
+            "end": "00:55:56.720",
+            "text": "the model with uh"
+          },
+          {
+            "start": "00:55:56.720",
+            "end": "00:56:00.000",
+            "text": "uh some tables and fields their fields"
+          },
+          {
+            "start": "00:56:00.000",
+            "end": "00:56:02.400",
+            "text": "with the comprehensive description of it"
+          },
+          {
+            "start": "00:56:02.400",
+            "end": "00:56:06.799",
+            "text": "and some keywords for search. They can"
+          },
+          {
+            "start": "00:56:06.799",
+            "end": "00:56:09.359",
+            "text": "be public or local. they can be"
+          },
+          {
+            "start": "00:56:09.359",
+            "end": "00:56:12.319",
+            "text": "downloadable online or not"
+          },
+          {
+            "start": "00:56:12.319",
+            "end": "00:56:16.240",
+            "text": "or yeah um you can create resources from"
+          },
+          {
+            "start": "00:56:16.240",
+            "end": "00:56:18.400",
+            "text": "these templates you can edit those"
+          },
+          {
+            "start": "00:56:18.400",
+            "end": "00:56:21.280",
+            "text": "templates and yeah basically that's the"
+          },
+          {
+            "start": "00:56:21.280",
+            "end": "00:56:24.400",
+            "text": "idea so here's the example for for"
+          },
+          {
+            "start": "00:56:24.400",
+            "end": "00:56:27.599",
+            "text": "example for pentological data set which"
+          },
+          {
+            "start": "00:56:27.599",
+            "end": "00:56:31.920",
+            "text": "is a madeup example it's it's not real"
+          },
+          {
+            "start": "00:56:31.920",
+            "end": "00:56:35.119",
+            "text": "data data set profile so just just the"
+          },
+          {
+            "start": "00:56:35.119",
+            "end": "00:56:39.599",
+            "text": "idea it can be many many profiles"
+          },
+          {
+            "start": "00:56:39.599",
+            "end": "00:56:44.799",
+            "text": "Um sorry. So for implementing profiles"
+          }
+        ]
+      },
+      "review_status": "caption_checked",
+      "review_notes": "2025 caption passage checked; question is an editorial follow-up prompt. Assessment is limited to the reviewed comparison set."
+    },
+    {
+      "question": "How should identifier persistence and derived occurrences be handled?",
+      "assessment": "Related stability and occurrence-derivation issues recur in DINA; a universal solution is not demonstrated.",
+      "comparison_link_ids": [
+        "identifiers-and-derived-occurrences"
+      ],
+      "evidence_2025": {
+        "item_id": "livingdata-2025-dp-p1-07-discussion",
+        "title": "Part 1 Q&A: effort, identifiers, complexity for users, Indigenous data, interactions, EML and extended specimens",
+        "year": 2025,
+        "speakers": [
+          {
+            "name": "Tim Robertson",
+            "affiliation": "GBIF (deputy director and head of informatics)"
+          },
+          {
+            "name": "John Wieczorek",
+            "affiliation": "Rauthiflor LLC"
+          },
+          {
+            "name": "Kate Ingenloff",
+            "affiliation": ""
+          },
+          {
+            "name": "Eduardo Klein",
+            "affiliation": "Integrated Marine Observing System (IMOS), Australia"
+          },
+          {
+            "name": "Jane Anderson",
+            "affiliation": "Local Contexts"
+          },
+          {
+            "name": "Shandra (ASR spelling; uncertain)",
+            "affiliation": "National Ecological Observatory Network (NEON), USA"
+          },
+          {
+            "name": "Deb (surname not stated)",
+            "affiliation": ""
+          },
+          {
+            "name": "Unnamed participant",
+            "affiliation": "Biodiversity observation network in Quebec, Canada"
+          }
+        ],
+        "speaker_notes": "Combined Q&A for all Part 1 use cases, matching the scheduled Discussion slot; it started early because the session was about 15 minutes ahead of schedule (the chair says it is 3:05 with 25 minutes for questions). Tim Robertson introduces himself at 01:14:35.920; John Wieczorek follows (ASR 'John Vurik'). Many answers are not attributed in the captions: attributions to John Wieczorek (first effort question, complexity question, Indigenous data, interactions, workshops) and to Tim Robertson (EML, extended specimen) are inferred from content and context, and should be checked. Online question names are ASR and unverified: 'Matias Dylan'; 'Urit Pulen' (possibly Jorrit Poelen — unverified); 'KT Pearson' (possibly Katie Pearson — unverified); 'Kapia Molina', addressed by the answerer as 'Javier'. 'Edardo Klein' corrected to Eduardo Klein from the stated IMOS affiliation (medium confidence). The NEON participant's name is rendered 'Shandra'/'Aandra'.",
+        "timestamp": "01:14:16.800",
+        "video_link": "https://www.youtube.com/watch?v=RH05GIF0xWk&t=4456s",
+        "source_file": "source/living-data-2025/data-package/part-1.srt",
+        "source_sha256": "ab4ec7f5ea5eb94d3a010445ca4bd10fbb83b89689ea5bab516c101cb73db433",
+        "passage_start": "01:13:38.239",
+        "passage_end": "01:14:43.679",
+        "passage": "this easier for people um because it's going to be hard and I would expect tool developers such as the IP for example to have to help people manage these things. I would also expect it that to be the case that some of the identifiers will be unique and persist across time while others might be only uh valid within the Darwin core data package as it's being created. So we'll have certain things like specimen ids which are probably stable across long periods of time but there could be others that uh really only need to exist within that version of a data set. And I think we'll probably end up in the situation that we've got two classes of identifiers. Some that you can rely on and others that are really just joining data within one data set. >> Matt asks that we introduce ourselves. >> I'm sorry. I was asked to introduce myself. I'm Tim Robertson. I'm deputy director and head of informatics at GBish.",
+        "caption_cues": [
+          {
+            "start": "01:13:38.239",
+            "end": "01:13:40.880",
+            "text": "this easier for people um because it's"
+          },
+          {
+            "start": "01:13:40.880",
+            "end": "01:13:43.600",
+            "text": "going to be hard and I would expect tool"
+          },
+          {
+            "start": "01:13:43.600",
+            "end": "01:13:46.880",
+            "text": "developers such as the IP for example to"
+          },
+          {
+            "start": "01:13:46.880",
+            "end": "01:13:49.760",
+            "text": "have to help people manage these things."
+          },
+          {
+            "start": "01:13:49.760",
+            "end": "01:13:53.199",
+            "text": "I would also expect it that to be the"
+          },
+          {
+            "start": "01:13:53.199",
+            "end": "01:13:55.679",
+            "text": "case that some of the identifiers will"
+          },
+          {
+            "start": "01:13:55.679",
+            "end": "01:13:58.880",
+            "text": "be unique and persist across time while"
+          },
+          {
+            "start": "01:13:58.880",
+            "end": "01:14:02.880",
+            "text": "others might be only uh valid within the"
+          },
+          {
+            "start": "01:14:02.880",
+            "end": "01:14:05.040",
+            "text": "Darwin core data package as it's being"
+          },
+          {
+            "start": "01:14:05.040",
+            "end": "01:14:07.360",
+            "text": "created. So we'll have certain things"
+          },
+          {
+            "start": "01:14:07.360",
+            "end": "01:14:10.000",
+            "text": "like specimen ids which are probably"
+          },
+          {
+            "start": "01:14:10.000",
+            "end": "01:14:12.480",
+            "text": "stable across long periods of time but"
+          },
+          {
+            "start": "01:14:12.480",
+            "end": "01:14:14.320",
+            "text": "there could be others that uh really"
+          },
+          {
+            "start": "01:14:14.320",
+            "end": "01:14:16.800",
+            "text": "only need to exist within that version"
+          },
+          {
+            "start": "01:14:16.800",
+            "end": "01:14:19.040",
+            "text": "of a data set. And I think we'll"
+          },
+          {
+            "start": "01:14:19.040",
+            "end": "01:14:21.360",
+            "text": "probably end up in the situation that"
+          },
+          {
+            "start": "01:14:21.360",
+            "end": "01:14:23.840",
+            "text": "we've got two classes of identifiers."
+          },
+          {
+            "start": "01:14:23.840",
+            "end": "01:14:25.600",
+            "text": "Some that you can rely on and others"
+          },
+          {
+            "start": "01:14:25.600",
+            "end": "01:14:28.239",
+            "text": "that are really just joining data within"
+          },
+          {
+            "start": "01:14:28.239",
+            "end": "01:14:31.880",
+            "text": "one data set."
+          },
+          {
+            "start": "01:14:31.920",
+            "end": "01:14:34.320",
+            "text": ">> Matt asks that we introduce ourselves."
+          },
+          {
+            "start": "01:14:34.320",
+            "end": "01:14:35.920",
+            "text": ">> I'm sorry. I was asked to introduce"
+          },
+          {
+            "start": "01:14:35.920",
+            "end": "01:14:38.800",
+            "text": "myself. I'm Tim Robertson. I'm deputy"
+          },
+          {
+            "start": "01:14:38.800",
+            "end": "01:14:40.880",
+            "text": "director and head of informatics at"
+          },
+          {
+            "start": "01:14:40.880",
+            "end": "01:14:43.679",
+            "text": "GBish."
+          }
+        ]
+      },
+      "review_status": "caption_checked",
+      "review_notes": "2025 caption passage checked; question is an editorial follow-up prompt. Assessment is limited to the reviewed comparison set."
+    },
+    {
+      "question": "How will GBIF support successive schema versions?",
+      "assessment": "Still raised as an engineering issue by the same infrastructure in 2026.",
+      "comparison_link_ids": [
+        "versioning-still-open"
+      ],
+      "evidence_2025": {
+        "item_id": "livingdata-2025-dp-p2-04-gbif-implementation",
+        "title": "Implementation Status of the Darwin Core Data Package (DwC DP) at GBIF",
+        "year": 2025,
+        "speakers": [
+          {
+            "name": "Federico Méndez",
+            "affiliation": "GBIF Secretariat, Copenhagen"
+          }
+        ],
+        "speaker_notes": "Self-introduction ASR 'Ric Mendes'; chair says 'Feder Federico Mendes'. Two source segments: the presentation (00:44:30.720–00:53:08.280) and talk-specific Q&A (01:00:09.280–01:01:44.280), which took place in the question slot after Mikhail Podolskiy's talk but was explicitly addressed to Federico ('My question is for Fed'). actual start/end span both segments; duration_seconds is the sum of the two segments (517.56 s + 95.00 s), not end minus start, because Mikhail Podolskiy's talk lies between them. ASR: 'JIF'/'JIVF'/'GB'/'J' = GBIF; 'MDT'/'entity' = Metabarcoding Data Toolkit; 'Mika' = Mikhail; 'fifth milestone' is probably 'first milestone'; 'mastering tree' = milestone three; 'elastic search post and clear house' = probably Elasticsearch, Postgres and ClickHouse. The speaker's ASR is disfluent, with many repetitions.",
+        "timestamp": "00:48:08.480",
+        "video_link": "https://www.youtube.com/watch?v=sPsR0X69PsM&t=2888s",
+        "source_file": "source/living-data-2025/data-package/part-2.srt",
+        "source_sha256": "8a8cefc650c9702f6972789572b18da3b30e70bad17f98644b4db01443c3c621",
+        "passage_start": "00:48:04.640",
+        "passage_end": "00:48:33.920",
+        "passage": "versioning strategy for progressive improvements. We we are totally aware that this is just after the public review is the first and draft implementation of the standard. So we have to anticipate how are we going to accommodate the changes in the future. Uh point four uh we would like to implement the services and tools for comparation between both DA core archives into Darwin core data packages and in in in in cases when it's also possible how to convert from from data packages into DR archive and that will",
+        "caption_cues": [
+          {
+            "start": "00:48:04.640",
+            "end": "00:48:06.480",
+            "text": "versioning strategy for progressive"
+          },
+          {
+            "start": "00:48:06.480",
+            "end": "00:48:08.480",
+            "text": "improvements. We we are totally aware"
+          },
+          {
+            "start": "00:48:08.480",
+            "end": "00:48:10.720",
+            "text": "that this is just after the public"
+          },
+          {
+            "start": "00:48:10.720",
+            "end": "00:48:12.160",
+            "text": "review is the first and draft"
+          },
+          {
+            "start": "00:48:12.160",
+            "end": "00:48:14.160",
+            "text": "implementation of the standard. So we"
+          },
+          {
+            "start": "00:48:14.160",
+            "end": "00:48:15.760",
+            "text": "have to anticipate how are we going to"
+          },
+          {
+            "start": "00:48:15.760",
+            "end": "00:48:18.720",
+            "text": "accommodate the changes in the future."
+          },
+          {
+            "start": "00:48:18.720",
+            "end": "00:48:21.119",
+            "text": "Uh point four uh we would like to"
+          },
+          {
+            "start": "00:48:21.119",
+            "end": "00:48:22.800",
+            "text": "implement the services and tools for"
+          },
+          {
+            "start": "00:48:22.800",
+            "end": "00:48:24.880",
+            "text": "comparation between both DA core"
+          },
+          {
+            "start": "00:48:24.880",
+            "end": "00:48:27.200",
+            "text": "archives into Darwin core data packages"
+          },
+          {
+            "start": "00:48:27.200",
+            "end": "00:48:29.359",
+            "text": "and in in in in cases when it's also"
+          },
+          {
+            "start": "00:48:29.359",
+            "end": "00:48:31.119",
+            "text": "possible how to convert from from data"
+          },
+          {
+            "start": "00:48:31.119",
+            "end": "00:48:33.920",
+            "text": "packages into DR archive and that will"
+          }
+        ]
+      },
+      "review_status": "caption_checked",
+      "review_notes": "2025 caption passage checked; question is an editorial follow-up prompt. Assessment is limited to the reviewed comparison set."
+    },
+    {
+      "question": "How will Indigenous data authority and CARE be expressed?",
+      "assessment": "A related restriction vocabulary is shown in 2026; broader governance needs remain unresolved by this comparison.",
+      "comparison_link_ids": [
+        "indigenous-governance-related-work"
+      ],
+      "evidence_2025": {
+        "item_id": "livingdata-2025-dp-p1-07-discussion",
+        "title": "Part 1 Q&A: effort, identifiers, complexity for users, Indigenous data, interactions, EML and extended specimens",
+        "year": 2025,
+        "speakers": [
+          {
+            "name": "Tim Robertson",
+            "affiliation": "GBIF (deputy director and head of informatics)"
+          },
+          {
+            "name": "John Wieczorek",
+            "affiliation": "Rauthiflor LLC"
+          },
+          {
+            "name": "Kate Ingenloff",
+            "affiliation": ""
+          },
+          {
+            "name": "Eduardo Klein",
+            "affiliation": "Integrated Marine Observing System (IMOS), Australia"
+          },
+          {
+            "name": "Jane Anderson",
+            "affiliation": "Local Contexts"
+          },
+          {
+            "name": "Shandra (ASR spelling; uncertain)",
+            "affiliation": "National Ecological Observatory Network (NEON), USA"
+          },
+          {
+            "name": "Deb (surname not stated)",
+            "affiliation": ""
+          },
+          {
+            "name": "Unnamed participant",
+            "affiliation": "Biodiversity observation network in Quebec, Canada"
+          }
+        ],
+        "speaker_notes": "Combined Q&A for all Part 1 use cases, matching the scheduled Discussion slot; it started early because the session was about 15 minutes ahead of schedule (the chair says it is 3:05 with 25 minutes for questions). Tim Robertson introduces himself at 01:14:35.920; John Wieczorek follows (ASR 'John Vurik'). Many answers are not attributed in the captions: attributions to John Wieczorek (first effort question, complexity question, Indigenous data, interactions, workshops) and to Tim Robertson (EML, extended specimen) are inferred from content and context, and should be checked. Online question names are ASR and unverified: 'Matias Dylan'; 'Urit Pulen' (possibly Jorrit Poelen — unverified); 'KT Pearson' (possibly Katie Pearson — unverified); 'Kapia Molina', addressed by the answerer as 'Javier'. 'Edardo Klein' corrected to Eduardo Klein from the stated IMOS affiliation (medium confidence). The NEON participant's name is rendered 'Shandra'/'Aandra'.",
+        "timestamp": "01:23:51.600",
+        "video_link": "https://www.youtube.com/watch?v=RH05GIF0xWk&t=5031s",
+        "source_file": "source/living-data-2025/data-package/part-1.srt",
+        "source_sha256": "ab4ec7f5ea5eb94d3a010445ca4bd10fbb83b89689ea5bab516c101cb73db433",
+        "passage_start": "01:22:23.360",
+        "passage_end": "01:24:23.920",
+        "passage": "over here. There's one over here, too. >> Go ahead. Sorry, I didn't get the question. >> That's okay. Hi. Um, my name's Jane Anderson. I'm from Local Context, and I just wanted to ask both uh thank you for the presentations and for the case studies. I wanted to ask um the for the case studies, how you might have been dealing with indigenous data and just pulling a thread through from the keynote this morning. And then this uh possibility of the data package uh opening up space for indigenous interests to be uh included. I just wonder how you're thinking about that as well. >> Very good question. Um the first and simplest answer is that we haven't gone through a proper use case and so there isn't a proper solution to all of the concerns that come up. However, there are working groups in Tadwig that are interested in these things. Um, one of which is sensitive data that can be >> I won't cross the lines here with the same kinds of concerns that you're talking about. So as >> this one >> star for maintenance group which is kind of responsible for all all of this we're aware of and trying to make sure that the solutions that are that come up there end up in the data package as well and it's middle stages in terms of determining how that works and also about integrating the care principles for example into uh usage policy. No, I I would never claim that usage policy as it stands in Dracore data package solves the kinds of issues that will arise there, but it needs to. And as all Darmman core things, it's a standard that's meant to evolve. An online question from Urit Pulen. I'm",
+        "caption_cues": [
+          {
+            "start": "01:22:23.360",
+            "end": "01:22:27.560",
+            "text": "over here. There's one over here, too."
+          },
+          {
+            "start": "01:22:28.880",
+            "end": "01:22:30.239",
+            "text": ">> Go ahead. Sorry, I didn't get the"
+          },
+          {
+            "start": "01:22:30.239",
+            "end": "01:22:30.639",
+            "text": "question."
+          },
+          {
+            "start": "01:22:30.639",
+            "end": "01:22:32.239",
+            "text": ">> That's okay. Hi. Um, my name's Jane"
+          },
+          {
+            "start": "01:22:32.239",
+            "end": "01:22:34.000",
+            "text": "Anderson. I'm from Local Context, and I"
+          },
+          {
+            "start": "01:22:34.000",
+            "end": "01:22:36.320",
+            "text": "just wanted to ask both uh thank you for"
+          },
+          {
+            "start": "01:22:36.320",
+            "end": "01:22:37.679",
+            "text": "the presentations and for the case"
+          },
+          {
+            "start": "01:22:37.679",
+            "end": "01:22:40.719",
+            "text": "studies. I wanted to ask um the for the"
+          },
+          {
+            "start": "01:22:40.719",
+            "end": "01:22:42.320",
+            "text": "case studies, how you might have been"
+          },
+          {
+            "start": "01:22:42.320",
+            "end": "01:22:44.080",
+            "text": "dealing with indigenous data and just"
+          },
+          {
+            "start": "01:22:44.080",
+            "end": "01:22:46.080",
+            "text": "pulling a thread through from the"
+          },
+          {
+            "start": "01:22:46.080",
+            "end": "01:22:48.320",
+            "text": "keynote this morning. And then this uh"
+          },
+          {
+            "start": "01:22:48.320",
+            "end": "01:22:51.199",
+            "text": "possibility of the data package uh"
+          },
+          {
+            "start": "01:22:51.199",
+            "end": "01:22:52.800",
+            "text": "opening up space for indigenous"
+          },
+          {
+            "start": "01:22:52.800",
+            "end": "01:22:54.719",
+            "text": "interests to be uh included. I just"
+          },
+          {
+            "start": "01:22:54.719",
+            "end": "01:22:56.239",
+            "text": "wonder how you're thinking about that as"
+          },
+          {
+            "start": "01:22:56.239",
+            "end": "01:22:59.239",
+            "text": "well."
+          },
+          {
+            "start": "01:23:02.960",
+            "end": "01:23:06.000",
+            "text": ">> Very good question. Um the first and"
+          },
+          {
+            "start": "01:23:06.000",
+            "end": "01:23:07.600",
+            "text": "simplest answer is that we haven't gone"
+          },
+          {
+            "start": "01:23:07.600",
+            "end": "01:23:10.080",
+            "text": "through a proper use case and so there"
+          },
+          {
+            "start": "01:23:10.080",
+            "end": "01:23:12.400",
+            "text": "isn't a proper solution to all of the"
+          },
+          {
+            "start": "01:23:12.400",
+            "end": "01:23:15.120",
+            "text": "concerns that come up. However, there"
+          },
+          {
+            "start": "01:23:15.120",
+            "end": "01:23:17.520",
+            "text": "are working groups in Tadwig that are"
+          },
+          {
+            "start": "01:23:17.520",
+            "end": "01:23:20.400",
+            "text": "interested in these things. Um, one of"
+          },
+          {
+            "start": "01:23:20.400",
+            "end": "01:23:23.760",
+            "text": "which is sensitive data that can be"
+          },
+          {
+            "start": "01:23:23.760",
+            "end": "01:23:26.880",
+            "text": ">> I won't cross the lines here with the"
+          },
+          {
+            "start": "01:23:26.880",
+            "end": "01:23:28.080",
+            "text": "same kinds of concerns that you're"
+          },
+          {
+            "start": "01:23:28.080",
+            "end": "01:23:30.239",
+            "text": "talking about. So as"
+          },
+          {
+            "start": "01:23:30.239",
+            "end": "01:23:30.880",
+            "text": ">> this one"
+          },
+          {
+            "start": "01:23:30.880",
+            "end": "01:23:33.600",
+            "text": ">> star for maintenance group which is kind"
+          },
+          {
+            "start": "01:23:33.600",
+            "end": "01:23:37.040",
+            "text": "of responsible for all all of this we're"
+          },
+          {
+            "start": "01:23:37.040",
+            "end": "01:23:39.920",
+            "text": "aware of and trying to make sure that"
+          },
+          {
+            "start": "01:23:39.920",
+            "end": "01:23:41.520",
+            "text": "the solutions that are that come up"
+          },
+          {
+            "start": "01:23:41.520",
+            "end": "01:23:44.719",
+            "text": "there end up in the data package as well"
+          },
+          {
+            "start": "01:23:44.719",
+            "end": "01:23:46.480",
+            "text": "and"
+          },
+          {
+            "start": "01:23:46.480",
+            "end": "01:23:49.280",
+            "text": "it's middle stages in terms of"
+          },
+          {
+            "start": "01:23:49.280",
+            "end": "01:23:51.600",
+            "text": "determining how that works and also"
+          },
+          {
+            "start": "01:23:51.600",
+            "end": "01:23:54.159",
+            "text": "about integrating the care principles"
+          },
+          {
+            "start": "01:23:54.159",
+            "end": "01:23:58.960",
+            "text": "for example into uh usage policy. No, I"
+          },
+          {
+            "start": "01:23:58.960",
+            "end": "01:24:01.679",
+            "text": "I would never claim that usage policy as"
+          },
+          {
+            "start": "01:24:01.679",
+            "end": "01:24:04.080",
+            "text": "it stands in Dracore data package solves"
+          },
+          {
+            "start": "01:24:04.080",
+            "end": "01:24:06.000",
+            "text": "the kinds of issues that will arise"
+          },
+          {
+            "start": "01:24:06.000",
+            "end": "01:24:09.840",
+            "text": "there, but it needs to. And as all"
+          },
+          {
+            "start": "01:24:09.840",
+            "end": "01:24:11.600",
+            "text": "Darmman core things, it's a standard"
+          },
+          {
+            "start": "01:24:11.600",
+            "end": "01:24:15.239",
+            "text": "that's meant to evolve."
+          },
+          {
+            "start": "01:24:21.760",
+            "end": "01:24:23.920",
+            "text": "An online question from Urit Pulen. I'm"
+          }
+        ]
+      },
+      "review_status": "caption_checked",
+      "review_notes": "2025 caption passage checked; question is an editorial follow-up prompt. Assessment is limited to the reviewed comparison set."
+    },
+    {
+      "question": "Will the model gain a project class?",
+      "assessment": "No direct follow-up was established in this reviewed set. This is not evidence that the subject was absent from the conference or wider standards work.",
+      "comparison_link_ids": [],
+      "evidence_2025": {
+        "item_id": "livingdata-2025-dp-p2-07-discussion",
+        "title": "Part 2 Q&A: review participation, profiles, metabarcoding scale, nested assertions, projects and building expertise",
+        "year": 2025,
+        "speakers": [
+          {
+            "name": "Tim Robertson",
+            "affiliation": "GBIF (deputy director and head of informatics)"
+          },
+          {
+            "name": "John Wieczorek",
+            "affiliation": "Rauthiflor LLC"
+          },
+          {
+            "name": "Mikhail Podolskiy",
+            "affiliation": "GBIF"
+          },
+          {
+            "name": "Kate Ingenloff",
+            "affiliation": ""
+          },
+          {
+            "name": "Nikki (surname not stated)",
+            "affiliation": ""
+          },
+          {
+            "name": "Lynn (ASR; surname not stated)",
+            "affiliation": ""
+          },
+          {
+            "name": "Unnamed audience members",
+            "affiliation": ""
+          }
+        ],
+        "speaker_notes": "General Q&A after the final talk, matching the scheduled Part 2 Discussion. Tim Robertson re-introduces himself at 01:17:09.760. Several answers are unattributed in the captions; those attributed to John Wieczorek (review participation, nested assertions, expert forum — he says 'instead of just me' and offers to be available for the next year — and the project class) are inferred from content and should be checked. The person who described the user guide at 01:16:40.159 is unidentified. 'Erica Criminal' (ASR) = Erica Krimmel. 'Misha' = Mikhail Podolskiy. 'Fede' = Federico Méndez. Questions about the review process relate to Steve Baskauf's talk, and the profiles question relates to Mikhail Podolskiy's talk, but they are kept here because they were asked and answered by the panel in the general Q&A and the threads cross-reference one another.",
+        "timestamp": "01:26:22.719",
+        "video_link": "https://www.youtube.com/watch?v=sPsR0X69PsM&t=5182s",
+        "source_file": "source/living-data-2025/data-package/part-2.srt",
+        "source_sha256": "8a8cefc650c9702f6972789572b18da3b30e70bad17f98644b4db01443c3c621",
+        "passage_start": "01:25:59.920",
+        "passage_end": "01:27:37.840",
+        "passage": "level metadata I could also use the highest events. So I'm not sure what is the role of EML in the DRA core data package. Where do you map project level data? That's my question. >> Yeah, >> it's on. Now it's on. Um, yeah, projects are interesting. We had a preliminary investigation into projects as a class and uh left it without implementation because we didn't have the use case that we needed to solve yet. We knew it was important. GBF already sees the demand for this but we don't have the project class implemented. All we have at the moment is as you said metadata in EML or in the provenance class to say project name. So yes, project titles and project ids but that's not the metadata. You can list them but not what you're talking about. So yes, we can develop a project class. Happy to do so. >> Okay. And last question. I I really liked what you said about um developing more experts. So, how do you plan to go about that? >> That's a very good question. Um we start by sharing where we are and that's what we're doing in this conference. We're bringing it to the correct body tadwick",
+        "caption_cues": [
+          {
+            "start": "01:25:59.920",
+            "end": "01:26:02.719",
+            "text": "level metadata I could also use the"
+          },
+          {
+            "start": "01:26:02.719",
+            "end": "01:26:05.199",
+            "text": "highest events. So I'm not sure what is"
+          },
+          {
+            "start": "01:26:05.199",
+            "end": "01:26:09.040",
+            "text": "the role of EML in the DRA core data"
+          },
+          {
+            "start": "01:26:09.040",
+            "end": "01:26:12.880",
+            "text": "package. Where do you map project level"
+          },
+          {
+            "start": "01:26:12.880",
+            "end": "01:26:15.679",
+            "text": "data? That's my question."
+          },
+          {
+            "start": "01:26:15.679",
+            "end": "01:26:18.679",
+            "text": ">> Yeah,"
+          },
+          {
+            "start": "01:26:22.719",
+            "end": "01:26:25.840",
+            "text": ">> it's on. Now it's on. Um, yeah, projects"
+          },
+          {
+            "start": "01:26:25.840",
+            "end": "01:26:29.440",
+            "text": "are interesting. We had a preliminary"
+          },
+          {
+            "start": "01:26:29.440",
+            "end": "01:26:32.639",
+            "text": "investigation into projects as a class"
+          },
+          {
+            "start": "01:26:32.639",
+            "end": "01:26:34.239",
+            "text": "and"
+          },
+          {
+            "start": "01:26:34.239",
+            "end": "01:26:37.280",
+            "text": "uh left it without implementation"
+          },
+          {
+            "start": "01:26:37.280",
+            "end": "01:26:39.840",
+            "text": "because we didn't have the use case that"
+          },
+          {
+            "start": "01:26:39.840",
+            "end": "01:26:42.880",
+            "text": "we needed to solve yet. We knew it was"
+          },
+          {
+            "start": "01:26:42.880",
+            "end": "01:26:45.760",
+            "text": "important. GBF already sees the demand"
+          },
+          {
+            "start": "01:26:45.760",
+            "end": "01:26:47.760",
+            "text": "for this but we don't have the project"
+          },
+          {
+            "start": "01:26:47.760",
+            "end": "01:26:49.840",
+            "text": "class implemented. All we have at the"
+          },
+          {
+            "start": "01:26:49.840",
+            "end": "01:26:54.159",
+            "text": "moment is as you said metadata in EML or"
+          },
+          {
+            "start": "01:26:54.159",
+            "end": "01:26:57.840",
+            "text": "in the provenance class to say project"
+          },
+          {
+            "start": "01:26:57.840",
+            "end": "01:27:01.600",
+            "text": "name. So yes, project titles and project"
+          },
+          {
+            "start": "01:27:01.600",
+            "end": "01:27:03.760",
+            "text": "ids but that's not the metadata. You can"
+          },
+          {
+            "start": "01:27:03.760",
+            "end": "01:27:05.840",
+            "text": "list them but not what you're talking"
+          },
+          {
+            "start": "01:27:05.840",
+            "end": "01:27:09.040",
+            "text": "about. So yes, we can develop a project"
+          },
+          {
+            "start": "01:27:09.040",
+            "end": "01:27:13.520",
+            "text": "class. Happy to do so."
+          },
+          {
+            "start": "01:27:13.520",
+            "end": "01:27:17.280",
+            "text": ">> Okay. And last question."
+          },
+          {
+            "start": "01:27:17.280",
+            "end": "01:27:19.840",
+            "text": "I I really liked what you said about um"
+          },
+          {
+            "start": "01:27:19.840",
+            "end": "01:27:22.239",
+            "text": "developing more experts."
+          },
+          {
+            "start": "01:27:22.239",
+            "end": "01:27:26.920",
+            "text": "So, how do you plan to go about that?"
+          },
+          {
+            "start": "01:27:28.000",
+            "end": "01:27:31.120",
+            "text": ">> That's a very good question. Um we start"
+          },
+          {
+            "start": "01:27:31.120",
+            "end": "01:27:33.199",
+            "text": "by sharing where we are and that's what"
+          },
+          {
+            "start": "01:27:33.199",
+            "end": "01:27:35.199",
+            "text": "we're doing in this conference. We're"
+          },
+          {
+            "start": "01:27:35.199",
+            "end": "01:27:37.840",
+            "text": "bringing it to the correct body tadwick"
+          }
+        ]
+      },
+      "review_status": "caption_checked",
+      "review_notes": "2025 caption passage checked; question is an editorial follow-up prompt. Assessment is limited to the reviewed comparison set."
+    },
+    {
+      "question": "Should assertions support nested assertions?",
+      "assessment": "No direct follow-up was established in this reviewed set. Later trait modelling talks are not automatically answers to this specific structural question.",
+      "comparison_link_ids": [],
+      "evidence_2025": {
+        "item_id": "livingdata-2025-dp-p2-07-discussion",
+        "title": "Part 2 Q&A: review participation, profiles, metabarcoding scale, nested assertions, projects and building expertise",
+        "year": 2025,
+        "speakers": [
+          {
+            "name": "Tim Robertson",
+            "affiliation": "GBIF (deputy director and head of informatics)"
+          },
+          {
+            "name": "John Wieczorek",
+            "affiliation": "Rauthiflor LLC"
+          },
+          {
+            "name": "Mikhail Podolskiy",
+            "affiliation": "GBIF"
+          },
+          {
+            "name": "Kate Ingenloff",
+            "affiliation": ""
+          },
+          {
+            "name": "Nikki (surname not stated)",
+            "affiliation": ""
+          },
+          {
+            "name": "Lynn (ASR; surname not stated)",
+            "affiliation": ""
+          },
+          {
+            "name": "Unnamed audience members",
+            "affiliation": ""
+          }
+        ],
+        "speaker_notes": "General Q&A after the final talk, matching the scheduled Part 2 Discussion. Tim Robertson re-introduces himself at 01:17:09.760. Several answers are unattributed in the captions; those attributed to John Wieczorek (review participation, nested assertions, expert forum — he says 'instead of just me' and offers to be available for the next year — and the project class) are inferred from content and should be checked. The person who described the user guide at 01:16:40.159 is unidentified. 'Erica Criminal' (ASR) = Erica Krimmel. 'Misha' = Mikhail Podolskiy. 'Fede' = Federico Méndez. Questions about the review process relate to Steve Baskauf's talk, and the profiles question relates to Mikhail Podolskiy's talk, but they are kept here because they were asked and answered by the panel in the general Q&A and the threads cross-reference one another.",
+        "timestamp": "01:22:55.520",
+        "video_link": "https://www.youtube.com/watch?v=sPsR0X69PsM&t=4975s",
+        "source_file": "source/living-data-2025/data-package/part-2.srt",
+        "source_sha256": "8a8cefc650c9702f6972789572b18da3b30e70bad17f98644b4db01443c3c621",
+        "passage_start": "01:22:33.520",
+        "passage_end": "01:24:15.120",
+        "passage": "materials or occurrences. Um but maybe specifically is the data package accommodating of nested trait measurements. You know for example you might have a plant specimen with leaf measurements but leaves are grouped by branch and you have multiple branches for specimens that per specimen etc. Okay. Um there is no recursive relationship on assertions at the at this time. It was considered but we didn't have a strong use case for it. It can still be done but I would call it a cluge and that is adding yet another assertion talking about the previous assertion. It's not connected the right way and so it's not clearly obvious. So the other other existing examples of how this might be used were not nearly as problematic. For example, statistics about something. A measurement that was a mean and its standard deviation. There's not really any problem to connect the two to a material sample. Uh and but you're relying on the control vocabulary about the assertion type to know that they're related to each other. So if we have strong need to make these kinds of relationships that are strong then it's a simple change we add another term which is the related to assertion ID that can allow that recursive recursiveness. So have a good use case bring it.",
+        "caption_cues": [
+          {
+            "start": "01:22:33.520",
+            "end": "01:22:36.800",
+            "text": "materials or occurrences. Um but maybe"
+          },
+          {
+            "start": "01:22:36.800",
+            "end": "01:22:38.800",
+            "text": "specifically is the data package"
+          },
+          {
+            "start": "01:22:38.800",
+            "end": "01:22:41.199",
+            "text": "accommodating of nested trait"
+          },
+          {
+            "start": "01:22:41.199",
+            "end": "01:22:43.600",
+            "text": "measurements. You know for example you"
+          },
+          {
+            "start": "01:22:43.600",
+            "end": "01:22:46.400",
+            "text": "might have a plant specimen with leaf"
+          },
+          {
+            "start": "01:22:46.400",
+            "end": "01:22:48.400",
+            "text": "measurements but leaves are grouped by"
+          },
+          {
+            "start": "01:22:48.400",
+            "end": "01:22:50.000",
+            "text": "branch and you have multiple branches"
+          },
+          {
+            "start": "01:22:50.000",
+            "end": "01:22:55.520",
+            "text": "for specimens that per specimen etc."
+          },
+          {
+            "start": "01:22:55.520",
+            "end": "01:22:59.760",
+            "text": "Okay. Um there is no"
+          },
+          {
+            "start": "01:22:59.760",
+            "end": "01:23:03.040",
+            "text": "recursive relationship on assertions at"
+          },
+          {
+            "start": "01:23:03.040",
+            "end": "01:23:05.600",
+            "text": "the at this time. It was considered but"
+          },
+          {
+            "start": "01:23:05.600",
+            "end": "01:23:08.400",
+            "text": "we didn't have a strong use case for it."
+          },
+          {
+            "start": "01:23:08.400",
+            "end": "01:23:10.880",
+            "text": "It can still be done but I would call it"
+          },
+          {
+            "start": "01:23:10.880",
+            "end": "01:23:13.120",
+            "text": "a cluge and that is adding yet another"
+          },
+          {
+            "start": "01:23:13.120",
+            "end": "01:23:15.679",
+            "text": "assertion talking about the previous"
+          },
+          {
+            "start": "01:23:15.679",
+            "end": "01:23:17.920",
+            "text": "assertion. It's not connected the right"
+          },
+          {
+            "start": "01:23:17.920",
+            "end": "01:23:22.000",
+            "text": "way and so it's not clearly obvious. So"
+          },
+          {
+            "start": "01:23:22.000",
+            "end": "01:23:25.120",
+            "text": "the other other existing examples of how"
+          },
+          {
+            "start": "01:23:25.120",
+            "end": "01:23:27.440",
+            "text": "this might be used were not nearly as"
+          },
+          {
+            "start": "01:23:27.440",
+            "end": "01:23:30.000",
+            "text": "problematic. For example, statistics"
+          },
+          {
+            "start": "01:23:30.000",
+            "end": "01:23:33.199",
+            "text": "about something. A measurement that was"
+          },
+          {
+            "start": "01:23:33.199",
+            "end": "01:23:37.520",
+            "text": "a mean and its standard deviation."
+          },
+          {
+            "start": "01:23:37.520",
+            "end": "01:23:38.960",
+            "text": "There's not really any problem to"
+          },
+          {
+            "start": "01:23:38.960",
+            "end": "01:23:42.400",
+            "text": "connect the two to a material sample."
+          },
+          {
+            "start": "01:23:42.400",
+            "end": "01:23:46.239",
+            "text": "Uh and but you're relying on the control"
+          },
+          {
+            "start": "01:23:46.239",
+            "end": "01:23:48.960",
+            "text": "vocabulary about the assertion type to"
+          },
+          {
+            "start": "01:23:48.960",
+            "end": "01:23:51.440",
+            "text": "know that they're related to each other."
+          },
+          {
+            "start": "01:23:51.440",
+            "end": "01:23:54.400",
+            "text": "So if we have strong need to make these"
+          },
+          {
+            "start": "01:23:54.400",
+            "end": "01:23:57.040",
+            "text": "kinds of relationships that are strong"
+          },
+          {
+            "start": "01:23:57.040",
+            "end": "01:24:00.000",
+            "text": "then it's a simple change we add another"
+          },
+          {
+            "start": "01:24:00.000",
+            "end": "01:24:04.800",
+            "text": "term which is the related to assertion"
+          },
+          {
+            "start": "01:24:04.800",
+            "end": "01:24:07.600",
+            "text": "ID that can allow that recursive"
+          },
+          {
+            "start": "01:24:07.600",
+            "end": "01:24:09.520",
+            "text": "recursiveness."
+          },
+          {
+            "start": "01:24:09.520",
+            "end": "01:24:15.120",
+            "text": "So have a good use case bring it."
+          }
+        ]
+      },
+      "review_status": "caption_checked",
+      "review_notes": "2025 caption passage checked; question is an editorial follow-up prompt. Assessment is limited to the reviewed comparison set."
+    }
+  ]
+}

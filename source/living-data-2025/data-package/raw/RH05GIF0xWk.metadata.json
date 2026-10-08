@@ -1,0 +1,19 @@
+{
+  "id": "RH05GIF0xWk",
+  "title": "Darwin Core Data Package an updated model and format for exchanging biodiversity data (Part 1)",
+  "description": "In this session we will present the Darwin Core Data Package (DwC-DP), a new model and format for sharing biodiversity data. DwC-DP is designed to overcome the limitations of Darwin Core Archives (such as the star schema) and introduces a semantic model for biodiversity data. This model consists of a number of related tables (e.g. Events, Occurrences, Agents, Assertions) that aim to capture the diversity of biodiversity data in a common model, while still feeling familiar to data publishers. As a format, DwC-DP builds upon the Data Package standard and expresses data as CSV files and technical information as a machine-readable metadata file (similar to Darwin Core Archives). DwC-DP is the result of an extended iterative approach supported by the Global Biodiversity Information Facility (GBIF) and based on a wide range of use cases. Some of these use cases (e.g. survey data, collection data, eDNA data) will be presented by early adopters as concrete showcases on how to use DwC-DP, while GBIF will present how it supports DwC-DP through their Integrated Publishing Toolkit (IPT) and infrastructure. Finally, we will explain the next steps for DwC-DP and how you can contribute or provide feedback.",
+  "duration": 5536,
+  "channel": "Living Data 2025",
+  "channel_id": "UCn8NJzTNZsnRTqHQL8C3nCw",
+  "channel_url": "https://www.youtube.com/channel/UCn8NJzTNZsnRTqHQL8C3nCw",
+  "webpage_url": "https://www.youtube.com/watch?v=RH05GIF0xWk",
+  "upload_date": "20260123",
+  "language": "en",
+  "license": null,
+  "availability": "public",
+  "retrieved_at_utc": "2026-10-08T11:00:31.786940+00:00",
+  "caption_language": "en-orig",
+  "caption_kind": "automatic",
+  "caption_format": "json3",
+  "manual_caption_languages": []
+}

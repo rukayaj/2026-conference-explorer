@@ -1,0 +1,444 @@
+{
+  "version": 1,
+  "review_basis": "Codex manual review on 2026-10-08 of both caption passages for every pair, with surrounding context where needed. Audio was not checked. Comparisons are editorial interpretations, not established causal history.",
+  "links": [
+    {
+      "id": "review-to-reported-ratification",
+      "title": "Public review → reported ratification",
+      "relationship_type": "same_standard_status_change",
+      "theme_ids": [
+        "darwin-core-data-package",
+        "standards-development-and-governance"
+      ],
+      "evidence_2025": {
+        "item_id": "livingdata-2025-dp-p2-06-public-review",
+        "timestamp": "01:06:56.480",
+        "before_seconds": 4,
+        "after_seconds": 28
+      },
+      "evidence_2026": {
+        "item_id": "aula-taster-04-gbif-dwc-dp",
+        "timestamp": "00:54:41",
+        "before_seconds": 5,
+        "after_seconds": 55
+      },
+      "then": "Steve Baskauf describes the proposal as under an extended 90-day public review, open until at least 16 December.",
+      "now": "Federico Méndez reports that the conceptual model was ratified in May. He also says a later no-dissent period ended on 15 September and package-standard release was still expected.",
+      "interpretation": "The recordings document a reported change from proposal review to ratification of the conceptual model.",
+      "caveat": "These are historical statements in conference recordings. They do not independently verify the complete ratification history or imply that every implementation was in production.",
+      "review_status": "caption_checked",
+      "causal_lineage_asserted": false,
+      "review_notes": "Both passages support the stated dates and status. The 2026 speaker distinguishes ratified conceptual model from expected package-standard release; the summary now preserves that distinction."
+    },
+    {
+      "id": "versioning-still-open",
+      "title": "Versioning remains an engineering question",
+      "relationship_type": "question_revisited",
+      "theme_ids": [
+        "darwin-core-data-package",
+        "standards-development-and-governance",
+        "research-software-architecture"
+      ],
+      "evidence_2025": {
+        "item_id": "livingdata-2025-dp-p2-04-gbif-implementation",
+        "timestamp": "00:48:08.480",
+        "before_seconds": 4,
+        "after_seconds": 25
+      },
+      "evidence_2026": {
+        "item_id": "aula-taster-04-gbif-dwc-dp",
+        "timestamp": "01:06:10",
+        "before_seconds": 5,
+        "after_seconds": 90
+      },
+      "then": "GBIF says it needs a versioning strategy to accommodate changes after public review.",
+      "now": "The GBIF presentation discusses how future releases of the schemas will require support for multiple versions.",
+      "interpretation": "The same infrastructure is still working through the operational consequences of an evolving standard.",
+      "caveat": "A recurring concern does not establish that no versioning work happened in between; the 2026 endpoint is a test-environment presentation.",
+      "review_status": "caption_checked",
+      "causal_lineage_asserted": false,
+      "review_notes": "Both passages explicitly discuss accommodating future changes. The 2026 passage calls multiple-version support outstanding and describes test-platform plans, not production delivery."
+    },
+    {
+      "id": "validation-from-plan-to-specific-rules",
+      "title": "Validation: planned services → concrete checks",
+      "relationship_type": "same_project_implementation_detail",
+      "theme_ids": [
+        "darwin-core-data-package",
+        "data-quality",
+        "data-publishing-and-mobilisation"
+      ],
+      "evidence_2025": {
+        "item_id": "livingdata-2025-dp-p2-04-gbif-implementation",
+        "timestamp": "00:47:11.200",
+        "before_seconds": 4,
+        "after_seconds": 25
+      },
+      "evidence_2026": {
+        "item_id": "aula-taster-04-gbif-dwc-dp",
+        "timestamp": "01:00:35",
+        "before_seconds": 20,
+        "after_seconds": 38
+      },
+      "then": "GBIF proposes validation in publishing tools and a portal service for packages assembled elsewhere.",
+      "now": "The later presentation explains uniqueness, primary-key and referential-integrity checks, including failure when a referenced resource is missing.",
+      "interpretation": "The 2026 talk supplies concrete validation behaviour for part of the earlier plan.",
+      "caveat": "This does not establish delivery of every planned service or public production rollout. The second GBIF presenter’s identity is uncertain in the existing extraction; attribute the explanation to the presentation, not confidently to Mikhail Podolskiy.",
+      "review_status": "caption_checked",
+      "causal_lineage_asserted": false,
+      "review_notes": "The 2025 passage proposes tool and portal validation; the 2026 passage lists uniqueness, primary-key and referential-integrity checks. Removed typed-field wording because it is not stated in the selected passage."
+    },
+    {
+      "id": "fossil-vocabulary-continuity",
+      "title": "Fossil categories → a more specific vocabulary proposal",
+      "relationship_type": "same_speaker_and_workstream",
+      "theme_ids": [
+        "darwin-core-data-package",
+        "palaeontology-data",
+        "controlled-vocabularies",
+        "collection-data-models"
+      ],
+      "evidence_2025": {
+        "item_id": "livingdata-2025-dp-p1-06-paleo-specimens",
+        "timestamp": "00:58:08.720",
+        "before_seconds": 4,
+        "after_seconds": 48
+      },
+      "evidence_2026": {
+        "item_id": "salc-2026-09-22-01",
+        "timestamp": "00:15:45",
+        "before_seconds": 8,
+        "after_seconds": 60
+      },
+      "then": "Holly Little says the fossil categorisation work is helping develop values for materialEntityType.",
+      "now": "Holly presents a vocabulary document and describes proposed first-level values with a more informal second level.",
+      "interpretation": "This is a strong thread through the same speaker, term and paleontology workstream, with a more concrete vocabulary proposal in the later talk.",
+      "caveat": "The 2026 proposal is still seeking feedback; the recordings do not demonstrate that the vocabulary was ratified or deployed everywhere.",
+      "review_status": "caption_checked",
+      "causal_lineage_asserted": false,
+      "review_notes": "The 2025 passage names materialEntityType vocabulary development; the 2026 passage describes a concrete proposed two-level document. Both extractions identify Holly Little with high confidence."
+    },
+    {
+      "id": "paleo-readiness-to-profiles",
+      "title": "Collection readiness → differentiated publishing profiles",
+      "relationship_type": "same_speaker_partial_response",
+      "theme_ids": [
+        "darwin-core-data-package",
+        "palaeontology-data",
+        "collection-management-systems",
+        "collection-data-models"
+      ],
+      "evidence_2025": {
+        "item_id": "livingdata-2025-dp-p1-06-paleo-specimens",
+        "timestamp": "01:05:04.480",
+        "before_seconds": 6,
+        "after_seconds": 64
+      },
+      "evidence_2026": {
+        "item_id": "sala-2026-09-24-06",
+        "timestamp": "02:27:34",
+        "before_seconds": 15,
+        "after_seconds": 60
+      },
+      "then": "Holly describes manual test datasets, gaps in collection-management systems and identifier requirements beyond current capacity.",
+      "now": "In the later paleo framework Holly recalls a mapping exercise “last year” and argues for different DwC-DP publishing profiles for different kinds of material.",
+      "interpretation": "The later talk develops a practical approach to heterogeneous fossil data rather than requiring one mapping for every specimen type.",
+      "caveat": "The reference to last year supports continuity of the workstream, but does not identify this exact 2025 presentation. It does not establish that earlier software or identifier barriers have been solved.",
+      "review_status": "caption_checked",
+      "causal_lineage_asserted": false,
+      "review_notes": "The 2025 passage describes manual mapping, CMS and identifier barriers. The 2026 passage explicitly recalls last year’s mapping exercise and differentiates publishing profiles by material type. This supports continuity without identifying an exact earlier talk."
+    },
+    {
+      "id": "profiles-and-governance",
+      "title": "Profiles: a usability idea → a governance question",
+      "relationship_type": "question_revisited",
+      "theme_ids": [
+        "darwin-core-data-package",
+        "schema-design-and-data-modelling",
+        "standards-development-and-governance",
+        "user-centred-design"
+      ],
+      "evidence_2025": {
+        "item_id": "livingdata-2025-dp-p2-05-ipt-tools",
+        "timestamp": "00:55:40.480",
+        "before_seconds": 6,
+        "after_seconds": 60
+      },
+      "evidence_2026": {
+        "item_id": "sala-2026-09-24-24",
+        "timestamp": "09:03:51",
+        "before_seconds": 31,
+        "after_seconds": 160
+      },
+      "then": "Mikhail Podolskiy proposes profiles/templates as manageable subsets of the model; the paleo example shown is explicitly made up.",
+      "now": "The 2026 discussion asks about registering and governing named profiles; John Wieczorek says profiles are not yet established as standard products and could be community-created and vetted.",
+      "interpretation": "The problem recurs at a different level: making the model usable versus recognising and governing shared profiles.",
+      "caveat": "Local templates and draft community mappings are not the same thing as registered, standardised profiles. Do not read “no profiles” as proof that no prototypes or drafts existed.",
+      "review_status": "caption_checked",
+      "causal_lineage_asserted": false,
+      "review_notes": "The 2025 example is explicitly made up. Expanded the 2026 window to include John’s community-creation/vetting statement and lack of infrastructure or plan. Standard products must be distinguished from local templates."
+    },
+    {
+      "id": "abcd-to-dwb-prototype",
+      "title": "ABCD community support → a DWB mapping prototype",
+      "relationship_type": "related_implementation_example",
+      "theme_ids": [
+        "darwin-core-data-package",
+        "darwin-core-mapping",
+        "semantic-interoperability",
+        "data-publishing-and-mobilisation"
+      ],
+      "evidence_2025": {
+        "item_id": "livingdata-2025-dp-p2-02-abcd",
+        "timestamp": "00:31:08.799",
+        "before_seconds": 30,
+        "after_seconds": 40
+      },
+      "evidence_2026": {
+        "item_id": "sala-2026-09-24-19",
+        "timestamp": "07:35:26",
+        "before_seconds": 10,
+        "after_seconds": 88
+      },
+      "then": "Anton Güntsch welcomes relational data exchange through DwC-DP and says the BioCASe help desk will extend support to it.",
+      "now": "Tanja Weibulat shows mapping Diversity Workbench’s PostgreSQL tables to DwC-DP using the test IPT.",
+      "interpretation": "A later example shows practical exploration of DwC-DP in an ecosystem that previously published through ABCD/BioCASe.",
+      "caveat": "Different presenters and projects are involved. This does not show that the earlier pledge caused this prototype, or that ABCD was abandoned.",
+      "review_status": "caption_checked",
+      "causal_lineage_asserted": false,
+      "review_notes": "The 2025 passage promises continuing BioCASe help-desk support extended to DwC-DP. The 2026 passage shows PostgreSQL table mapping in a test IPT. This is a related implementation example by another team."
+    },
+    {
+      "id": "identifiers-and-derived-occurrences",
+      "title": "Identifiers: persistence concerns → occurrence derivation problems",
+      "relationship_type": "question_revisited",
+      "theme_ids": [
+        "darwin-core-data-package",
+        "persistent-identifiers",
+        "schema-design-and-data-modelling"
+      ],
+      "evidence_2025": {
+        "item_id": "livingdata-2025-dp-p1-07-discussion",
+        "timestamp": "01:14:16.800",
+        "before_seconds": 40,
+        "after_seconds": 25
+      },
+      "evidence_2026": {
+        "item_id": "sala-2026-09-24-15",
+        "timestamp": "06:53:10",
+        "before_seconds": 20,
+        "after_seconds": 65
+      },
+      "then": "Tim Robertson distinguishes persistent identifiers from keys that only join data within a dataset version.",
+      "now": "Jonas Grieb explains that material records are not occurrences and raises stable-ID and missing-event problems when material data is mobilised as occurrences.",
+      "interpretation": "The later case makes identifier stability concrete in publication from a collection-management system.",
+      "caveat": "These are related identifier problems, not proof that DINA is a direct follow-up to the 2025 discussion; local join keys and global identifiers must remain distinct.",
+      "review_status": "caption_checked",
+      "causal_lineage_asserted": false,
+      "review_notes": "Tim self-identifies immediately after distinguishing persistent and dataset-local identifiers. The 2026 passage explicitly raises stable occurrence identifiers and missing event data; these are related problems, not a proven response."
+    },
+    {
+      "id": "alignment-is-project-dependent",
+      "title": "Near-lossless mapping versus lossy exchange",
+      "relationship_type": "cross_project_contrast",
+      "theme_ids": [
+        "darwin-core-data-package",
+        "semantic-interoperability",
+        "schema-design-and-data-modelling"
+      ],
+      "evidence_2025": {
+        "item_id": "livingdata-2025-dp-p2-03-dissco-opends",
+        "timestamp": "00:41:34.240",
+        "before_seconds": 7,
+        "after_seconds": 44
+      },
+      "evidence_2026": {
+        "item_id": "sala-2026-09-24-14",
+        "timestamp": "06:50:06",
+        "before_seconds": 20,
+        "after_seconds": 30
+      },
+      "then": "Sam Leeflang reports that openDS and DwC-DP are closely aligned and little data is lost in transformation.",
+      "now": "Matthew Yoder says partial alignment is normal and exchange from TaxonWorks to DwC-DP is lossy.",
+      "interpretation": "Mapping quality depends on the source model and use case; this is a useful contrast between two projects.",
+      "caveat": "Different systems are being compared. This is neither a regression from 2025 to 2026 nor evidence that either speaker contradicts their own earlier claims.",
+      "review_status": "caption_checked",
+      "causal_lineage_asserted": false,
+      "review_notes": "Both passages support the contrast: little data loss in openDS transformation versus unavoidable loss claimed for TaxonWorks. Different source systems make a regression claim inappropriate."
+    },
+    {
+      "id": "indigenous-governance-related-work",
+      "title": "Indigenous data concerns → related restriction vocabulary work",
+      "relationship_type": "related_parallel_work",
+      "theme_ids": [
+        "darwin-core-data-package",
+        "indigenous-data-governance"
+      ],
+      "evidence_2025": {
+        "item_id": "livingdata-2025-dp-p1-07-discussion",
+        "timestamp": "01:23:51.600",
+        "before_seconds": 90,
+        "after_seconds": 32
+      },
+      "evidence_2026": {
+        "item_id": "salb-2026-09-22-07",
+        "timestamp": "01:23:16",
+        "before_seconds": 8,
+        "after_seconds": 110
+      },
+      "then": "The panel says DwC-DP usage policy does not yet solve Indigenous-data concerns and needs to evolve.",
+      "now": "Tania Laity’s restricted-data proposal includes First Nations cultural significance in its reasons vocabulary.",
+      "interpretation": "The later talk provides related, concrete work on expressing reasons for restrictions.",
+      "caveat": "This does not resolve the broader CARE, sovereignty or community-authority question. The 2026 speaker traces the task group to a 2023 workshop, so no causal origin in the 2025 discussion is inferred.",
+      "review_status": "caption_checked",
+      "causal_lineage_asserted": false,
+      "review_notes": "Expanded the 2025 window to include Jane Anderson’s Indigenous-data question and the panel’s answer. The 2026 window explicitly includes First Nations cultural significance. Additional context at 01:19:51–01:20:05 in that recording traces the task group to Hobart 2023, so it is labelled parallel work."
+    },
+    {
+      "id": "material-derivation-examples",
+      "title": "Material derivation across two collection examples",
+      "relationship_type": "topical_comparison",
+      "theme_ids": [
+        "darwin-core-data-package",
+        "digital-extended-specimen",
+        "collection-data-models"
+      ],
+      "evidence_2025": {
+        "item_id": "livingdata-2025-dp-p1-03-bgbm-collections",
+        "timestamp": "00:28:52.480",
+        "before_seconds": 5,
+        "after_seconds": 100
+      },
+      "evidence_2026": {
+        "item_id": "sala-2026-09-24-15",
+        "timestamp": "06:55:53",
+        "before_seconds": 5,
+        "after_seconds": 100
+      },
+      "then": "Jörg Holetschek shows the Berlin herbarium’s specimens, tissues and DNA samples as linked materials rather than disconnected exports.",
+      "now": "Jonas Grieb works through a bat specimen, tissue and molecular-extract chain using material derivation relationships.",
+      "interpretation": "Two institutions illustrate how the same modelling capability can express specimen-to-sample lineage.",
+      "caveat": "This is a topical comparison of different datasets, not a demonstrated historical follow-up or evidence that DINA reused Berlin’s mapping.",
+      "review_status": "caption_checked",
+      "causal_lineage_asserted": false,
+      "review_notes": "Both passages explicitly describe specimen → tissue → DNA/molecular-sample chains; the 2026 passage names the derived-from field and retains an event-linking question. No reuse between institutions is claimed."
+    },
+    {
+      "id": "conceptual-model-to-designer",
+      "title": "The conceptual model, presented with a design tool",
+      "relationship_type": "same_speaker_and_standard",
+      "theme_ids": [
+        "darwin-core-data-package",
+        "schema-design-and-data-modelling",
+        "collection-data-models"
+      ],
+      "evidence_2025": {
+        "item_id": "livingdata-2025-dp-p2-01-dwc-dp-overview",
+        "timestamp": "00:04:14.720",
+        "before_seconds": 6,
+        "after_seconds": 55
+      },
+      "evidence_2026": {
+        "item_id": "sala-2026-09-24-13",
+        "timestamp": "06:36:53",
+        "before_seconds": 6,
+        "after_seconds": 68
+      },
+      "then": "John Wieczorek describes the proposed conceptual model as a semantic layer for Darwin Core classes.",
+      "now": "John demonstrates the Data Package Designer and generating a descriptor from selected tables.",
+      "interpretation": "The same speaker and standard connect a conceptual explanation with a concrete authoring demonstration in the later talk.",
+      "caveat": "Tools already existed in 2025. This pair does not establish when the Designer was first built, or that authoring tools were absent before 2026.",
+      "review_status": "caption_checked",
+      "causal_lineage_asserted": false,
+      "review_notes": "The 2025 passage describes a semantic layer; the 2026 passage describes selecting tables, inspecting relationships and generating data package JSON. The pair does not establish the tool’s creation date."
+    }
+  ],
+  "open_questions": [
+    {
+      "question": "How should shared profiles be registered and governed?",
+      "assessment": "Revisited in the 2026 profile discussion; local/draft profiles must be distinguished from standard products.",
+      "comparison_link_ids": [
+        "profiles-and-governance"
+      ],
+      "evidence_2025": {
+        "item_id": "livingdata-2025-dp-p2-05-ipt-tools",
+        "timestamp": "00:55:40.480",
+        "before_seconds": 6,
+        "after_seconds": 60
+      },
+      "review_status": "caption_checked",
+      "review_notes": "2025 caption passage checked; question is an editorial follow-up prompt. Assessment is limited to the reviewed comparison set."
+    },
+    {
+      "question": "How should identifier persistence and derived occurrences be handled?",
+      "assessment": "Related stability and occurrence-derivation issues recur in DINA; a universal solution is not demonstrated.",
+      "comparison_link_ids": [
+        "identifiers-and-derived-occurrences"
+      ],
+      "evidence_2025": {
+        "item_id": "livingdata-2025-dp-p1-07-discussion",
+        "timestamp": "01:14:16.800",
+        "before_seconds": 40,
+        "after_seconds": 25
+      },
+      "review_status": "caption_checked",
+      "review_notes": "2025 caption passage checked; question is an editorial follow-up prompt. Assessment is limited to the reviewed comparison set."
+    },
+    {
+      "question": "How will GBIF support successive schema versions?",
+      "assessment": "Still raised as an engineering issue by the same infrastructure in 2026.",
+      "comparison_link_ids": [
+        "versioning-still-open"
+      ],
+      "evidence_2025": {
+        "item_id": "livingdata-2025-dp-p2-04-gbif-implementation",
+        "timestamp": "00:48:08.480",
+        "before_seconds": 4,
+        "after_seconds": 25
+      },
+      "review_status": "caption_checked",
+      "review_notes": "2025 caption passage checked; question is an editorial follow-up prompt. Assessment is limited to the reviewed comparison set."
+    },
+    {
+      "question": "How will Indigenous data authority and CARE be expressed?",
+      "assessment": "A related restriction vocabulary is shown in 2026; broader governance needs remain unresolved by this comparison.",
+      "comparison_link_ids": [
+        "indigenous-governance-related-work"
+      ],
+      "evidence_2025": {
+        "item_id": "livingdata-2025-dp-p1-07-discussion",
+        "timestamp": "01:23:51.600",
+        "before_seconds": 90,
+        "after_seconds": 32
+      },
+      "review_status": "caption_checked",
+      "review_notes": "2025 caption passage checked; question is an editorial follow-up prompt. Assessment is limited to the reviewed comparison set."
+    },
+    {
+      "question": "Will the model gain a project class?",
+      "assessment": "No direct follow-up was established in this reviewed set. This is not evidence that the subject was absent from the conference or wider standards work.",
+      "comparison_link_ids": [],
+      "evidence_2025": {
+        "item_id": "livingdata-2025-dp-p2-07-discussion",
+        "timestamp": "01:26:22.719",
+        "before_seconds": 25,
+        "after_seconds": 75
+      },
+      "review_status": "caption_checked",
+      "review_notes": "2025 caption passage checked; question is an editorial follow-up prompt. Assessment is limited to the reviewed comparison set."
+    },
+    {
+      "question": "Should assertions support nested assertions?",
+      "assessment": "No direct follow-up was established in this reviewed set. Later trait modelling talks are not automatically answers to this specific structural question.",
+      "comparison_link_ids": [],
+      "evidence_2025": {
+        "item_id": "livingdata-2025-dp-p2-07-discussion",
+        "timestamp": "01:22:55.520",
+        "before_seconds": 25,
+        "after_seconds": 75
+      },
+      "review_status": "caption_checked",
+      "review_notes": "2025 caption passage checked; question is an editorial follow-up prompt. Assessment is limited to the reviewed comparison set."
+    }
+  ]
+}

@@ -1,0 +1,3692 @@
+{
+  "coverage_note": "2025 is one selected symposium; 2026 candidates span the existing conference corpus. This supports individual comparisons, not trends in prevalence, absence or overall progress. Links are interpretive comparisons, never assumed causal lineage.",
+  "links": [
+    {
+      "id": "review-to-reported-ratification",
+      "title": "Public review → reported ratification",
+      "relationship_type": "same_standard_status_change",
+      "theme_ids": [
+        "darwin-core-data-package",
+        "standards-development-and-governance"
+      ],
+      "then": "Steve Baskauf describes the proposal as under an extended 90-day public review, open until at least 16 December.",
+      "now": "Federico Méndez reports that the conceptual model was ratified in May. He also says a later no-dissent period ended on 15 September and package-standard release was still expected.",
+      "interpretation": "The recordings document a reported change from proposal review to ratification of the conceptual model.",
+      "caveat": "These are historical statements in conference recordings. They do not independently verify the complete ratification history or imply that every implementation was in production.",
+      "review_status": "caption_checked",
+      "causal_lineage_asserted": false,
+      "review_notes": "Both passages support the stated dates and status. The 2026 speaker distinguishes ratified conceptual model from expected package-standard release; the summary now preserves that distinction.",
+      "evidence_2025": {
+        "item_id": "livingdata-2025-dp-p2-06-public-review",
+        "title": "Darwin Core Data Package public review process",
+        "year": 2025,
+        "speakers": [
+          {
+            "name": "Steve Baskauf",
+            "affiliation": "Darwin Core Maintenance Group (convenor)"
+          }
+        ],
+        "speaker_notes": "Pre-recorded virtual presentation as scheduled. Self-introduction captioned 'Steve Baskoff, the convenor of the Darwin Core Maintenance Group'; chair says 'Steve Basco'. ASR: 'Tadwig'/'TAWIG' = TDWG; 'Dolan core'/'dollar core' = Darwin Core. Questions about the review process were handled in the general discussion (livingdata-2025-dp-p2-07-discussion), where the chair also relayed the speaker's chat reply.",
+        "timestamp": "01:06:56.480",
+        "video_link": "https://www.youtube.com/watch?v=sPsR0X69PsM&t=4016s",
+        "source_file": "source/living-data-2025/data-package/part-2.srt",
+        "source_sha256": "8a8cefc650c9702f6972789572b18da3b30e70bad17f98644b4db01443c3c621",
+        "passage_start": "01:06:52.480",
+        "passage_end": "01:07:26.400",
+        "passage": "moving the proposal to public comment in September. The public review is ongoing until at least December 16th. This period of review is 90 days rather than the normal 30 days due to the complexity of the proposal. If you want to participate in the review of the two documents, you can follow the links in the participating in the review section of the landing page. This will lead you to the appropriate place in the GitHub issue tracker for the Darwin Core",
+        "caption_cues": [
+          {
+            "start": "01:06:52.480",
+            "end": "01:06:54.880",
+            "text": "moving the proposal to public comment in"
+          },
+          {
+            "start": "01:06:54.880",
+            "end": "01:06:56.480",
+            "text": "September."
+          },
+          {
+            "start": "01:06:56.480",
+            "end": "01:06:58.799",
+            "text": "The public review is ongoing until at"
+          },
+          {
+            "start": "01:06:58.799",
+            "end": "01:07:01.839",
+            "text": "least December 16th. This period of"
+          },
+          {
+            "start": "01:07:01.839",
+            "end": "01:07:05.039",
+            "text": "review is 90 days rather than the normal"
+          },
+          {
+            "start": "01:07:05.039",
+            "end": "01:07:08.000",
+            "text": "30 days due to the complexity of the"
+          },
+          {
+            "start": "01:07:08.000",
+            "end": "01:07:10.240",
+            "text": "proposal."
+          },
+          {
+            "start": "01:07:10.240",
+            "end": "01:07:12.720",
+            "text": "If you want to participate in the review"
+          },
+          {
+            "start": "01:07:12.720",
+            "end": "01:07:15.440",
+            "text": "of the two documents, you can follow the"
+          },
+          {
+            "start": "01:07:15.440",
+            "end": "01:07:18.319",
+            "text": "links in the participating in the review"
+          },
+          {
+            "start": "01:07:18.319",
+            "end": "01:07:21.280",
+            "text": "section of the landing page. This will"
+          },
+          {
+            "start": "01:07:21.280",
+            "end": "01:07:23.520",
+            "text": "lead you to the appropriate place in the"
+          },
+          {
+            "start": "01:07:23.520",
+            "end": "01:07:26.400",
+            "text": "GitHub issue tracker for the Darwin Core"
+          }
+        ]
+      },
+      "evidence_2026": {
+        "item_id": "aula-taster-04-gbif-dwc-dp",
+        "title": "DwC-DP Integration at GBIF",
+        "year": 2026,
+        "speakers": [
+          {
+            "name": "Federico Mendez",
+            "affiliation": "GBIF Secretariat"
+          },
+          {
+            "name": "Mikhail Podolskiy",
+            "affiliation": "GBIF Secretariat"
+          }
+        ],
+        "speaker_notes": "Talk content and title match event-013 exactly. Federico Mendez presented the first and last parts. The programme lists Mikhail Podolskiy as the second co-presenter, so that name is used for indexing. Vimeo ASR rendered the introduction as 'Nicola'/'Nicola Raibek' and later 'Nikolaj'; the recording alone does not verify the co-presenter’s identity.",
+        "timestamp": "00:54:41",
+        "video_link": "https://vimeo.com/1228900080/dc5cd998f4#t=3281s",
+        "source_file": "source/Aula_taster_talks.srt",
+        "source_sha256": "1413d326fe3ad1cdee27876a131f728e9acaf62ebddd431911899e723ad81b3e",
+        "passage_start": "00:54:39.721",
+        "passage_end": "00:55:39.978",
+        "passage": "sense. There are two important milestones that I want to highlight for this year that in May 26, the Darwin Core Data Package conceptual model was ratified as part of the Darwin Core standard. And then the 15th of September, that's less than a week ago, that the non-descent period after the final review just finished. Okay? And it's expected by the cohort that the executive of that week ratifies the standard and releases the standard. So we are super close now to get the standard out. If you look into a Darwin Core data package, it resembles a Darwin Core archive. It has data file similar to a Darwin Core archive. It has an EML, the same EML that you have been using for Darwin Core archives, but",
+        "caption_cues": [
+          {
+            "start": "00:54:39.721",
+            "end": "00:54:40.020",
+            "text": "sense."
+          },
+          {
+            "start": "00:54:41.310",
+            "end": "00:54:45.690",
+            "text": "There are two important milestones that I want to highlight for this year that in"
+          },
+          {
+            "start": "00:54:45.721",
+            "end": "00:54:51.510",
+            "text": "May 26, the Darwin Core Data Package conceptual model"
+          },
+          {
+            "start": "00:54:51.601",
+            "end": "00:54:55.050",
+            "text": "was ratified as part of the Darwin Core standard."
+          },
+          {
+            "start": "00:54:56.118",
+            "end": "00:55:01.758",
+            "text": "And then the 15th of September, that's less than a week ago, that the"
+          },
+          {
+            "start": "00:55:01.848",
+            "end": "00:55:07.338",
+            "text": "non-descent period after the final review just finished. Okay?"
+          },
+          {
+            "start": "00:55:08.239",
+            "end": "00:55:14.088",
+            "text": "And it's expected by the cohort that the executive"
+          },
+          {
+            "start": "00:55:14.388",
+            "end": "00:55:14.959",
+            "text": "of that week"
+          },
+          {
+            "start": "00:55:16.368",
+            "end": "00:55:18.679",
+            "text": "ratifies the standard and releases the standard."
+          },
+          {
+            "start": "00:55:18.739",
+            "end": "00:55:18.888",
+            "text": "So"
+          },
+          {
+            "start": "00:55:20.449",
+            "end": "00:55:23.329",
+            "text": "we are super close now to get the standard out."
+          },
+          {
+            "start": "00:55:25.338",
+            "end": "00:55:29.868",
+            "text": "If you look into a Darwin Core data package, it resembles a Darwin Core archive."
+          },
+          {
+            "start": "00:55:30.138",
+            "end": "00:55:33.949",
+            "text": "It has data file similar to a Darwin Core archive."
+          },
+          {
+            "start": "00:55:34.158",
+            "end": "00:55:39.978",
+            "text": "It has an EML, the same EML that you have been using for Darwin Core archives, but"
+          }
+        ]
+      }
+    },
+    {
+      "id": "versioning-still-open",
+      "title": "Versioning remains an engineering question",
+      "relationship_type": "question_revisited",
+      "theme_ids": [
+        "darwin-core-data-package",
+        "standards-development-and-governance",
+        "research-software-architecture"
+      ],
+      "then": "GBIF says it needs a versioning strategy to accommodate changes after public review.",
+      "now": "The GBIF presentation discusses how future releases of the schemas will require support for multiple versions.",
+      "interpretation": "The same infrastructure is still working through the operational consequences of an evolving standard.",
+      "caveat": "A recurring concern does not establish that no versioning work happened in between; the 2026 endpoint is a test-environment presentation.",
+      "review_status": "caption_checked",
+      "causal_lineage_asserted": false,
+      "review_notes": "Both passages explicitly discuss accommodating future changes. The 2026 passage calls multiple-version support outstanding and describes test-platform plans, not production delivery.",
+      "evidence_2025": {
+        "item_id": "livingdata-2025-dp-p2-04-gbif-implementation",
+        "title": "Implementation Status of the Darwin Core Data Package (DwC DP) at GBIF",
+        "year": 2025,
+        "speakers": [
+          {
+            "name": "Federico Méndez",
+            "affiliation": "GBIF Secretariat, Copenhagen"
+          }
+        ],
+        "speaker_notes": "Self-introduction ASR 'Ric Mendes'; chair says 'Feder Federico Mendes'. Two source segments: the presentation (00:44:30.720–00:53:08.280) and talk-specific Q&A (01:00:09.280–01:01:44.280), which took place in the question slot after Mikhail Podolskiy's talk but was explicitly addressed to Federico ('My question is for Fed'). actual start/end span both segments; duration_seconds is the sum of the two segments (517.56 s + 95.00 s), not end minus start, because Mikhail Podolskiy's talk lies between them. ASR: 'JIF'/'JIVF'/'GB'/'J' = GBIF; 'MDT'/'entity' = Metabarcoding Data Toolkit; 'Mika' = Mikhail; 'fifth milestone' is probably 'first milestone'; 'mastering tree' = milestone three; 'elastic search post and clear house' = probably Elasticsearch, Postgres and ClickHouse. The speaker's ASR is disfluent, with many repetitions.",
+        "timestamp": "00:48:08.480",
+        "video_link": "https://www.youtube.com/watch?v=sPsR0X69PsM&t=2888s",
+        "source_file": "source/living-data-2025/data-package/part-2.srt",
+        "source_sha256": "8a8cefc650c9702f6972789572b18da3b30e70bad17f98644b4db01443c3c621",
+        "passage_start": "00:48:04.640",
+        "passage_end": "00:48:33.920",
+        "passage": "versioning strategy for progressive improvements. We we are totally aware that this is just after the public review is the first and draft implementation of the standard. So we have to anticipate how are we going to accommodate the changes in the future. Uh point four uh we would like to implement the services and tools for comparation between both DA core archives into Darwin core data packages and in in in in cases when it's also possible how to convert from from data packages into DR archive and that will",
+        "caption_cues": [
+          {
+            "start": "00:48:04.640",
+            "end": "00:48:06.480",
+            "text": "versioning strategy for progressive"
+          },
+          {
+            "start": "00:48:06.480",
+            "end": "00:48:08.480",
+            "text": "improvements. We we are totally aware"
+          },
+          {
+            "start": "00:48:08.480",
+            "end": "00:48:10.720",
+            "text": "that this is just after the public"
+          },
+          {
+            "start": "00:48:10.720",
+            "end": "00:48:12.160",
+            "text": "review is the first and draft"
+          },
+          {
+            "start": "00:48:12.160",
+            "end": "00:48:14.160",
+            "text": "implementation of the standard. So we"
+          },
+          {
+            "start": "00:48:14.160",
+            "end": "00:48:15.760",
+            "text": "have to anticipate how are we going to"
+          },
+          {
+            "start": "00:48:15.760",
+            "end": "00:48:18.720",
+            "text": "accommodate the changes in the future."
+          },
+          {
+            "start": "00:48:18.720",
+            "end": "00:48:21.119",
+            "text": "Uh point four uh we would like to"
+          },
+          {
+            "start": "00:48:21.119",
+            "end": "00:48:22.800",
+            "text": "implement the services and tools for"
+          },
+          {
+            "start": "00:48:22.800",
+            "end": "00:48:24.880",
+            "text": "comparation between both DA core"
+          },
+          {
+            "start": "00:48:24.880",
+            "end": "00:48:27.200",
+            "text": "archives into Darwin core data packages"
+          },
+          {
+            "start": "00:48:27.200",
+            "end": "00:48:29.359",
+            "text": "and in in in in cases when it's also"
+          },
+          {
+            "start": "00:48:29.359",
+            "end": "00:48:31.119",
+            "text": "possible how to convert from from data"
+          },
+          {
+            "start": "00:48:31.119",
+            "end": "00:48:33.920",
+            "text": "packages into DR archive and that will"
+          }
+        ]
+      },
+      "evidence_2026": {
+        "item_id": "aula-taster-04-gbif-dwc-dp",
+        "title": "DwC-DP Integration at GBIF",
+        "year": 2026,
+        "speakers": [
+          {
+            "name": "Federico Mendez",
+            "affiliation": "GBIF Secretariat"
+          },
+          {
+            "name": "Mikhail Podolskiy",
+            "affiliation": "GBIF Secretariat"
+          }
+        ],
+        "speaker_notes": "Talk content and title match event-013 exactly. Federico Mendez presented the first and last parts. The programme lists Mikhail Podolskiy as the second co-presenter, so that name is used for indexing. Vimeo ASR rendered the introduction as 'Nicola'/'Nicola Raibek' and later 'Nikolaj'; the recording alone does not verify the co-presenter’s identity.",
+        "timestamp": "01:06:10",
+        "video_link": "https://vimeo.com/1228900080/dc5cd998f4#t=3970s",
+        "source_file": "source/Aula_taster_talks.srt",
+        "source_sha256": "1413d326fe3ad1cdee27876a131f728e9acaf62ebddd431911899e723ad81b3e",
+        "passage_start": "01:06:05.934",
+        "passage_end": "01:07:40.914",
+        "passage": "raw data that has been published. Yep. Now, what's next for us? What are the plans now? So first, when I talk with the technical executive, it's going to release the standard, so we have to align the software components to the official release of that. We're going to enable the ingestion pipeline and also in the IPP to publish the Darwin Core data packages into the test environment. And we're going to invite users to use the test platform and to give us feedback about that. Then we're going to think of when it's a feasible time to move this to production. There's one outstanding issue. The maintenance group for Darwin Core data package is going to periodically release new versions of that, and then we need to find an engineering solution on how to keep up with different multiple versions of that. It's not something new, it's something that we have done, for example, for ABCDE standards. And then later, that's for next year. We know that we're trying to squeeze in data packages into a more strict format. So we need to start developing the addition for the new data services around richer data, and that's the work for next year. And then this is one of the dreams that we have. This is the... Don't take it as a compromise that we're going to build that, but it will be something that we would like to have. There is some kind of integrated view where you can go and see all the different",
+        "caption_cues": [
+          {
+            "start": "01:06:05.934",
+            "end": "01:06:08.724",
+            "text": "raw data that has been published. Yep."
+          },
+          {
+            "start": "01:06:10.644",
+            "end": "01:06:14.544",
+            "text": "Now, what's next for us? What are the plans now?"
+          },
+          {
+            "start": "01:06:15.204",
+            "end": "01:06:21.114",
+            "text": "So first, when I talk with the technical executive, it's going to"
+          },
+          {
+            "start": "01:06:21.144",
+            "end": "01:06:25.285",
+            "text": "release the standard, so we have to align the software components to the official"
+          },
+          {
+            "start": "01:06:25.344",
+            "end": "01:06:31.285",
+            "text": "release of that. We're going to enable the ingestion pipeline and also in the IPP"
+          },
+          {
+            "start": "01:06:31.344",
+            "end": "01:06:34.764",
+            "text": "to publish the Darwin Core data packages into the test environment."
+          },
+          {
+            "start": "01:06:35.184",
+            "end": "01:06:40.014",
+            "text": "And we're going to invite users to use the test platform and to give us feedback"
+          },
+          {
+            "start": "01:06:40.584",
+            "end": "01:06:45.924",
+            "text": "about that. Then we're going to think of when it's a feasible time to move this to"
+          },
+          {
+            "start": "01:06:45.984",
+            "end": "01:06:46.525",
+            "text": "production."
+          },
+          {
+            "start": "01:06:47.844",
+            "end": "01:06:53.514",
+            "text": "There's one outstanding issue. The maintenance group for Darwin Core data package"
+          },
+          {
+            "start": "01:06:54.025",
+            "end": "01:06:58.285",
+            "text": "is going to periodically release new versions of that, and then we need to find an"
+          },
+          {
+            "start": "01:06:58.344",
+            "end": "01:07:01.914",
+            "text": "engineering solution on how to keep up with different multiple versions of that."
+          },
+          {
+            "start": "01:07:02.244",
+            "end": "01:07:05.065",
+            "text": "It's not something new, it's something that we have done, for example, for ABCDE"
+          },
+          {
+            "start": "01:07:06.444",
+            "end": "01:07:09.684",
+            "text": "standards. And then later, that's for next year."
+          },
+          {
+            "start": "01:07:09.744",
+            "end": "01:07:10.344",
+            "text": "We know that"
+          },
+          {
+            "start": "01:07:11.754",
+            "end": "01:07:15.684",
+            "text": "we're trying to squeeze in data packages into a more strict format."
+          },
+          {
+            "start": "01:07:15.984",
+            "end": "01:07:17.333",
+            "text": "So we need to start developing the"
+          },
+          {
+            "start": "01:07:19.224",
+            "end": "01:07:23.844",
+            "text": "addition for the new data services around richer data, and that's the work for next"
+          },
+          {
+            "start": "01:07:23.905",
+            "end": "01:07:27.174",
+            "text": "year. And then this is one"
+          },
+          {
+            "start": "01:07:28.614",
+            "end": "01:07:30.804",
+            "text": "of the dreams that we have. This is the..."
+          },
+          {
+            "start": "01:07:31.584",
+            "end": "01:07:34.644",
+            "text": "Don't take it as a compromise that we're going to build that, but it will be"
+          },
+          {
+            "start": "01:07:34.854",
+            "end": "01:07:36.054",
+            "text": "something that we would like to have."
+          },
+          {
+            "start": "01:07:36.384",
+            "end": "01:07:40.914",
+            "text": "There is some kind of integrated view where you can go and see all the different"
+          }
+        ]
+      }
+    },
+    {
+      "id": "validation-from-plan-to-specific-rules",
+      "title": "Validation: planned services → concrete checks",
+      "relationship_type": "same_project_implementation_detail",
+      "theme_ids": [
+        "darwin-core-data-package",
+        "data-quality",
+        "data-publishing-and-mobilisation"
+      ],
+      "then": "GBIF proposes validation in publishing tools and a portal service for packages assembled elsewhere.",
+      "now": "The later presentation explains uniqueness, primary-key and referential-integrity checks, including failure when a referenced resource is missing.",
+      "interpretation": "The 2026 talk supplies concrete validation behaviour for part of the earlier plan.",
+      "caveat": "This does not establish delivery of every planned service or public production rollout. The second GBIF presenter’s identity is uncertain in the existing extraction; attribute the explanation to the presentation, not confidently to Mikhail Podolskiy.",
+      "review_status": "caption_checked",
+      "causal_lineage_asserted": false,
+      "review_notes": "The 2025 passage proposes tool and portal validation; the 2026 passage lists uniqueness, primary-key and referential-integrity checks. Removed typed-field wording because it is not stated in the selected passage.",
+      "evidence_2025": {
+        "item_id": "livingdata-2025-dp-p2-04-gbif-implementation",
+        "title": "Implementation Status of the Darwin Core Data Package (DwC DP) at GBIF",
+        "year": 2025,
+        "speakers": [
+          {
+            "name": "Federico Méndez",
+            "affiliation": "GBIF Secretariat, Copenhagen"
+          }
+        ],
+        "speaker_notes": "Self-introduction ASR 'Ric Mendes'; chair says 'Feder Federico Mendes'. Two source segments: the presentation (00:44:30.720–00:53:08.280) and talk-specific Q&A (01:00:09.280–01:01:44.280), which took place in the question slot after Mikhail Podolskiy's talk but was explicitly addressed to Federico ('My question is for Fed'). actual start/end span both segments; duration_seconds is the sum of the two segments (517.56 s + 95.00 s), not end minus start, because Mikhail Podolskiy's talk lies between them. ASR: 'JIF'/'JIVF'/'GB'/'J' = GBIF; 'MDT'/'entity' = Metabarcoding Data Toolkit; 'Mika' = Mikhail; 'fifth milestone' is probably 'first milestone'; 'mastering tree' = milestone three; 'elastic search post and clear house' = probably Elasticsearch, Postgres and ClickHouse. The speaker's ASR is disfluent, with many repetitions.",
+        "timestamp": "00:47:11.200",
+        "video_link": "https://www.youtube.com/watch?v=sPsR0X69PsM&t=2831s",
+        "source_file": "source/living-data-2025/data-package/part-2.srt",
+        "source_sha256": "8a8cefc650c9702f6972789572b18da3b30e70bad17f98644b4db01443c3c621",
+        "passage_start": "00:47:08.319",
+        "passage_end": "00:47:39.359",
+        "passage": "slides about that and then uh we will also we like to implement data validation tools in in mapping tools not only in the context of those tools but also as a data services that a user can access in the GB portal to validate the D core data packages that have been assembled out of the context of those tools. Erh milestone two er we we would like to mature the technical and and user documentation and that's that's the work that that has been also presented that's",
+        "caption_cues": [
+          {
+            "start": "00:47:08.319",
+            "end": "00:47:11.200",
+            "text": "slides about that and then uh we will"
+          },
+          {
+            "start": "00:47:11.200",
+            "end": "00:47:13.119",
+            "text": "also we like to implement data"
+          },
+          {
+            "start": "00:47:13.119",
+            "end": "00:47:16.480",
+            "text": "validation tools in in mapping tools not"
+          },
+          {
+            "start": "00:47:16.480",
+            "end": "00:47:18.000",
+            "text": "only in the context of those tools but"
+          },
+          {
+            "start": "00:47:18.000",
+            "end": "00:47:19.839",
+            "text": "also as a data services that a user can"
+          },
+          {
+            "start": "00:47:19.839",
+            "end": "00:47:22.240",
+            "text": "access in the GB portal to validate the"
+          },
+          {
+            "start": "00:47:22.240",
+            "end": "00:47:24.560",
+            "text": "D core data packages that have been"
+          },
+          {
+            "start": "00:47:24.560",
+            "end": "00:47:26.319",
+            "text": "assembled out of the context of those"
+          },
+          {
+            "start": "00:47:26.319",
+            "end": "00:47:28.720",
+            "text": "tools."
+          },
+          {
+            "start": "00:47:28.720",
+            "end": "00:47:32.400",
+            "text": "Erh milestone two er we we would like to"
+          },
+          {
+            "start": "00:47:32.400",
+            "end": "00:47:34.240",
+            "text": "mature the technical and and user"
+          },
+          {
+            "start": "00:47:34.240",
+            "end": "00:47:36.160",
+            "text": "documentation and that's that's the work"
+          },
+          {
+            "start": "00:47:36.160",
+            "end": "00:47:39.359",
+            "text": "that that has been also presented that's"
+          }
+        ]
+      },
+      "evidence_2026": {
+        "item_id": "aula-taster-04-gbif-dwc-dp",
+        "title": "DwC-DP Integration at GBIF",
+        "year": 2026,
+        "speakers": [
+          {
+            "name": "Federico Mendez",
+            "affiliation": "GBIF Secretariat"
+          },
+          {
+            "name": "Mikhail Podolskiy",
+            "affiliation": "GBIF Secretariat"
+          }
+        ],
+        "speaker_notes": "Talk content and title match event-013 exactly. Federico Mendez presented the first and last parts. The programme lists Mikhail Podolskiy as the second co-presenter, so that name is used for indexing. Vimeo ASR rendered the introduction as 'Nicola'/'Nicola Raibek' and later 'Nikolaj'; the recording alone does not verify the co-presenter’s identity.",
+        "timestamp": "01:00:35",
+        "video_link": "https://vimeo.com/1228900080/dc5cd998f4#t=3635s",
+        "source_file": "source/Aula_taster_talks.srt",
+        "source_sha256": "1413d326fe3ad1cdee27876a131f728e9acaf62ebddd431911899e723ad81b3e",
+        "passage_start": "01:00:18.498",
+        "passage_end": "01:01:17.179",
+        "passage": "Once we are past the schema, we are going in to check the actual data. So in actual data checks, we are now doing unique constraint checks. So there can only be a single this value in an entire resource. We're checking primary key constraints. We are also checking this new thing with referential integrity, so that whenever you have something that points to another resource, you are actually guaranteed that it's there, else our validation will simply not pass. In addition to this, we're also supplying cell statistics, such as unique column counts. We're also having information about how many values are actually present for a given column, so that you have a bit more insight into your data about, \"Was my values actually filled out?\" Or what happened with them. Once we are past our validation, we then allow our metadata synchronization to",
+        "caption_cues": [
+          {
+            "start": "01:00:18.498",
+            "end": "01:00:21.739",
+            "text": "Once we are past the schema, we are going in to check the actual data."
+          },
+          {
+            "start": "01:00:22.278",
+            "end": "01:00:26.538",
+            "text": "So in actual data checks, we are now doing unique constraint checks."
+          },
+          {
+            "start": "01:00:27.228",
+            "end": "01:00:28.728",
+            "text": "So there can only be a single"
+          },
+          {
+            "start": "01:00:30.168",
+            "end": "01:00:34.579",
+            "text": "this value in an entire resource. We're checking primary key constraints."
+          },
+          {
+            "start": "01:00:35.028",
+            "end": "01:00:39.739",
+            "text": "We are also checking this new thing with referential integrity, so that whenever"
+          },
+          {
+            "start": "01:00:39.768",
+            "end": "01:00:43.579",
+            "text": "you have something that points to another resource, you are actually guaranteed"
+          },
+          {
+            "start": "01:00:43.638",
+            "end": "01:00:46.968",
+            "text": "that it's there, else our validation will simply not pass."
+          },
+          {
+            "start": "01:00:48.408",
+            "end": "01:00:53.449",
+            "text": "In addition to this, we're also supplying cell statistics, such as unique column"
+          },
+          {
+            "start": "01:00:53.508",
+            "end": "01:00:57.018",
+            "text": "counts. We're also having information about how many"
+          },
+          {
+            "start": "01:00:58.368",
+            "end": "01:01:03.318",
+            "text": "values are actually present for a given column, so that you have a bit more insight"
+          },
+          {
+            "start": "01:01:03.348",
+            "end": "01:01:09.138",
+            "text": "into your data about, \"Was my values actually filled out?\" Or what happened with"
+          },
+          {
+            "start": "01:01:09.168",
+            "end": "01:01:09.288",
+            "text": "them."
+          },
+          {
+            "start": "01:01:11.568",
+            "end": "01:01:17.179",
+            "text": "Once we are past our validation, we then allow our metadata synchronization to"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fossil-vocabulary-continuity",
+      "title": "Fossil categories → a more specific vocabulary proposal",
+      "relationship_type": "same_speaker_and_workstream",
+      "theme_ids": [
+        "darwin-core-data-package",
+        "palaeontology-data",
+        "controlled-vocabularies",
+        "collection-data-models"
+      ],
+      "then": "Holly Little says the fossil categorisation work is helping develop values for materialEntityType.",
+      "now": "Holly presents a vocabulary document and describes proposed first-level values with a more informal second level.",
+      "interpretation": "This is a strong thread through the same speaker, term and paleontology workstream, with a more concrete vocabulary proposal in the later talk.",
+      "caveat": "The 2026 proposal is still seeking feedback; the recordings do not demonstrate that the vocabulary was ratified or deployed everywhere.",
+      "review_status": "caption_checked",
+      "causal_lineage_asserted": false,
+      "review_notes": "The 2025 passage names materialEntityType vocabulary development; the 2026 passage describes a concrete proposed two-level document. Both extractions identify Holly Little with high confidence.",
+      "evidence_2025": {
+        "item_id": "livingdata-2025-dp-p1-06-paleo-specimens",
+        "title": "Characterizing paleontological specimens for maximal alignment with global data practices",
+        "year": 2025,
+        "speakers": [
+          {
+            "name": "Holly Little",
+            "affiliation": "Department of Paleobiology, Smithsonian National Museum of Natural History"
+          }
+        ],
+        "speaker_notes": "Pre-recorded presentation. The chair states that Holly Little could not attend in person as planned because of the US government shutdown and submitted a virtual presentation; co-authors were said to be online for questions (the speaker names Erica and Alex, i.e. co-authors Erica Krimmel and Alex Lawrence per programme). The opening self-introduction appears twice in the captions: first at 00:54:15.440 (ASR 'Hi, I'm Paul informatics manager in the department of biology'), then again from 00:54:37.119. The first occurrence is recorded as repeated_content in unassigned and the talk is taken from the complete second run. ASR: 'Darcore'/'Dharmaore'/'DARO' = Darwin Core; 'GPIF'/'GBIFF' = GBIF; 'TY meetings' probably TDWG meetings.",
+        "timestamp": "00:58:08.720",
+        "video_link": "https://www.youtube.com/watch?v=RH05GIF0xWk&t=3488s",
+        "source_file": "source/living-data-2025/data-package/part-1.srt",
+        "source_sha256": "ab4ec7f5ea5eb94d3a010445ca4bd10fbb83b89689ea5bab516c101cb73db433",
+        "passage_start": "00:58:06.000",
+        "passage_end": "00:58:57.359",
+        "passage": "most often core samples. That work has also helped us to develop values that can be used to further develop a vocabulary for a newer draw core term, material entity type, which is key for describing what a fossil actually is. Paleo collections have of course been publishing data mapped to Darwin Core using the Darwin Core archive model as long as it has existed. But that version does have limitations for meeting our data publishing goals. Events and localities are critical for paleo research. While that data can be shared with the Darwin core archive, it often has limited discoverability. Importantly, in previous published data, it is actually quite difficult to know what exactly that record is documenting. For example, if you're looking at a single record for a fossil insect, you might",
+        "caption_cues": [
+          {
+            "start": "00:58:06.000",
+            "end": "00:58:08.720",
+            "text": "most often core samples."
+          },
+          {
+            "start": "00:58:08.720",
+            "end": "00:58:10.640",
+            "text": "That work has also helped us to develop"
+          },
+          {
+            "start": "00:58:10.640",
+            "end": "00:58:13.040",
+            "text": "values that can be used to further"
+          },
+          {
+            "start": "00:58:13.040",
+            "end": "00:58:15.280",
+            "text": "develop a vocabulary for a newer draw"
+          },
+          {
+            "start": "00:58:15.280",
+            "end": "00:58:18.079",
+            "text": "core term, material entity type, which"
+          },
+          {
+            "start": "00:58:18.079",
+            "end": "00:58:20.319",
+            "text": "is key for describing what a fossil"
+          },
+          {
+            "start": "00:58:20.319",
+            "end": "00:58:23.040",
+            "text": "actually is."
+          },
+          {
+            "start": "00:58:23.040",
+            "end": "00:58:25.040",
+            "text": "Paleo collections have of course been"
+          },
+          {
+            "start": "00:58:25.040",
+            "end": "00:58:27.440",
+            "text": "publishing data mapped to Darwin Core"
+          },
+          {
+            "start": "00:58:27.440",
+            "end": "00:58:29.440",
+            "text": "using the Darwin Core archive model as"
+          },
+          {
+            "start": "00:58:29.440",
+            "end": "00:58:31.920",
+            "text": "long as it has existed. But that version"
+          },
+          {
+            "start": "00:58:31.920",
+            "end": "00:58:33.839",
+            "text": "does have limitations for meeting our"
+          },
+          {
+            "start": "00:58:33.839",
+            "end": "00:58:35.920",
+            "text": "data publishing goals. Events and"
+          },
+          {
+            "start": "00:58:35.920",
+            "end": "00:58:37.760",
+            "text": "localities are critical for paleo"
+          },
+          {
+            "start": "00:58:37.760",
+            "end": "00:58:39.839",
+            "text": "research. While that data can be shared"
+          },
+          {
+            "start": "00:58:39.839",
+            "end": "00:58:41.839",
+            "text": "with the Darwin core archive, it often"
+          },
+          {
+            "start": "00:58:41.839",
+            "end": "00:58:44.240",
+            "text": "has limited discoverability."
+          },
+          {
+            "start": "00:58:44.240",
+            "end": "00:58:45.760",
+            "text": "Importantly,"
+          },
+          {
+            "start": "00:58:45.760",
+            "end": "00:58:47.680",
+            "text": "in previous published data, it is"
+          },
+          {
+            "start": "00:58:47.680",
+            "end": "00:58:49.680",
+            "text": "actually quite difficult to know what"
+          },
+          {
+            "start": "00:58:49.680",
+            "end": "00:58:52.000",
+            "text": "exactly that record is documenting. For"
+          },
+          {
+            "start": "00:58:52.000",
+            "end": "00:58:54.960",
+            "text": "example, if you're looking at a single"
+          },
+          {
+            "start": "00:58:54.960",
+            "end": "00:58:57.359",
+            "text": "record for a fossil insect, you might"
+          }
+        ]
+      },
+      "evidence_2026": {
+        "item_id": "salc-2026-09-22-01",
+        "title": "A community-curated controlled vocabulary for fossil collections using dwc:materialEntityType",
+        "year": 2026,
+        "speakers": [
+          {
+            "name": "Holly Little",
+            "affiliation": "Department of Paleobiology, Smithsonian National Museum of Natural History"
+          }
+        ],
+        "speaker_notes": "Speaker introduced by the host and self-identified; co-author Talia (Karim) was in the room and Erica Krimmel online.",
+        "timestamp": "00:15:45",
+        "video_link": "https://vimeo.com/1227832622/bfc3d73016#t=945s",
+        "source_file": "source/TDWG 2026-09-22 SAL C.srt",
+        "source_sha256": "837af4f0cbabf5fcb3721efb2a83b76770064850f46a4c73770188b34121f104",
+        "passage_start": "00:15:37.228",
+        "passage_end": "00:16:45.448",
+        "passage": "us in an initial search and filter for when you're trying to find the right fossil records for your collection or for your search. So we have a QR code here for a document that outlines the vocabulary terms that we're proposing. It's just this initial set. We do think that this is likely going to be a hierarchical vocabulary with two concept levels. So what we're proposing right now is just the first level of values, and then nested under that is probably a more informal list of terms that could be used to be more specific within those if you want to do that, if you want to adopt it to that level, or you need that within your own system. And so those level two are included just to give some context and help understand how we organize this in the document. And with that, I will leave you with our-- Is this two minutes? Okay, good. I thought you were holding up the end sign. So this is, again, the list of terms that we're proposing with images from the talk of how we would align those images to those terms.",
+        "caption_cues": [
+          {
+            "start": "00:15:37.228",
+            "end": "00:15:41.068",
+            "text": "us in an initial search and filter for when you're trying to find the"
+          },
+          {
+            "start": "00:15:41.128",
+            "end": "00:15:42.868",
+            "text": "right fossil records for your"
+          },
+          {
+            "start": "00:15:43.768",
+            "end": "00:15:44.228",
+            "text": "collection"
+          },
+          {
+            "start": "00:15:45.028",
+            "end": "00:15:48.748",
+            "text": "or for your search. So we have a QR code"
+          },
+          {
+            "start": "00:15:48.828",
+            "end": "00:15:50.768",
+            "text": "here for a document that outlines"
+          },
+          {
+            "start": "00:15:51.768",
+            "end": "00:15:53.788",
+            "text": "the vocabulary terms that we're proposing."
+          },
+          {
+            "start": "00:15:54.388",
+            "end": "00:15:56.368",
+            "text": "It's just this initial set. We do"
+          },
+          {
+            "start": "00:15:57.608",
+            "end": "00:16:00.968",
+            "text": "think that this is likely going to be a hierarchical"
+          },
+          {
+            "start": "00:16:01.048",
+            "end": "00:16:03.088",
+            "text": "vocabulary with two concept levels."
+          },
+          {
+            "start": "00:16:03.168",
+            "end": "00:16:05.028",
+            "text": "So what we're proposing right now is just the"
+          },
+          {
+            "start": "00:16:06.248",
+            "end": "00:16:07.268",
+            "text": "first level of"
+          },
+          {
+            "start": "00:16:08.508",
+            "end": "00:16:12.308",
+            "text": "values, and then nested under that is probably a"
+          },
+          {
+            "start": "00:16:12.368",
+            "end": "00:16:16.328",
+            "text": "more informal list of terms that could be used to be more specific within those if"
+          },
+          {
+            "start": "00:16:16.448",
+            "end": "00:16:20.328",
+            "text": "you want to do that, if you want to adopt it to that level, or you need that"
+          },
+          {
+            "start": "00:16:20.368",
+            "end": "00:16:21.448",
+            "text": "within your own system."
+          },
+          {
+            "start": "00:16:22.428",
+            "end": "00:16:26.388",
+            "text": "And so those level two are included just to give some context and help understand"
+          },
+          {
+            "start": "00:16:26.448",
+            "end": "00:16:27.428",
+            "text": "how we organize this"
+          },
+          {
+            "start": "00:16:28.248",
+            "end": "00:16:31.348",
+            "text": "in the document. And with that, I will leave you with"
+          },
+          {
+            "start": "00:16:32.868",
+            "end": "00:16:34.828",
+            "text": "our-- Is this two minutes? Okay, good."
+          },
+          {
+            "start": "00:16:36.648",
+            "end": "00:16:38.008",
+            "text": "I thought you were holding up the end sign."
+          },
+          {
+            "start": "00:16:38.988",
+            "end": "00:16:42.648",
+            "text": "So this is, again, the list of terms that we're proposing with images from the talk"
+          },
+          {
+            "start": "00:16:42.728",
+            "end": "00:16:45.448",
+            "text": "of how we would align those images to those terms."
+          }
+        ]
+      }
+    },
+    {
+      "id": "paleo-readiness-to-profiles",
+      "title": "Collection readiness → differentiated publishing profiles",
+      "relationship_type": "same_speaker_partial_response",
+      "theme_ids": [
+        "darwin-core-data-package",
+        "palaeontology-data",
+        "collection-management-systems",
+        "collection-data-models"
+      ],
+      "then": "Holly describes manual test datasets, gaps in collection-management systems and identifier requirements beyond current capacity.",
+      "now": "In the later paleo framework Holly recalls a mapping exercise “last year” and argues for different DwC-DP publishing profiles for different kinds of material.",
+      "interpretation": "The later talk develops a practical approach to heterogeneous fossil data rather than requiring one mapping for every specimen type.",
+      "caveat": "The reference to last year supports continuity of the workstream, but does not identify this exact 2025 presentation. It does not establish that earlier software or identifier barriers have been solved.",
+      "review_status": "caption_checked",
+      "causal_lineage_asserted": false,
+      "review_notes": "The 2025 passage describes manual mapping, CMS and identifier barriers. The 2026 passage explicitly recalls last year’s mapping exercise and differentiates publishing profiles by material type. This supports continuity without identifying an exact earlier talk.",
+      "evidence_2025": {
+        "item_id": "livingdata-2025-dp-p1-06-paleo-specimens",
+        "title": "Characterizing paleontological specimens for maximal alignment with global data practices",
+        "year": 2025,
+        "speakers": [
+          {
+            "name": "Holly Little",
+            "affiliation": "Department of Paleobiology, Smithsonian National Museum of Natural History"
+          }
+        ],
+        "speaker_notes": "Pre-recorded presentation. The chair states that Holly Little could not attend in person as planned because of the US government shutdown and submitted a virtual presentation; co-authors were said to be online for questions (the speaker names Erica and Alex, i.e. co-authors Erica Krimmel and Alex Lawrence per programme). The opening self-introduction appears twice in the captions: first at 00:54:15.440 (ASR 'Hi, I'm Paul informatics manager in the department of biology'), then again from 00:54:37.119. The first occurrence is recorded as repeated_content in unassigned and the talk is taken from the complete second run. ASR: 'Darcore'/'Dharmaore'/'DARO' = Darwin Core; 'GPIF'/'GBIFF' = GBIF; 'TY meetings' probably TDWG meetings.",
+        "timestamp": "01:05:04.480",
+        "video_link": "https://www.youtube.com/watch?v=RH05GIF0xWk&t=3904s",
+        "source_file": "source/living-data-2025/data-package/part-1.srt",
+        "source_sha256": "ab4ec7f5ea5eb94d3a010445ca4bd10fbb83b89689ea5bab516c101cb73db433",
+        "passage_start": "01:04:59.760",
+        "passage_end": "01:06:10.160",
+        "passage": "While that is true, it will take work to implement. As I noted in our caveats, we had to map our data manually. Most collections management systems do not have the fields or tools to store or generate some of the necessary data that makes the DARO data package a powerful publishing model. In particular, the extensive and important use of identifiers is something our community doesn't quite have the ability to meet yet. And as we all see with within our communities, the resources and expertise to adapt to a new system can vary widely across collections and institutions. To help meet the needs of the Paleo collections community, we're working with the Paleo data working group to develop a library of shared resources and tools in a new web resource we're calling the Paleo data knowledge hub. We are also working to create a Darwin core implementation guide that is specific to fossils from Paleo collections and will address the Darwin data package once finalized. We're also working to create example records for the various fossil types and data groups which can be used to illustrate the full data mobilization pipeline alongside the implementation guide. And with that, thank you. We",
+        "caption_cues": [
+          {
+            "start": "01:04:59.760",
+            "end": "01:05:01.920",
+            "text": "While that is true, it will take work to"
+          },
+          {
+            "start": "01:05:01.920",
+            "end": "01:05:04.480",
+            "text": "implement. As I noted in our caveats, we"
+          },
+          {
+            "start": "01:05:04.480",
+            "end": "01:05:06.720",
+            "text": "had to map our data manually. Most"
+          },
+          {
+            "start": "01:05:06.720",
+            "end": "01:05:08.559",
+            "text": "collections management systems do not"
+          },
+          {
+            "start": "01:05:08.559",
+            "end": "01:05:10.799",
+            "text": "have the fields or tools to store or"
+          },
+          {
+            "start": "01:05:10.799",
+            "end": "01:05:12.799",
+            "text": "generate some of the necessary data that"
+          },
+          {
+            "start": "01:05:12.799",
+            "end": "01:05:14.960",
+            "text": "makes the DARO data package a powerful"
+          },
+          {
+            "start": "01:05:14.960",
+            "end": "01:05:17.599",
+            "text": "publishing model. In particular, the"
+          },
+          {
+            "start": "01:05:17.599",
+            "end": "01:05:19.520",
+            "text": "extensive and important use of"
+          },
+          {
+            "start": "01:05:19.520",
+            "end": "01:05:21.599",
+            "text": "identifiers is something our community"
+          },
+          {
+            "start": "01:05:21.599",
+            "end": "01:05:23.839",
+            "text": "doesn't quite have the ability to meet"
+          },
+          {
+            "start": "01:05:23.839",
+            "end": "01:05:27.359",
+            "text": "yet. And as we all see with within our"
+          },
+          {
+            "start": "01:05:27.359",
+            "end": "01:05:29.440",
+            "text": "communities, the resources and expertise"
+          },
+          {
+            "start": "01:05:29.440",
+            "end": "01:05:31.680",
+            "text": "to adapt to a new system can vary widely"
+          },
+          {
+            "start": "01:05:31.680",
+            "end": "01:05:34.559",
+            "text": "across collections and institutions."
+          },
+          {
+            "start": "01:05:34.559",
+            "end": "01:05:36.640",
+            "text": "To help meet the needs of the Paleo"
+          },
+          {
+            "start": "01:05:36.640",
+            "end": "01:05:38.480",
+            "text": "collections community, we're working"
+          },
+          {
+            "start": "01:05:38.480",
+            "end": "01:05:40.480",
+            "text": "with the Paleo data working group to"
+          },
+          {
+            "start": "01:05:40.480",
+            "end": "01:05:42.640",
+            "text": "develop a library of shared resources"
+          },
+          {
+            "start": "01:05:42.640",
+            "end": "01:05:44.880",
+            "text": "and tools in a new web resource we're"
+          },
+          {
+            "start": "01:05:44.880",
+            "end": "01:05:47.680",
+            "text": "calling the Paleo data knowledge hub. We"
+          },
+          {
+            "start": "01:05:47.680",
+            "end": "01:05:49.680",
+            "text": "are also working to create a Darwin core"
+          },
+          {
+            "start": "01:05:49.680",
+            "end": "01:05:52.160",
+            "text": "implementation guide that is specific to"
+          },
+          {
+            "start": "01:05:52.160",
+            "end": "01:05:54.720",
+            "text": "fossils from Paleo collections and will"
+          },
+          {
+            "start": "01:05:54.720",
+            "end": "01:05:56.400",
+            "text": "address the Darwin data package once"
+          },
+          {
+            "start": "01:05:56.400",
+            "end": "01:05:58.880",
+            "text": "finalized. We're also working to create"
+          },
+          {
+            "start": "01:05:58.880",
+            "end": "01:06:00.960",
+            "text": "example records for the various fossil"
+          },
+          {
+            "start": "01:06:00.960",
+            "end": "01:06:03.200",
+            "text": "types and data groups which can be used"
+          },
+          {
+            "start": "01:06:03.200",
+            "end": "01:06:05.200",
+            "text": "to illustrate the full data mobilization"
+          },
+          {
+            "start": "01:06:05.200",
+            "end": "01:06:07.200",
+            "text": "pipeline alongside the implementation"
+          },
+          {
+            "start": "01:06:07.200",
+            "end": "01:06:10.160",
+            "text": "guide. And with that, thank you. We"
+          }
+        ]
+      },
+      "evidence_2026": {
+        "item_id": "sala-2026-09-24-06",
+        "title": "A framework for aligning collections data with the global data ecosystem from data creation to extension in the Smithsonian National Museum of Natural History Department of Paleobiology",
+        "year": 2026,
+        "speakers": [
+          {
+            "name": "Holly Little",
+            "affiliation": "Smithsonian National Museum of Natural History, Department of Paleobiology"
+          }
+        ],
+        "speaker_notes": "Speaker self-introduced as Informatics Manager, NMNH Paleobiology; content matches the abstract. Includes Q&A up to the transition to the panel discussion.",
+        "timestamp": "02:27:34",
+        "video_link": "https://vimeo.com/1230142990/f375daa720#t=8854s",
+        "source_file": "source/TDWG 2026-09-24 SAL A.srt",
+        "source_sha256": "6ecedf03fbc6b310d3fc572dff42bc2771e8e7c6fcbd4d5c4d477889b39feeb8",
+        "passage_start": "02:27:20.916",
+        "passage_end": "02:28:35.936",
+        "passage": "does a lot to give us a more dynamic way of thinking about how we map and model the data coming out of paleo collections. And because we do have such a variety of material, it turns out that it isn't actually as useful to use one model for every single thing in a paleo collection. And last year we did a mapping exercise as they were testing Darwin Core data package, and found that we could leverage different modeling profiles or publishing profiles to better represent different types of material, whether it is something that really relies on relationships between organisms, or we have cores that cross many different geological horizons. So better leveraging the more structured data models that we now have to map our data and get the right data points out for researchers for discovery. This also includes leveraging the Darwin Core material entity type to be more specific about what our records represent, and incorporating all the work we did in enhancement to include links and persistent identifiers and building out our Darwin",
+        "caption_cues": [
+          {
+            "start": "02:27:20.916",
+            "end": "02:27:24.676",
+            "text": "does a lot to give us a more dynamic way of thinking about how we"
+          },
+          {
+            "start": "02:27:24.756",
+            "end": "02:27:27.396",
+            "text": "map and model the data coming out of paleo collections."
+          },
+          {
+            "start": "02:27:27.696",
+            "end": "02:27:31.416",
+            "text": "And because we do have such a variety of material, it turns out that it"
+          },
+          {
+            "start": "02:27:34.176",
+            "end": "02:27:37.936",
+            "text": "isn't actually as useful to use one model for"
+          },
+          {
+            "start": "02:27:38.076",
+            "end": "02:27:40.216",
+            "text": "every single thing in a paleo collection."
+          },
+          {
+            "start": "02:27:40.296",
+            "end": "02:27:44.056",
+            "text": "And last year we did a mapping exercise as they were testing Darwin Core"
+          },
+          {
+            "start": "02:27:44.116",
+            "end": "02:27:47.696",
+            "text": "data package, and found that we could leverage"
+          },
+          {
+            "start": "02:27:47.776",
+            "end": "02:27:51.336",
+            "text": "different modeling profiles or publishing profiles to better"
+          },
+          {
+            "start": "02:27:51.396",
+            "end": "02:27:55.136",
+            "text": "represent different types of material, whether it is something that"
+          },
+          {
+            "start": "02:27:55.196",
+            "end": "02:27:59.096",
+            "text": "really relies on relationships between organisms, or we"
+          },
+          {
+            "start": "02:27:59.136",
+            "end": "02:28:01.936",
+            "text": "have cores that cross many different"
+          },
+          {
+            "start": "02:28:03.956",
+            "end": "02:28:05.236",
+            "text": "geological horizons."
+          },
+          {
+            "start": "02:28:06.316",
+            "end": "02:28:07.696",
+            "text": "So better leveraging the"
+          },
+          {
+            "start": "02:28:09.136",
+            "end": "02:28:12.776",
+            "text": "more structured data models that we now have"
+          },
+          {
+            "start": "02:28:12.876",
+            "end": "02:28:16.616",
+            "text": "to map our data and get the right data points"
+          },
+          {
+            "start": "02:28:16.716",
+            "end": "02:28:18.616",
+            "text": "out for researchers for discovery."
+          },
+          {
+            "start": "02:28:19.376",
+            "end": "02:28:22.836",
+            "text": "This also includes leveraging the Darwin Core material entity"
+          },
+          {
+            "start": "02:28:22.916",
+            "end": "02:28:26.736",
+            "text": "type to be more specific about what our records represent,"
+          },
+          {
+            "start": "02:28:28.316",
+            "end": "02:28:31.896",
+            "text": "and incorporating all the work we did in enhancement to include"
+          },
+          {
+            "start": "02:28:31.976",
+            "end": "02:28:35.936",
+            "text": "links and persistent identifiers and building out our Darwin"
+          }
+        ]
+      }
+    },
+    {
+      "id": "profiles-and-governance",
+      "title": "Profiles: a usability idea → a governance question",
+      "relationship_type": "question_revisited",
+      "theme_ids": [
+        "darwin-core-data-package",
+        "schema-design-and-data-modelling",
+        "standards-development-and-governance",
+        "user-centred-design"
+      ],
+      "then": "Mikhail Podolskiy proposes profiles/templates as manageable subsets of the model; the paleo example shown is explicitly made up.",
+      "now": "The 2026 discussion asks about registering and governing named profiles; John Wieczorek says profiles are not yet established as standard products and could be community-created and vetted.",
+      "interpretation": "The problem recurs at a different level: making the model usable versus recognising and governing shared profiles.",
+      "caveat": "Local templates and draft community mappings are not the same thing as registered, standardised profiles. Do not read “no profiles” as proof that no prototypes or drafts existed.",
+      "review_status": "caption_checked",
+      "causal_lineage_asserted": false,
+      "review_notes": "The 2025 example is explicitly made up. Expanded the 2026 window to include John’s community-creation/vetting statement and lack of infrastructure or plan. Standard products must be distinguished from local templates.",
+      "evidence_2025": {
+        "item_id": "livingdata-2025-dp-p2-05-ipt-tools",
+        "title": "Implementing the proposed DwC-DP format in GBIF: data publishing tools",
+        "year": 2025,
+        "speakers": [
+          {
+            "name": "Mikhail Podolskiy",
+            "affiliation": "GBIF (lead developer, Integrated Publishing Toolkit)"
+          }
+        ],
+        "speaker_notes": "Self-introduces as 'Mikail', lead developer for the IPT at GBIF ('JBIF'); chair says 'Male Podski Podski' (ASR); also referred to as 'Mika' by Federico Méndez and 'Misha' by an audience member. ASR: 'IP'/'AP' = IPT; 'OBS' = OBIS; 'pentological' = paleontological; 'Daring'/'diving core' = Darwin Core. The question taken immediately after this talk was addressed to Federico Méndez and is attached to livingdata-2025-dp-p2-04-gbif-implementation. A later question to Mikhail about community dataset profiles is in the general discussion (livingdata-2025-dp-p2-07-discussion).",
+        "timestamp": "00:55:40.480",
+        "video_link": "https://www.youtube.com/watch?v=sPsR0X69PsM&t=3340s",
+        "source_file": "source/living-data-2025/data-package/part-2.srt",
+        "source_sha256": "8a8cefc650c9702f6972789572b18da3b30e70bad17f98644b4db01443c3c621",
+        "passage_start": "00:55:37.280",
+        "passage_end": "00:56:44.799",
+        "passage": "solve this issue. Uh one of the ideas to solve this thing is uh introduce new concept of a profile or template which would be a subset of the model with uh uh some tables and fields their fields with the comprehensive description of it and some keywords for search. They can be public or local. they can be downloadable online or not or yeah um you can create resources from these templates you can edit those templates and yeah basically that's the idea so here's the example for for example for pentological data set which is a madeup example it's it's not real data data set profile so just just the idea it can be many many profiles Um sorry. So for implementing profiles",
+        "caption_cues": [
+          {
+            "start": "00:55:37.280",
+            "end": "00:55:40.480",
+            "text": "solve this issue."
+          },
+          {
+            "start": "00:55:40.480",
+            "end": "00:55:44.559",
+            "text": "Uh one of the ideas to solve this thing"
+          },
+          {
+            "start": "00:55:44.559",
+            "end": "00:55:48.000",
+            "text": "is uh introduce new concept of a profile"
+          },
+          {
+            "start": "00:55:48.000",
+            "end": "00:55:52.000",
+            "text": "or template which would be a subset of"
+          },
+          {
+            "start": "00:55:52.000",
+            "end": "00:55:56.720",
+            "text": "the model with uh"
+          },
+          {
+            "start": "00:55:56.720",
+            "end": "00:56:00.000",
+            "text": "uh some tables and fields their fields"
+          },
+          {
+            "start": "00:56:00.000",
+            "end": "00:56:02.400",
+            "text": "with the comprehensive description of it"
+          },
+          {
+            "start": "00:56:02.400",
+            "end": "00:56:06.799",
+            "text": "and some keywords for search. They can"
+          },
+          {
+            "start": "00:56:06.799",
+            "end": "00:56:09.359",
+            "text": "be public or local. they can be"
+          },
+          {
+            "start": "00:56:09.359",
+            "end": "00:56:12.319",
+            "text": "downloadable online or not"
+          },
+          {
+            "start": "00:56:12.319",
+            "end": "00:56:16.240",
+            "text": "or yeah um you can create resources from"
+          },
+          {
+            "start": "00:56:16.240",
+            "end": "00:56:18.400",
+            "text": "these templates you can edit those"
+          },
+          {
+            "start": "00:56:18.400",
+            "end": "00:56:21.280",
+            "text": "templates and yeah basically that's the"
+          },
+          {
+            "start": "00:56:21.280",
+            "end": "00:56:24.400",
+            "text": "idea so here's the example for for"
+          },
+          {
+            "start": "00:56:24.400",
+            "end": "00:56:27.599",
+            "text": "example for pentological data set which"
+          },
+          {
+            "start": "00:56:27.599",
+            "end": "00:56:31.920",
+            "text": "is a madeup example it's it's not real"
+          },
+          {
+            "start": "00:56:31.920",
+            "end": "00:56:35.119",
+            "text": "data data set profile so just just the"
+          },
+          {
+            "start": "00:56:35.119",
+            "end": "00:56:39.599",
+            "text": "idea it can be many many profiles"
+          },
+          {
+            "start": "00:56:39.599",
+            "end": "00:56:44.799",
+            "text": "Um sorry. So for implementing profiles"
+          }
+        ]
+      },
+      "evidence_2026": {
+        "item_id": "sala-2026-09-24-24",
+        "title": "SYM42 discussion: DwC-DP profiles, deriving occurrences, ABCD's future and system boundaries",
+        "year": 2026,
+        "speakers": [
+          {
+            "name": "James A. Macklin",
+            "affiliation": ""
+          },
+          {
+            "name": "Jonas Grieb",
+            "affiliation": "Senckenberg Data and Modelling Centre"
+          },
+          {
+            "name": "John Wieczorek",
+            "affiliation": ""
+          },
+          {
+            "name": "Matthew Yoder",
+            "affiliation": ""
+          },
+          {
+            "name": "Steen Dupont",
+            "affiliation": "Natural History Museum, London"
+          },
+          {
+            "name": "Tanja Melanie Weibulat",
+            "affiliation": ""
+          }
+        ],
+        "speaker_notes": "Scheduled discussion moderated by James Macklin and Jonas Grieb, starting with questions from the Whova chat. Several audience speakers are unnamed; one is addressed as 'Nicky'. 'York Poland' is likely ASR for Jorrit Poelen.",
+        "timestamp": "09:03:51",
+        "video_link": "https://vimeo.com/1230142990/f375daa720#t=32631s",
+        "source_file": "source/TDWG 2026-09-24 SAL A.srt",
+        "source_sha256": "6ecedf03fbc6b310d3fc572dff42bc2771e8e7c6fcbd4d5c4d477889b39feeb8",
+        "passage_start": "09:03:20.284",
+        "passage_end": "09:06:34.288",
+        "passage": "The question is, John, we might anticipate versioned data package profiles. For example, GBIF requiring a Darwin Core data package with an occurrence table, among other tables of importance to its index, and so on. Might the Darwin Core maintenance group produce a registry of named profiles? If so, what might a governance structure look like for DP profiles? Checking. Yep, testing. A bit of background. There are no profiles now because our original pre-feedback was, \"Please don't have more than one data model,\" and we took that seriously. So there is only one right now. But once people started seeing it, especially after Columbia with all those boxes on the screen, they started backpedaling and saying, \"Can you make one for me and my stuff?\" So I think we might be heading in that direction, but we haven't talked about how such production would be proposed and managed. If I were to imagine, I would say that these would have to be incorporated as additional products for the standard. I don't know if everyone's familiar with what's in Darwin Core, what's not in Darwin Core. But recently, with our latest public review, schemas, some existing schemas, have been incorporated as part of the standard. This includes all of the GBIF-produced cores, occurrence event and taxon, plus several of the extensions that are obviously just simple Darwin Core type things. So measurement or fact, identification history, alternative identifiers, but not much beyond those things. Humble extension and chronometric age. But not, for example, the OBIS extended measurements or facts. Why? It seems obvious. Because we haven't had a conversation with OBIS to say if they want us to. Also, none of the GGBN extensions. Why? There's been no conversation about whether they want us to. Here, if there is a community desire to create profiles, that's a reasonable thing, but they should be created by the community, and they should be community-vetted in the same way that everything else is, if they're going to be part of the standard. So I think that the door is open to try to do that, but right now we have no infrastructure for it, no plan for it. We need to discuss it. Okay. Yeah. Thanks a lot. I hope this answers the question. We have a second Q&A question here online in Vova. It actually affects the presentation that I gave on Dina and occurrences and material entities, and the question is: \"If GBIF",
+        "caption_cues": [
+          {
+            "start": "09:03:20.284",
+            "end": "09:03:24.244",
+            "text": "The question is, John, we might anticipate versioned"
+          },
+          {
+            "start": "09:03:24.404",
+            "end": "09:03:28.044",
+            "text": "data package profiles. For example, GBIF"
+          },
+          {
+            "start": "09:03:28.084",
+            "end": "09:03:31.764",
+            "text": "requiring a Darwin Core data package with an occurrence table,"
+          },
+          {
+            "start": "09:03:31.864",
+            "end": "09:03:34.844",
+            "text": "among other tables of importance to its index,"
+          },
+          {
+            "start": "09:03:36.144",
+            "end": "09:03:40.104",
+            "text": "and so on. Might the Darwin Core maintenance group produce"
+          },
+          {
+            "start": "09:03:40.184",
+            "end": "09:03:43.904",
+            "text": "a registry of named profiles? If so, what might a"
+          },
+          {
+            "start": "09:03:43.964",
+            "end": "09:03:46.904",
+            "text": "governance structure look like for DP profiles?"
+          },
+          {
+            "start": "09:03:48.964",
+            "end": "09:03:50.104",
+            "text": "Checking. Yep, testing."
+          },
+          {
+            "start": "09:03:51.124",
+            "end": "09:03:51.144",
+            "text": "A"
+          },
+          {
+            "start": "09:03:52.004",
+            "end": "09:03:55.444",
+            "text": "bit of background. There are no profiles now"
+          },
+          {
+            "start": "09:03:55.564",
+            "end": "09:03:57.084",
+            "text": "because our original"
+          },
+          {
+            "start": "09:03:58.044",
+            "end": "09:04:01.664",
+            "text": "pre-feedback was, \"Please don't have more than one data model,\""
+          },
+          {
+            "start": "09:04:02.564",
+            "end": "09:04:05.244",
+            "text": "and we took that seriously. So there is only one right now."
+          },
+          {
+            "start": "09:04:06.124",
+            "end": "09:04:09.684",
+            "text": "But once people started seeing it, especially after Columbia with all those"
+          },
+          {
+            "start": "09:04:09.724",
+            "end": "09:04:10.824",
+            "text": "boxes on the screen,"
+          },
+          {
+            "start": "09:04:11.664",
+            "end": "09:04:15.644",
+            "text": "they started backpedaling and saying, \"Can you make one for me and my"
+          },
+          {
+            "start": "09:04:15.724",
+            "end": "09:04:16.064",
+            "text": "stuff?\""
+          },
+          {
+            "start": "09:04:17.324",
+            "end": "09:04:21.304",
+            "text": "So I think we might be heading in that direction, but we haven't talked about"
+          },
+          {
+            "start": "09:04:21.384",
+            "end": "09:04:21.884",
+            "text": "how"
+          },
+          {
+            "start": "09:04:22.064",
+            "end": "09:04:26.644",
+            "text": "such"
+          },
+          {
+            "start": "09:04:26.704",
+            "end": "09:04:30.284",
+            "text": "production would be proposed and managed."
+          },
+          {
+            "start": "09:04:30.744",
+            "end": "09:04:34.204",
+            "text": "If I were to imagine, I would say that these would have to be"
+          },
+          {
+            "start": "09:04:35.484",
+            "end": "09:04:39.404",
+            "text": "incorporated as additional products for"
+          },
+          {
+            "start": "09:04:39.444",
+            "end": "09:04:40.064",
+            "text": "the standard."
+          },
+          {
+            "start": "09:04:41.484",
+            "end": "09:04:43.244",
+            "text": "I don't know if everyone's familiar with"
+          },
+          {
+            "start": "09:04:44.204",
+            "end": "09:04:46.124",
+            "text": "what's in Darwin Core, what's not in Darwin Core."
+          },
+          {
+            "start": "09:04:46.184",
+            "end": "09:04:49.164",
+            "text": "But recently, with our latest public review,"
+          },
+          {
+            "start": "09:04:50.684",
+            "end": "09:04:54.264",
+            "text": "schemas, some existing schemas, have been"
+          },
+          {
+            "start": "09:04:54.304",
+            "end": "09:04:55.904",
+            "text": "incorporated as part of the standard."
+          },
+          {
+            "start": "09:04:55.944",
+            "end": "09:04:59.584",
+            "text": "This includes all of the GBIF-produced"
+          },
+          {
+            "start": "09:05:00.024",
+            "end": "09:05:01.924",
+            "text": "cores, occurrence"
+          },
+          {
+            "start": "09:05:04.628",
+            "end": "09:05:08.568",
+            "text": "event and taxon, plus several of"
+          },
+          {
+            "start": "09:05:08.668",
+            "end": "09:05:11.888",
+            "text": "the extensions that are obviously just"
+          },
+          {
+            "start": "09:05:12.368",
+            "end": "09:05:14.168",
+            "text": "simple Darwin Core type things."
+          },
+          {
+            "start": "09:05:15.048",
+            "end": "09:05:18.788",
+            "text": "So measurement or fact, identification history, alternative"
+          },
+          {
+            "start": "09:05:18.868",
+            "end": "09:05:22.608",
+            "text": "identifiers, but not much beyond those things."
+          },
+          {
+            "start": "09:05:23.728",
+            "end": "09:05:25.268",
+            "text": "Humble extension and chronometric age."
+          },
+          {
+            "start": "09:05:25.768",
+            "end": "09:05:29.728",
+            "text": "But not, for example, the OBIS extended measurements or facts."
+          },
+          {
+            "start": "09:05:30.008",
+            "end": "09:05:33.968",
+            "text": "Why? It seems obvious. Because we haven't had a conversation with"
+          },
+          {
+            "start": "09:05:34.048",
+            "end": "09:05:36.328",
+            "text": "OBIS to say if they want us to."
+          },
+          {
+            "start": "09:05:37.608",
+            "end": "09:05:40.488",
+            "text": "Also, none of the GGBN extensions. Why?"
+          },
+          {
+            "start": "09:05:40.788",
+            "end": "09:05:43.628",
+            "text": "There's been no conversation about whether they want us to."
+          },
+          {
+            "start": "09:05:44.288",
+            "end": "09:05:46.348",
+            "text": "Here, if there is a"
+          },
+          {
+            "start": "09:05:47.228",
+            "end": "09:05:50.948",
+            "text": "community desire to create profiles, that's a reasonable"
+          },
+          {
+            "start": "09:05:51.028",
+            "end": "09:05:54.668",
+            "text": "thing, but they should be created by the community, and they should"
+          },
+          {
+            "start": "09:05:54.708",
+            "end": "09:05:58.648",
+            "text": "be community-vetted in the same way that everything else is, if they're going to"
+          },
+          {
+            "start": "09:05:58.688",
+            "end": "09:06:02.648",
+            "text": "be part of the standard. So I think that the door"
+          },
+          {
+            "start": "09:06:02.688",
+            "end": "09:06:06.648",
+            "text": "is open to try to do that, but right now we have no infrastructure"
+          },
+          {
+            "start": "09:06:06.688",
+            "end": "09:06:08.248",
+            "text": "for it, no plan for it."
+          },
+          {
+            "start": "09:06:09.068",
+            "end": "09:06:10.208",
+            "text": "We need to discuss it."
+          },
+          {
+            "start": "09:06:13.549",
+            "end": "09:06:16.968",
+            "text": "Okay. Yeah. Thanks a lot. I hope this answers the question."
+          },
+          {
+            "start": "09:06:18.968",
+            "end": "09:06:21.628",
+            "text": "We have a second Q&A question here"
+          },
+          {
+            "start": "09:06:22.628",
+            "end": "09:06:26.229",
+            "text": "online in Vova. It actually affects the presentation that"
+          },
+          {
+            "start": "09:06:26.468",
+            "end": "09:06:30.168",
+            "text": "I gave on Dina and occurrences and"
+          },
+          {
+            "start": "09:06:30.768",
+            "end": "09:06:34.288",
+            "text": "material entities, and the question is: \"If GBIF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "abcd-to-dwb-prototype",
+      "title": "ABCD community support → a DWB mapping prototype",
+      "relationship_type": "related_implementation_example",
+      "theme_ids": [
+        "darwin-core-data-package",
+        "darwin-core-mapping",
+        "semantic-interoperability",
+        "data-publishing-and-mobilisation"
+      ],
+      "then": "Anton Güntsch welcomes relational data exchange through DwC-DP and says the BioCASe help desk will extend support to it.",
+      "now": "Tanja Weibulat shows mapping Diversity Workbench’s PostgreSQL tables to DwC-DP using the test IPT.",
+      "interpretation": "A later example shows practical exploration of DwC-DP in an ecosystem that previously published through ABCD/BioCASe.",
+      "caveat": "Different presenters and projects are involved. This does not show that the earlier pledge caused this prototype, or that ABCD was abandoned.",
+      "review_status": "caption_checked",
+      "causal_lineage_asserted": false,
+      "review_notes": "The 2025 passage promises continuing BioCASe help-desk support extended to DwC-DP. The 2026 passage shows PostgreSQL table mapping in a test IPT. This is a related implementation example by another team.",
+      "evidence_2025": {
+        "item_id": "livingdata-2025-dp-p2-02-abcd",
+        "title": "Two Decades of ABCD: Advancing Structured Biodiversity Data Sharing",
+        "year": 2025,
+        "speakers": [
+          {
+            "name": "Anton Güntsch",
+            "affiliation": "Freie Universität Berlin, Botanic Garden and Botanical Museum Berlin"
+          }
+        ],
+        "speaker_notes": "Chair introduces 'Anon Gch' (ASR) to talk about ABCD; programme identifies Anton Güntsch (affiliation from programme). ASR: 'Walter Bansson' = Walter Berendsohn; 'set 3950' = Z39.50; 'bioase' = BioCASe; 'NFT for biodiversity' = NFDI4Biodiversity; 'Daring Cove'/'DAC' = Darwin Core; 'Tedwick' = TDWG. 'variable optimization' is likely 'variable atomisation' and 'bioank community' may be 'DNA bank' community — both uncertain. No question was taken afterwards (see unassigned).",
+        "timestamp": "00:31:08.799",
+        "video_link": "https://www.youtube.com/watch?v=sPsR0X69PsM&t=1868s",
+        "source_file": "source/living-data-2025/data-package/part-2.srt",
+        "source_sha256": "8a8cefc650c9702f6972789572b18da3b30e70bad17f98644b4db01443c3c621",
+        "passage_start": "00:30:39.919",
+        "passage_end": "00:31:51.200",
+        "passage": "and transmitting relational structures over the internet uh finally comes true. So what we would like to do as a bioase ABCD initiative is really to support this initiative for example for example by contributing to the development and maintenance of the ding code data package standard and also uh for developing templates for typical usage scenarios. We will however continue the bioase help desk. So we will not let the bioase ABCD providers alone but we will extend the focus of this help desk to structured uh highly structured data complex data using the DAC data package technology and um I can now can't read more what here on the slide um yeah that's actually again that we want to to integrate the Darving core data package structures into our help desk uh uh structures and that's exactly what I wanted to say.",
+        "caption_cues": [
+          {
+            "start": "00:30:39.919",
+            "end": "00:30:42.559",
+            "text": "and transmitting relational structures"
+          },
+          {
+            "start": "00:30:42.559",
+            "end": "00:30:44.720",
+            "text": "over the internet"
+          },
+          {
+            "start": "00:30:44.720",
+            "end": "00:30:47.679",
+            "text": "uh finally comes true. So what we would"
+          },
+          {
+            "start": "00:30:47.679",
+            "end": "00:30:50.399",
+            "text": "like to do as a bioase ABCD initiative"
+          },
+          {
+            "start": "00:30:50.399",
+            "end": "00:30:53.679",
+            "text": "is really to support this initiative for"
+          },
+          {
+            "start": "00:30:53.679",
+            "end": "00:30:56.320",
+            "text": "example for example by contributing to"
+          },
+          {
+            "start": "00:30:56.320",
+            "end": "00:30:58.399",
+            "text": "the development and maintenance of the"
+          },
+          {
+            "start": "00:30:58.399",
+            "end": "00:31:01.600",
+            "text": "ding code data package standard and also"
+          },
+          {
+            "start": "00:31:01.600",
+            "end": "00:31:04.880",
+            "text": "uh for developing templates for typical"
+          },
+          {
+            "start": "00:31:04.880",
+            "end": "00:31:08.760",
+            "text": "usage scenarios."
+          },
+          {
+            "start": "00:31:08.799",
+            "end": "00:31:11.760",
+            "text": "We will however continue the bioase help"
+          },
+          {
+            "start": "00:31:11.760",
+            "end": "00:31:15.279",
+            "text": "desk. So we will not let the bioase ABCD"
+          },
+          {
+            "start": "00:31:15.279",
+            "end": "00:31:17.679",
+            "text": "providers alone"
+          },
+          {
+            "start": "00:31:17.679",
+            "end": "00:31:19.760",
+            "text": "but we will extend the focus of this"
+          },
+          {
+            "start": "00:31:19.760",
+            "end": "00:31:23.120",
+            "text": "help desk to structured uh highly"
+          },
+          {
+            "start": "00:31:23.120",
+            "end": "00:31:26.399",
+            "text": "structured data complex data using the"
+          },
+          {
+            "start": "00:31:26.399",
+            "end": "00:31:31.600",
+            "text": "DAC data package technology"
+          },
+          {
+            "start": "00:31:31.600",
+            "end": "00:31:35.760",
+            "text": "and um I can now can't read more what"
+          },
+          {
+            "start": "00:31:35.760",
+            "end": "00:31:39.679",
+            "text": "here on the slide um"
+          },
+          {
+            "start": "00:31:39.679",
+            "end": "00:31:41.600",
+            "text": "yeah that's actually again that we want"
+          },
+          {
+            "start": "00:31:41.600",
+            "end": "00:31:43.440",
+            "text": "to to integrate the Darving core data"
+          },
+          {
+            "start": "00:31:43.440",
+            "end": "00:31:46.640",
+            "text": "package structures into our help desk uh"
+          },
+          {
+            "start": "00:31:46.640",
+            "end": "00:31:48.480",
+            "text": "uh structures"
+          },
+          {
+            "start": "00:31:48.480",
+            "end": "00:31:51.200",
+            "text": "and that's exactly what I wanted to say."
+          }
+        ]
+      },
+      "evidence_2026": {
+        "item_id": "sala-2026-09-24-19",
+        "title": "Mapping the Relational Data Schema of the Diversity Workbench (DWB) to the Darwin Core Data Package Data Model to fit better to GBIF´s New Data Model",
+        "year": 2026,
+        "speakers": [
+          {
+            "name": "Tanja Melanie Weibulat",
+            "affiliation": ""
+          }
+        ],
+        "speaker_notes": "The speaker did not introduce herself on the recording; the chair afterwards thanked 'Birgit and Björn and Tanja', and content matches the Weibulat abstract. Presented third of the DWB talks rather than first as programmed.",
+        "timestamp": "07:35:26",
+        "video_link": "https://vimeo.com/1230142990/f375daa720#t=27326s",
+        "source_file": "source/TDWG 2026-09-24 SAL A.srt",
+        "source_sha256": "6ecedf03fbc6b310d3fc572dff42bc2771e8e7c6fcbd4d5c4d477889b39feeb8",
+        "passage_start": "07:35:18.040",
+        "passage_end": "07:36:57.160",
+        "passage": "tool and the Darwin Core Data Package instead of ABCD. So we get a Darwin Core Data Package. So we tried it. We installed an IPT, not the official one, but a test version, because only the test version includes, at the moment, the Darwin Core Data Package. So we were installing the test version of the IPT, and that's what was our first step. So that's a screenshot of the IPT installation. So first, we added our source data. What you can see here are all the tables from the Diversity Workbench, from the PostgreSQL data. So we accessed it directly via SQL. And second, we had to do the mapping of all this data. So the first one is always the Diversity Workbench table, and the second one is the Darwin Core Data Package table. And as you can see, it's often quite similar, but not all the time. So for example, we need to separate our observation data and the physical specimen data. That's separated here in the Darwin Core Data Package. It was together in the original one, and it leaded to occurrence data and material data down here. Then some things have been together. They share, for example, the event up here, the identification, and also the agents. And then we had to unite some informations like, for example-- Oops, sorry. This was not what was I want to be. So we have here our analysis and up here",
+        "caption_cues": [
+          {
+            "start": "07:35:18.040",
+            "end": "07:35:21.780",
+            "text": "tool and the Darwin Core Data Package instead of ABCD."
+          },
+          {
+            "start": "07:35:22.740",
+            "end": "07:35:24.860",
+            "text": "So we get a Darwin Core Data Package."
+          },
+          {
+            "start": "07:35:26.260",
+            "end": "07:35:30.040",
+            "text": "So we tried it. We installed an IPT, not the official"
+          },
+          {
+            "start": "07:35:30.159",
+            "end": "07:35:33.840",
+            "text": "one, but a test version, because only the test version includes, at the"
+          },
+          {
+            "start": "07:35:33.900",
+            "end": "07:35:35.540",
+            "text": "moment, the Darwin Core Data Package."
+          },
+          {
+            "start": "07:35:35.600",
+            "end": "07:35:38.100",
+            "text": "So we were installing the test version of the IPT,"
+          },
+          {
+            "start": "07:35:39.040",
+            "end": "07:35:39.340",
+            "text": "and"
+          },
+          {
+            "start": "07:35:41.000",
+            "end": "07:35:44.900",
+            "text": "that's what was our first step. So that's a screenshot of the IPT"
+          },
+          {
+            "start": "07:35:44.940",
+            "end": "07:35:48.580",
+            "text": "installation. So first, we added our"
+          },
+          {
+            "start": "07:35:48.660",
+            "end": "07:35:49.520",
+            "text": "source data."
+          },
+          {
+            "start": "07:35:50.900",
+            "end": "07:35:54.200",
+            "text": "What you can see here are all the tables from the Diversity Workbench, from the"
+          },
+          {
+            "start": "07:35:54.260",
+            "end": "07:35:56.280",
+            "text": "PostgreSQL data."
+          },
+          {
+            "start": "07:35:57.160",
+            "end": "07:35:59.340",
+            "text": "So we accessed it directly via SQL."
+          },
+          {
+            "start": "07:35:59.760",
+            "end": "07:36:00.480",
+            "text": "And second,"
+          },
+          {
+            "start": "07:36:01.300",
+            "end": "07:36:04.160",
+            "text": "we had to do the mapping of all this data."
+          },
+          {
+            "start": "07:36:04.240",
+            "end": "07:36:07.240",
+            "text": "So the first one is always the Diversity Workbench"
+          },
+          {
+            "start": "07:36:08.020",
+            "end": "07:36:11.860",
+            "text": "table, and the second one is the Darwin Core Data Package"
+          },
+          {
+            "start": "07:36:11.920",
+            "end": "07:36:15.860",
+            "text": "table. And as you can see, it's often quite similar, but not all the time."
+          },
+          {
+            "start": "07:36:15.940",
+            "end": "07:36:19.260",
+            "text": "So for example, we need to separate our"
+          },
+          {
+            "start": "07:36:19.320",
+            "end": "07:36:22.700",
+            "text": "observation data and the physical specimen data."
+          },
+          {
+            "start": "07:36:22.840",
+            "end": "07:36:24.980",
+            "text": "That's separated here in the Darwin Core Data Package."
+          },
+          {
+            "start": "07:36:25.040",
+            "end": "07:36:27.720",
+            "text": "It was together in the original one,"
+          },
+          {
+            "start": "07:36:28.600",
+            "end": "07:36:32.400",
+            "text": "and it leaded to occurrence data and material"
+          },
+          {
+            "start": "07:36:32.460",
+            "end": "07:36:36.340",
+            "text": "data down here. Then some things have been together."
+          },
+          {
+            "start": "07:36:36.380",
+            "end": "07:36:40.360",
+            "text": "They share, for example, the event up here, the identification, and"
+          },
+          {
+            "start": "07:36:40.420",
+            "end": "07:36:43.160",
+            "text": "also the agents. And then we had to"
+          },
+          {
+            "start": "07:36:45.520",
+            "end": "07:36:46.320",
+            "text": "unite some"
+          },
+          {
+            "start": "07:36:47.240",
+            "end": "07:36:49.420",
+            "text": "informations like, for example-- Oops, sorry."
+          },
+          {
+            "start": "07:36:49.480",
+            "end": "07:36:50.060",
+            "text": "This was not"
+          },
+          {
+            "start": "07:36:51.040",
+            "end": "07:36:51.940",
+            "text": "what was I want to be."
+          },
+          {
+            "start": "07:36:53.220",
+            "end": "07:36:57.160",
+            "text": "So we have here our analysis and up here"
+          }
+        ]
+      }
+    },
+    {
+      "id": "identifiers-and-derived-occurrences",
+      "title": "Identifiers: persistence concerns → occurrence derivation problems",
+      "relationship_type": "question_revisited",
+      "theme_ids": [
+        "darwin-core-data-package",
+        "persistent-identifiers",
+        "schema-design-and-data-modelling"
+      ],
+      "then": "Tim Robertson distinguishes persistent identifiers from keys that only join data within a dataset version.",
+      "now": "Jonas Grieb explains that material records are not occurrences and raises stable-ID and missing-event problems when material data is mobilised as occurrences.",
+      "interpretation": "The later case makes identifier stability concrete in publication from a collection-management system.",
+      "caveat": "These are related identifier problems, not proof that DINA is a direct follow-up to the 2025 discussion; local join keys and global identifiers must remain distinct.",
+      "review_status": "caption_checked",
+      "causal_lineage_asserted": false,
+      "review_notes": "Tim self-identifies immediately after distinguishing persistent and dataset-local identifiers. The 2026 passage explicitly raises stable occurrence identifiers and missing event data; these are related problems, not a proven response.",
+      "evidence_2025": {
+        "item_id": "livingdata-2025-dp-p1-07-discussion",
+        "title": "Part 1 Q&A: effort, identifiers, complexity for users, Indigenous data, interactions, EML and extended specimens",
+        "year": 2025,
+        "speakers": [
+          {
+            "name": "Tim Robertson",
+            "affiliation": "GBIF (deputy director and head of informatics)"
+          },
+          {
+            "name": "John Wieczorek",
+            "affiliation": "Rauthiflor LLC"
+          },
+          {
+            "name": "Kate Ingenloff",
+            "affiliation": ""
+          },
+          {
+            "name": "Eduardo Klein",
+            "affiliation": "Integrated Marine Observing System (IMOS), Australia"
+          },
+          {
+            "name": "Jane Anderson",
+            "affiliation": "Local Contexts"
+          },
+          {
+            "name": "Shandra (ASR spelling; uncertain)",
+            "affiliation": "National Ecological Observatory Network (NEON), USA"
+          },
+          {
+            "name": "Deb (surname not stated)",
+            "affiliation": ""
+          },
+          {
+            "name": "Unnamed participant",
+            "affiliation": "Biodiversity observation network in Quebec, Canada"
+          }
+        ],
+        "speaker_notes": "Combined Q&A for all Part 1 use cases, matching the scheduled Discussion slot; it started early because the session was about 15 minutes ahead of schedule (the chair says it is 3:05 with 25 minutes for questions). Tim Robertson introduces himself at 01:14:35.920; John Wieczorek follows (ASR 'John Vurik'). Many answers are not attributed in the captions: attributions to John Wieczorek (first effort question, complexity question, Indigenous data, interactions, workshops) and to Tim Robertson (EML, extended specimen) are inferred from content and context, and should be checked. Online question names are ASR and unverified: 'Matias Dylan'; 'Urit Pulen' (possibly Jorrit Poelen — unverified); 'KT Pearson' (possibly Katie Pearson — unverified); 'Kapia Molina', addressed by the answerer as 'Javier'. 'Edardo Klein' corrected to Eduardo Klein from the stated IMOS affiliation (medium confidence). The NEON participant's name is rendered 'Shandra'/'Aandra'.",
+        "timestamp": "01:14:16.800",
+        "video_link": "https://www.youtube.com/watch?v=RH05GIF0xWk&t=4456s",
+        "source_file": "source/living-data-2025/data-package/part-1.srt",
+        "source_sha256": "ab4ec7f5ea5eb94d3a010445ca4bd10fbb83b89689ea5bab516c101cb73db433",
+        "passage_start": "01:13:38.239",
+        "passage_end": "01:14:43.679",
+        "passage": "this easier for people um because it's going to be hard and I would expect tool developers such as the IP for example to have to help people manage these things. I would also expect it that to be the case that some of the identifiers will be unique and persist across time while others might be only uh valid within the Darwin core data package as it's being created. So we'll have certain things like specimen ids which are probably stable across long periods of time but there could be others that uh really only need to exist within that version of a data set. And I think we'll probably end up in the situation that we've got two classes of identifiers. Some that you can rely on and others that are really just joining data within one data set. >> Matt asks that we introduce ourselves. >> I'm sorry. I was asked to introduce myself. I'm Tim Robertson. I'm deputy director and head of informatics at GBish.",
+        "caption_cues": [
+          {
+            "start": "01:13:38.239",
+            "end": "01:13:40.880",
+            "text": "this easier for people um because it's"
+          },
+          {
+            "start": "01:13:40.880",
+            "end": "01:13:43.600",
+            "text": "going to be hard and I would expect tool"
+          },
+          {
+            "start": "01:13:43.600",
+            "end": "01:13:46.880",
+            "text": "developers such as the IP for example to"
+          },
+          {
+            "start": "01:13:46.880",
+            "end": "01:13:49.760",
+            "text": "have to help people manage these things."
+          },
+          {
+            "start": "01:13:49.760",
+            "end": "01:13:53.199",
+            "text": "I would also expect it that to be the"
+          },
+          {
+            "start": "01:13:53.199",
+            "end": "01:13:55.679",
+            "text": "case that some of the identifiers will"
+          },
+          {
+            "start": "01:13:55.679",
+            "end": "01:13:58.880",
+            "text": "be unique and persist across time while"
+          },
+          {
+            "start": "01:13:58.880",
+            "end": "01:14:02.880",
+            "text": "others might be only uh valid within the"
+          },
+          {
+            "start": "01:14:02.880",
+            "end": "01:14:05.040",
+            "text": "Darwin core data package as it's being"
+          },
+          {
+            "start": "01:14:05.040",
+            "end": "01:14:07.360",
+            "text": "created. So we'll have certain things"
+          },
+          {
+            "start": "01:14:07.360",
+            "end": "01:14:10.000",
+            "text": "like specimen ids which are probably"
+          },
+          {
+            "start": "01:14:10.000",
+            "end": "01:14:12.480",
+            "text": "stable across long periods of time but"
+          },
+          {
+            "start": "01:14:12.480",
+            "end": "01:14:14.320",
+            "text": "there could be others that uh really"
+          },
+          {
+            "start": "01:14:14.320",
+            "end": "01:14:16.800",
+            "text": "only need to exist within that version"
+          },
+          {
+            "start": "01:14:16.800",
+            "end": "01:14:19.040",
+            "text": "of a data set. And I think we'll"
+          },
+          {
+            "start": "01:14:19.040",
+            "end": "01:14:21.360",
+            "text": "probably end up in the situation that"
+          },
+          {
+            "start": "01:14:21.360",
+            "end": "01:14:23.840",
+            "text": "we've got two classes of identifiers."
+          },
+          {
+            "start": "01:14:23.840",
+            "end": "01:14:25.600",
+            "text": "Some that you can rely on and others"
+          },
+          {
+            "start": "01:14:25.600",
+            "end": "01:14:28.239",
+            "text": "that are really just joining data within"
+          },
+          {
+            "start": "01:14:28.239",
+            "end": "01:14:31.880",
+            "text": "one data set."
+          },
+          {
+            "start": "01:14:31.920",
+            "end": "01:14:34.320",
+            "text": ">> Matt asks that we introduce ourselves."
+          },
+          {
+            "start": "01:14:34.320",
+            "end": "01:14:35.920",
+            "text": ">> I'm sorry. I was asked to introduce"
+          },
+          {
+            "start": "01:14:35.920",
+            "end": "01:14:38.800",
+            "text": "myself. I'm Tim Robertson. I'm deputy"
+          },
+          {
+            "start": "01:14:38.800",
+            "end": "01:14:40.880",
+            "text": "director and head of informatics at"
+          },
+          {
+            "start": "01:14:40.880",
+            "end": "01:14:43.679",
+            "text": "GBish."
+          }
+        ]
+      },
+      "evidence_2026": {
+        "item_id": "sala-2026-09-24-15",
+        "title": "Material Samples and Occurrences in Darwin Core Data Packages: Practical Experiences from DINA",
+        "year": 2026,
+        "speakers": [
+          {
+            "name": "Jonas Grieb",
+            "affiliation": "Senckenberg Data and Modelling Centre"
+          }
+        ],
+        "speaker_notes": "Introduced as Jonas Grieb ('Dino' in ASR for DINA); content matches the abstract. Affiliation from Marije Timmermans' reference to her SDMC colleague.",
+        "timestamp": "06:53:10",
+        "video_link": "https://vimeo.com/1230142990/f375daa720#t=24790s",
+        "source_file": "source/TDWG 2026-09-24 SAL A.srt",
+        "source_sha256": "6ecedf03fbc6b310d3fc572dff42bc2771e8e7c6fcbd4d5c4d477889b39feeb8",
+        "passage_start": "06:52:51.426",
+        "passage_end": "06:54:14.406",
+        "passage": "And yeah, when we just have originally material data that needs to be mobilized as occurrences, this creates issues with the generation of, in theory, stable occurrence identifiers, and often in the material data, we have incomplete or missing event data, but the event in theory is missing to establish an occurrence. So it is clear material entities are not occurrences. This has also been widely discussed in this community before, for example, at the TWIC 2024. And the question I'm asking today is whether these conceptual issues have now been solved by the Darwin Core conceptual model and the data package format from a practical perspective. Specifically, we want to look at this set of classes or tables in Darwin Core data packages, very similar to the graphic you've also seen before. The great news is really for data publishers with material data that we now have a specific point where we can put the data in the material. But also you can see that there's quite a set of complex relationships and we want to explore the practicability of sharing data in this format from the point of view of, for example, Natural History Museum, which has material data in a collection management system.",
+        "caption_cues": [
+          {
+            "start": "06:52:51.426",
+            "end": "06:52:54.846",
+            "text": "And yeah, when we just have originally material data that"
+          },
+          {
+            "start": "06:52:55.266",
+            "end": "06:52:59.106",
+            "text": "needs to be mobilized as occurrences, this creates issues with the"
+          },
+          {
+            "start": "06:52:59.146",
+            "end": "06:53:02.346",
+            "text": "generation of, in theory, stable occurrence identifiers,"
+          },
+          {
+            "start": "06:53:02.886",
+            "end": "06:53:06.766",
+            "text": "and often in the material data, we have incomplete or"
+          },
+          {
+            "start": "06:53:06.826",
+            "end": "06:53:10.646",
+            "text": "missing event data, but the event in theory is missing to"
+          },
+          {
+            "start": "06:53:10.726",
+            "end": "06:53:14.626",
+            "text": "establish an occurrence. So it is clear material entities are"
+          },
+          {
+            "start": "06:53:14.666",
+            "end": "06:53:18.506",
+            "text": "not occurrences. This has also been widely discussed in"
+          },
+          {
+            "start": "06:53:18.546",
+            "end": "06:53:19.626",
+            "text": "this community before,"
+          },
+          {
+            "start": "06:53:21.286",
+            "end": "06:53:25.066",
+            "text": "for example, at the TWIC 2024. And the question I'm"
+          },
+          {
+            "start": "06:53:25.146",
+            "end": "06:53:28.706",
+            "text": "asking today is whether these conceptual issues have now been solved"
+          },
+          {
+            "start": "06:53:29.286",
+            "end": "06:53:31.986",
+            "text": "by the Darwin Core conceptual model and the data package format"
+          },
+          {
+            "start": "06:53:32.846",
+            "end": "06:53:34.846",
+            "text": "from a practical perspective."
+          },
+          {
+            "start": "06:53:36.226",
+            "end": "06:53:39.786",
+            "text": "Specifically, we want to look at this set of classes or"
+          },
+          {
+            "start": "06:53:39.846",
+            "end": "06:53:43.646",
+            "text": "tables in Darwin Core data packages, very similar to the graphic you've"
+          },
+          {
+            "start": "06:53:43.726",
+            "end": "06:53:44.586",
+            "text": "also seen before."
+          },
+          {
+            "start": "06:53:46.046",
+            "end": "06:53:49.786",
+            "text": "The great news is really for data publishers with"
+          },
+          {
+            "start": "06:53:50.186",
+            "end": "06:53:53.966",
+            "text": "material data that we now have a specific point where we can"
+          },
+          {
+            "start": "06:53:54.526",
+            "end": "06:53:58.226",
+            "text": "put the data in the material. But also you can see that"
+          },
+          {
+            "start": "06:53:58.266",
+            "end": "06:54:02.126",
+            "text": "there's quite a set of complex relationships and we want to"
+          },
+          {
+            "start": "06:54:02.166",
+            "end": "06:54:05.866",
+            "text": "explore the practicability of sharing data in this"
+          },
+          {
+            "start": "06:54:05.926",
+            "end": "06:54:07.786",
+            "text": "format from the point of view of,"
+          },
+          {
+            "start": "06:54:08.966",
+            "end": "06:54:12.946",
+            "text": "for example, Natural History Museum, which has material data"
+          },
+          {
+            "start": "06:54:13.006",
+            "end": "06:54:14.406",
+            "text": "in a collection management system."
+          }
+        ]
+      }
+    },
+    {
+      "id": "alignment-is-project-dependent",
+      "title": "Near-lossless mapping versus lossy exchange",
+      "relationship_type": "cross_project_contrast",
+      "theme_ids": [
+        "darwin-core-data-package",
+        "semantic-interoperability",
+        "schema-design-and-data-modelling"
+      ],
+      "then": "Sam Leeflang reports that openDS and DwC-DP are closely aligned and little data is lost in transformation.",
+      "now": "Matthew Yoder says partial alignment is normal and exchange from TaxonWorks to DwC-DP is lossy.",
+      "interpretation": "Mapping quality depends on the source model and use case; this is a useful contrast between two projects.",
+      "caveat": "Different systems are being compared. This is neither a regression from 2025 to 2026 nor evidence that either speaker contradicts their own earlier claims.",
+      "review_status": "caption_checked",
+      "causal_lineage_asserted": false,
+      "review_notes": "Both passages support the contrast: little data loss in openDS transformation versus unavoidable loss claimed for TaxonWorks. Different source systems make a regression claim inappropriate.",
+      "evidence_2025": {
+        "item_id": "livingdata-2025-dp-p2-03-dissco-opends",
+        "title": "Seamless Integration: How DiSSCo's openDS Facilitates Data Interoperability with the Darwin Core Data Package",
+        "year": 2025,
+        "speakers": [
+          {
+            "name": "Sam Leeflang",
+            "affiliation": "DiSSCo (programme affiliation: Naturalis Biodiversity Center)"
+          }
+        ],
+        "speaker_notes": "Pre-recorded virtual presentation as scheduled; the chair says Sam Leeflang (ASR 'Sam Lupang'; self-introduction ASR 'Sam Leang') could not attend in person and was online to answer questions in the chat. ASR: 'Disco' = DiSSCo; 'open DS'/'opens' = openDS; 'FDOS' = FDOs (FAIR Digital Objects); 'John Courage' = John Wieczorek; 'GBF unified model' = GBIF Unified Model; 'civilization structure' = serialisation structure; 'nuclide' = nucleotide; 'Dharma habitat' = probably the Darwin Core term habitat. In Part 1, Tim Robertson previewed this talk when answering a question on extended specimens (see livingdata-2025-dp-p1-07-discussion).",
+        "timestamp": "00:41:34.240",
+        "video_link": "https://www.youtube.com/watch?v=sPsR0X69PsM&t=2494s",
+        "source_file": "source/living-data-2025/data-package/part-2.srt",
+        "source_sha256": "8a8cefc650c9702f6972789572b18da3b30e70bad17f98644b4db01443c3c621",
+        "passage_start": "00:41:27.760",
+        "passage_end": "00:42:18.880",
+        "passage": "implementation is Yeah. So what are the lessons that we have learned from this uh implementation? Well, the interoperability is is is good. We we don't lose a lot of data in the transformation. Um we do need to do some triggery uh in the sense that yeah, we we have this document approach. Um and a lot of the relationships that we have are actually implicit in it because they're nested into in this in this bigger object. we don't need an specific identifiers for them. Um, so what we did need to do was create a lot of identifiers which we do through an MD MD5 hash of the object and then uh we needed to duplicate all the information where uh where we use temporary tables. So we we hash those and and use those uh",
+        "caption_cues": [
+          {
+            "start": "00:41:27.760",
+            "end": "00:41:30.560",
+            "text": "implementation is Yeah."
+          },
+          {
+            "start": "00:41:30.560",
+            "end": "00:41:32.240",
+            "text": "So what are the lessons that we have"
+          },
+          {
+            "start": "00:41:32.240",
+            "end": "00:41:34.240",
+            "text": "learned from this uh implementation?"
+          },
+          {
+            "start": "00:41:34.240",
+            "end": "00:41:36.640",
+            "text": "Well, the interoperability is is is"
+          },
+          {
+            "start": "00:41:36.640",
+            "end": "00:41:39.599",
+            "text": "good. We we don't lose a lot of data in"
+          },
+          {
+            "start": "00:41:39.599",
+            "end": "00:41:42.480",
+            "text": "the transformation. Um we do need to do"
+          },
+          {
+            "start": "00:41:42.480",
+            "end": "00:41:45.040",
+            "text": "some triggery uh in the sense that yeah,"
+          },
+          {
+            "start": "00:41:45.040",
+            "end": "00:41:48.400",
+            "text": "we we have this document approach. Um"
+          },
+          {
+            "start": "00:41:48.400",
+            "end": "00:41:50.160",
+            "text": "and a lot of the relationships that we"
+          },
+          {
+            "start": "00:41:50.160",
+            "end": "00:41:52.000",
+            "text": "have are actually implicit in it because"
+          },
+          {
+            "start": "00:41:52.000",
+            "end": "00:41:54.720",
+            "text": "they're nested into in this in this"
+          },
+          {
+            "start": "00:41:54.720",
+            "end": "00:41:57.839",
+            "text": "bigger object. we don't need an specific"
+          },
+          {
+            "start": "00:41:57.839",
+            "end": "00:42:01.040",
+            "text": "identifiers for them. Um, so what we did"
+          },
+          {
+            "start": "00:42:01.040",
+            "end": "00:42:02.800",
+            "text": "need to do was create a lot of"
+          },
+          {
+            "start": "00:42:02.800",
+            "end": "00:42:05.280",
+            "text": "identifiers which we do through an MD"
+          },
+          {
+            "start": "00:42:05.280",
+            "end": "00:42:09.359",
+            "text": "MD5 hash of the object and then uh we"
+          },
+          {
+            "start": "00:42:09.359",
+            "end": "00:42:11.680",
+            "text": "needed to duplicate all the information"
+          },
+          {
+            "start": "00:42:11.680",
+            "end": "00:42:15.440",
+            "text": "where uh where we use temporary tables."
+          },
+          {
+            "start": "00:42:15.440",
+            "end": "00:42:18.880",
+            "text": "So we we hash those and and use those uh"
+          }
+        ]
+      },
+      "evidence_2026": {
+        "item_id": "sala-2026-09-24-14",
+        "title": "Aligning An Evolving Global Data Model To Software With Global Ambitions: GBIF x TaxonWorks",
+        "year": 2026,
+        "speakers": [
+          {
+            "name": "Matthew Yoder",
+            "affiliation": ""
+          }
+        ],
+        "speaker_notes": "Introduced as Matt Yoder; content matches the abstract.",
+        "timestamp": "06:50:06",
+        "video_link": "https://vimeo.com/1230142990/f375daa720#t=24606s",
+        "source_file": "source/TDWG 2026-09-24 SAL A.srt",
+        "source_sha256": "6ecedf03fbc6b310d3fc572dff42bc2771e8e7c6fcbd4d5c4d477889b39feeb8",
+        "passage_start": "06:49:46.834",
+        "passage_end": "06:50:38.646",
+        "passage": "agents. And I'll just zoom ahead to my conclusion here. It was a wonderful exercise to compare against that DP package, and I think it's becoming much easier to align broader conceptual frameworks. So that's great. One of the things that's coming out, to the chagrin of my German colleague's conversations, is that there are certain patterns that are coming out. Partial alignment is the norm. Lossy exchange. If I go from TaxonWorks to DP, I'm always going to be lossy. And for argument's sake, I call this a law because it happens everywhere. It's not a law, right? But how does that help us think about, and is it a barrier to describing life at scale if we always have to go lossy to lossy? Will SSM be adequate for schema exchange? I hope so. It should be cool. We see schema convergence. It's very clear to me that we have schema convergence",
+        "caption_cues": [
+          {
+            "start": "06:49:46.834",
+            "end": "06:49:49.394",
+            "text": "agents. And I'll just zoom ahead to my conclusion here."
+          },
+          {
+            "start": "06:49:52.814",
+            "end": "06:49:55.694",
+            "text": "It was a wonderful exercise to compare against that DP package, and I think it's"
+          },
+          {
+            "start": "06:49:55.714",
+            "end": "06:49:58.854",
+            "text": "becoming much easier to align broader conceptual frameworks."
+          },
+          {
+            "start": "06:49:59.434",
+            "end": "06:50:03.134",
+            "text": "So that's great. One of the things that's coming out, to the chagrin of my"
+          },
+          {
+            "start": "06:50:03.194",
+            "end": "06:50:06.634",
+            "text": "German colleague's conversations, is that there are certain patterns that are"
+          },
+          {
+            "start": "06:50:06.674",
+            "end": "06:50:09.514",
+            "text": "coming out. Partial alignment is the norm."
+          },
+          {
+            "start": "06:50:09.954",
+            "end": "06:50:13.454",
+            "text": "Lossy exchange. If I go from TaxonWorks to DP, I'm always going to be"
+          },
+          {
+            "start": "06:50:13.514",
+            "end": "06:50:14.394",
+            "text": "lossy. And"
+          },
+          {
+            "start": "06:50:15.794",
+            "end": "06:50:18.774",
+            "text": "for argument's sake, I call this a law because it happens everywhere."
+          },
+          {
+            "start": "06:50:19.726",
+            "end": "06:50:23.266",
+            "text": "It's not a law, right? But how does that help us think about,"
+          },
+          {
+            "start": "06:50:23.726",
+            "end": "06:50:27.666",
+            "text": "and is it a barrier to describing life at scale if we always have"
+          },
+          {
+            "start": "06:50:27.706",
+            "end": "06:50:31.186",
+            "text": "to go lossy to lossy? Will SSM be adequate for"
+          },
+          {
+            "start": "06:50:31.566",
+            "end": "06:50:33.686",
+            "text": "schema exchange? I hope so. It should be cool."
+          },
+          {
+            "start": "06:50:34.846",
+            "end": "06:50:38.646",
+            "text": "We see schema convergence. It's very clear to me that we have schema convergence"
+          }
+        ]
+      }
+    },
+    {
+      "id": "indigenous-governance-related-work",
+      "title": "Indigenous data concerns → related restriction vocabulary work",
+      "relationship_type": "related_parallel_work",
+      "theme_ids": [
+        "darwin-core-data-package",
+        "indigenous-data-governance"
+      ],
+      "then": "The panel says DwC-DP usage policy does not yet solve Indigenous-data concerns and needs to evolve.",
+      "now": "Tania Laity’s restricted-data proposal includes First Nations cultural significance in its reasons vocabulary.",
+      "interpretation": "The later talk provides related, concrete work on expressing reasons for restrictions.",
+      "caveat": "This does not resolve the broader CARE, sovereignty or community-authority question. The 2026 speaker traces the task group to a 2023 workshop, so no causal origin in the 2025 discussion is inferred.",
+      "review_status": "caption_checked",
+      "causal_lineage_asserted": false,
+      "review_notes": "Expanded the 2025 window to include Jane Anderson’s Indigenous-data question and the panel’s answer. The 2026 window explicitly includes First Nations cultural significance. Additional context at 01:19:51–01:20:05 in that recording traces the task group to Hobart 2023, so it is labelled parallel work.",
+      "evidence_2025": {
+        "item_id": "livingdata-2025-dp-p1-07-discussion",
+        "title": "Part 1 Q&A: effort, identifiers, complexity for users, Indigenous data, interactions, EML and extended specimens",
+        "year": 2025,
+        "speakers": [
+          {
+            "name": "Tim Robertson",
+            "affiliation": "GBIF (deputy director and head of informatics)"
+          },
+          {
+            "name": "John Wieczorek",
+            "affiliation": "Rauthiflor LLC"
+          },
+          {
+            "name": "Kate Ingenloff",
+            "affiliation": ""
+          },
+          {
+            "name": "Eduardo Klein",
+            "affiliation": "Integrated Marine Observing System (IMOS), Australia"
+          },
+          {
+            "name": "Jane Anderson",
+            "affiliation": "Local Contexts"
+          },
+          {
+            "name": "Shandra (ASR spelling; uncertain)",
+            "affiliation": "National Ecological Observatory Network (NEON), USA"
+          },
+          {
+            "name": "Deb (surname not stated)",
+            "affiliation": ""
+          },
+          {
+            "name": "Unnamed participant",
+            "affiliation": "Biodiversity observation network in Quebec, Canada"
+          }
+        ],
+        "speaker_notes": "Combined Q&A for all Part 1 use cases, matching the scheduled Discussion slot; it started early because the session was about 15 minutes ahead of schedule (the chair says it is 3:05 with 25 minutes for questions). Tim Robertson introduces himself at 01:14:35.920; John Wieczorek follows (ASR 'John Vurik'). Many answers are not attributed in the captions: attributions to John Wieczorek (first effort question, complexity question, Indigenous data, interactions, workshops) and to Tim Robertson (EML, extended specimen) are inferred from content and context, and should be checked. Online question names are ASR and unverified: 'Matias Dylan'; 'Urit Pulen' (possibly Jorrit Poelen — unverified); 'KT Pearson' (possibly Katie Pearson — unverified); 'Kapia Molina', addressed by the answerer as 'Javier'. 'Edardo Klein' corrected to Eduardo Klein from the stated IMOS affiliation (medium confidence). The NEON participant's name is rendered 'Shandra'/'Aandra'.",
+        "timestamp": "01:23:51.600",
+        "video_link": "https://www.youtube.com/watch?v=RH05GIF0xWk&t=5031s",
+        "source_file": "source/living-data-2025/data-package/part-1.srt",
+        "source_sha256": "ab4ec7f5ea5eb94d3a010445ca4bd10fbb83b89689ea5bab516c101cb73db433",
+        "passage_start": "01:22:23.360",
+        "passage_end": "01:24:23.920",
+        "passage": "over here. There's one over here, too. >> Go ahead. Sorry, I didn't get the question. >> That's okay. Hi. Um, my name's Jane Anderson. I'm from Local Context, and I just wanted to ask both uh thank you for the presentations and for the case studies. I wanted to ask um the for the case studies, how you might have been dealing with indigenous data and just pulling a thread through from the keynote this morning. And then this uh possibility of the data package uh opening up space for indigenous interests to be uh included. I just wonder how you're thinking about that as well. >> Very good question. Um the first and simplest answer is that we haven't gone through a proper use case and so there isn't a proper solution to all of the concerns that come up. However, there are working groups in Tadwig that are interested in these things. Um, one of which is sensitive data that can be >> I won't cross the lines here with the same kinds of concerns that you're talking about. So as >> this one >> star for maintenance group which is kind of responsible for all all of this we're aware of and trying to make sure that the solutions that are that come up there end up in the data package as well and it's middle stages in terms of determining how that works and also about integrating the care principles for example into uh usage policy. No, I I would never claim that usage policy as it stands in Dracore data package solves the kinds of issues that will arise there, but it needs to. And as all Darmman core things, it's a standard that's meant to evolve. An online question from Urit Pulen. I'm",
+        "caption_cues": [
+          {
+            "start": "01:22:23.360",
+            "end": "01:22:27.560",
+            "text": "over here. There's one over here, too."
+          },
+          {
+            "start": "01:22:28.880",
+            "end": "01:22:30.239",
+            "text": ">> Go ahead. Sorry, I didn't get the"
+          },
+          {
+            "start": "01:22:30.239",
+            "end": "01:22:30.639",
+            "text": "question."
+          },
+          {
+            "start": "01:22:30.639",
+            "end": "01:22:32.239",
+            "text": ">> That's okay. Hi. Um, my name's Jane"
+          },
+          {
+            "start": "01:22:32.239",
+            "end": "01:22:34.000",
+            "text": "Anderson. I'm from Local Context, and I"
+          },
+          {
+            "start": "01:22:34.000",
+            "end": "01:22:36.320",
+            "text": "just wanted to ask both uh thank you for"
+          },
+          {
+            "start": "01:22:36.320",
+            "end": "01:22:37.679",
+            "text": "the presentations and for the case"
+          },
+          {
+            "start": "01:22:37.679",
+            "end": "01:22:40.719",
+            "text": "studies. I wanted to ask um the for the"
+          },
+          {
+            "start": "01:22:40.719",
+            "end": "01:22:42.320",
+            "text": "case studies, how you might have been"
+          },
+          {
+            "start": "01:22:42.320",
+            "end": "01:22:44.080",
+            "text": "dealing with indigenous data and just"
+          },
+          {
+            "start": "01:22:44.080",
+            "end": "01:22:46.080",
+            "text": "pulling a thread through from the"
+          },
+          {
+            "start": "01:22:46.080",
+            "end": "01:22:48.320",
+            "text": "keynote this morning. And then this uh"
+          },
+          {
+            "start": "01:22:48.320",
+            "end": "01:22:51.199",
+            "text": "possibility of the data package uh"
+          },
+          {
+            "start": "01:22:51.199",
+            "end": "01:22:52.800",
+            "text": "opening up space for indigenous"
+          },
+          {
+            "start": "01:22:52.800",
+            "end": "01:22:54.719",
+            "text": "interests to be uh included. I just"
+          },
+          {
+            "start": "01:22:54.719",
+            "end": "01:22:56.239",
+            "text": "wonder how you're thinking about that as"
+          },
+          {
+            "start": "01:22:56.239",
+            "end": "01:22:59.239",
+            "text": "well."
+          },
+          {
+            "start": "01:23:02.960",
+            "end": "01:23:06.000",
+            "text": ">> Very good question. Um the first and"
+          },
+          {
+            "start": "01:23:06.000",
+            "end": "01:23:07.600",
+            "text": "simplest answer is that we haven't gone"
+          },
+          {
+            "start": "01:23:07.600",
+            "end": "01:23:10.080",
+            "text": "through a proper use case and so there"
+          },
+          {
+            "start": "01:23:10.080",
+            "end": "01:23:12.400",
+            "text": "isn't a proper solution to all of the"
+          },
+          {
+            "start": "01:23:12.400",
+            "end": "01:23:15.120",
+            "text": "concerns that come up. However, there"
+          },
+          {
+            "start": "01:23:15.120",
+            "end": "01:23:17.520",
+            "text": "are working groups in Tadwig that are"
+          },
+          {
+            "start": "01:23:17.520",
+            "end": "01:23:20.400",
+            "text": "interested in these things. Um, one of"
+          },
+          {
+            "start": "01:23:20.400",
+            "end": "01:23:23.760",
+            "text": "which is sensitive data that can be"
+          },
+          {
+            "start": "01:23:23.760",
+            "end": "01:23:26.880",
+            "text": ">> I won't cross the lines here with the"
+          },
+          {
+            "start": "01:23:26.880",
+            "end": "01:23:28.080",
+            "text": "same kinds of concerns that you're"
+          },
+          {
+            "start": "01:23:28.080",
+            "end": "01:23:30.239",
+            "text": "talking about. So as"
+          },
+          {
+            "start": "01:23:30.239",
+            "end": "01:23:30.880",
+            "text": ">> this one"
+          },
+          {
+            "start": "01:23:30.880",
+            "end": "01:23:33.600",
+            "text": ">> star for maintenance group which is kind"
+          },
+          {
+            "start": "01:23:33.600",
+            "end": "01:23:37.040",
+            "text": "of responsible for all all of this we're"
+          },
+          {
+            "start": "01:23:37.040",
+            "end": "01:23:39.920",
+            "text": "aware of and trying to make sure that"
+          },
+          {
+            "start": "01:23:39.920",
+            "end": "01:23:41.520",
+            "text": "the solutions that are that come up"
+          },
+          {
+            "start": "01:23:41.520",
+            "end": "01:23:44.719",
+            "text": "there end up in the data package as well"
+          },
+          {
+            "start": "01:23:44.719",
+            "end": "01:23:46.480",
+            "text": "and"
+          },
+          {
+            "start": "01:23:46.480",
+            "end": "01:23:49.280",
+            "text": "it's middle stages in terms of"
+          },
+          {
+            "start": "01:23:49.280",
+            "end": "01:23:51.600",
+            "text": "determining how that works and also"
+          },
+          {
+            "start": "01:23:51.600",
+            "end": "01:23:54.159",
+            "text": "about integrating the care principles"
+          },
+          {
+            "start": "01:23:54.159",
+            "end": "01:23:58.960",
+            "text": "for example into uh usage policy. No, I"
+          },
+          {
+            "start": "01:23:58.960",
+            "end": "01:24:01.679",
+            "text": "I would never claim that usage policy as"
+          },
+          {
+            "start": "01:24:01.679",
+            "end": "01:24:04.080",
+            "text": "it stands in Dracore data package solves"
+          },
+          {
+            "start": "01:24:04.080",
+            "end": "01:24:06.000",
+            "text": "the kinds of issues that will arise"
+          },
+          {
+            "start": "01:24:06.000",
+            "end": "01:24:09.840",
+            "text": "there, but it needs to. And as all"
+          },
+          {
+            "start": "01:24:09.840",
+            "end": "01:24:11.600",
+            "text": "Darmman core things, it's a standard"
+          },
+          {
+            "start": "01:24:11.600",
+            "end": "01:24:15.239",
+            "text": "that's meant to evolve."
+          },
+          {
+            "start": "01:24:21.760",
+            "end": "01:24:23.920",
+            "text": "An online question from Urit Pulen. I'm"
+          }
+        ]
+      },
+      "evidence_2026": {
+        "item_id": "salb-2026-09-22-07",
+        "title": "A new standard for restricted access (sensitive) species data",
+        "year": 2026,
+        "speakers": [
+          {
+            "name": "Tania Laity",
+            "affiliation": "Atlas of Living Australia"
+          }
+        ],
+        "speaker_notes": "Introduced as 'Tanya Latey' (ASR) from the ALA; content matches the abstract.",
+        "timestamp": "01:23:16",
+        "video_link": "https://vimeo.com/1229289729/f137d0855e#t=4996s",
+        "source_file": "source/TDWG 2026-09-22 SAL B.srt",
+        "source_sha256": "868997264d5423f4da50aefef0cd823298a37bc8b339d5d1c7a39a212e483d8e",
+        "passage_start": "01:23:09.270",
+        "passage_end": "01:25:07.890",
+        "passage": "the administration that you're dealing with. So as you can see there as an example. So the RASD reasons that we've come up with to form the vocabulary. So they're things like personal information and privacy, which may either be a lack of consent or someone's asked for request for privacy for their information. Sensitive species location, so this might be where a species is highly restricted, there's a threatened population, there's exposure via survey information. Don't know why it went-- Or a potential harm to people or property, or there might be a lack of information about the species. Biosecurity risk, so there might be trade species or invasive species. Species attributes might be something that might need to be restricted. So other people have talked about things like roosting sites or nesting occurrences. So that sort of information might be something that might be restricted within a record, not the whole record itself. And there may be usage restrictions on the data. So there might be a legal contract or other reasons for withholding the data or generalizing the data in some way. And last but not least, First Nations cultural significance. So there might be culturally significant species or significant information, or it might be a particularly sensitive or significant location, such as a sacred site.",
+        "caption_cues": [
+          {
+            "start": "01:23:09.270",
+            "end": "01:23:10.870",
+            "text": "the administration that you're dealing with."
+          },
+          {
+            "start": "01:23:11.250",
+            "end": "01:23:11.510",
+            "text": "So"
+          },
+          {
+            "start": "01:23:13.750",
+            "end": "01:23:15.450",
+            "text": "as you can see there as an example."
+          },
+          {
+            "start": "01:23:16.950",
+            "end": "01:23:19.830",
+            "text": "So the RASD reasons that we've come up with"
+          },
+          {
+            "start": "01:23:21.070",
+            "end": "01:23:22.610",
+            "text": "to form the vocabulary."
+          },
+          {
+            "start": "01:23:24.790",
+            "end": "01:23:27.390",
+            "text": "So they're things like personal information and privacy,"
+          },
+          {
+            "start": "01:23:29.970",
+            "end": "01:23:32.890",
+            "text": "which may either be a lack of consent or"
+          },
+          {
+            "start": "01:23:33.530",
+            "end": "01:23:37.270",
+            "text": "someone's asked for request for privacy for their information."
+          },
+          {
+            "start": "01:23:39.330",
+            "end": "01:23:43.270",
+            "text": "Sensitive species location, so this might be where a"
+          },
+          {
+            "start": "01:23:44.530",
+            "end": "01:23:47.550",
+            "text": "species is highly restricted, there's a threatened"
+          },
+          {
+            "start": "01:23:47.610",
+            "end": "01:23:51.510",
+            "text": "population, there's exposure via survey"
+          },
+          {
+            "start": "01:23:51.610",
+            "end": "01:23:52.530",
+            "text": "information."
+          },
+          {
+            "start": "01:23:54.210",
+            "end": "01:23:54.870",
+            "text": "Don't know why it went--"
+          },
+          {
+            "start": "01:24:00.530",
+            "end": "01:24:04.310",
+            "text": "Or a potential harm to people or property, or there might be"
+          },
+          {
+            "start": "01:24:04.710",
+            "end": "01:24:06.670",
+            "text": "a lack of information about the species."
+          },
+          {
+            "start": "01:24:08.230",
+            "end": "01:24:11.870",
+            "text": "Biosecurity risk, so there might be trade species or invasive"
+          },
+          {
+            "start": "01:24:11.950",
+            "end": "01:24:12.650",
+            "text": "species."
+          },
+          {
+            "start": "01:24:14.510",
+            "end": "01:24:15.850",
+            "text": "Species attributes might"
+          },
+          {
+            "start": "01:24:17.930",
+            "end": "01:24:19.970",
+            "text": "be something that might need to be restricted."
+          },
+          {
+            "start": "01:24:20.050",
+            "end": "01:24:21.850",
+            "text": "So other people have talked about"
+          },
+          {
+            "start": "01:24:22.970",
+            "end": "01:24:25.750",
+            "text": "things like roosting sites or nesting"
+          },
+          {
+            "start": "01:24:28.630",
+            "end": "01:24:32.510",
+            "text": "occurrences. So that sort of information might be something that might be"
+          },
+          {
+            "start": "01:24:32.550",
+            "end": "01:24:36.030",
+            "text": "restricted within a record, not the whole record itself."
+          },
+          {
+            "start": "01:24:37.730",
+            "end": "01:24:40.110",
+            "text": "And there may be usage restrictions on the data."
+          },
+          {
+            "start": "01:24:40.150",
+            "end": "01:24:43.750",
+            "text": "So there might be a legal contract or other reasons"
+          },
+          {
+            "start": "01:24:44.130",
+            "end": "01:24:45.750",
+            "text": "for withholding the data or"
+          },
+          {
+            "start": "01:24:47.410",
+            "end": "01:24:48.910",
+            "text": "generalizing the data in some way."
+          },
+          {
+            "start": "01:24:49.510",
+            "end": "01:24:53.490",
+            "text": "And last but not least, First Nations cultural significance."
+          },
+          {
+            "start": "01:24:53.890",
+            "end": "01:24:57.330",
+            "text": "So there might be culturally significant species or"
+          },
+          {
+            "start": "01:24:58.450",
+            "end": "01:24:59.770",
+            "text": "significant information,"
+          },
+          {
+            "start": "01:25:01.450",
+            "end": "01:25:03.310",
+            "text": "or it might be a particularly"
+          },
+          {
+            "start": "01:25:04.450",
+            "end": "01:25:07.890",
+            "text": "sensitive or significant location, such as a sacred site."
+          }
+        ]
+      }
+    },
+    {
+      "id": "material-derivation-examples",
+      "title": "Material derivation across two collection examples",
+      "relationship_type": "topical_comparison",
+      "theme_ids": [
+        "darwin-core-data-package",
+        "digital-extended-specimen",
+        "collection-data-models"
+      ],
+      "then": "Jörg Holetschek shows the Berlin herbarium’s specimens, tissues and DNA samples as linked materials rather than disconnected exports.",
+      "now": "Jonas Grieb works through a bat specimen, tissue and molecular-extract chain using material derivation relationships.",
+      "interpretation": "Two institutions illustrate how the same modelling capability can express specimen-to-sample lineage.",
+      "caveat": "This is a topical comparison of different datasets, not a demonstrated historical follow-up or evidence that DINA reused Berlin’s mapping.",
+      "review_status": "caption_checked",
+      "causal_lineage_asserted": false,
+      "review_notes": "Both passages explicitly describe specimen → tissue → DNA/molecular-sample chains; the 2026 passage names the derived-from field and retains an event-linking question. No reuse between institutions is claimed.",
+      "evidence_2025": {
+        "item_id": "livingdata-2025-dp-p1-03-bgbm-collections",
+        "title": "From Flat to Structured: Enhancing Natural History Collection Datasets in GBIF Using Darwin Core Data Packages",
+        "year": 2025,
+        "speakers": [
+          {
+            "name": "Jörg Holetschek",
+            "affiliation": "Botanic Garden & Botanical Museum Berlin"
+          }
+        ],
+        "speaker_notes": "ASR renders the self-introduction as 'Daniel Kchek from Bhutanic Museum in Berlin' and the chair's introduction as 'Yolichek'; programme context identifies Jörg Holetschek, Botanic Garden & Botanical Museum Berlin (BGBM). The speaker mentions working at the centre for biodiversity informatics and collection data integration. 'GIF' is ASR for GBIF; 'IoT' (in 'break uh a CSV and the IoT') is probably the IPT, but this is uncertain.",
+        "timestamp": "00:28:52.480",
+        "video_link": "https://www.youtube.com/watch?v=RH05GIF0xWk&t=1732s",
+        "source_file": "source/living-data-2025/data-package/part-1.srt",
+        "source_sha256": "ab4ec7f5ea5eb94d3a010445ca4bd10fbb83b89689ea5bab516c101cb73db433",
+        "passage_start": "00:28:52.480",
+        "passage_end": "00:30:34.640",
+        "passage": "Um so far so before Darwin core data package we provided only the specimen and the specimen image to GIF um the tissue and the material samples we shared with the global genome biodiversity network because um this network also is able to um to show all the associations between the objects. So you can if you're looking for a DNA sample, you can go to GGBN, it'll find the DNA sample and then it will link you to the um tissue sample this DNA has been taken from and then to the specimen that the tissue has been taken from and as I said before the sequences are shared with NCBI. Um now again publishing model as Gary showed. Um again of course uh a specimen documents the existing the existence of an organism um the an event documents the gathering event documents the existence of an occurrence um at a given location of course. And then all the materials that get um that get um sampled or that get gathered of course first is the specimen that is the specimen gathered on site. Uh later the material is taken the material sample the tissue sample is taken from the specimen and the DNA is uh taken from from the tissue sample. Um these are the the arrows. They show that um this this this",
+        "caption_cues": [
+          {
+            "start": "00:28:52.480",
+            "end": "00:28:55.440",
+            "text": "Um so far so before Darwin core data"
+          },
+          {
+            "start": "00:28:55.440",
+            "end": "00:28:58.240",
+            "text": "package we provided only the specimen"
+          },
+          {
+            "start": "00:28:58.240",
+            "end": "00:29:01.919",
+            "text": "and the specimen image to GIF um the"
+          },
+          {
+            "start": "00:29:01.919",
+            "end": "00:29:04.159",
+            "text": "tissue and the material samples we"
+          },
+          {
+            "start": "00:29:04.159",
+            "end": "00:29:05.520",
+            "text": "shared with the global genome"
+          },
+          {
+            "start": "00:29:05.520",
+            "end": "00:29:08.880",
+            "text": "biodiversity network because um this"
+          },
+          {
+            "start": "00:29:08.880",
+            "end": "00:29:13.840",
+            "text": "network also is able to um to show all"
+          },
+          {
+            "start": "00:29:13.840",
+            "end": "00:29:17.039",
+            "text": "the associations between the objects. So"
+          },
+          {
+            "start": "00:29:17.039",
+            "end": "00:29:19.360",
+            "text": "you can if you're looking for a DNA"
+          },
+          {
+            "start": "00:29:19.360",
+            "end": "00:29:22.320",
+            "text": "sample, you can go to GGBN, it'll find"
+          },
+          {
+            "start": "00:29:22.320",
+            "end": "00:29:24.640",
+            "text": "the DNA sample and then it will link you"
+          },
+          {
+            "start": "00:29:24.640",
+            "end": "00:29:27.120",
+            "text": "to the um tissue sample this DNA has"
+          },
+          {
+            "start": "00:29:27.120",
+            "end": "00:29:29.760",
+            "text": "been taken from and then to the specimen"
+          },
+          {
+            "start": "00:29:29.760",
+            "end": "00:29:32.320",
+            "text": "that the tissue has been taken from and"
+          },
+          {
+            "start": "00:29:32.320",
+            "end": "00:29:34.159",
+            "text": "as I said before the sequences are"
+          },
+          {
+            "start": "00:29:34.159",
+            "end": "00:29:38.279",
+            "text": "shared with NCBI."
+          },
+          {
+            "start": "00:29:38.320",
+            "end": "00:29:42.399",
+            "text": "Um now again publishing model as Gary"
+          },
+          {
+            "start": "00:29:42.399",
+            "end": "00:29:44.720",
+            "text": "showed. Um"
+          },
+          {
+            "start": "00:29:44.720",
+            "end": "00:29:48.080",
+            "text": "again of course uh a specimen documents"
+          },
+          {
+            "start": "00:29:48.080",
+            "end": "00:29:50.960",
+            "text": "the existing the existence of an"
+          },
+          {
+            "start": "00:29:50.960",
+            "end": "00:29:55.919",
+            "text": "organism um the an event documents the"
+          },
+          {
+            "start": "00:29:55.919",
+            "end": "00:29:58.240",
+            "text": "gathering event documents the existence"
+          },
+          {
+            "start": "00:29:58.240",
+            "end": "00:30:01.679",
+            "text": "of an occurrence um at a given location"
+          },
+          {
+            "start": "00:30:01.679",
+            "end": "00:30:04.799",
+            "text": "of course. And then all the materials"
+          },
+          {
+            "start": "00:30:04.799",
+            "end": "00:30:08.080",
+            "text": "that get um that get um sampled or that"
+          },
+          {
+            "start": "00:30:08.080",
+            "end": "00:30:10.799",
+            "text": "get gathered of course first is the"
+          },
+          {
+            "start": "00:30:10.799",
+            "end": "00:30:13.039",
+            "text": "specimen that is the specimen gathered"
+          },
+          {
+            "start": "00:30:13.039",
+            "end": "00:30:16.880",
+            "text": "on site. Uh later the material is taken"
+          },
+          {
+            "start": "00:30:16.880",
+            "end": "00:30:19.679",
+            "text": "the material sample the tissue sample is"
+          },
+          {
+            "start": "00:30:19.679",
+            "end": "00:30:22.240",
+            "text": "taken from the specimen"
+          },
+          {
+            "start": "00:30:22.240",
+            "end": "00:30:27.279",
+            "text": "and the DNA is uh taken from from the"
+          },
+          {
+            "start": "00:30:27.279",
+            "end": "00:30:31.279",
+            "text": "tissue sample. Um these are the the"
+          },
+          {
+            "start": "00:30:31.279",
+            "end": "00:30:34.640",
+            "text": "arrows. They show that um this this this"
+          }
+        ]
+      },
+      "evidence_2026": {
+        "item_id": "sala-2026-09-24-15",
+        "title": "Material Samples and Occurrences in Darwin Core Data Packages: Practical Experiences from DINA",
+        "year": 2026,
+        "speakers": [
+          {
+            "name": "Jonas Grieb",
+            "affiliation": "Senckenberg Data and Modelling Centre"
+          }
+        ],
+        "speaker_notes": "Introduced as Jonas Grieb ('Dino' in ASR for DINA); content matches the abstract. Affiliation from Marije Timmermans' reference to her SDMC colleague.",
+        "timestamp": "06:55:53",
+        "video_link": "https://vimeo.com/1230142990/f375daa720#t=24953s",
+        "source_file": "source/TDWG 2026-09-24 SAL A.srt",
+        "source_sha256": "6ecedf03fbc6b310d3fc572dff42bc2771e8e7c6fcbd4d5c4d477889b39feeb8",
+        "passage_start": "06:55:53.246",
+        "passage_end": "06:57:32.642",
+        "passage": "Now I want to show you two very practical examples of data. How is it in Dino, and how can it be transformed into something in the Darwin Core data package format? This first example that you see here is a material sample, which represent actually a molecular sample that was extracted from something. So it has a parent material sample, a tissue sample preserved in alcohol, which in turn also has a parent material sample, which is a cataloged specimen of a fruit bat in a mammalogy collection. Now, what you see on this slide is really the same information as on the previous slide, but according to DINA's internal database schema, that's the upper and the left part of the slide. You will see again three blue boxes. They represent three material samples. They have a relationship between them via the parent material sample field, and we also have an organism with a determination in the scientific name. On the right lower part, you see how this data would be transformed in Darwin Core data package. And it works very well. Material samples just become material entities. We can model the relationships between them via the derived from material entity field. And that works very well. It just imposed some minor questions. For example, is it sufficient, like I did here, to link only the parent material sample of such a chain to the event where it was collected?",
+        "caption_cues": [
+          {
+            "start": "06:55:53.246",
+            "end": "06:55:56.166",
+            "text": "Now I want to show you two very practical"
+          },
+          {
+            "start": "06:55:56.646",
+            "end": "06:56:00.206",
+            "text": "examples of data. How is it in Dino, and how can it be"
+          },
+          {
+            "start": "06:56:00.386",
+            "end": "06:56:02.426",
+            "text": "transformed into something in the"
+          },
+          {
+            "start": "06:56:03.466",
+            "end": "06:56:07.246",
+            "text": "Darwin Core data package format? This first example that you see"
+          },
+          {
+            "start": "06:56:07.306",
+            "end": "06:56:07.466",
+            "text": "here"
+          },
+          {
+            "start": "06:56:09.266",
+            "end": "06:56:13.206",
+            "text": "is a material sample, which represent actually a molecular sample"
+          },
+          {
+            "start": "06:56:13.266",
+            "end": "06:56:15.486",
+            "text": "that was extracted from something."
+          },
+          {
+            "start": "06:56:15.546",
+            "end": "06:56:19.306",
+            "text": "So it has a parent material sample, a tissue sample"
+          },
+          {
+            "start": "06:56:19.366",
+            "end": "06:56:23.266",
+            "text": "preserved in alcohol, which in turn also has a parent material sample,"
+          },
+          {
+            "start": "06:56:23.326",
+            "end": "06:56:26.666",
+            "text": "which is a cataloged specimen of a fruit bat in a"
+          },
+          {
+            "start": "06:56:26.946",
+            "end": "06:56:27.846",
+            "text": "mammalogy collection."
+          },
+          {
+            "start": "06:56:28.962",
+            "end": "06:56:29.202",
+            "text": "Now,"
+          },
+          {
+            "start": "06:56:30.162",
+            "end": "06:56:34.062",
+            "text": "what you see on this slide is really the same information as on the"
+          },
+          {
+            "start": "06:56:34.102",
+            "end": "06:56:37.302",
+            "text": "previous slide, but according to DINA's"
+          },
+          {
+            "start": "06:56:37.882",
+            "end": "06:56:41.782",
+            "text": "internal database schema, that's the upper and the left part of"
+          },
+          {
+            "start": "06:56:41.822",
+            "end": "06:56:42.282",
+            "text": "the slide."
+          },
+          {
+            "start": "06:56:44.182",
+            "end": "06:56:46.142",
+            "text": "You will see again three blue boxes."
+          },
+          {
+            "start": "06:56:46.202",
+            "end": "06:56:49.102",
+            "text": "They represent three material samples."
+          },
+          {
+            "start": "06:56:49.282",
+            "end": "06:56:53.202",
+            "text": "They have a relationship between them via the parent material"
+          },
+          {
+            "start": "06:56:53.302",
+            "end": "06:56:54.122",
+            "text": "sample field,"
+          },
+          {
+            "start": "06:56:54.962",
+            "end": "06:56:58.042",
+            "text": "and we also have an organism with a determination in the scientific name."
+          },
+          {
+            "start": "06:56:58.862",
+            "end": "06:57:02.162",
+            "text": "On the right lower part, you see how this data would be"
+          },
+          {
+            "start": "06:57:02.222",
+            "end": "06:57:04.742",
+            "text": "transformed in Darwin Core data package."
+          },
+          {
+            "start": "06:57:05.362",
+            "end": "06:57:09.182",
+            "text": "And it works very well. Material samples just become material"
+          },
+          {
+            "start": "06:57:09.242",
+            "end": "06:57:09.802",
+            "text": "entities."
+          },
+          {
+            "start": "06:57:10.822",
+            "end": "06:57:14.462",
+            "text": "We can model the relationships between them via the"
+          },
+          {
+            "start": "06:57:14.502",
+            "end": "06:57:16.442",
+            "text": "derived from material entity field."
+          },
+          {
+            "start": "06:57:17.962",
+            "end": "06:57:21.402",
+            "text": "And that works very well. It just imposed"
+          },
+          {
+            "start": "06:57:21.482",
+            "end": "06:57:25.082",
+            "text": "some minor questions. For example, is it sufficient,"
+          },
+          {
+            "start": "06:57:25.302",
+            "end": "06:57:29.002",
+            "text": "like I did here, to link only the parent material"
+          },
+          {
+            "start": "06:57:29.062",
+            "end": "06:57:32.642",
+            "text": "sample of such a chain to the event where it was collected?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "conceptual-model-to-designer",
+      "title": "The conceptual model, presented with a design tool",
+      "relationship_type": "same_speaker_and_standard",
+      "theme_ids": [
+        "darwin-core-data-package",
+        "schema-design-and-data-modelling",
+        "collection-data-models"
+      ],
+      "then": "John Wieczorek describes the proposed conceptual model as a semantic layer for Darwin Core classes.",
+      "now": "John demonstrates the Data Package Designer and generating a descriptor from selected tables.",
+      "interpretation": "The same speaker and standard connect a conceptual explanation with a concrete authoring demonstration in the later talk.",
+      "caveat": "Tools already existed in 2025. This pair does not establish when the Designer was first built, or that authoring tools were absent before 2026.",
+      "review_status": "caption_checked",
+      "causal_lineage_asserted": false,
+      "review_notes": "The 2025 passage describes a semantic layer; the 2026 passage describes selecting tables, inspecting relationships and generating data package JSON. The pair does not establish the tool’s creation date.",
+      "evidence_2025": {
+        "item_id": "livingdata-2025-dp-p2-01-dwc-dp-overview",
+        "title": "Darwin Core Data Package: A Practical Evolution to Support Richer, Deeper, and New Biodiversity Data Sharing",
+        "year": 2025,
+        "speakers": [
+          {
+            "name": "John Wieczorek",
+            "affiliation": "Rauthiflor LLC"
+          },
+          {
+            "name": "Walter (surname not stated)",
+            "affiliation": ""
+          }
+        ],
+        "speaker_notes": "Chair introduces 'John McCor' (ASR) for the overview; the speaker refers to himself as John ('when John has time to do it'), and programme context identifies John Wieczorek (affiliation from programme; not stated in captions). Includes talk-specific Q&A (00:20:18.160–00:22:56.039) with a follow-up comment from 'Walter' (ASR 'Valter'); the surname is not stated — possibly Walter G. Berendsohn, but unverified. 'Humbult Core' = Humboldt (Extension); 'frictions data packages' = Frictionless Data Packages; 'JBIFF' = GBIF.",
+        "timestamp": "00:04:14.720",
+        "video_link": "https://www.youtube.com/watch?v=sPsR0X69PsM&t=254s",
+        "source_file": "source/living-data-2025/data-package/part-2.srt",
+        "source_sha256": "8a8cefc650c9702f6972789572b18da3b30e70bad17f98644b4db01443c3c621",
+        "passage_start": "00:04:12.000",
+        "passage_end": "00:05:12.479",
+        "passage": "recognize the complete significance of is for the first time an attempt to make a conceptual model a semantic layer for Darwin core. So that's this document called the conceptual model. Uh, another part of the standard are the terms that I talked about and in this review we'll have new terms that are needed in order to support the use cases that are covered by the Darwin core data package and we'll have changes proposed to some existing terms to make things more clear based on the semantics that we're trying to implement here and uh and the structure that we're we're adding. Hold on there. So this slide adds a document, a",
+        "caption_cues": [
+          {
+            "start": "00:04:12.000",
+            "end": "00:04:14.720",
+            "text": "recognize the complete significance of"
+          },
+          {
+            "start": "00:04:14.720",
+            "end": "00:04:18.079",
+            "text": "is for the first time an attempt to make"
+          },
+          {
+            "start": "00:04:18.079",
+            "end": "00:04:21.600",
+            "text": "a conceptual model a semantic layer for"
+          },
+          {
+            "start": "00:04:21.600",
+            "end": "00:04:24.320",
+            "text": "Darwin core. So that's this document"
+          },
+          {
+            "start": "00:04:24.320",
+            "end": "00:04:27.600",
+            "text": "called the conceptual model."
+          },
+          {
+            "start": "00:04:27.600",
+            "end": "00:04:30.320",
+            "text": "Uh, another part of the standard are the"
+          },
+          {
+            "start": "00:04:30.320",
+            "end": "00:04:33.360",
+            "text": "terms that I talked about and in this"
+          },
+          {
+            "start": "00:04:33.360",
+            "end": "00:04:35.680",
+            "text": "review we'll have new terms that are"
+          },
+          {
+            "start": "00:04:35.680",
+            "end": "00:04:38.639",
+            "text": "needed in order to support the use cases"
+          },
+          {
+            "start": "00:04:38.639",
+            "end": "00:04:41.120",
+            "text": "that are covered by the Darwin core data"
+          },
+          {
+            "start": "00:04:41.120",
+            "end": "00:04:43.919",
+            "text": "package and we'll have changes proposed"
+          },
+          {
+            "start": "00:04:43.919",
+            "end": "00:04:46.000",
+            "text": "to some existing terms to make things"
+          },
+          {
+            "start": "00:04:46.000",
+            "end": "00:04:48.800",
+            "text": "more clear based on the semantics that"
+          },
+          {
+            "start": "00:04:48.800",
+            "end": "00:04:52.960",
+            "text": "we're trying to implement here and uh"
+          },
+          {
+            "start": "00:04:52.960",
+            "end": "00:04:54.560",
+            "text": "and the structure that we're we're"
+          },
+          {
+            "start": "00:04:54.560",
+            "end": "00:04:57.560",
+            "text": "adding."
+          },
+          {
+            "start": "00:05:01.600",
+            "end": "00:05:04.840",
+            "text": "Hold on"
+          },
+          {
+            "start": "00:05:07.039",
+            "end": "00:05:12.479",
+            "text": "there. So this slide adds a document, a"
+          }
+        ]
+      },
+      "evidence_2026": {
+        "item_id": "sala-2026-09-24-13",
+        "title": "From Specimens to Networks: Darwin Core Data Packages in Practice",
+        "year": 2026,
+        "speakers": [
+          {
+            "name": "John Wieczorek",
+            "affiliation": ""
+          }
+        ],
+        "speaker_notes": "Introduced as 'John Maschke' (ASR error for John Wieczorek); content matches the abstract. He said he was listed as virtual but presented in person.",
+        "timestamp": "06:36:53",
+        "video_link": "https://vimeo.com/1230142990/f375daa720#t=23813s",
+        "source_file": "source/TDWG 2026-09-24 SAL A.srt",
+        "source_sha256": "6ecedf03fbc6b310d3fc572dff42bc2771e8e7c6fcbd4d5c4d477889b39feeb8",
+        "passage_start": "06:36:49.970",
+        "passage_end": "06:38:02.490",
+        "passage": "that the data package and the conceptual model allow you. Here, I'm switching to just quickly introduce in three slides a tool that will help you to understand and play with the Darwin Core data package in function of what it is that you think you have. So I've got some check marks over there about three tables that I know I'm going to need. I know I'm going to need an event, an identification, and material. I actually chose some more of these, and then I have the option to look at that in a network model. So this is some other slide that I gave you earlier, given to you, built for you through this tool, the Darwin Core Data Package Designer, and it shows all the relationships, and things are clickable. You can find definitions. You can understand what evidence for means. It's defined, et cetera, in this tool. And then finally, once you think you've got everything you need selected, then it can generate for you a data package .JSON file, which describes what you expect to be in your CSV tables when you build the package that you're going to send",
+        "caption_cues": [
+          {
+            "start": "06:36:49.970",
+            "end": "06:36:51.950",
+            "text": "that the data package and the conceptual model"
+          },
+          {
+            "start": "06:36:53.690",
+            "end": "06:36:57.470",
+            "text": "allow you. Here, I'm switching to just"
+          },
+          {
+            "start": "06:36:57.530",
+            "end": "06:37:01.410",
+            "text": "quickly introduce in three slides a tool that will help you to"
+          },
+          {
+            "start": "06:37:01.490",
+            "end": "06:37:03.190",
+            "text": "understand and play with"
+          },
+          {
+            "start": "06:37:03.990",
+            "end": "06:37:07.590",
+            "text": "the Darwin Core data package in function of what it is that"
+          },
+          {
+            "start": "06:37:08.110",
+            "end": "06:37:12.090",
+            "text": "you think you have. So I've got some check marks over there about"
+          },
+          {
+            "start": "06:37:12.150",
+            "end": "06:37:14.010",
+            "text": "three tables that I know I'm going to need."
+          },
+          {
+            "start": "06:37:14.090",
+            "end": "06:37:17.830",
+            "text": "I know I'm going to need an event, an identification, and material."
+          },
+          {
+            "start": "06:37:18.310",
+            "end": "06:37:21.950",
+            "text": "I actually chose some more of these, and then I have the"
+          },
+          {
+            "start": "06:37:22.050",
+            "end": "06:37:24.250",
+            "text": "option to look at that in"
+          },
+          {
+            "start": "06:37:25.490",
+            "end": "06:37:29.330",
+            "text": "a network model. So this is some"
+          },
+          {
+            "start": "06:37:29.410",
+            "end": "06:37:30.990",
+            "text": "other slide that I gave you earlier,"
+          },
+          {
+            "start": "06:37:31.890",
+            "end": "06:37:35.830",
+            "text": "given to you, built for you through this tool, the Darwin Core"
+          },
+          {
+            "start": "06:37:35.870",
+            "end": "06:37:39.670",
+            "text": "Data Package Designer, and it shows all the relationships, and"
+          },
+          {
+            "start": "06:37:39.750",
+            "end": "06:37:41.790",
+            "text": "things are clickable. You can find definitions."
+          },
+          {
+            "start": "06:37:42.110",
+            "end": "06:37:44.050",
+            "text": "You can understand what evidence for means."
+          },
+          {
+            "start": "06:37:44.090",
+            "end": "06:37:46.650",
+            "text": "It's defined, et cetera, in this tool."
+          },
+          {
+            "start": "06:37:47.250",
+            "end": "06:37:51.190",
+            "text": "And then finally, once you think you've got everything you need"
+          },
+          {
+            "start": "06:37:51.270",
+            "end": "06:37:54.630",
+            "text": "selected, then it can generate for you a data package"
+          },
+          {
+            "start": "06:37:54.650",
+            "end": "06:37:58.490",
+            "text": ".JSON file, which describes what you expect to be in"
+          },
+          {
+            "start": "06:37:58.550",
+            "end": "06:38:02.490",
+            "text": "your CSV tables when you build the package that you're going to send"
+          }
+        ]
+      }
+    }
+  ]
+}

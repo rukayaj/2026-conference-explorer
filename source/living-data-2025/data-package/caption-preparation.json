@@ -1,0 +1,18 @@
+[
+  {
+    "id": "livingdata-2025-data-package-part-1",
+    "source_sha256": "0f29e7cea5918e8e2b107892245f613bb2a3d925094ab92606e47e2f53fa1d4e",
+    "cue_count": 1812,
+    "word_count": 11695,
+    "first_cue_start": "00:09:26.959",
+    "last_cue_end": "01:32:16.960"
+  },
+  {
+    "id": "livingdata-2025-data-package-part-2",
+    "source_sha256": "50424de7deb97a8e13a8e2d42c4654433c5473233261d00214053400c1937216",
+    "cue_count": 1957,
+    "word_count": 12876,
+    "first_cue_start": "00:01:06.799",
+    "last_cue_end": "01:35:05.880"
+  }
+]
